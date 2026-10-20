@@ -1,0 +1,109 @@
+godot_sim 内镜相机参数
+========================
+
+来源：main.tscn（Camera3D 节点）、shaders/endoscope_lens.gdshader、scripts/endoscope_controller.gd
+单位：长度 mm；图像 1422 x 1066 像素
+注意：窗口拉伸模式为 expand，窗口尺寸改变时分辨率随之改变，内参需按实际尺寸重算。
+
+
+一、内参
+--------
+
+A. 原始渲染图（针孔，无畸变）
+   来源：fov = 90 度（垂直视场角），fy = 533 / tan(45度) = 533
+
+   K_raw = [[533.0,   0.0, 711.0],
+            [  0.0, 533.0, 533.0],
+            [  0.0,   0.0,   1.0]]
+
+   dist_raw = [0, 0, 0, 0, 0]
+
+   水平视场角 106.3 度，near = 0.01，far = 300
+
+
+B. 保存的截图 / 采集帧（OpenCV 模型近似）
+   保存的图像取自整个窗口，已叠加镜头着色器的桶形畸变、色差和暗角。
+   以下为拟合值：平均重投影误差 4.4 px，最大 11.7 px（在图像四角）。
+   误差来源：着色器的畸变是椭圆形的，OpenCV 径向模型无法精确表达。
+
+   K_img = [[668.49,   0.0, 711.0],
+            [  0.0, 659.57, 533.0],
+            [  0.0,   0.0,   1.0]]
+
+   dist_img = [k1, k2, p1, p2, k3] = [-0.13106, 0.04229, 0, 0, -0.00778]
+
+
+B'. 保存图的精确模型（与着色器完全一致，无拟合误差）
+   着色器参数：distortion = 0.122，chroma_aberration = 0.004
+              corner_factor = 1 + 2 * (0.122 + 0.004) = 1.252
+   以下为绿色通道的映射（红、蓝通道因色差略有不同）。
+
+   保存图像素 (x, y) -> 相机射线：
+       u = (x - 711) / 711
+       v = (y - 533) / 533
+       s = (1 + 0.122 * (u^2 + v^2)) / 1.252
+       射线方向（OpenCV 相机系）= [711 * u * s / 533,  533 * v * s / 533,  1]
+
+   图像中心附近等效焦距约 667 px；保存图视场角约 水平 100 度、垂直 84 度。
+
+
+二、外参
+--------
+
+C. 相机相对内镜本体（固定）
+   Camera3D 相对 Head 绕光轴滚转 157.5 度，无平移；Head 相对 Endoscope 为单位变换。
+
+   Godot 约定（x 右、y 上、看向 -z）：
+   T_body_cam = [[-0.92391, -0.38262, 0, 0],
+                 [ 0.38262, -0.92391, 0, 0],
+                 [ 0,        0,       1, 0],
+                 [ 0,        0,       0, 1]]
+
+   OpenCV 约定（x 右、y 下、看向 +z），即右乘 diag(1, -1, -1)：
+   R_body_cam_cv = [[-0.92391,  0.38262,  0],
+                    [ 0.38262,  0.92391,  0],
+                    [ 0,        0,       -1]]
+
+
+D. 相机在世界中的位姿（每帧不同）
+   来源：captures 下的位姿文件
+         - 岔道口快照：junction_poses.txt、各图片旁的 *_pose.txt
+         - 连续采集：groundtruth.txt（需打开 captures_enabled 采集后才有内容）
+   格式：TUM，每行 "名称或时间 tx ty tz qx qy qz qw"
+   含义：相机 -> 世界，Godot 约定，已包含 C 中的 157.5 度滚转
+   世界坐标即 Godot 场景坐标（kidney_tissue.obj 导入后的坐标系），
+   与 CT 等其他坐标系对齐需另做配准。
+
+   转为 OpenCV 外参（世界 -> 相机）：
+       R_wc  = quat2mat(qx, qy, qz, qw) * diag(1, -1, -1)
+       R     = R_wc^T
+       t     = -R * [tx, ty, tz]^T
+       x_cam = R * X_world + t
+
+   Python：
+       import numpy as np
+       from scipy.spatial.transform import Rotation
+
+       def tum_to_opencv_extrinsic(tx, ty, tz, qx, qy, qz, qw):
+           R_wc = Rotation.from_quat([qx, qy, qz, qw]).as_matrix() @ np.diag([1, -1, -1])
+           R = R_wc.T
+           t = -R @ np.array([tx, ty, tz])
+           return R, t
+
+   示例：captures/organ_3_kidney/lab_4/stone1/junction_0064mm/after_pose.txt
+       junction_0064mm_after -126.704346 15.083245 -101.927757 0.831374 0.456542 0.300867 0.099330
+
+       R = [[ 0.40210,  0.81888,  0.40957],
+            [-0.69934,  0.56341, -0.43988],
+            [-0.59096, -0.10956,  0.79923]]
+
+       t = [80.343, -141.944, 8.238]^T
+
+
+三、怎么选
+----------
+
+   处理现有截图，精度要求一般              内参 B    外参 D
+   处理现有截图，精度要求高（位姿估计等）  内参 B'   外参 D
+   直接使用 Godot 原始渲染（无着色器）     内参 A    外参 D
+   只需相机与内镜本体的关系                —        外参 C
