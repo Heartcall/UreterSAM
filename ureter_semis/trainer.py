@@ -53,6 +53,7 @@ def _reliable_mask(
     return pseudo.detach(), (confidence >= confidence_threshold) & low_entropy
 
 
+'''
 @torch.no_grad()
 def validate(models: tuple[nn.Module, nn.Module], loader: DataLoader, device: torch.device) -> dict[str, float]:
     for model in models:
@@ -69,7 +70,62 @@ def validate(models: tuple[nn.Module, nn.Module], loader: DataLoader, device: to
             totals[key] = totals.get(key, 0.0) + value
         count += 1
     return {key: value / max(count, 1) for key, value in totals.items()}
+    '''
 
+@torch.no_grad()
+def validate(models, loader, device):
+    for model in models:
+        model.eval()
+
+    confusion = torch.zeros(
+        (3, 3),
+        dtype=torch.long,
+        device=device
+    )
+
+    for batch in loader:
+        images = batch["image"].to(device)
+        targets = batch["mask"].to(device)
+
+        logits = (
+            models[0](images) + models[1](images)
+        ) / 2
+
+        predictions = logits.argmax(dim=1)
+
+        counts = torch.bincount(
+            (targets * 3 + predictions).reshape(-1),
+            minlength=9
+        ).reshape(3, 3)
+
+        confusion += counts
+
+    result = {}
+    dice_values = []
+    iou_values = []
+
+    for class_id, name in [(1, "stone"), (2, "fiber")]:
+        tp = confusion[class_id, class_id].item()
+        fp = confusion[:, class_id].sum().item() - tp
+        fn = confusion[class_id, :].sum().item() - tp
+
+        dice = 2 * tp / max(2 * tp + fp + fn, 1)
+        iou = tp / max(tp + fp + fn, 1)
+        precision = tp / max(tp + fp, 1)
+        recall = tp / max(tp + fn, 1)
+
+        result[f"{name}_dice"] = dice
+        result[f"{name}_iou"] = iou
+        result[f"{name}_precision"] = precision
+        result[f"{name}_recall"] = recall
+
+        dice_values.append(dice)
+        iou_values.append(iou)
+
+    result["mean_dice"] = sum(dice_values) / 2
+    result["mean_iou"] = sum(iou_values) / 2
+
+    return result
 
 def train_endosemis(
     manifest_path: str,

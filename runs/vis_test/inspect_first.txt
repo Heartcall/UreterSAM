@@ -1,0 +1,17 @@
+Worst 10 images that contain ground-truth fiber:
+394_jpg.rf.45ed60d933267bebcecf62587cba35f4.jpg  fiber_dice=0.0000
+228_jpg.rf.995aa84232e5e5f044e387f6883bc693.jpg  fiber_dice=0.5466
+241_jpg.rf.3679ad2abfcf9c1c268e5d062f40a286.jpg  fiber_dice=0.7603
+222_jpg.rf.87d250217272f5d9f5020dcd36a1f88d.jpg  fiber_dice=0.8120
+190_jpg.rf.ff092d8ad12eb2ed1c81847bfb760d4a.jpg  fiber_dice=0.8227
+379_jpg.rf.6b7adba61fc2bfc8f0b966f00ec3b2c4.jpg  fiber_dice=0.8247
+269_jpg.rf.98276c5a8596d3e96054c817d6f788bb.jpg  fiber_dice=0.8560
+466_jpg.rf.a14bced6b115b0ee2b6635929aa61ec4.jpg  fiber_dice=0.8961
+39_jpg.rf.ac4e1c65d6e6aff3eaf5330042874a47.jpg  fiber_dice=0.8980
+472_jpg.rf.69718da6feeaff97ddd9feffcd656e93.jpg  fiber_dice=0.9016
+
+False positives on images WITHOUT ground-truth fiber:
+399_jpg.rf.90959cff1e8050eb0bc4474a26828bf0.jpg  predicted_fiber_pixels=297
+419_jpg.rf.db0fb88905c6c4dc86b2dd62988bbda0.jpg  predicted_fiber_pixels=256
+356_jpg.rf.fe9a60fd68840dcb490eb02d467f21c7.jpg  predicted_fiber_pixels=102
+551_jpg.rf.b76a5c870fbbd0ff66516eaaa8bc51f7.jpg  predicted_fiber_pixels=15
