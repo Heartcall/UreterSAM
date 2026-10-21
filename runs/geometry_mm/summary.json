@@ -1,0 +1,12 @@
+{
+  "split": "test",
+  "images_processed": 58,
+  "masks_missing": 0,
+  "images_with_stone": 58,
+  "images_with_fiber": 29,
+  "stone_components_total": 85,
+  "images_with_2d_alignment_candidate": 25,
+  "fiber_diameter_mm_assumed": 0.4,
+  "note": "All pixel geometry uses prediction-mask resolution. Approximate mm measurements assume the stone and fiber are at similar depths. A 2-D ray candidate is NOT a validated physical laser impact.",
+  "missing_mask_names": []
+}
