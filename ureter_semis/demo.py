@@ -429,10 +429,24 @@ def _draw_measurements(
     for measurement in measurements:
         center = (int(round(measurement["center_x"] * sx)), int(round(measurement["center_y"] * sy)))
         cv2.circle(result, center, 5, (0, 255, 255), -1)
-        label = (
-            f"#{measurement['stone_id']} "
-            f"{measurement['width_mm']:.2f}x{measurement['length_mm']:.2f} mm"
-        )
+        #label = (
+        #    f"#{measurement['stone_id']} "
+        #    f"{measurement['width_mm']:.2f}x{measurement['length_mm']:.2f} mm"
+        #)
+        
+        if "width_mm" in measurement and "length_mm" in measurement:
+            label = (
+                f"#{measurement['stone_id']} "
+                f"{measurement['width_mm']:.2f}x"
+                f"{measurement['length_mm']:.2f} mm"
+            )
+        else:
+            label = (
+                f"#{measurement['stone_id']} "
+                f"{measurement['width_px']:.1f}x"
+                f"{measurement['length_px']:.1f} px"
+            )
+
         text_x = min(max(center[0] + 8, 5), max(5, width - 190))
         text_y = min(max(center[1] - 8, 18), height - 8)
         cv2.putText(result, label, (text_x, text_y), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 255), 1, cv2.LINE_AA)
@@ -537,8 +551,17 @@ def run_demo(
             fiber_geometry = _fiber_geometry(geometry_prediction == 2)
             fiber_ray = _fiber_ray(fiber_geometry["component"]) if fiber_geometry is not None else None
             components = _stone_components(geometry_prediction == 1)
-            target_id, _, _ = _laser_target(components, fiber_ray)
-            laser_hit_point = _laser_image_endpoint(fiber_ray, geometry_prediction.shape)
+            # target_id, _, _ = _laser_target(components, fiber_ray)
+            # laser_hit_point = _laser_image_endpoint(fiber_ray, geometry_prediction.shape)
+            target_id, target_point, ray_target = _laser_target(
+                components, fiber_ray
+            )
+
+            laser_hit_point = (
+                target_point
+                if ray_target is not None and ray_target.get("hit", False)
+            else None
+            )
             fiber_tip_to_laser_distance_mm = None
             if depth_estimator is not None:
                 rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -546,8 +569,32 @@ def run_demo(
                 measurements, laser_hit_point, fiber_ray, fiber_tip_to_laser_distance_mm = _estimate_stone_sizes(
                     geometry_prediction, depth, fiber_diameter_mm, fiber_protrusion_mm, depth_correction
                 )
-            elif target_id is not None:
-                measurements = [dict(_stone_measurement(components[target_id - 1]), stone_id=target_id)]
+                
+            # elif target_id is not None:
+            #    measurements = [dict(_stone_measurement(components[target_id - 1]), stone_id=target_id)]
+
+            # else:
+            #    measurements, laser_hit_point, fiber_ray, fiber_tip_to_laser_distance_mm = _estimate_stone_sizes(
+            #        geometry_prediction,
+            #        None,
+            #        fiber_diameter_mm,
+            #        fiber_protrusion_mm,
+            #        False,
+            #    )
+
+            elif (
+                target_id is not None
+                and ray_target is not None
+                and ray_target.get("hit", False)
+            ):
+                measurements = [
+                    dict(
+                    _stone_measurement(components[target_id - 1]),
+                    stone_id=target_id,
+                    ray_hit=True,
+                    )
+                ]
+            
             rendered = _draw_measurements(
                 rendered,
                 geometry_prediction.shape,

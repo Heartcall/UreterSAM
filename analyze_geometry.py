@@ -20,6 +20,17 @@ from ureter_semis.demo import (
     _stone_measurement,
 )
 
+"""
+可视化标记说明
+
+红色：结石分割区域和轮廓
+
+青色：光纤分割区域和轴线
+
+黄色：估计光纤末端及方向延长线
+
+绿色：二维方向与结石的候选相交位置
+"""
 
 STONE_COLOR = (40, 40, 235)   # BGR red
 FIBER_COLOR = (235, 210, 20)  # BGR cyan
