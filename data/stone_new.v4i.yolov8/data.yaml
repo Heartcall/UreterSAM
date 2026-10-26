@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', 'laser-fibre', 'laser_dot', 'stone-new']
+
+roboflow:
+  workspace: kidney-qzdpj
+  project: stone_new
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kidney-qzdpj/stone_new/dataset/4

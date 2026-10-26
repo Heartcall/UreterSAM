@@ -570,8 +570,8 @@ def run_demo(
                     geometry_prediction, depth, fiber_diameter_mm, fiber_protrusion_mm, depth_correction
                 )
                 
-            # elif target_id is not None:
-            #    measurements = [dict(_stone_measurement(components[target_id - 1]), stone_id=target_id)]
+            elif target_id is not None:
+                measurements = [dict(_stone_measurement(components[target_id - 1]), stone_id=target_id)]
 
             # else:
             #    measurements, laser_hit_point, fiber_ray, fiber_tip_to_laser_distance_mm = _estimate_stone_sizes(
@@ -582,18 +582,18 @@ def run_demo(
             #        False,
             #    )
 
-            elif (
-                target_id is not None
-                and ray_target is not None
-                and ray_target.get("hit", False)
-            ):
-                measurements = [
-                    dict(
-                    _stone_measurement(components[target_id - 1]),
-                    stone_id=target_id,
-                    ray_hit=True,
-                    )
-                ]
+            #elif (
+            #    target_id is not None
+            #    and ray_target is not None
+            #    and ray_target.get("hit", False)
+            #):
+            #    measurements = [
+            #        dict(
+            #        _stone_measurement(components[target_id - 1]),
+            #        stone_id=target_id,
+            #        ray_hit=True,
+            #        )
+            #    ]
             
             rendered = _draw_measurements(
                 rendered,
