@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "experiment_id": "A0_20261027",
+  "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+  "checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+  "checkpoint_epoch": 21,
+  "size": 256,
+  "classes": [
+    "background",
+    "stone",
+    "fiber"
+  ],
+  "device": "cuda:0",
+  "precision": "float32",
+  "temporal": false,
+  "camera_correction": false,
+  "coordinate_system": "raw_model_grid",
+  "preprocess": "OpenCV resize INTER_LINEAR BGR->RGB; ImageNet normalization",
+  "fusion": "arithmetic mean of two logits, softmax, argmax",
+  "seed": 42,
+  "probability_storage": "float16_after_fp32_argmax",
+  "inputs": [
+    {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\videos\\video_1.mp4",
+      "sha256": "e75681bbc0b2dc07b1773a939f7c32805a66b17089eb38f58efc6cb22d064331",
+      "video_id": "video_1",
+      "patient_id": null,
+      "source_group": null,
+      "role": "development_only",
+      "width": 400,
+      "height": 400,
+      "fps": 30.0,
+      "frames": 722
+    },
+    {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\videos\\video_2.mp4",
+      "sha256": "753bfce9185ceb0e77d60803a609abc85c9e6b0331abcc0981ccb746657b14d0",
+      "video_id": "video_2",
+      "patient_id": null,
+      "source_group": null,
+      "role": "development_only",
+      "width": 400,
+      "height": 400,
+      "fps": 30.082069744027823,
+      "frames": 1972
+    }
+  ],
+  "event_proposals_are_ground_truth": false,
+  "large_region_fraction": 0.25,
+  "large_region_threshold_role": "candidate_review_only_not_clinical_or_accuracy_threshold"
+}

@@ -9,6 +9,8 @@ import torch
 from PIL import Image, ImageEnhance, ImageFilter
 from torch.utils.data import Dataset
 
+from .labels import read_class_mask
+
 
 MEAN = np.asarray([0.485, 0.456, 0.406], dtype=np.float32)[:, None, None]
 STD = np.asarray([0.229, 0.224, 0.225], dtype=np.float32)[:, None, None]
@@ -58,7 +60,7 @@ class UreterDataset(Dataset):
             return {"weak": _tensor(weak), "strong": _tensor(_strong(weak.copy())), "name": str(image_path)}
 
         mask_path = self.root / sample["mask"]
-        mask = Image.open(mask_path).convert("L").resize(self.size, Image.Resampling.NEAREST)
+        mask = Image.fromarray(read_class_mask(mask_path)).resize(self.size, Image.Resampling.NEAREST)
         if self.mode == "train":
             image, mask = _geometric(image, mask)
         mask_tensor = torch.from_numpy(np.asarray(mask, dtype=np.int64).copy()).long()
@@ -69,7 +71,10 @@ def load_manifest(path: str | Path) -> tuple[Path, dict]:
     manifest_path = Path(path).expanduser().resolve()
     with manifest_path.open("r", encoding="utf-8") as handle:
         manifest = json.load(handle)
-    return Path(manifest["root"]).expanduser().resolve(), manifest
+    root = Path(manifest["root"]).expanduser()
+    if not root.is_absolute():
+        root = manifest_path.parent / root
+    return root.resolve(), manifest
 
 
 def prepare_roboflow(source: str | Path, output: str | Path, labeled_fraction: float = 0.2, seed: int = 42) -> Path:

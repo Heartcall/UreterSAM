@@ -1,0 +1,84 @@
+{
+  "video_id": "video_2",
+  "patient_id": null,
+  "source_group": null,
+  "role": "development_only",
+  "source": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\videos\\video_2.mp4",
+  "source_sha256": "753bfce9185ceb0e77d60803a609abc85c9e6b0331abcc0981ccb746657b14d0",
+  "fps": 30.082069744027823,
+  "clips": [
+    {
+      "start_frame": 248,
+      "end_frame_exclusive": 368,
+      "center_frame": 308,
+      "start_s": 8.244113590263693,
+      "end_s": 12.233200811359026,
+      "proposal_score": 0.3890838623046875,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 371,
+      "end_frame_exclusive": 491,
+      "center_frame": 431,
+      "start_s": 12.332927991886411,
+      "end_s": 16.322015212981746,
+      "proposal_score": 0.764068603515625,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 574,
+      "end_frame_exclusive": 694,
+      "center_frame": 634,
+      "start_s": 19.081133874239352,
+      "end_s": 23.070221095334688,
+      "proposal_score": 1.1377105712890625,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 919,
+      "end_frame_exclusive": 1039,
+      "center_frame": 979,
+      "start_s": 30.54975963488844,
+      "end_s": 34.53884685598378,
+      "proposal_score": 0.8519927978515625,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 1055,
+      "end_frame_exclusive": 1175,
+      "center_frame": 1115,
+      "start_s": 35.07072515212982,
+      "end_s": 39.05981237322516,
+      "proposal_score": 0.7954559326171875,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 1845,
+      "end_frame_exclusive": 1965,
+      "center_frame": 1905,
+      "start_s": 61.332216024340774,
+      "end_s": 65.32130324543611,
+      "proposal_score": 1.041656494140625,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    }
+  ],
+  "annotation_schema": "docs/evaluation/video_annotation_protocol.md"
+}

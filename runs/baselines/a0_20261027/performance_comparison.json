@@ -1,0 +1,35 @@
+{
+  "role": "offline_export_configuration_comparison_not_full_live_system",
+  "comparisons": [
+    {
+      "video_id": "video_1",
+      "frames": 722,
+      "mismatched_masks": 0,
+      "no_probability_export_latency_ms": {
+        "mean": 14.60623503933529,
+        "p50": 13.787449977826327,
+        "p95": 19.14903496217448,
+        "p99": 25.03225100866982,
+        "max": 42.965899978298694
+      },
+      "model_mean_ms": 7.885704847011416
+    },
+    {
+      "video_id": "video_2",
+      "frames": 1972,
+      "mismatched_masks": 0,
+      "no_probability_export_latency_ms": {
+        "mean": 14.047788792754037,
+        "p50": 13.485150004271418,
+        "p95": 16.921940018073652,
+        "p99": 20.807097001816146,
+        "max": 47.63619997538626
+      },
+      "model_mean_ms": 7.278042799942186
+    }
+  ],
+  "notes": [
+    "Both runs keep raw float32 predictions; no temporal or geometry/depth processing.",
+    "Full-probability compression is an offline audit mode, not real-time mode."
+  ]
+}

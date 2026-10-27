@@ -1,0 +1,12 @@
+{
+  "config_path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\baselines\\a0_20261027\\config.json",
+  "config_sha256": "d3230073c42f5cddaffa4352594b947c21808c5631e6b8640fab176bedca2abd",
+  "runner_sources": {
+    "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\tools\\evaluate_video.py": "614c034ba9c24ff495ba0ac6d10dfe8f29df9ff5bb064456939f16604c57b30f",
+    "ureter_semis\\inference.py": "87713a8c9502e20bac5a1536d3763021661e25793831925357f2de9f51970d30",
+    "ureter_semis\\video_metrics.py": "f857c980eab7e35710d8f7b81daafcdf8bac3bf7b9863ce4d927f3099ec5c5bb",
+    "ureter_semis\\model.py": "ad328052524f172010696428e0bf961b45e12ed294c80bdd86023ceee12fa488",
+    "ureter_semis\\data.py": "561964e6e97a275d4f14c9a27e2e657300b21efa1a9e8d2a1bd011ee3129a29e"
+  },
+  "probabilities_saved": false
+}

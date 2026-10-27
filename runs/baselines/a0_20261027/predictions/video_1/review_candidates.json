@@ -1,0 +1,60 @@
+{
+  "video_id": "video_1",
+  "patient_id": null,
+  "source_group": null,
+  "role": "development_only",
+  "source": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\videos\\video_1.mp4",
+  "source_sha256": "e75681bbc0b2dc07b1773a939f7c32805a66b17089eb38f58efc6cb22d064331",
+  "fps": 30.0,
+  "clips": [
+    {
+      "start_frame": 48,
+      "end_frame_exclusive": 168,
+      "center_frame": 108,
+      "start_s": 1.6,
+      "end_s": 5.6,
+      "proposal_score": 0.289825439453125,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 203,
+      "end_frame_exclusive": 323,
+      "center_frame": 263,
+      "start_s": 6.766666666666667,
+      "end_s": 10.766666666666667,
+      "proposal_score": 0.010711669921875,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 438,
+      "end_frame_exclusive": 558,
+      "center_frame": 498,
+      "start_s": 14.6,
+      "end_s": 18.6,
+      "proposal_score": 0.0226898193359375,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    },
+    {
+      "start_frame": 601,
+      "end_frame_exclusive": 721,
+      "center_frame": 661,
+      "start_s": 20.033333333333335,
+      "end_s": 24.033333333333335,
+      "proposal_score": 0.01043701171875,
+      "review_status": "pending",
+      "event_labels": [],
+      "ground_truth_available": false,
+      "reason": "prediction size/change diagnostic; NOT a verified failure"
+    }
+  ],
+  "annotation_schema": "docs/evaluation/video_annotation_protocol.md"
+}

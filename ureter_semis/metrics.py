@@ -11,6 +11,10 @@ def multiclass_metrics(prediction: torch.Tensor, target: torch.Tensor, classes: 
     """Aggregate per-pixel metrics for stone (1) and fiber (2)."""
     prediction = prediction.detach().long().flatten()
     target = target.detach().long().flatten()
+    valid = target != 255
+    prediction, target = prediction[valid], target[valid]
+    if torch.any((target < 0) | (target >= classes)):
+        raise ValueError("target contains unsupported class ids")
     confusion = torch.zeros((classes, classes), dtype=torch.long, device=prediction.device)
     confusion.index_put_((target, prediction), torch.ones_like(target), accumulate=True)
     result: dict[str, float] = {}

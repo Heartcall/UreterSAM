@@ -19,3 +19,13 @@
 
 # IDE
 /.idea/
+
+# Versioned local review data and experiment binary exports
+/datasets/ureter_semis_v2_review_*/
+/runs/baselines/**/*.npz
+/runs/baselines/**/*.png
+/runs/baselines/**/*.mp4
+/runs/baselines/**/*.zip
+/runs/baselines/**/*.jsonl
+/runs/review_sets/
+/runs/test_tmp/

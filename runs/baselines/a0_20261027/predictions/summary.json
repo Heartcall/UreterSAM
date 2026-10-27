@@ -1,0 +1,96 @@
+[
+  {
+    "video_id": "video_1",
+    "experiment_id": "A0_20261027",
+    "frames": 722,
+    "source_fps": 30.0,
+    "role": "development_only",
+    "ground_truth_available": false,
+    "accuracy_metrics": null,
+    "repeat_check_bitwise_equal": true,
+    "timing": {
+      "preprocess_ms": {
+        "mean": 0.8812667606875734,
+        "p50": 0.8629999938420951,
+        "p95": 1.0781550023239106
+      },
+      "model_ms": {
+        "mean": 7.058622990557511,
+        "p50": 6.904100009705871,
+        "p95": 8.165184952667914
+      },
+      "postprocess_ms": {
+        "mean": 0.2874501383769225,
+        "p50": 0.2738999901339412,
+        "p95": 0.37429999792948354
+      },
+      "processing_ms_including_exports": {
+        "mean": 23.101611910684554,
+        "p50": 13.518149964511395,
+        "p95": 15.545920000295151
+      },
+      "latency_ms_including_read_and_exports": {
+        "mean": 23.32094099570628,
+        "p50": 13.71970001491718,
+        "p95": 15.745210007298734
+      }
+    },
+    "wall_s_including_warmup_and_review_exports": 20.808577299991157,
+    "large_region_candidate_frames": 0,
+    "review_clips": 4,
+    "probabilities_saved": true,
+    "notes": [
+      "Candidate counts are NOT false-positive counts.",
+      "Label changes are NOT motion compensated and are diagnostic only.",
+      "FOV is estimated, not manually annotated.",
+      "Final partial probability-chunk flush and JSONL writes are excluded from per-frame latency; included in wall time."
+    ]
+  },
+  {
+    "video_id": "video_2",
+    "experiment_id": "A0_20261027",
+    "frames": 1972,
+    "source_fps": 30.082069744027823,
+    "role": "development_only",
+    "ground_truth_available": false,
+    "accuracy_metrics": null,
+    "repeat_check_bitwise_equal": true,
+    "timing": {
+      "preprocess_ms": {
+        "mean": 0.9361738841151857,
+        "p50": 0.8956999809015542,
+        "p95": 1.3551949901739129
+      },
+      "model_ms": {
+        "mean": 7.354275608408353,
+        "p50": 7.00134999351576,
+        "p95": 9.347974997945126
+      },
+      "postprocess_ms": {
+        "mean": 0.3007779411006243,
+        "p50": 0.2799500070977956,
+        "p95": 0.43814501841552556
+      },
+      "processing_ms_including_exports": {
+        "mean": 24.310982099522434,
+        "p50": 14.13375002448447,
+        "p95": 18.65750499418936
+      },
+      "latency_ms_including_read_and_exports": {
+        "mean": 24.536364096744386,
+        "p50": 14.343450020533055,
+        "p95": 18.9091149775777
+      }
+    },
+    "wall_s_including_warmup_and_review_exports": 55.005755999998655,
+    "large_region_candidate_frames": 182,
+    "review_clips": 6,
+    "probabilities_saved": true,
+    "notes": [
+      "Candidate counts are NOT false-positive counts.",
+      "Label changes are NOT motion compensated and are diagnostic only.",
+      "FOV is estimated, not manually annotated.",
+      "Final partial probability-chunk flush and JSONL writes are excluded from per-frame latency; included in wall time."
+    ]
+  }
+]

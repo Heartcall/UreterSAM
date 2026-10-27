@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "annotation_source": "user_message_2026-10-27",
+  "frame_numbering": "one_based_inclusive_as_displayed_in_compare_video",
+  "pixel_ground_truth_available": false,
+  "cases": [
+    {
+      "video_id": "video_1",
+      "patient_id": "case_video_1",
+      "case_identity_evidence": "User confirmed video_1 and video_2 are different cases",
+      "independence_from_training_data": "unverified",
+      "reference_video": "runs/video_test/compare_1.mp4",
+      "events": [
+        {"start_frame": 33, "end_frame": 37, "labels": ["wall_false_positive", "flicker"]},
+        {"start_frame": 54, "end_frame": 72, "labels": ["wall_false_positive", "flicker"]},
+        {"start_frame": 77, "end_frame": 78, "labels": ["wall_false_positive", "flicker"]},
+        {"start_frame": 80, "end_frame": 113, "labels": ["wall_false_positive", "flicker"]},
+        {"start_frame": 330, "end_frame": 722, "labels": ["fiber_occlusion"]}
+      ]
+    },
+    {
+      "video_id": "video_2",
+      "patient_id": "case_video_2",
+      "case_identity_evidence": "User confirmed video_1 and video_2 are different cases",
+      "independence_from_training_data": "unverified",
+      "reference_video": "runs/video_test/compare_2.mp4",
+      "events": []
+    }
+  ]
+}

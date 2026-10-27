@@ -19,10 +19,10 @@ IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff"}
 
 def _target_class(name: str) -> int | None:
     normalized = name.replace("_", " ").replace("-", " ").strip().lower()
-    if normalized in {"stone", "kidney stone", "kidney stones"}:
+    if normalized in {"stone", "kidney stone", "kidney stones", "stone new"}:
         return 1
-    # MULTICLASS ADAPTATION: some exports call the same instrument laser.
-    if normalized in {"fiber", "laser fiber", "laser fibre", "fibre", "laser"}:
+    # A laser spot is not a physical fiber. Ambiguous source labels need review.
+    if normalized in {"fiber", "laser fiber", "laser fibre", "fibre"}:
         return 2
     return None
 
@@ -35,8 +35,13 @@ def _write_sample(image_path: Path, mask: np.ndarray, output: Path, split: str, 
     stem = f"{name_prefix}__{image_path.stem}" if name_prefix else image_path.stem
     destination_image = image_dir / f"{stem}{image_path.suffix.lower()}"
     destination_mask = mask_dir / f"{stem}.png"
+    if destination_image.exists() or destination_mask.exists():
+        raise FileExistsError(f"Duplicate output name requires review: {stem}")
     shutil.copy2(image_path, destination_image)
-    cv2.imwrite(str(destination_mask), mask)
+    ok, encoded = cv2.imencode(".png", mask)
+    if not ok:
+        raise RuntimeError(f"Cannot encode mask: {destination_mask}")
+    encoded.tofile(str(destination_mask))
     return {"image": destination_image.relative_to(output).as_posix(), "mask": destination_mask.relative_to(output).as_posix()}
 
 
@@ -50,7 +55,72 @@ def _fill_polygon(mask: np.ndarray, polygon: np.ndarray, target: int) -> None:
         mask[(polygon_mask == 1) & (mask == 0)] = 1
 
 
-def _convert_yolo(source: Path, output: Path) -> dict[str, list[dict]]:
+def read_yolo_sample(image_path: Path, label_path: Path, names: dict[int, str],
+                     mark_unknown: bool = False) -> tuple[np.ndarray, dict, dict[str, np.ndarray]]:
+    """Rasterize one export; preserve non-target polygons for data review.
+
+    No label file is UNKNOWN, not evidence of a target-free image. Review-mode
+    masks use 255 for missing labels and unsupported class regions.
+    """
+    image = cv2.imdecode(np.fromfile(str(image_path), dtype=np.uint8), cv2.IMREAD_COLOR)
+    if image is None:
+        raise ValueError(f"Unreadable image: {image_path}")
+    height, width = image.shape[:2]
+    mask = np.zeros((height, width), np.uint8)
+    auxiliary: dict[str, np.ndarray] = {}
+    counts: dict[str, int] = {}
+    flags = []
+    if not label_path.is_file():
+        flags.append("missing_label_file")
+        if mark_unknown:
+            mask[:] = 255
+    else:
+        for number, line in enumerate(label_path.read_text(encoding="utf-8").splitlines(), 1):
+            values = line.split()
+            if not values:
+                continue
+            if len(values) < 7 or (len(values)-1) % 2:
+                raise ValueError(f"Invalid polygon at {label_path}:{number}")
+            try:
+                class_id = int(values[0])
+                coordinates = np.asarray(values[1:], np.float32).reshape(-1, 2)
+            except ValueError as exc:
+                raise ValueError(f"Invalid numeric annotation at {label_path}:{number}") from exc
+            if class_id not in names or not np.isfinite(coordinates).all():
+                raise ValueError(f"Unknown class or nonfinite coordinates at {label_path}:{number}")
+            if coordinates.min() < -1e-4 or coordinates.max() > 1.0001:
+                raise ValueError(f"Out-of-range normalized polygon at {label_path}:{number}")
+            name = names[class_id]
+            counts[name] = counts.get(name, 0)+1
+            coordinates = np.clip(coordinates, 0, 1)*np.array([width, height], np.float32)
+            polygon = np.rint(coordinates).astype(np.int32)
+            target = _target_class(name)
+            if target is not None:
+                _fill_polygon(mask, polygon, target)
+            else:
+                normalized = name.replace("-", " ").replace("_", " ").strip().lower()
+                role = "laser_dot" if normalized in {"laser", "laser dot"} else "tissue" if normalized == "tissue" else "unknown"
+                layer = auxiliary.setdefault(role, np.zeros_like(mask))
+                cv2.fillPoly(layer, [polygon], color=1)
+                if role == "unknown":
+                    flags.append(f"unsupported_class:{name}")
+    has_stone = any(_target_class(name) == 1 for name in counts)
+    has_fiber = any(_target_class(name) == 2 for name in counts)
+    if not has_stone:
+        flags.append("no_stone_annotation_not_verified_negative")
+    if not has_fiber:
+        flags.append("fiber_absence_or_completeness_unverified")
+    if "laser_dot" in auxiliary and not has_fiber:
+        flags.append("laser_spot_without_fiber_annotation")
+    if mark_unknown and "unknown" in auxiliary:
+        mask[(auxiliary["unknown"] > 0) & (mask == 0)] = 255
+    return mask, {"width": width, "height": height, "label_file_present": label_path.is_file(),
+                  "annotation_counts": counts, "has_stone_annotation": has_stone,
+                  "has_fiber_annotation": has_fiber, "review_flags": sorted(set(flags))}, auxiliary
+
+
+def _convert_yolo(source: Path, output: Path, name_prefix: str = "",
+                  seen_hashes: set[str] | None = None) -> dict[str, list[dict]]:
     yaml_path = next(iter(source.glob("*.yaml")), None)
     if yaml_path is None:
         raise FileNotFoundError(f"YOLO export has no data YAML in {source}")
@@ -62,25 +132,19 @@ def _convert_yolo(source: Path, output: Path) -> dict[str, list[dict]]:
         if not image_dir.is_dir() or (source_split == "val" and records["val"]):
             continue
         for image_path in sorted(p for p in image_dir.iterdir() if p.suffix.lower() in IMAGE_SUFFIXES):
-            image = cv2.imread(str(image_path), cv2.IMREAD_COLOR)
-            if image is None:
-                continue
-            height, width = image.shape[:2]
-            mask = np.zeros((height, width), dtype=np.uint8)
+            if seen_hashes is not None:
+                digest = hashlib.sha256(image_path.read_bytes()).hexdigest()
+                if digest in seen_hashes:
+                    raise ValueError(f"Duplicate image needs annotation/split review: {image_path}")
+                seen_hashes.add(digest)
             label_path = label_dir / f"{image_path.stem}.txt"
-            if label_path.is_file():
-                for line in label_path.read_text(encoding="utf-8").splitlines():
-                    values = line.split()
-                    if len(values) < 7:
-                        continue
-                    target = _target_class(names.get(int(values[0]), ""))
-                    if target is None:
-                        continue
-                    coords = np.asarray([float(value) for value in values[1:]], dtype=np.float32).reshape(-1, 2)
-                    coords[:, 0] *= width
-                    coords[:, 1] *= height
-                    _fill_polygon(mask, np.rint(coords).astype(np.int32), target)
-            records[target_split].append(_write_sample(image_path, mask, output, target_split))
+            mask, metadata, _ = read_yolo_sample(image_path, label_path, names)
+            if not metadata["label_file_present"]:
+                raise ValueError(f"Missing label cannot be converted to background: {label_path}")
+            sample = _write_sample(image_path, mask, output, target_split, name_prefix)
+            sample["source_dataset"] = source.name
+            sample["source_split"] = source_split
+            records[target_split].append(sample)
     return records
 
 
@@ -148,6 +212,10 @@ def prepare_dataset(
     sources = [Path(source)] if isinstance(source, (str, Path)) else [Path(item) for item in source]
     sources = [item.expanduser().resolve() for item in sources]
     output = Path(output).expanduser().resolve()
+    if output.exists() and any(output.iterdir()):
+        raise FileExistsError(f"Use a new output directory; refusing to overwrite: {output}")
+    if not 0 < labeled_fraction < 1:
+        raise ValueError("labeled_fraction must be strictly between 0 and 1")
     if not sources:
         raise ValueError("at least one source directory is required")
     if format == "auto":
@@ -155,13 +223,11 @@ def prepare_dataset(
         if len(set(detected)) != 1:
             raise ValueError("all source directories must use the same annotation format")
         format = detected[0]
-    if len(sources) > 1 and format != "coco":
-        raise ValueError("multi-source preparation currently supports COCO exports only")
     records: dict[str, list[dict]] = {"train": [], "val": [], "test": []}
     seen_hashes: set[str] = set()
     for source_item in sources:
         name_prefix = re.sub(r"[^A-Za-z0-9_-]+", "_", source_item.name).strip("_")
-        converted = _convert_yolo(source_item, output) if format == "yolo" else _convert_coco(source_item, output, name_prefix, seen_hashes) if format == "coco" else None
+        converted = _convert_yolo(source_item, output, name_prefix, seen_hashes) if format == "yolo" else _convert_coco(source_item, output, name_prefix, seen_hashes) if format == "coco" else None
         if converted is None:
             raise ValueError("format must be auto, yolo, or coco")
         for split in records:
@@ -173,6 +239,8 @@ def prepare_dataset(
     labeled_count = max(1, round(len(train_records) * labeled_fraction))
     manifest = {
         "root": str(output),
+        "training_ready": False,
+        "training_blockers": ["New conversions require annotation and split review; use the review-dataset workflow."],
         "classes": {"0": "background", "1": "stone", "2": "fiber"},
         "train": {"labeled": train_records[:labeled_count], "unlabeled": train_records[labeled_count:] or train_records[:labeled_count]},
         "val": records["val"],
@@ -185,7 +253,7 @@ def prepare_dataset(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Convert YOLO/COCO polygons to 0/1/2 semantic PNG masks")
-    parser.add_argument("--source", required=True)
+    parser.add_argument("--source", required=True, nargs="+")
     parser.add_argument("--output", required=True)
     parser.add_argument("--format", choices=("auto", "yolo", "coco"), default="auto")
     parser.add_argument("--labeled-fraction", type=float, default=0.2)

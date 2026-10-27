@@ -16,6 +16,10 @@ def build_parser() -> argparse.ArgumentParser:
     prepare.add_argument("--labeled-fraction", type=float, default=0.2)
     prepare.add_argument("--seed", type=int, default=42)
 
+    review = commands.add_parser("prepare-review", help="build a source-audited, review-gated dataset draft")
+    review.add_argument("--config", default="configs/dataset_sources_v2.json")
+    review.add_argument("--output", required=True, help="a new directory; existing outputs are never replaced")
+
     train = commands.add_parser("train", help="train the two-model Endo-SemiS adaptation")
     train.add_argument("--manifest", required=True)
     train.add_argument("--output", default="runs/endosemis")
@@ -59,7 +63,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> None:
     args = build_parser().parse_args()
-    if args.command == "prepare":
+    if args.command == "prepare-review":
+        from tools.prepare_review_dataset import build_review_dataset
+
+        manifest = build_review_dataset(args.config, args.output)
+        print(f"Review draft (not ready for training): {manifest}")
+    elif args.command == "prepare":
         from tools.convert_dataset import prepare_dataset
 
         manifest = prepare_dataset(args.source, args.output, args.format, args.labeled_fraction, args.seed)

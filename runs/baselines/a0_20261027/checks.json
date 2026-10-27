@@ -1,0 +1,36 @@
+{
+  "recorded_utc": "2026-10-27T03:24:24.766510+00:00",
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 21,
+    "failed": 0
+  },
+  "syntax_checked_files": 22,
+  "regression_masks_identical": 2694,
+  "source_hashes_at_final_check": {
+    "ureter_semis\\data.py": "561964e6e97a275d4f14c9a27e2e657300b21efa1a9e8d2a1bd011ee3129a29e",
+    "ureter_semis\\demo.py": "72cb2437d1159a3b03b3ea250d81a534132bad48d266358b7b66c4c16d950cc2",
+    "ureter_semis\\depth_anything_v2_infer.py": "0996260bc9fa4a48571318d2813c561928014235fa122576cff041dbb26791a9",
+    "ureter_semis\\inference.py": "87713a8c9502e20bac5a1536d3763021661e25793831925357f2de9f51970d30",
+    "ureter_semis\\labels.py": "2fc8c81db03d2060b031d39fb0e5311615d5b51d519a6c597ef0e3c19f229bbb",
+    "ureter_semis\\losses.py": "22097ab4bd0e3d19eb29f4d248c38139149905e5f637dc33f0673e35d36c839b",
+    "ureter_semis\\metrics.py": "cfa9a3f363312e1c1acf45264095fc27c30c4dbafa13b520f2e0671928fcafc5",
+    "ureter_semis\\model.py": "ad328052524f172010696428e0bf961b45e12ed294c80bdd86023ceee12fa488",
+    "ureter_semis\\trainer.py": "f3e8a9420be27bf66152e9bedd02357c76fd92cf00af8f325b31374c86225977",
+    "ureter_semis\\video_metrics.py": "f857c980eab7e35710d8f7b81daafcdf8bac3bf7b9863ce4d927f3099ec5c5bb",
+    "ureter_semis\\__init__.py": "e1c8923f1b3aacec08d84476b241ff1ca7f7541985bc9161a7d311f88c8b8a39",
+    "tools\\build_video_review_set.py": "e476bafa53b9abea3aba0dba63ece1a6a3442bf94c11cfd207a12904317a7ee7",
+    "tools\\convert_dataset.py": "57d28a9dbce939feab1bb4fa8abf1e5e0697205a0d6ed66c9b82e6523cf51af5",
+    "tools\\create_technical_doc.py": "5746e1c6b1325c2dccb4ce0891b0d3c55c97f409cbbc06d1d2908ba7ee8b925b",
+    "tools\\evaluate_video.py": "614c034ba9c24ff495ba0ac6d10dfe8f29df9ff5bb064456939f16604c57b30f",
+    "tools\\evaluate_video_annotations.py": "92558507d5308702b9c281cc932d690feb1035af103f5b93e2e8cdac5e51f298",
+    "tools\\prepare_review_dataset.py": "2d36e4c509a395b038447fdffb6f1826151da23ba4b4dbefe6c671752a88cd11",
+    "tools\\promote_review_dataset.py": "6003b1a5978a04c20033ee4af4f2c9b07e9a2e844c6720a1c9a07d992d8d1813",
+    "tools\\__init__.py": "a079d7dd064741c986b3f63b04b428bd381764d7118a81703348f5917f67adc8",
+    "tests\\test_baseline_and_losses.py": "36059f2c8fb0f4a08d132369e3fd5462b6696bb7bd118774166a13aaea62b036",
+    "tests\\test_data_review.py": "c9e38685049b964dbf0e8f82035f701c19b021634f0a2310852bb615e16e8f5c",
+    "main.py": "b98c1cdb1b92a423daf43a1df8adf0deac12e8569338d05aa84ca6104de16b4a"
+  },
+  "native_resolution_model_seeds_validated": 29,
+  "pixel_ground_truth_frames_approved": 0
+}

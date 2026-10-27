@@ -11,13 +11,21 @@ def multiclass_dice_loss(
     class_weights: torch.Tensor | None = None,
     ignore_background: bool = False,
     smooth: float = 1e-6,
+    ignore_index: int = 255,
 ) -> torch.Tensor:
     """Soft multiclass Dice loss for logits [B,C,H,W] and target [B,H,W]."""
     if target.ndim != 3 or target.dtype != torch.long:
         raise ValueError("target must have shape [B,H,W] and dtype torch.long")
-    probability = torch.softmax(logits, dim=1)
-    one_hot = F.one_hot(target.clamp(0, classes - 1), num_classes=classes)
+    valid = target != ignore_index
+    if torch.any(valid & ((target < 0) | (target >= classes))):
+        raise ValueError("target contains unsupported class ids")
+    if not valid.any():
+        return logits.sum() * 0.0
+    probability = torch.softmax(logits, dim=1) * valid.unsqueeze(1)
+    safe_target = torch.where(valid, target, 0)
+    one_hot = F.one_hot(safe_target, num_classes=classes)
     one_hot = one_hot.permute(0, 3, 1, 2).to(dtype=probability.dtype)
+    one_hot = one_hot * valid.unsqueeze(1)
     reduce_dims = (0, 2, 3)
     intersection = (probability * one_hot).sum(dim=reduce_dims)
     denominator = probability.sum(dim=reduce_dims) + one_hot.sum(dim=reduce_dims)
@@ -37,7 +45,9 @@ def supervised_multiclass_loss(
     dice_weight: float = 1.0,
 ) -> torch.Tensor:
     """Weighted CE plus foreground multiclass Dice."""
-    ce = F.cross_entropy(logits, target, weight=class_weights)
+    if not (target != 255).any():
+        return logits.sum() * 0.0
+    ce = F.cross_entropy(logits, target, weight=class_weights, ignore_index=255)
     dice = multiclass_dice_loss(logits, target, classes=logits.shape[1], class_weights=class_weights, ignore_background=True)
     return ce + dice_weight * dice
 

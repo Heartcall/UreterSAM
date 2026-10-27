@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "evidence": "user_reply_2026-10-27",
+  "stone_new_source_video_prefix_verified": false,
+  "stone_new_patient_video_correspondence": "unknown_keep_pending",
+  "video_1_video_2_are_distinct_cases": true,
+  "existing_video_pixel_annotations_available": false,
+  "existing_video_instance_annotations_available": false,
+  "keyframe_review_template": "runs/review_sets/user_events_20261027_v2/pixel_review.template.json",
+  "keyframe_count": 29,
+  "model_masks_are_ground_truth": false,
+  "training_stage_s2_started": false,
+  "remaining_prerequisites": [
+    "Review annotation completeness and real stone-negative candidates",
+    "Verify training-source video/case grouping",
+    "Create reviewed visible pixel masks and instance/event references"
+  ]
+}

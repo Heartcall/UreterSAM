@@ -82,6 +82,7 @@ def validate(models, loader, device):
         dtype=torch.long,
         device=device
     )
+    valid_pixels = 0
 
     for batch in loader:
         images = batch["image"].to(device)
@@ -93,13 +94,17 @@ def validate(models, loader, device):
 
         predictions = logits.argmax(dim=1)
 
+        valid = targets != 255
+        valid_pixels += int(valid.sum().item())
         counts = torch.bincount(
-            (targets * 3 + predictions).reshape(-1),
+            (targets[valid] * 3 + predictions[valid]).reshape(-1),
             minlength=9
         ).reshape(3, 3)
 
         confusion += counts
 
+    if not valid_pixels:
+        raise ValueError("Validation contains no labelled pixels")
     result = {}
     dice_values = []
     iou_values = []
@@ -143,6 +148,10 @@ def train_endosemis(
     dice_weight: float = 1.0,
 ) -> Path:
     root, manifest = load_manifest(manifest_path)
+    if manifest.get("training_ready") is False:
+        raise ValueError("Dataset is an unreviewed draft. Review annotations and verified video/case groups, "
+                         "then use tools.promote_review_dataset before training. "
+                         + "; ".join(manifest.get("training_blockers", [])))
     device = torch.device(device_name if torch.cuda.is_available() else "cpu")
     labeled = UreterDataset(root, manifest["train"]["labeled"], size, "train")
     unlabeled = UreterDataset(root, manifest["train"]["unlabeled"], size, "unlabeled")
