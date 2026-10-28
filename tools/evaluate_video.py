@@ -14,6 +14,7 @@ import numpy as np
 
 from ureter_semis.inference import SegmentationPredictor, file_sha256
 from ureter_semis.video_metrics import estimated_fov, prediction_diagnostics
+from .video_frames import read_forward
 
 
 def save_png(path: Path, array: np.ndarray) -> None:
@@ -142,23 +143,22 @@ def run_video(predictor: SegmentationPredictor, item: dict, output: Path,
     review = {"video_id": item["video_id"], "patient_id": item.get("patient_id"),
               "source_group": item.get("source_group"), "role": "development_only",
               "source": str(source), "source_sha256": item["sha256"], "fps": fps,
+              "frame_decoding": "sequential_from_frame_zero_no_random_seek",
               "clips": clips, "annotation_schema": "docs/evaluation/video_annotation_protocol.md"}
     (output / "review_candidates.json").write_text(json.dumps(review, indent=2), encoding="utf-8")
     cap = cv2.VideoCapture(str(source))
+    next_index = 0
     try:
         for ci, clip in enumerate(clips):
             clip_dir = output / "review_clips"
             clip_dir.mkdir(exist_ok=True)
-            cap.set(cv2.CAP_PROP_POS_FRAMES, clip["start_frame"])
             clip_writer = cv2.VideoWriter(str(clip_dir / f"clip_{ci:02d}.mp4"),
                                           cv2.VideoWriter_fourcc(*"mp4v"), fps, (width*2, height))
             if not clip_writer.isOpened():
                 raise RuntimeError("Cannot create review clip")
             try:
                 for idx in range(clip["start_frame"], clip["end_frame_exclusive"]):
-                    ok, frame = cap.read()
-                    if not ok:
-                        raise RuntimeError("Unexpected end of video during clip export")
+                    frame, next_index = read_forward(cap, next_index, idx)
                     mask = cv2.imread(str(masks / f"{idx:06d}.png"), cv2.IMREAD_GRAYSCALE)
                     canvas = render(frame, mask, idx)
                     clip_writer.write(canvas)

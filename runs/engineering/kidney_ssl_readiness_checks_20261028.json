@@ -1,0 +1,24 @@
+{
+  "checks": {
+    "completed190_train800_reserve_no_updates": true,
+    "all1238_input_files_unchanged": true,
+    "source_config_and_teacher_bytes_unchanged": true,
+    "reserve_actual_bytes_disjoint_from_labeled_and_validation": true,
+    "stone_new_actual_hashes_excluded": true,
+    "active_training_manifest_and_pool_not_promoted": true,
+    "no_validation_pseudo_records": true,
+    "reserve_label_statistics_undefined": true,
+    "histograms_cover_all_pixels": true,
+    "strict_mask_files_reproduce_counts": true,
+    "consensus_filters_are_nested": true,
+    "frozen_primary_gate_failed_only_fiber_precision": true,
+    "paired_protocol_deferred_without_training_launch": true,
+    "source_review_status_retained": true,
+    "a0_still_unchanged": true
+  },
+  "all_passed": true,
+  "active_files": 438,
+  "reserve_image_files": 800,
+  "reserve_unique_sha256": 800,
+  "scope": "Read-only experiment verification, not calibration or clinical validity"
+}

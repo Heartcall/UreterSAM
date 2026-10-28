@@ -1,0 +1,61 @@
+Traceback (most recent call last):
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\torch\serialization.py", line 118, in mkdtemp
+    yield path
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\torch\serialization.py", line 1713, in legacy_load
+    tar.extract("storages", path=tmpdir)
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\tarfile.py", line 2412, in extract
+    self._extract_one(tarinfo, path, set_attrs, numeric_owner,
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\tarfile.py", line 2461, in _extract_one
+    self._handle_fatal_error(e)
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\tarfile.py", line 2455, in _extract_one
+    self._extract_member(tarinfo, os.path.join(path, tarinfo.name),
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\tarfile.py", line 2544, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\tarfile.py", line 2593, in makefile
+    with bltn_open(targetpath, "wb") as target:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\1\\AppData\\Local\\Packages\\sandbox.{1f0858b8-2905-4930-8cd8-9e67db6806a1}\\AC\\Temp\\tmpblxjqd96\\storages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Study\Wang Shuangyi\Wu Yuanzhao\UreterSAM\tools\run_supervised_joint_screen.py", line 62, in main
+    train_supervised(manifest_path=str(manifest_path),output_dir=str(out/'training'),gates=gates,**config['training'])
+  File "E:\Study\Wang Shuangyi\Wu Yuanzhao\UreterSAM\ureter_semis\supervised_trainer.py", line 149, in train_supervised
+    model = build_model(pretrained=pretrained and previous is None, **model_args).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Study\Wang Shuangyi\Wu Yuanzhao\UreterSAM\ureter_semis\model.py", line 30, in build_model
+    model = Unet(
+            ^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\segmentation_models_pytorch\base\hub_mixin.py", line 147, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Study\Wang Shuangyi\Wu Yuanzhao\UreterSAM\third_party\Endo-SemiS\src\models\unet.py", line 32, in __init__
+    self.encoder = get_encoder(
+                   ^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\segmentation_models_pytorch\encoders\__init__.py", line 86, in get_encoder
+    encoder.load_state_dict(model_zoo.load_url(settings["url"]))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\torch\hub.py", line 898, in load_state_dict_from_url
+    return torch.load(cached_file, map_location=map_location, weights_only=weights_only)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\torch\serialization.py", line 1603, in load
+    return _legacy_load(
+           ^^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\torch\serialization.py", line 1845, in _legacy_load
+    return legacy_load(f)
+           ^^^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\torch\serialization.py", line 1702, in legacy_load
+    with (
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\site-packages\torch\serialization.py", line 120, in mkdtemp
+    shutil.rmtree(path)
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\shutil.py", line 787, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\shutil.py", line 638, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\shutil.py", line 636, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] 拒绝访问。: 'C:\\Users\\1\\AppData\\Local\\Packages\\sandbox.{1f0858b8-2905-4930-8cd8-9e67db6806a1}\\AC\\Temp\\tmpblxjqd96'

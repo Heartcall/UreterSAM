@@ -1,0 +1,20 @@
+{
+  "single15_seed42": {
+    "train_validation_checkpoint_wall_s": 60.87546949996613,
+    "cuda_peak_allocated_mib": 474.80859375,
+    "optimizer_updates": 1425,
+    "training_image_exposures": 2850
+  },
+  "single15_seed123": {
+    "train_validation_checkpoint_wall_s": 58.828167899977416,
+    "cuda_peak_allocated_mib": 474.80859375,
+    "optimizer_updates": 1425,
+    "training_image_exposures": 2850
+  },
+  "single30_seed42": {
+    "train_validation_checkpoint_wall_s": 117.288585399976,
+    "cuda_peak_allocated_mib": 474.80859375,
+    "optimizer_updates": 2850,
+    "training_image_exposures": 5700
+  }
+}

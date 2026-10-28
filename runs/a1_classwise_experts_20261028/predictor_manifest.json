@@ -1,0 +1,24 @@
+{
+  "type": "classwise_expert_inference_control",
+  "checkpoints": {
+    "A0": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+      "sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7"
+    },
+    "old190": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_resolution_20261028\\unet256\\last.pt",
+      "sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3"
+    },
+    "joint521": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_joint_20261028\\training\\last.pt",
+      "sha256": "b950d2e8f407fa58d74ecd44f940e9722a2a7856a1d65b8bd49b04e16b7b971f"
+    }
+  },
+  "rule": "Map each expert softmax probabilities back to native grid before argmax. Output fiber wherever A0 predicts fiber; elsewhere output stone wherever old190 predicts stone; remaining pixels background. No threshold search, GT prompts, morphology or temporal smoothing",
+  "model_count": 3,
+  "parameter_count": 73804185,
+  "default_model_changed": false,
+  "implementation": "tools/classwise_experts.py",
+  "role": "development_control_not_deployed",
+  "uncertainty": "Separate expert probability maps; no calibrated fused class probabilities"
+}

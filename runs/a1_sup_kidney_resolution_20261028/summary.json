@@ -1,0 +1,437 @@
+{
+  "protocol": {
+    "input": "PIL RGB bilinear resize to checkpoint input size, original ImageNet normalization",
+    "prediction": "mean logits then softmax on model grid; FP32 bilinear probabilities to untouched native mask shape, align_corners=false; argmax after resize",
+    "ground_truth": "Unchanged original pixel indices including255; no GT resizing or morphology",
+    "reference": "Re-evaluate original A0 with this exact native protocol before training and freeze gates: stone Dice>=A0, fiber Dice>=A0-0.01, negative FP area<=A0",
+    "primary_selection": "Fixed final epoch15 on native grid; per-epoch native gates used for diagnostic selection and existing collapse stop; do not compare old model-grid numbers",
+    "boundary_tolerance_native_pixels": 3,
+    "small_visible_stone_area_bins_native_pixels": [
+      0,
+      1024,
+      4096
+    ],
+    "small_target_scope": "Whole-frame visible stone area, not annotated instances; new native-grid bins, distinct from old<=128 model-grid group"
+  },
+  "native_gates": {
+    "stone_dice_min": 0.47401543332152984,
+    "fiber_dice_min": 0.9568022126134994,
+    "negative_fp_fraction_max": 0.07782222222222222
+  },
+  "models": [
+    {
+      "name": "A0",
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+      "checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+      "input_size": 256,
+      "metrics": {
+        "stone_dice": 0.47401543332152984,
+        "stone_iou": 0.310629244667457,
+        "stone_precision": 0.34858274334686046,
+        "stone_recall": 0.7404596039256922,
+        "stone_tp": 67601,
+        "stone_fp": 126330,
+        "stone_fn": 23695,
+        "fiber_dice": 0.9668022126134994,
+        "fiber_iou": 0.9357377884626037,
+        "fiber_precision": 0.9890338294359419,
+        "fiber_recall": 0.9455480736399613,
+        "fiber_tp": 168925,
+        "fiber_fp": 1873,
+        "fiber_fn": 9728,
+        "mean_dice": 0.7204088229675146,
+        "mean_iou": 0.6231835165650303,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            4229056,
+            126321,
+            1873
+          ],
+          [
+            23695,
+            67601,
+            0
+          ],
+          [
+            9719,
+            9,
+            168925
+          ]
+        ],
+        "valid_pixels": 4627199,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 6,
+        "stone_negative_fp_image_rate": 0.6666666666666666,
+        "stone_negative_valid_pixels": 1440000,
+        "stone_negative_fp_pixels": 112064,
+        "stone_negative_fp_pixel_fraction": 0.07782222222222222
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 12448,
+          "target_boundary": 9396,
+          "matched_predicted": 6027,
+          "matched_target": 6109,
+          "precision": 0.4841741645244216,
+          "recall": 0.6501702852277564,
+          "f_score": 0.5550265701348964
+        },
+        "2": {
+          "predicted_boundary": 9341,
+          "target_boundary": 9833,
+          "matched_predicted": 8797,
+          "matched_target": 8788,
+          "precision": 0.9417621239695964,
+          "recall": 0.8937252110241025,
+          "f_score": 0.9171150755797767
+        }
+      },
+      "visible_stone_area_groups": {
+        "(0,1024]": {
+          "frames": 3,
+          "target_pixels": 2423,
+          "tp": 2322,
+          "pixel_recall": 0.9583161370202229,
+          "frames_any_tp": 3
+        },
+        "(1024,4096]": {
+          "frames": 8,
+          "target_pixels": 14282,
+          "tp": 12123,
+          "pixel_recall": 0.8488306959809551,
+          "frames_any_tp": 7
+        },
+        "(4096,inf]": {
+          "frames": 9,
+          "target_pixels": 74591,
+          "tp": 53156,
+          "pixel_recall": 0.7126328913675912,
+          "frames_any_tp": 9
+        }
+      },
+      "screening": {
+        "passed": true,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": true,
+          "negative_fp_area": true
+        }
+      },
+      "performance": {
+        "checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+        "input_size": 256,
+        "model_count": 2,
+        "parameter_count": 49202790,
+        "cuda_peak_allocated_mib": 223.9208984375,
+        "warmup_frames": 12,
+        "samples": 87,
+        "scope": "Fresh process, batch1 cached native BGR via OpenCV to native probability maps/masks; excludes decode/display/geometry/memory; accuracy uses PIL separately",
+        "timings": {
+          "pipeline_ms": {
+            "mean": 11.188389653147295,
+            "p50": 10.71499998215586,
+            "p95": 14.280639949720355
+          },
+          "preprocess_ms": {
+            "mean": 0.9676724131722217,
+            "p50": 0.9485000045970082,
+            "p95": 1.1978899943642318
+          },
+          "model_ms": {
+            "mean": 8.829077007248998,
+            "p50": 8.47319990862161,
+            "p95": 11.1218600301072
+          },
+          "native_postprocess_ms": {
+            "mean": 1.3916402327260753,
+            "p50": 1.3237999519333243,
+            "p95": 1.688020082656294
+          }
+        },
+        "post_release_cuda_allocated_mib": 0.0
+      }
+    },
+    {
+      "name": "unet256",
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_resolution_20261028\\unet256\\last.pt",
+      "checkpoint_sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3",
+      "input_size": 256,
+      "metrics": {
+        "stone_dice": 0.810040106459961,
+        "stone_iou": 0.680728914358747,
+        "stone_precision": 0.9202312944127072,
+        "stone_recall": 0.7234161409043113,
+        "stone_tp": 66045,
+        "stone_fp": 5725,
+        "stone_fn": 25251,
+        "fiber_dice": 0.9038329411128243,
+        "fiber_iou": 0.8245394110186012,
+        "fiber_precision": 0.8745373932798358,
+        "fiber_recall": 0.9351592192686381,
+        "fiber_tp": 167069,
+        "fiber_fp": 23968,
+        "fiber_fn": 11584,
+        "mean_dice": 0.8569365237863926,
+        "mean_iou": 0.7526341626886741,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            4327788,
+            5544,
+            23918
+          ],
+          [
+            25201,
+            66045,
+            50
+          ],
+          [
+            11403,
+            181,
+            167069
+          ]
+        ],
+        "valid_pixels": 4627199,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 1,
+        "stone_negative_fp_image_rate": 0.1111111111111111,
+        "stone_negative_valid_pixels": 1440000,
+        "stone_negative_fp_pixels": 477,
+        "stone_negative_fp_pixel_fraction": 0.00033125
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 6583,
+          "target_boundary": 9396,
+          "matched_predicted": 4648,
+          "matched_target": 4450,
+          "precision": 0.7060610663831081,
+          "recall": 0.4736057896977437,
+          "f_score": 0.5669305824699449
+        },
+        "2": {
+          "predicted_boundary": 12032,
+          "target_boundary": 9833,
+          "matched_predicted": 7933,
+          "matched_target": 7468,
+          "precision": 0.6593251329787234,
+          "recall": 0.7594833723177057,
+          "f_score": 0.7058690070988553
+        }
+      },
+      "visible_stone_area_groups": {
+        "(0,1024]": {
+          "frames": 3,
+          "target_pixels": 2423,
+          "tp": 1798,
+          "pixel_recall": 0.7420553033429633,
+          "frames_any_tp": 2
+        },
+        "(1024,4096]": {
+          "frames": 8,
+          "target_pixels": 14282,
+          "tp": 10454,
+          "pixel_recall": 0.7319703122811931,
+          "frames_any_tp": 8
+        },
+        "(4096,inf]": {
+          "frames": 9,
+          "target_pixels": 74591,
+          "tp": 53793,
+          "pixel_recall": 0.7211727956455872,
+          "frames_any_tp": 9
+        }
+      },
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      },
+      "performance": {
+        "checkpoint_sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3",
+        "input_size": 256,
+        "model_count": 1,
+        "parameter_count": 24601395,
+        "cuda_peak_allocated_mib": 128.77294921875,
+        "warmup_frames": 12,
+        "samples": 87,
+        "scope": "Fresh process, batch1 cached native BGR via OpenCV to native probability maps/masks; excludes decode/display/geometry/memory; accuracy uses PIL separately",
+        "timings": {
+          "pipeline_ms": {
+            "mean": 6.455691959494832,
+            "p50": 6.37379998806864,
+            "p95": 7.382310053799301
+          },
+          "preprocess_ms": {
+            "mean": 0.8881011504101856,
+            "p50": 0.887200003489852,
+            "p95": 1.0442800354212523
+          },
+          "model_ms": {
+            "mean": 4.26279885250133,
+            "p50": 4.269499913789332,
+            "p95": 4.873959964606911
+          },
+          "native_postprocess_ms": {
+            "mean": 1.3047919565833164,
+            "p50": 1.2576000299304724,
+            "p95": 1.5934599796310067
+          }
+        },
+        "post_release_cuda_allocated_mib": 0.0
+      }
+    },
+    {
+      "name": "unet512",
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_resolution_20261028\\unet512\\last.pt",
+      "checkpoint_sha256": "10bbdfaa40d14f8b987337e026799c1ac8f467f7683fa94a9e1fc14b6a25e81c",
+      "input_size": 512,
+      "metrics": {
+        "stone_dice": 0.8408247599136851,
+        "stone_iou": 0.7253646651830445,
+        "stone_precision": 0.9513494072567816,
+        "stone_recall": 0.7533079214861549,
+        "stone_tp": 68774,
+        "stone_fp": 3517,
+        "stone_fn": 22522,
+        "fiber_dice": 0.873101323688476,
+        "fiber_iou": 0.7747824556385519,
+        "fiber_precision": 0.9781328555754621,
+        "fiber_recall": 0.7884390410460501,
+        "fiber_tp": 140857,
+        "fiber_fp": 3149,
+        "fiber_fn": 37796,
+        "mean_dice": 0.8569630418010805,
+        "mean_iou": 0.7500735604107982,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            4350596,
+            3505,
+            3149
+          ],
+          [
+            22522,
+            68774,
+            0
+          ],
+          [
+            37784,
+            12,
+            140857
+          ]
+        ],
+        "valid_pixels": 4627199,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": 0.0,
+        "stone_negative_valid_pixels": 1440000,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": 0.0
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 7057,
+          "target_boundary": 9396,
+          "matched_predicted": 5447,
+          "matched_target": 5410,
+          "precision": 0.771857729913561,
+          "recall": 0.575776926351639,
+          "f_score": 0.659552452505239
+        },
+        "2": {
+          "predicted_boundary": 9945,
+          "target_boundary": 9833,
+          "matched_predicted": 6165,
+          "matched_target": 6002,
+          "precision": 0.6199095022624435,
+          "recall": 0.6103935726634802,
+          "f_score": 0.6151147364023216
+        }
+      },
+      "visible_stone_area_groups": {
+        "(0,1024]": {
+          "frames": 3,
+          "target_pixels": 2423,
+          "tp": 1773,
+          "pixel_recall": 0.7317375154766818,
+          "frames_any_tp": 2
+        },
+        "(1024,4096]": {
+          "frames": 8,
+          "target_pixels": 14282,
+          "tp": 9714,
+          "pixel_recall": 0.6801568407786024,
+          "frames_any_tp": 7
+        },
+        "(4096,inf]": {
+          "frames": 9,
+          "target_pixels": 74591,
+          "tp": 57287,
+          "pixel_recall": 0.7680149079647679,
+          "frames_any_tp": 9
+        }
+      },
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      },
+      "performance": {
+        "checkpoint_sha256": "10bbdfaa40d14f8b987337e026799c1ac8f467f7683fa94a9e1fc14b6a25e81c",
+        "input_size": 512,
+        "model_count": 1,
+        "parameter_count": 24601395,
+        "cuda_peak_allocated_mib": 193.64794921875,
+        "warmup_frames": 12,
+        "samples": 87,
+        "scope": "Fresh process, batch1 cached native BGR via OpenCV to native probability maps/masks; excludes decode/display/geometry/memory; accuracy uses PIL separately",
+        "timings": {
+          "pipeline_ms": {
+            "mean": 12.059763215760562,
+            "p50": 11.941200005821884,
+            "p95": 13.683690037578344
+          },
+          "preprocess_ms": {
+            "mean": 5.421222995795395,
+            "p50": 5.4558999836444855,
+            "p95": 6.290229992009699
+          },
+          "model_ms": {
+            "mean": 5.302313791491605,
+            "p50": 5.242899991571903,
+            "p95": 5.875170032959431
+          },
+          "native_postprocess_ms": {
+            "mean": 1.336226428473561,
+            "p50": 1.320800045505166,
+            "p95": 1.556359976530075
+          }
+        },
+        "post_release_cuda_allocated_mib": 0.0
+      }
+    }
+  ],
+  "training_cost": {
+    "unet256": {
+      "training_validation_io_wall_s": 61.18203399993945,
+      "peak_cuda_allocated_mib": 474.80859375,
+      "optimizer_updates": 1425,
+      "image_exposures": 2850
+    },
+    "unet512": {
+      "training_validation_io_wall_s": 92.68183150002733,
+      "peak_cuda_allocated_mib": 795.76171875,
+      "optimizer_updates": 1425,
+      "image_exposures": 2850
+    }
+  },
+  "scope": "Native400 development validation; not independent cases, instance truth or physical-size measurement"
+}

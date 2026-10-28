@@ -1,0 +1,45 @@
+{
+  "readme_sha256": {
+    "v1": "429c0f5de6add50f5626be7b50758679002e10b3f1a8b692834f091aa0edd2f6",
+    "v2": "53fc38df737113073d7feba6835db1a94164a39132b77086770ba1763daa9120"
+  },
+  "documented_v1_augmentation": [
+    "horizontal/vertical flips",
+    "90degree rotations",
+    "random crop0-20percent",
+    "rotation-15to15degrees",
+    "horizontal/vertical shear-13to13degrees",
+    "brightness/exposure",
+    "Gaussian blur0-3.6pixels",
+    "salt-and-pepper noise1.45percent pixels"
+  ],
+  "documented_v2_augmentation": [
+    "horizontal/vertical flips",
+    "90degree rotations",
+    "brightness/exposure",
+    "Gaussian blur0-3pixels"
+  ],
+  "alignment_limit": "D4-only verifier deliberately does not fit crop/shear/arbitrary rotation; do not equate failed direct alignment or object-count disagreement with annotation error",
+  "active_conflict_training_groups": 4,
+  "active_conflict_imageval_groups": 2,
+  "all_active_canonicals_have_fiber_annotation": true,
+  "active_conflict_train_exposures": 22,
+  "active_conflict_train_exposure_fraction": 0.0077192982456140355,
+  "strict_aligned_source_label_comparisons": [
+    {
+      "group_id": "03d1a8855b01688fa4424ccc",
+      "canonical_family": "122_jpg",
+      "stone_label_iou_on256_alignment": 0.8172362555720654,
+      "fiber_disagreement_pixels_256": 97,
+      "fiber_vs_other_source_laser_overlap_pixels_256": 0
+    },
+    {
+      "group_id": "e4a3e164d6d744a489817e05",
+      "canonical_family": "149_jpg",
+      "stone_label_iou_on256_alignment": 0.878517429651407,
+      "fiber_disagreement_pixels_256": 150,
+      "fiber_vs_other_source_laser_overlap_pixels_256": 0
+    }
+  ],
+  "interpretation": "Source-label differences only, not accuracy against verified truth; metadata/geometry/canonicalization/exposure factors are not isolated causal experiments"
+}

@@ -1,0 +1,8 @@
+{
+  "phase": "aborted",
+  "pid": 40436,
+  "training_updates": 0,
+  "training_video_frames": 0,
+  "reason": "Batch1 vs frozen batch2 native masks differ at a numerical class boundary; rerun exact batch2 accuracy path",
+  "refiner_trained": false
+}

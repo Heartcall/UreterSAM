@@ -1,0 +1,1096 @@
+{
+  "training_label_agreement_provisional_not_truth": {
+    "stone_dice": 0.8567544426822422,
+    "stone_iou": 0.7494054424250981,
+    "stone_precision": 0.8103927282479352,
+    "stone_recall": 0.9087426527075058,
+    "stone_tp": 3269587,
+    "stone_fp": 764984,
+    "stone_fn": 328337,
+    "fiber_dice": 8.25570675729598e-05,
+    "fiber_iou": 4.128023777416958e-05,
+    "fiber_precision": 0.03896103896103896,
+    "fiber_recall": 4.132231404958678e-05,
+    "fiber_tp": 3,
+    "fiber_fp": 74,
+    "fiber_fn": 72597,
+    "mean_dice": 0.4284184998749076,
+    "mean_iou": 0.37472336133143613,
+    "foreground_classes_with_defined_overlap": 2,
+    "confusion_matrix": [
+      [
+        18512282,
+        754726,
+        68
+      ],
+      [
+        328331,
+        3269587,
+        6
+      ],
+      [
+        62339,
+        10258,
+        3
+      ]
+    ],
+    "valid_pixels": 22937600,
+    "stone_negative_images": 12,
+    "stone_negative_images_with_fp": 6,
+    "stone_negative_fp_image_rate": 0.5,
+    "stone_negative_valid_pixels": 786432,
+    "stone_negative_fp_pixels": 2545,
+    "stone_negative_fp_pixel_fraction": 0.0032361348470052085
+  },
+  "gradient_batch_sample_ids": [
+    "kidney_stones_fiber_v1__train__0d9e619a26c8ae79bef4",
+    "kidney_stones_fiber_v1__valid__ae371e606bda9a168234"
+  ],
+  "gradients": [
+    {
+      "fiber_weight": 4.0,
+      "loss": 0.8899727463722229,
+      "fiber_output_weight_gradient_norm": 0.35792046785354614,
+      "fiber_logit_gradient_mean_on_fiber": -5.4573894885834306e-05,
+      "fiber_logit_gradient_abs_mean_on_background": 5.904609565732244e-07,
+      "fiber_probability_mean_on_annotated_fiber": 0.25746336579322815,
+      "finite_nonzero_gradient": true
+    },
+    {
+      "fiber_weight": 32.0,
+      "loss": 1.2799863815307617,
+      "fiber_output_weight_gradient_norm": 0.38946059346199036,
+      "fiber_logit_gradient_mean_on_fiber": -0.00016271758067887276,
+      "fiber_logit_gradient_abs_mean_on_background": 7.327940352297446e-07,
+      "fiber_probability_mean_on_annotated_fiber": 0.25746336579322815,
+      "finite_nonzero_gradient": true
+    }
+  ],
+  "a0_disagreement_rule": "A0 fiber probability>=0.95 over provided background, at least 32 pixels at 256 grid",
+  "a0_disagreement_count": 146,
+  "disagreements": [
+    {
+      "sample_id": "stone_new_v4__train__78abc1e39d54781a0322",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 209,
+      "a0_confident_fiber_over_source_background_pixels": 2975,
+      "index": 50
+    },
+    {
+      "sample_id": "stone_new_v4__train__63aaf266cb3996cb791b",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 239,
+      "a0_confident_fiber_over_source_background_pixels": 2908,
+      "index": 25
+    },
+    {
+      "sample_id": "stone_new_v4__valid__7b39f0fecd310fef7caf",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 178,
+      "a0_confident_fiber_over_source_background_pixels": 2648,
+      "index": 133
+    },
+    {
+      "sample_id": "stone_new_v4__train__f925be2089881ccf4270",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 91,
+      "a0_confident_fiber_over_source_background_pixels": 2441,
+      "index": 279
+    },
+    {
+      "sample_id": "stone_new_v4__train__8e44941a0208316a55a8",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 193,
+      "a0_confident_fiber_over_source_background_pixels": 2393,
+      "index": 51
+    },
+    {
+      "sample_id": "stone_new_v4__train__1312dfc53f5b2cd106c0",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 190,
+      "a0_confident_fiber_over_source_background_pixels": 2307,
+      "index": 311
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__c4815219f81a3e0a67bf",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 2291,
+      "index": 117
+    },
+    {
+      "sample_id": "stone_new_v4__train__44914c6fc33a22e5992e",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 192,
+      "a0_confident_fiber_over_source_background_pixels": 2137,
+      "index": 272
+    },
+    {
+      "sample_id": "stone_new_v4__train__11dec4a42f36817964ee",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 2053,
+      "index": 144
+    },
+    {
+      "sample_id": "stone_new_v4__train__08cf74098db5c9fe9151",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 156,
+      "a0_confident_fiber_over_source_background_pixels": 1990,
+      "index": 110
+    },
+    {
+      "sample_id": "stone_new_v4__train__c42efcaafc6de467437a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 170,
+      "a0_confident_fiber_over_source_background_pixels": 1987,
+      "index": 285
+    },
+    {
+      "sample_id": "stone_new_v4__train__c7b41dc979f8dcf3512a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 198,
+      "a0_confident_fiber_over_source_background_pixels": 1920,
+      "index": 209
+    },
+    {
+      "sample_id": "stone_new_v4__train__65845740a231398700d0",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 155,
+      "a0_confident_fiber_over_source_background_pixels": 1901,
+      "index": 190
+    },
+    {
+      "sample_id": "stone_new_v4__train__8789ee9f373897aec9cc",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 164,
+      "a0_confident_fiber_over_source_background_pixels": 1748,
+      "index": 143
+    },
+    {
+      "sample_id": "stone_new_v4__train__4ca5af5cfae90c25db17",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 228,
+      "a0_confident_fiber_over_source_background_pixels": 1649,
+      "index": 196
+    },
+    {
+      "sample_id": "stone_new_v4__train__ce28e4fcdc69359722ec",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 176,
+      "a0_confident_fiber_over_source_background_pixels": 1571,
+      "index": 116
+    },
+    {
+      "sample_id": "stone_new_v4__train__d800cd734c4e5d9110f5",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 158,
+      "a0_confident_fiber_over_source_background_pixels": 1553,
+      "index": 246
+    },
+    {
+      "sample_id": "stone_new_v4__train__41ed42d7d8f964ddfedc",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 300,
+      "a0_confident_fiber_over_source_background_pixels": 1545,
+      "index": 338
+    },
+    {
+      "sample_id": "stone_new_v4__train__fbb758991671b21efa8b",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 153,
+      "a0_confident_fiber_over_source_background_pixels": 1502,
+      "index": 83
+    },
+    {
+      "sample_id": "stone_new_v4__train__b28cc3380a637baf6df8",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 90,
+      "a0_confident_fiber_over_source_background_pixels": 1336,
+      "index": 101
+    },
+    {
+      "sample_id": "stone_new_v4__train__9f2f5d30d51173d77648",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 221,
+      "a0_confident_fiber_over_source_background_pixels": 1332,
+      "index": 177
+    },
+    {
+      "sample_id": "stone_new_v4__train__f41c113a9d95e259fe47",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 190,
+      "a0_confident_fiber_over_source_background_pixels": 1223,
+      "index": 165
+    },
+    {
+      "sample_id": "stone_new_v4__train__e5a52e9c7351eb86dd2e",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 200,
+      "a0_confident_fiber_over_source_background_pixels": 1178,
+      "index": 226
+    },
+    {
+      "sample_id": "stone_new_v4__train__9de2ca90c428a90110b3",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 179,
+      "a0_confident_fiber_over_source_background_pixels": 1143,
+      "index": 335
+    },
+    {
+      "sample_id": "stone_new_v4__train__950a6d922fc9cb30703f",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 73,
+      "a0_confident_fiber_over_source_background_pixels": 1039,
+      "index": 339
+    },
+    {
+      "sample_id": "stone_new_v4__train__1481f4de1a8695f8bf7a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 1038,
+      "index": 141
+    },
+    {
+      "sample_id": "stone_new_v4__train__689f8bfb3abd5d5c3499",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 193,
+      "a0_confident_fiber_over_source_background_pixels": 824,
+      "index": 115
+    },
+    {
+      "sample_id": "stone_new_v4__train__399e42dd0b0756714ad1",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 759,
+      "index": 316
+    },
+    {
+      "sample_id": "stone_new_v4__test__e13267f840a2d87732da",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 751,
+      "index": 84
+    },
+    {
+      "sample_id": "stone_new_v4__train__2c03c6248d38baca4b9f",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 412,
+      "a0_confident_fiber_over_source_background_pixels": 722,
+      "index": 347
+    },
+    {
+      "sample_id": "stone_new_v4__train__f4b62c5e26822aa0e734",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 212,
+      "a0_confident_fiber_over_source_background_pixels": 721,
+      "index": 168
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__c37a686fa24d04dad69d",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 707,
+      "index": 181
+    },
+    {
+      "sample_id": "stone_new_v4__train__202bcf78084ab411f3aa",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 77,
+      "a0_confident_fiber_over_source_background_pixels": 704,
+      "index": 151
+    },
+    {
+      "sample_id": "stone_new_v4__train__f7a9bedd83feb1017490",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 683,
+      "index": 170
+    },
+    {
+      "sample_id": "stone_new_v4__train__21e0a87c856a0e135eb8",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 675,
+      "index": 19
+    },
+    {
+      "sample_id": "stone_new_v4__train__ebf1e560b380b7c2a750",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 642,
+      "index": 337
+    },
+    {
+      "sample_id": "stone_new_v4__train__a5fd00dfbfd5a9b36189",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 640,
+      "index": 103
+    },
+    {
+      "sample_id": "stone_new_v4__train__11df1708dc48b5c3d16e",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 627,
+      "index": 64
+    },
+    {
+      "sample_id": "stone_new_v4__train__e3bb8f3ddfb9c72a5290",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 198,
+      "a0_confident_fiber_over_source_background_pixels": 627,
+      "index": 341
+    },
+    {
+      "sample_id": "stone_new_v4__train__e4c355b5cae285ba9400",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 613,
+      "index": 9
+    },
+    {
+      "sample_id": "stone_new_v4__valid__f76cb7edefbaca7686f4",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 605,
+      "index": 113
+    },
+    {
+      "sample_id": "stone_new_v4__train__af956dbc9882d6d4a8fe",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 201,
+      "a0_confident_fiber_over_source_background_pixels": 592,
+      "index": 130
+    },
+    {
+      "sample_id": "stone_new_v4__valid__5452fb740c2c4f276894",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 592,
+      "index": 317
+    },
+    {
+      "sample_id": "stone_new_v4__train__51ea4432348be3081222",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 380,
+      "a0_confident_fiber_over_source_background_pixels": 574,
+      "index": 28
+    },
+    {
+      "sample_id": "stone_new_v4__train__6bafc0000b2d64f1a8c8",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 540,
+      "index": 202
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__e92426298c9400721c2a",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 506,
+      "index": 72
+    },
+    {
+      "sample_id": "stone_new_v4__train__59e72db5c197b6b17322",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 389,
+      "a0_confident_fiber_over_source_background_pixels": 506,
+      "index": 134
+    },
+    {
+      "sample_id": "stone_new_v4__train__03067af336720ef5c98a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 93,
+      "a0_confident_fiber_over_source_background_pixels": 504,
+      "index": 32
+    },
+    {
+      "sample_id": "stone_new_v4__train__6a9b95ca12a6f709147d",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 71,
+      "a0_confident_fiber_over_source_background_pixels": 495,
+      "index": 245
+    },
+    {
+      "sample_id": "stone_new_v4__train__eba50c55895a45ee46de",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 126,
+      "a0_confident_fiber_over_source_background_pixels": 487,
+      "index": 300
+    },
+    {
+      "sample_id": "stone_new_v4__train__0fbcab5c2117b6d72ff7",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 77,
+      "a0_confident_fiber_over_source_background_pixels": 486,
+      "index": 31
+    },
+    {
+      "sample_id": "stone_new_v4__train__cbba27d685b76a4459ca",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 116,
+      "a0_confident_fiber_over_source_background_pixels": 485,
+      "index": 86
+    },
+    {
+      "sample_id": "stone_new_v4__train__3cfef9dad56ea9146c79",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 120,
+      "a0_confident_fiber_over_source_background_pixels": 476,
+      "index": 121
+    },
+    {
+      "sample_id": "stone_new_v4__train__dec35e0f345620636ea3",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 79,
+      "a0_confident_fiber_over_source_background_pixels": 464,
+      "index": 90
+    },
+    {
+      "sample_id": "stone_new_v4__train__e7618b1b8d2d5eb32b9f",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 75,
+      "a0_confident_fiber_over_source_background_pixels": 464,
+      "index": 221
+    },
+    {
+      "sample_id": "stone_new_v4__train__eef90721c9d2a26d00f4",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 464,
+      "index": 289
+    },
+    {
+      "sample_id": "stone_new_v4__train__590cc47db1e10a296fa3",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 107,
+      "a0_confident_fiber_over_source_background_pixels": 455,
+      "index": 287
+    },
+    {
+      "sample_id": "stone_new_v4__train__a3a04970ce06c871918b",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 184,
+      "a0_confident_fiber_over_source_background_pixels": 449,
+      "index": 37
+    },
+    {
+      "sample_id": "stone_new_v4__train__d926dca9269fc8cf47ab",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 447,
+      "index": 223
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__36c903372ea2d79b4be2",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 199,
+      "a0_confident_fiber_over_source_background_pixels": 417,
+      "index": 268
+    },
+    {
+      "sample_id": "stone_new_v4__train__12d39be19b82baacf277",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 191,
+      "a0_confident_fiber_over_source_background_pixels": 410,
+      "index": 197
+    },
+    {
+      "sample_id": "stone_new_v4__train__23f54022a0a608879cb5",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 103,
+      "a0_confident_fiber_over_source_background_pixels": 395,
+      "index": 195
+    },
+    {
+      "sample_id": "stone_new_v4__train__68e54192ff511a78022a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 353,
+      "index": 92
+    },
+    {
+      "sample_id": "stone_new_v4__train__c6fee4489c0f3eba80c9",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 347,
+      "index": 228
+    },
+    {
+      "sample_id": "stone_new_v4__train__f119f6bbd8f242de61f9",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 256,
+      "a0_confident_fiber_over_source_background_pixels": 341,
+      "index": 322
+    },
+    {
+      "sample_id": "stone_new_v4__train__8070ad2be14bbfdc3f22",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 201,
+      "a0_confident_fiber_over_source_background_pixels": 337,
+      "index": 266
+    },
+    {
+      "sample_id": "stone_new_v4__train__f0ace2073dba89902287",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 335,
+      "index": 94
+    },
+    {
+      "sample_id": "stone_new_v4__train__aa1d58878154e2c76722",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 260,
+      "a0_confident_fiber_over_source_background_pixels": 334,
+      "index": 282
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__827c485f802596cbe71b",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1449,
+      "a0_confident_fiber_over_source_background_pixels": 323,
+      "index": 346
+    },
+    {
+      "sample_id": "stone_new_v4__train__80c0d54e8294a9c941da",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 262,
+      "a0_confident_fiber_over_source_background_pixels": 316,
+      "index": 227
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__90dd8f783a63b815a1fb",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 309,
+      "index": 326
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__e17bdc8e71e49c0caf39",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 304,
+      "index": 333
+    },
+    {
+      "sample_id": "stone_new_v4__train__39a66d35587bc1dd1ed0",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 208,
+      "a0_confident_fiber_over_source_background_pixels": 299,
+      "index": 71
+    },
+    {
+      "sample_id": "stone_new_v4__train__a8a63a9eec075247eb70",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 293,
+      "index": 269
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__da613e96fb4b6ef57b9d",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 289,
+      "index": 305
+    },
+    {
+      "sample_id": "stone_new_v4__train__0bd1741e25d3a7217854",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 285,
+      "index": 214
+    },
+    {
+      "sample_id": "stone_new_v4__train__2c164b6c777f006e756b",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 728,
+      "a0_confident_fiber_over_source_background_pixels": 281,
+      "index": 220
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__6216040b56fe28330c63",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 272,
+      "index": 43
+    },
+    {
+      "sample_id": "stone_new_v4__train__f04f4afee7f5f323486a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 265,
+      "index": 330
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__b7d262c723016b85d856",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1089,
+      "a0_confident_fiber_over_source_background_pixels": 262,
+      "index": 277
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__2de2b42c6a696065e1be",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1922,
+      "a0_confident_fiber_over_source_background_pixels": 257,
+      "index": 191
+    },
+    {
+      "sample_id": "stone_new_v4__train__b4aff6bbe91de71fa080",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 210,
+      "a0_confident_fiber_over_source_background_pixels": 250,
+      "index": 85
+    },
+    {
+      "sample_id": "stone_new_v4__train__857f6ae1e9a07dc1f2de",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 370,
+      "a0_confident_fiber_over_source_background_pixels": 248,
+      "index": 20
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__test__661330e08a4056b5b519",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 241,
+      "index": 138
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__cf5eec65e0fb280bba24",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 236,
+      "index": 234
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__b9f74ed421f85351b9c0",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1670,
+      "a0_confident_fiber_over_source_background_pixels": 217,
+      "index": 47
+    },
+    {
+      "sample_id": "stone_new_v4__train__ebd2645e30ff3c7f0c69",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 718,
+      "a0_confident_fiber_over_source_background_pixels": 212,
+      "index": 320
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__9c96b99b649f76a92705",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 211,
+      "index": 18
+    },
+    {
+      "sample_id": "stone_new_v4__train__a4372f12f4ddf6191ee4",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 836,
+      "a0_confident_fiber_over_source_background_pixels": 211,
+      "index": 329
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__e185bd255aa60ce16b12",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1340,
+      "a0_confident_fiber_over_source_background_pixels": 210,
+      "index": 291
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__49b11b305bea2b395952",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 103,
+      "a0_confident_fiber_over_source_background_pixels": 204,
+      "index": 156
+    },
+    {
+      "sample_id": "stone_new_v4__train__cf647888a6cbe7436515",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 259,
+      "a0_confident_fiber_over_source_background_pixels": 192,
+      "index": 256
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__60d863692f3f420f08a1",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 2051,
+      "a0_confident_fiber_over_source_background_pixels": 191,
+      "index": 106
+    },
+    {
+      "sample_id": "stone_new_v4__train__2779a1a9bf6875e4e6fd",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 339,
+      "a0_confident_fiber_over_source_background_pixels": 185,
+      "index": 27
+    },
+    {
+      "sample_id": "stone_new_v4__train__5f7edeafb0e1f1b324ca",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 273,
+      "a0_confident_fiber_over_source_background_pixels": 183,
+      "index": 140
+    },
+    {
+      "sample_id": "stone_new_v4__test__f1e9272ee70337f45fd5",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 180,
+      "index": 89
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__1bd83cee602c85d28889",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 175,
+      "index": 145
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__7bec409fc774475ac0b8",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 168,
+      "index": 21
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__d21029afd03476f85cac",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 157,
+      "index": 239
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__c6ec0cd3b789342427b3",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 517,
+      "a0_confident_fiber_over_source_background_pixels": 142,
+      "index": 162
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__e21a1a01d87933668f44",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1970,
+      "a0_confident_fiber_over_source_background_pixels": 141,
+      "index": 41
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__542debc660aa1fb3dab8",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 140,
+      "index": 53
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__f3ef37019f45ea8af4da",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1170,
+      "a0_confident_fiber_over_source_background_pixels": 132,
+      "index": 30
+    },
+    {
+      "sample_id": "stone_new_v4__train__09dee783584dd3998c9e",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 126,
+      "index": 17
+    },
+    {
+      "sample_id": "stone_new_v4__train__feddff7b5bca1576bd5a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 126,
+      "index": 164
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__test__974780cec18126607dbd",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1768,
+      "a0_confident_fiber_over_source_background_pixels": 125,
+      "index": 39
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__9fc13f5c503750a9e3c6",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1216,
+      "a0_confident_fiber_over_source_background_pixels": 120,
+      "index": 154
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__0cd448b1a8e2e82f3d4d",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 116,
+      "index": 76
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__fd0ea34ca65fb93a9f02",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 115,
+      "index": 77
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__2478388ddb8ad4fbb741",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 2465,
+      "a0_confident_fiber_over_source_background_pixels": 110,
+      "index": 342
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__284a18fec4a713c08b70",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1517,
+      "a0_confident_fiber_over_source_background_pixels": 107,
+      "index": 278
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__81a768584a04c59c4ffc",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 106,
+      "index": 292
+    },
+    {
+      "sample_id": "stone_new_v4__train__4da6ed4322ecacd09fff",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 439,
+      "a0_confident_fiber_over_source_background_pixels": 105,
+      "index": 232
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__3710fa637805992b4696",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1707,
+      "a0_confident_fiber_over_source_background_pixels": 102,
+      "index": 68
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__6ed33550d4b223d61c4b",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1449,
+      "a0_confident_fiber_over_source_background_pixels": 100,
+      "index": 267
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__4841105bdcdc7aa2e209",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 652,
+      "a0_confident_fiber_over_source_background_pixels": 94,
+      "index": 250
+    },
+    {
+      "sample_id": "stone_new_v4__train__0cfb3b78535a8874605a",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 337,
+      "a0_confident_fiber_over_source_background_pixels": 94,
+      "index": 296
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__48c33bda367a8025fc3a",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 93,
+      "index": 205
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__525b1ab497c608ec0c0e",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 450,
+      "a0_confident_fiber_over_source_background_pixels": 87,
+      "index": 290
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__ab9967e4ea64e86fc3d8",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1151,
+      "a0_confident_fiber_over_source_background_pixels": 86,
+      "index": 175
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__34cbe62974871e34591b",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 794,
+      "a0_confident_fiber_over_source_background_pixels": 83,
+      "index": 280
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__878f92a78157aac2e81f",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 896,
+      "a0_confident_fiber_over_source_background_pixels": 82,
+      "index": 155
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__330cdf81979e7a8ff124",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1225,
+      "a0_confident_fiber_over_source_background_pixels": 77,
+      "index": 126
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__25cc1c5fd36aee86f2cc",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 372,
+      "a0_confident_fiber_over_source_background_pixels": 76,
+      "index": 310
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__0fc6ce43cd03a422fc88",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 0,
+      "a0_confident_fiber_over_source_background_pixels": 74,
+      "index": 160
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__ddc62f42111fdb26a79a",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 730,
+      "a0_confident_fiber_over_source_background_pixels": 71,
+      "index": 229
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__a6f8b50dd20128f1d943",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 374,
+      "a0_confident_fiber_over_source_background_pixels": 67,
+      "index": 294
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__ac340462f594df9c3a91",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1952,
+      "a0_confident_fiber_over_source_background_pixels": 63,
+      "index": 193
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__d5a140e323b5f3e82b1d",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1616,
+      "a0_confident_fiber_over_source_background_pixels": 63,
+      "index": 307
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__58aacd7f1df2a3467d7f",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 2138,
+      "a0_confident_fiber_over_source_background_pixels": 63,
+      "index": 336
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__bfd1ec5c35bfdcbe8280",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 327,
+      "a0_confident_fiber_over_source_background_pixels": 62,
+      "index": 284
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__71056292f1b32129cd7e",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 244,
+      "a0_confident_fiber_over_source_background_pixels": 60,
+      "index": 59
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__7e9c12ac53420e1b23b5",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 395,
+      "a0_confident_fiber_over_source_background_pixels": 58,
+      "index": 288
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__2acf7a161008dc9ea1ff",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1254,
+      "a0_confident_fiber_over_source_background_pixels": 56,
+      "index": 34
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__c2930691fe8ac9c1567d",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 350,
+      "a0_confident_fiber_over_source_background_pixels": 56,
+      "index": 112
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__c7a7798dfd1eca749b30",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1379,
+      "a0_confident_fiber_over_source_background_pixels": 56,
+      "index": 324
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__19dc88390227702236e0",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 925,
+      "a0_confident_fiber_over_source_background_pixels": 55,
+      "index": 299
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__123b83b29e91e796c1f2",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 435,
+      "a0_confident_fiber_over_source_background_pixels": 54,
+      "index": 204
+    },
+    {
+      "sample_id": "stone_new_v4__train__76f0da7a80970c775986",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 349,
+      "a0_confident_fiber_over_source_background_pixels": 47,
+      "index": 40
+    },
+    {
+      "sample_id": "stone_new_v4__train__c49e97b3bb4c336528fd",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 632,
+      "a0_confident_fiber_over_source_background_pixels": 44,
+      "index": 259
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__valid__44465b9903a5a9357f4a",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 589,
+      "a0_confident_fiber_over_source_background_pixels": 42,
+      "index": 297
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__2665f70d52d8dd937c4b",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 264,
+      "a0_confident_fiber_over_source_background_pixels": 40,
+      "index": 306
+    },
+    {
+      "sample_id": "stone_new_v4__train__3a785006b62d7113f1c9",
+      "source_dataset": "stone_new_v4",
+      "annotated_fiber_pixels_256": 740,
+      "a0_confident_fiber_over_source_background_pixels": 37,
+      "index": 198
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__27bfc08c0cc64d393988",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 149,
+      "a0_confident_fiber_over_source_background_pixels": 36,
+      "index": 35
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__0038ccc356bb9ed682a3",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 240,
+      "a0_confident_fiber_over_source_background_pixels": 36,
+      "index": 260
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__train__4a7fc540d2ff7c6f5027",
+      "source_dataset": "kidney_stones_fiber_v1",
+      "annotated_fiber_pixels_256": 1220,
+      "a0_confident_fiber_over_source_background_pixels": 34,
+      "index": 169
+    }
+  ],
+  "interpretation": "Disagreements are annotation-error or model-error candidates, not confirmed labels. No automatic relabeling or video training."
+}

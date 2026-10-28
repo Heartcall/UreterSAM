@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_SUP_KIDNEY_JOINT_MATCHED1425UPDATES_20261028",
+  "manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+  "video_manifest": "datasets/ureter_semis_kidney_joint_20261028/video_validation_manifest.json",
+  "output": "runs/a1_sup_kidney_joint_20261028",
+  "training": {
+    "epochs":15,"images_per_epoch":190,"size":256,"batch_size":2,"learning_rate":0.0001,
+    "device_name":"cuda:0","workers":0,"pretrained":true,"class_weights":[1.0,2.0,4.0],
+    "dice_weight":1.0,"seed":42,"allow_unreviewed_experiment":true,
+    "sampling_strategy":"uniform","fiber_background_policy":"strict_source","validation_grid":"native_probability"
+  },
+  "initialization":"Clean cached ImageNet ResNet34 encoder + random decoder; no surgical checkpoint initialization",
+  "budget":"15 budget epochs x95 updates xbatch2 =1425 effective updates,2850 exposures; uniform190 without replacement from larger pool each epoch, NOT15 full dataset passes; no auto extension",
+  "primary_checkpoint":"Fixed final budget epoch15; best image-val checkpoint diagnostic only, no video-based epoch selection",
+  "image_validation":"132 grouped canonical image development samples, native GT at original export resolution; aggregate and per-source results; unreviewed source labels, no independent-case claim",
+  "video_validation":"Original29 immutable reviewed frames, native400 probability-first protocol, separate regression not mixed with image validation; A0 and historical190 baseline rerun before training and native gates frozen",
+  "screening_scope":"Image-val history gates are diagnostic only and cannot accept S2, especially without verified stone-negative images. Acceptance evaluated separately on fixed final checkpoint video29, then still requires further validation",
+  "cost":{"warmup_frames":12,"repeats":3,"scope":"Fresh process cached BGR native probability/mask output, same protocol as previous native comparison; no decode/display/geometry/memory"},
+  "constraints":"Both raw sources only; stone_new banned; no active unlabeled or pseudo labels; all original test-associated components reserved; rejected/video-copy candidates excluded; source annotations remain pending; case identity unknown"
+}

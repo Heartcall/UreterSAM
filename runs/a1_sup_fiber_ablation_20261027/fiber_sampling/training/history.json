@@ -1,0 +1,992 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.5748954364231655,
+    "optimizer_update_steps": 175,
+    "learning_rate": 0.0001,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 241,
+    "sampled_label_pixels": {
+      "0": 19012888,
+      "1": 3787057,
+      "2": 137655,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.5770984365446764,
+      "stone_iou": 0.4055786087853267,
+      "stone_precision": 0.8363544303797469,
+      "stone_recall": 0.4405387384984665,
+      "stone_tp": 16518,
+      "stone_fp": 3232,
+      "stone_fn": 20977,
+      "fiber_dice": 0.043376005558970525,
+      "fiber_iou": 0.022168799770526288,
+      "fiber_precision": 0.937066974595843,
+      "fiber_recall": 0.022201854942409237,
+      "fiber_tp": 1623,
+      "fiber_fp": 109,
+      "fiber_fn": 71479,
+      "mean_dice": 0.31023722105182344,
+      "mean_iou": 0.21387370427792649,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1782637,
+          1979,
+          75
+        ],
+        [
+          20943,
+          16518,
+          34
+        ],
+        [
+          70226,
+          1253,
+          1623
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 9,
+      "stone_negative_fp_image_rate": 1.0,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 102,
+      "stone_negative_fp_pixel_fraction": 0.00017293294270833334
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.2189846924373082,
+    "optimizer_update_steps": 175,
+    "learning_rate": 9.891830623632339e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 232,
+    "sampled_label_pixels": {
+      "0": 19480895,
+      "1": 3336866,
+      "2": 119839,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.6507689251774644,
+      "stone_iou": 0.48232577600768645,
+      "stone_precision": 0.5351628322844665,
+      "stone_recall": 0.8300840112014936,
+      "stone_tp": 31124,
+      "stone_fp": 27034,
+      "stone_fn": 6371,
+      "fiber_dice": 0.552938263745203,
+      "fiber_iou": 0.382111039143559,
+      "fiber_precision": 0.7818313662732547,
+      "fiber_recall": 0.42771743591146616,
+      "fiber_tp": 31267,
+      "fiber_fp": 8725,
+      "fiber_fn": 41835,
+      "mean_dice": 0.6018535944613337,
+      "mean_iou": 0.4322184075756227,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1749762,
+          26285,
+          8644
+        ],
+        [
+          6290,
+          31124,
+          81
+        ],
+        [
+          41086,
+          749,
+          31267
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 4,
+      "stone_negative_fp_image_rate": 0.4444444444444444,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 1855,
+      "stone_negative_fp_pixel_fraction": 0.0031450059678819445
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.047953633240291,
+    "optimizer_update_steps": 175,
+    "learning_rate": 9.572050015330874e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 253,
+    "sampled_label_pixels": {
+      "0": 19024262,
+      "1": 3767246,
+      "2": 146092,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7636650915974779,
+      "stone_iou": 0.6176846471027947,
+      "stone_precision": 0.8656393619897269,
+      "stone_recall": 0.6831844245899453,
+      "stone_tp": 25616,
+      "stone_fp": 3976,
+      "stone_fn": 11879,
+      "fiber_dice": 0.16538148078490378,
+      "fiber_iou": 0.09014488791689448,
+      "fiber_precision": 0.9912821283631444,
+      "fiber_recall": 0.09021640994774424,
+      "fiber_tp": 6595,
+      "fiber_fp": 58,
+      "fiber_fn": 66507,
+      "mean_dice": 0.4645232861911908,
+      "mean_iou": 0.3539147675098446,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1780671,
+          3976,
+          44
+        ],
+        [
+          11865,
+          25616,
+          14
+        ],
+        [
+          66507,
+          0,
+          6595
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": 0.0,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": 0.0
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.9295452332496643,
+    "optimizer_update_steps": 175,
+    "learning_rate": 9.05463412215599e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 251,
+    "sampled_label_pixels": {
+      "0": 19106303,
+      "1": 3679065,
+      "2": 152232,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.8076410967093286,
+      "stone_iou": 0.6773473108477667,
+      "stone_precision": 0.8231644833411804,
+      "stone_recall": 0.7926923589811975,
+      "stone_tp": 29722,
+      "stone_fp": 6385,
+      "stone_fn": 7773,
+      "fiber_dice": 0.0772225144660705,
+      "fiber_iou": 0.04016196104180346,
+      "fiber_precision": 0.9993192648059904,
+      "fiber_recall": 0.04016305983420426,
+      "fiber_tp": 2936,
+      "fiber_fp": 2,
+      "fiber_fn": 70166,
+      "mean_dice": 0.44243180558769957,
+      "mean_iou": 0.35875463594478507,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1778325,
+          6364,
+          2
+        ],
+        [
+          7773,
+          29722,
+          0
+        ],
+        [
+          70145,
+          21,
+          2936
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": 0.0,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": 0.0
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.8459022457259042,
+    "optimizer_update_steps": 175,
+    "learning_rate": 8.362196501476348e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 243,
+    "sampled_label_pixels": {
+      "0": 18737478,
+      "1": 4062368,
+      "2": 137754,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7230156013107057,
+      "stone_iou": 0.566189846996419,
+      "stone_precision": 0.6675321156841939,
+      "stone_recall": 0.7885584744632618,
+      "stone_tp": 29567,
+      "stone_fp": 14726,
+      "stone_fn": 7928,
+      "fiber_dice": 0.030915672342137015,
+      "fiber_iou": 0.015700532429156963,
+      "fiber_precision": 0.7748655913978495,
+      "fiber_recall": 0.015772482285026403,
+      "fiber_tp": 1153,
+      "fiber_fp": 335,
+      "fiber_fn": 71949,
+      "mean_dice": 0.37696563682642137,
+      "mean_iou": 0.290945189712788,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1769630,
+          14726,
+          335
+        ],
+        [
+          7928,
+          29567,
+          0
+        ],
+        [
+          71949,
+          0,
+          1153
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 959,
+      "stone_negative_fp_pixel_fraction": 0.0016259087456597222
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.7717756526810783,
+    "optimizer_update_steps": 175,
+    "learning_rate": 7.525e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 248,
+    "sampled_label_pixels": {
+      "0": 19056154,
+      "1": 3755517,
+      "2": 125929,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7827284893332284,
+      "stone_iou": 0.643018819116601,
+      "stone_precision": 0.7703173824342122,
+      "stone_recall": 0.795546072809708,
+      "stone_tp": 29829,
+      "stone_fp": 8894,
+      "stone_fn": 7666,
+      "fiber_dice": 0.010986470868175946,
+      "fiber_iou": 0.005523577747091234,
+      "fiber_precision": 0.9119638826185101,
+      "fiber_recall": 0.005526524582090777,
+      "fiber_tp": 404,
+      "fiber_fp": 39,
+      "fiber_fn": 72698,
+      "mean_dice": 0.39685748010070215,
+      "mean_iou": 0.3242711984318461,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1775765,
+          8892,
+          34
+        ],
+        [
+          7661,
+          29829,
+          5
+        ],
+        [
+          72696,
+          2,
+          404
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 376,
+      "stone_negative_fp_pixel_fraction": 0.0006374782986111111
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.664933648790632,
+    "optimizer_update_steps": 175,
+    "learning_rate": 6.57963412215599e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 251,
+    "sampled_label_pixels": {
+      "0": 18874113,
+      "1": 3908772,
+      "2": 154715,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.732520652830949,
+      "stone_iou": 0.5779349813210397,
+      "stone_precision": 0.6939135828979076,
+      "stone_recall": 0.7756767569009201,
+      "stone_tp": 29084,
+      "stone_fp": 12829,
+      "stone_fn": 8411,
+      "fiber_dice": 0.008742306225829293,
+      "fiber_iou": 0.004390343978663749,
+      "fiber_precision": 0.9610778443113772,
+      "fiber_recall": 0.004391124729829553,
+      "fiber_tp": 321,
+      "fiber_fp": 13,
+      "fiber_fn": 72781,
+      "mean_dice": 0.37063147952838915,
+      "mean_iou": 0.29116266264985174,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1771852,
+          12828,
+          11
+        ],
+        [
+          8409,
+          29084,
+          2
+        ],
+        [
+          72780,
+          1,
+          321
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2222222222222222,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 1506,
+      "stone_negative_fp_pixel_fraction": 0.0025533040364583335
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.6654014205081122,
+    "optimizer_update_steps": 175,
+    "learning_rate": 5.567415893174885e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 244,
+    "sampled_label_pixels": {
+      "0": 19383309,
+      "1": 3426666,
+      "2": 127625,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.6808371205105922,
+      "stone_iou": 0.5161130070413409,
+      "stone_precision": 0.7307786408954676,
+      "stone_recall": 0.6372849713295106,
+      "stone_tp": 23895,
+      "stone_fp": 8803,
+      "stone_fn": 13600,
+      "fiber_dice": 0.002278789134319082,
+      "fiber_iou": 0.0011406942680113033,
+      "fiber_precision": 0.021297192642787996,
+      "fiber_recall": 0.0012037974337227436,
+      "fiber_tp": 88,
+      "fiber_fp": 4044,
+      "fiber_fn": 73014,
+      "mean_dice": 0.34155795482245566,
+      "mean_iou": 0.2586268506546761,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1772304,
+          8803,
+          3584
+        ],
+        [
+          13140,
+          23895,
+          460
+        ],
+        [
+          73014,
+          0,
+          88
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2222222222222222,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 2330,
+      "stone_negative_fp_pixel_fraction": 0.003950330946180556
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.6444924813508988,
+    "optimizer_update_steps": 175,
+    "learning_rate": 4.532584106825116e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 245,
+    "sampled_label_pixels": {
+      "0": 19245609,
+      "1": 3567279,
+      "2": 124712,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7836199157516746,
+      "stone_iou": 0.644222908529385,
+      "stone_precision": 0.8126324835290748,
+      "stone_recall": 0.7566075476730231,
+      "stone_tp": 28369,
+      "stone_fp": 6541,
+      "stone_fn": 9126,
+      "fiber_dice": 0.005424486513745213,
+      "fiber_iou": 0.0027196195265948723,
+      "fiber_precision": 0.7397769516728625,
+      "fiber_recall": 0.002722223742168477,
+      "fiber_tp": 199,
+      "fiber_fp": 70,
+      "fiber_fn": 72903,
+      "mean_dice": 0.39452220113270986,
+      "mean_iou": 0.3234712640279899,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1778111,
+          6541,
+          39
+        ],
+        [
+          9095,
+          28369,
+          31
+        ],
+        [
+          72903,
+          0,
+          199
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 3,
+      "stone_negative_fp_image_rate": 0.3333333333333333,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 3370,
+      "stone_negative_fp_pixel_fraction": 0.005713568793402778
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.5480230984517506,
+    "optimizer_update_steps": 175,
+    "learning_rate": 3.5203658778440106e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 240,
+    "sampled_label_pixels": {
+      "0": 18986583,
+      "1": 3824130,
+      "2": 126887,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7849992008485536,
+      "stone_iou": 0.6460894522841425,
+      "stone_precision": 0.8622637895812053,
+      "stone_recall": 0.7204427256967596,
+      "stone_tp": 27013,
+      "stone_fp": 4315,
+      "stone_fn": 10482,
+      "fiber_dice": 0.0,
+      "fiber_iou": 0.0,
+      "fiber_precision": null,
+      "fiber_recall": 0.0,
+      "fiber_tp": 0,
+      "fiber_fp": 0,
+      "fiber_fn": 73102,
+      "mean_dice": 0.3924996004242768,
+      "mean_iou": 0.32304472614207125,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1780376,
+          4315,
+          0
+        ],
+        [
+          10482,
+          27013,
+          0
+        ],
+        [
+          73102,
+          0,
+          0
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2222222222222222,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 1462,
+      "stone_negative_fp_pixel_fraction": 0.002478705512152778
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.5031251811129707,
+    "optimizer_update_steps": 175,
+    "learning_rate": 2.5750000000000013e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 251,
+    "sampled_label_pixels": {
+      "0": 18820999,
+      "1": 3971012,
+      "2": 145589,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7715251478826953,
+      "stone_iou": 0.6280349545234516,
+      "stone_precision": 0.9335024804029235,
+      "stone_recall": 0.6574476596879584,
+      "stone_tp": 24651,
+      "stone_fp": 1756,
+      "stone_fn": 12844,
+      "fiber_dice": 0.0010384357877765177,
+      "fiber_iou": 0.0005194876211568169,
+      "fiber_precision": 0.4470588235294118,
+      "fiber_recall": 0.0005198216191075484,
+      "fiber_tp": 38,
+      "fiber_fp": 47,
+      "fiber_fn": 73064,
+      "mean_dice": 0.3862817918352359,
+      "mean_iou": 0.3142772210723042,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1782916,
+          1756,
+          19
+        ],
+        [
+          12816,
+          24651,
+          28
+        ],
+        [
+          73064,
+          0,
+          38
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 27,
+      "stone_negative_fp_pixel_fraction": 4.57763671875e-05
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.5020146598986217,
+    "optimizer_update_steps": 175,
+    "learning_rate": 1.7378034985236535e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 252,
+    "sampled_label_pixels": {
+      "0": 19144552,
+      "1": 3648247,
+      "2": 144801,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7480001748481007,
+      "stone_iou": 0.5974443125480065,
+      "stone_precision": 0.8243833504624871,
+      "stone_recall": 0.684571276170156,
+      "stone_tp": 25668,
+      "stone_fp": 5468,
+      "stone_fn": 11827,
+      "fiber_dice": 0.00013673530779117785,
+      "fiber_iou": 6.837232835126968e-05,
+      "fiber_precision": 0.15625,
+      "fiber_recall": 6.839758146151952e-05,
+      "fiber_tp": 5,
+      "fiber_fp": 27,
+      "fiber_fn": 73097,
+      "mean_dice": 0.3740684550779459,
+      "mean_iou": 0.29875634243817883,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1779213,
+          5468,
+          10
+        ],
+        [
+          11810,
+          25668,
+          17
+        ],
+        [
+          73097,
+          0,
+          5
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2222222222222222,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 2373,
+      "stone_negative_fp_pixel_fraction": 0.004023234049479167
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.49377631979329245,
+    "optimizer_update_steps": 175,
+    "learning_rate": 1.0453658778440107e-05,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 244,
+    "sampled_label_pixels": {
+      "0": 19156001,
+      "1": 3642184,
+      "2": 139415,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7634853571015163,
+      "stone_iou": 0.6174495073603408,
+      "stone_precision": 0.8344561470095202,
+      "stone_recall": 0.7036404853980531,
+      "stone_tp": 26383,
+      "stone_fp": 5234,
+      "stone_fn": 11112,
+      "fiber_dice": 0.00016405993656349119,
+      "fiber_iou": 8.203669774945992e-05,
+      "fiber_precision": 0.14285714285714285,
+      "fiber_recall": 8.207709775382342e-05,
+      "fiber_tp": 6,
+      "fiber_fp": 36,
+      "fiber_fn": 73096,
+      "mean_dice": 0.38182470851903993,
+      "mean_iou": 0.3087657720290451,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1779441,
+          5234,
+          16
+        ],
+        [
+          11092,
+          26383,
+          20
+        ],
+        [
+          73096,
+          0,
+          6
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2222222222222222,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 3028,
+      "stone_negative_fp_pixel_fraction": 0.005133734809027778
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.47461544343403406,
+    "optimizer_update_steps": 175,
+    "learning_rate": 5.279499846691251e-06,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 260,
+    "sampled_label_pixels": {
+      "0": 19117695,
+      "1": 3678802,
+      "2": 141103,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7777380969387027,
+      "stone_iou": 0.6363105116757439,
+      "stone_precision": 0.8373938722775932,
+      "stone_recall": 0.7260168022402987,
+      "stone_tp": 27222,
+      "stone_fp": 5286,
+      "stone_fn": 10273,
+      "fiber_dice": 0.00027321284646804095,
+      "fiber_iou": 0.00013662508709849302,
+      "fiber_precision": 0.09900990099009901,
+      "fiber_recall": 0.00013679516292303904,
+      "fiber_tp": 10,
+      "fiber_fp": 91,
+      "fiber_fn": 73092,
+      "mean_dice": 0.3890056548925854,
+      "mean_iou": 0.3182235683814212,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1779382,
+          5286,
+          23
+        ],
+        [
+          10205,
+          27222,
+          68
+        ],
+        [
+          73092,
+          0,
+          10
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2222222222222222,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 2252,
+      "stone_negative_fp_pixel_fraction": 0.003818088107638889
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.4697050075020109,
+    "optimizer_update_steps": 175,
+    "learning_rate": 2.0816937636766186e-06,
+    "sampled_training_images": 350,
+    "sampled_fiber_images": 250,
+    "sampled_label_pixels": {
+      "0": 19308553,
+      "1": 3498029,
+      "2": 131018,
+      "255": 0
+    },
+    "sampled_fiber_unknown_background_pixels": 0,
+    "metrics": {
+      "stone_dice": 0.7735298285390393,
+      "stone_iou": 0.6306959977816804,
+      "stone_precision": 0.8252154195011338,
+      "stone_recall": 0.7279370582744366,
+      "stone_tp": 27294,
+      "stone_fp": 5781,
+      "stone_fn": 10201,
+      "fiber_dice": 0.0008468210066243256,
+      "fiber_iou": 0.0004235898557061653,
+      "fiber_precision": 0.2743362831858407,
+      "fiber_recall": 0.000424065005061421,
+      "fiber_tp": 31,
+      "fiber_fp": 82,
+      "fiber_fn": 73071,
+      "mean_dice": 0.3871883247728318,
+      "mean_iou": 0.31555979381869326,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1778878,
+          5781,
+          32
+        ],
+        [
+          10151,
+          27294,
+          50
+        ],
+        [
+          73071,
+          0,
+          31
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2222222222222222,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 3016,
+      "stone_negative_fp_pixel_fraction": 0.005113389756944444
+    },
+    "screening": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  }
+]

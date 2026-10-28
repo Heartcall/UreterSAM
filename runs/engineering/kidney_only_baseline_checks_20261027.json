@@ -1,0 +1,69 @@
+{
+  "checked_utc": "2026-10-27T12:24:13.584143+00:00",
+  "checks": {
+    "completed_frozen_15_epochs": true,
+    "job_comparison_completed": true,
+    "only_kidney_190_labeled_800_reserved": true,
+    "unlabeled_empty_and_no_pseudo_labels": true,
+    "reserved_files_absent_from_training_input_identity": true,
+    "single_network_imagenet_fresh_config": true,
+    "all_epochs_190_images_65_fiber_images_95_updates": true,
+    "source_and_launch_config_unchanged": true,
+    "all_active_input_bytes_unchanged": true,
+    "all_29_validation_images_and_masks_frozen": true,
+    "no_training_video_rows": true,
+    "a0_weights_and_all_same_grid_metrics_unchanged": true,
+    "old_mixed_manifest_still_rejected": true,
+    "review_status_not_promoted": true,
+    "selected_metrics_match_frozen_epoch": true
+  },
+  "all_passed": true,
+  "input_files_verified": 438,
+  "optimizer_updates": 1425,
+  "selected_epoch": 14,
+  "screening_passed": false,
+  "final_epoch_metrics": {
+    "stone_dice": 0.8110451643768034,
+    "stone_iou": 0.6821496831304698,
+    "stone_precision": 0.9228073756548956,
+    "stone_recall": 0.7234297906387518,
+    "stone_tp": 27125,
+    "stone_fp": 2269,
+    "stone_fn": 10370,
+    "fiber_dice": 0.9026727647649765,
+    "fiber_iou": 0.8226103716195868,
+    "fiber_precision": 0.873238536098821,
+    "fiber_recall": 0.9341604880851413,
+    "fiber_tp": 68289,
+    "fiber_fp": 9913,
+    "fiber_fn": 4813,
+    "mean_dice": 0.85685896457089,
+    "mean_iou": 0.7523800273750283,
+    "foreground_classes_with_defined_overlap": 2,
+    "confusion_matrix": [
+      [
+        1772601,
+        2200,
+        9890
+      ],
+      [
+        10347,
+        27125,
+        23
+      ],
+      [
+        4744,
+        69,
+        68289
+      ]
+    ],
+    "valid_pixels": 1895288,
+    "stone_negative_images": 9,
+    "stone_negative_images_with_fp": 1,
+    "stone_negative_fp_image_rate": 0.1111111111111111,
+    "stone_negative_valid_pixels": 589824,
+    "stone_negative_fp_pixels": 195,
+    "stone_negative_fp_pixel_fraction": 0.0003306070963541667
+  },
+  "interpretation": "Verification of experiment scope and reproducibility; not proof of clinical validity or independent-case performance"
+}

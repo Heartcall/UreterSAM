@@ -1,0 +1,442 @@
+{
+  "A0": {
+    "video_1": {
+      "stone_dice": 0.5836969560002087,
+      "stone_iou": 0.41212716337302074,
+      "stone_precision": 0.4219998994520135,
+      "stone_recall": 0.9462826221746238,
+      "stone_tp": 16788,
+      "stone_fp": 22994,
+      "stone_fn": 953,
+      "fiber_dice": 0.9910628586054646,
+      "fiber_iou": 0.9822840471861655,
+      "fiber_precision": 0.9914858203700148,
+      "fiber_recall": 0.9906402575528218,
+      "fiber_tp": 46464,
+      "fiber_fp": 399,
+      "fiber_fn": 439,
+      "mean_dice": 0.7873799073028367,
+      "mean_iou": 0.6972056052795931,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1222691,
+          22986,
+          399
+        ],
+        [
+          953,
+          16788,
+          0
+        ],
+        [
+          431,
+          8,
+          46464
+        ]
+      ],
+      "valid_pixels": 1310720,
+      "stone_negative_images": 7,
+      "stone_negative_images_with_fp": 4,
+      "stone_negative_fp_image_rate": 0.5714285714285714,
+      "stone_negative_valid_pixels": 458752,
+      "stone_negative_fp_pixels": 19317,
+      "stone_negative_fp_pixel_fraction": 0.04210771833147321
+    },
+    "video_2": {
+      "stone_dice": 0.3734548695783791,
+      "stone_iou": 0.22960006617312545,
+      "stone_precision": 0.2796232402347193,
+      "stone_recall": 0.5620633795686949,
+      "stone_tp": 11103,
+      "stone_fp": 28604,
+      "stone_fn": 8651,
+      "fiber_dice": 0.92966161975409,
+      "fiber_iou": 0.8685679565564121,
+      "fiber_precision": 0.9941754324958706,
+      "fiber_recall": 0.8730104202450475,
+      "fiber_tp": 22872,
+      "fiber_fp": 134,
+      "fiber_fn": 3327,
+      "mean_dice": 0.6515582446662346,
+      "mean_iou": 0.5490840113647688,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          509877,
+          28604,
+          134
+        ],
+        [
+          8651,
+          11103,
+          0
+        ],
+        [
+          3327,
+          0,
+          22872
+        ]
+      ],
+      "valid_pixels": 584568,
+      "stone_negative_images": 2,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 1.0,
+      "stone_negative_valid_pixels": 131072,
+      "stone_negative_fp_pixels": 26607,
+      "stone_negative_fp_pixel_fraction": 0.20299530029296875
+    }
+  },
+  "single15_seed42": {
+    "video_1": {
+      "stone_dice": 0.9000842068585034,
+      "stone_iou": 0.8183210137275607,
+      "stone_precision": 0.9281949934123848,
+      "stone_recall": 0.873626063919734,
+      "stone_tp": 15499,
+      "stone_fp": 1199,
+      "stone_fn": 2242,
+      "fiber_dice": 0.9366776659287415,
+      "fiber_iou": 0.8808971991986487,
+      "fiber_precision": 0.9179099895622276,
+      "fiber_recall": 0.9562288126559069,
+      "fiber_tp": 44850,
+      "fiber_fp": 4011,
+      "fiber_fn": 2053,
+      "mean_dice": 0.9183809363936224,
+      "mean_iou": 0.8496091064631047,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1240958,
+          1130,
+          3988
+        ],
+        [
+          2219,
+          15499,
+          23
+        ],
+        [
+          1984,
+          69,
+          44850
+        ]
+      ],
+      "valid_pixels": 1310720,
+      "stone_negative_images": 7,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.14285714285714285,
+      "stone_negative_valid_pixels": 458752,
+      "stone_negative_fp_pixels": 195,
+      "stone_negative_fp_pixel_fraction": 0.00042506626674107144
+    },
+    "video_2": {
+      "stone_dice": 0.7165485362095532,
+      "stone_iou": 0.5582981175566654,
+      "stone_precision": 0.9157214870825456,
+      "stone_recall": 0.5885390300698593,
+      "stone_tp": 11626,
+      "stone_fp": 1070,
+      "stone_fn": 8128,
+      "fiber_dice": 0.844040331292762,
+      "fiber_iou": 0.730164169340519,
+      "fiber_precision": 0.798848028356225,
+      "fiber_recall": 0.8946524676514371,
+      "fiber_tp": 23439,
+      "fiber_fp": 5902,
+      "fiber_fn": 2760,
+      "mean_dice": 0.7802944337511576,
+      "mean_iou": 0.6442311434485921,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          531643,
+          1070,
+          5902
+        ],
+        [
+          8128,
+          11626,
+          0
+        ],
+        [
+          2760,
+          0,
+          23439
+        ]
+      ],
+      "valid_pixels": 584568,
+      "stone_negative_images": 2,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": 0.0,
+      "stone_negative_valid_pixels": 131072,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": 0.0
+    }
+  },
+  "single15_seed123": {
+    "video_1": {
+      "stone_dice": 0.8370786516853933,
+      "stone_iou": 0.7198067632850241,
+      "stone_precision": 0.8427698108895618,
+      "stone_recall": 0.8314638408206978,
+      "stone_tp": 14751,
+      "stone_fp": 2752,
+      "stone_fn": 2990,
+      "fiber_dice": 0.9083208224380835,
+      "fiber_iou": 0.832040072859745,
+      "fiber_precision": 0.851013488337432,
+      "fiber_recall": 0.9739035882566147,
+      "fiber_tp": 45679,
+      "fiber_fp": 7997,
+      "fiber_fn": 1224,
+      "mean_dice": 0.8726997370617384,
+      "mean_iou": 0.7759234180723846,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1235556,
+          2745,
+          7775
+        ],
+        [
+          2768,
+          14751,
+          222
+        ],
+        [
+          1217,
+          7,
+          45679
+        ]
+      ],
+      "valid_pixels": 1310720,
+      "stone_negative_images": 7,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 0.2857142857142857,
+      "stone_negative_valid_pixels": 458752,
+      "stone_negative_fp_pixels": 1205,
+      "stone_negative_fp_pixel_fraction": 0.0026266915457589285
+    },
+    "video_2": {
+      "stone_dice": 0.7402616492723798,
+      "stone_iou": 0.5876312718786464,
+      "stone_precision": 0.8828272912137999,
+      "stone_recall": 0.637339273058621,
+      "stone_tp": 12590,
+      "stone_fp": 1671,
+      "stone_fn": 7164,
+      "fiber_dice": 0.8787526597171312,
+      "fiber_iou": 0.783727754034573,
+      "fiber_precision": 0.8265944564047363,
+      "fiber_recall": 0.9379365624642162,
+      "fiber_tp": 24573,
+      "fiber_fp": 5155,
+      "fiber_fn": 1626,
+      "mean_dice": 0.8095071544947555,
+      "mean_iou": 0.6856795129566097,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          531789,
+          1671,
+          5155
+        ],
+        [
+          7164,
+          12590,
+          0
+        ],
+        [
+          1626,
+          0,
+          24573
+        ]
+      ],
+      "valid_pixels": 584568,
+      "stone_negative_images": 2,
+      "stone_negative_images_with_fp": 2,
+      "stone_negative_fp_image_rate": 1.0,
+      "stone_negative_valid_pixels": 131072,
+      "stone_negative_fp_pixels": 388,
+      "stone_negative_fp_pixel_fraction": 0.002960205078125
+    }
+  },
+  "single30_seed42": {
+    "video_1": {
+      "stone_dice": 0.8950171978205947,
+      "stone_iou": 0.8099829210511817,
+      "stone_precision": 0.9728692429857068,
+      "stone_recall": 0.8287018770080604,
+      "stone_tp": 14702,
+      "stone_fp": 410,
+      "stone_fn": 3039,
+      "fiber_dice": 0.9451379653326479,
+      "fiber_iou": 0.8959825401534093,
+      "fiber_precision": 0.9931651634723788,
+      "fiber_recall": 0.9015414792230774,
+      "fiber_tp": 42285,
+      "fiber_fp": 291,
+      "fiber_fn": 4618,
+      "mean_dice": 0.9200775815766213,
+      "mean_iou": 0.8529827306022955,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1245408,
+          377,
+          291
+        ],
+        [
+          3039,
+          14702,
+          0
+        ],
+        [
+          4585,
+          33,
+          42285
+        ]
+      ],
+      "valid_pixels": 1310720,
+      "stone_negative_images": 7,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": 0.0,
+      "stone_negative_valid_pixels": 458752,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": 0.0
+    },
+    "video_2": {
+      "stone_dice": 0.6809452050402386,
+      "stone_iou": 0.5162372386971318,
+      "stone_precision": 0.9286401399212942,
+      "stone_recall": 0.53756201275691,
+      "stone_tp": 10619,
+      "stone_fp": 816,
+      "stone_fn": 9135,
+      "fiber_dice": 0.9145755582589332,
+      "fiber_iou": 0.8425971657611793,
+      "fiber_precision": 0.9945291479820628,
+      "fiber_recall": 0.846520859574793,
+      "fiber_tp": 22178,
+      "fiber_fp": 122,
+      "fiber_fn": 4021,
+      "mean_dice": 0.797760381649586,
+      "mean_iou": 0.6794172022291556,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          537677,
+          816,
+          122
+        ],
+        [
+          9135,
+          10619,
+          0
+        ],
+        [
+          4021,
+          0,
+          22178
+        ]
+      ],
+      "valid_pixels": 584568,
+      "stone_negative_images": 2,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": 0.0,
+      "stone_negative_valid_pixels": 131072,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": 0.0
+    }
+  },
+  "dual15": {
+    "video_1": {
+      "stone_dice": 0.881280130103967,
+      "stone_iou": 0.7877576449820881,
+      "stone_precision": 0.9089438686874738,
+      "stone_recall": 0.8552505495744321,
+      "stone_tp": 15173,
+      "stone_fp": 1520,
+      "stone_fn": 2568,
+      "fiber_dice": 0.936204212078997,
+      "fiber_iou": 0.8800600855062974,
+      "fiber_precision": 0.9009680408509296,
+      "fiber_recall": 0.9743086796153764,
+      "fiber_tp": 45698,
+      "fiber_fp": 5023,
+      "fiber_fn": 1205,
+      "mean_dice": 0.908742171091482,
+      "mean_iou": 0.8339088652441928,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1239631,
+          1504,
+          4941
+        ],
+        [
+          2486,
+          15173,
+          82
+        ],
+        [
+          1189,
+          16,
+          45698
+        ]
+      ],
+      "valid_pixels": 1310720,
+      "stone_negative_images": 7,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.14285714285714285,
+      "stone_negative_valid_pixels": 458752,
+      "stone_negative_fp_pixels": 442,
+      "stone_negative_fp_pixel_fraction": 0.0009634835379464286
+    },
+    "video_2": {
+      "stone_dice": 0.7311473407828052,
+      "stone_iou": 0.5762271414821944,
+      "stone_precision": 0.9210769230769231,
+      "stone_recall": 0.6061557152981675,
+      "stone_tp": 11974,
+      "stone_fp": 1026,
+      "stone_fn": 7780,
+      "fiber_dice": 0.8802605577106053,
+      "fiber_iou": 0.7861298124060396,
+      "fiber_precision": 0.845394158788177,
+      "fiber_recall": 0.9181266460551929,
+      "fiber_tp": 24054,
+      "fiber_fp": 4399,
+      "fiber_fn": 2145,
+      "mean_dice": 0.8057039492467053,
+      "mean_iou": 0.681178476944117,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          533190,
+          1026,
+          4399
+        ],
+        [
+          7780,
+          11974,
+          0
+        ],
+        [
+          2145,
+          0,
+          24054
+        ]
+      ],
+      "valid_pixels": 584568,
+      "stone_negative_images": 2,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": 0.0,
+      "stone_negative_valid_pixels": 131072,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": 0.0
+    }
+  }
+}

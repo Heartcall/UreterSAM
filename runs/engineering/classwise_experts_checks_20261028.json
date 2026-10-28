@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "frozen_config_sources_related_and_checkpoints_unchanged": true,
+    "validation_inputs_unchanged": true,
+    "only161_validation_images_and_masks_in_pixel_input_inventory": true,
+    "dataset_counts_unchanged": true,
+    "no_training_or_default_change": true,
+    "initial_screening_passed_but_no_adoption": true,
+    "video_native_shapes_and_class_values": true,
+    "video_hard_policy_pixel_exact": true,
+    "video_fiber_identical_to_a0_stone_subset_of_old190": true,
+    "video_independent_numpy_confusions_all_four_models": true,
+    "video_reviewed_negative_counts_reproduced": true,
+    "video_conflict_partitions_recomputed": true,
+    "image_native_shapes_and_class_values": true,
+    "image_hard_policy_pixel_exact": true,
+    "image_fiber_identical_to_a0_stone_subset_of_old190": true,
+    "image_independent_numpy_confusions_all_four_models": true,
+    "image_reviewed_negative_counts_reproduced": true,
+    "image_conflict_partitions_recomputed": true,
+    "image25_107_cohorts_disjoint_complete": true,
+    "historical_exposure_recomputed_from_raw_hashes": true,
+    "a0_old190_native_video_references_reproduced": true,
+    "joint_cached_references_exact": true,
+    "fresh_gates_and_pass_recomputed": true,
+    "all_four_costs_full_model_counts12warm87samples": true,
+    "latency_percentiles_recomputed": true,
+    "snapshot_unique_entries_and_source_hashes": true
+  },
+  "all_passed": true,
+  "new_unit_tests": {
+    "passed": 3,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_classwise_experts.py -v",
+    "evidence": "All three passed before control execution; no full-suite rerun claimed"
+  },
+  "details": {
+    "video": {
+      "conflicts_by_reference": {
+        "0": 3,
+        "1": 0,
+        "2": 113,
+        "255": 0
+      }
+    },
+    "image": {
+      "conflicts_by_reference": {
+        "0": 11824,
+        "1": 17332,
+        "2": 1597,
+        "255": 0
+      }
+    }
+  },
+  "scope": "Export correctness and frozen controls only; no temporal, clinical or independent-case validation"
+}

@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "completed_two_fixed15_epoch_arms": true,
+    "only_input_size_differs_in_training_config": true,
+    "native_validation_for_both_arms": true,
+    "identical_data_sources_and_runtime": true,
+    "source_configuration_encoder438_inputs_frozen": true,
+    "kidney190_reserved800_not_read": true,
+    "no_video_unlabeled_pseudo_training": true,
+    "same1425_updates2850_exposures": true,
+    "unet256_weights_losses_and_sampling_exactly_replay": true,
+    "legacy_a0_and_unet256_metrics_preserved": true,
+    "native_a0_reference_reproduced": true,
+    "native_gates_derived_and_frozen_before_training": true,
+    "native_mask_geometry_and_confusion_match": true,
+    "same_native_gt_pixels_for_all_models": true,
+    "final_native_metrics_equal_last_epoch": true,
+    "fresh_process87_frame12_warmup_cost": true,
+    "parameter_count_same_for_input_resolution": true,
+    "same_native_area_group_counts": true,
+    "source_review_status_not_promoted": true
+  },
+  "all_passed": true,
+  "tests": {
+    "total": 74,
+    "passed": 72,
+    "skipped": [
+      [
+        "test_context_stream_is_jpeg_without_browser_codec_dependency (test_review_workspace.ReviewWorkspaceTests.test_context_stream_is_jpeg_without_browser_codec_dependency)",
+        "Known sandbox loopback WinError10013; unchanged HTTP tests"
+      ],
+      [
+        "test_filters_and_loopback_http (test_review_workspace.ReviewWorkspaceTests.test_filters_and_loopback_http)",
+        "Known sandbox loopback WinError10013; unchanged HTTP tests"
+      ]
+    ],
+    "errors": [],
+    "failures": []
+  },
+  "scope": "Common-native protocol and matched-update verification, not independent or clinical validation"
+}

@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "all_three_fresh_process_results_match_checkpoints": true,
+    "same87_measurements12_warmup": true,
+    "visualization_confusions_match_primary": true,
+    "small_stone_group_kept_undefined": true,
+    "core_source_still_matches_training": true
+  },
+  "all_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "pid": 35536,
+  "experiment": "A1_SUP_BG_seed42_screen5_20261027",
+  "config_sha256": "cdf417c57916aca4e7642efb177cd010abcbd988aa8035affd82e5c6e0a12f27",
+  "planned_epochs": 5,
+  "mode": "supervised_single_network",
+  "model_count": 1,
+  "unlabeled_images_used": 0,
+  "training_video_frames": 0,
+  "validation_frames": 29,
+  "phase": "completed_short_screen",
+  "screening_passed": false,
+  "best_checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_bg_screen_20261027\\training\\best.pt"
+}

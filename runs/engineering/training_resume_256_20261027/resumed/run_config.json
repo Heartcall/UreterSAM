@@ -1,0 +1,74 @@
+{
+  "schema_version": 2,
+  "config": {
+    "epochs": 2,
+    "size": 256,
+    "batch_size": 2,
+    "learning_rate": 0.0001,
+    "device": "cuda:0",
+    "workers": 0,
+    "pretrained": false,
+    "class_weights": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "confidence_threshold": 0.85,
+    "uncertainty_quantile": 0.8,
+    "dice_weight": 1.0,
+    "seed": 42,
+    "use_temporal": false,
+    "deterministic_algorithms": true,
+    "drop_last": true,
+    "scheduler": "CosineAnnealingLR",
+    "weight_decay": 0.0001,
+    "selection_metric": "global_foreground_mean_dice_defined_classes"
+  },
+  "inputs": {
+    "manifest_sha256": "5eb25cc7bec3fb9faa80e24a41118ded05361530f00fcf31c7d678a07eeec9dc",
+    "files": {
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\image_0.png": "ef4519c96607feb28b130f2f225fd21574baa7c73c0f320ebfdd7e7ca353cb7d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\mask_0.png": "762f6fe6e4ce6404ab50f97a7d085691f4629cde3a6f6a9d3126e8a9c08bf700",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\image_1.png": "821cf6333094a27340217cb05e3b34ca45cd6983adabbc86a94feb3feaab77c9",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\mask_1.png": "d94b0a49cfe85dc85edc2491c96c4d68e4ee219f44583945d13bfce9ae149c06",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\image_2.png": "2ac6735a9e0c3e08cb6b50aeda04577f8a5a1f94bfda42c937e2d05b6509db40",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\image_3.png": "d0a339b6af26c4cf733210c523bc6912b67b5578c9211079b4d3276dd39d4263",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\image_4.png": "cb5d0f848ca432f02c131455febf2cf2b0784d1da8c294d38e252308a877ec88",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\mask_4.png": "762f6fe6e4ce6404ab50f97a7d085691f4629cde3a6f6a9d3126e8a9c08bf700",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\image_5.png": "b15135446126a98c92c1c69deb56f326145d1284434819d85ecca4d1e988a1d1",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_256_20261027\\synthetic_data\\mask_5.png": "d94b0a49cfe85dc85edc2491c96c4d68e4ee219f44583945d13bfce9ae149c06"
+    },
+    "test_pixels_read": false
+  },
+  "runtime": {
+    "python": "3.11.17",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "smp": "0.4.0",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "cpu_threads": 16,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "source_hashes": {
+    "ureter_semis\\__init__.py": "e1c8923f1b3aacec08d84476b241ff1ca7f7541985bc9161a7d311f88c8b8a39",
+    "ureter_semis\\data.py": "25e41253e416160e3af8cc9794f47db7698f3cb9ff51e34c9e1c5891f4b7a2f7",
+    "ureter_semis\\demo.py": "72cb2437d1159a3b03b3ea250d81a534132bad48d266358b7b66c4c16d950cc2",
+    "ureter_semis\\depth_anything_v2_infer.py": "0996260bc9fa4a48571318d2813c561928014235fa122576cff041dbb26791a9",
+    "ureter_semis\\experiment.py": "a31d65fa4620d46fe51241ce190c730c488ad277e1d7c20cd174b7fa51af7ff2",
+    "ureter_semis\\inference.py": "87713a8c9502e20bac5a1536d3763021661e25793831925357f2de9f51970d30",
+    "ureter_semis\\labels.py": "2fc8c81db03d2060b031d39fb0e5311615d5b51d519a6c597ef0e3c19f229bbb",
+    "ureter_semis\\losses.py": "c696eb13ce92b16e7b7374fea133e4aab604878b30cb0ae1f39fb239b6cf4172",
+    "ureter_semis\\metrics.py": "521cbe743c35a3a36ad8c46951e52d1ff784dc6ebe61d03f0616b1ad97bf364c",
+    "ureter_semis\\model.py": "ad328052524f172010696428e0bf961b45e12ed294c80bdd86023ceee12fa488",
+    "ureter_semis\\trainer.py": "4934e6b2f857954081e89e03483d652ff09ea057155113b45a9ad751ad994fbf",
+    "ureter_semis\\video_metrics.py": "f857c980eab7e35710d8f7b81daafcdf8bac3bf7b9863ce4d927f3099ec5c5bb",
+    "third_party\\Endo-SemiS\\src\\models\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party\\Endo-SemiS\\src\\models\\unet.py": "bcb33a7a4083625814e5f1df93cdbf007d0616f59ba622c8619a38f5844369ef",
+    "third_party\\Endo-SemiS\\src\\models\\unet_encoder.py": "4a3efbc4a2a5c32d6fe84e0c53a5b5ee6ff2b8acd44053c8e795eee174a274ec",
+    "third_party\\Endo-SemiS\\src\\models\\unet_parts.py": "0a7e732e00c7ca5eba52deabb550f8a7ef3e83a71b684298e66b6b4625d17931"
+  }
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>UreterSAM 标注复核</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><div><strong>UreterSAM</strong><span>标注复核工作台</span></div><span class="pill">仅本地保存</span></header>
+<main>
+<aside>
+ <h2>待复核样本</h2>
+ <label>样本来源<select id="kind"><option value="video">视频关键帧</option><option value="dataset">训练数据草稿</option></select></label>
+ <label>筛选<select id="filter"><option value="all">全部</option><option value="pending">待审</option><option value="labels_pending">标签待审</option><option value="negative_pending">无结石候选 · 标签待审</option><option value="negative">全部无结石标注候选</option><option value="spot">光斑无光纤标注</option><option value="unknown">含未知类别</option></select></label>
+ <p id="count" class="muted"></p><select id="items" size="13" aria-label="样本列表"></select>
+ <div class="row"><button id="previous">上一帧</button><button id="next">下一帧</button></div>
+ <p class="hint">预标注用于修订，未经审核不能作为真值。来源线索不代表来源已经核实。</p>
+</aside>
+<section class="workspace">
+ <div class="title"><h1 id="title">正在载入…</h1><span id="reviewState" class="pill">待审</span></div>
+ <div class="toolbar">
+  <div class="labels" role="group" aria-label="画笔类别"><button data-label="1" class="stone active">结石 · 1</button><button data-label="2" class="fiber">光纤 · 2</button><button data-label="0">背景 · 0</button><button data-label="255" class="unknown">未知 · X</button></div>
+  <label>工具<select id="tool"><option value="brush">画笔</option><option value="polygon">多边形</option></select></label>
+  <label>画笔大小<input id="radius" type="range" min="1" max="50" value="8"></label>
+  <button id="undo">撤销</button><button id="finishPolygon">完成多边形</button><button id="play">查看上下文视频</button>
+ </div>
+ <div class="viewer"><canvas id="canvas" aria-label="可编辑分割掩膜"></canvas></div>
+ <div class="row display"><label><input type="checkbox" id="overlay" checked>显示标注</label><label><input type="checkbox" id="instanceColors">显示实例颜色</label><label>透明度<input id="opacity" type="range" min="0" max="90" value="42"></label></div>
+ <img id="preview" alt="上下文片段逐帧回放" hidden>
+ <p id="hint" class="hint">画笔拖动修改；多边形逐点点击后选择“完成多边形”。Ctrl+Z 撤销。</p>
+ <div id="status" role="status" aria-live="polite">尚无修改</div>
+</section>
+<aside class="review">
+ <h2>审核记录</h2><p id="flags" class="hint"></p>
+ <label>审核人<input id="reviewer" placeholder="姓名或可追溯标识" autocomplete="off"></label>
+ <label>可见结石<select id="presence"><option value="unknown">未知 / 未复核</option><option value="present">存在</option><option value="absent">确认不存在</option></select></label>
+ <label>光纤标注完整性<select id="fiber"><option value="unknown">未复核</option><option value="complete">完整 / 确认无光纤</option><option value="incomplete">不完整</option></select></label>
+ <details id="sourceFields"><summary>训练数据来源</summary><p id="sourceHint" class="hint"></p><label>病例标识<input id="patient"></label><label>原视频标识<input id="sourceVideo"></label><label><input id="verified" type="checkbox">已核实原病例或视频来源</label></details>
+ <details id="instanceFields"><summary>跨帧实例与遮挡</summary><p class="hint">同一视频中的同一结石使用同一编号。不同可见片区可用同一编号；不要把光纤涂成结石。</p><label>结石画笔同时赋予实例编号<input id="paintId" type="number" min="0" max="65534" value="0"></label><p class="hint">0 表示暂不指定。实例颜色可帮助检查身份。</p><div id="tracks"></div><button id="addTrack">添加实例状态</button><label><input id="approveInstances" type="checkbox">实例身份及遮挡状态已审核</label></details>
+ <label>备注<textarea id="note" rows="3" placeholder="歧义、遮挡、碎裂或修正依据"></textarea></label>
+ <div class="actions"><button id="save">保存待审修订</button><button id="approveLabels" class="primary" hidden>确认标签，保留来源待审</button><button id="approve" class="primary">审核通过并保存</button><button id="reject" class="danger">排除该样本</button></div>
+ <p class="hint">完全遮挡不等于真正无结石，存在性不确定时请保留“未知”。来源未核实的训练样本可保存待审，不能批准进入训练。</p>
+</aside>
+</main><script src="/app.js"></script></body></html>

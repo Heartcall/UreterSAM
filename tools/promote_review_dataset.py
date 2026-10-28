@@ -62,6 +62,8 @@ def promote(manifest_path: str | Path, reviews_path: str | Path, output_path: st
             raise ValueError(f"Source image changed after audit: {sid}")
         corrected = decision.get("corrected_mask", "").strip()
         mask_path = (reviews_path.parent / corrected).resolve() if corrected else root / record["mask"]
+        if corrected and decision.get("corrected_mask_sha256") and sha256(mask_path) != decision["corrected_mask_sha256"]:
+            raise ValueError(f"Corrected mask changed after review: {sid}")
         if not corrected and sha256(mask_path) != record["mask_sha256"]:
             raise ValueError(f"Mask changed without an explicit correction record: {sid}")
         mask = read_class_mask(mask_path)

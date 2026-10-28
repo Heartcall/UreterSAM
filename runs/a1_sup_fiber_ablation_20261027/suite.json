@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_SUP_FIBER_single_factor_20261027",
+  "arms": [
+    {
+      "name": "control",
+      "config": "train_a1_sup_fiber_control_20261027.json",
+      "factor": "strict source masks, weights 1/2/4, uniform; matched 15-epoch control"
+    },
+    {
+      "name": "fiber_weight",
+      "config": "train_a1_sup_fiber_fiber_weight_20261027.json",
+      "factor": "only fiber class weight changes from 4 to 32 (CE and Dice)"
+    },
+    {
+      "name": "fiber_sampling",
+      "config": "train_a1_sup_fiber_fiber_sampling_20261027.json",
+      "factor": "only fiber-positive image sampling mass changes to 70%"
+    },
+    {
+      "name": "classwise_partial",
+      "config": "train_a1_sup_fiber_classwise_partial_20261027.json",
+      "factor": "only fiber background validity changes; background retains stone-negative supervision"
+    }
+  ],
+  "fixed": {
+    "training_images": 350,
+    "unlabeled_images": 0,
+    "validation_frames": 29,
+    "validation_only_videos": [
+      "video_1",
+      "video_2"
+    ],
+    "epochs": 15,
+    "updates_per_epoch": 175,
+    "seed": 42,
+    "size": 256,
+    "initialization": "ImageNet, random decoder; no prior experiment checkpoint"
+  },
+  "source_partial_assumption": "stone_new may label fiber tip only; backgrounds of this source and images without fiber annotation are unknown for fiber but known provisional non-stone. No pixels automatically relabeled as fiber.",
+  "evidence": "runs/a1_sup_fiber_diagnosis_20261027/diagnosis.json; fiber_label_extent.png",
+  "primary_endpoint": "All final-epoch metrics plus unchanged A0 gates; report earlier stop explicitly; no independent test claim",
+  "scope": "Development only; original provided labels/case provenance remain unreviewed"
+}

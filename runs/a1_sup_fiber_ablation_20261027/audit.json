@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-10-27T11:40:38.106701+00:00",
+  "checks": {
+    "same_active_input_bytes": true,
+    "same_frozen_core_sources": true,
+    "same_epoch_budget": true,
+    "all_fifteen_epochs_completed": true,
+    "all_a0_metrics_unchanged": true,
+    "no_validation_video_training": true,
+    "no_default_weights_changed": true
+  },
+  "active_files_per_arm": 758,
+  "control_config_differences": {
+    "control": {},
+    "fiber_weight": {
+      "class_weights": [
+        [
+          1.0,
+          2.0,
+          4.0
+        ],
+        [
+          1.0,
+          2.0,
+          32.0
+        ]
+      ]
+    },
+    "fiber_sampling": {
+      "sampling_strategy": [
+        "uniform",
+        "fiber_balanced"
+      ],
+      "fiber_image_fraction": [
+        null,
+        0.7
+      ]
+    },
+    "classwise_partial": {
+      "fiber_background_policy": [
+        "strict_source",
+        "source_partial"
+      ]
+    }
+  },
+  "tests": {
+    "total": 56,
+    "passed": 54,
+    "skipped": 2,
+    "skip_reason": "Two unchanged loopback HTTP tests: sandbox socket denied in prior runs",
+    "errors": 0,
+    "failures": 0,
+    "evidence": "fiber_ablation_tests_20261027.log",
+    "note": "Tests completed successfully; JSON summary serialization corrected after run without rerunning tests."
+  },
+  "next_stage_allowed": false
+}

@@ -1,0 +1,11 @@
+{
+  "source_url": "https://github.com/qubvel/segmentation_models.pytorch/releases/download/v0.0.2/mit_b0.pth",
+  "source": "SMP0.4.0 mit_b0 ImageNet registry; official SMP release asset",
+  "download_date": "2026-10-28",
+  "bytes": 14331578,
+  "sha256": "df468f7f13c4186f25bd3e2caf09e4f927b5b5ac0abccac84011dae747d4c49c",
+  "tensor_entries": 178,
+  "weights_only_load_verified": true,
+  "finite_tensors_verified": true,
+  "scope": "ImageNet encoder initialization only; no surgical pseudo labels or segmentation checkpoint warmstart"
+}

@@ -1,0 +1,49 @@
+{
+  "checked_utc": "2026-10-27T08:45:10.627697+00:00",
+  "checks": {
+    "both_videos_absent_from_all_training_rows": true,
+    "raw_training_pool_unchanged": true,
+    "same_350_raw_supervised_images": true,
+    "all_29_reviewed_frames_in_validation": true,
+    "training_inputs_identical_to_new_launch": true,
+    "core_sources_identical_to_new_launch": true,
+    "new_initialization_without_previous_checkpoint": true,
+    "old_run_retired": true,
+    "old_progress_has_not_resumed": true,
+    "original_a0_unchanged": true
+  },
+  "training_counts": {
+    "raw_train_pool": 2019,
+    "provisional_labeled": 350,
+    "unlabeled": 1669,
+    "reviewed_train": 0,
+    "reviewed_train_positive": 0,
+    "reviewed_train_negative": 0,
+    "reviewed_validation": 29,
+    "excluded": {
+      "raw_validation_or_test_groups": 828
+    }
+  },
+  "targeted_tests": {
+    "passed": 3,
+    "failed": 0
+  },
+  "full_suite_before_final_retirement_test": {
+    "passed": 46,
+    "errors": 2,
+    "environment_blocked_tests": [
+      "test_context_stream_is_jpeg_without_browser_codec_dependency",
+      "test_filters_and_loopback_http"
+    ],
+    "reason": "Sandbox denied loopback sockets (WinError 10013); unchanged review HTTP tests"
+  },
+  "current_progress": {
+    "state": "training",
+    "epoch": 1,
+    "planned_epochs": 60,
+    "step": 451,
+    "steps_per_epoch": 834,
+    "loss": 1.5159441232681274,
+    "epoch_elapsed_s": 123.13031709997449
+  }
+}

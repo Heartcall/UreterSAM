@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -9,6 +10,8 @@ import cv2
 from PIL import Image, ImageDraw
 
 from .evaluate_video import render, save_png
+from .video_frames import read_forward
+from ureter_semis.inference import file_sha256
 
 
 def build(config_path: str | Path, events_path: str | Path, output_path: str | Path) -> Path:
@@ -21,6 +24,8 @@ def build(config_path: str | Path, events_path: str | Path, output_path: str | P
     for case in annotations["cases"]:
         item = inputs[case["video_id"]]
         source = Path(item["path"])
+        if file_sha256(source) != item["sha256"]:
+            raise ValueError(f"Source video changed: {source}")
         reference = cv2.VideoCapture(case["reference_video"])
         if not reference.isOpened() or int(reference.get(7)) != item["frames"]:
             reference.release()
@@ -54,12 +59,12 @@ def build(config_path: str | Path, events_path: str | Path, output_path: str | P
             for part in range(parts):
                 split_windows.append((start+(end-start)*part//parts, start+(end-start)*(part+1)//parts))
         cap = cv2.VideoCapture(str(source))
+        next_index = 0
         try:
             for ci, (start, end) in enumerate(split_windows):
                 sid = f"{case['video_id']}_{ci:02d}"
                 directory = output / sid
                 directory.mkdir()
-                cap.set(cv2.CAP_PROP_POS_FRAMES, start)
                 writer = cv2.VideoWriter(str(directory / "preview.mp4"), cv2.VideoWriter_fourcc(*"mp4v"),
                                         fps, (item["width"]*2, item["height"]))
                 if not writer.isOpened():
@@ -69,11 +74,10 @@ def build(config_path: str | Path, events_path: str | Path, output_path: str | P
                     a, b = event["start_frame_zero_based"], event["end_frame_exclusive"]
                     frame_samples.update(idx for idx in (a, (a+b)//2, b-1) if start <= idx < end)
                 frame_samples = sorted(frame_samples)
+                keyframe_hashes = {}
                 try:
                     for idx in range(start, end):
-                        ok, frame = cap.read()
-                        if not ok:
-                            raise RuntimeError("Unexpected end of video")
+                        frame, next_index = read_forward(cap, next_index, idx)
                         mask_path = config_path.parent / "predictions" / case["video_id"] / "pred_masks" / f"{idx:06d}.png"
                         mask = cv2.imread(str(mask_path), cv2.IMREAD_GRAYSCALE)
                         if mask is None:
@@ -81,6 +85,7 @@ def build(config_path: str | Path, events_path: str | Path, output_path: str | P
                         canvas = render(frame, mask, idx)
                         writer.write(canvas)
                         if idx in frame_samples:
+                            keyframe_hashes[str(idx)] = hashlib.sha256(frame.tobytes()).hexdigest()
                             save_png(directory / f"frame_{idx:06d}.png", frame)
                             save_png(directory / f"prediction_{idx:06d}.png", canvas)
                             seed = cv2.resize(mask, (item["width"], item["height"]), interpolation=cv2.INTER_NEAREST)
@@ -92,7 +97,9 @@ def build(config_path: str | Path, events_path: str | Path, output_path: str | P
                                 "case_identity_evidence": case["case_identity_evidence"],
                                 "independence_from_training_data": "unverified", "role": "development_review",
                                 "start_frame": start, "end_frame_exclusive": end, "fps": fps,
-                                "source": str(source), "preview": f"{sid}/preview.mp4", "events": included,
+                                "source": str(source), "source_sha256": item["sha256"],
+                                "decoded_keyframe_bgr_sha256": keyframe_hashes,
+                                "preview": f"{sid}/preview.mp4", "events": included,
                                 "pixel_ground_truth_available": False, "review_status": "pixel_annotation_pending",
                                 "representative_frame": (start+end)//2,
                                 "annotation_frames_zero_based": frame_samples})
@@ -100,6 +107,7 @@ def build(config_path: str | Path, events_path: str | Path, output_path: str | P
             cap.release()
     result = {"schema_version": 1, "clips": records, "source_events": str(events_path),
               "coordinate_system": "raw_source_pixels", "frame_indexing": "zero_based_end_exclusive",
+              "frame_decoding": "sequential_from_frame_zero_no_random_seek",
               "prediction_coordinate_system": "raw_model_grid_resized_for_preview_only",
               "notes": ["Two distinct cases confirmed by user; independence from training images not established.",
                         "Event labels do not supply pixel masks or certify complete intervals as false positives."]}

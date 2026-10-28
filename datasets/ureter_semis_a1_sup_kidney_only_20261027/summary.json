@@ -1,0 +1,20 @@
+{
+  "raw_train_pool": 990,
+  "provisional_labeled": 190,
+  "unlabeled": 0,
+  "reviewed_train": 0,
+  "reviewed_train_positive": 0,
+  "reviewed_train_negative": 0,
+  "reviewed_validation": 29,
+  "supervised_training": 190,
+  "unlabeled_used": 0,
+  "reserved_unlabeled": 800,
+  "removed_stone_new": {
+    "labeled": 160,
+    "unlabeled": 0,
+    "reserved_unlabeled": 869
+  },
+  "historical_exclusions_before_source_policy": {
+    "raw_validation_or_test_groups": 828
+  }
+}

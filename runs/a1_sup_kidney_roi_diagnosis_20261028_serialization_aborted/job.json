@@ -1,0 +1,8 @@
+{
+  "phase": "aborted",
+  "pid": 36780,
+  "training_updates": 0,
+  "training_video_frames": 0,
+  "reason": "NumPy ROI coordinates require conversion to native integer for JSON output; native coarse masks matched reference",
+  "refiner_trained": false
+}

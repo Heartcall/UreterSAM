@@ -8,7 +8,7 @@ import numpy as np
 import torch
 
 from .data import MEAN, STD
-from .model import build_model
+from .model import build_model, ensemble_logits
 
 
 COLORS = {1: (40, 40, 235), 2: (235, 210, 20)}  # BGR: stone red, fiber cyan
@@ -506,9 +506,9 @@ def run_demo(
     device = torch.device(device_name if torch.cuda.is_available() else "cpu")
     checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     size = int(checkpoint.get("size", 320))
-    models = (build_model(pretrained=False).to(device), build_model(pretrained=False).to(device))
-    models[0].load_state_dict(checkpoint["model1"])
-    models[1].load_state_dict(checkpoint["model2"])
+    models = tuple(build_model(pretrained=False).to(device) for _ in range(checkpoint.get("model_count", 2)))
+    for index, model in enumerate(models, 1):
+        model.load_state_dict(checkpoint[f"model{index}"])
     for model in models:
         model.eval()
 
@@ -541,7 +541,7 @@ def run_demo(
             if not ok:
                 break
             tensor = _preprocess(frame, size, device)
-            logits = (models[0](tensor) + models[1](tensor)) / 2
+            logits = ensemble_logits(models, tensor)
             probabilities = torch.softmax(logits, dim=1)
             _, prediction = probabilities.max(dim=1)
             prediction = prediction.squeeze(0).cpu().numpy()
@@ -640,9 +640,9 @@ def run_image_measurement(
     device = torch.device(device_name if torch.cuda.is_available() else "cpu")
     checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     size = int(checkpoint.get("size", 320))
-    models = (build_model(pretrained=False).to(device), build_model(pretrained=False).to(device))
-    models[0].load_state_dict(checkpoint["model1"])
-    models[1].load_state_dict(checkpoint["model2"])
+    models = tuple(build_model(pretrained=False).to(device) for _ in range(checkpoint.get("model_count", 2)))
+    for index, model in enumerate(models, 1):
+        model.load_state_dict(checkpoint[f"model{index}"])
     for model in models:
         model.eval()
 
@@ -671,7 +671,7 @@ def run_image_measurement(
             if frame is None:
                 raise RuntimeError(f"Cannot read image: {image_path}")
             tensor = _preprocess(frame, size, device)
-            logits = (models[0](tensor) + models[1](tensor)) / 2
+            logits = ensemble_logits(models, tensor)
             _, prediction = torch.softmax(logits, dim=1).max(dim=1)
             prediction = prediction.squeeze(0).cpu().numpy()
             depth = _geometry_depth(

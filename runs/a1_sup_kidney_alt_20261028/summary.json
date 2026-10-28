@@ -1,0 +1,362 @@
+{
+  "primary_comparison": "Same fixed final epoch15, seed42, kidney190 images, 1425 effective updates; selected checkpoints separately diagnostic; no resolution or loss tuning",
+  "models": [
+    {
+      "name": "A0",
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+      "metrics": {
+        "stone_dice": 0.476834438897627,
+        "stone_iou": 0.3130548976911766,
+        "stone_precision": 0.3508787379385827,
+        "stone_recall": 0.7438591812241632,
+        "stone_tp": 27891,
+        "stone_fp": 51598,
+        "stone_fn": 9604,
+        "fiber_dice": 0.9699309650208784,
+        "fiber_iou": 0.9416174373599511,
+        "fiber_precision": 0.9923714379767852,
+        "fiber_recall": 0.9484829416431835,
+        "fiber_tp": 69336,
+        "fiber_fp": 533,
+        "fiber_fn": 3766,
+        "mean_dice": 0.7233827019592527,
+        "mean_iou": 0.6273361675255639,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1732568,
+            51590,
+            533
+          ],
+          [
+            9604,
+            27891,
+            0
+          ],
+          [
+            3758,
+            8,
+            69336
+          ]
+        ],
+        "valid_pixels": 1895288,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 6,
+        "stone_negative_fp_image_rate": 0.6666666666666666,
+        "stone_negative_valid_pixels": 589824,
+        "stone_negative_fp_pixels": 45924,
+        "stone_negative_fp_pixel_fraction": 0.07786051432291667
+      },
+      "screening": {
+        "passed": true,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": true,
+          "negative_fp_area": true
+        }
+      },
+      "spatial_detail": {
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 7916,
+            "target_boundary": 5927,
+            "matched_predicted": 3864,
+            "matched_target": 3896,
+            "precision": 0.4881253158160687,
+            "recall": 0.6573308587818458,
+            "f_score": 0.5602306577135812
+          },
+          "2": {
+            "predicted_boundary": 5966,
+            "target_boundary": 6243,
+            "matched_predicted": 5658,
+            "matched_target": 5609,
+            "precision": 0.9483741200134094,
+            "recall": 0.8984462598109884,
+            "f_score": 0.9227353026162752
+          }
+        },
+        "small_stone_frames": 0,
+        "small_stone_target_pixels": 0,
+        "small_stone_tp": 0,
+        "small_stone_pixel_recall": null,
+        "small_stone_frames_any_tp": 0,
+        "native_positive_but_resized_stone_empty": 0
+      },
+      "performance": {
+        "checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+        "model_count": 2,
+        "parameter_count": 49202790,
+        "cuda_peak_allocated_mib": 288.9208984375,
+        "samples": 87,
+        "warmup_frames": 12,
+        "timings": {
+          "pipeline_ms": {
+            "mean": 17.565562069983404,
+            "p50": 19.042900064960122,
+            "p95": 20.700930035673082
+          },
+          "model_ms": {
+            "mean": 15.690811488231452,
+            "p50": 17.05889997538179,
+            "p95": 18.65237003657967
+          },
+          "preprocess_ms": {
+            "mean": 1.3704206901548923,
+            "p50": 1.451199990697205,
+            "p95": 1.570069999434054
+          },
+          "postprocess_ms": {
+            "mean": 0.45793332914211626,
+            "p50": 0.4629000322893262,
+            "p95": 0.5880400422029198
+          }
+        },
+        "scope": "cached native BGR to probabilities/masks; OpenCV preprocessing; excludes decode, display, geometry and temporal memory"
+      }
+    },
+    {
+      "name": "unet_control",
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_alt_20261028\\unet_control\\last.pt",
+      "metrics": {
+        "stone_dice": 0.8110451643768034,
+        "stone_iou": 0.6821496831304698,
+        "stone_precision": 0.9228073756548956,
+        "stone_recall": 0.7234297906387518,
+        "stone_tp": 27125,
+        "stone_fp": 2269,
+        "stone_fn": 10370,
+        "fiber_dice": 0.9026727647649765,
+        "fiber_iou": 0.8226103716195868,
+        "fiber_precision": 0.873238536098821,
+        "fiber_recall": 0.9341604880851413,
+        "fiber_tp": 68289,
+        "fiber_fp": 9913,
+        "fiber_fn": 4813,
+        "mean_dice": 0.85685896457089,
+        "mean_iou": 0.7523800273750283,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1772601,
+            2200,
+            9890
+          ],
+          [
+            10347,
+            27125,
+            23
+          ],
+          [
+            4744,
+            69,
+            68289
+          ]
+        ],
+        "valid_pixels": 1895288,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 1,
+        "stone_negative_fp_image_rate": 0.1111111111111111,
+        "stone_negative_valid_pixels": 589824,
+        "stone_negative_fp_pixels": 195,
+        "stone_negative_fp_pixel_fraction": 0.0003306070963541667
+      },
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      },
+      "spatial_detail": {
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 4168,
+            "target_boundary": 5927,
+            "matched_predicted": 3125,
+            "matched_target": 3020,
+            "precision": 0.7497600767754319,
+            "recall": 0.5095326472076936,
+            "f_score": 0.6067330167392416
+          },
+          "2": {
+            "predicted_boundary": 7878,
+            "target_boundary": 6243,
+            "matched_predicted": 5311,
+            "matched_target": 5075,
+            "precision": 0.6741558771261742,
+            "recall": 0.8129104597148806,
+            "f_score": 0.7370597402645701
+          }
+        },
+        "small_stone_frames": 0,
+        "small_stone_target_pixels": 0,
+        "small_stone_tp": 0,
+        "small_stone_pixel_recall": null,
+        "small_stone_frames_any_tp": 0,
+        "native_positive_but_resized_stone_empty": 0
+      },
+      "performance": {
+        "checkpoint_sha256": "891bc2f0c616d62005fed440ba0a1aa482291ce2056517824ad901f58dd97365",
+        "model_count": 1,
+        "parameter_count": 24601395,
+        "cuda_peak_allocated_mib": 193.77294921875,
+        "samples": 87,
+        "warmup_frames": 12,
+        "timings": {
+          "pipeline_ms": {
+            "mean": 9.665287358033332,
+            "p50": 10.08840010035783,
+            "p95": 12.063060037326068
+          },
+          "model_ms": {
+            "mean": 7.794574713976733,
+            "p50": 8.199199917726219,
+            "p95": 9.702549991197884
+          },
+          "preprocess_ms": {
+            "mean": 1.3369425258802614,
+            "p50": 1.4217999996617436,
+            "p95": 1.6317700035870075
+          },
+          "postprocess_ms": {
+            "mean": 0.48943908467631914,
+            "p50": 0.45570009388029575,
+            "p95": 0.6254099775105716
+          }
+        },
+        "scope": "cached native BGR to probabilities/masks; OpenCV preprocessing; excludes decode, display, geometry and temporal memory"
+      }
+    },
+    {
+      "name": "segformer_b0",
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_alt_20261028\\segformer_b0\\last.pt",
+      "metrics": {
+        "stone_dice": 0.7695738119712184,
+        "stone_iou": 0.6254530498933244,
+        "stone_precision": 0.9452991452991453,
+        "stone_recall": 0.6489398586478197,
+        "stone_tp": 24332,
+        "stone_fp": 1408,
+        "stone_fn": 13163,
+        "fiber_dice": 0.6404022391558125,
+        "fiber_iou": 0.47102331115798585,
+        "fiber_precision": 0.976071058309283,
+        "fiber_recall": 0.4765259500424065,
+        "fiber_tp": 34835,
+        "fiber_fp": 854,
+        "fiber_fn": 38267,
+        "mean_dice": 0.7049880255635155,
+        "mean_iou": 0.5482381805256551,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1782601,
+            1236,
+            854
+          ],
+          [
+            13163,
+            24332,
+            0
+          ],
+          [
+            38095,
+            172,
+            34835
+          ]
+        ],
+        "valid_pixels": 1895288,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": 0.0,
+        "stone_negative_valid_pixels": 589824,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": 0.0
+      },
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      },
+      "spatial_detail": {
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 3750,
+            "target_boundary": 5927,
+            "matched_predicted": 2602,
+            "matched_target": 2582,
+            "precision": 0.6938666666666666,
+            "recall": 0.4356335414206175,
+            "f_score": 0.5352306995774552
+          },
+          "2": {
+            "predicted_boundary": 5481,
+            "target_boundary": 6243,
+            "matched_predicted": 2305,
+            "matched_target": 2305,
+            "precision": 0.4205436964057654,
+            "recall": 0.3692135191414384,
+            "f_score": 0.3932105083589219
+          }
+        },
+        "small_stone_frames": 0,
+        "small_stone_target_pixels": 0,
+        "small_stone_tp": 0,
+        "small_stone_pixel_recall": null,
+        "small_stone_frames_any_tp": 0,
+        "native_positive_but_resized_stone_empty": 0
+      },
+      "performance": {
+        "checkpoint_sha256": "b108cf6b1df009880a00d499d77ad96331c4753d34c2f852bd00a87d2aab0c44",
+        "model_count": 1,
+        "parameter_count": 3714915,
+        "cuda_peak_allocated_mib": 125.671875,
+        "samples": 87,
+        "warmup_frames": 12,
+        "timings": {
+          "pipeline_ms": {
+            "mean": 19.892002299331644,
+            "p50": 21.610300056636333,
+            "p95": 23.443399998359382
+          },
+          "model_ms": {
+            "mean": 18.03096436932897,
+            "p50": 19.657399971038103,
+            "p95": 21.315719978883862
+          },
+          "preprocess_ms": {
+            "mean": 1.3654218403215723,
+            "p50": 1.4367999974638224,
+            "p95": 1.665759994648397
+          },
+          "postprocess_ms": {
+            "mean": 0.4515103385623159,
+            "p50": 0.4563999827951193,
+            "p95": 0.5255399621091783
+          }
+        },
+        "scope": "cached native BGR to probabilities/masks; OpenCV preprocessing; excludes decode, display, geometry and temporal memory"
+      }
+    }
+  ],
+  "training_cost": {
+    "unet_control": {
+      "training_validation_io_wall_s": 96.25305110006593,
+      "peak_cuda_allocated_mib": 474.80859375,
+      "optimizer_updates": 1425,
+      "image_exposures": 2850
+    },
+    "segformer_b0": {
+      "training_validation_io_wall_s": 147.06098449998535,
+      "peak_cuda_allocated_mib": 259.60888671875,
+      "optimizer_updates": 1425,
+      "image_exposures": 2850
+    }
+  },
+  "scope": "Development short screen, not model upper bound or independent generalization"
+}

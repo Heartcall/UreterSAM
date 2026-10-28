@@ -1,0 +1,3865 @@
+{
+  "pixel_counts": {
+    "0": 108486286,
+    "1": 29162846,
+    "2": 488468
+  },
+  "source_pixel_counts": {
+    "kidney_stones_fiber_v1": {
+      "0": 20152120,
+      "1": 4784402,
+      "2": 151478
+    },
+    "kidney_stones_fiber_v2": {
+      "0": 88334166,
+      "1": 24378444,
+      "2": 336990
+    }
+  },
+  "labeled_images": 521,
+  "samples": [
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0077d962cb0ead70864061ed",
+      "pixels": {
+        "0": 89728,
+        "1": 12672
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__00b784297fc312c2be7819a7",
+      "pixels": {
+        "0": 94172,
+        "1": 8228
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__016b29c2ef17b29a6e831ae2",
+      "pixels": {
+        "0": 87789,
+        "1": 13845,
+        "2": 766
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__01c9414db9e1b322be4b1967",
+      "pixels": {
+        "0": 94477,
+        "1": 7923
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0286c625e7357be780ea2322",
+      "pixels": {
+        "0": 84193,
+        "1": 18207
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__02cf87fa48a45c0e7efbabcd",
+      "pixels": {
+        "0": 89522,
+        "1": 12213,
+        "2": 665
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__02f483716ae8298f6ffcc458",
+      "pixels": {
+        "0": 75551,
+        "1": 26849
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__039be0189c571c7d75f2a915",
+      "pixels": {
+        "0": 44102,
+        "1": 55878,
+        "2": 2420
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__04468c8efba230c9e2d9f51c",
+      "pixels": {
+        "0": 82685,
+        "1": 19715
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__04f9e090d4af3c2af271e6a4",
+      "pixels": {
+        "0": 83275,
+        "1": 19125
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__08359e57e779b7179d6f72b7",
+      "pixels": {
+        "0": 101141,
+        "1": 1259
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__09be4fd9d1f9f84f5037ab67",
+      "pixels": {
+        "0": 95202,
+        "1": 7198
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0b52030bfa01292cb608ac10",
+      "pixels": {
+        "0": 63006,
+        "1": 39394
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0c4ef3c1662b98850a574d26",
+      "pixels": {
+        "0": 92988,
+        "1": 8828,
+        "2": 584
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0d38a73f1609e97ea23d13f7",
+      "pixels": {
+        "0": 88665,
+        "1": 13197,
+        "2": 538
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0d3ff2bc99ae0dc57a6f1c41",
+      "pixels": {
+        "0": 71551,
+        "1": 30035,
+        "2": 814
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0d8da62e90f7bf5748b17318",
+      "pixels": {
+        "0": 97316,
+        "1": 5084
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0e429aa17421e1a1491aadd8",
+      "pixels": {
+        "0": 92927,
+        "1": 8812,
+        "2": 661
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__0fb1e196059178c5b11556d4",
+      "pixels": {
+        "0": 100684,
+        "1": 1716
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__10f234278256ab2dc27dc281",
+      "pixels": {
+        "0": 97377,
+        "1": 5023
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1169d9628514c5737083f148",
+      "pixels": {
+        "0": 71605,
+        "1": 30795
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1267cfb778317f9ff793f1c5",
+      "pixels": {
+        "0": 96955,
+        "1": 5445
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1327442163b9e9784fc34ef0",
+      "pixels": {
+        "0": 76539,
+        "1": 25861
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1339332d982f492e5e3ec297",
+      "pixels": {
+        "0": 73000,
+        "1": 29400
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__14eeb10146c2fd26efd2c574",
+      "pixels": {
+        "0": 94362,
+        "1": 8038
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1509ed7b7619edaaa34d82e0",
+      "pixels": {
+        "0": 75304,
+        "1": 27096
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__179d1cac35d2e9ab065a0933",
+      "pixels": {
+        "0": 64023,
+        "1": 36718,
+        "2": 1659
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__17b1c2d07318fe55db0d4bd3",
+      "pixels": {
+        "0": 79530,
+        "1": 22870
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1ad6f21aa9898aa77f857696",
+      "pixels": {
+        "0": 97356,
+        "1": 4640,
+        "2": 404
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1ae90e0af843df22557e9bcc",
+      "pixels": {
+        "0": 69209,
+        "1": 30300,
+        "2": 2891
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1b4f6afc59e01f15dfea03fa",
+      "pixels": {
+        "0": 88382,
+        "1": 14018
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1e2623e92c80e9d6c6fcce47",
+      "pixels": {
+        "0": 49163,
+        "1": 50954,
+        "2": 2283
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1e6c1350b1d5395ba0e9905b",
+      "pixels": {
+        "0": 91069,
+        "1": 11331
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1f1ddc7549d0978d75d76cd3",
+      "pixels": {
+        "0": 97000,
+        "1": 4988,
+        "2": 412
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1f5ea89a3eeb3254cbe96b0c",
+      "pixels": {
+        "0": 96154,
+        "1": 6246
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__1feb6075bda06d217cd2f1a4",
+      "pixels": {
+        "0": 87353,
+        "1": 14618,
+        "2": 429
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__203a6d5c939aa65bc423a939",
+      "pixels": {
+        "0": 32943,
+        "1": 67372,
+        "2": 2085
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__208a38837fe47066b34f9582",
+      "pixels": {
+        "0": 101481,
+        "1": 919
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2224c5e59a4323ae5cd7f7bf",
+      "pixels": {
+        "0": 69163,
+        "1": 33237
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2247393bbb3e7fb70db79e83",
+      "pixels": {
+        "0": 91393,
+        "1": 11007
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__22a26dbb9d599002e932255c",
+      "pixels": {
+        "0": 43339,
+        "1": 57610,
+        "2": 1451
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__22b06b4c8da3629ab9b1fff7",
+      "pixels": {
+        "0": 78246,
+        "1": 24154
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__22d7ae044b7c9e79d1376376",
+      "pixels": {
+        "0": 99602,
+        "1": 2798
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__22ededb4a3e70267bc8d3c12",
+      "pixels": {
+        "0": 91246,
+        "1": 10550,
+        "2": 604
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__237775fec17d8f9e9556137e",
+      "pixels": {
+        "0": 95501,
+        "1": 6899
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2408d92b57e12eb5b1c52b02",
+      "pixels": {
+        "0": 85324,
+        "1": 17076
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__24adf9bf3e5fe98755d12356",
+      "pixels": {
+        "0": 93942,
+        "1": 8458
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__262d34d8f7cd0710fea15704",
+      "pixels": {
+        "0": 76306,
+        "1": 26094
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__27b3aba19ea2a32f0bbe9fe2",
+      "pixels": {
+        "0": 54580,
+        "1": 47820
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__28051b95eaa3c1e1f34ecb5a",
+      "pixels": {
+        "0": 84184,
+        "1": 17283,
+        "2": 933
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__296472b093842f9aedde5ad0",
+      "pixels": {
+        "0": 96434,
+        "1": 5966
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2a57c1f7d0ed17e0660ae1c3",
+      "pixels": {
+        "0": 96578,
+        "1": 5822
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2a9b1f33bf601205042a5304",
+      "pixels": {
+        "0": 59788,
+        "1": 42612
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2c92d30a65560f68acf36f31",
+      "pixels": {
+        "0": 73484,
+        "1": 24587,
+        "2": 4329
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2d754e6a87e06ecc301af2cb",
+      "pixels": {
+        "0": 61867,
+        "1": 40533
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__2f5e6a14b81fdd8c3359ae9e",
+      "pixels": {
+        "0": 82950,
+        "1": 19450
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3085391bb1ac1ae6114b28a7",
+      "pixels": {
+        "0": 76158,
+        "1": 26242
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__30ecf0f33119dea8f2ad6590",
+      "pixels": {
+        "0": 93386,
+        "1": 9014
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__31749970334985fa238c5faf",
+      "pixels": {
+        "0": 90358,
+        "1": 12042
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3189008a2c558fba29b2b2ac",
+      "pixels": {
+        "0": 95243,
+        "1": 6640,
+        "2": 517
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__32177e68a734afa5e1841550",
+      "pixels": {
+        "0": 89097,
+        "1": 12897,
+        "2": 406
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__322e12fa1092c87e1080e848",
+      "pixels": {
+        "0": 69919,
+        "1": 31031,
+        "2": 1450
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3333f0e0ebeb5378d7afc396",
+      "pixels": {
+        "0": 87327,
+        "1": 14214,
+        "2": 859
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__335f0223f0cf202ac9ebcfc1",
+      "pixels": {
+        "0": 57859,
+        "1": 44541
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3554d9d74a6d497b54666c1c",
+      "pixels": {
+        "0": 87138,
+        "1": 15262
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3609ceb34178b642021f364b",
+      "pixels": {
+        "0": 97822,
+        "1": 4578
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__36789fb7b4108f655ebcfe18",
+      "pixels": {
+        "0": 93081,
+        "1": 8661,
+        "2": 658
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__368dbe1fca0797601e79952a",
+      "pixels": {
+        "0": 97642,
+        "1": 4343,
+        "2": 415
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3874a9c370c4d22a92aa4140",
+      "pixels": {
+        "0": 88305,
+        "1": 13597,
+        "2": 498
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__394118b1008b7d645a15e656",
+      "pixels": {
+        "0": 81883,
+        "1": 17298,
+        "2": 3219
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3aa10e012cc501cc372a1ef5",
+      "pixels": {
+        "0": 91212,
+        "1": 10758,
+        "2": 430
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3afcb8a09985413c5708508c",
+      "pixels": {
+        "0": 59178,
+        "1": 43222
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3d8cd3c6e786caf585cf7986",
+      "pixels": {
+        "0": 96244,
+        "1": 5681,
+        "2": 475
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3e00540a9a6b6dffdd14b808",
+      "pixels": {
+        "0": 95544,
+        "1": 6304,
+        "2": 552
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3ec3ec99a6f7a039669397f6",
+      "pixels": {
+        "0": 66100,
+        "1": 35662,
+        "2": 638
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3ed159acf547d399556d790d",
+      "pixels": {
+        "0": 93565,
+        "1": 8835
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__3f711b985e1d6dbedc165c99",
+      "pixels": {
+        "0": 93146,
+        "1": 9254
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4109418714cd5dfd8714c002",
+      "pixels": {
+        "0": 93715,
+        "1": 8685
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__414d4fa22cea02cdb2457348",
+      "pixels": {
+        "0": 69067,
+        "1": 32182,
+        "2": 1151
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__415ce150485359c01ae0e586",
+      "pixels": {
+        "0": 86896,
+        "1": 15504
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__41ddb55145851f3193080150",
+      "pixels": {
+        "0": 87248,
+        "1": 15152
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4217c2fc7b7643a322b70d04",
+      "pixels": {
+        "0": 84869,
+        "1": 17531
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__42d4a8723de2e04135ca39a7",
+      "pixels": {
+        "0": 83374,
+        "1": 19026
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__43193b95688e6f07fd410fb4",
+      "pixels": {
+        "0": 75531,
+        "1": 26869
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4353f06e3ce28733228fec84",
+      "pixels": {
+        "0": 89064,
+        "1": 13336
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__44a07acec2a0ed6db94a51dc",
+      "pixels": {
+        "0": 92514,
+        "1": 9559,
+        "2": 327
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__453d1cdf9015234b21bec4f4",
+      "pixels": {
+        "0": 64069,
+        "1": 38331
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__458a78930c44299080dd1486",
+      "pixels": {
+        "0": 64781,
+        "1": 36715,
+        "2": 904
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__45a93d6cf0b641871ade10e4",
+      "pixels": {
+        "0": 98019,
+        "1": 3532,
+        "2": 849
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__46680a4c613ec1b185ecb352",
+      "pixels": {
+        "0": 90558,
+        "1": 11332,
+        "2": 510
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__46f0a34b804950018a879c8b",
+      "pixels": {
+        "0": 99174,
+        "1": 3226
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__477104917bca3b78dac5d1f5",
+      "pixels": {
+        "0": 95170,
+        "1": 7230
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4964e2860b2cde679a3722b2",
+      "pixels": {
+        "0": 96083,
+        "1": 6317
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4a60bdbc1f1bf42df2c95ac5",
+      "pixels": {
+        "0": 93168,
+        "1": 9232
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4c23f01c5ea8a278d838159e",
+      "pixels": {
+        "0": 30967,
+        "1": 70522,
+        "2": 911
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4d0f72af884fa25653245ab7",
+      "pixels": {
+        "0": 17574,
+        "1": 82378,
+        "2": 2448
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4ef3d97ab026ccb67e55e696",
+      "pixels": {
+        "0": 89928,
+        "1": 12115,
+        "2": 357
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__4fe3409397a85e4faa8e4db5",
+      "pixels": {
+        "0": 97974,
+        "1": 3431,
+        "2": 995
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5087aa7927bd459f19292306",
+      "pixels": {
+        "0": 88158,
+        "1": 14242
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__50f6a863636d0041baac6abf",
+      "pixels": {
+        "0": 72781,
+        "1": 29619
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__51aedf9e65746831ca44b5a8",
+      "pixels": {
+        "0": 92503,
+        "1": 9897
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__52fbc8a9b9f692a2d71b9999",
+      "pixels": {
+        "0": 60162,
+        "1": 39229,
+        "2": 3009
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__53d10f890c9373e434f13d3e",
+      "pixels": {
+        "0": 85604,
+        "1": 16270,
+        "2": 526
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__53d2eb0d0e12164862b68081",
+      "pixels": {
+        "0": 84454,
+        "1": 17300,
+        "2": 646
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5468026e0272ecf5b0426448",
+      "pixels": {
+        "0": 74070,
+        "1": 28330
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__547b69927267cc7039e1620a",
+      "pixels": {
+        "0": 53887,
+        "1": 46488,
+        "2": 2025
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__550cbaeab71bfb630e007bed",
+      "pixels": {
+        "0": 86452,
+        "1": 15117,
+        "2": 831
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__551d6e4638483d9b115f57ba",
+      "pixels": {
+        "0": 95242,
+        "1": 7158
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__55c6246d138ad8300bfc357c",
+      "pixels": {
+        "0": 94112,
+        "1": 8288
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__55d69d31e5b1d6e38169ebdd",
+      "pixels": {
+        "0": 94162,
+        "1": 8238
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5701d4bc34605ebb28de9b4f",
+      "pixels": {
+        "0": 85241,
+        "1": 16555,
+        "2": 604
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__57b589e39eac1c3c93dc93a0",
+      "pixels": {
+        "0": 95204,
+        "1": 7196
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__57ef71b5fe7561b95e6fbdb1",
+      "pixels": {
+        "0": 92134,
+        "1": 10266
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__58452d43be053129a4f7e246",
+      "pixels": {
+        "0": 101434,
+        "1": 966
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__58d265acd574addb4291f7b3",
+      "pixels": {
+        "0": 101293,
+        "1": 1107
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5a692493297417c71695744c",
+      "pixels": {
+        "0": 43465,
+        "1": 57263,
+        "2": 1672
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5e19131fc75a2d0c6dcc07ff",
+      "pixels": {
+        "0": 90567,
+        "1": 11420,
+        "2": 413
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5e5ab3c255a9e281136eb0b8",
+      "pixels": {
+        "0": 100748,
+        "1": 1652
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5e631915f19dc4b789b32f53",
+      "pixels": {
+        "0": 56830,
+        "1": 45570
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5ede7e3d1a8a0382b8c49030",
+      "pixels": {
+        "0": 90528,
+        "1": 11872
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5facd23c772a72fc4f2cbfe0",
+      "pixels": {
+        "0": 90202,
+        "1": 11739,
+        "2": 459
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__5fbc873a2d7b3154b13916ef",
+      "pixels": {
+        "0": 96204,
+        "1": 6196
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__60c51fb51f075bbaf8189e8d",
+      "pixels": {
+        "0": 88260,
+        "1": 14140
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__61ecea8e159b8a5a4ae5bd15",
+      "pixels": {
+        "0": 75677,
+        "1": 26097,
+        "2": 626
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__627d1dfd2a4d82dddfcca760",
+      "pixels": {
+        "0": 84884,
+        "1": 17516
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__63003f9556ae3abe5177a84a",
+      "pixels": {
+        "0": 84733,
+        "1": 17667
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6434e3b5d6a56d4f23f0dfd8",
+      "pixels": {
+        "0": 92252,
+        "1": 10148
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__64ec6ddd750ad55eb9c8befe",
+      "pixels": {
+        "0": 33638,
+        "1": 65941,
+        "2": 2821
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__658747394952a23da67424d1",
+      "pixels": {
+        "0": 77587,
+        "1": 20209,
+        "2": 4604
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__671bd978ed9419743941b177",
+      "pixels": {
+        "0": 99711,
+        "1": 2689
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6753164e9856e8665e42025b",
+      "pixels": {
+        "0": 76804,
+        "1": 25596
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__67cd545011ae7d3f0eb6d298",
+      "pixels": {
+        "0": 94724,
+        "1": 7676
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6ab3da2334fe0607559ac43d",
+      "pixels": {
+        "0": 76167,
+        "1": 22921,
+        "2": 3312
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6b40ab214731565249c216bc",
+      "pixels": {
+        "0": 60707,
+        "1": 38952,
+        "2": 2741
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6bac97a15863ff6dcaee5443",
+      "pixels": {
+        "0": 53260,
+        "1": 47231,
+        "2": 1909
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6c67789cd0fdc42e1d210383",
+      "pixels": {
+        "0": 100272,
+        "1": 2128
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6d960555bcd8e66a432dbeb2",
+      "pixels": {
+        "0": 89322,
+        "1": 12648,
+        "2": 430
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__6f54379b41e4e743c69bae86",
+      "pixels": {
+        "0": 72771,
+        "1": 28122,
+        "2": 1507
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__70a571b42ea98cf1fb1b6239",
+      "pixels": {
+        "0": 66239,
+        "1": 32340,
+        "2": 3821
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__716207e6b0b44a6296b88d70",
+      "pixels": {
+        "0": 29560,
+        "1": 69899,
+        "2": 2941
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__71a94060487852dd43358847",
+      "pixels": {
+        "0": 84530,
+        "1": 17870
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__7380ba53874da914e22e6923",
+      "pixels": {
+        "0": 86389,
+        "1": 16011
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__771f9afdbb554c82fca04d87",
+      "pixels": {
+        "0": 85550,
+        "1": 14947,
+        "2": 1903
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__7761f82d94bf908eebffe2c8",
+      "pixels": {
+        "0": 89662,
+        "1": 12373,
+        "2": 365
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__778add422a5dc2fc15260065",
+      "pixels": {
+        "0": 94773,
+        "1": 6871,
+        "2": 756
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__7d222ed19360c4fa5815b84a",
+      "pixels": {
+        "0": 90475,
+        "1": 11925
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__7ddbc9c7df5b37897edbc935",
+      "pixels": {
+        "0": 71497,
+        "1": 29953,
+        "2": 950
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__7e40a062a451984a1a9f8244",
+      "pixels": {
+        "0": 91273,
+        "1": 11127
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__7f3f846f220c63ae7b4ede6c",
+      "pixels": {
+        "0": 94716,
+        "1": 7684
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__7f794175ee3a1a4edb129d64",
+      "pixels": {
+        "0": 87655,
+        "1": 14745
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8120e02c74954f3b7ffa1f55",
+      "pixels": {
+        "0": 100973,
+        "1": 1427
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__82198b249736ed88b5418087",
+      "pixels": {
+        "0": 95652,
+        "1": 5760,
+        "2": 988
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__82381964b12ebd7ae52bc6ba",
+      "pixels": {
+        "0": 98349,
+        "1": 2325,
+        "2": 1726
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8240da0bee1d89042226a92f",
+      "pixels": {
+        "0": 93892,
+        "1": 8508
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__82fa9febf0b149335a791e18",
+      "pixels": {
+        "0": 98868,
+        "1": 3532
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8462dfce313e70acbd0a1571",
+      "pixels": {
+        "0": 73531,
+        "1": 28869
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__85a2e13c62a68fde492b62ed",
+      "pixels": {
+        "0": 75596,
+        "1": 23722,
+        "2": 3082
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__866385ca9f500d335cfa9256",
+      "pixels": {
+        "0": 78261,
+        "1": 21536,
+        "2": 2603
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__86bf7cdc7c9866abb6361270",
+      "pixels": {
+        "0": 95813,
+        "1": 6587
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__87b484e53e6c6267f769db24",
+      "pixels": {
+        "0": 83338,
+        "1": 19062
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8856de8bf89282d13f1de391",
+      "pixels": {
+        "0": 84843,
+        "1": 16757,
+        "2": 800
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__88d5645e9c14d00d51e1303f",
+      "pixels": {
+        "0": 87062,
+        "1": 14724,
+        "2": 614
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__891a924a340803eefc2f0b6e",
+      "pixels": {
+        "0": 94226,
+        "1": 7589,
+        "2": 585
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__891fd179b437b1496577d480",
+      "pixels": {
+        "0": 90971,
+        "1": 10756,
+        "2": 673
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__89591c2ddc24b3cbd7bda70a",
+      "pixels": {
+        "0": 69326,
+        "1": 33074
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8964f9643f74d713cf1df263",
+      "pixels": {
+        "0": 60714,
+        "1": 38939,
+        "2": 2747
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8a3548721215360394da647f",
+      "pixels": {
+        "0": 71643,
+        "1": 30757
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8b23459ffa1d6569722df938",
+      "pixels": {
+        "0": 69820,
+        "1": 32374,
+        "2": 206
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8be5254659986b36fc6b1885",
+      "pixels": {
+        "0": 94736,
+        "1": 7664
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8c3db2ce79894e0297907c0f",
+      "pixels": {
+        "0": 94014,
+        "1": 8386
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8d4a5f7de0626e79303b2cb9",
+      "pixels": {
+        "0": 77241,
+        "1": 25159
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8da4e75380289af452e6c34d",
+      "pixels": {
+        "0": 99423,
+        "1": 2299,
+        "2": 678
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8e1aed192a772f0b38ce7ec7",
+      "pixels": {
+        "0": 94283,
+        "1": 2197,
+        "2": 5920
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8e878f428f5b969b43c510af",
+      "pixels": {
+        "0": 89903,
+        "1": 12115,
+        "2": 382
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__8fad61373849e7cdf68d5324",
+      "pixels": {
+        "0": 87957,
+        "1": 9311,
+        "2": 5132
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9068079f3ff876a2845e5de4",
+      "pixels": {
+        "0": 68420,
+        "1": 32135,
+        "2": 1845
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__907374a0bfefb5c24591bac2",
+      "pixels": {
+        "0": 48284,
+        "1": 54116
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__918a9dbda3e3c4b1181b0d9d",
+      "pixels": {
+        "0": 95474,
+        "1": 6311,
+        "2": 615
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9371443f3de57fe4a4c2a49d",
+      "pixels": {
+        "0": 97884,
+        "1": 1439,
+        "2": 3077
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__93cb19c0804bf8428064201b",
+      "pixels": {
+        "0": 96725,
+        "1": 5675
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__95a69ca92d55860995a60179",
+      "pixels": {
+        "0": 88608,
+        "1": 13086,
+        "2": 706
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__95f4f99b66d9dd58f83fcc01",
+      "pixels": {
+        "0": 89940,
+        "1": 12460
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__968aa482dee3e2c5aa010d64",
+      "pixels": {
+        "0": 82484,
+        "1": 19916
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__96a260daa8c9b4485ee8c12c",
+      "pixels": {
+        "0": 101238,
+        "1": 1162
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__97f20615591a3d069326c9ca",
+      "pixels": {
+        "0": 42778,
+        "1": 55980,
+        "2": 3642
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__99930826b95dba6e8fc5ad71",
+      "pixels": {
+        "0": 88455,
+        "1": 13945
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9af98cf0e2cbf222ca847ec6",
+      "pixels": {
+        "0": 99702,
+        "1": 2698
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9bea37a23ed8997822534d20",
+      "pixels": {
+        "0": 70328,
+        "1": 29830,
+        "2": 2242
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9d79b093cb68f3ece97af1f3",
+      "pixels": {
+        "0": 66310,
+        "1": 36090
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9da637a1e4960c7940260b27",
+      "pixels": {
+        "0": 42711,
+        "1": 57539,
+        "2": 2150
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9de6cd5d33765518e442db70",
+      "pixels": {
+        "0": 74440,
+        "1": 27960
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9e2a1f29f29a1cdffff4f24e",
+      "pixels": {
+        "0": 58330,
+        "1": 44070
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9e339e1811a6f9ac11b58745",
+      "pixels": {
+        "0": 98460,
+        "1": 3940
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9e4490fbfe656035feaac1a3",
+      "pixels": {
+        "0": 76416,
+        "1": 25550,
+        "2": 434
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9f2dd6bad495d37d4ccd52fa",
+      "pixels": {
+        "0": 91827,
+        "1": 10573
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__9fd8b2ffa334768a2f4e1117",
+      "pixels": {
+        "0": 56820,
+        "1": 45580
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a00ebda10de7deefad06380b",
+      "pixels": {
+        "0": 100173,
+        "1": 2227
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a0c08a06a2ff2cf104b5b138",
+      "pixels": {
+        "0": 25001,
+        "1": 74064,
+        "2": 3335
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a1486494bdbf8da25f43ac0d",
+      "pixels": {
+        "0": 70154,
+        "1": 31727,
+        "2": 519
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a1b10ae1d830eac5d312b3d4",
+      "pixels": {
+        "0": 66153,
+        "1": 33657,
+        "2": 2590
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a27682aa3620e90c28d4d344",
+      "pixels": {
+        "0": 84438,
+        "1": 17962
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a2ca038b5e8c8e253ede705f",
+      "pixels": {
+        "0": 20030,
+        "1": 78673,
+        "2": 3697
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a380fa1290c85ae1583f3fb0",
+      "pixels": {
+        "0": 100165,
+        "1": 2235
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a4a2a23f4e562e156c5bc8a5",
+      "pixels": {
+        "0": 100906,
+        "1": 1494
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a4caed159daa5aa20c7d6714",
+      "pixels": {
+        "0": 65286,
+        "1": 37114
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a57aaabbdc8fb2bca4742058",
+      "pixels": {
+        "0": 86090,
+        "1": 16310
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a74c4d599fa9e5d4c469b560",
+      "pixels": {
+        "0": 89681,
+        "1": 12390,
+        "2": 329
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a80366ea123b0d32e8f27023",
+      "pixels": {
+        "0": 84836,
+        "1": 16631,
+        "2": 933
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a8dece4b94d8115c5accb821",
+      "pixels": {
+        "0": 85036,
+        "1": 16851,
+        "2": 513
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a90294639d6d8259597fda76",
+      "pixels": {
+        "0": 76727,
+        "1": 25673
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a990983fa5070ed60eb071c3",
+      "pixels": {
+        "0": 64987,
+        "1": 37413
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__a9ac1be0e157d2ba981141de",
+      "pixels": {
+        "0": 82833,
+        "1": 19567
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__aa67e112922c039dc98c0754",
+      "pixels": {
+        "0": 96211,
+        "1": 5696,
+        "2": 493
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__ab6af3f48ddee6948d06d351",
+      "pixels": {
+        "0": 85224,
+        "1": 17176
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__acac5450e4180dabdc6a57a2",
+      "pixels": {
+        "0": 83499,
+        "1": 18901
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__ad034aef135910e623db8715",
+      "pixels": {
+        "0": 95046,
+        "1": 7354
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__af7b23341701bbfc3b68fc1f",
+      "pixels": {
+        "0": 86254,
+        "1": 16146
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__af97ba2a4ad02b498275e624",
+      "pixels": {
+        "0": 81317,
+        "1": 21083
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b07316696a8bb7ded24cb76c",
+      "pixels": {
+        "0": 99268,
+        "1": 3132
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b106c95a375b7aa275b6112c",
+      "pixels": {
+        "0": 97303,
+        "1": 5097
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b14fca62d38bc1deb34c3a40",
+      "pixels": {
+        "0": 28873,
+        "1": 72528,
+        "2": 999
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b1cafae7f3e86572a30f2c00",
+      "pixels": {
+        "0": 78810,
+        "1": 23590
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b2245778eb75b2ebd19fcd26",
+      "pixels": {
+        "0": 95176,
+        "1": 7224
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b43a4a42e7d84f6a2ce4adbc",
+      "pixels": {
+        "0": 55383,
+        "1": 47017
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b4597f364693d21b25bf5c71",
+      "pixels": {
+        "0": 87492,
+        "1": 14634,
+        "2": 274
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b5777d890bf9230089b8521c",
+      "pixels": {
+        "0": 92933,
+        "1": 7012,
+        "2": 2455
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b638ac828fbb224f0c33cdc4",
+      "pixels": {
+        "0": 98890,
+        "1": 3510
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b6d7103e9647a1bd363766a1",
+      "pixels": {
+        "0": 92097,
+        "1": 10303
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__b9ba4cfa189547127d3fc489",
+      "pixels": {
+        "0": 91558,
+        "1": 8003,
+        "2": 2839
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__ba7893b4f7a439260f66d773",
+      "pixels": {
+        "0": 86244,
+        "1": 16156
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__bbe2b68b3fa3264b6b5eabd6",
+      "pixels": {
+        "0": 88433,
+        "1": 13967
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__bc69f7e0a2f4ce97adb7a09c",
+      "pixels": {
+        "0": 101468,
+        "1": 932
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__bd0957ebd2cc76238e331d57",
+      "pixels": {
+        "0": 30339,
+        "1": 70407,
+        "2": 1654
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__bde2e7deb76be5566eaf4c2e",
+      "pixels": {
+        "0": 75423,
+        "1": 23937,
+        "2": 3040
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__bec4c8e0687be1ba766bd17f",
+      "pixels": {
+        "0": 89564,
+        "1": 12031,
+        "2": 805
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c08b7ef609cdad5f3cbe7608",
+      "pixels": {
+        "0": 73310,
+        "1": 29090
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c135f7985d8d9da1c0981dbb",
+      "pixels": {
+        "0": 100232,
+        "1": 2168
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c23d9a6a8a0eb40c711639d7",
+      "pixels": {
+        "0": 96564,
+        "1": 5836
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c34dbaa5cd0848d5d4c90c33",
+      "pixels": {
+        "0": 96750,
+        "1": 5650
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c57d10d65a3488651515cf6c",
+      "pixels": {
+        "0": 86472,
+        "1": 12369,
+        "2": 3559
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c6258b66cfa1f5e1f491eac2",
+      "pixels": {
+        "0": 68633,
+        "1": 33438,
+        "2": 329
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c70c707627c647ab74cfb1d0",
+      "pixels": {
+        "0": 89643,
+        "1": 11857,
+        "2": 900
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c95924611a7bccbf84be31f3",
+      "pixels": {
+        "0": 98354,
+        "1": 4046
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__c9f632c6894f8b4242102369",
+      "pixels": {
+        "0": 77418,
+        "1": 24982
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__cc0eaca65d1e98cce46724d1",
+      "pixels": {
+        "0": 89193,
+        "1": 13207
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0098832f94442f2294a621da",
+      "pixels": {
+        "0": 401965,
+        "1": 7635
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__00f8dedac3f35dcbfd8367d1",
+      "pixels": {
+        "0": 295681,
+        "1": 113919
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0191f1885489cd142244bcc7",
+      "pixels": {
+        "0": 395205,
+        "1": 14395
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0279ef50e90adebf74131e9c",
+      "pixels": {
+        "0": 303818,
+        "1": 105782
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__02a0b5456c02c913e0293814",
+      "pixels": {
+        "0": 335369,
+        "1": 74231
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__02ee8669e11e9d27ab2d490a",
+      "pixels": {
+        "0": 294988,
+        "1": 114612
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0348cb1200bcc0430bb81b98",
+      "pixels": {
+        "0": 399193,
+        "1": 8578,
+        "2": 1829
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__03cd312da6c095046eddc900",
+      "pixels": {
+        "0": 280919,
+        "1": 128681
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__03d1a8855b01688fa4424ccc",
+      "pixels": {
+        "0": 270096,
+        "1": 138894,
+        "2": 610
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__04b18a50ee226fcc4dc45a52",
+      "pixels": {
+        "0": 351980,
+        "1": 57620
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__067190ee37e890eba2a0f393",
+      "pixels": {
+        "0": 387268,
+        "1": 22332
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__097e62a5adb0e12e71147dc7",
+      "pixels": {
+        "0": 310986,
+        "1": 98614
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__09d7b9b76791010f8c2fda0b",
+      "pixels": {
+        "0": 354273,
+        "1": 55327
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0b0b3158e4cc7328c61010db",
+      "pixels": {
+        "0": 380640,
+        "1": 28960
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0bfa32791892c9d9a6bafd3c",
+      "pixels": {
+        "0": 160530,
+        "1": 241859,
+        "2": 7211
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0ca5bcd5fdb369f4e96a0807",
+      "pixels": {
+        "0": 317179,
+        "1": 92421
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0d263c2838096e0034998d5f",
+      "pixels": {
+        "0": 308549,
+        "1": 101051
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0de5992a244bea3afc5cd5e5",
+      "pixels": {
+        "0": 323782,
+        "1": 85222,
+        "2": 596
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0e565bfd4ea5a59954676093",
+      "pixels": {
+        "0": 302624,
+        "1": 106976
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0f47472507fcbde98016b8b9",
+      "pixels": {
+        "0": 368700,
+        "1": 40900
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__0fb0fbb7b3fc43efc6486db7",
+      "pixels": {
+        "0": 399028,
+        "1": 10572
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__10cc6e4edc0bb73d3756e42b",
+      "pixels": {
+        "0": 358263,
+        "1": 51337
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__120197e186396853ab5a396b",
+      "pixels": {
+        "0": 312163,
+        "1": 97437
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__141cdddaebc17473789f34d8",
+      "pixels": {
+        "0": 319696,
+        "1": 89904
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__177bca60c136fabd2369e7c6",
+      "pixels": {
+        "0": 274673,
+        "1": 134927
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1a19af506ff10c9c99bae860",
+      "pixels": {
+        "0": 315299,
+        "1": 94301
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1a4f8d677c92f280d701c3ff",
+      "pixels": {
+        "0": 343284,
+        "1": 66316
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1ac1a5fe086e8abf79792234",
+      "pixels": {
+        "0": 332182,
+        "1": 77418
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1cd99cd9aaa1dab2526a880b",
+      "pixels": {
+        "0": 230933,
+        "1": 178667
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1d9aa43d720656084b2f1db7",
+      "pixels": {
+        "0": 267660,
+        "1": 131651,
+        "2": 10289
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1e4a6495dd18e2c2fe30111f",
+      "pixels": {
+        "0": 288039,
+        "1": 121561
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1e4c337e0442a5f37c52cc64",
+      "pixels": {
+        "0": 268697,
+        "1": 140903
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1f3f7b32054d8aee40784209",
+      "pixels": {
+        "0": 276127,
+        "1": 133473
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__1f9c4ac4f0005f6a5792d30c",
+      "pixels": {
+        "0": 258673,
+        "1": 150927
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2246a3b2be62b07772849790",
+      "pixels": {
+        "0": 216844,
+        "1": 182373,
+        "2": 10383
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__22865adc2c5c851307d59152",
+      "pixels": {
+        "0": 369286,
+        "1": 40314
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__23eba118c5959fa12c1d0176",
+      "pixels": {
+        "0": 286227,
+        "1": 119747,
+        "2": 3626
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2718584a4545450bea58b74e",
+      "pixels": {
+        "0": 289654,
+        "1": 109066,
+        "2": 10880
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__27dfede06ccf52cc4f1b67ca",
+      "pixels": {
+        "0": 226468,
+        "1": 183132
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__28111e7d6a77c08250060eee",
+      "pixels": {
+        "0": 206346,
+        "1": 197576,
+        "2": 5678
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__28114d9c4f1c800e1fb0e9bf",
+      "pixels": {
+        "0": 386525,
+        "1": 23075
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__287af26e560b1c09521e4649",
+      "pixels": {
+        "0": 259913,
+        "1": 149687
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2929cb36bb5ce0eaae15e038",
+      "pixels": {
+        "0": 367991,
+        "1": 41609
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__29b2c9a4c6d6b230e0100ea8",
+      "pixels": {
+        "0": 389020,
+        "1": 20580
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__29ecb5828ca2234e728589b7",
+      "pixels": {
+        "0": 269265,
+        "1": 138282,
+        "2": 2053
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2a4deea80ad27e0b0434237e",
+      "pixels": {
+        "0": 285811,
+        "1": 123039,
+        "2": 750
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2b32492b37a8c526f1724809",
+      "pixels": {
+        "0": 342782,
+        "1": 62119,
+        "2": 4699
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2b845c52230f0b1f776fa562",
+      "pixels": {
+        "0": 402508,
+        "1": 7092
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2e2db5cd6e81b9af87f0eeae",
+      "pixels": {
+        "0": 378683,
+        "1": 30917
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2fa0227c8aaee7adf08a7267",
+      "pixels": {
+        "0": 322827,
+        "1": 83223,
+        "2": 3550
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__2fc2cc90a9814d8a30875642",
+      "pixels": {
+        "0": 333214,
+        "1": 76386
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__303fc77d90c0dfdb6c533ec1",
+      "pixels": {
+        "0": 385367,
+        "1": 24233
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3162c38e9569e31cfdeeef94",
+      "pixels": {
+        "0": 378649,
+        "1": 29066,
+        "2": 1885
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__31c44609f0567ab4c13e9814",
+      "pixels": {
+        "0": 342543,
+        "1": 67057
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__31ebc2926a1a7d6708f853e2",
+      "pixels": {
+        "0": 345335,
+        "1": 64265
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3276debd9077b796ef078085",
+      "pixels": {
+        "0": 287268,
+        "1": 122332
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__32f0bd17313e7c82bfc60fbe",
+      "pixels": {
+        "0": 181640,
+        "1": 217164,
+        "2": 10796
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3534a4fb4e06bce22a67f1e7",
+      "pixels": {
+        "0": 288199,
+        "1": 117396,
+        "2": 4005
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__364fcfe9747fa7695fd579a2",
+      "pixels": {
+        "0": 352231,
+        "1": 57369
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__365d02d5c7e516919f98153e",
+      "pixels": {
+        "0": 314004,
+        "1": 92630,
+        "2": 2966
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__366f75c336c31c0db3052897",
+      "pixels": {
+        "0": 364566,
+        "1": 40471,
+        "2": 4563
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__36fe2f3604e73003296aecef",
+      "pixels": {
+        "0": 322205,
+        "1": 84569,
+        "2": 2826
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3713ec1280a3cae7abfb7053",
+      "pixels": {
+        "0": 397571,
+        "1": 9920,
+        "2": 2109
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__38658ffeadf0a983048b3d89",
+      "pixels": {
+        "0": 252950,
+        "1": 149265,
+        "2": 7385
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__387178616a3b8c4c1aa57ebc",
+      "pixels": {
+        "0": 329579,
+        "1": 80021
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__39aed7d6a92a863dc5688605",
+      "pixels": {
+        "0": 376863,
+        "1": 32737
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3a941cc5ded274ea909523f9",
+      "pixels": {
+        "0": 297893,
+        "1": 111707
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3abc3b7b920b441db1873a87",
+      "pixels": {
+        "0": 343389,
+        "1": 63397,
+        "2": 2814
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3c803c2596960c355db015a5",
+      "pixels": {
+        "0": 360609,
+        "1": 48991
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3c8eaf25d7abc1d87d5b5261",
+      "pixels": {
+        "0": 347759,
+        "1": 61841
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3dc706d1ce921a8131f880fb",
+      "pixels": {
+        "0": 350703,
+        "1": 58897
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3dc9254e591f96c4eed22637",
+      "pixels": {
+        "0": 301197,
+        "1": 108403
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3df9b97098dedac2d744f77a",
+      "pixels": {
+        "0": 335565,
+        "1": 74035
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__3eca8847ef451f47ca896eee",
+      "pixels": {
+        "0": 294573,
+        "1": 115027
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__41f698d6034d3e8f85ac6f17",
+      "pixels": {
+        "0": 315109,
+        "1": 86882,
+        "2": 7609
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__431356fe39361d8f74e51daf",
+      "pixels": {
+        "0": 262600,
+        "1": 137820,
+        "2": 9180
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__43472b4241f5634fe2654fe3",
+      "pixels": {
+        "0": 378391,
+        "1": 31209
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__43b652785a6412c365582f54",
+      "pixels": {
+        "0": 405061,
+        "1": 4539
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__4499777d573e452257de10de",
+      "pixels": {
+        "0": 321039,
+        "1": 88561
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__44cfc9e27c1b7385596ad5c2",
+      "pixels": {
+        "0": 346153,
+        "1": 63447
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__44f6cddc86c01bc063c2a464",
+      "pixels": {
+        "0": 167844,
+        "1": 241756
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__4778dbbb035c635b719a90bb",
+      "pixels": {
+        "0": 348052,
+        "1": 61548
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__47cb01781503c7c1795197c2",
+      "pixels": {
+        "0": 302810,
+        "1": 104204,
+        "2": 2586
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__47f64bb6f93ea07e2d58030f",
+      "pixels": {
+        "0": 164423,
+        "1": 239917,
+        "2": 5260
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__48f4372d09bb07a8b772fc18",
+      "pixels": {
+        "0": 344564,
+        "1": 65036
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__498d3c4eac02f311de560681",
+      "pixels": {
+        "0": 250710,
+        "1": 152940,
+        "2": 5950
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__4a79ae6c2b29ecc17b52df3a",
+      "pixels": {
+        "0": 389864,
+        "1": 19736
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__4b936ecfc33ae6ff6d395b50",
+      "pixels": {
+        "0": 380004,
+        "1": 29596
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__4bbf752ce384b11108256cdc",
+      "pixels": {
+        "0": 361163,
+        "1": 48437
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__4bc12968e9657f8d2d7d40f4",
+      "pixels": {
+        "0": 312751,
+        "1": 95435,
+        "2": 1414
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__4df075ac6faebb27f4c3087f",
+      "pixels": {
+        "0": 363663,
+        "1": 44786,
+        "2": 1151
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5056710caf873dd2a22eabcd",
+      "pixels": {
+        "0": 317313,
+        "1": 92287
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__50ccc4f5430627bd285fb374",
+      "pixels": {
+        "0": 325834,
+        "1": 83766
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__51786fb05cbd5733b4924ac4",
+      "pixels": {
+        "0": 395691,
+        "1": 8735,
+        "2": 5174
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5237ecf852516630546257f2",
+      "pixels": {
+        "0": 382538,
+        "1": 27062
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__52a037056acce27f41728217",
+      "pixels": {
+        "0": 189448,
+        "1": 220152
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__52b54ba80025f3fe9894399c",
+      "pixels": {
+        "0": 331193,
+        "1": 74879,
+        "2": 3528
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__536d0feb48955a05af1e89cb",
+      "pixels": {
+        "0": 362381,
+        "1": 45285,
+        "2": 1934
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__53aaebd523e7a12aa8c9d7f3",
+      "pixels": {
+        "0": 280273,
+        "1": 126633,
+        "2": 2694
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__56b016c6bcb95dbeb5aec6a5",
+      "pixels": {
+        "0": 362378,
+        "1": 47222
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__579e9b460d7a3a34e6593f76",
+      "pixels": {
+        "0": 356390,
+        "1": 53210
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__57a6d66300aa13ccfb5b72b4",
+      "pixels": {
+        "0": 199553,
+        "1": 210047
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__58643875420f5178a2845a67",
+      "pixels": {
+        "0": 374373,
+        "1": 35227
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__58a38c30ef3606ba095cd323",
+      "pixels": {
+        "0": 334912,
+        "1": 74688
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__58f3d30a276380cdf9043d19",
+      "pixels": {
+        "0": 304692,
+        "1": 104908
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5a169ad8ec7a928fff987d5b",
+      "pixels": {
+        "0": 311817,
+        "1": 97783
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5a843379a9815951a2e6e007",
+      "pixels": {
+        "0": 374385,
+        "1": 35215
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5ab97587ef5a0477d71e05d1",
+      "pixels": {
+        "0": 381465,
+        "1": 28135
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5ababce6a0ac214b4d2a9f4b",
+      "pixels": {
+        "0": 368371,
+        "1": 41229
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5dc98f7c7557307ef5aaa5ad",
+      "pixels": {
+        "0": 294739,
+        "1": 114861
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5ea25bcdc13f13caa4f955c3",
+      "pixels": {
+        "0": 237580,
+        "1": 172020
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5f52df9a5699ab8fd0150182",
+      "pixels": {
+        "0": 369776,
+        "1": 39824
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__5f9f078b67eda3733de970be",
+      "pixels": {
+        "0": 245392,
+        "1": 164208
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__60d3412f944371bc1f31f7e3",
+      "pixels": {
+        "0": 352613,
+        "1": 56987
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__60e277e3a2a3fb3521dae358",
+      "pixels": {
+        "0": 333643,
+        "1": 72351,
+        "2": 3606
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6151e94762b08fcd1f3e2795",
+      "pixels": {
+        "0": 388604,
+        "1": 20996
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__62e4ee0667fc98c668d1a292",
+      "pixels": {
+        "0": 348503,
+        "1": 59131,
+        "2": 1966
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__63d7ef043604cd6805579d5e",
+      "pixels": {
+        "0": 175122,
+        "1": 226278,
+        "2": 8200
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__641d0e1c5c53967d0d8f2e8d",
+      "pixels": {
+        "0": 333181,
+        "1": 76419
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6594e9c25e153311c3e34db2",
+      "pixels": {
+        "0": 360795,
+        "1": 48805
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__66ebb3d0ef27bcfc3f31e638",
+      "pixels": {
+        "0": 399019,
+        "1": 10581
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__67e9b9729b0f869f47b4734f",
+      "pixels": {
+        "0": 329444,
+        "1": 80156
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__67fdf78f1b4c25fdf65dd186",
+      "pixels": {
+        "0": 343232,
+        "1": 66368
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__681707fed88e13748769b69b",
+      "pixels": {
+        "0": 248663,
+        "1": 156978,
+        "2": 3959
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__69118d7626bb090f7194e90b",
+      "pixels": {
+        "0": 370770,
+        "1": 35791,
+        "2": 3039
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6a01e445d1fe4f3b8e241fa6",
+      "pixels": {
+        "0": 328887,
+        "1": 80713
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6c3930699331a9b762769fc1",
+      "pixels": {
+        "0": 373834,
+        "1": 32488,
+        "2": 3278
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6ceaf3085a11cfa9ead8fe19",
+      "pixels": {
+        "0": 382732,
+        "1": 26868
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6d9036a9180f6e98e55c6b6c",
+      "pixels": {
+        "0": 387280,
+        "1": 22320
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6ea2616fb46ecc87efa58dba",
+      "pixels": {
+        "0": 355983,
+        "1": 53617
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__6f331e96ec6b04495fe60130",
+      "pixels": {
+        "0": 292847,
+        "1": 115061,
+        "2": 1692
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7101f18406a3d3af47243c2e",
+      "pixels": {
+        "0": 378142,
+        "1": 31458
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__713f6ce263ed0997b3008c5d",
+      "pixels": {
+        "0": 364151,
+        "1": 45449
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7181cdf23512a5d66469b9b7",
+      "pixels": {
+        "0": 364882,
+        "1": 44718
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__71c9019a4f8b41ac85c34e53",
+      "pixels": {
+        "0": 397358,
+        "1": 12242
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__71da907f1c665fa499d6ed3d",
+      "pixels": {
+        "0": 374880,
+        "1": 34720
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__728ef21254ddd1cbb1e9f55f",
+      "pixels": {
+        "0": 255077,
+        "1": 153148,
+        "2": 1375
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__72992ed5c7a54608329b12d7",
+      "pixels": {
+        "0": 215533,
+        "1": 188085,
+        "2": 5982
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__73f2c3d10d99c9991608e5d4",
+      "pixels": {
+        "0": 375059,
+        "1": 34541
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__73f629a6d5c3a77ed93b6196",
+      "pixels": {
+        "0": 293588,
+        "1": 116012
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__74159aca6eb2f86a7ffb6cf0",
+      "pixels": {
+        "0": 358613,
+        "1": 50987
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__744f69a510548af13bd3a174",
+      "pixels": {
+        "0": 329280,
+        "1": 80320
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__750cfae9b6b181d1139f47ab",
+      "pixels": {
+        "0": 334489,
+        "1": 75111
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__77b80eaae88c584c002f4a0d",
+      "pixels": {
+        "0": 362982,
+        "1": 46618
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7871e02e188c816cb53957a9",
+      "pixels": {
+        "0": 309089,
+        "1": 100511
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__79cfb45541cc11e0a1d4b9d5",
+      "pixels": {
+        "0": 386996,
+        "1": 22604
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__79e73454c279af45e78b392f",
+      "pixels": {
+        "0": 161103,
+        "1": 248497
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__79ea03d83115de064df02b21",
+      "pixels": {
+        "0": 252826,
+        "1": 156774
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__79ef591dcd85400dcda06d30",
+      "pixels": {
+        "0": 305362,
+        "1": 103073,
+        "2": 1165
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7a6f9bdcf288ac60e30e5426",
+      "pixels": {
+        "0": 268700,
+        "1": 139506,
+        "2": 1394
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7c212b999c8fafa8ccbdc3cd",
+      "pixels": {
+        "0": 306478,
+        "1": 103122
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7c25b7d464a77b74d0c9c994",
+      "pixels": {
+        "0": 287254,
+        "1": 118002,
+        "2": 4344
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7c431d0b5680dea59b15e78c",
+      "pixels": {
+        "0": 333976,
+        "1": 75624
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7c43e663eaf93bd82832b996",
+      "pixels": {
+        "0": 292051,
+        "1": 115001,
+        "2": 2548
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7cad13e44b5c25cf09cf8c2f",
+      "pixels": {
+        "0": 353637,
+        "1": 54824,
+        "2": 1139
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7d4ff1885794aa0a0e043d75",
+      "pixels": {
+        "0": 329984,
+        "1": 76608,
+        "2": 3008
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7d92534d7adfabcfb0848a6f",
+      "pixels": {
+        "0": 309468,
+        "1": 100132
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7da263849ad1a2cd3949a3b4",
+      "pixels": {
+        "0": 256525,
+        "1": 153075
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7dcb7f981fefb61354a71dd0",
+      "pixels": {
+        "0": 317357,
+        "1": 90746,
+        "2": 1497
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7eaa8d608111c129e7df6714",
+      "pixels": {
+        "0": 349091,
+        "1": 60509
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7fadada6246caeaf569c2b6e",
+      "pixels": {
+        "0": 305733,
+        "1": 103867
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__7fc6c7385a61b4c9feb669af",
+      "pixels": {
+        "0": 285504,
+        "1": 124096
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__801e266fe5cb7650ba7394bf",
+      "pixels": {
+        "0": 332559,
+        "1": 77041
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__80c581e103ed5e090ea7acb7",
+      "pixels": {
+        "0": 263516,
+        "1": 143341,
+        "2": 2743
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__82705461820dc6a9a81654ae",
+      "pixels": {
+        "0": 395729,
+        "1": 13871
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8374979c85f14e7feb8066d4",
+      "pixels": {
+        "0": 357123,
+        "1": 52477
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__83fe958b4de82a4669b01e2d",
+      "pixels": {
+        "0": 314820,
+        "1": 94780
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__845028fba86761580f7d1d3e",
+      "pixels": {
+        "0": 333766,
+        "1": 75834
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__85252261028ce519a7923e15",
+      "pixels": {
+        "0": 368639,
+        "1": 40961
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__857a7d929535bd6d1a81d1fd",
+      "pixels": {
+        "0": 326270,
+        "1": 81123,
+        "2": 2207
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__85d63420066fc278a004ef03",
+      "pixels": {
+        "0": 323281,
+        "1": 82565,
+        "2": 3754
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8603645309027c758e77df41",
+      "pixels": {
+        "0": 147712,
+        "1": 255676,
+        "2": 6212
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__884e638b8cb736e0401699ee",
+      "pixels": {
+        "0": 390915,
+        "1": 18685
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__88daa49c384f2e65a00a1784",
+      "pixels": {
+        "0": 387861,
+        "1": 21739
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__88fe06f4cb57fb0176d408e1",
+      "pixels": {
+        "0": 350636,
+        "1": 58964
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__89eac2442910e0ae3195115e",
+      "pixels": {
+        "0": 368734,
+        "1": 40866
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8be41eb099ec7a8a8a4269ec",
+      "pixels": {
+        "0": 352517,
+        "1": 57083
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8c8edcd240199107fca547c1",
+      "pixels": {
+        "0": 183575,
+        "1": 221857,
+        "2": 4168
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8d89d3ad2c29d69917fad1e3",
+      "pixels": {
+        "0": 355385,
+        "1": 54215
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8d96aff120ec34698e8c097c",
+      "pixels": {
+        "0": 320496,
+        "1": 88192,
+        "2": 912
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8e3fa51177013bf8929c0fe8",
+      "pixels": {
+        "0": 321286,
+        "1": 88314
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__8e7dd8fbbc7f21637f628be6",
+      "pixels": {
+        "0": 261598,
+        "1": 148002
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9079a77bda0d7f64b0f4ba8e",
+      "pixels": {
+        "0": 327892,
+        "1": 81708
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__91800f4504fa7bc07fd143c1",
+      "pixels": {
+        "0": 383139,
+        "1": 26461
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__92bef788dfc533e60cc5c2ad",
+      "pixels": {
+        "0": 325673,
+        "1": 81353,
+        "2": 2574
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__93135384ea28f0fd00adf4d8",
+      "pixels": {
+        "0": 390773,
+        "1": 13951,
+        "2": 4876
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9418805fcd268202ff32662b",
+      "pixels": {
+        "0": 379124,
+        "1": 30476
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__944b208c07de0c0dc4de0aba",
+      "pixels": {
+        "0": 278127,
+        "1": 131473
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__950c40dc3c3de7383704b8f5",
+      "pixels": {
+        "0": 345943,
+        "1": 63657
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__952d255f043449f834b87316",
+      "pixels": {
+        "0": 309974,
+        "1": 99626
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9608c388c519dd8e8d3f3264",
+      "pixels": {
+        "0": 290326,
+        "1": 113967,
+        "2": 5307
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__96345d08aa6085a850cdf679",
+      "pixels": {
+        "0": 307316,
+        "1": 102284
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__966b3d5dedef7e7b73ec0a70",
+      "pixels": {
+        "0": 353345,
+        "1": 54217,
+        "2": 2038
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__98bf9cdc324639dcdf0d6ac4",
+      "pixels": {
+        "0": 336486,
+        "1": 67031,
+        "2": 6083
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__996a23f6514dc0902c0e7576",
+      "pixels": {
+        "0": 371226,
+        "1": 38374
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9a031bf027da6924d5b76108",
+      "pixels": {
+        "0": 283446,
+        "1": 120894,
+        "2": 5260
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9c6ec10edd0516f647442f2d",
+      "pixels": {
+        "0": 325398,
+        "1": 84202
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9dbc23aecbb238e38d9cd3d3",
+      "pixels": {
+        "0": 392960,
+        "1": 16640
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9e56cdf5cd02aa36b125cc1b",
+      "pixels": {
+        "0": 316178,
+        "1": 93422
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9e7c6cc0da7ff132bbbb6cd8",
+      "pixels": {
+        "0": 342931,
+        "1": 66669
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9e98561896d40620ed246848",
+      "pixels": {
+        "0": 323799,
+        "1": 85801
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9ebaa4b8098d6dcd85d797e0",
+      "pixels": {
+        "0": 319704,
+        "1": 88904,
+        "2": 992
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9ecf57b7c76b1782b34955d7",
+      "pixels": {
+        "0": 320020,
+        "1": 89580
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9f5f0f55d761ecfd84595c2a",
+      "pixels": {
+        "0": 311947,
+        "1": 95422,
+        "2": 2231
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9fbbee75e5fc7fbe324dd66b",
+      "pixels": {
+        "0": 171903,
+        "1": 237697
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__9ff0b3018cbf1e8459d6a4cc",
+      "pixels": {
+        "0": 276504,
+        "1": 129102,
+        "2": 3994
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a140af6329f844e2c3af47d9",
+      "pixels": {
+        "0": 334939,
+        "1": 74661
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a1cdbe92e19d3035dc090b32",
+      "pixels": {
+        "0": 353296,
+        "1": 56304
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a22cd7bc3b634f99d0bf2875",
+      "pixels": {
+        "0": 239829,
+        "1": 164886,
+        "2": 4885
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a230c9ba86e9e0cc2ff5f311",
+      "pixels": {
+        "0": 340255,
+        "1": 66114,
+        "2": 3231
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a346050b43da62588e69ddfb",
+      "pixels": {
+        "0": 254792,
+        "1": 154808
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a374cbc6ca4b0c25c407640e",
+      "pixels": {
+        "0": 325916,
+        "1": 81513,
+        "2": 2171
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a41f5487d6e1020840fa508b",
+      "pixels": {
+        "0": 284656,
+        "1": 124165,
+        "2": 779
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a585255124826f0fd9c19ebe",
+      "pixels": {
+        "0": 331889,
+        "1": 77711
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a5edf6fc5a9fe6bca87eca26",
+      "pixels": {
+        "0": 341721,
+        "1": 67879
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a78d80c6b84fc9a3a6fbfc89",
+      "pixels": {
+        "0": 314613,
+        "1": 93561,
+        "2": 1426
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a7990c6c8f98bbd9107a7e22",
+      "pixels": {
+        "0": 296340,
+        "1": 113260
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a83467188121c427e5035f10",
+      "pixels": {
+        "0": 314941,
+        "1": 94659
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__a8c49edae6c2f6a1ab8c376d",
+      "pixels": {
+        "0": 296198,
+        "1": 113402
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__aa3721f2944cd19668095c0b",
+      "pixels": {
+        "0": 368766,
+        "1": 38741,
+        "2": 2093
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__aa4d0bab4f39d5c4308f41ab",
+      "pixels": {
+        "0": 336381,
+        "1": 73219
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__aa5d44d91b2e8e8afa71db73",
+      "pixels": {
+        "0": 146349,
+        "1": 254490,
+        "2": 8761
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__ab5ebe94c24b9c9378e39bcf",
+      "pixels": {
+        "0": 356970,
+        "1": 48493,
+        "2": 4137
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__ad3621aebe9ba1ec8f475224",
+      "pixels": {
+        "0": 273928,
+        "1": 135672
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__ad86b115859b00fbcaa41395",
+      "pixels": {
+        "0": 336665,
+        "1": 70933,
+        "2": 2002
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__ae120fbba35c34a51096d66c",
+      "pixels": {
+        "0": 346275,
+        "1": 59580,
+        "2": 3745
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__ae950dee7457039413f39dbc",
+      "pixels": {
+        "0": 370965,
+        "1": 37571,
+        "2": 1064
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b06e197280687077dd45c1ac",
+      "pixels": {
+        "0": 263404,
+        "1": 143463,
+        "2": 2733
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b10c093b8720b70a9cd873cf",
+      "pixels": {
+        "0": 282711,
+        "1": 126889
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b17a8065e521b496fa7e4fa7",
+      "pixels": {
+        "0": 179708,
+        "1": 229892
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b17d74a0924eb26ceb286d01",
+      "pixels": {
+        "0": 364070,
+        "1": 45530
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b1eebc7cd5557652ae5865a1",
+      "pixels": {
+        "0": 162127,
+        "1": 244938,
+        "2": 2535
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b25eb06a36a08028596a8eed",
+      "pixels": {
+        "0": 317800,
+        "1": 91800
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b2b9fb519fd8e15feaaa568e",
+      "pixels": {
+        "0": 346482,
+        "1": 60654,
+        "2": 2464
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b4df87fe09bf8826195effb9",
+      "pixels": {
+        "0": 281852,
+        "1": 126535,
+        "2": 1213
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b54fec8f4313b49fbb86fa7e",
+      "pixels": {
+        "0": 328552,
+        "1": 81048
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b58c9b80c261174c44d9bf38",
+      "pixels": {
+        "0": 285089,
+        "1": 124511
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b6705bb0c41bf2e5cc56a5ed",
+      "pixels": {
+        "0": 327347,
+        "1": 82253
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b6edc65a5bcff3524ba98509",
+      "pixels": {
+        "0": 365139,
+        "1": 44461
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b7590a73903e26a51167a6b3",
+      "pixels": {
+        "0": 370868,
+        "1": 38732
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b80fb71f52937945969f71d3",
+      "pixels": {
+        "0": 204472,
+        "1": 199466,
+        "2": 5662
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__b998cf2f8daed6fa6beffd51",
+      "pixels": {
+        "0": 309849,
+        "1": 97930,
+        "2": 1821
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bab6835847b8fa33201db45e",
+      "pixels": {
+        "0": 244237,
+        "1": 157547,
+        "2": 7816
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bb2c84a9b3d1951e63d5b841",
+      "pixels": {
+        "0": 344595,
+        "1": 65005
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bb761cc24be22d22bd71822a",
+      "pixels": {
+        "0": 356172,
+        "1": 53428
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bb8a6524a5c5a008c29faef2",
+      "pixels": {
+        "0": 291190,
+        "1": 118410
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bc4e03f80dd6bcbe233031d1",
+      "pixels": {
+        "0": 363043,
+        "1": 43165,
+        "2": 3392
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bc979f2d44101955ffeaf717",
+      "pixels": {
+        "0": 365417,
+        "1": 44183
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bebc36cd3e62d7afb68806e9",
+      "pixels": {
+        "0": 335653,
+        "1": 71391,
+        "2": 2556
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bef7ee5a0a71ca07153a5327",
+      "pixels": {
+        "0": 281354,
+        "1": 126688,
+        "2": 1558
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bf19c318cba3a1021e16fe4d",
+      "pixels": {
+        "0": 318505,
+        "1": 87834,
+        "2": 3261
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bf6b2b95c6eb8ece66eee5eb",
+      "pixels": {
+        "0": 331637,
+        "1": 77963
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__bfd35f6e1445cd60b9c714d9",
+      "pixels": {
+        "0": 338673,
+        "1": 70927
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c083820b461f0deec656f1aa",
+      "pixels": {
+        "0": 322443,
+        "1": 87157
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c0c2a319f8899d05709f7daa",
+      "pixels": {
+        "0": 379936,
+        "1": 29664
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c1f5c7d73f652efb91207055",
+      "pixels": {
+        "0": 312346,
+        "1": 97254
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c2f902ea1caeff24040d958e",
+      "pixels": {
+        "0": 281261,
+        "1": 128339
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c33f6e1092800f8bb2a37790",
+      "pixels": {
+        "0": 373172,
+        "1": 36428
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c3dbf11319f9b2afbfe4404d",
+      "pixels": {
+        "0": 279906,
+        "1": 128750,
+        "2": 944
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c412de6cf773e489f6bd504d",
+      "pixels": {
+        "0": 263206,
+        "1": 143972,
+        "2": 2422
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c56b7595fa5d4a11f9d8f55d",
+      "pixels": {
+        "0": 384066,
+        "1": 25534
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c592552d172074922f550de4",
+      "pixels": {
+        "0": 396764,
+        "1": 12836
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c600b7ca03274636205f85ce",
+      "pixels": {
+        "0": 163197,
+        "1": 246403
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c64aa7c552e7877873f5c90d",
+      "pixels": {
+        "0": 334312,
+        "1": 74370,
+        "2": 918
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c781120cb20b08228129f537",
+      "pixels": {
+        "0": 377803,
+        "1": 31797
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c784abbd7ad22b23b092271c",
+      "pixels": {
+        "0": 362379,
+        "1": 45966,
+        "2": 1255
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c7eafb65b4d3d5492d78db75",
+      "pixels": {
+        "0": 391609,
+        "1": 16514,
+        "2": 1477
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c80abb13846f24ce7188168b",
+      "pixels": {
+        "0": 333686,
+        "1": 75914
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c8eda712e6187f8a333a16c9",
+      "pixels": {
+        "0": 298096,
+        "1": 109912,
+        "2": 1592
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__c918619ccc99057197e25e72",
+      "pixels": {
+        "0": 363046,
+        "1": 46554
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__ca5e93d74bff169529d8016f",
+      "pixels": {
+        "0": 278883,
+        "1": 130717
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__ca8f2d3332a9a8cebad66350",
+      "pixels": {
+        "0": 372563,
+        "1": 29034,
+        "2": 8003
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__cac011a24890239cd25511ec",
+      "pixels": {
+        "0": 357476,
+        "1": 52124
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__cb84dc3ef1d4bf5f93b86626",
+      "pixels": {
+        "0": 225116,
+        "1": 184484
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__cbb9a602dfd76d263ff433fb",
+      "pixels": {
+        "0": 344049,
+        "1": 65551
+      }
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__cca8ac8e27b43625fdf1513a",
+      "pixels": {
+        "0": 265170,
+        "1": 142882,
+        "2": 1548
+      }
+    }
+  ]
+}

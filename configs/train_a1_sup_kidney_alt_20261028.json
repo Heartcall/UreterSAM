@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_ALT_KIDNEY_SMP_SegFormer_MiTB0_20261028",
+  "base_config": "train_a1_sup_kidney_only_20261027.json",
+  "arms": [
+    {"name": "unet_control", "architecture": "unet_resnet34", "epochs": 15, "seed": 42},
+    {"name": "segformer_b0", "architecture": "segformer_mit_b0", "epochs": 15, "seed": 42, "encoder_checkpoint": "../runs/pretrained/mit_b0.pth"}
+  ],
+  "encoder_sha256": "df468f7f13c4186f25bd3e2caf09e4f927b5b5ac0abccac84011dae747d4c49c",
+  "architecture_scope": "Full SMP0.4 Segformer mit_b0+256-channel MLP decoder versus original custom ResNet34 U-Net; not an encoder-only ablation or exact NVlabs recipe reproduction",
+  "primary_comparison": "Same fixed final epoch15, seed42, kidney190 images, 1425 effective updates; selected checkpoints separately diagnostic; no resolution or loss tuning",
+  "initialization": "Each arm ImageNet encoder plus random decoder, no surgical checkpoint warmstart; pretrained encoder recipes differ and are not controlled",
+  "budget_scope": "Equal optimizer updates and image exposures, not equal FLOPs or hardware time; record wall time, parameter count, peak CUDA allocation and batch1 inference latency",
+  "spatial_detail": {"boundary_tolerance_pixels": 2, "small_stone_max_gt_pixels": 128, "grid": 256, "frozen_before_training": true},
+  "performance": {"warmup_frames": 12, "repeats": 3, "batch_size": 1, "frame_order": "frozen validation manifest", "input": "cached native BGR to probabilities/masks; OpenCV preprocessing; excludes decode, display, geometry and temporal memory"},
+  "constraints": "kidney190 supervised only; stone_new banned; reserve800 not read in this training; both videos validation only; provisional training labels and unverified case provenance retained",
+  "stop_policy": "Existing frozen two-consecutive-epoch foreground-collapse rules; no automatic extension; aborted arms cannot be claimed equal-budget",
+  "sources": ["https://smp.readthedocs.io/en/v0.4.0/models.html", "https://github.com/NVlabs/SegFormer", "https://github.com/qubvel/segmentation_models.pytorch/releases/download/v0.0.2/mit_b0.pth"]
+}

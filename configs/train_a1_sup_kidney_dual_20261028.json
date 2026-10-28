@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_DUAL_KIDNEY_independent_members_budget_control_20261028",
+  "base_config": "train_a1_sup_kidney_only_20261027.json",
+  "arms": [
+    {"name": "single15_seed42", "seed": 42, "epochs": 15},
+    {"name": "single15_seed123", "seed": 123, "epochs": 15},
+    {"name": "single30_seed42", "seed": 42, "epochs": 30}
+  ],
+  "ensemble_members": ["single15_seed42", "single15_seed123"],
+  "ensemble_rule": "arithmetic mean logits, no threshold tuning",
+  "initialization": "All arms start fresh: cached ImageNet encoder plus seed-dependent random decoder; no checkpoint warmstart",
+  "primary_checkpoints": "Fixed final epoch for each arm and ensemble; selected checkpoints diagnostic only, no pair search",
+  "budget": {
+    "images_per_epoch": 190,
+    "batch_size": 2,
+    "updates_per_epoch": 95,
+    "single15_updates": 1425,
+    "dual15_updates_per_member": 1425,
+    "dual15_total_updates": 2850,
+    "single30_total_updates": 2850,
+    "equal_total_comparison": "Dual 2x15 versus fresh single30: equal total optimizer steps and training-image exposures; each arm has its own frozen cosine horizon; not exact hardware-time matching",
+    "same_per_network_comparison": "Dual 2x15 versus single15: ensemble uses twice the training updates and parameters",
+    "training_timing": "Wall time includes initialization, training, epoch validation and checkpoint I/O; ensemble members trained sequentially; record CUDA peak allocation per arm"
+  },
+  "performance": {"warmup_frames": 12, "repeats": 3, "batch_size": 1, "frame_order": "frozen validation manifest", "input": "cached native BGR images; OpenCV demo preprocessing; excludes decoding, rendering and geometry"},
+  "constraints": "kidney_stones_fiber_v1 supervised190 only; stone_new banned; 800 reserved images unused; video_1/video_2 validation only; no pseudo labels or mutual learning",
+  "stop_policy": "Existing frozen collapse checks; no automatic extension; aborted arms cannot be treated as equal-budget results"
+}

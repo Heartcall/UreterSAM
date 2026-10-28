@@ -1,0 +1,14 @@
+{
+  "unet_control": {
+    "training_validation_io_wall_s": 96.25305110006593,
+    "peak_cuda_allocated_mib": 474.80859375,
+    "optimizer_updates": 1425,
+    "image_exposures": 2850
+  },
+  "segformer_b0": {
+    "training_validation_io_wall_s": 147.06098449998535,
+    "peak_cuda_allocated_mib": 259.60888671875,
+    "optimizer_updates": 1425,
+    "image_exposures": 2850
+  }
+}

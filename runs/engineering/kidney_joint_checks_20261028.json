@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "all2387_raw_records_in_one_component_each": true,
+    "all_near_copy_edges_within_one_purpose": true,
+    "augmentation_families_within_one_component": true,
+    "all_original_test_associated_groups_reserved": true,
+    "one_canonical_per_disjoint_train_val_test_group": true,
+    "new521_train132_imageval144_reserved": true,
+    "all_raw_inputs_and_labels_unchanged": true,
+    "video29_rows_and_original_snapshot_unchanged": true,
+    "full2694_video_frames_screened_no_candidates": true,
+    "source_exclusion_and_pending_labels_preserved": true,
+    "zero_unlabeled_pseudo_or_video_training": true,
+    "frozen_inputs_config_source_and_encoder": true,
+    "exact1425_updates2850_exposures": true,
+    "190_distinct_samples_each_budget_epoch": true,
+    "sampled_ids_only_in_frozen_train": true,
+    "clean_initialization_fixed_architecture_and_schedule": true,
+    "same_video_a0_and_old190_metrics_reproduced": true,
+    "native_prediction_geometry_and_independent_confusion": true,
+    "final_image_metrics_equal_final_epoch": true,
+    "video_regression_not_checkpoint_selection": true,
+    "reserved_test_masks_not_in_training_or_evaluation_identity": true,
+    "fresh_cost87_samples12_warmup": true,
+    "a0_sha_preserved": true
+  },
+  "all_passed": true,
+  "tests": {
+    "total": 83,
+    "passed": 81,
+    "skipped": [
+      [
+        "test_context_stream_is_jpeg_without_browser_codec_dependency (test_review_workspace.ReviewWorkspaceTests.test_context_stream_is_jpeg_without_browser_codec_dependency)",
+        "Known sandbox loopback WinError10013; unchanged HTTP tests"
+      ],
+      [
+        "test_filters_and_loopback_http (test_review_workspace.ReviewWorkspaceTests.test_filters_and_loopback_http)",
+        "Known sandbox loopback WinError10013; unchanged HTTP tests"
+      ]
+    ],
+    "errors": [],
+    "failures": []
+  },
+  "unique_training_images_seen": 519,
+  "sampling_histogram": {
+    "7": 84,
+    "5": 120,
+    "9": 14,
+    "8": 36,
+    "4": 80,
+    "6": 104,
+    "10": 6,
+    "2": 15,
+    "3": 52,
+    "11": 5,
+    "1": 3
+  },
+  "scope": "Single-seed matched-update development check, not independent case or clinical acceptance"
+}

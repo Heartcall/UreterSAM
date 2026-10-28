@@ -1,0 +1,84 @@
+{
+  "source": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8",
+  "categories": [
+    "fiber",
+    "stone",
+    "tissue"
+  ],
+  "images": 976,
+  "filename_families": 444,
+  "split_statistics": {
+    "train": {
+      "images": 798,
+      "filename_families": 266,
+      "with_fiber_annotation": 282,
+      "with_stone_annotation": 798,
+      "with_tissue_annotation": 276,
+      "fiber_instances": 282,
+      "stone_instances": 1191,
+      "exact_image_overlap_with_v1": 0,
+      "near_v1_active_supervised190": 37,
+      "near_v1_reserved800_not_trained": 150,
+      "near_v1_outside_active_training_and_reserve": 74
+    },
+    "valid": {
+      "images": 89,
+      "filename_families": 89,
+      "with_fiber_annotation": 27,
+      "with_stone_annotation": 89,
+      "with_tissue_annotation": 35,
+      "fiber_instances": 27,
+      "stone_instances": 129,
+      "exact_image_overlap_with_v1": 0,
+      "near_v1_active_supervised190": 8,
+      "near_v1_reserved800_not_trained": 30,
+      "near_v1_outside_active_training_and_reserve": 10
+    },
+    "test": {
+      "images": 89,
+      "filename_families": 89,
+      "with_fiber_annotation": 31,
+      "with_stone_annotation": 89,
+      "with_tissue_annotation": 34,
+      "fiber_instances": 31,
+      "stone_instances": 162,
+      "exact_image_overlap_with_v1": 0,
+      "near_v1_active_supervised190": 8,
+      "near_v1_reserved800_not_trained": 25,
+      "near_v1_outside_active_training_and_reserve": 20
+    }
+  },
+  "image_dimensions": {
+    "640x640": 976
+  },
+  "family_split_conflicts": {},
+  "v2_internal_cross_split_near_copy_pairs": 2,
+  "near_copy_queries_overlapping_v1": 362,
+  "near_copy_filename_families_overlapping_v1": 233,
+  "v1_images_compared": 1411,
+  "validation_video_frames_compared": 2694,
+  "validation_video_near_copy_pairs": 0,
+  "annotation_parse_issues": [],
+  "annotations_manually_reviewed": false,
+  "case_independence_verified": false,
+  "active_manifest_changed": false,
+  "training_updates": 0,
+  "conservative_family_component_overlap": {
+    "train": {
+      "images_in_component_with_existing_supervised_training": 114,
+      "images_in_component_with_v2_train": 798,
+      "fiber_annotated_filename_families": 94
+    },
+    "valid": {
+      "images_in_component_with_existing_supervised_training": 16,
+      "images_in_component_with_v2_train": 0,
+      "fiber_annotated_filename_families": 27
+    },
+    "test": {
+      "images_in_component_with_existing_supervised_training": 14,
+      "images_in_component_with_v2_train": 1,
+      "fiber_annotated_filename_families": 31
+    }
+  },
+  "excluded_stone_new_exact_hash_match_count": 0
+}

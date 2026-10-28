@@ -1,0 +1,12 @@
+{
+  "pid": 18660,
+  "experiment": "A1_SUP_KIDNEY_JOINT_MATCHED1425UPDATES_20261028",
+  "training_video_frames": 0,
+  "unlabeled_images_used": 0,
+  "phase": "failed",
+  "planned_epochs": 15,
+  "error": "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\1\\\\AppData\\\\Local\\\\Packages\\\\sandbox.{1f0858b8-2905-4930-8cd8-9e67db6806a1}\\\\AC\\\\Temp\\\\tmpblxjqd96'",
+  "training_updates": 0,
+  "aborted_before_optimizer_construction": true,
+  "recovery": "Use workspace runtime_tmp for legacy pretrained tar extraction"
+}

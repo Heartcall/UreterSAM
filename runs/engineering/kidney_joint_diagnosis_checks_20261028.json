@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "frozen_config_and_active_inputs_unchanged": true,
+    "frozen_sources_and_other_inputs_unchanged": true,
+    "native29_old_and_new_confusions_exactly_reproduced": true,
+    "paired_class_changes_and_distance_counts_recomputed": true,
+    "near_far_background_foreground_partitions_exhaustive": true,
+    "paired_lost_gained_equals_signed_fn_change": true,
+    "paired_added_removed_equals_signed_fp_change": true,
+    "same2850_actual_exposures_and_histogram": true,
+    "historical190_groups_and_shared_exposures_recomputed": true,
+    "source_training_confusion_matches_independent_native_result": true,
+    "source_imageval_confusion_matches_frozen_final_epoch": true,
+    "source_records_exactly521train132imageval": true,
+    "all11_conflict_groups_inventoried_only6_active": true,
+    "reserved5_conflicts_metadata_only_no_pixel_inputs": true,
+    "unverified_alignments_have_no_overlap_claim": true,
+    "strict_verified_alignment_count_two": true,
+    "no_training_label_or_split_changes": true,
+    "a0_preserved": true
+  },
+  "all_passed": true,
+  "new_unit_tests": {
+    "passed": 3,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_joint_failure_diagnosis.py -v",
+    "evidence": "All3 passed in this turn before diagnostic execution"
+  },
+  "scope": "Read-only diagnostic correctness; not clinical, independent-case or causal validation"
+}

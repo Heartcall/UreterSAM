@@ -1,0 +1,51 @@
+
+epoch 1/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 1/2: 100%|��������������������| 3/3 [00:00<00:00, 78.95it/s, loss=4.908]
+
+epoch 2/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 2/2: 100%|��������������������| 3/3 [00:00<00:00, 77.91it/s, loss=5.526]
+
+epoch 1/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 1/2: 100%|��������������������| 3/3 [00:00<00:00, 85.71it/s, loss=4.908]
+
+epoch 2/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 2/2: 100%|��������������������| 3/3 [00:00<00:00, 79.98it/s, loss=5.526]
+
+epoch 2/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 2/2: 100%|��������������������| 3/3 [00:00<00:00, 73.63it/s, loss=5.526]
+
+epoch 1/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 1/2: 100%|��������������������| 3/3 [00:00<00:00, 100.00it/s, loss=4.036]
+
+epoch 2/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 2/2: 100%|��������������������| 3/3 [00:00<00:00, 95.74it/s, loss=4.176]
+
+epoch 1/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 1/2: 100%|��������������������| 3/3 [00:00<00:00, 99.99it/s, loss=4.036]
+
+epoch 2/2:   0%|          | 0/3 [00:00<?, ?it/s]
+epoch 2/2: 100%|��������������������| 3/3 [00:00<00:00, 70.50it/s, loss=4.176]
+Traceback (most recent call last):
+  File "E:\Study\Wang Shuangyi\Wu Yuanzhao\UreterSAM\runs\engineering\run_available_tests_20261027.py", line 17, in <module>
+    Path("runs/engineering/fiber_ablation_tests_20261027.json").write_text(json.dumps(summary,indent=2)+"\n",encoding="utf-8")
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "E:\Apps\Conda\miniconda3\envs\uretersam\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ReviewWorkspaceTests is not JSON serializable

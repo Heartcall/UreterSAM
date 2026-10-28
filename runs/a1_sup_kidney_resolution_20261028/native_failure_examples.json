@@ -1,0 +1,19 @@
+{
+  "selection": "up to3 smallest<=1024 native-area frames,1 negative,2 high512fiber-FN frames, deduplicated",
+  "sample_ids": [
+    "reviewed_video_2_001822",
+    "reviewed_video_1_000053",
+    "reviewed_video_1_000002",
+    "reviewed_video_1_000096",
+    "reviewed_video_2_000986",
+    "reviewed_video_2_001897"
+  ],
+  "evaluation_grid": [
+    400,
+    400
+  ],
+  "display_tile": [
+    256,
+    256
+  ]
+}

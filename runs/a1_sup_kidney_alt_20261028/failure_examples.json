@@ -1,0 +1,543 @@
+{
+  "selection": "up to2 tiny-stone,2 negative,2 high fiber-FP frames, deduplicated; diagnostic selection only",
+  "sample_ids": [
+    "reviewed_video_1_000096",
+    "reviewed_video_1_000062",
+    "reviewed_video_2_001822",
+    "reviewed_video_1_000072",
+    "reviewed_video_2_001061",
+    "reviewed_video_1_000524"
+  ],
+  "grid": 256,
+  "all_prediction_confusions_match_primary_comparison": true,
+  "frame_errors": {
+    "A0": [
+      {
+        "stone_fp": 6,
+        "stone_fn": 18,
+        "fiber_fp": 21,
+        "fiber_fn": 36
+      },
+      {
+        "stone_fp": 44,
+        "stone_fn": 20,
+        "fiber_fp": 25,
+        "fiber_fn": 27
+      },
+      {
+        "stone_fp": 101,
+        "stone_fn": 18,
+        "fiber_fp": 18,
+        "fiber_fn": 30
+      },
+      {
+        "stone_fp": 199,
+        "stone_fn": 10,
+        "fiber_fp": 19,
+        "fiber_fn": 29
+      },
+      {
+        "stone_fp": 144,
+        "stone_fn": 8,
+        "fiber_fp": 18,
+        "fiber_fn": 19
+      },
+      {
+        "stone_fp": 1446,
+        "stone_fn": 0,
+        "fiber_fp": 23,
+        "fiber_fn": 22
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 16,
+        "fiber_fn": 21
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 24,
+        "fiber_fn": 21
+      },
+      {
+        "stone_fp": 364,
+        "stone_fn": 0,
+        "fiber_fp": 23,
+        "fiber_fn": 27
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 17,
+        "fiber_fn": 27
+      },
+      {
+        "stone_fp": 3039,
+        "stone_fn": 0,
+        "fiber_fp": 15,
+        "fiber_fn": 18
+      },
+      {
+        "stone_fp": 14468,
+        "stone_fn": 0,
+        "fiber_fp": 16,
+        "fiber_fn": 28
+      },
+      {
+        "stone_fp": 3059,
+        "stone_fn": 514,
+        "fiber_fp": 16,
+        "fiber_fn": 28
+      },
+      {
+        "stone_fp": 18,
+        "stone_fn": 4,
+        "fiber_fp": 20,
+        "fiber_fn": 23
+      },
+      {
+        "stone_fp": 10,
+        "stone_fn": 12,
+        "fiber_fp": 24,
+        "fiber_fn": 10
+      },
+      {
+        "stone_fp": 16,
+        "stone_fn": 100,
+        "fiber_fp": 20,
+        "fiber_fn": 13
+      },
+      {
+        "stone_fp": 17,
+        "stone_fn": 31,
+        "fiber_fp": 21,
+        "fiber_fn": 14
+      },
+      {
+        "stone_fp": 22,
+        "stone_fn": 27,
+        "fiber_fp": 21,
+        "fiber_fn": 23
+      },
+      {
+        "stone_fp": 23,
+        "stone_fn": 42,
+        "fiber_fp": 21,
+        "fiber_fn": 12
+      },
+      {
+        "stone_fp": 18,
+        "stone_fn": 149,
+        "fiber_fp": 21,
+        "fiber_fn": 11
+      },
+      {
+        "stone_fp": 66,
+        "stone_fn": 2230,
+        "fiber_fp": 23,
+        "fiber_fn": 61
+      },
+      {
+        "stone_fp": 17,
+        "stone_fn": 2041,
+        "fiber_fp": 8,
+        "fiber_fn": 359
+      },
+      {
+        "stone_fp": 39,
+        "stone_fn": 1870,
+        "fiber_fp": 11,
+        "fiber_fn": 388
+      },
+      {
+        "stone_fp": 21772,
+        "stone_fn": 0,
+        "fiber_fp": 12,
+        "fiber_fn": 755
+      },
+      {
+        "stone_fp": 1828,
+        "stone_fn": 186,
+        "fiber_fp": 18,
+        "fiber_fn": 208
+      },
+      {
+        "stone_fp": 11,
+        "stone_fn": 1594,
+        "fiber_fp": 7,
+        "fiber_fn": 466
+      },
+      {
+        "stone_fp": 11,
+        "stone_fn": 11,
+        "fiber_fp": 19,
+        "fiber_fn": 494
+      },
+      {
+        "stone_fp": 4835,
+        "stone_fn": 0,
+        "fiber_fp": 23,
+        "fiber_fn": 151
+      },
+      {
+        "stone_fp": 25,
+        "stone_fn": 719,
+        "fiber_fp": 13,
+        "fiber_fn": 445
+      }
+    ],
+    "unet_control": [
+      {
+        "stone_fp": 170,
+        "stone_fn": 0,
+        "fiber_fp": 188,
+        "fiber_fn": 38
+      },
+      {
+        "stone_fp": 125,
+        "stone_fn": 0,
+        "fiber_fp": 185,
+        "fiber_fn": 47
+      },
+      {
+        "stone_fp": 130,
+        "stone_fn": 0,
+        "fiber_fp": 174,
+        "fiber_fn": 47
+      },
+      {
+        "stone_fp": 55,
+        "stone_fn": 6,
+        "fiber_fp": 189,
+        "fiber_fn": 38
+      },
+      {
+        "stone_fp": 204,
+        "stone_fn": 0,
+        "fiber_fp": 144,
+        "fiber_fn": 66
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 152,
+        "fiber_fn": 51
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 30,
+        "fiber_fn": 158
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 1267,
+        "fiber_fn": 150
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 29,
+        "fiber_fn": 175
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 15,
+        "fiber_fn": 216
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 17,
+        "fiber_fn": 192
+      },
+      {
+        "stone_fp": 195,
+        "stone_fn": 0,
+        "fiber_fp": 168,
+        "fiber_fn": 105
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 387,
+        "fiber_fp": 25,
+        "fiber_fn": 196
+      },
+      {
+        "stone_fp": 10,
+        "stone_fn": 172,
+        "fiber_fp": 99,
+        "fiber_fn": 118
+      },
+      {
+        "stone_fp": 40,
+        "stone_fn": 89,
+        "fiber_fp": 81,
+        "fiber_fn": 70
+      },
+      {
+        "stone_fp": 1,
+        "stone_fn": 518,
+        "fiber_fp": 91,
+        "fiber_fn": 111
+      },
+      {
+        "stone_fp": 58,
+        "stone_fn": 192,
+        "fiber_fp": 316,
+        "fiber_fn": 69
+      },
+      {
+        "stone_fp": 51,
+        "stone_fn": 187,
+        "fiber_fp": 282,
+        "fiber_fn": 70
+      },
+      {
+        "stone_fp": 18,
+        "stone_fn": 401,
+        "fiber_fp": 296,
+        "fiber_fn": 55
+      },
+      {
+        "stone_fp": 142,
+        "stone_fn": 290,
+        "fiber_fp": 263,
+        "fiber_fn": 81
+      },
+      {
+        "stone_fp": 274,
+        "stone_fn": 1482,
+        "fiber_fp": 266,
+        "fiber_fn": 61
+      },
+      {
+        "stone_fp": 257,
+        "stone_fn": 1536,
+        "fiber_fp": 139,
+        "fiber_fn": 101
+      },
+      {
+        "stone_fp": 112,
+        "stone_fn": 2177,
+        "fiber_fp": 191,
+        "fiber_fn": 146
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 9,
+        "fiber_fn": 887
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 404,
+        "fiber_fp": 834,
+        "fiber_fn": 227
+      },
+      {
+        "stone_fp": 252,
+        "stone_fn": 1344,
+        "fiber_fp": 41,
+        "fiber_fn": 297
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 256,
+        "fiber_fp": 4118,
+        "fiber_fn": 484
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 73,
+        "fiber_fn": 425
+      },
+      {
+        "stone_fp": 175,
+        "stone_fn": 929,
+        "fiber_fp": 231,
+        "fiber_fn": 132
+      }
+    ],
+    "segformer_b0": [
+      {
+        "stone_fp": 1,
+        "stone_fn": 167,
+        "fiber_fp": 15,
+        "fiber_fn": 711
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 228,
+        "fiber_fp": 27,
+        "fiber_fn": 932
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 160,
+        "fiber_fp": 17,
+        "fiber_fn": 991
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 190,
+        "fiber_fp": 30,
+        "fiber_fn": 856
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 340,
+        "fiber_fp": 18,
+        "fiber_fn": 789
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 30,
+        "fiber_fn": 311
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 10,
+        "fiber_fn": 1076
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 6,
+        "fiber_fn": 1315
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 9,
+        "fiber_fn": 1277
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 9,
+        "fiber_fn": 1407
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 10,
+        "fiber_fn": 1328
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 50,
+        "fiber_fn": 1742
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 514,
+        "fiber_fp": 13,
+        "fiber_fn": 1271
+      },
+      {
+        "stone_fp": 3,
+        "stone_fn": 173,
+        "fiber_fp": 21,
+        "fiber_fn": 1543
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 367,
+        "fiber_fp": 39,
+        "fiber_fn": 319
+      },
+      {
+        "stone_fp": 60,
+        "stone_fn": 226,
+        "fiber_fp": 38,
+        "fiber_fn": 365
+      },
+      {
+        "stone_fp": 179,
+        "stone_fn": 406,
+        "fiber_fp": 36,
+        "fiber_fn": 270
+      },
+      {
+        "stone_fp": 177,
+        "stone_fn": 374,
+        "fiber_fp": 39,
+        "fiber_fn": 246
+      },
+      {
+        "stone_fp": 180,
+        "stone_fn": 381,
+        "fiber_fp": 45,
+        "fiber_fn": 328
+      },
+      {
+        "stone_fp": 97,
+        "stone_fn": 574,
+        "fiber_fp": 49,
+        "fiber_fn": 377
+      },
+      {
+        "stone_fp": 86,
+        "stone_fn": 1815,
+        "fiber_fp": 110,
+        "fiber_fn": 777
+      },
+      {
+        "stone_fp": 94,
+        "stone_fn": 1603,
+        "fiber_fp": 177,
+        "fiber_fn": 1729
+      },
+      {
+        "stone_fp": 357,
+        "stone_fn": 2056,
+        "fiber_fp": 11,
+        "fiber_fn": 948
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 0,
+        "fiber_fn": 4361
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 523,
+        "fiber_fp": 0,
+        "fiber_fn": 2494
+      },
+      {
+        "stone_fp": 123,
+        "stone_fn": 1458,
+        "fiber_fp": 0,
+        "fiber_fn": 2289
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 256,
+        "fiber_fp": 42,
+        "fiber_fn": 1726
+      },
+      {
+        "stone_fp": 0,
+        "stone_fn": 0,
+        "fiber_fp": 0,
+        "fiber_fn": 4133
+      },
+      {
+        "stone_fp": 51,
+        "stone_fn": 1352,
+        "fiber_fp": 3,
+        "fiber_fn": 2356
+      }
+    ]
+  }
+}

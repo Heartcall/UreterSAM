@@ -12,7 +12,7 @@ import numpy as np
 import torch
 
 from .data import MEAN, STD
-from .model import build_model
+from .model import build_model, ensemble_logits
 
 
 def file_sha256(path: str | Path) -> str:
@@ -59,7 +59,12 @@ class SegmentationPredictor:
         self.classes = state.get("classes", ["background", "stone", "fiber"])
         if self.classes != ["background", "stone", "fiber"]:
             raise ValueError(f"Unexpected class ordering: {self.classes}")
-        self.models = tuple(build_model(pretrained=False).to(self.device).eval() for _ in range(2))
+        self.model_count = int(state.get("model_count", 2))
+        if self.model_count not in (1, 2):
+            raise ValueError("Unsupported segmentation ensemble size")
+        self.architecture = state.get("architecture", "unet_resnet34")
+        model_args = {} if self.architecture == "unet_resnet34" else {"architecture": self.architecture}
+        self.models = tuple(build_model(pretrained=False, **model_args).to(self.device).eval() for _ in range(self.model_count))
         for index, model in enumerate(self.models, 1):
             model.load_state_dict(state[f"model{index}"])
 
@@ -74,7 +79,7 @@ class SegmentationPredictor:
         tensor = preprocess(frame, self.size, self.device)
         self._sync()
         prepared = time.perf_counter()
-        logits = (self.models[0](tensor) + self.models[1](tensor)) / 2
+        logits = ensemble_logits(self.models, tensor)
         self._sync()
         inferred = time.perf_counter()
         probabilities = torch.softmax(logits, dim=1)

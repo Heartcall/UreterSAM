@@ -1,0 +1,19 @@
+{
+  "pid": 30504,
+  "experiment": "A1_DEV_videos_validation_only_seed42_20261027",
+  "launch_config_sha256": "0cc13973ff682676288ac23c09cc32e6f874029559cfd17063d0986605ab4326",
+  "scope": "unreviewed_development_experiment",
+  "planned_epochs": 60,
+  "review_deferred_by_user": true,
+  "independent_test_available": false,
+  "validation_only_videos": [
+    "video_1",
+    "video_2"
+  ],
+  "video_frames_used_for_training": 0,
+  "phase": "retired_failed_supervision",
+  "updated_utc": "2026-10-27T08:46:55.537680+00:00",
+  "first_epoch_checkpoint_verified": true,
+  "retired_utc": "2026-10-27T10:37:07.958091+00:00",
+  "reason": "Plan v2 authorized: foreground-only supervised masks have zero background pixels; severe stone over-segmentation"
+}

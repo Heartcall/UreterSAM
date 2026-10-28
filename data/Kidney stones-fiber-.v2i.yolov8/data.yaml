@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['fiber', 'stone', 'tissue']
+
+roboflow:
+  workspace: ilk-awfpp
+  project: kidney-stone-fiber-tissue
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ilk-awfpp/kidney-stone-fiber-tissue/dataset/2

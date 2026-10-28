@@ -1,0 +1,18 @@
+{
+  "pid": 32812,
+  "suite_sha256": "3a57e30786d30ad2c3eaa05f4fd6370873b8f14ec201036b80957a2d4664697a",
+  "phase": "completed",
+  "planned_arms": [
+    "control",
+    "fiber_weight",
+    "fiber_sampling",
+    "classwise_partial"
+  ],
+  "completed_arms": [
+    "control",
+    "fiber_weight",
+    "fiber_sampling",
+    "classwise_partial"
+  ],
+  "current_arm": null
+}

@@ -1,0 +1,116 @@
+{
+  "sources": {
+    "stone_new_v4": {
+      "images": 160,
+      "fiber_images_native": 67,
+      "fiber_images_256": 67,
+      "fiber_pixels_native": 108346,
+      "fiber_pixels_256": 17367,
+      "valid_pixels_256": 10485760
+    },
+    "kidney_stones_fiber_v1": {
+      "images": 190,
+      "fiber_images_native": 65,
+      "fiber_images_256": 65,
+      "fiber_pixels_native": 86257,
+      "fiber_pixels_256": 55233,
+      "valid_pixels_256": 12451840
+    }
+  },
+  "fiber_positive_images": 132,
+  "fiber_pixels_per_positive_image_256_min": 68,
+  "fiber_pixels_per_positive_image_256_median": 344.0,
+  "history": [
+    {
+      "epoch": 1,
+      "stone_dice": 0.4786511498589983,
+      "fiber_dice": 0.0,
+      "stone_recall": 0.3214028537138285,
+      "negative_fp_fraction": 0.0003763834635416667,
+      "negative_fp_images": 1,
+      "fiber_tp": 0,
+      "fiber_fp": 89,
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "stone_dice": 0.2738408393196092,
+      "fiber_dice": 0.0,
+      "stone_recall": 0.5983197759701293,
+      "negative_fp_fraction": 0.11816914876302083,
+      "negative_fp_images": 9,
+      "fiber_tp": 0,
+      "fiber_fp": 0,
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": false,
+          "fiber_dice": false,
+          "negative_fp_area": false
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "stone_dice": 0.7307612281901138,
+      "fiber_dice": 0.0,
+      "stone_recall": 0.6556874249899987,
+      "negative_fp_fraction": 0.004009670681423611,
+      "negative_fp_images": 3,
+      "fiber_tp": 0,
+      "fiber_fp": 0,
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "stone_dice": 0.7524185734515912,
+      "fiber_dice": 0.0,
+      "stone_recall": 0.6731030804107214,
+      "negative_fp_fraction": 0.0006764729817708334,
+      "negative_fp_images": 1,
+      "fiber_tp": 0,
+      "fiber_fp": 0,
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "stone_dice": 0.6563828706592562,
+      "fiber_dice": 0.0,
+      "stone_recall": 0.6031737565008668,
+      "negative_fp_fraction": 0.006432427300347222,
+      "negative_fp_images": 2,
+      "fiber_tp": 0,
+      "fiber_fp": 0,
+      "screening": {
+        "passed": false,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": false,
+          "negative_fp_area": true
+        }
+      }
+    }
+  ],
+  "inference": "Fiber labels survive resizing; low coverage/class imbalance and incomplete source annotations remain candidates, not proven sole causes. Five supervised epochs are a short diagnostic, not convergence evidence."
+}

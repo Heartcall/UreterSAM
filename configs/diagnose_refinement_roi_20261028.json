@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "experiment": "S2_AUTOMATIC_REFINEMENT_ROI_FEASIBILITY_20261028",
+  "manifest": "datasets/ureter_semis_a1_sup_kidney_only_20261027/manifest.json",
+  "checkpoint": "runs/a1_sup_kidney_resolution_20261028/unet256/last.pt",
+  "native_reference": "runs/a1_sup_kidney_resolution_20261028/native_comparison/comparison.json",
+  "output": "runs/a1_sup_kidney_roi_diagnosis_20261028",
+  "proposal": {
+    "native_crop_side": 192,
+    "refiner_input_side": 256,
+    "margin_native_pixels": 16,
+    "max_tile_stride": 160,
+    "minimum_component_pixels": 4,
+    "soft_probability_threshold": 0.2,
+    "connectivity": 8,
+    "ranking": "Greedy newly covered seed pixels, equal total weight per nonempty predicted class; deterministic lexicographic tie break",
+    "empty_prediction_policy": "No ROI; keep coarse prediction, no silent ground-truth or full-frame fallback"
+  },
+  "profiles": [
+    {"name": "hard_cap2", "seed": "argmax", "max_rois": 2},
+    {"name": "hard_cap4", "seed": "argmax", "max_rois": 4},
+    {"name": "hard_uncapped", "seed": "argmax", "max_rois": null},
+    {"name": "soft_cap2", "seed": "probability", "max_rois": 2},
+    {"name": "soft_cap4", "seed": "probability", "max_rois": 4},
+    {"name": "soft_uncapped", "seed": "probability", "max_rois": null}
+  ],
+  "evaluation": {
+    "input_protocol": "PIL RGB bilinear to256; mean logits softmax; FP32 bilinear probabilities to untouched native GT grid align_corners=false",
+    "pixel_coverage_min_per_class": 0.99,
+    "minimum_present_frame_coverage_per_class": 0.95,
+    "p95_roi_count_max": 2,
+    "mean_model_input_pixels_ratio_to_coarse_max_exclusive": 4,
+    "decision": "ROI feasibility only, not segmentation acceptance. Meet all coverage/cost constraints before proposing bounded crop-training protocol; no threshold adjustment after results",
+    "oracle": "Perfect correction of valid GT pixels inside automatically proposed ROI union only; diagnostic upper bound, never a real model result or GT-selected ROI",
+    "area_bins_native_stone_pixels": [0, 1024, 4096]
+  },
+  "benchmark": {
+    "warmup_frames": 12,
+    "repeats": 3,
+    "batch_size": 1,
+    "scope": "Cached native RGB/PIL coarse inference, CPU ROI proposal, sequential resized crop model calls, native probability remapping and CPU crop outputs; no decode/display/fusion/geometry/memory",
+    "proxy": "Reuse frozen coarse U-Net as same-shape compute proxy only; not a trained crop refiner and no crop accuracy claim"
+  },
+  "constraints": "Validation29 frames only; no training images or reserve800 read; zero training/parameter updates/pseudo labels. stone_new excluded. Source/case and unreviewed training-label limitations preserved"
+}

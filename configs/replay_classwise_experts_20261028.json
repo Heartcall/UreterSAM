@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "experiment": "S2_CLASSWISE_FULL_VIDEO_REPLAY_20261028",
+  "status": "PREPARED_NOT_EXECUTED_IMPLEMENTATION_PENDING",
+  "phase": "S2 development validation before acceptance or S3",
+  "frozen_predictor_manifest": "runs/a1_classwise_experts_20261028/predictor_manifest.json",
+  "frozen_expert_protocol": "configs/compare_classwise_experts_20261028.json",
+  "stone_checkpoint_sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3",
+  "fiber_checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+  "model_count": 3,
+  "parameter_count": 73804185,
+  "seed": 42,
+  "batch_size": 1,
+  "input_size": 256,
+  "precision": "float32",
+  "training_updates": 0,
+  "temporal": false,
+  "video_source_identity_from": "runs/baselines/a0_20261027/config.json",
+  "expected_frames": {"video_1": 722, "video_2": 1972},
+  "decode": "Sequential from frame zero; no random seek or future frames",
+  "preprocess": "Decoded BGR to RGB, PIL bilinear resize256 with same normalization as NativeValidationDataset; verify decoded keyframe RGB hashes against frozen29 before comparing precision",
+  "native_output": "Per-expert softmax FP32 bilinear align_corners=False before argmax; frozen A0-fiber-priority rule, no thresholds/morphology/history",
+  "references": ["A0", "old190", "classwise"],
+  "shared_forward": "Reuse same three forwards to export all references; classwise timing includes every network and fusion. No joint521 fourth model is required for full replay; retain its29-frame result",
+  "repeat_check": "Identical-frame outputs repeat exactly; evaluation mode, no gradients or parameter updates",
+  "exports": "Native masks for all three references, per-frame JSONL diagnostics, full comparison previews and fixed user-event clips; no huge full-video probability dump required",
+  "user_events_one_based_inclusive": {
+    "video_1": {
+      "wall_flicker_reported": [[33,37],[54,72],[77,78],[80,113]],
+      "fiber_occlusion_reported": [[330,722]]
+    }
+  },
+  "diagnostics_fixed_before_replay": [
+    "Native predicted stone/fiber area and estimated-FOV area fraction",
+    "Adjacent uncompensated label-change fraction and absolute class-area change; proxy only, motion/camera/exposure may explain changes",
+    "Per-class nonempty-to-empty/empty-to-nonempty transitions and predicted-presence run lengths; no minimum-area tuning, no claim of true disappearance or identity",
+    "Large predicted stone region fraction>0.25 of estimated FOV inherited from A0 review proposal, only diagnostic, not a true false positive",
+    "Summaries by video and fixed user interval with exact zero-based to one-based mapping",
+    "Recompute29 reviewed-frame native metrics and compare batch1 against prior batch2 results; report any preprocessing/numerical differences rather than reselect thresholds"
+  ],
+  "timing": "12-frame warmup excluded; record CUDA-synchronized all3-network inference/native transfer separately from decode/preprocess/render/write/total. Report p50/p95 and elapsed throughput, compare with native source fps; offline writer is not measured live display",
+  "limitations": "No dense event/instance GT; do not call diagnostic counts FP duration, temporal accuracy, identity retention or occlusion recovery. No calibrated fused probabilities, hidden-stone reconstruction or spatial/laser geometry validation",
+  "stop_and_decision": "Hash, geometry, frame alignment or repeat-check failure stops acceptance. Preserve outputs; no threshold search, new training, default adoption or automatic S3. Use full replay and existing image132 limitations to decide whether lightweight fiber refinement or further baseline work is needed",
+  "constraints": "Validation only, no video-derived training/pseudo labels. stone_new banned from training; all checkpoint files and active521/132/144/29 splits unchanged; reserved-test pixels never read"
+}

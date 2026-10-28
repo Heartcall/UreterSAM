@@ -1,0 +1,14 @@
+{
+  "pid": 34468,
+  "experiment": "A1_RESOLUTION_KIDNEY_UNET256_512_NATIVE_20261028",
+  "completed_arms": [
+    "unet256",
+    "unet512"
+  ],
+  "training_video_frames": 0,
+  "unlabeled_images_used": 0,
+  "validation_frames": 29,
+  "phase": "completed",
+  "current_arm": null,
+  "screening_passed": false
+}

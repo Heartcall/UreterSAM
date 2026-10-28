@@ -1,0 +1,204 @@
+{
+  "checks": {
+    "only_class_weights_changed": true,
+    "preflight_configuration_frozen_before_start": true,
+    "identical_inputs_sources_runtime": true,
+    "snapshot_and_438_active_inputs_unchanged": true,
+    "same_15_epochs_1425_updates_uniform_190_images": true,
+    "a0_and_validation_exactly_reproduced": true,
+    "selected_checkpoint_matches_history": true,
+    "validation_not_trained_unlabeled_unused": true,
+    "diagnosis_counts_reproduce_all_reference_fiber_metrics": true,
+    "candidate_diagnosis_reproduces_fiber_metrics": true,
+    "job_completed_comparison": true
+  },
+  "all_passed": true,
+  "arms": [
+    {
+      "name": "weight4_control",
+      "selected_epoch": 14,
+      "selected_metrics": {
+        "stone_dice": 0.8173820463969517,
+        "stone_iou": 0.691163231461739,
+        "stone_precision": 0.8608693086252176,
+        "stone_recall": 0.7780770769435925,
+        "stone_tp": 29174,
+        "stone_fp": 4715,
+        "stone_fn": 8321,
+        "fiber_dice": 0.8308068831860791,
+        "fiber_iou": 0.7105814011718163,
+        "fiber_precision": 0.7262490915232723,
+        "fiber_recall": 0.9705343219063773,
+        "fiber_tp": 70948,
+        "fiber_fp": 26743,
+        "fiber_fn": 2154,
+        "mean_dice": 0.8240944647915154,
+        "mean_iou": 0.7008723163167776,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1753369,
+            4620,
+            26702
+          ],
+          [
+            8280,
+            29174,
+            41
+          ],
+          [
+            2059,
+            95,
+            70948
+          ]
+        ],
+        "valid_pixels": 1895288,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 2,
+        "stone_negative_fp_image_rate": 0.2222222222222222,
+        "stone_negative_valid_pixels": 589824,
+        "stone_negative_fp_pixels": 1017,
+        "stone_negative_fp_pixel_fraction": 0.0017242431640625
+      },
+      "final_epoch_metrics": {
+        "stone_dice": 0.8110451643768034,
+        "stone_iou": 0.6821496831304698,
+        "stone_precision": 0.9228073756548956,
+        "stone_recall": 0.7234297906387518,
+        "stone_tp": 27125,
+        "stone_fp": 2269,
+        "stone_fn": 10370,
+        "fiber_dice": 0.9026727647649765,
+        "fiber_iou": 0.8226103716195868,
+        "fiber_precision": 0.873238536098821,
+        "fiber_recall": 0.9341604880851413,
+        "fiber_tp": 68289,
+        "fiber_fp": 9913,
+        "fiber_fn": 4813,
+        "mean_dice": 0.85685896457089,
+        "mean_iou": 0.7523800273750283,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1772601,
+            2200,
+            9890
+          ],
+          [
+            10347,
+            27125,
+            23
+          ],
+          [
+            4744,
+            69,
+            68289
+          ]
+        ],
+        "valid_pixels": 1895288,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 1,
+        "stone_negative_fp_image_rate": 0.1111111111111111,
+        "stone_negative_valid_pixels": 589824,
+        "stone_negative_fp_pixels": 195,
+        "stone_negative_fp_pixel_fraction": 0.0003306070963541667
+      },
+      "screening_passed_any_epoch": false,
+      "maximum_fiber_dice_diagnostic_only": 0.9054568861331512
+    },
+    {
+      "name": "weight2_candidate",
+      "selected_epoch": 14,
+      "selected_metrics": {
+        "stone_dice": 0.825618498433185,
+        "stone_iou": 0.7030241002022565,
+        "stone_precision": 0.8906520128426773,
+        "stone_recall": 0.769435924789972,
+        "stone_tp": 28850,
+        "stone_fp": 3542,
+        "stone_fn": 8645,
+        "fiber_dice": 0.8724698982769359,
+        "fiber_iou": 0.7737885639981128,
+        "fiber_precision": 0.8297302633202537,
+        "fiber_recall": 0.9198517140433914,
+        "fiber_tp": 67243,
+        "fiber_fp": 13799,
+        "fiber_fn": 5859,
+        "mean_dice": 0.8490441983550605,
+        "mean_iou": 0.7384063321001846,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1767475,
+            3515,
+            13701
+          ],
+          [
+            8547,
+            28850,
+            98
+          ],
+          [
+            5832,
+            27,
+            67243
+          ]
+        ],
+        "valid_pixels": 1895288,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 1,
+        "stone_negative_fp_image_rate": 0.1111111111111111,
+        "stone_negative_valid_pixels": 589824,
+        "stone_negative_fp_pixels": 71,
+        "stone_negative_fp_pixel_fraction": 0.00012037489149305556
+      },
+      "final_epoch_metrics": {
+        "stone_dice": 0.8162667100919333,
+        "stone_iou": 0.6895697848924462,
+        "stone_precision": 0.9173154987688826,
+        "stone_recall": 0.7352713695159354,
+        "stone_tp": 27569,
+        "stone_fp": 2485,
+        "stone_fn": 9926,
+        "fiber_dice": 0.8955213460397249,
+        "fiber_iou": 0.8108091024020228,
+        "fiber_precision": 0.9144767798326038,
+        "fiber_recall": 0.8773357774069109,
+        "fiber_tp": 64135,
+        "fiber_fp": 5998,
+        "fiber_fn": 8967,
+        "mean_dice": 0.8558940280658291,
+        "mean_iou": 0.7501894436472345,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1776299,
+            2458,
+            5934
+          ],
+          [
+            9862,
+            27569,
+            64
+          ],
+          [
+            8940,
+            27,
+            64135
+          ]
+        ],
+        "valid_pixels": 1895288,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": 0.0,
+        "stone_negative_valid_pixels": 589824,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": 0.0
+      },
+      "screening_passed_any_epoch": false,
+      "maximum_fiber_dice_diagnostic_only": 0.9031838597748276
+    }
+  ],
+  "primary_comparison": "same final epoch15; selected checkpoints reported separately",
+  "scope": "Single seed short screen, provisional source labels, repeated development validation; no independent-case generalization claim"
+}

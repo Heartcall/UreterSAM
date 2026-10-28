@@ -1,0 +1,3806 @@
+{
+  "protocol": "PIL input resize / mean logits / softmax / FP32 bilinear probabilities to native, align_corners=false / argmax; GT unchanged",
+  "inputs": {
+    "manifest_sha256": "7c9e930ba33eeecb4bfa88895513e2fe88823184d34aff32128008f278a57f6c",
+    "files": {
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\490_jpg.rf.af7029372d10d2e8ed353fa697baec23.jpg": "a2ef38cd826b5c35b6da3c41b235b63dae82dca19937b35ce7562ed06509b60d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__cccd1a7775145966c8bb5501.png": "68e38983ed86820ccce124116dbb1bb24555155bc01a488c6cf6e5094657bd89",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\588_jpg.rf.4c1af052f15820c6ec92401ac7fdc6f6.jpg": "282c95e1e0f1e4bf7fd92090e156f8c81a246249e19ae48eb1563b8e08a69a77",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2.png": "0a880543224e824ea9884936ad003e1c7d897558dd96ea8878a954c0bf85120b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\415_jpg.rf.a731aa224730ae04eaf8c6d346b0316b.jpg": "23b25d37802a89322bf6cb0ad5373cd59d1f1f00c60055993a0b890ba7ddebf1",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e.png": "95c8d6c189643b06d8d0b393256597c1e3f880135f5a27e0d1c6e75035eca916",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\406_jpg.rf.08839935c402640d36e917eef60a280a.jpg": "047b717a9d26adda59121255e6c91816801760d1f5a0af77a273d2dbdc9cd75d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352.png": "0ae42585ae7356d7ff29c1e4b62b9f83352d2e60463a7ff6928f47612164f4ca",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\119_jpg.rf.6198c59ef0f3fceca14994f95a51622e.jpg": "34fcaa3aafe9c1b42a928754f1a0e7e151ec7cdf144021de1e3d816c17950699",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__cebd05046dd66dfc157c7c22.png": "075c14fa527bb099ef43a3b98c35954e728e3c62d1028fdf18c2f231e27cddf2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\437_jpg.rf.975b35dc45de2165867b42dad4c7ca85.jpg": "0792ace3a9c6ac8f3b397d384ddb3a66651063d30b26dd4e6dc093ea59e52cb5",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__cf2bc6993fd5bc9051797231.png": "0ac626815822cc88d328824e51e16fc531da365c92b3bc655fb70e07736f6327",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\370_jpg.rf.14c6e3cc0dc1a295b4cc1088ed856965.jpg": "04853f7c2a7ff8e111cc5dc24b60fdfaccd6fe979a614e6388d05d2ed7aa6de8",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__cf397a212754fa856044a105.png": "7ae6b21799a827f7a3ce7d9051eb512bbe5d2ba342014e4c4bc8f065cd1ebc0e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\448_jpg.rf.0e4aed876613237a6ace926e2bd20ae7.jpg": "5b2419896dae60ea8429df1bec8b9f9dded459a704831e9c6ebdfefdfd7ec7f4",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8.png": "37f0dfe83d11d36f4adf3a59721d26f45ae11793cdbc790aadaf9a807d752358",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\461_jpg.rf.f6dd246cea07c757743ebdc1ecfcbff8.jpg": "1e38b8dcfbcee8255293fb2541f0c09e3aed8671d6e01523de8d83f08a98b44f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d.png": "9abbffad1c18d29122bfb816ca4ab9b0404584c0ec64cdbce4971a54356c252d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\138_jpg.rf.78dc6dc2d00866c1e1062da7531e1af7.jpg": "1087c28c833ca52c847b5167bd91f64d3a47fa6a80928360191be07e48e02bde",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d380e64796be3f2bc0ea8b8d.png": "c57be25087746da4ee9b3291bdceb9f892e2d2dc86da8dfa48ee57e0dc576a36",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\48_jpg.rf.36f92ceb4580def6cd9bc6a20b1c0f96.jpg": "184ad6f9ea4ab7de4c1a750e232e3a9dc4da6065e5962bf43fa85c38ca811f80",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290.png": "93e0f2ebe59834df4a766e742a3ab427507f8d491247ea5ff87875b18a0febe1",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\408_jpg.rf.fe7fa8598fd4afed12f294c40e5285aa.jpg": "20d3445fdb23332f32b46afa820ac97a5554b9ad9fc1642bdb99303ebee24068",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75.png": "1ae47a0ffa79a53a66af6ee0630317dc3714d62d83c48d8293538e55bd9f3b14",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\586_jpg.rf.b96d099a06583bbffc5a69634e63b974.jpg": "0000df02713211472f6bf5d812587caafccaf97d83db67dcf34ed21edc272b1c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d476007d707213fa27659221.png": "59660640bb6a0dd9cffacb46370274fc473aaa3cf95d294776a7ac54036315f7",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\465_jpg.rf.4b57cb3806e5b3d5961a475c7527509e.jpg": "66378ce1e8406c288297ebc13aa33506edf4a0a8ce5769e9bd3fe22774d4b538",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040.png": "f38e943d26570e6dd01ceb687217793223194a16eefe40fe49b00f209d81a2f4",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\433_jpg.rf.814514e479358557722d05a9b06add3a.jpg": "6eb0da6dec3711bf88f9f9f8a96c8da8382b9956d71ba7f234857cec278e0dc6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d504f85f2fb66ec103d21dc4.png": "df92308e782ba7b58a7b929079ea9ac62f42d99dc9d3a147ecbae2845bf20d77",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\3_jpg.rf.160146bf514ae937241aaee958ae664d.jpg": "64f417ac29ffb6ef526804e72fe586b2a6a9632cf94e75b8d140297bb543aa01",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d5763e0bb069246f33640071.png": "9a1af389d3b4515dfeea8e2719e2e1f7f68a6eb2cb2670f35770577b5351f749",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\239_jpg.rf.2c5ee51ef5b858fcf72429b485bf2772.jpg": "281becd551de43d4c26e26ab09e8ec1f7f209b7c2196b5d230f18fb776c463ae",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2.png": "39bb60928fa9b00c757bb5601be0715f9abd3bbabb611ed46e9690bd1229ca0e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\416_jpg.rf.ae7f02878cf1678cbba707983d82d904.jpg": "8c147d30f26c03954c3171d796e657d312b608f45dd7cc0731534bbfa8975241",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d79781cd1c7cd071fc44de0c.png": "9eecbd14a01e6bccf381c06c67e9983f738b345abb2c7bdb54721194a65d5d17",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\54_jpg.rf.f828eb0a0e068b355960d4f0a872e7ef.jpg": "0ed49d5b0f763bebf6e6d00c93a88f28fbf16563e4e679863fbf0108feeb9f46",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9.png": "513a819e0c251909da7db9748f6133d6d9c7bdf74e5ece9558a0e8f605d0a473",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\343_jpg.rf.93bd06ca36c86feb4539db97d013607c.jpg": "4a7c24d29862302f12474604f32e79b490e2a0e2d5af3be969d24413a6af2b7a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__d8b6c834f397c1414e65a28a.png": "6452d5e0b983bd514bcf90d5b2e3f1a92a218ba6b8ed0d38cec867b3c3846937",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\202_jpg.rf.1546aa52da8b9ef08bc74448ecbe834e.jpg": "8d58e7ce46cde728b1ecbfd7aa692a15c3b886f8e2ba8590a2a0e84c6fbcff69",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__db41ac8a866e0a43cc6b4d14.png": "2ebf8b59a78667ec0cb7a82d91c63321d0b28e8a81f4a569c1d51e5243558bc4",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\515_jpg.rf.9b483c2beb2420ced2283b58e0a4460f.jpg": "03460391592d43c2f7935542a82a143d71bdcf8479669da26c80ce8791acee0a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__db950909f5180cfe568caeeb.png": "f50c32c2658ad9cb66359b5ce3653990b2884c2a6cba98685f54694412f2a6dc",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\510_jpg.rf.8958f5178f5c7d67f58a89e8ecb2823b.jpg": "2f3a3b154600981a79f67ef6da3aa01377df587dcaea7aa021e31c539cbc3116",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__df847941994bf694ac228c8c.png": "7e6d6aeb9892d95912df5bf125ebe130d5928a35c544501b24c9745fcf700e73",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\439_jpg.rf.4fc99821057f26ec097f7211a25beae3.jpg": "37b36a799d840fb3a89bb9b7dfc49c5575ad392fd72107e14acfa86e9de3ec8c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e0267bedab5c1d75d479a19a.png": "445ca5b34cb3409869a557e81b899f0db461bf11ff3871dcc45792be20222cc4",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\340_jpg.rf.c5797e26167d411712d9392b2775be46.jpg": "1616218a751c99ec844df027baeb1d5a3fc32a0de91728dba217421c573efb17",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e128d928f63c992a140d652d.png": "bbb528fffcb96e4a8c34313ab7d389b1ca03b1ec5f01d14fc7f061dac6126f80",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\562_jpg.rf.ff764c27c823649034fa790e9c3d0fc7.jpg": "2e8b7b1d58f8d63124de9c7c8d7386d0639098a7b54ee77b956736dd554b2b62",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f.png": "bd7de5716754efce00379f80d8e25c52a65bb5d994c88562464d90de41eb3e13",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\522_jpg.rf.01ab74ef79bfdf36a66e29de236ec1a5.jpg": "0df599208c3d382a191ce299df021a55132f5d118d753a5e72d7f507d3873d5d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556.png": "1d067d5ee2ffd8d7da9a1cd2fe6bd5c7a5201a91f6b8bc7b0fbba005c7a83644",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\464_jpg.rf.6ce615afe2e02b83a0498f1521f6e8ef.jpg": "61055780c6edcf9d05880c78560c03f536c96b25a2283cd890faf82e56ac831e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91.png": "56a42727c2e880b003b293d8ad895d446d19b372572c75ebe3965800a8f3a14c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\393_jpg.rf.93b67039a33b141e51ad88469ec9297e.jpg": "09253c8a98cec970c1c004afaba825c8ff0bf120801509a46196bfb5633b774d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e24d1cc256dfa5780aeb1769.png": "10c93b0885d7908cf0b81347c8a8dc4c177c86bc9384cfc788286776f37084f2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\273_jpg.rf.b1de0c1fed4589f8e3ecf2c0fcae6800.jpg": "29b01b6c569faaee2cc11ba61d30bf54fded7bd7698c858f63378e1f1fe36dd7",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e2a826c4b9eb6402a96cd36c.png": "f422b9d78ea19fc0da487dbfc1b97008fd8b4dd22452afcce8c8facfd937b318",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\99_jpg.rf.0468811026441536b601747b90253223.jpg": "58aef7da77d713e21dddabc0255a1ed5cfe42f010803868d954ecd26e514d814",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e3053295fb4f899238f8966a.png": "d47af9edf5142797994c39ade2d7b422cfbe7759927b6cc097df817f6bce9bd3",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\446_jpg.rf.ebfdb2c2e199e05a7e09d9a8b1a458ea.jpg": "1a65b46e7b035db58635214bcd35f5ea46c04f7e340f1f80236aecf2159438c4",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e355e8693d335cbf9d8cf855.png": "fa7d882ffb0ab1906d70b45ad90cba23e2dc2213c79d63bf89ccd9a084f962db",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\552_jpg.rf.4499aa3610586b945e6d618b7d796bf5.jpg": "1651ee334dd2211c8cf83e8d348b927ba0e1a4e2a839b5ba36b9fee463d17c7f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e3d9211a5dbed854971a5440.png": "1ef27b3c83870fd731ba05963fff06ca1fe26d7a4d337321b08dea47713054e3",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\414_jpg.rf.bb4fa63004891579cb83ff59ca58d8cd.jpg": "10eb6985a85d0dfa0a40644d12bdadeca5b478762d7f252c858a23cbd541dadb",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd.png": "42609c9f808660c775569203206bf616539b06619455ba1d83a5a3c13204ca5c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\111_jpg.rf.9ec562027d6b0686182d88b7ba9f5d6f.jpg": "0ea8c529b6a43689a7a92aa036b4935f40a4cb440417ade89229f6a5ff4b5cd6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e5f4938cea8a6f11f27fb86f.png": "82103abae8ff8700a6964c0cc54342940a813f1dd8bc70129ece110172e00120",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\445_jpg.rf.3503cbffe11c9f6d60842113c4a6c144.jpg": "57a480cad9da1256fb61079de9e493ad0a33e7493a823c991369e132166c5f9d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e655d4ca3bce9c5dbf8a7031.png": "cc1ce4546a59f440c046b0692b836d92b2a5276fccae9aaf43bb161add595693",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\313_jpg.rf.06e15335e55bc225461f34ef6ec9112f.jpg": "350efb9dd4635ceedb63ecad002edce885a5701bd4b42f00cb28d15436f61c1e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e6cbc0b8877053482b4cbaf9.png": "e61bc742802877e4f15ceb06fafe395b2ad96f49af701684aab9db7038f3e7e2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\443_jpg.rf.53fb9683e8fa5f07936028cfa08b0f01.jpg": "0fee1ce7558c87ddf51c8195e3110275350937ef944e5b3f5c2c6e9701d8d940",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e7a5ff6c13b19390cae69340.png": "c9d74254e79432eb3fe78129372fb2a2a94d462efa87e21fab5451682d0ff2e2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\275_jpg.rf.d19a0e685973fdcd6784f1b3186c9c9b.jpg": "35a706ca113cb186a3faed49e6761a93332b23173584a6b8d89fbfba80cac587",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e81644f0445056839c381270.png": "e5da8a25fd78574439dbf612e53459e0853c14d97f5a366107901e98f16bba66",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\28_jpg.rf.100d019e0c9d4e34e8df8a733c89c44c.jpg": "6a8a07b18c3fedb342fe917f0bf19f506dce614ae5d891ddbd4a761670a4bb79",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2.png": "7b1d32460c4e6d5a48a948740dad0bc9eb903a4aa326a6602f75b1b3016eb11b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\493_jpg.rf.e7649ee3845fed7845d044a847e62fa9.jpg": "544013c0b8770270e270695adfa89760d606f172d7931bcf7e03318d95d728e8",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0.png": "1b4341396390e1e90882f7f319b79ff62095ced2191045b125344508272c5e41",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\294_jpg.rf.825ad2d4c81c1ce173214bb378282f8d.jpg": "c37166f81f788666a01e0e5e0c6fb1860b32b141ca7182367ef1e38044824aa7",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd.png": "6fa89582ae039a87b99dd64eeab65a287b2e77c1688a9271b630ab20e6314044",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\84_jpg.rf.d3116e096ab382e3630904091e9cd5e4.jpg": "3f90bef46742d2d3f249aa67517c8d5ff571aef8c16eb462afba2f0e355fbfbd",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__eb8e9610be90a060660bef16.png": "cfff01d28f04618b01beb2153675c9fe8c3678dfb6171aa0e7c59026bc9ca047",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\521_jpg.rf.bdcec1a0eba36def99593b21abd9f5ff.jpg": "1f10fb24589faa7afea4e620cbadf48a38f92950978e40fef59b0945ac5ee701",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__eb9414350213456173b9216e.png": "62b43a3719a424634b22a3fa5104f8b3f78a9825ec8c30b0634a25618f27cccc",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\36_jpg.rf.14d6452e0db952d526a51c4b11559686.jpg": "5114c06e13919e2687b6c9677bdc6836c284609e1713f874cfd91132de18e828",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__eb9c5b0d82fbd7802848f976.png": "aa979f3d9d26d3be47830ea65b51be9caecc382e61ef6fdfd33d2dda42f20e16",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\426_jpg.rf.0114231076711f5ef29d54f059dd9118.jpg": "57dfca1f54365082b4648f56b041ac61800695faa09f5dfdcec101579de556f7",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482.png": "28b243c589ce41c29e0b4377a7e3cac914f04076604f7e07a301d4b316b051d0",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\135_jpg.rf.299ec8d6ee345bef22c3c31b48d7d00e.jpg": "6702ddb0e310de6144561a567697dab38e1ee28c433a6906188688ee68a7d6d5",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__ee46a5d978b3090ef07b252e.png": "bb655145cd31f7f41c2bb7a85fe8d846b5fdbc97486c2b6ef4e2c4d9844992fc",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\478_jpg.rf.3185a021d9172e10dd55304951b6987f.jpg": "7affe921123b05039d1948d3e156513b8ec8b3b37081a8c1b7d947f3cb0e5742",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__efa54a36a80d5c48f25f4c5b.png": "f31a2fad3d367eabead59a1e2beab0894b8e225b3fd39c6b83b1972b840966bd",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\15_jpg.rf.c2d2b9e352ff61fa9e48b1c8e245e232.jpg": "08ef4f6fa1370864c41806f221f7f8e860013fd2d5c8ab5d5a9e186b53282111",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f30c29162d090fea5d6def64.png": "61e2ac97f2d5bd7000747f164846429c30f1749776997c96d057bc88e65e4f03",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\389_jpg.rf.109bc07addef2998750a3887030d3fc5.jpg": "2f821e60ff4b1d23467aeea6297feae2e801906db7f04b7aa944529fb1d09412",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4.png": "182cdaddd37ed46381b31b8d9d6ab94e372020b6a3b5b770352321efe883006c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\500_jpg.rf.07747e0df6534ff795e196cb44ac59f3.jpg": "08a3fe6e0ff75292c6a26624381f7381b3b5d4b0f6f4b672d80f26c588688d05",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f3b76748433d12f4d9d7a362.png": "494d100aecb53271929eb1b2bc229ce4c479032e178d2795d1f03dfc48a0b6c5",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\384_jpg.rf.961136820a2c5871a854a63c8b465842.jpg": "6a97be30c077b31021923e33663c43f1a06a3d77d8501822f6eeb5be9a180856",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f3e2e469a2139285aca27f9c.png": "c3c85b4618afd95dfec0212f257bc965f57d993103aee39a99e90b0525288cba",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\498_jpg.rf.44e76cc90c6edbd868328f45ecff2661.jpg": "0f887d229636c243d6df26e1526cd36092ec5fb6a5dbed3e928a0aa3f7112a47",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f527f236680465cfac1ee1e1.png": "af1b55ba535bbbafd901390a3f515516e00f85f980f94860819db268da4ccf93",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\149_jpg.rf.a2d2ed72171cd87bf61501b183196618.jpg": "033db7e1fc2cc544872c76f51ebf7434fb32aac985e895f611ff30fb3d99953a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f55bfa67b4643136910eed51.png": "ef2cdf18249165697f8ab3a19122575254cda0bd92f545512b922fb4248f485c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\483_jpg.rf.08c923e99966e7bf29099d275583af15.jpg": "39c1adf8440fd379af3b1370c6abfc4d2fbc29f357f982c5535d33f2b3a351fb",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f62020c170af2da2938be744.png": "f9b4038ca7db9088c276d919e53b7cdc46ff349320e3045e50025d07a9dec1d6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\306_jpg.rf.a831884d1a5649731d19094d11ae2605.jpg": "0e615d09476354d06553f29f54ce22f3a5881fd35fcd8ba0586138144037bab7",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f6d6396b0ba9dc078f202f5d.png": "367aa77db2b77d7e6d8f2aa0db53eda345293e95762d459836a101e8ae4500b6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\427_jpg.rf.ce831d206533afe673bd1bd59539ba45.jpg": "69fad77b9d28fd59a5b17415e4298e784d3f4647653dc05227dbb60d222b68af",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e.png": "791a856ec56c846907568f46010b538dc051d0ed31dda4036108c60f439b889b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\248_jpg.rf.73073cab46b467213bfaf9e370bb0782.jpg": "1c9a08224bd24bf4055e865205c5095b670ae04a6f5483b30ec5f7700fd3054e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f7a0ce0bac6c7a0bb0a5f9ec.png": "438588bf69f7aca171a7790cb753af18761be663a51e67a87fac7afc8a84809e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\204_jpg.rf.c465269facaaba4662e66d95b178a4b8.jpg": "01298d8f5c6cdf6ec7a33f3f5a071ed2e5f44cc469cefce0a8e607675810b494",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f88483917dce2d5dc69e03cc.png": "72bb9da908ee86dcd8ffe6c7064d141f5e4d0a8b47585eea3a34f04bedcd613d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\512_jpg.rf.96940b1bc44a5df0fcf995414fc40adc.jpg": "1abc9b4c5c4df206b8cb2937f7a3d29fb87f653c3db00de88a71ca211cc0e822",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__f95ce3dc9c950992589ef81a.png": "e55882f333a65e3d708cd313a78b088d83b6b53c670ef609f3c9f919d41bf948",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\146_jpg.rf.f6c8759fd8f47a7fb994fbdc229c38fd.jpg": "90cc391787f6d0bb6d1da0144fd58be1cdf526e852c07e1661b6c26a57fd12d6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__fa8c7845974d43d219704de3.png": "248a66d2cc82d7cd676a6c256a74a0248f27799f0ff4a0be91b544bf5db39974",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\219_jpg.rf.83511086dfc85d72cf644fcc44732d9b.jpg": "0ae52882ce409a4bf2ddb314c7d3d2786bca5701ed8bd372ebdd60b1e020080a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75.png": "f3b32e0c4d9821052601d2c62ded8d3548a2ba31ccc8e6d34de64879e33fe27b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\213_jpg.rf.7317e44994e83e1077a1b5e6f0d7adfb.jpg": "89f2397b331348499f4a8985614535526ad3ca1ee44300c25541b805c90ef71f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__fb75f7e4d2f47745183dddf4.png": "a3e78ad1c615d8495566cb3c3335dbca41da90a5855febd8cab348200297b21b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\165_jpg.rf.2152b43569bcf33625617d5b5aaaab9f.jpg": "b64f22a240d7e403dbc0cb9b06cbda0178ed35a0710ac26a465e0f0349ddce25",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__fc77bf8ca279f9875f5807c2.png": "3a273bc453573f8978f7ba0a7bd5e4459188c5ada6aed29fd63c5a557fdbccdd",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\237_jpg.rf.657cd0f06e3eae2c93441a7ed851da41.jpg": "94dfd6a5961d44a84b4679b63ff4b2da4255a64422ee5191b433eec837a66de5",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__fccb14b3644a4b7c55ac628a.png": "def39e97839071dfc5ec403f41b5aa3270414843e4124bb2ce6ade74c8283435",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\405_jpg.rf.603725945d4e3e4a93e9455b791a853f.jpg": "6fd9aad5df046e70fdba23e0396f00cfd9f9c4b6d34fc5c6fb514acca80600e0",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e.png": "e477d8019076811af4527977bad3d38f9e36604ab3b3b174927d0fda12e0984f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\212_jpg.rf.73f8a9e00694254a601e53ede5b3dc9a.jpg": "8e738440bfdc23004e1cc76788d9ccfab47b3567ada7f6ebcbcce95cae0e6fe3",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__fe36ceb2449249673181a5a6.png": "a1ea2be020d88a07eb17d5ced604a048ff057796e4844a2a704576ef54655453",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\440_jpg.rf.72b56d451d813fa17165fdb3198870b4.jpg": "24db7d79113b3afd8c9b760201a10ce8c4751cf251b679de74d88b7b721fbd31",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v1__joint__ff39699780e8e83e6f08541a.png": "c0b54b81d309b682cf9aaa8046f042a3e2431dd209c7a26a3eeb0eedefc599a2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\237_jpg.rf.6ac782d9e9b35a05a4973a69cb703fdb.jpg": "06a9480e693c89b5e7056ec1bb44417d6eae0877ec71520262fa24f1f20a95f3",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__cd97db274666dd9a90154901.png": "7be04db2a1a4e3430cd4c4d89d37aedde3465f0fe71ee7a93cf58e62d09383d9",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\357_jpg.rf.6c12ef78d1ba21b4775c54d9e80993ff.jpg": "aa854c3133fc63ae2a37cec9cbbfcf92aa86476954de12b1146334c67029dde0",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__cec1352c534df462a5d62b9c.png": "082b7871dfa4114e25c8a27e474b11f671908891bbc7d3c07db682f1662cd3b6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\13_jpg.rf.ca019e136806b5b5a8f98ab4fdbddb4e.jpg": "1b56d3ebe5c2c320080a05025b6f4f47f6852a81ec18b87feb7cf10d1ed2b028",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__cf404f4f3a6de1d92bab3c86.png": "f9660f06c1413116aa73881f66778174f4ba83f5a35b15b3641e0f8d3ebed85a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\22_jpg.rf.f5227320aa0738511fe088f2f66ff254.jpg": "5ae98d6778de23aa4009eab8ec91271ce5ee69dfa881709427248a9ae214abaa",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b.png": "f413001a1e4c3ad2816c3c249cb4f1a5eb1a42aee11dff22839fae7b5b90da9a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\110_jpg.rf.10ffac87f40c61c4ffe18b722427fa82.jpg": "27c974ca8e3248367f70c80fb4b60a7d657b84a38b9912ac2625ebc8b84df6f7",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d027b44c9ee6ce7c1bea8c8b.png": "45441c4ed84644e3918e6a0339d07dd75a553ef7c7e84fe9445cae504ce78d48",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\179_jpg.rf.2fa345682baa833d03554c550d5e8c5d.jpg": "669e481c2ea2a664aeff01ddad12584896fb6cafcfbaeff9fcc9618040eb7e18",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d04ebe39fe149deead19c16b.png": "b1aaea5522001e3c3d1103a1c8a602849a2753ff13481ff42735f015762a86b3",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\430_jpg.rf.71e15a4a2acbd35cd43596b16a51521e.jpg": "1402bc207b2a8a9c6f34511e3ac7f65e7813978d01999b9143640fdad592ebb6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d083dcdc2394bcb46eb2e2aa.png": "50e67116cc80fd4397959f49cca65d94893029b204c2d8f40b6c4a7cf807b3a8",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\42_jpg.rf.053c21a03244fbfb8e7c3114fed7fa97.jpg": "b37493065ae8d19aa57415446e04f67eef3a2e04a02915c736fc3415beef125f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d36281673ef735de816fede2.png": "35f16928b7a9e2fa0ee5f0d45739af08e05619fb8198aa6fced99463e6f3b822",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\20_jpg.rf.c0a64faeb51d9338303dd09ba1a96b03.jpg": "81257539b7086cdd0d604b9f480290e86d6e830b4a4c3e5893f0308d9b1f82df",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d3d9c90afe5e6b2c0ded7174.png": "060401ad885dfa017aa98f137ff0336ffce174d17c08e968c83cf2614568820b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\152_jpg.rf.b1d0f340d05a99f50fdb7d44a62c2b51.jpg": "5db1bd2469d88dd5da0a51ca24a75b6a5fb498e405f6378dc05d444f56fb8cbe",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3.png": "d95d3f8c9882c6aac5110a55f47aa6163e33afbb2a985f1df894b071d5b994d7",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\214_jpg.rf.73846ee5fce1d1219a226719a1185f0e.jpg": "505de837add588bb49a4cdf9089b85c8c8bbfa9c13275f97f0fbd97491d5c3de",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374.png": "f884874b6eeff6dc29b16c10701916edbca72a4075ca03782004a32bc48ee40e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\344_jpg.rf.0749ae6d2fdad7193d76bb1429ec5af8.jpg": "bac16a6ee9b952bcfde5c16c19ecce8e0fb66d218f565b303a2b32464c1778dd",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d5368f406eb516fa7f27dc73.png": "255c168399d5bcf8757a825db63684f849d54e7dcbf3cbd81b0bf010e03206f2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\401_jpg.rf.d27b86f679cc43bbfab609083403d5ab.jpg": "045edafaf962c0fe9af18fa0d0c69b00d4dcfd6500a2d35e63d42f8498e5849e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057.png": "3c4c6c3f9720b31657621948fa461c571e97558c0009eed5c5de93f778858989",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\347_jpg.rf.983f39de0d6d080094c016b16212fcf2.jpg": "f9f17b28d038dfe5e417ba54fb9fea6f97ed775adf7b76f8a12e79dd30f17873",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d5d611a128f6941532e16819.png": "73a31724367f46052be3dccc9e1dc7efa23194d485f6dc58e05510875c333e73",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\330_jpg.rf.0db9aa52e5c26177d2bc47d9f410f9ea.jpg": "330d62dd3e26899560cd78adddebbaad1b9b59430b3d81de033743bd08a47b5d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d8d2493949c61074984753a0.png": "c5ac049f5e8dc13257a5f12e5f64acf6048e36c5fc72e638119f3c6caca2715e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\441_jpg.rf.3d29af9f17e0079e1415d3a77688f2c1.jpg": "8b39285e72dec9744237c640869fa344c03888981b8a64d7b9d5732900c9099b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044.png": "0d7bdb199518c87428147966dc277e7ff1387a18cb3093c62970bb66fd7c063d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\336_jpg.rf.2e7eacaf74236daa5fd1436b5563a9a1.jpg": "1043a1f4d291bceb93d96d6da7a7671325d7212a0ecb4b9d711170b3e4a2b49c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d9627d33174b903c775d1044.png": "b3471169a8ffefc1a4d6bbd19fc769f2617e3c2526eaedd1357035b68c740706",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\113_jpg.rf.2596cd1ede4577653c7e10f12ee1134a.jpg": "3b5bd4a92d543a2957e294534713ffe91c6604be34dfe302638f4b5b26381454",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d9968ea323db4c528440cbb1.png": "db30b172363d42bc310e90e22fa87c26681532b316e1ac25783998075f67bea1",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\369_jpg.rf.403f98bfe2dcbdc2a5e527db9108e9e4.jpg": "59ab3970f56a3e3c8aa86f4380cc6a54681f658e12167616b7b35bdaea73423c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a.png": "055db088292ce130ea21c6224c0c57553c0dfbee1b64cb52722448c5cdbdbd2e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\393_jpg.rf.be506bc02bb95929dfec05a57553df47.jpg": "c7eb88abe438c473543a32ac74e4956e46f315baebe376c90a7e660e200f066f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__da2dd2f086729d73aea03aed.png": "127862ce9ff9e18dea3f48a888c80b8132d874f51b8d28c0564b9c078e284174",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\161_jpg.rf.937f97c1a6d871267aba0b762e6a7f84.jpg": "372ec237a9afa04b4a71daefa7ccf0dfed4e9309d089163b93788251f10a5311",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__da7e64c5e291613c411370df.png": "3126f53fdc3f67167ea5982ac9ca1351910435cb850ed7e2616d20ba5efea535",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\272_jpg.rf.26e988c0dfbcb4bdab77b752622067ef.jpg": "0135893ce9a5e7ec5c4a8cb97e5e7181fb445cf722d3cb5cae32312969e5c638",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95.png": "17e667125621f89ae932f4912de6aa4bde07c8f86388b9c07f3761a14e415884",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\315_jpg.rf.f07bc150c2e378c8430d0c7c041ed309.jpg": "ab3aff94e2233042abc7f8df7e8940ae02398ae5c7d8676ca92e4daab4569603",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__def3fefc93f0d3f79b4e49a4.png": "c26b096151d6b8dd0fb599905e0f55f0b31d90b4a7f5d8ed68f5dff476f34a06",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\34_jpg.rf.3255963dd3a36f9260d6df18c8c44d94.jpg": "4191418cf8443da38da483864d3df9a6cf820c907d533ad2b7288bb4e3e6bd10",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc.png": "c6ba816a20e02a95d88089eb0ada2baf48e6dd60002b5d9f13cd5a1b5319a66d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\354_jpg.rf.981796521384bf2439a0a0a6eff2f344.jpg": "0f280ca0c4f957a6cd8f807002878d92dee93fca16b61aab132fd3fe85006b27",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9.png": "d5b847d168206c64047a2ed9141ae4666ccd5cf6c70c75321308b87e43752ef2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\387_jpg.rf.307e2cb1599f9e019623cb5557090992.jpg": "204c690df8718043113e415c99a8fb1129e349fd9f1d68805b8c4cbb2bd084d1",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__df9503c4c2237624a40883ea.png": "8363b96f26b9347795f58a25eeefdd1d164bb60e6fe2b144728c5b7e8a5cd291",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\422_jpg.rf.3b735da062aa4de030de326da85ffd75.jpg": "86139c6c26ec4c31b49fe84b8c74944d130d5afb8ef80dd93d6ac92e0289bff9",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e05ea5d59365643133440230.png": "5d7b7c730ab29c442be7bc6c11b07c84119f519a73f85fb9a50cc3828d5652eb",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\243_jpg.rf.87fdbc8046a07c948b34a7b5a7ecc1d7.jpg": "d6b7bf481383eed8cc37c5bdae77a0d353e1bb3a46a160f63a99eed281370328",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a.png": "75150fede4ed2149122eb7ef09b0f67a6b62b1192a5753a0398207e6f526091c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\440_jpg.rf.946842393f734f370ea273a973132db4.jpg": "3c4a5f93d543d476cff752baff06f3f74657acd7a5223b46f1f66dae617e584b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e152ad6f28bd0d5796d4b863.png": "68b60072ca3e8f8a9ec355e5bcb2136e70c434410015851bcb93cc2f3d5b4650",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\398_jpg.rf.2e7650111031d2052112fc4184a1d087.jpg": "0936d23823955ca068bd5b03218b824ae5e74183eb9f4d3c4c74375675433544",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e2149dfdbb9fe2ad8b09442b.png": "9056c0bca10231f25954fb449a1321dee2d110c1c061e7d74315cf72d92db757",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\149_jpg.rf.1c469ba8d4af15998ea440244a0f827c.jpg": "23128203ed8f2233fa77983b656c4864c342b1ae9c1241de40c7693b25ecf6ef",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05.png": "e05895d8d49b028674c82b411e7df77032e406ec9c97a0f41965a3d3c2e9c573",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\428_jpg.rf.63cc4eb6d43ccd3eaefec73eade9c9dc.jpg": "7736addf16457004d031d1c92aabe2c95810f5f28f48240c84c7d65c7abf5b2c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e4fd74319c0ff1d67d66350a.png": "1e226dee5764440562f43f749ad119267df2268c0e3b98a99f13333f59ef676c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\361_jpg.rf.cb0ca7d88d3cc5dcea284e7386b156aa.jpg": "7169d44fc230e6013ddbe8b663129613fc94bf56c74a8ecc2c8aa17ef381a3d4",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e755cb48d88eff1a918421dc.png": "060b2619b53e838e0dd043631c1fc8458e5047a0fe9693cd854d557bd1a13718",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\416_jpg.rf.6c41df8a761e383cd6664dc93919cdef.jpg": "9df03cf9d198f089488b04e3f3db0fc4935ce3d30a8a14ffe480af70a2c6e03a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e7c03ad5034214e51303f46c.png": "8caeebfdbc932aa8452d5c0abc4955f1595614841ee03c1c62713d11f4dd8869",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\370_jpg.rf.5a0659ca36616deedd1a29789d878a36.jpg": "0cf8a1513d3786ab2977354868fc078864830f2feb81491395fe290d17624a95",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e80c71f5def8631f698af5e4.png": "8558dd068b34577991882186ec91bd2a45188d7e88b0606ee7138a8094036532",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\188_jpg.rf.da1c6f298c36b478424f6cbb03b30897.jpg": "a3a39dfb00f8553302550f2b4c2a8a01e05a8de27021f8d7527e53443ce08445",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e850aabd9169d00e5abf281c.png": "1e20604705ff7c8be7f6d4d05fdf2899d0ffae520acd89cafe5d63e1ccd0285e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\240_jpg.rf.af8d6c5fb5df68c9e1969e1b97ef1dfa.jpg": "251606d4127f4ecad81d42c4514d0d0be7fbd1c2be77cd7135e745073df872c3",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e90fee97feeedc692c93a341.png": "4faa9e059f7329068f2b7241bc3fdb9cf88fedbb7fcd18fc525315cb9d1ece8b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\99_jpg.rf.94172927e46e927c2a35bcc7105a19f8.jpg": "1a7c5c460f748961cafb48587df92101ca83ef3a5d95207ee764e3428798c06f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__e938455a11a8eb9671165411.png": "35472f999f7a30a1fa96dffe53c550eab43590d49000c22130a9698c76f6a8b6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\386_jpg.rf.3bec044231bd91d7c7f4d3eb560b359e.jpg": "bee8da9e83aebc9c061a9e727b6b6552cbb803a07010f817879f6b5ab9614bca",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__ea7e31de924cc3072975fcc1.png": "153b3ba86e3a8b055195980e6d20ea519b0148f8c627ece317483ef08031755b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\293_jpg.rf.7fb69f3a9d0bc4a813f4361d91cd1875.jpg": "3ad022e12a9ee3b94d212058e520270ab0520050787c1635da56d0d9bbb25ce8",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04.png": "b7e47d54b8fe759dce4a82e0d3c64838dd0c4ab4c612b73c0a7c3bc1888e557b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\168_jpg.rf.da15958bc6833f561778a6ba44ad7f71.jpg": "3238429501498e906bbe9abd9c0f5c78257f5cd795b1b8287f3ef0d3c0f2e0b6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__ebca1ec5de792875bb4fb300.png": "732f97335f11045868903f87fb5f0b8206afddec9a493532f2c7a20c331010cb",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\155_jpg.rf.281ba127698a088d6dd6385e3e97bdd9.jpg": "0c51a82d3e82a5c8c60bf0715e8782a4e84727f8fa1e30e8af363a70e8b9d647",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae.png": "1f76bbad5a6f361773b1989865d1f06454775b7b978ea24f20c7f7caaeb3b8e6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\288_jpg.rf.09829221a08fc3be44cd6b3173145989.jpg": "00842176534ca87279c0bba1a64d4adf7140092cafe273bdd07870df7f77df4f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__ed6451a4c509c7f494d27ffa.png": "fd6316072a6534c09909320edf8390834f9851b7d478247f6f015c823544d11f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\230_jpg.rf.a1d6665dfe04747a6d2b49015b8bf6ee.jpg": "59ecd76a2f40cd32d2648f020a22fdfe497185251508a6f408290a22d649006b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__ee9acf48105f94ed3bd8a6cd.png": "0f370b0d577132a77a3cc3ec423a17518ea595ce452c07a6256dc5aafb11884c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\108_jpg.rf.d840104c5a35c8657aeaa4162aba1b59.jpg": "b981ebdaf36a7a38a8e408a3f60f335032e9ce152a118774ccf867f80c6a1d1e",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__efa5ed3a9775ddd7d978bf7f.png": "55af76f9f04abfac82fd6e17adbad3fd0c7186468f1fb4319f73ad036c502069",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\297_jpg.rf.d9eb0e8e3cb8aade6c685a52d8b9c520.jpg": "43eda387e0e1f6d05b38c88c102bda13b2b7b3bc3b31865655293c95c20f42fc",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__efe332ad3a90e57696efbc31.png": "c7290919233410cb0c65d207e57568a6161f4306477f3bdff8f736e1723c350a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\189_jpg.rf.c5513bf5a04052d9b81b10377b713b94.jpg": "696cd3fe0410849dab86d800c50cbc1ae38d4dbf52a4a68628351bd63fdf457f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f0307b8a71d07dafb6ee2e3a.png": "161f5fed6ddc989c0c059a982ffa2f43949387037b9881d88ab02235e195300d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\403_jpg.rf.63c697543646774797b15fb04f3589ec.jpg": "097f4923a0a2b57db1cbc0641f77804db5333c7d598685ee60e46264e91e1aa1",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f0e67fadb14e6737cc037929.png": "c47febfccf8637beb4bf059231667438e77c27b24601509a2e399f855faeb14d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\98_jpg.rf.224cd2baf6f137c1b4d348e374b9b349.jpg": "c1f5b23ba0a258ba4bfb22d644a36499de9c5993067514bd12560671efe149fb",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f10ac95c407097f80554fecf.png": "cc85aae390737a22b3ff38d6cc3b776233db8bd941a79fe1bb6344eb5e5f4aa5",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\302_jpg.rf.bca129b5517e51d1c2c1ae58f6586a93.jpg": "182fba970af3bce2d388829eff739349e01916ead9805f7a8c22b5a0637697cf",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded.png": "53d9fc73ed5afbc799e71fd71425c142f473c123eb095db53520787ec37aa4fe",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\245_jpg.rf.66cebd9292ea91bbaef9b0ed53c4ea10.jpg": "1fd7eb2dd5a100039d10f4a99c77739707d0956e4dfe663b9b29d08ed9714b48",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f18ef18f30ef93b3d7d55118.png": "7299091225d2104f94d91e02fa7480bbc9cedfa95fd4d67b4e0c196fcdb39a4d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\280_jpg.rf.82af4697118fc054abb1bb5444b6231f.jpg": "35b1d005116c2daf6ea88f6173b8c38c1a41a1de215d6ccef47c9e8b36d4cfbf",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f1c1d0100a3e53b144a2fd1a.png": "3b4686836435fe9959707d3a8f2631aa066e73763349638e1a5f61ca78dbdc95",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\121_jpg.rf.050b803b6e26d462d3f189af0642d5b4.jpg": "06d50dc493ad60c07c4e1031423985ff8b6110bf29f77dcb4465e89da8aa681f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62.png": "6891d407f4a7b2cb598f6981cb44b5f7cfdd012f2a5d46f13fdbb126c5c5bae2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\50_jpg.rf.6f0a99ad66ff5058db6d9f0a6f5c04fc.jpg": "4656a30e1255849bef54bd22c7b66e1f537a64931500737257d3e20cd7fe3f38",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f405adc45e2f9ce5a820d803.png": "33da6e845b1ee5df21cf2553f01d432516143c255c43e2289db0db0da6f3d433",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\81_jpg.rf.657be249ed74970e1de6f1b57cf25250.jpg": "10468404f5d077ad291cc4410be1d0b0353614cc46105b24bcf589c900155cc0",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f680d909de418e7337206b7e.png": "bb8a0f660b87f476303306bcee9f53f919185ddb7d0e73b5a7280a285e2654f8",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\412_jpg.rf.279f38c11bd24cb3dde391a727065ee2.jpg": "668147a9497005fff685e602336dc0332cc2f5769d38fe443d2499581a81250b",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7.png": "c6f76d0b737c6fb820e805da86028fb8cc33cebab393977ba41aa9e5d20b67e0",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\276_jpg.rf.56f59df06ad0969bc839427a90323df8.jpg": "7af55d54ef39b7481a84f11760b7f5128a725b3d03019961abf295d077b48afe",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2.png": "cbdff0417a143027475e67f31e519ae98825ba8fc77aea36e0faa6c3dd40b2c8",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\226_jpg.rf.08e7c35c583eceb2c0453dc3453f6ce1.jpg": "7a08ee32fd6179988917dc375b03f6ae48542771b5f1590f0da9adcb459b088d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f7e916870021680f21ba0418.png": "b1fdbcf031fc27cb866ed925e112fca583f6f282114b3d1d4d7b755ece683bd9",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\197_jpg.rf.ba3af33d1537a6a87243c41af89560cd.jpg": "3b4268d5e471ba6bded7ada363dda9f366e7aaa13d1b10c739e9231cb58e6be9",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f810c0920b76afb8b8ca487e.png": "2c6a43962cd4dba69e1f4fc8e462c61517ce3b924ab9bc33f3301f4b78a6e813",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\250_jpg.rf.579d61a1b72db08143215ce42e9e21ce.jpg": "27ad898cd8ab13031cb908c35756433cb71b2b1e70be9dac904d8c79c77d9bcf",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f84199195ae1f243a42f87a0.png": "79158d5e503677df882b6dd2a85b2946dd789b860fc122d1189eeeaaf69ef6a6",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\375_jpg.rf.286b42a017d74e01138f351d21a733c4.jpg": "2412aafe382a4f282018ab23583feb0ae42287d1eaea08d9fd4706c00dfaab9f",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__f9088581b6cb409c0975ef84.png": "003eebcb1ed0c33e552477beb4d4e9ec2a8893a46f52894d89ff9612e806648a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\64_jpg.rf.4f1c8d3bbf4b45ee143014c154f919e5.jpg": "077b73299d8baa196c005e77e478822b9e0af0b8d304f4bfe977f32db8d7cd58",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__fbca32110bf977c60cfbe65c.png": "45c38f80d386831c3c96caa9d395672eec14a7f4d575af254c736f06ba15063c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\358_jpg.rf.807c3d77f10b932d2b97345bbc738e4d.jpg": "a05136018b8d84ed6c76f7d1b87b3cf655edd489d7a9261655fbd96572e6e260",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__fcf80e46c1f36f89029968ba.png": "bc2ef70309e1c2aaa8166db6a6774cdbdbf352017b9481a5447e74e68d21c25d",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\249_jpg.rf.a799c4b6c9ef296dc972bbbe0d164c12.jpg": "67f148d9c9ca71ac850363fe09f60c4db226647ebe6ed8c453a585d176e9f825",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\masks\\kidney_stones_fiber_v2__joint__ff13d61c042e3d942d15b551.png": "fe1eea20042fd1dfccb559372a9a812d08ae3b060185c39218c16012fdda4bb7"
+    },
+    "test_pixels_read": false
+  },
+  "boundary_tolerance_native_pixels": 3,
+  "area_bins_native_pixels": [
+    0,
+    1024,
+    4096
+  ],
+  "models": {
+    "joint_final": {
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_joint_20261028\\training\\last.pt",
+      "checkpoint_sha256": "b950d2e8f407fa58d74ecd44f940e9722a2a7856a1d65b8bd49b04e16b7b971f",
+      "input_size": 256,
+      "metrics": {
+        "stone_dice": 0.905710978420822,
+        "stone_iou": 0.8276707163833031,
+        "stone_precision": 0.901236573214744,
+        "stone_recall": 0.9102300338199221,
+        "stone_tp": 5959033,
+        "stone_fp": 653030,
+        "stone_fn": 587700,
+        "fiber_dice": 0.8029690669769929,
+        "fiber_iou": 0.6708005990698652,
+        "fiber_precision": 0.7140859252629224,
+        "fiber_recall": 0.9171246901605776,
+        "fiber_tp": 102120,
+        "fiber_fp": 40888,
+        "fiber_fn": 9228,
+        "mean_dice": 0.8543400226989075,
+        "mean_iou": 0.7492356577265842,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            25827201,
+            652156,
+            40162
+          ],
+          [
+            586974,
+            5959033,
+            726
+          ],
+          [
+            8354,
+            874,
+            102120
+          ]
+        ],
+        "valid_pixels": 33177600,
+        "stone_negative_images": 0,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": null,
+        "stone_negative_valid_pixels": 0,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": null
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 153634,
+          "target_boundary": 173359,
+          "matched_predicted": 68212,
+          "matched_target": 68436,
+          "precision": 0.4439902625720869,
+          "recall": 0.3947646213926015,
+          "f_score": 0.4179329414519405
+        },
+        "2": {
+          "predicted_boundary": 12632,
+          "target_boundary": 10984,
+          "matched_predicted": 5047,
+          "matched_target": 5003,
+          "precision": 0.39954084863837874,
+          "recall": 0.45548069919883466,
+          "f_score": 0.425680839404885
+        }
+      },
+      "visible_stone_area_groups": {
+        "(0,1024]": {
+          "frames": 1,
+          "target_pixels": 967,
+          "tp": 897,
+          "pixel_recall": 0.9276111685625646,
+          "frames_any_tp": 1
+        },
+        "(1024,4096]": {
+          "frames": 6,
+          "target_pixels": 12854,
+          "tp": 8783,
+          "pixel_recall": 0.6832892484829625,
+          "frames_any_tp": 6
+        },
+        "(4096,inf]": {
+          "frames": 125,
+          "target_pixels": 6532912,
+          "tp": 5949353,
+          "pixel_recall": 0.9106739842814353,
+          "frames_any_tp": 124
+        }
+      },
+      "frames": [
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cccd1a7775145966c8bb5501",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 24549,
+          "stone_tp": 21549,
+          "stone_fp": 5494,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1187,
+              "target_boundary": 1150,
+              "matched_predicted": 517,
+              "matched_target": 538
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 12866,
+          "stone_tp": 7982,
+          "stone_fp": 461,
+          "fiber_fp": 513,
+          "fiber_fn": 3,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 568,
+              "target_boundary": 1211,
+              "matched_predicted": 373,
+              "matched_target": 389
+            },
+            "2": {
+              "predicted_boundary": 228,
+              "target_boundary": 221,
+              "matched_predicted": 138,
+              "matched_target": 134
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 7690,
+          "stone_tp": 6410,
+          "stone_fp": 167,
+          "fiber_fp": 236,
+          "fiber_fn": 45,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 498,
+              "target_boundary": 547,
+              "matched_predicted": 350,
+              "matched_target": 369
+            },
+            "2": {
+              "predicted_boundary": 135,
+              "target_boundary": 129,
+              "matched_predicted": 93,
+              "matched_target": 90
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 14113,
+          "stone_tp": 13191,
+          "stone_fp": 489,
+          "fiber_fp": 9,
+          "fiber_fn": 221,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 673,
+              "target_boundary": 616,
+              "matched_predicted": 444,
+              "matched_target": 426
+            },
+            "2": {
+              "predicted_boundary": 72,
+              "target_boundary": 106,
+              "matched_predicted": 49,
+              "matched_target": 52
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cebd05046dd66dfc157c7c22",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 12356,
+          "stone_tp": 11339,
+          "stone_fp": 511,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 486,
+              "target_boundary": 508,
+              "matched_predicted": 225,
+              "matched_target": 232
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cf2bc6993fd5bc9051797231",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 4637,
+          "stone_tp": 3995,
+          "stone_fp": 329,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 344,
+              "target_boundary": 509,
+              "matched_predicted": 319,
+              "matched_target": 329
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cf397a212754fa856044a105",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 42179,
+          "stone_tp": 37987,
+          "stone_fp": 1390,
+          "fiber_fp": 664,
+          "fiber_fn": 4,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1193,
+              "target_boundary": 1280,
+              "matched_predicted": 650,
+              "matched_target": 663
+            },
+            "2": {
+              "predicted_boundary": 298,
+              "target_boundary": 287,
+              "matched_predicted": 197,
+              "matched_target": 194
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 53670,
+          "stone_tp": 51935,
+          "stone_fp": 2670,
+          "fiber_fp": 895,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1672,
+              "target_boundary": 1298,
+              "matched_predicted": 844,
+              "matched_target": 833
+            },
+            "2": {
+              "predicted_boundary": 244,
+              "target_boundary": 224,
+              "matched_predicted": 86,
+              "matched_target": 80
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 9833,
+          "stone_tp": 8622,
+          "stone_fp": 357,
+          "fiber_fp": 3,
+          "fiber_fn": 330,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 438,
+              "target_boundary": 463,
+              "matched_predicted": 191,
+              "matched_target": 196
+            },
+            "2": {
+              "predicted_boundary": 90,
+              "target_boundary": 141,
+              "matched_predicted": 40,
+              "matched_target": 42
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d380e64796be3f2bc0ea8b8d",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 22860,
+          "stone_tp": 19061,
+          "stone_fp": 3637,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1249,
+              "target_boundary": 1650,
+              "matched_predicted": 824,
+              "matched_target": 864
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 23219,
+          "stone_tp": 22009,
+          "stone_fp": 17378,
+          "fiber_fp": 138,
+          "fiber_fn": 450,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1117,
+              "target_boundary": 1236,
+              "matched_predicted": 261,
+              "matched_target": 260
+            },
+            "2": {
+              "predicted_boundary": 116,
+              "target_boundary": 151,
+              "matched_predicted": 39,
+              "matched_target": 37
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 9023,
+          "stone_tp": 8619,
+          "stone_fp": 1165,
+          "fiber_fp": 235,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 576,
+              "target_boundary": 641,
+              "matched_predicted": 410,
+              "matched_target": 415
+            },
+            "2": {
+              "predicted_boundary": 71,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d476007d707213fa27659221",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 3085,
+          "stone_tp": 1438,
+          "stone_fp": 230,
+          "fiber_fp": 257,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 292,
+              "target_boundary": 549,
+              "matched_predicted": 196,
+              "matched_target": 195
+            },
+            "2": {
+              "predicted_boundary": 74,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 53539,
+          "stone_tp": 53354,
+          "stone_fp": 13878,
+          "fiber_fp": 189,
+          "fiber_fn": 778,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1562,
+              "target_boundary": 1371,
+              "matched_predicted": 414,
+              "matched_target": 414
+            },
+            "2": {
+              "predicted_boundary": 215,
+              "target_boundary": 260,
+              "matched_predicted": 120,
+              "matched_target": 122
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d504f85f2fb66ec103d21dc4",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 16221,
+          "stone_tp": 15120,
+          "stone_fp": 321,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 722,
+              "target_boundary": 808,
+              "matched_predicted": 569,
+              "matched_target": 561
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d5763e0bb069246f33640071",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 48033,
+          "stone_tp": 42881,
+          "stone_fp": 1510,
+          "fiber_fp": 109,
+          "fiber_fn": 310,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1027,
+              "target_boundary": 1338,
+              "matched_predicted": 453,
+              "matched_target": 472
+            },
+            "2": {
+              "predicted_boundary": 206,
+              "target_boundary": 216,
+              "matched_predicted": 180,
+              "matched_target": 178
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 24395,
+          "stone_tp": 23855,
+          "stone_fp": 2781,
+          "fiber_fp": 176,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 896,
+              "target_boundary": 829,
+              "matched_predicted": 357,
+              "matched_target": 345
+            },
+            "2": {
+              "predicted_boundary": 70,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d79781cd1c7cd071fc44de0c",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 6259,
+          "stone_tp": 4830,
+          "stone_fp": 280,
+          "fiber_fp": 598,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 459,
+              "target_boundary": 619,
+              "matched_predicted": 254,
+              "matched_target": 249
+            },
+            "2": {
+              "predicted_boundary": 115,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 38290,
+          "stone_tp": 34141,
+          "stone_fp": 2064,
+          "fiber_fp": 475,
+          "fiber_fn": 8,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 943,
+              "target_boundary": 885,
+              "matched_predicted": 400,
+              "matched_target": 411
+            },
+            "2": {
+              "predicted_boundary": 214,
+              "target_boundary": 207,
+              "matched_predicted": 139,
+              "matched_target": 138
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d8b6c834f397c1414e65a28a",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 23704,
+          "stone_tp": 23654,
+          "stone_fp": 3051,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 742,
+              "target_boundary": 708,
+              "matched_predicted": 287,
+              "matched_target": 284
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__db41ac8a866e0a43cc6b4d14",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 19541,
+          "stone_tp": 18951,
+          "stone_fp": 15152,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1313,
+              "target_boundary": 1600,
+              "matched_predicted": 453,
+              "matched_target": 464
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__db950909f5180cfe568caeeb",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 1584,
+          "stone_tp": 1189,
+          "stone_fp": 55,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 162,
+              "target_boundary": 206,
+              "matched_predicted": 121,
+              "matched_target": 123
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__df847941994bf694ac228c8c",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 24836,
+          "stone_tp": 22356,
+          "stone_fp": 4114,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1052,
+              "target_boundary": 1677,
+              "matched_predicted": 486,
+              "matched_target": 494
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e0267bedab5c1d75d479a19a",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 2985,
+          "stone_tp": 1875,
+          "stone_fp": 8,
+          "fiber_fp": 1190,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 198,
+              "target_boundary": 395,
+              "matched_predicted": 143,
+              "matched_target": 150
+            },
+            "2": {
+              "predicted_boundary": 307,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e128d928f63c992a140d652d",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 4920,
+          "stone_tp": 3945,
+          "stone_fp": 639,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 330,
+              "target_boundary": 367,
+              "matched_predicted": 140,
+              "matched_target": 144
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 13817,
+          "stone_tp": 10651,
+          "stone_fp": 2852,
+          "fiber_fp": 666,
+          "fiber_fn": 19,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1116,
+              "target_boundary": 1514,
+              "matched_predicted": 531,
+              "matched_target": 560
+            },
+            "2": {
+              "predicted_boundary": 256,
+              "target_boundary": 235,
+              "matched_predicted": 161,
+              "matched_target": 158
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 10133,
+          "stone_tp": 7178,
+          "stone_fp": 374,
+          "fiber_fp": 143,
+          "fiber_fn": 85,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 472,
+              "target_boundary": 798,
+              "matched_predicted": 269,
+              "matched_target": 264
+            },
+            "2": {
+              "predicted_boundary": 135,
+              "target_boundary": 152,
+              "matched_predicted": 114,
+              "matched_target": 121
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 70480,
+          "stone_tp": 69948,
+          "stone_fp": 2506,
+          "fiber_fp": 248,
+          "fiber_fn": 914,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1435,
+              "target_boundary": 1426,
+              "matched_predicted": 994,
+              "matched_target": 977
+            },
+            "2": {
+              "predicted_boundary": 255,
+              "target_boundary": 286,
+              "matched_predicted": 143,
+              "matched_target": 138
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e24d1cc256dfa5780aeb1769",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 10867,
+          "stone_tp": 9983,
+          "stone_fp": 784,
+          "fiber_fp": 216,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 612,
+              "target_boundary": 625,
+              "matched_predicted": 398,
+              "matched_target": 400
+            },
+            "2": {
+              "predicted_boundary": 66,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e2a826c4b9eb6402a96cd36c",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 12563,
+          "stone_tp": 11489,
+          "stone_fp": 1866,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 619,
+              "target_boundary": 948,
+              "matched_predicted": 290,
+              "matched_target": 311
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e3053295fb4f899238f8966a",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 5576,
+          "stone_tp": 3274,
+          "stone_fp": 227,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 292,
+              "target_boundary": 567,
+              "matched_predicted": 112,
+              "matched_target": 111
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e355e8693d335cbf9d8cf855",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 23281,
+          "stone_tp": 21462,
+          "stone_fp": 803,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 742,
+              "target_boundary": 669,
+              "matched_predicted": 390,
+              "matched_target": 391
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e3d9211a5dbed854971a5440",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 967,
+          "stone_tp": 897,
+          "stone_fp": 49,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 136,
+              "target_boundary": 149,
+              "matched_predicted": 136,
+              "matched_target": 147
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 11150,
+          "stone_tp": 10855,
+          "stone_fp": 2858,
+          "fiber_fp": 98,
+          "fiber_fn": 14,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 737,
+              "target_boundary": 574,
+              "matched_predicted": 376,
+              "matched_target": 350
+            },
+            "2": {
+              "predicted_boundary": 106,
+              "target_boundary": 104,
+              "matched_predicted": 99,
+              "matched_target": 99
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e5f4938cea8a6f11f27fb86f",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 1029,
+          "stone_tp": 1012,
+          "stone_fp": 360,
+          "fiber_fp": 666,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 164,
+              "target_boundary": 144,
+              "matched_predicted": 85,
+              "matched_target": 81
+            },
+            "2": {
+              "predicted_boundary": 139,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e655d4ca3bce9c5dbf8a7031",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 1662,
+          "stone_tp": 1431,
+          "stone_fp": 69,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 175,
+              "target_boundary": 227,
+              "matched_predicted": 163,
+              "matched_target": 184
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e6cbc0b8877053482b4cbaf9",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 52155,
+          "stone_tp": 28669,
+          "stone_fp": 758,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1422,
+              "target_boundary": 1125,
+              "matched_predicted": 225,
+              "matched_target": 223
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e7a5ff6c13b19390cae69340",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 2509,
+          "stone_tp": 1838,
+          "stone_fp": 110,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 204,
+              "target_boundary": 333,
+              "matched_predicted": 191,
+              "matched_target": 195
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e81644f0445056839c381270",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 14638,
+          "stone_tp": 13716,
+          "stone_fp": 905,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 726,
+              "target_boundary": 666,
+              "matched_predicted": 445,
+              "matched_target": 443
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 21649,
+          "stone_tp": 21062,
+          "stone_fp": 714,
+          "fiber_fp": 70,
+          "fiber_fn": 134,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 740,
+              "target_boundary": 772,
+              "matched_predicted": 624,
+              "matched_target": 642
+            },
+            "2": {
+              "predicted_boundary": 154,
+              "target_boundary": 182,
+              "matched_predicted": 150,
+              "matched_target": 159
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 29385,
+          "stone_tp": 25522,
+          "stone_fp": 439,
+          "fiber_fp": 970,
+          "fiber_fn": 415,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 930,
+              "target_boundary": 1048,
+              "matched_predicted": 538,
+              "matched_target": 545
+            },
+            "2": {
+              "predicted_boundary": 342,
+              "target_boundary": 256,
+              "matched_predicted": 102,
+              "matched_target": 99
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 10142,
+          "stone_tp": 5037,
+          "stone_fp": 241,
+          "fiber_fp": 20,
+          "fiber_fn": 82,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 534,
+              "target_boundary": 890,
+              "matched_predicted": 301,
+              "matched_target": 307
+            },
+            "2": {
+              "predicted_boundary": 90,
+              "target_boundary": 115,
+              "matched_predicted": 89,
+              "matched_target": 95
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb8e9610be90a060660bef16",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 25904,
+          "stone_tp": 23448,
+          "stone_fp": 4133,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1436,
+              "target_boundary": 1143,
+              "matched_predicted": 584,
+              "matched_target": 603
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb9414350213456173b9216e",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 7700,
+          "stone_tp": 7059,
+          "stone_fp": 1045,
+          "fiber_fp": 225,
+          "fiber_fn": 115,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 454,
+              "target_boundary": 577,
+              "matched_predicted": 243,
+              "matched_target": 249
+            },
+            "2": {
+              "predicted_boundary": 188,
+              "target_boundary": 196,
+              "matched_predicted": 148,
+              "matched_target": 146
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb9c5b0d82fbd7802848f976",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 17388,
+          "stone_tp": 12945,
+          "stone_fp": 817,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 675,
+              "target_boundary": 857,
+              "matched_predicted": 243,
+              "matched_target": 253
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 11823,
+          "stone_tp": 10751,
+          "stone_fp": 1091,
+          "fiber_fp": 8,
+          "fiber_fn": 174,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 740,
+              "target_boundary": 955,
+              "matched_predicted": 519,
+              "matched_target": 531
+            },
+            "2": {
+              "predicted_boundary": 82,
+              "target_boundary": 112,
+              "matched_predicted": 71,
+              "matched_target": 78
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ee46a5d978b3090ef07b252e",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 6771,
+          "stone_tp": 4904,
+          "stone_fp": 460,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 502,
+              "target_boundary": 571,
+              "matched_predicted": 147,
+              "matched_target": 148
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__efa54a36a80d5c48f25f4c5b",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 44786,
+          "stone_tp": 44493,
+          "stone_fp": 15153,
+          "fiber_fp": 311,
+          "fiber_fn": 166,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1329,
+              "target_boundary": 1221,
+              "matched_predicted": 705,
+              "matched_target": 710
+            },
+            "2": {
+              "predicted_boundary": 250,
+              "target_boundary": 255,
+              "matched_predicted": 214,
+              "matched_target": 214
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f30c29162d090fea5d6def64",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 38221,
+          "stone_tp": 37475,
+          "stone_fp": 2237,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 958,
+              "target_boundary": 911,
+              "matched_predicted": 645,
+              "matched_target": 646
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 12749,
+          "stone_tp": 11923,
+          "stone_fp": 284,
+          "fiber_fp": 364,
+          "fiber_fn": 23,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 597,
+              "target_boundary": 605,
+              "matched_predicted": 473,
+              "matched_target": 456
+            },
+            "2": {
+              "predicted_boundary": 111,
+              "target_boundary": 80,
+              "matched_predicted": 43,
+              "matched_target": 50
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3b76748433d12f4d9d7a362",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 25471,
+          "stone_tp": 25301,
+          "stone_fp": 7605,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1008,
+              "target_boundary": 1093,
+              "matched_predicted": 291,
+              "matched_target": 276
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3e2e469a2139285aca27f9c",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 5593,
+          "stone_tp": 5262,
+          "stone_fp": 383,
+          "fiber_fp": 502,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 359,
+              "target_boundary": 405,
+              "matched_predicted": 286,
+              "matched_target": 291
+            },
+            "2": {
+              "predicted_boundary": 116,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f527f236680465cfac1ee1e1",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 15274,
+          "stone_tp": 12577,
+          "stone_fp": 467,
+          "fiber_fp": 219,
+          "fiber_fn": 522,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 876,
+              "target_boundary": 1172,
+              "matched_predicted": 615,
+              "matched_target": 645
+            },
+            "2": {
+              "predicted_boundary": 264,
+              "target_boundary": 292,
+              "matched_predicted": 210,
+              "matched_target": 213
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f55bfa67b4643136910eed51",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 26045,
+          "stone_tp": 23140,
+          "stone_fp": 480,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 930,
+              "target_boundary": 1183,
+              "matched_predicted": 655,
+              "matched_target": 654
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f62020c170af2da2938be744",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 45779,
+          "stone_tp": 45215,
+          "stone_fp": 2171,
+          "fiber_fp": 455,
+          "fiber_fn": 18,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1233,
+              "target_boundary": 1162,
+              "matched_predicted": 878,
+              "matched_target": 874
+            },
+            "2": {
+              "predicted_boundary": 239,
+              "target_boundary": 231,
+              "matched_predicted": 146,
+              "matched_target": 146
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f6d6396b0ba9dc078f202f5d",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 19443,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 714,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 10771,
+          "stone_tp": 8996,
+          "stone_fp": 853,
+          "fiber_fp": 99,
+          "fiber_fn": 164,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 654,
+              "target_boundary": 816,
+              "matched_predicted": 397,
+              "matched_target": 409
+            },
+            "2": {
+              "predicted_boundary": 128,
+              "target_boundary": 153,
+              "matched_predicted": 103,
+              "matched_target": 101
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f7a0ce0bac6c7a0bb0a5f9ec",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 15942,
+          "stone_tp": 10777,
+          "stone_fp": 1908,
+          "fiber_fp": 0,
+          "fiber_fn": 139,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1093,
+              "target_boundary": 1256,
+              "matched_predicted": 648,
+              "matched_target": 675
+            },
+            "2": {
+              "predicted_boundary": 56,
+              "target_boundary": 95,
+              "matched_predicted": 54,
+              "matched_target": 57
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f88483917dce2d5dc69e03cc",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 4483,
+          "stone_tp": 3610,
+          "stone_fp": 124,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 432,
+              "target_boundary": 517,
+              "matched_predicted": 328,
+              "matched_target": 359
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f95ce3dc9c950992589ef81a",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 7443,
+          "stone_tp": 6857,
+          "stone_fp": 163,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 404,
+              "target_boundary": 422,
+              "matched_predicted": 333,
+              "matched_target": 344
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fa8c7845974d43d219704de3",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 19749,
+          "stone_tp": 17224,
+          "stone_fp": 1796,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1206,
+              "target_boundary": 1959,
+              "matched_predicted": 897,
+              "matched_target": 950
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 19692,
+          "stone_tp": 18593,
+          "stone_fp": 2328,
+          "fiber_fp": 126,
+          "fiber_fn": 84,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1099,
+              "target_boundary": 1163,
+              "matched_predicted": 682,
+              "matched_target": 688
+            },
+            "2": {
+              "predicted_boundary": 83,
+              "target_boundary": 91,
+              "matched_predicted": 68,
+              "matched_target": 60
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fb75f7e4d2f47745183dddf4",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 48224,
+          "stone_tp": 47996,
+          "stone_fp": 2875,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1034,
+              "target_boundary": 1038,
+              "matched_predicted": 637,
+              "matched_target": 639
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fc77bf8ca279f9875f5807c2",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 11200,
+          "stone_tp": 6030,
+          "stone_fp": 545,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 613,
+              "target_boundary": 1267,
+              "matched_predicted": 424,
+              "matched_target": 417
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fccb14b3644a4b7c55ac628a",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 18192,
+          "stone_tp": 16520,
+          "stone_fp": 2225,
+          "fiber_fp": 102,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1204,
+              "target_boundary": 1263,
+              "matched_predicted": 761,
+              "matched_target": 780
+            },
+            "2": {
+              "predicted_boundary": 58,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 11829,
+          "stone_tp": 11100,
+          "stone_fp": 755,
+          "fiber_fp": 73,
+          "fiber_fn": 21,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 594,
+              "target_boundary": 622,
+              "matched_predicted": 431,
+              "matched_target": 441
+            },
+            "2": {
+              "predicted_boundary": 114,
+              "target_boundary": 116,
+              "matched_predicted": 112,
+              "matched_target": 114
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fe36ceb2449249673181a5a6",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 34996,
+          "stone_tp": 28358,
+          "stone_fp": 1197,
+          "fiber_fp": 5,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 966,
+              "target_boundary": 1086,
+              "matched_predicted": 617,
+              "matched_target": 602
+            },
+            "2": {
+              "predicted_boundary": 5,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ff39699780e8e83e6f08541a",
+          "native_shape": [
+            320,
+            320
+          ],
+          "gt_stone_pixels": 7441,
+          "stone_tp": 4703,
+          "stone_fp": 1013,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 704,
+              "target_boundary": 904,
+              "matched_predicted": 404,
+              "matched_target": 408
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cd97db274666dd9a90154901",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 176091,
+          "stone_tp": 173907,
+          "stone_fp": 6465,
+          "fiber_fp": 3211,
+          "fiber_fn": 9,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2114,
+              "target_boundary": 2288,
+              "matched_predicted": 950,
+              "matched_target": 941
+            },
+            "2": {
+              "predicted_boundary": 474,
+              "target_boundary": 418,
+              "matched_predicted": 46,
+              "matched_target": 46
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cec1352c534df462a5d62b9c",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 16301,
+          "stone_tp": 15972,
+          "stone_fp": 16425,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1201,
+              "target_boundary": 1072,
+              "matched_predicted": 146,
+              "matched_target": 148
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cf404f4f3a6de1d92bab3c86",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 249809,
+          "stone_tp": 244615,
+          "stone_fp": 26141,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2784,
+              "target_boundary": 2308,
+              "matched_predicted": 548,
+              "matched_target": 549
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 112420,
+          "stone_tp": 111211,
+          "stone_fp": 4195,
+          "fiber_fp": 1310,
+          "fiber_fn": 20,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1762,
+              "target_boundary": 1733,
+              "matched_predicted": 1027,
+              "matched_target": 998
+            },
+            "2": {
+              "predicted_boundary": 358,
+              "target_boundary": 337,
+              "matched_predicted": 128,
+              "matched_target": 123
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d027b44c9ee6ce7c1bea8c8b",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 32815,
+          "stone_tp": 29206,
+          "stone_fp": 1550,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1091,
+              "target_boundary": 1256,
+              "matched_predicted": 608,
+              "matched_target": 629
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d04ebe39fe149deead19c16b",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 113925,
+          "stone_tp": 91343,
+          "stone_fp": 4855,
+          "fiber_fp": 678,
+          "fiber_fn": 236,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2428,
+              "target_boundary": 3020,
+              "matched_predicted": 639,
+              "matched_target": 657
+            },
+            "2": {
+              "predicted_boundary": 454,
+              "target_boundary": 428,
+              "matched_predicted": 321,
+              "matched_target": 309
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d083dcdc2394bcb46eb2e2aa",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 88348,
+          "stone_tp": 79132,
+          "stone_fp": 1410,
+          "fiber_fp": 843,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1520,
+              "target_boundary": 1418,
+              "matched_predicted": 509,
+              "matched_target": 511
+            },
+            "2": {
+              "predicted_boundary": 132,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d36281673ef735de816fede2",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 114791,
+          "stone_tp": 112510,
+          "stone_fp": 7055,
+          "fiber_fp": 1003,
+          "fiber_fn": 6,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1616,
+              "target_boundary": 1598,
+              "matched_predicted": 603,
+              "matched_target": 592
+            },
+            "2": {
+              "predicted_boundary": 291,
+              "target_boundary": 257,
+              "matched_predicted": 86,
+              "matched_target": 76
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d3d9c90afe5e6b2c0ded7174",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 90310,
+          "stone_tp": 88433,
+          "stone_fp": 2327,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1542,
+              "target_boundary": 1546,
+              "matched_predicted": 842,
+              "matched_target": 839
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 120842,
+          "stone_tp": 110961,
+          "stone_fp": 7065,
+          "fiber_fp": 25,
+          "fiber_fn": 431,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2098,
+              "target_boundary": 2357,
+              "matched_predicted": 612,
+              "matched_target": 613
+            },
+            "2": {
+              "predicted_boundary": 154,
+              "target_boundary": 214,
+              "matched_predicted": 106,
+              "matched_target": 106
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 51354,
+          "stone_tp": 48943,
+          "stone_fp": 1784,
+          "fiber_fp": 2182,
+          "fiber_fn": 59,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1143,
+              "target_boundary": 1189,
+              "matched_predicted": 507,
+              "matched_target": 504
+            },
+            "2": {
+              "predicted_boundary": 468,
+              "target_boundary": 435,
+              "matched_predicted": 100,
+              "matched_target": 109
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d5368f406eb516fa7f27dc73",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 46425,
+          "stone_tp": 42885,
+          "stone_fp": 5365,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1248,
+              "target_boundary": 1119,
+              "matched_predicted": 372,
+              "matched_target": 379
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 79505,
+          "stone_tp": 79053,
+          "stone_fp": 2656,
+          "fiber_fp": 486,
+          "fiber_fn": 28,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1403,
+              "target_boundary": 1409,
+              "matched_predicted": 1084,
+              "matched_target": 1079
+            },
+            "2": {
+              "predicted_boundary": 216,
+              "target_boundary": 210,
+              "matched_predicted": 142,
+              "matched_target": 141
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d5d611a128f6941532e16819",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 35070,
+          "stone_tp": 32268,
+          "stone_fp": 31158,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1686,
+              "target_boundary": 1674,
+              "matched_predicted": 396,
+              "matched_target": 393
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d8d2493949c61074984753a0",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 33529,
+          "stone_tp": 32379,
+          "stone_fp": 4940,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1589,
+              "target_boundary": 1619,
+              "matched_predicted": 723,
+              "matched_target": 743
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 104587,
+          "stone_tp": 96027,
+          "stone_fp": 4307,
+          "fiber_fp": 944,
+          "fiber_fn": 55,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1581,
+              "target_boundary": 1709,
+              "matched_predicted": 848,
+              "matched_target": 819
+            },
+            "2": {
+              "predicted_boundary": 256,
+              "target_boundary": 229,
+              "matched_predicted": 84,
+              "matched_target": 74
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9627d33174b903c775d1044",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 70964,
+          "stone_tp": 51043,
+          "stone_fp": 8771,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1932,
+              "target_boundary": 1579,
+              "matched_predicted": 90,
+              "matched_target": 85
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9968ea323db4c528440cbb1",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 166369,
+          "stone_tp": 162438,
+          "stone_fp": 5428,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2388,
+              "target_boundary": 2709,
+              "matched_predicted": 1304,
+              "matched_target": 1320
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 97797,
+          "stone_tp": 96680,
+          "stone_fp": 19636,
+          "fiber_fp": 1782,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1636,
+              "target_boundary": 1621,
+              "matched_predicted": 624,
+              "matched_target": 598
+            },
+            "2": {
+              "predicted_boundary": 258,
+              "target_boundary": 193,
+              "matched_predicted": 5,
+              "matched_target": 3
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__da2dd2f086729d73aea03aed",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 84440,
+          "stone_tp": 81720,
+          "stone_fp": 9147,
+          "fiber_fp": 333,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1695,
+              "target_boundary": 2325,
+              "matched_predicted": 626,
+              "matched_target": 616
+            },
+            "2": {
+              "predicted_boundary": 86,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__da7e64c5e291613c411370df",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 11104,
+          "stone_tp": 8200,
+          "stone_fp": 491,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 541,
+              "target_boundary": 733,
+              "matched_predicted": 278,
+              "matched_target": 292
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 42671,
+          "stone_tp": 29570,
+          "stone_fp": 2422,
+          "fiber_fp": 3921,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1335,
+              "target_boundary": 1619,
+              "matched_predicted": 461,
+              "matched_target": 459
+            },
+            "2": {
+              "predicted_boundary": 542,
+              "target_boundary": 484,
+              "matched_predicted": 20,
+              "matched_target": 16
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__def3fefc93f0d3f79b4e49a4",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 52674,
+          "stone_tp": 50189,
+          "stone_fp": 1637,
+          "fiber_fp": 1090,
+          "fiber_fn": 3,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1210,
+              "target_boundary": 1350,
+              "matched_predicted": 740,
+              "matched_target": 745
+            },
+            "2": {
+              "predicted_boundary": 226,
+              "target_boundary": 189,
+              "matched_predicted": 42,
+              "matched_target": 38
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 88425,
+          "stone_tp": 66301,
+          "stone_fp": 31585,
+          "fiber_fp": 214,
+          "fiber_fn": 507,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2409,
+              "target_boundary": 2690,
+              "matched_predicted": 361,
+              "matched_target": 358
+            },
+            "2": {
+              "predicted_boundary": 225,
+              "target_boundary": 282,
+              "matched_predicted": 132,
+              "matched_target": 133
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 9869,
+          "stone_tp": 7865,
+          "stone_fp": 696,
+          "fiber_fp": 0,
+          "fiber_fn": 445,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 428,
+              "target_boundary": 636,
+              "matched_predicted": 208,
+              "matched_target": 202
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 107,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df9503c4c2237624a40883ea",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 56849,
+          "stone_tp": 54771,
+          "stone_fp": 70155,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1582,
+              "target_boundary": 1933,
+              "matched_predicted": 151,
+              "matched_target": 149
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e05ea5d59365643133440230",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 90955,
+          "stone_tp": 89706,
+          "stone_fp": 4576,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1543,
+              "target_boundary": 1533,
+              "matched_predicted": 595,
+              "matched_target": 572
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 190633,
+          "stone_tp": 130642,
+          "stone_fp": 10811,
+          "fiber_fp": 2004,
+          "fiber_fn": 47,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2705,
+              "target_boundary": 4051,
+              "matched_predicted": 775,
+              "matched_target": 782
+            },
+            "2": {
+              "predicted_boundary": 404,
+              "target_boundary": 370,
+              "matched_predicted": 116,
+              "matched_target": 112
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e152ad6f28bd0d5796d4b863",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 140091,
+          "stone_tp": 138437,
+          "stone_fp": 2539,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1607,
+              "target_boundary": 1552,
+              "matched_predicted": 1103,
+              "matched_target": 1047
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e2149dfdbb9fe2ad8b09442b",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 122052,
+          "stone_tp": 120078,
+          "stone_fp": 6500,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1750,
+              "target_boundary": 2054,
+              "matched_predicted": 1052,
+              "matched_target": 1031
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 58666,
+          "stone_tp": 55284,
+          "stone_fp": 388,
+          "fiber_fp": 0,
+          "fiber_fn": 893,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1263,
+              "target_boundary": 1358,
+              "matched_predicted": 778,
+              "matched_target": 784
+            },
+            "2": {
+              "predicted_boundary": 32,
+              "target_boundary": 187,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e4fd74319c0ff1d67d66350a",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 139287,
+          "stone_tp": 135433,
+          "stone_fp": 5811,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1913,
+              "target_boundary": 1552,
+              "matched_predicted": 691,
+              "matched_target": 651
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e755cb48d88eff1a918421dc",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 76360,
+          "stone_tp": 75736,
+          "stone_fp": 26382,
+          "fiber_fp": 720,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1508,
+              "target_boundary": 1304,
+              "matched_predicted": 128,
+              "matched_target": 141
+            },
+            "2": {
+              "predicted_boundary": 129,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e7c03ad5034214e51303f46c",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 107878,
+          "stone_tp": 106150,
+          "stone_fp": 4976,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1543,
+              "target_boundary": 1683,
+              "matched_predicted": 637,
+              "matched_target": 624
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e80c71f5def8631f698af5e4",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 110850,
+          "stone_tp": 110252,
+          "stone_fp": 8937,
+          "fiber_fp": 529,
+          "fiber_fn": 177,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1634,
+              "target_boundary": 1618,
+              "matched_predicted": 534,
+              "matched_target": 536
+            },
+            "2": {
+              "predicted_boundary": 218,
+              "target_boundary": 216,
+              "matched_predicted": 120,
+              "matched_target": 121
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e850aabd9169d00e5abf281c",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 27421,
+          "stone_tp": 18744,
+          "stone_fp": 192,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 708,
+              "target_boundary": 1016,
+              "matched_predicted": 362,
+              "matched_target": 346
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e90fee97feeedc692c93a341",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 136369,
+          "stone_tp": 130153,
+          "stone_fp": 8254,
+          "fiber_fp": 792,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2793,
+              "target_boundary": 2975,
+              "matched_predicted": 1181,
+              "matched_target": 1190
+            },
+            "2": {
+              "predicted_boundary": 164,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e938455a11a8eb9671165411",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 49990,
+          "stone_tp": 41278,
+          "stone_fp": 1352,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1862,
+              "target_boundary": 2766,
+              "matched_predicted": 970,
+              "matched_target": 948
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ea7e31de924cc3072975fcc1",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 80736,
+          "stone_tp": 77393,
+          "stone_fp": 28501,
+          "fiber_fp": 157,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1617,
+              "target_boundary": 1845,
+              "matched_predicted": 397,
+              "matched_target": 398
+            },
+            "2": {
+              "predicted_boundary": 60,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 122695,
+          "stone_tp": 122374,
+          "stone_fp": 8821,
+          "fiber_fp": 325,
+          "fiber_fn": 551,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1697,
+              "target_boundary": 1593,
+              "matched_predicted": 705,
+              "matched_target": 677
+            },
+            "2": {
+              "predicted_boundary": 205,
+              "target_boundary": 219,
+              "matched_predicted": 54,
+              "matched_target": 52
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ebca1ec5de792875bb4fb300",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 9605,
+          "stone_tp": 8024,
+          "stone_fp": 2422,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 756,
+              "target_boundary": 951,
+              "matched_predicted": 293,
+              "matched_target": 282
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 75497,
+          "stone_tp": 72076,
+          "stone_fp": 15128,
+          "fiber_fp": 153,
+          "fiber_fn": 271,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1833,
+              "target_boundary": 2112,
+              "matched_predicted": 592,
+              "matched_target": 610
+            },
+            "2": {
+              "predicted_boundary": 178,
+              "target_boundary": 232,
+              "matched_predicted": 136,
+              "matched_target": 141
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ed6451a4c509c7f494d27ffa",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 46814,
+          "stone_tp": 44213,
+          "stone_fp": 2661,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1074,
+              "target_boundary": 1204,
+              "matched_predicted": 444,
+              "matched_target": 449
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ee9acf48105f94ed3bd8a6cd",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 59845,
+          "stone_tp": 55941,
+          "stone_fp": 995,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1118,
+              "target_boundary": 1168,
+              "matched_predicted": 428,
+              "matched_target": 445
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__efa5ed3a9775ddd7d978bf7f",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 109700,
+          "stone_tp": 100416,
+          "stone_fp": 4396,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2272,
+              "target_boundary": 2361,
+              "matched_predicted": 1200,
+              "matched_target": 1209
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__efe332ad3a90e57696efbc31",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 40063,
+          "stone_tp": 34858,
+          "stone_fp": 5166,
+          "fiber_fp": 653,
+          "fiber_fn": 4,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1854,
+              "target_boundary": 2017,
+              "matched_predicted": 808,
+              "matched_target": 819
+            },
+            "2": {
+              "predicted_boundary": 210,
+              "target_boundary": 187,
+              "matched_predicted": 72,
+              "matched_target": 70
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f0307b8a71d07dafb6ee2e3a",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 52649,
+          "stone_tp": 46131,
+          "stone_fp": 20676,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1496,
+              "target_boundary": 1519,
+              "matched_predicted": 287,
+              "matched_target": 280
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f0e67fadb14e6737cc037929",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 71257,
+          "stone_tp": 67776,
+          "stone_fp": 843,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1326,
+              "target_boundary": 1342,
+              "matched_predicted": 815,
+              "matched_target": 785
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f10ac95c407097f80554fecf",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 139002,
+          "stone_tp": 107064,
+          "stone_fp": 3001,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 3211,
+              "target_boundary": 4034,
+              "matched_predicted": 1115,
+              "matched_target": 1122
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 102748,
+          "stone_tp": 100436,
+          "stone_fp": 4626,
+          "fiber_fp": 434,
+          "fiber_fn": 50,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1492,
+              "target_boundary": 1573,
+              "matched_predicted": 552,
+              "matched_target": 562
+            },
+            "2": {
+              "predicted_boundary": 168,
+              "target_boundary": 176,
+              "matched_predicted": 86,
+              "matched_target": 85
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f18ef18f30ef93b3d7d55118",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 85803,
+          "stone_tp": 57026,
+          "stone_fp": 668,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1956,
+              "target_boundary": 2759,
+              "matched_predicted": 217,
+              "matched_target": 213
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f1c1d0100a3e53b144a2fd1a",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 17247,
+          "stone_tp": 15008,
+          "stone_fp": 376,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 720,
+              "target_boundary": 771,
+              "matched_predicted": 380,
+              "matched_target": 381
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 57715,
+          "stone_tp": 43939,
+          "stone_fp": 3359,
+          "fiber_fp": 186,
+          "fiber_fn": 198,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1386,
+              "target_boundary": 1622,
+              "matched_predicted": 385,
+              "matched_target": 374
+            },
+            "2": {
+              "predicted_boundary": 106,
+              "target_boundary": 181,
+              "matched_predicted": 75,
+              "matched_target": 71
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f405adc45e2f9ce5a820d803",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 86212,
+          "stone_tp": 85731,
+          "stone_fp": 8262,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1510,
+              "target_boundary": 1476,
+              "matched_predicted": 666,
+              "matched_target": 666
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f680d909de418e7337206b7e",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 80795,
+          "stone_tp": 78171,
+          "stone_fp": 1193,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1385,
+              "target_boundary": 1380,
+              "matched_predicted": 841,
+              "matched_target": 843
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 55352,
+          "stone_tp": 53260,
+          "stone_fp": 2457,
+          "fiber_fp": 1425,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1209,
+              "target_boundary": 1384,
+              "matched_predicted": 719,
+              "matched_target": 725
+            },
+            "2": {
+              "predicted_boundary": 314,
+              "target_boundary": 257,
+              "matched_predicted": 64,
+              "matched_target": 58
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 22277,
+          "stone_tp": 15203,
+          "stone_fp": 604,
+          "fiber_fp": 2081,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 838,
+              "target_boundary": 1353,
+              "matched_predicted": 336,
+              "matched_target": 339
+            },
+            "2": {
+              "predicted_boundary": 326,
+              "target_boundary": 283,
+              "matched_predicted": 4,
+              "matched_target": 4
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f7e916870021680f21ba0418",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 87966,
+          "stone_tp": 72941,
+          "stone_fp": 7637,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1414,
+              "target_boundary": 2674,
+              "matched_predicted": 610,
+              "matched_target": 609
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f810c0920b76afb8b8ca487e",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 155677,
+          "stone_tp": 151176,
+          "stone_fp": 2181,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 2008,
+              "target_boundary": 2131,
+              "matched_predicted": 1287,
+              "matched_target": 1300
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f84199195ae1f243a42f87a0",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 56613,
+          "stone_tp": 47727,
+          "stone_fp": 878,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1240,
+              "target_boundary": 1800,
+              "matched_predicted": 330,
+              "matched_target": 349
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f9088581b6cb409c0975ef84",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 51835,
+          "stone_tp": 50428,
+          "stone_fp": 15500,
+          "fiber_fp": 1814,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1910,
+              "target_boundary": 2054,
+              "matched_predicted": 803,
+              "matched_target": 790
+            },
+            "2": {
+              "predicted_boundary": 196,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__fbca32110bf977c60cfbe65c",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 26053,
+          "stone_tp": 21215,
+          "stone_fp": 1264,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 992,
+              "target_boundary": 1232,
+              "matched_predicted": 442,
+              "matched_target": 444
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__fcf80e46c1f36f89029968ba",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 85207,
+          "stone_tp": 83909,
+          "stone_fp": 4536,
+          "fiber_fp": 320,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1397,
+              "target_boundary": 1404,
+              "matched_predicted": 610,
+              "matched_target": 594
+            },
+            "2": {
+              "predicted_boundary": 90,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ff13d61c042e3d942d15b551",
+          "native_shape": [
+            640,
+            640
+          ],
+          "gt_stone_pixels": 60235,
+          "stone_tp": 47513,
+          "stone_fp": 2341,
+          "fiber_fp": 0,
+          "fiber_fn": 0,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1277,
+              "target_boundary": 1810,
+              "matched_predicted": 295,
+              "matched_target": 302
+            },
+            "2": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            }
+          }
+        }
+      ]
+    }
+  }
+}

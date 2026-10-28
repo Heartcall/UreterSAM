@@ -1,0 +1,601 @@
+{
+  "config": {
+    "schema_version": 1,
+    "experiment": "S2_JOINT_FAILURE_LABEL_EXPOSURE_DIAGNOSIS_20261028",
+    "output": "runs/a1_sup_kidney_joint_diagnosis_20261028",
+    "manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+    "joint_checkpoint": "runs/a1_sup_kidney_joint_20261028/training/last.pt",
+    "joint_run": "runs/a1_sup_kidney_joint_20261028",
+    "old_video_predictions": "runs/a1_sup_kidney_resolution_20261028/native_comparison/unet256",
+    "new_video_predictions": "runs/a1_sup_kidney_joint_20261028/video_native/joint_final",
+    "scope": "Read-only diagnosis; no parameter/label/split updates, no budget extension, no automatic source ban or relabeling",
+    "video_errors": {
+      "grid": "unchanged native400 GT and frozen saved predictions",
+      "near_radius_native_pixels": 3,
+      "ranking": "Largest positive change in stone FN or fiber FP; report positive-change share separately from signed net change"
+    },
+    "train_agreement": "Frozen final joint model only; predict521training canonical images in eval/inference_mode with batch2 PIL256 -> softmax FP32 bilinear native probabilities before argmax. Unreviewed source agreement, not accuracy. Reuse132saved image-val masks; do not evaluate old model on newly regrouped image validation",
+    "conflicts": {
+      "inventory": "All11 presence-conflicting groups from frozen annotation metadata",
+      "pixel_scope": "Only non-reserved-test groups; never read reserved-test images/labels/masks",
+      "alignment": "D4 flip/90degree only, choose opposite-fiber-presence member with minimum verified RGB32 MAE; same frozen pHash<=4 plus MAE/correlation duplicate criterion",
+      "comparison_grid": 256,
+      "interpretation": "Aligned source-label disagreements and laser/fiber overlaps are diagnostic, neither source is assumed correct; no inferred physical fiber truth"
+    },
+    "exposure": {
+      "buckets": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "old_group_mapping": "Exact historical image SHA to conservative joint component, count15old exposures per original image including augmentation duplicates",
+      "comparison": "Same1425updates2850exposures; compare grouping/reassignment and repeat density, not proof of insufficient optimization"
+    },
+    "descriptors": {
+      "grid": 256,
+      "region": "central80% RGB at common256 image size",
+      "features": [
+        "luminance_mean",
+        "saturation_mean",
+        "laplacian_variance",
+        "annotated_stone_fraction",
+        "annotated_fiber_fraction"
+      ],
+      "interpretation": "Distribution descriptions only, no domain-classifier claim or causal attribution; masks resized nearest only for this descriptor/alignment grid, video error metrics remain native"
+    },
+    "constraints": "stone_new remains banned; video1/2 validation only; original144test-associated groups metadata only; training and source annotations remain pending; no repeated manual-review prerequisite"
+  },
+  "video_error_summary": {
+    "old_stone": {
+      "target_pixels": 91296,
+      "tp": 66045,
+      "fp": 5725,
+      "fn": 25251,
+      "fp_over_background": 5544,
+      "fp_over_other_foreground": 181,
+      "fp_near": 4410,
+      "fp_far": 1315,
+      "fn_to_background": 25201,
+      "fn_to_other_foreground": 50
+    },
+    "new_stone": {
+      "target_pixels": 91296,
+      "tp": 59176,
+      "fp": 3332,
+      "fn": 32120,
+      "fp_over_background": 3332,
+      "fp_over_other_foreground": 0,
+      "fp_near": 2181,
+      "fp_far": 1151,
+      "fn_to_background": 31937,
+      "fn_to_other_foreground": 183
+    },
+    "old_fiber": {
+      "target_pixels": 178653,
+      "tp": 167069,
+      "fp": 23968,
+      "fn": 11584,
+      "fp_over_background": 23918,
+      "fp_over_other_foreground": 50,
+      "fp_near": 8014,
+      "fp_far": 15954,
+      "fn_to_background": 11403,
+      "fn_to_other_foreground": 181
+    },
+    "new_fiber": {
+      "target_pixels": 178653,
+      "tp": 168560,
+      "fp": 33149,
+      "fn": 10093,
+      "fp_over_background": 32966,
+      "fp_over_other_foreground": 183,
+      "fp_near": 14784,
+      "fp_far": 18365,
+      "fn_to_background": 10093,
+      "fn_to_other_foreground": 0
+    },
+    "stone_changes": {
+      "lost_tp": 8365,
+      "gained_tp": 1496,
+      "added_fp": 791,
+      "removed_fp": 3184
+    },
+    "fiber_changes": {
+      "lost_tp": 4009,
+      "gained_tp": 5500,
+      "added_fp": 16059,
+      "removed_fp": 6878
+    },
+    "stone_fn_change": {
+      "net_change": 6869,
+      "total_positive_change": 7428,
+      "top3_share_of_positive_change": 0.5208669897684437,
+      "ranked_sample_ids": [
+        "reviewed_video_1_000721",
+        "reviewed_video_1_000525",
+        "reviewed_video_1_000524",
+        "reviewed_video_2_000000",
+        "reviewed_video_1_000623",
+        "reviewed_video_2_000149",
+        "reviewed_video_1_000053",
+        "reviewed_video_1_000329",
+        "reviewed_video_2_001135",
+        "reviewed_video_2_001061",
+        "reviewed_video_1_000427",
+        "reviewed_video_2_000075",
+        "reviewed_video_2_001971",
+        "reviewed_video_1_000036",
+        "reviewed_video_1_000034",
+        "reviewed_video_1_000032",
+        "reviewed_video_1_000002"
+      ]
+    },
+    "fiber_fp_change": {
+      "net_change": 9181,
+      "total_positive_change": 12503,
+      "top3_share_of_positive_change": 0.3892665760217548,
+      "ranked_sample_ids": [
+        "reviewed_video_1_000072",
+        "reviewed_video_1_000096",
+        "reviewed_video_1_000427",
+        "reviewed_video_1_000079",
+        "reviewed_video_1_000071",
+        "reviewed_video_1_000076",
+        "reviewed_video_1_000053",
+        "reviewed_video_1_000077",
+        "reviewed_video_1_000142",
+        "reviewed_video_1_000112",
+        "reviewed_video_1_000329",
+        "reviewed_video_1_000062",
+        "reviewed_video_2_000075",
+        "reviewed_video_2_001897",
+        "reviewed_video_1_000032",
+        "reviewed_video_2_000149",
+        "reviewed_video_1_000036",
+        "reviewed_video_1_000034",
+        "reviewed_video_2_000000",
+        "reviewed_video_2_000986",
+        "reviewed_video_1_000002",
+        "reviewed_video_2_001135",
+        "reviewed_video_2_001971",
+        "reviewed_video_1_000721"
+      ]
+    }
+  },
+  "sampling": {
+    "total_exposures": 2850,
+    "new_train_pool": 521,
+    "unique_seen": 519,
+    "new_exposure_histogram": {
+      "3": 52,
+      "2": 15,
+      "6": 104,
+      "5": 120,
+      "7": 84,
+      "4": 80,
+      "10": 6,
+      "8": 36,
+      "1": 3,
+      "11": 5,
+      "9": 14,
+      "0": 2
+    },
+    "old190_conservative_groups": 150,
+    "old_group_exposure_histogram": {
+      "30": 34,
+      "15": 113,
+      "45": 3
+    },
+    "old_total_exposures": 2850,
+    "new_exposures_on_historical_groups": 536,
+    "historical_groups_in_new_train": 106,
+    "old_groups_reassigned_image_val_or_reserved_test": 44
+  },
+  "source_metrics": {
+    "train:kidney_stones_fiber_v1": {
+      "images": 245,
+      "metrics": {
+        "stone_dice": 0.9023795351499518,
+        "stone_iou": 0.8221234607476371,
+        "stone_precision": 0.9175613650185637,
+        "stone_recall": 0.8876919205367776,
+        "stone_tp": 4247075,
+        "stone_fp": 381580,
+        "stone_fn": 537327,
+        "fiber_dice": 0.7759772788395894,
+        "fiber_iou": 0.633956596903642,
+        "fiber_precision": 0.7024694330738155,
+        "fiber_recall": 0.8666671067745811,
+        "fiber_tp": 131281,
+        "fiber_fp": 55604,
+        "fiber_fn": 20197,
+        "mean_dice": 0.8391784069947706,
+        "mean_iou": 0.7280400288256396,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            19725687,
+            375721,
+            50712
+          ],
+          [
+            532435,
+            4247075,
+            4892
+          ],
+          [
+            14338,
+            5859,
+            131281
+          ]
+        ],
+        "valid_pixels": 25088000
+      },
+      "fiber_fp_over_auxiliary_laser_dot": 489,
+      "exposures": 1285
+    },
+    "train:kidney_stones_fiber_v2": {
+      "images": 276,
+      "metrics": {
+        "stone_dice": 0.9259856515950587,
+        "stone_iou": 0.8621725147064139,
+        "stone_precision": 0.9234209523461426,
+        "stone_recall": 0.9285646368570529,
+        "stone_tp": 22636961,
+        "stone_fp": 1877277,
+        "stone_fn": 1741483,
+        "fiber_dice": 0.8015248931665563,
+        "fiber_iou": 0.6687872685852514,
+        "fiber_precision": 0.7127350427350427,
+        "fiber_recall": 0.9155850321968011,
+        "fiber_tp": 308543,
+        "fiber_fp": 124357,
+        "fiber_fn": 28447,
+        "mean_dice": 0.8637552723808075,
+        "mean_iou": 0.7654798916458326,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            86341366,
+            1875330,
+            117470
+          ],
+          [
+            1734596,
+            22636961,
+            6887
+          ],
+          [
+            26500,
+            1947,
+            308543
+          ]
+        ],
+        "valid_pixels": 113049600
+      },
+      "fiber_fp_over_auxiliary_laser_dot": 0,
+      "exposures": 1565
+    },
+    "image_val:kidney_stones_fiber_v1": {
+      "images": 68,
+      "metrics": {
+        "stone_dice": 0.8825791106562632,
+        "stone_iou": 0.7898358792760742,
+        "stone_precision": 0.8872027431789048,
+        "stone_recall": 0.878003420150783,
+        "stone_tp": 1149569,
+        "stone_fp": 146154,
+        "stone_fn": 159730,
+        "fiber_dice": 0.8082011964918394,
+        "fiber_iou": 0.6781355998284534,
+        "fiber_precision": 0.7552540165002171,
+        "fiber_recall": 0.8691317926296065,
+        "fiber_tp": 34787,
+        "fiber_fp": 11273,
+        "fiber_fn": 5238,
+        "mean_dice": 0.8453901535740513,
+        "mean_iou": 0.7339857395522638,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            5457775,
+            145407,
+            10694
+          ],
+          [
+            159151,
+            1149569,
+            579
+          ],
+          [
+            4491,
+            747,
+            34787
+          ]
+        ],
+        "valid_pixels": 6963200
+      },
+      "fiber_fp_over_auxiliary_laser_dot": 87,
+      "exposures": 0
+    },
+    "image_val:kidney_stones_fiber_v2": {
+      "images": 64,
+      "metrics": {
+        "stone_dice": 0.9114206917828637,
+        "stone_iou": 0.8372570421860938,
+        "stone_precision": 0.9046569632491526,
+        "stone_recall": 0.918286321125956,
+        "stone_tp": 4809464,
+        "stone_fp": 506876,
+        "stone_fn": 427970,
+        "fiber_dice": 0.8002923854972039,
+        "fiber_iou": 0.6670728566050447,
+        "fiber_precision": 0.6945269629079507,
+        "fiber_recall": 0.9440573167141034,
+        "fiber_tp": 67333,
+        "fiber_fp": 29615,
+        "fiber_fn": 3990,
+        "mean_dice": 0.8558565386400339,
+        "mean_iou": 0.7521649493955692,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            20369426,
+            506749,
+            29468
+          ],
+          [
+            427823,
+            4809464,
+            147
+          ],
+          [
+            3863,
+            127,
+            67333
+          ]
+        ],
+        "valid_pixels": 26214400
+      },
+      "fiber_fp_over_auxiliary_laser_dot": 0,
+      "exposures": 0
+    }
+  },
+  "descriptor_groups": {
+    "image_val:kidney_stones_fiber_v1": {
+      "images": 68,
+      "has_stone_annotation": 68,
+      "has_fiber_annotation": 27,
+      "statistics": {
+        "luminance_mean": {
+          "mean": 0.3718130371588118,
+          "p25": 0.21376439556479454,
+          "median": 0.35697613656520844,
+          "p75": 0.5176877379417419
+        },
+        "saturation_mean": {
+          "mean": 0.3404798438313186,
+          "p25": 0.1970244927078193,
+          "median": 0.32046223239979377,
+          "p75": 0.48212533198782387
+        },
+        "laplacian_variance": {
+          "mean": 0.005345651657347951,
+          "p25": 0.0016168979345820844,
+          "median": 0.0034762617433443666,
+          "p75": 0.008073831675574183
+        },
+        "annotated_stone_fraction": {
+          "mean": 0.1880522335276884,
+          "p25": 0.0750885009765625,
+          "median": 0.140472412109375,
+          "p75": 0.24066543579101562
+        },
+        "annotated_fiber_fraction": {
+          "mean": 0.005742016960592831,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.006153106689453125
+        }
+      }
+    },
+    "image_val:kidney_stones_fiber_v2": {
+      "images": 64,
+      "has_stone_annotation": 64,
+      "has_fiber_annotation": 23,
+      "statistics": {
+        "luminance_mean": {
+          "mean": 0.3652337876847014,
+          "p25": 0.2705637291073799,
+          "median": 0.3474949449300766,
+          "p75": 0.4341874122619629
+        },
+        "saturation_mean": {
+          "mean": 0.27651142250660277,
+          "p25": 0.1686956736695998,
+          "median": 0.2521615480012346,
+          "p75": 0.3464933352924542
+        },
+        "laplacian_variance": {
+          "mean": 0.00268638261036358,
+          "p25": 0.0013004928769078106,
+          "median": 0.0020408526761457324,
+          "p75": 0.003148891089949757
+        },
+        "annotated_stone_fraction": {
+          "mean": 0.1997671127319336,
+          "p25": 0.1245574951171875,
+          "median": 0.19577789306640625,
+          "p75": 0.26861572265625
+        },
+        "annotated_fiber_fraction": {
+          "mean": 0.0027234554290771484,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.003398895263671875
+        }
+      }
+    },
+    "train:kidney_stones_fiber_v1": {
+      "images": 245,
+      "has_stone_annotation": 245,
+      "has_fiber_annotation": 102,
+      "statistics": {
+        "luminance_mean": {
+          "mean": 0.39211986340126215,
+          "p25": 0.2509344816207886,
+          "median": 0.38677725195884705,
+          "p75": 0.5268458724021912
+        },
+        "saturation_mean": {
+          "mean": 0.33397374634649785,
+          "p25": 0.2034616372706119,
+          "median": 0.2996182486568008,
+          "p75": 0.4470942170816861
+        },
+        "laplacian_variance": {
+          "mean": 0.00623434081178263,
+          "p25": 0.0016398824518546462,
+          "median": 0.0040705325081944466,
+          "p75": 0.009655551984906197
+        },
+        "annotated_stone_fraction": {
+          "mean": 0.19070652553013392,
+          "p25": 0.0740814208984375,
+          "median": 0.1379241943359375,
+          "p75": 0.264617919921875
+        },
+        "annotated_fiber_fraction": {
+          "mean": 0.006040736607142857,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.0065460205078125
+        }
+      }
+    },
+    "train:kidney_stones_fiber_v2": {
+      "images": 276,
+      "has_stone_annotation": 276,
+      "has_fiber_annotation": 94,
+      "statistics": {
+        "luminance_mean": {
+          "mean": 0.368478844239228,
+          "p25": 0.2726948857307434,
+          "median": 0.32878918945789337,
+          "p75": 0.47140924632549286
+        },
+        "saturation_mean": {
+          "mean": 0.3088617739885368,
+          "p25": 0.21146577822381663,
+          "median": 0.29106303563936653,
+          "p75": 0.393377593755949
+        },
+        "laplacian_variance": {
+          "mean": 0.0020739178825338518,
+          "p25": 0.001139552565291524,
+          "median": 0.0017129139159806073,
+          "p75": 0.0027217858005315065
+        },
+        "annotated_stone_fraction": {
+          "mean": 0.21564151929772418,
+          "p25": 0.11333847045898438,
+          "median": 0.195556640625,
+          "p75": 0.2872734069824219
+        },
+        "annotated_fiber_fraction": {
+          "mean": 0.002981047699416893,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.00446319580078125
+        }
+      }
+    },
+    "video_1": {
+      "images": 20,
+      "has_stone_annotation": 13,
+      "has_fiber_annotation": 20,
+      "statistics": {
+        "luminance_mean": {
+          "mean": 0.39616033881902696,
+          "p25": 0.3759664371609688,
+          "median": 0.4027120918035507,
+          "p75": 0.41184425354003906
+        },
+        "saturation_mean": {
+          "mean": 0.32025054568910233,
+          "p25": 0.28477836982658083,
+          "median": 0.3156134543552552,
+          "p75": 0.36540342642854107
+        },
+        "laplacian_variance": {
+          "mean": 7.289932655112352e-05,
+          "p25": 5.2662837333627976e-05,
+          "median": 6.61020130792167e-05,
+          "p75": 7.489164636353962e-05
+        },
+        "annotated_stone_fraction": {
+          "mean": 0.013535308837890624,
+          "p25": 0.0,
+          "median": 0.00684356689453125,
+          "p75": 0.02021026611328125
+        },
+        "annotated_fiber_fraction": {
+          "mean": 0.035784149169921876,
+          "p25": 0.035251617431640625,
+          "median": 0.03589630126953125,
+          "p75": 0.03641510009765625
+        }
+      }
+    },
+    "video_2": {
+      "images": 9,
+      "has_stone_annotation": 7,
+      "has_fiber_annotation": 9,
+      "statistics": {
+        "luminance_mean": {
+          "mean": 0.3355003363556332,
+          "p25": 0.3207859992980957,
+          "median": 0.3455345928668976,
+          "p75": 0.35640737414360046
+        },
+        "saturation_mean": {
+          "mean": 0.38683709991783605,
+          "p25": 0.3462895913384677,
+          "median": 0.3900235464154556,
+          "p75": 0.4291117974195051
+        },
+        "laplacian_variance": {
+          "mean": 0.00014957995881559327,
+          "p25": 0.00010645240399753675,
+          "median": 0.00015990172687452286,
+          "p75": 0.00016910779231693596
+        },
+        "annotated_stone_fraction": {
+          "mean": 0.03407668733925957,
+          "p25": 0.00390625,
+          "median": 0.04202727102920117,
+          "p75": 0.05800317445641286
+        },
+        "annotated_fiber_fraction": {
+          "mean": 0.044774569639065086,
+          "p25": 0.03952120042338584,
+          "median": 0.04076074047094966,
+          "p75": 0.0420074462890625
+        }
+      }
+    }
+  },
+  "conflict_summary": {
+    "total": 11,
+    "active": 6,
+    "reserved_metadata_only": 5,
+    "verified_direct_alignment": 2,
+    "active_laser_overlap_groups": 0
+  },
+  "training_updates": 0,
+  "labels_changed": false,
+  "split_changed": false,
+  "all_frozen_identities_unchanged": true,
+  "reserved_test_pixels_read": false
+}

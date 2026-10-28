@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "scope": "same validation set; not an independent-case generalization test",
+  "dataset_role": "synthetic_engineering_test_not_medical_data",
+  "split": "val",
+  "test_pixels_read": false,
+  "grid_size": 64,
+  "inputs": {
+    "manifest_sha256": "936d03fdec7d9b7a4ed049e77a61697ceb03b54e2d24ca48d5619e9c9a0e407d",
+    "files": {
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_20261027_v2\\synthetic_data\\image_4.png": "01a5cd3aa9d1768869e053814b92a1fa674a5867cb6f54757433052bbfcfce83",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_20261027_v2\\synthetic_data\\mask_4.png": "43fbd066e3ae9322ba1cc6bb68ccd71090f00e94455e238c4a4ac2edc3b6df50",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_20261027_v2\\synthetic_data\\image_5.png": "d4862d446a283ba3a4e1f5a0ca3d737bc6315612cabd4bd02960e69ab5ac9ec1",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_20261027_v2\\synthetic_data\\mask_5.png": "904215134e0d4a5f00cbd0b7453edcc5016310f8f105777bd9807ab809e35fd8"
+    },
+    "test_pixels_read": false
+  },
+  "runtime": {
+    "python": "3.11.17",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "smp": "0.4.0",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "cpu_threads": 16,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "source_hashes": {
+    "ureter_semis\\__init__.py": "e1c8923f1b3aacec08d84476b241ff1ca7f7541985bc9161a7d311f88c8b8a39",
+    "ureter_semis\\data.py": "25e41253e416160e3af8cc9794f47db7698f3cb9ff51e34c9e1c5891f4b7a2f7",
+    "ureter_semis\\demo.py": "72cb2437d1159a3b03b3ea250d81a534132bad48d266358b7b66c4c16d950cc2",
+    "ureter_semis\\depth_anything_v2_infer.py": "0996260bc9fa4a48571318d2813c561928014235fa122576cff041dbb26791a9",
+    "ureter_semis\\experiment.py": "a31d65fa4620d46fe51241ce190c730c488ad277e1d7c20cd174b7fa51af7ff2",
+    "ureter_semis\\inference.py": "87713a8c9502e20bac5a1536d3763021661e25793831925357f2de9f51970d30",
+    "ureter_semis\\labels.py": "2fc8c81db03d2060b031d39fb0e5311615d5b51d519a6c597ef0e3c19f229bbb",
+    "ureter_semis\\losses.py": "c696eb13ce92b16e7b7374fea133e4aab604878b30cb0ae1f39fb239b6cf4172",
+    "ureter_semis\\metrics.py": "521cbe743c35a3a36ad8c46951e52d1ff784dc6ebe61d03f0616b1ad97bf364c",
+    "ureter_semis\\model.py": "ad328052524f172010696428e0bf961b45e12ed294c80bdd86023ceee12fa488",
+    "ureter_semis\\trainer.py": "4934e6b2f857954081e89e03483d652ff09ea057155113b45a9ad751ad994fbf",
+    "ureter_semis\\video_metrics.py": "f857c980eab7e35710d8f7b81daafcdf8bac3bf7b9863ce4d927f3099ec5c5bb",
+    "third_party\\Endo-SemiS\\src\\models\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party\\Endo-SemiS\\src\\models\\unet.py": "bcb33a7a4083625814e5f1df93cdbf007d0616f59ba622c8619a38f5844369ef",
+    "third_party\\Endo-SemiS\\src\\models\\unet_encoder.py": "4a3efbc4a2a5c32d6fe84e0c53a5b5ee6ff2b8acd44053c8e795eee174a274ec",
+    "third_party\\Endo-SemiS\\src\\models\\unet_parts.py": "0a7e732e00c7ca5eba52deabb550f8a7ef3e83a71b684298e66b6b4625d17931"
+  },
+  "checkpoints": [
+    {
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_20261027_v2\\full\\best.pt",
+      "checkpoint_sha256": "ebab868007ad1e0ef16ba709adc02ebaf4c25102d00b1864e1375179f5d49dca",
+      "metrics": {
+        "stone_dice": 0.08015451472718493,
+        "stone_iou": 0.041750503018108655,
+        "stone_precision": 0.05551839464882943,
+        "stone_recall": 0.1440972222222222,
+        "stone_tp": 83,
+        "stone_fp": 1412,
+        "stone_fn": 493,
+        "fiber_dice": 0.08019740900678593,
+        "fiber_iou": 0.04177377892030849,
+        "fiber_precision": 0.046263345195729534,
+        "fiber_recall": 0.30092592592592593,
+        "fiber_tp": 130,
+        "fiber_fp": 2680,
+        "fiber_fn": 302,
+        "mean_dice": 0.08017596186698543,
+        "mean_iou": 0.04176214096920857,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            3118,
+            1330,
+            2480
+          ],
+          [
+            293,
+            83,
+            200
+          ],
+          [
+            220,
+            82,
+            130
+          ]
+        ],
+        "valid_pixels": 7936,
+        "stone_negative_images": 1,
+        "stone_negative_images_with_fp": 1,
+        "stone_negative_fp_image_rate": 1.0,
+        "stone_negative_valid_pixels": 3968,
+        "stone_negative_fp_pixels": 791,
+        "stone_negative_fp_pixel_fraction": 0.19934475806451613
+      }
+    },
+    {
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\engineering\\training_resume_20261027_v2\\resumed\\best.pt",
+      "checkpoint_sha256": "ebab868007ad1e0ef16ba709adc02ebaf4c25102d00b1864e1375179f5d49dca",
+      "metrics": {
+        "stone_dice": 0.08015451472718493,
+        "stone_iou": 0.041750503018108655,
+        "stone_precision": 0.05551839464882943,
+        "stone_recall": 0.1440972222222222,
+        "stone_tp": 83,
+        "stone_fp": 1412,
+        "stone_fn": 493,
+        "fiber_dice": 0.08019740900678593,
+        "fiber_iou": 0.04177377892030849,
+        "fiber_precision": 0.046263345195729534,
+        "fiber_recall": 0.30092592592592593,
+        "fiber_tp": 130,
+        "fiber_fp": 2680,
+        "fiber_fn": 302,
+        "mean_dice": 0.08017596186698543,
+        "mean_iou": 0.04176214096920857,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            3118,
+            1330,
+            2480
+          ],
+          [
+            293,
+            83,
+            200
+          ],
+          [
+            220,
+            82,
+            130
+          ]
+        ],
+        "valid_pixels": 7936,
+        "stone_negative_images": 1,
+        "stone_negative_images_with_fp": 1,
+        "stone_negative_fp_image_rate": 1.0,
+        "stone_negative_valid_pixels": 3968,
+        "stone_negative_fp_pixels": 791,
+        "stone_negative_fp_pixel_fraction": 0.19934475806451613
+      },
+      "difference_from_first": {
+        "stone_dice": 0.0,
+        "fiber_dice": 0.0,
+        "mean_dice": 0.0,
+        "stone_negative_fp_image_rate": 0.0,
+        "stone_negative_fp_pixel_fraction": 0.0
+      }
+    }
+  ],
+  "preprocessing": "PIL RGB bilinear image / nearest mask resize, ImageNet normalization; matches trainer validation",
+  "video_inference_preprocessing": "A0 video replay retains OpenCV interpolation; evaluate video masks separately",
+  "negative_presence": "native mask or explicit reviewed absence, before resize; unknown excluded",
+  "metrics": "global confusion; ignore255; undefined denominators null; foreground macro over defined overlaps"
+}

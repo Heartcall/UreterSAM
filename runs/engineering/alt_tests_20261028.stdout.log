@@ -1,0 +1,25 @@
+supervised epoch=1 stone=0.7028571428571428 fiber=0.22649140546006066 passed=True
+supervised epoch=2 stone=0.7676767676767676 fiber=0.2002635046113307 passed=True
+supervised epoch=1 stone=0.7028571428571428 fiber=0.22649140546006066 passed=True
+supervised epoch=2 stone=0.7676767676767676 fiber=0.2002635046113307 passed=True
+supervised epoch=1 stone=0.10318225650916105 fiber=0.060759493670886074 passed=True
+supervised epoch=2 stone=0.10321324245374879 fiber=0.05925925925925926 passed=True
+supervised epoch=1 stone=0.10318225650916105 fiber=0.060759493670886074 passed=True
+supervised epoch=2 stone=0.10321324245374879 fiber=0.05925925925925926 passed=True
+supervised epoch=1 stone=0.04 fiber=0.999 passed=False
+supervised epoch=2 stone=0.04 fiber=0.999 passed=False
+supervised epoch=3 stone=0.04 fiber=0.999 passed=False
+supervised epoch=1 stone=0.10328185328185328 fiber=0.10037174721189591 passed=True
+supervised epoch=2 stone=0.10326351680467609 fiber=0.10163339382940109 passed=True
+supervised epoch=1 stone=0.10328185328185328 fiber=0.10037174721189591 passed=True
+supervised epoch=2 stone=0.10326351680467609 fiber=0.10163339382940109 passed=True
+val epoch=1 mean_dice=0.500000 negative_fp_images=0
+val epoch=2 mean_dice=0.500000 negative_fp_images=0
+val epoch=1 mean_dice=0.500000 negative_fp_images=0
+val epoch=2 mean_dice=0.500000 negative_fp_images=0
+val epoch=2 mean_dice=0.500000 negative_fp_images=0
+val epoch=1 mean_dice=0.400000 negative_fp_images=0
+val epoch=2 mean_dice=0.400000 negative_fp_images=0
+val epoch=1 mean_dice=0.400000 negative_fp_images=0
+val epoch=2 mean_dice=0.400000 negative_fp_images=0
+{"total": 69, "passed": 67, "skipped": [["test_context_stream_is_jpeg_without_browser_codec_dependency (test_review_workspace.ReviewWorkspaceTests.test_context_stream_is_jpeg_without_browser_codec_dependency)", "Known sandbox loopback WinError10013; unchanged HTTP tests"], ["test_filters_and_loopback_http (test_review_workspace.ReviewWorkspaceTests.test_filters_and_loopback_http)", "Known sandbox loopback WinError10013; unchanged HTTP tests"]], "failures": [], "errors": []}

@@ -1,0 +1,168 @@
+{
+  "baseline": {
+    "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+    "checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+    "metrics": {
+      "stone_dice": 0.476834438897627,
+      "stone_iou": 0.3130548976911766,
+      "stone_precision": 0.3508787379385827,
+      "stone_recall": 0.7438591812241632,
+      "stone_tp": 27891,
+      "stone_fp": 51598,
+      "stone_fn": 9604,
+      "fiber_dice": 0.9699309650208784,
+      "fiber_iou": 0.9416174373599511,
+      "fiber_precision": 0.9923714379767852,
+      "fiber_recall": 0.9484829416431835,
+      "fiber_tp": 69336,
+      "fiber_fp": 533,
+      "fiber_fn": 3766,
+      "mean_dice": 0.7233827019592527,
+      "mean_iou": 0.6273361675255639,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          1732568,
+          51590,
+          533
+        ],
+        [
+          9604,
+          27891,
+          0
+        ],
+        [
+          3758,
+          8,
+          69336
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 6,
+      "stone_negative_fp_image_rate": 0.6666666666666666,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 45924,
+      "stone_negative_fp_pixel_fraction": 0.07786051432291667
+    }
+  },
+  "last_completed_epoch": {
+    "epoch": 39,
+    "train_loss": 0.5245704573882873,
+    "optimizer_update_steps": 833,
+    "learning_rates": [
+      3.0366536167747885e-05,
+      3.0366536167747885e-05
+    ],
+    "metrics": {
+      "stone_dice": 0.04081686001866897,
+      "stone_iou": 0.020833611307546223,
+      "stone_precision": 0.020833854541067554,
+      "stone_recall": 0.9994399253233764,
+      "stone_tp": 37474,
+      "stone_fp": 1761233,
+      "stone_fn": 21,
+      "fiber_dice": 0.8264469628660502,
+      "fiber_iou": 0.7042263423256935,
+      "fiber_precision": 0.7259916546732794,
+      "fiber_recall": 0.9591666438674729,
+      "fiber_tp": 70117,
+      "fiber_fp": 26464,
+      "fiber_fn": 2985,
+      "mean_dice": 0.43363191144235963,
+      "mean_iou": 0.36252997681661986,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          0,
+          1758248,
+          26443
+        ],
+        [
+          0,
+          37474,
+          21
+        ],
+        [
+          0,
+          2985,
+          70117
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 9,
+      "stone_negative_fp_image_rate": 1.0,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 560063,
+      "stone_negative_fp_pixel_fraction": 0.9495425754123263
+    }
+  },
+  "retirement": {
+    "state": "retired_failed_supervision",
+    "retired_utc": "2026-10-27T10:37:07.958091+00:00",
+    "reason": "Plan v2 authorized: foreground-only supervised masks have zero background pixels; severe stone over-segmentation",
+    "user_instruction": "按照plan开始执行下一步",
+    "completed_epoch": 39,
+    "interrupted_progress": {
+      "state": "retired_failed_supervision",
+      "epoch": 40,
+      "planned_epochs": 60,
+      "step": 601,
+      "steps_per_epoch": 834,
+      "loss": 1.3673326969146729,
+      "epoch_elapsed_s": 106.23196220002137
+    },
+    "last_metrics": {
+      "stone_dice": 0.04081686001866897,
+      "stone_iou": 0.020833611307546223,
+      "stone_precision": 0.020833854541067554,
+      "stone_recall": 0.9994399253233764,
+      "stone_tp": 37474,
+      "stone_fp": 1761233,
+      "stone_fn": 21,
+      "fiber_dice": 0.8264469628660502,
+      "fiber_iou": 0.7042263423256935,
+      "fiber_precision": 0.7259916546732794,
+      "fiber_recall": 0.9591666438674729,
+      "fiber_tp": 70117,
+      "fiber_fp": 26464,
+      "fiber_fn": 2985,
+      "mean_dice": 0.43363191144235963,
+      "mean_iou": 0.36252997681661986,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          0,
+          1758248,
+          26443
+        ],
+        [
+          0,
+          37474,
+          21
+        ],
+        [
+          0,
+          2985,
+          70117
+        ]
+      ],
+      "valid_pixels": 1895288,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 9,
+      "stone_negative_fp_image_rate": 1.0,
+      "stone_negative_valid_pixels": 589824,
+      "stone_negative_fp_pixels": 560063,
+      "stone_negative_fp_pixel_fraction": 0.9495425754123263
+    },
+    "best_by_old_mean_dice_epoch": 9,
+    "background_supervision_pixels": 0,
+    "checkpoint_initialization_allowed": false,
+    "original_run_source_snapshot": "source_snapshot.zip",
+    "checkpoint_sha256": {
+      "best.pt": "7e7e4b6deab6907a884629ca3290ea40ec08c207b308f61c17258cb99cd3ca52",
+      "last.pt": "1177e48ae8be9d859ef6aef9d2bea0c860c4f728ba141398d79b896bd7f63e6c"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "experiment": "KIDNEY_V1_V2_JOINT_GROUPED_20261028",
+  "sources": [
+    {"id":"kidney_stones_fiber_v1","path":"data/Kidney stones-fiber-.v1i.yolov8","expected_names":["fiber","laser","stone","tissue"]},
+    {"id":"kidney_stones_fiber_v2","path":"data/Kidney stones-fiber-.v2i.yolov8","expected_names":["fiber","stone","tissue"]}
+  ],
+  "output": "datasets/ureter_semis_kidney_joint_20261028",
+  "previous_manifest": "datasets/ureter_semis_a1_sup_kidney_only_20261027/manifest.json",
+  "review_session": "runs/annotation_sessions/review_20261027/session.json",
+  "draft_manifest": "datasets/ureter_semis_v2_review_20261027/manifest.json",
+  "grouping": "Union same-source augmentation filename family, exact image SHA256 and D4 near-copy candidates across BOTH sources including within v1 and within v2; numeric filenames alone never merge across sources",
+  "near_copy": "Interior80%,63bit pHash Hamming<=4 under8 flip/90degree orientations; RGB32 MAE<=0.03 or gray corr>=0.985 and MAE<=0.12; conservative candidates, not patient identity",
+  "canonical": "One image per conservative connected component. Prefer v2 over v1, then original valid/test over augmented train, then lexicographic SHA256. No mask averaging/warping or label promotion",
+  "reserved_test_policy": "Any member in either original test split reserves the entire component; no training/selection/evaluation of its masks during this experiment",
+  "rejection_policy": "Known rejected or banned-source image makes whole component excluded; video duplicate candidates likewise excluded",
+  "split": {"seed":42,"train_fraction":0.8,"image_validation_fraction":0.2,"method":"SHA256(seed + sorted component source/family identities), before model metrics; patient independence unverified"},
+  "video_policy": "Sequentially screen ALL raw images against ALL2694 video frames with same D4 near-copy method; preserve frozen29video rows byte-for-byte as separate regression manifest; no video derivatives train",
+  "supervision": "Source polygons with provisional background0; preserve auxiliary tissue/laser masks separately; fiber2 wins stone1 on overlap; missing labels are never negatives",
+  "user_authorization": "允许将v1与v2联合去重、分组后建立新版本训练与开发验证清单，保留原29帧视频验证集，再重新训练同预算基线",
+  "training_budget": {"epochs":15,"images_per_epoch":190,"batch_size":2,"effective_updates":1425,"image_exposures":2850,"input_size":256,"initialization":"Clean ImageNet encoder + random decoder; no surgical checkpoint warmstart"}
+}

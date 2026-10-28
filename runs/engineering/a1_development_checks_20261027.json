@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-27T08:21:08.214838+00:00",
+  "checks": {
+    "core_sources_match_launch": true,
+    "all_training_validation_inputs_match_launch": true,
+    "manifest_matches_launch": true,
+    "original_a0_unchanged": true,
+    "all_350_partial_masks_exclude_background_zero": true,
+    "reviewed_train_20_video1_only": true,
+    "development_validation_9_video2_only": true,
+    "supervised_weights_sum_one": true,
+    "pending_sources_not_promoted": true,
+    "first_epoch_comparison_saved": true,
+    "full_resume_checkpoint_saved": true,
+    "exact_train_validation_image_hashes_disjoint": true
+  },
+  "input_files_checked": 2427,
+  "unit_tests": {
+    "passed": 48,
+    "status": "completed_before_this_audit"
+  },
+  "current_progress": {
+    "state": "training",
+    "epoch": 3,
+    "planned_epochs": 60,
+    "step": 676,
+    "steps_per_epoch": 834,
+    "loss": 0.2814788818359375,
+    "epoch_elapsed_s": 119.56374080001842
+  }
+}

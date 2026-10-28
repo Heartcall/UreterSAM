@@ -1,0 +1,176 @@
+{
+  "metrics_by_source_or_video": {
+    "image": {
+      "kidney_stones_fiber_v1": {
+        "stone_dice": 0.8825791106562632,
+        "stone_iou": 0.7898358792760742,
+        "stone_precision": 0.8872027431789048,
+        "stone_recall": 0.878003420150783,
+        "stone_tp": 1149569,
+        "stone_fp": 146154,
+        "stone_fn": 159730,
+        "fiber_dice": 0.8082011964918394,
+        "fiber_iou": 0.6781355998284534,
+        "fiber_precision": 0.7552540165002171,
+        "fiber_recall": 0.8691317926296065,
+        "fiber_tp": 34787,
+        "fiber_fp": 11273,
+        "fiber_fn": 5238,
+        "mean_dice": 0.8453901535740513,
+        "mean_iou": 0.7339857395522638,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            5457775,
+            145407,
+            10694
+          ],
+          [
+            159151,
+            1149569,
+            579
+          ],
+          [
+            4491,
+            747,
+            34787
+          ]
+        ],
+        "valid_pixels": 6963200
+      },
+      "kidney_stones_fiber_v2": {
+        "stone_dice": 0.9114206917828637,
+        "stone_iou": 0.8372570421860938,
+        "stone_precision": 0.9046569632491526,
+        "stone_recall": 0.918286321125956,
+        "stone_tp": 4809464,
+        "stone_fp": 506876,
+        "stone_fn": 427970,
+        "fiber_dice": 0.8002923854972039,
+        "fiber_iou": 0.6670728566050447,
+        "fiber_precision": 0.6945269629079507,
+        "fiber_recall": 0.9440573167141034,
+        "fiber_tp": 67333,
+        "fiber_fp": 29615,
+        "fiber_fn": 3990,
+        "mean_dice": 0.8558565386400339,
+        "mean_iou": 0.7521649493955692,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            20369426,
+            506749,
+            29468
+          ],
+          [
+            427823,
+            4809464,
+            147
+          ],
+          [
+            3863,
+            127,
+            67333
+          ]
+        ],
+        "valid_pixels": 26214400
+      }
+    },
+    "video": {
+      "video_1": {
+        "stone_dice": 0.8449792595065946,
+        "stone_iou": 0.7315706375503125,
+        "stone_precision": 0.947987205717085,
+        "stone_recall": 0.7621629135390603,
+        "stone_tp": 32898,
+        "stone_fp": 1805,
+        "stone_fn": 10266,
+        "fiber_dice": 0.8995131386980968,
+        "fiber_iou": 0.8173774447738072,
+        "fiber_precision": 0.8488425156045758,
+        "fiber_recall": 0.956617243272927,
+        "fiber_tp": 109746,
+        "fiber_fp": 19543,
+        "fiber_fn": 4977,
+        "mean_dice": 0.8722461991023457,
+        "mean_iou": 0.7744740411620599,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            3020948,
+            1805,
+            19360
+          ],
+          [
+            10083,
+            32898,
+            183
+          ],
+          [
+            4977,
+            0,
+            109746
+          ]
+        ],
+        "valid_pixels": 3200000
+      },
+      "video_2": {
+        "stone_dice": 0.6921000302882653,
+        "stone_iou": 0.5291689321170382,
+        "stone_precision": 0.9450818198165798,
+        "stone_recall": 0.545956951716114,
+        "stone_tp": 26278,
+        "stone_fp": 1527,
+        "stone_fn": 21854,
+        "fiber_dice": 0.8626916024935827,
+        "fiber_iou": 0.7585379694593479,
+        "fiber_precision": 0.8121237227285281,
+        "fiber_recall": 0.91997497262631,
+        "fiber_tp": 58814,
+        "fiber_fp": 13606,
+        "fiber_fn": 5116,
+        "mean_dice": 0.777395816390924,
+        "mean_iou": 0.643853450788193,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            1300004,
+            1527,
+            13606
+          ],
+          [
+            21854,
+            26278,
+            0
+          ],
+          [
+            5116,
+            0,
+            58814
+          ]
+        ],
+        "valid_pixels": 1427199
+      }
+    }
+  },
+  "conflict_counts": {
+    "foreground_count_conflicts": 72,
+    "foreground_presence_conflicts": 11,
+    "fiber_presence_conflicts": 11
+  },
+  "historical_exposure_group_counts": {
+    "train": {
+      "contains_historical190_image": 106,
+      "contains_historical800_reserve_image": 256
+    },
+    "image_val": {
+      "contains_historical190_image": 25,
+      "contains_historical800_reserve_image": 66
+    },
+    "reserved_test": {
+      "contains_historical190_image": 19,
+      "contains_historical800_reserve_image": 63
+    }
+  },
+  "image_pixel_weighting": "Global native confusion weights640 exports4x320 export area; report per source separately"
+}

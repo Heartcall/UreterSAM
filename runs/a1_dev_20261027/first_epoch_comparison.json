@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "scope": "same validation set; not an independent-case generalization test",
+  "dataset_role": "unreviewed_development_experiment",
+  "split": "val",
+  "test_pixels_read": false,
+  "allow_unreviewed_experiment": true,
+  "grid_size": 256,
+  "inputs": {
+    "manifest_sha256": "1fe499718b67359c64df76e197e8e639b78f196aae2ee4ef6fef69fb1b39e108",
+    "files": {
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000000\\image.png": "3d4278f9548065d9755f13ee98da80864558cf78d4ad7a76957fa1ccfdb2458c",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000000\\mask.png": "7e56b57c327d7abdd23cea5616ebc0f3128c433347dc1bd4f217066597e032d2",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000075\\image.png": "2206d9479314019b7de16b53ffe65dec93aff85b4cb81f6f4c691dfe23f79659",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000075\\mask.png": "762da8b9bf22f2e35b046941ea3eebb94063f6d9f574f0cc8a73f594e37eeceb",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000149\\image.png": "366d53152f2e391dc88c6855c0f25d23e11660aa4b882877fb57e5c5f4637172",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000149\\mask.png": "fe168727e8d90c60759b7578fa2b93293de61718d2fdb7964a4b57d1e34939ae",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000986\\image.png": "46ba10d253cc6d9f2b864f7b35da64d93a9eb0c8ab49e5602b63d6b85eaf88fb",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\000986\\mask.png": "377e057c5dc5525ba98417923f92eb886c91f9157440c5211009b2a8dbfcb8d5",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001061\\image.png": "694e1011f53ab83c39c1b1ef11e8969eb1626733ac8a36049d656867b1b13542",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001061\\mask.png": "bd59694cb499141f811d1d8e688200ade15e5f32cd0592042f9891002e485ff3",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001135\\image.png": "acabf0c01ff212c3e7f9c1d54d134c3b24bae7191e94fe338e43fc26e3b73fed",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001135\\mask.png": "b6f7e5c5e059cabbd0b480a59aaa8eb730edf921b4d941a437265585cd540e3a",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001822\\image.png": "31dfbf4a5cdb33027aa2730d5eda4b5fd6919a7f2de826f3db6910ef8e505954",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001822\\mask.png": "e86b64f61e9dab306916ac69d0d3aaafeafae0fd5e7c52a060a82cad5735ef80",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001897\\image.png": "22b08b98235ce13fd715bc77047ec8c67273e20a18a2a06c791778205640af33",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001897\\mask.png": "fb07c4181dc42521994b40e74fde532aacda2220613b774ca549a69172ff8048",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001971\\image.png": "e43d0f2152af7b269eee13f15f7adee05d12402f88956234d9fed1b4996831f5",
+      "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_keyframes_20261027_v2\\video_2\\001971\\mask.png": "d67648356bc53edc3529953ef5b3091c4264526aeea5e569607cddb2c00ee50c"
+    },
+    "test_pixels_read": false
+  },
+  "runtime": {
+    "python": "3.11.17",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "smp": "0.4.0",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "cpu_threads": 16,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "source_hashes": {
+    "ureter_semis\\__init__.py": "e1c8923f1b3aacec08d84476b241ff1ca7f7541985bc9161a7d311f88c8b8a39",
+    "ureter_semis\\data.py": "25e41253e416160e3af8cc9794f47db7698f3cb9ff51e34c9e1c5891f4b7a2f7",
+    "ureter_semis\\demo.py": "72cb2437d1159a3b03b3ea250d81a534132bad48d266358b7b66c4c16d950cc2",
+    "ureter_semis\\depth_anything_v2_infer.py": "0996260bc9fa4a48571318d2813c561928014235fa122576cff041dbb26791a9",
+    "ureter_semis\\experiment.py": "704568128d6417d39d59fec3eb0d56de1c0b881028336d9e7799c284a1de10e1",
+    "ureter_semis\\inference.py": "87713a8c9502e20bac5a1536d3763021661e25793831925357f2de9f51970d30",
+    "ureter_semis\\labels.py": "2fc8c81db03d2060b031d39fb0e5311615d5b51d519a6c597ef0e3c19f229bbb",
+    "ureter_semis\\losses.py": "c696eb13ce92b16e7b7374fea133e4aab604878b30cb0ae1f39fb239b6cf4172",
+    "ureter_semis\\metrics.py": "521cbe743c35a3a36ad8c46951e52d1ff784dc6ebe61d03f0616b1ad97bf364c",
+    "ureter_semis\\model.py": "ad328052524f172010696428e0bf961b45e12ed294c80bdd86023ceee12fa488",
+    "ureter_semis\\trainer.py": "b854af9651877f8a113de465791d9456c92089b529f4aba5ae436fb0213193c0",
+    "ureter_semis\\video_metrics.py": "f857c980eab7e35710d8f7b81daafcdf8bac3bf7b9863ce4d927f3099ec5c5bb",
+    "third_party\\Endo-SemiS\\src\\models\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party\\Endo-SemiS\\src\\models\\unet.py": "bcb33a7a4083625814e5f1df93cdbf007d0616f59ba622c8619a38f5844369ef",
+    "third_party\\Endo-SemiS\\src\\models\\unet_encoder.py": "4a3efbc4a2a5c32d6fe84e0c53a5b5ee6ff2b8acd44053c8e795eee174a274ec",
+    "third_party\\Endo-SemiS\\src\\models\\unet_parts.py": "0a7e732e00c7ca5eba52deabb550f8a7ef3e83a71b684298e66b6b4625d17931"
+  },
+  "checkpoints": [
+    {
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+      "checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+      "metrics": {
+        "stone_dice": 0.3734548695783791,
+        "stone_iou": 0.22960006617312545,
+        "stone_precision": 0.2796232402347193,
+        "stone_recall": 0.5620633795686949,
+        "stone_tp": 11103,
+        "stone_fp": 28604,
+        "stone_fn": 8651,
+        "fiber_dice": 0.92966161975409,
+        "fiber_iou": 0.8685679565564121,
+        "fiber_precision": 0.9941754324958706,
+        "fiber_recall": 0.8730104202450475,
+        "fiber_tp": 22872,
+        "fiber_fp": 134,
+        "fiber_fn": 3327,
+        "mean_dice": 0.6515582446662346,
+        "mean_iou": 0.5490840113647688,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            509877,
+            28604,
+            134
+          ],
+          [
+            8651,
+            11103,
+            0
+          ],
+          [
+            3327,
+            0,
+            22872
+          ]
+        ],
+        "valid_pixels": 584568,
+        "stone_negative_images": 2,
+        "stone_negative_images_with_fp": 2,
+        "stone_negative_fp_image_rate": 1.0,
+        "stone_negative_valid_pixels": 131072,
+        "stone_negative_fp_pixels": 26607,
+        "stone_negative_fp_pixel_fraction": 0.20299530029296875
+      }
+    },
+    {
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_dev_20261027\\training\\best.pt",
+      "checkpoint_sha256": "18f67b876be7612866f86f82c852c4ff806f8591aeeaa30eb91840b8cc741ad7",
+      "metrics": {
+        "stone_dice": 0.7270020997793902,
+        "stone_iou": 0.5710945003549505,
+        "stone_precision": 0.7653478090547876,
+        "stone_recall": 0.6923154804090311,
+        "stone_tp": 13676,
+        "stone_fp": 4193,
+        "stone_fn": 6078,
+        "fiber_dice": 0.9526684513299538,
+        "fiber_iou": 0.909614966282358,
+        "fiber_precision": 0.9477561196736174,
+        "fiber_recall": 0.957631970685904,
+        "fiber_tp": 25089,
+        "fiber_fp": 1383,
+        "fiber_fn": 1110,
+        "mean_dice": 0.8398352755546721,
+        "mean_iou": 0.7403547333186542,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            533039,
+            4193,
+            1383
+          ],
+          [
+            6078,
+            13676,
+            0
+          ],
+          [
+            1110,
+            0,
+            25089
+          ]
+        ],
+        "valid_pixels": 584568,
+        "stone_negative_images": 2,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": 0.0,
+        "stone_negative_valid_pixels": 131072,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": 0.0
+      },
+      "difference_from_first": {
+        "stone_dice": 0.35354723020101114,
+        "fiber_dice": 0.023006831575863806,
+        "mean_dice": 0.1882770308884375,
+        "stone_negative_fp_image_rate": -1.0,
+        "stone_negative_fp_pixel_fraction": -0.20299530029296875
+      }
+    }
+  ],
+  "preprocessing": "PIL RGB bilinear image / nearest mask resize, ImageNet normalization; matches trainer validation",
+  "video_inference_preprocessing": "A0 video replay retains OpenCV interpolation; evaluate video masks separately",
+  "negative_presence": "native mask or explicit reviewed absence, before resize; unknown excluded",
+  "metrics": "global confusion; ignore255; undefined denominators null; foreground macro over defined overlaps"
+}

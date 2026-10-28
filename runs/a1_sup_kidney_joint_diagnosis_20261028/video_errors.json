@@ -1,0 +1,2200 @@
+{
+  "protocol": {
+    "grid": "unchanged native400 GT and frozen saved predictions",
+    "near_radius_native_pixels": 3,
+    "ranking": "Largest positive change in stone FN or fiber FP; report positive-change share separately from signed net change"
+  },
+  "overall": {
+    "old_stone": {
+      "target_pixels": 91296,
+      "tp": 66045,
+      "fp": 5725,
+      "fn": 25251,
+      "fp_over_background": 5544,
+      "fp_over_other_foreground": 181,
+      "fp_near": 4410,
+      "fp_far": 1315,
+      "fn_to_background": 25201,
+      "fn_to_other_foreground": 50
+    },
+    "new_stone": {
+      "target_pixels": 91296,
+      "tp": 59176,
+      "fp": 3332,
+      "fn": 32120,
+      "fp_over_background": 3332,
+      "fp_over_other_foreground": 0,
+      "fp_near": 2181,
+      "fp_far": 1151,
+      "fn_to_background": 31937,
+      "fn_to_other_foreground": 183
+    },
+    "old_fiber": {
+      "target_pixels": 178653,
+      "tp": 167069,
+      "fp": 23968,
+      "fn": 11584,
+      "fp_over_background": 23918,
+      "fp_over_other_foreground": 50,
+      "fp_near": 8014,
+      "fp_far": 15954,
+      "fn_to_background": 11403,
+      "fn_to_other_foreground": 181
+    },
+    "new_fiber": {
+      "target_pixels": 178653,
+      "tp": 168560,
+      "fp": 33149,
+      "fn": 10093,
+      "fp_over_background": 32966,
+      "fp_over_other_foreground": 183,
+      "fp_near": 14784,
+      "fp_far": 18365,
+      "fn_to_background": 10093,
+      "fn_to_other_foreground": 0
+    },
+    "stone_changes": {
+      "lost_tp": 8365,
+      "gained_tp": 1496,
+      "added_fp": 791,
+      "removed_fp": 3184
+    },
+    "fiber_changes": {
+      "lost_tp": 4009,
+      "gained_tp": 5500,
+      "added_fp": 16059,
+      "removed_fp": 6878
+    },
+    "stone_fn_change": {
+      "net_change": 6869,
+      "total_positive_change": 7428,
+      "top3_share_of_positive_change": 0.5208669897684437,
+      "ranked_sample_ids": [
+        "reviewed_video_1_000721",
+        "reviewed_video_1_000525",
+        "reviewed_video_1_000524",
+        "reviewed_video_2_000000",
+        "reviewed_video_1_000623",
+        "reviewed_video_2_000149",
+        "reviewed_video_1_000053",
+        "reviewed_video_1_000329",
+        "reviewed_video_2_001135",
+        "reviewed_video_2_001061",
+        "reviewed_video_1_000427",
+        "reviewed_video_2_000075",
+        "reviewed_video_2_001971",
+        "reviewed_video_1_000036",
+        "reviewed_video_1_000034",
+        "reviewed_video_1_000032",
+        "reviewed_video_1_000002"
+      ]
+    },
+    "fiber_fp_change": {
+      "net_change": 9181,
+      "total_positive_change": 12503,
+      "top3_share_of_positive_change": 0.3892665760217548,
+      "ranked_sample_ids": [
+        "reviewed_video_1_000072",
+        "reviewed_video_1_000096",
+        "reviewed_video_1_000427",
+        "reviewed_video_1_000079",
+        "reviewed_video_1_000071",
+        "reviewed_video_1_000076",
+        "reviewed_video_1_000053",
+        "reviewed_video_1_000077",
+        "reviewed_video_1_000142",
+        "reviewed_video_1_000112",
+        "reviewed_video_1_000329",
+        "reviewed_video_1_000062",
+        "reviewed_video_2_000075",
+        "reviewed_video_2_001897",
+        "reviewed_video_1_000032",
+        "reviewed_video_2_000149",
+        "reviewed_video_1_000036",
+        "reviewed_video_1_000034",
+        "reviewed_video_2_000000",
+        "reviewed_video_2_000986",
+        "reviewed_video_1_000002",
+        "reviewed_video_2_001135",
+        "reviewed_video_2_001971",
+        "reviewed_video_1_000721"
+      ]
+    }
+  },
+  "by_video": {
+    "video_1": {
+      "old_stone": {
+        "target_pixels": 43164,
+        "tp": 37784,
+        "fp": 2999,
+        "fn": 5380,
+        "fp_over_background": 2818,
+        "fp_over_other_foreground": 181,
+        "fp_near": 2011,
+        "fp_far": 988,
+        "fn_to_background": 5330,
+        "fn_to_other_foreground": 50
+      },
+      "new_stone": {
+        "target_pixels": 43164,
+        "tp": 32898,
+        "fp": 1805,
+        "fn": 10266,
+        "fp_over_background": 1805,
+        "fp_over_other_foreground": 0,
+        "fp_near": 731,
+        "fp_far": 1074,
+        "fn_to_background": 10083,
+        "fn_to_other_foreground": 183
+      },
+      "old_fiber": {
+        "target_pixels": 114723,
+        "tp": 109619,
+        "fp": 9626,
+        "fn": 5104,
+        "fp_over_background": 9576,
+        "fp_over_other_foreground": 50,
+        "fp_near": 5735,
+        "fp_far": 3891,
+        "fn_to_background": 4923,
+        "fn_to_other_foreground": 181
+      },
+      "new_fiber": {
+        "target_pixels": 114723,
+        "tp": 109746,
+        "fp": 19543,
+        "fn": 4977,
+        "fp_over_background": 19360,
+        "fp_over_other_foreground": 183,
+        "fp_near": 10566,
+        "fp_far": 8977,
+        "fn_to_background": 4977,
+        "fn_to_other_foreground": 0
+      }
+    },
+    "video_2": {
+      "old_stone": {
+        "target_pixels": 48132,
+        "tp": 28261,
+        "fp": 2726,
+        "fn": 19871,
+        "fp_over_background": 2726,
+        "fp_over_other_foreground": 0,
+        "fp_near": 2399,
+        "fp_far": 327,
+        "fn_to_background": 19871,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 48132,
+        "tp": 26278,
+        "fp": 1527,
+        "fn": 21854,
+        "fp_over_background": 1527,
+        "fp_over_other_foreground": 0,
+        "fp_near": 1450,
+        "fp_far": 77,
+        "fn_to_background": 21854,
+        "fn_to_other_foreground": 0
+      },
+      "old_fiber": {
+        "target_pixels": 63930,
+        "tp": 57450,
+        "fp": 14342,
+        "fn": 6480,
+        "fp_over_background": 14342,
+        "fp_over_other_foreground": 0,
+        "fp_near": 2279,
+        "fp_far": 12063,
+        "fn_to_background": 6480,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 63930,
+        "tp": 58814,
+        "fp": 13606,
+        "fn": 5116,
+        "fp_over_background": 13606,
+        "fp_over_other_foreground": 0,
+        "fp_near": 4218,
+        "fp_far": 9388,
+        "fn_to_background": 5116,
+        "fn_to_other_foreground": 0
+      }
+    }
+  },
+  "frames": [
+    {
+      "index": 0,
+      "sample_id": "reviewed_video_1_000002",
+      "video_id": "video_1",
+      "frame_index": 2,
+      "old_stone": {
+        "target_pixels": 971,
+        "tp": 971,
+        "fp": 446,
+        "fn": 0,
+        "fp_over_background": 446,
+        "fp_over_other_foreground": 0,
+        "fp_near": 323,
+        "fp_far": 123,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 971,
+        "tp": 966,
+        "fp": 375,
+        "fn": 5,
+        "fp_over_background": 375,
+        "fp_over_other_foreground": 0,
+        "fp_near": 223,
+        "fp_far": 152,
+        "fn_to_background": 5,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 5,
+        "gained_tp": 0,
+        "added_fp": 40,
+        "removed_fp": 111
+      },
+      "old_fiber": {
+        "target_pixels": 5706,
+        "tp": 5637,
+        "fp": 444,
+        "fn": 69,
+        "fp_over_background": 444,
+        "fp_over_other_foreground": 0,
+        "fp_near": 403,
+        "fp_far": 41,
+        "fn_to_background": 69,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5706,
+        "tp": 5483,
+        "fp": 656,
+        "fn": 223,
+        "fp_over_background": 656,
+        "fp_over_other_foreground": 0,
+        "fp_near": 520,
+        "fp_far": 136,
+        "fn_to_background": 223,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 181,
+        "gained_tp": 27,
+        "added_fp": 227,
+        "removed_fp": 15
+      },
+      "stone_fn_change": 5,
+      "fiber_fp_change": 212
+    },
+    {
+      "index": 1,
+      "sample_id": "reviewed_video_1_000032",
+      "video_id": "video_1",
+      "frame_index": 32,
+      "old_stone": {
+        "target_pixels": 1205,
+        "tp": 1205,
+        "fp": 334,
+        "fn": 0,
+        "fp_over_background": 334,
+        "fp_over_other_foreground": 0,
+        "fp_near": 309,
+        "fp_far": 25,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 1205,
+        "tp": 1191,
+        "fp": 144,
+        "fn": 14,
+        "fp_over_background": 144,
+        "fp_over_other_foreground": 0,
+        "fp_near": 144,
+        "fp_far": 0,
+        "fn_to_background": 14,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 14,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 190
+      },
+      "old_fiber": {
+        "target_pixels": 5653,
+        "tp": 5557,
+        "fp": 452,
+        "fn": 96,
+        "fp_over_background": 452,
+        "fp_over_other_foreground": 0,
+        "fp_near": 398,
+        "fp_far": 54,
+        "fn_to_background": 96,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5653,
+        "tp": 5430,
+        "fp": 785,
+        "fn": 223,
+        "fp_over_background": 785,
+        "fp_over_other_foreground": 0,
+        "fp_near": 600,
+        "fp_far": 185,
+        "fn_to_background": 223,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 186,
+        "gained_tp": 59,
+        "added_fp": 351,
+        "removed_fp": 18
+      },
+      "stone_fn_change": 14,
+      "fiber_fp_change": 333
+    },
+    {
+      "index": 2,
+      "sample_id": "reviewed_video_1_000034",
+      "video_id": "video_1",
+      "frame_index": 34,
+      "old_stone": {
+        "target_pixels": 1125,
+        "tp": 1125,
+        "fp": 331,
+        "fn": 0,
+        "fp_over_background": 331,
+        "fp_over_other_foreground": 0,
+        "fp_near": 311,
+        "fp_far": 20,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 1125,
+        "tp": 1103,
+        "fp": 123,
+        "fn": 22,
+        "fp_over_background": 123,
+        "fp_over_other_foreground": 0,
+        "fp_near": 123,
+        "fp_far": 0,
+        "fn_to_background": 22,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 22,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 208
+      },
+      "old_fiber": {
+        "target_pixels": 5696,
+        "tp": 5604,
+        "fp": 422,
+        "fn": 92,
+        "fp_over_background": 422,
+        "fp_over_other_foreground": 0,
+        "fp_near": 384,
+        "fp_far": 38,
+        "fn_to_background": 92,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5696,
+        "tp": 5470,
+        "fp": 746,
+        "fn": 226,
+        "fp_over_background": 746,
+        "fp_over_other_foreground": 0,
+        "fp_near": 590,
+        "fp_far": 156,
+        "fn_to_background": 226,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 188,
+        "gained_tp": 54,
+        "added_fp": 342,
+        "removed_fp": 18
+      },
+      "stone_fn_change": 22,
+      "fiber_fp_change": 324
+    },
+    {
+      "index": 3,
+      "sample_id": "reviewed_video_1_000036",
+      "video_id": "video_1",
+      "frame_index": 36,
+      "old_stone": {
+        "target_pixels": 1059,
+        "tp": 1046,
+        "fp": 124,
+        "fn": 13,
+        "fp_over_background": 124,
+        "fp_over_other_foreground": 0,
+        "fp_near": 124,
+        "fp_far": 0,
+        "fn_to_background": 13,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 1059,
+        "tp": 1002,
+        "fp": 52,
+        "fn": 57,
+        "fp_over_background": 52,
+        "fp_over_other_foreground": 0,
+        "fp_near": 52,
+        "fp_far": 0,
+        "fn_to_background": 57,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 44,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 72
+      },
+      "old_fiber": {
+        "target_pixels": 5652,
+        "tp": 5579,
+        "fp": 446,
+        "fn": 73,
+        "fp_over_background": 446,
+        "fp_over_other_foreground": 0,
+        "fp_near": 396,
+        "fp_far": 50,
+        "fn_to_background": 73,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5652,
+        "tp": 5428,
+        "fp": 773,
+        "fn": 224,
+        "fp_over_background": 773,
+        "fp_over_other_foreground": 0,
+        "fp_near": 594,
+        "fp_far": 179,
+        "fn_to_background": 224,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 189,
+        "gained_tp": 38,
+        "added_fp": 345,
+        "removed_fp": 18
+      },
+      "stone_fn_change": 44,
+      "fiber_fp_change": 327
+    },
+    {
+      "index": 4,
+      "sample_id": "reviewed_video_1_000053",
+      "video_id": "video_1",
+      "frame_index": 53,
+      "old_stone": {
+        "target_pixels": 827,
+        "tp": 827,
+        "fp": 515,
+        "fn": 0,
+        "fp_over_background": 515,
+        "fp_over_other_foreground": 0,
+        "fp_near": 258,
+        "fp_far": 257,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 827,
+        "tp": 423,
+        "fp": 0,
+        "fn": 404,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 404,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 404,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 515
+      },
+      "old_fiber": {
+        "target_pixels": 5772,
+        "tp": 5631,
+        "fp": 346,
+        "fn": 141,
+        "fp_over_background": 346,
+        "fp_over_other_foreground": 0,
+        "fp_near": 334,
+        "fp_far": 12,
+        "fn_to_background": 141,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5772,
+        "tp": 5557,
+        "fp": 856,
+        "fn": 215,
+        "fp_over_background": 856,
+        "fp_over_other_foreground": 0,
+        "fp_near": 634,
+        "fp_far": 222,
+        "fn_to_background": 215,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 176,
+        "gained_tp": 102,
+        "added_fp": 516,
+        "removed_fp": 6
+      },
+      "stone_fn_change": 404,
+      "fiber_fp_change": 510
+    },
+    {
+      "index": 5,
+      "sample_id": "reviewed_video_1_000062",
+      "video_id": "video_1",
+      "frame_index": 62,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5834,
+        "tp": 5719,
+        "fp": 356,
+        "fn": 115,
+        "fp_over_background": 356,
+        "fp_over_other_foreground": 0,
+        "fp_near": 349,
+        "fp_far": 7,
+        "fn_to_background": 115,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5834,
+        "tp": 5617,
+        "fp": 769,
+        "fn": 217,
+        "fp_over_background": 769,
+        "fp_over_other_foreground": 0,
+        "fp_near": 611,
+        "fp_far": 158,
+        "fn_to_background": 217,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 176,
+        "gained_tp": 74,
+        "added_fp": 419,
+        "removed_fp": 6
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 413
+    },
+    {
+      "index": 6,
+      "sample_id": "reviewed_video_1_000071",
+      "video_id": "video_1",
+      "frame_index": 71,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5847,
+        "tp": 5429,
+        "fp": 80,
+        "fn": 418,
+        "fp_over_background": 80,
+        "fp_over_other_foreground": 0,
+        "fp_near": 80,
+        "fp_far": 0,
+        "fn_to_background": 418,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5847,
+        "tp": 5592,
+        "fp": 624,
+        "fn": 255,
+        "fp_over_background": 624,
+        "fp_over_other_foreground": 0,
+        "fp_near": 469,
+        "fp_far": 155,
+        "fn_to_background": 255,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 64,
+        "gained_tp": 227,
+        "added_fp": 545,
+        "removed_fp": 1
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 544
+    },
+    {
+      "index": 7,
+      "sample_id": "reviewed_video_1_000072",
+      "video_id": "video_1",
+      "frame_index": 72,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5846,
+        "tp": 5434,
+        "fp": 3088,
+        "fn": 412,
+        "fp_over_background": 3088,
+        "fp_over_other_foreground": 0,
+        "fp_near": 76,
+        "fp_far": 3012,
+        "fn_to_background": 412,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5846,
+        "tp": 5598,
+        "fp": 6308,
+        "fn": 248,
+        "fp_over_background": 6308,
+        "fp_over_other_foreground": 0,
+        "fp_near": 471,
+        "fp_far": 5837,
+        "fn_to_background": 248,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 64,
+        "gained_tp": 228,
+        "added_fp": 4072,
+        "removed_fp": 852
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 3220
+    },
+    {
+      "index": 8,
+      "sample_id": "reviewed_video_1_000076",
+      "video_id": "video_1",
+      "frame_index": 76,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5803,
+        "tp": 5337,
+        "fp": 76,
+        "fn": 466,
+        "fp_over_background": 76,
+        "fp_over_other_foreground": 0,
+        "fp_near": 76,
+        "fp_far": 0,
+        "fn_to_background": 466,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5803,
+        "tp": 5519,
+        "fp": 588,
+        "fn": 284,
+        "fp_over_background": 588,
+        "fp_over_other_foreground": 0,
+        "fp_near": 511,
+        "fp_far": 77,
+        "fn_to_background": 284,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 65,
+        "gained_tp": 247,
+        "added_fp": 514,
+        "removed_fp": 2
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 512
+    },
+    {
+      "index": 9,
+      "sample_id": "reviewed_video_1_000077",
+      "video_id": "video_1",
+      "frame_index": 77,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5842,
+        "tp": 5278,
+        "fp": 31,
+        "fn": 564,
+        "fp_over_background": 31,
+        "fp_over_other_foreground": 0,
+        "fp_near": 31,
+        "fp_far": 0,
+        "fn_to_background": 564,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5842,
+        "tp": 5549,
+        "fp": 531,
+        "fn": 293,
+        "fp_over_background": 531,
+        "fp_over_other_foreground": 0,
+        "fp_near": 485,
+        "fp_far": 46,
+        "fn_to_background": 293,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 67,
+        "gained_tp": 338,
+        "added_fp": 500,
+        "removed_fp": 0
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 500
+    },
+    {
+      "index": 10,
+      "sample_id": "reviewed_video_1_000079",
+      "video_id": "video_1",
+      "frame_index": 79,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5840,
+        "tp": 5317,
+        "fp": 44,
+        "fn": 523,
+        "fp_over_background": 44,
+        "fp_over_other_foreground": 0,
+        "fp_near": 44,
+        "fp_far": 0,
+        "fn_to_background": 523,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5840,
+        "tp": 5564,
+        "fp": 616,
+        "fn": 276,
+        "fp_over_background": 616,
+        "fp_over_other_foreground": 0,
+        "fp_near": 531,
+        "fp_far": 85,
+        "fn_to_background": 276,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 64,
+        "gained_tp": 311,
+        "added_fp": 575,
+        "removed_fp": 3
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 572
+    },
+    {
+      "index": 11,
+      "sample_id": "reviewed_video_1_000096",
+      "video_id": "video_1",
+      "frame_index": 96,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 477,
+        "fn": 0,
+        "fp_over_background": 477,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 477,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 690,
+        "fn": 0,
+        "fp_over_background": 690,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 690,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 224,
+        "removed_fp": 11
+      },
+      "old_fiber": {
+        "target_pixels": 5768,
+        "tp": 5559,
+        "fp": 400,
+        "fn": 209,
+        "fp_over_background": 400,
+        "fp_over_other_foreground": 0,
+        "fp_near": 340,
+        "fp_far": 60,
+        "fn_to_background": 209,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5768,
+        "tp": 5534,
+        "fp": 1467,
+        "fn": 234,
+        "fp_over_background": 1467,
+        "fp_over_other_foreground": 0,
+        "fp_near": 645,
+        "fp_far": 822,
+        "fn_to_background": 234,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 140,
+        "gained_tp": 115,
+        "added_fp": 1079,
+        "removed_fp": 12
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 1067
+    },
+    {
+      "index": 12,
+      "sample_id": "reviewed_video_1_000112",
+      "video_id": "video_1",
+      "frame_index": 112,
+      "old_stone": {
+        "target_pixels": 1257,
+        "tp": 313,
+        "fp": 0,
+        "fn": 944,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 944,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 1257,
+        "tp": 856,
+        "fp": 377,
+        "fn": 401,
+        "fp_over_background": 377,
+        "fp_over_other_foreground": 0,
+        "fp_near": 145,
+        "fp_far": 232,
+        "fn_to_background": 401,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 543,
+        "added_fp": 377,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5870,
+        "tp": 5372,
+        "fp": 68,
+        "fn": 498,
+        "fp_over_background": 68,
+        "fp_over_other_foreground": 0,
+        "fp_near": 68,
+        "fp_far": 0,
+        "fn_to_background": 498,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5870,
+        "tp": 5620,
+        "fp": 550,
+        "fn": 250,
+        "fp_over_background": 550,
+        "fp_over_other_foreground": 0,
+        "fp_near": 483,
+        "fp_far": 67,
+        "fn_to_background": 250,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 61,
+        "gained_tp": 309,
+        "added_fp": 484,
+        "removed_fp": 2
+      },
+      "stone_fn_change": -543,
+      "fiber_fp_change": 482
+    },
+    {
+      "index": 13,
+      "sample_id": "reviewed_video_1_000142",
+      "video_id": "video_1",
+      "frame_index": 142,
+      "old_stone": {
+        "target_pixels": 1803,
+        "tp": 1361,
+        "fp": 25,
+        "fn": 442,
+        "fp_over_background": 25,
+        "fp_over_other_foreground": 0,
+        "fp_near": 25,
+        "fp_far": 0,
+        "fn_to_background": 442,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 1803,
+        "tp": 1377,
+        "fp": 40,
+        "fn": 426,
+        "fp_over_background": 40,
+        "fp_over_other_foreground": 0,
+        "fp_near": 40,
+        "fp_far": 0,
+        "fn_to_background": 426,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 140,
+        "gained_tp": 156,
+        "added_fp": 38,
+        "removed_fp": 23
+      },
+      "old_fiber": {
+        "target_pixels": 5739,
+        "tp": 5490,
+        "fp": 238,
+        "fn": 249,
+        "fp_over_background": 238,
+        "fp_over_other_foreground": 0,
+        "fp_near": 236,
+        "fp_far": 2,
+        "fn_to_background": 249,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5739,
+        "tp": 5518,
+        "fp": 724,
+        "fn": 221,
+        "fp_over_background": 724,
+        "fp_over_other_foreground": 0,
+        "fp_near": 554,
+        "fp_far": 170,
+        "fn_to_background": 221,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 139,
+        "gained_tp": 167,
+        "added_fp": 493,
+        "removed_fp": 7
+      },
+      "stone_fn_change": -16,
+      "fiber_fp_change": 486
+    },
+    {
+      "index": 14,
+      "sample_id": "reviewed_video_1_000329",
+      "video_id": "video_1",
+      "frame_index": 329,
+      "old_stone": {
+        "target_pixels": 3157,
+        "tp": 2966,
+        "fp": 91,
+        "fn": 191,
+        "fp_over_background": 91,
+        "fp_over_other_foreground": 0,
+        "fp_near": 91,
+        "fp_far": 0,
+        "fn_to_background": 191,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 3157,
+        "tp": 2629,
+        "fp": 0,
+        "fn": 528,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 528,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 337,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 91
+      },
+      "old_fiber": {
+        "target_pixels": 5496,
+        "tp": 5283,
+        "fp": 188,
+        "fn": 213,
+        "fp_over_background": 188,
+        "fp_over_other_foreground": 0,
+        "fp_near": 188,
+        "fp_far": 0,
+        "fn_to_background": 213,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5496,
+        "tp": 5263,
+        "fp": 606,
+        "fn": 233,
+        "fp_over_background": 606,
+        "fp_over_other_foreground": 0,
+        "fp_near": 507,
+        "fp_far": 99,
+        "fn_to_background": 233,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 86,
+        "gained_tp": 66,
+        "added_fp": 420,
+        "removed_fp": 2
+      },
+      "stone_fn_change": 337,
+      "fiber_fp_change": 418
+    },
+    {
+      "index": 15,
+      "sample_id": "reviewed_video_1_000427",
+      "video_id": "video_1",
+      "frame_index": 427,
+      "old_stone": {
+        "target_pixels": 3422,
+        "tp": 2147,
+        "fp": 0,
+        "fn": 1275,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 1267,
+        "fn_to_other_foreground": 8
+      },
+      "new_stone": {
+        "target_pixels": 3422,
+        "tp": 1983,
+        "fp": 0,
+        "fn": 1439,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 1302,
+        "fn_to_other_foreground": 137
+      },
+      "stone_changes": {
+        "lost_tp": 300,
+        "gained_tp": 136,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5578,
+        "tp": 5284,
+        "fp": 210,
+        "fn": 294,
+        "fp_over_background": 202,
+        "fp_over_other_foreground": 8,
+        "fp_near": 205,
+        "fp_far": 5,
+        "fn_to_background": 294,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5578,
+        "tp": 5318,
+        "fp": 790,
+        "fn": 260,
+        "fp_over_background": 653,
+        "fp_over_other_foreground": 137,
+        "fp_near": 535,
+        "fp_far": 255,
+        "fn_to_background": 260,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 84,
+        "gained_tp": 118,
+        "added_fp": 581,
+        "removed_fp": 1
+      },
+      "stone_fn_change": 164,
+      "fiber_fp_change": 580
+    },
+    {
+      "index": 16,
+      "sample_id": "reviewed_video_1_000524",
+      "video_id": "video_1",
+      "frame_index": 524,
+      "old_stone": {
+        "target_pixels": 6635,
+        "tp": 6186,
+        "fp": 143,
+        "fn": 449,
+        "fp_over_background": 95,
+        "fp_over_other_foreground": 48,
+        "fp_near": 129,
+        "fp_far": 14,
+        "fn_to_background": 447,
+        "fn_to_other_foreground": 2
+      },
+      "new_stone": {
+        "target_pixels": 6635,
+        "tp": 5122,
+        "fp": 0,
+        "fn": 1513,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 1513,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 1064,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 143
+      },
+      "old_fiber": {
+        "target_pixels": 5636,
+        "tp": 5463,
+        "fp": 735,
+        "fn": 173,
+        "fp_over_background": 733,
+        "fp_over_other_foreground": 2,
+        "fp_near": 538,
+        "fp_far": 197,
+        "fn_to_background": 125,
+        "fn_to_other_foreground": 48
+      },
+      "new_fiber": {
+        "target_pixels": 5636,
+        "tp": 5334,
+        "fp": 487,
+        "fn": 302,
+        "fp_over_background": 487,
+        "fp_over_other_foreground": 0,
+        "fp_near": 424,
+        "fp_far": 63,
+        "fn_to_background": 302,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 157,
+        "gained_tp": 28,
+        "added_fp": 14,
+        "removed_fp": 262
+      },
+      "stone_fn_change": 1064,
+      "fiber_fp_change": -248
+    },
+    {
+      "index": 17,
+      "sample_id": "reviewed_video_1_000525",
+      "video_id": "video_1",
+      "frame_index": 525,
+      "old_stone": {
+        "target_pixels": 6689,
+        "tp": 6247,
+        "fp": 120,
+        "fn": 442,
+        "fp_over_background": 77,
+        "fp_over_other_foreground": 43,
+        "fp_near": 108,
+        "fp_far": 12,
+        "fn_to_background": 440,
+        "fn_to_other_foreground": 2
+      },
+      "new_stone": {
+        "target_pixels": 6689,
+        "tp": 5160,
+        "fp": 0,
+        "fn": 1529,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 1529,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 1087,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 120
+      },
+      "old_fiber": {
+        "target_pixels": 5624,
+        "tp": 5459,
+        "fp": 671,
+        "fn": 165,
+        "fp_over_background": 669,
+        "fp_over_other_foreground": 2,
+        "fp_near": 516,
+        "fp_far": 155,
+        "fn_to_background": 122,
+        "fn_to_other_foreground": 43
+      },
+      "new_fiber": {
+        "target_pixels": 5624,
+        "tp": 5338,
+        "fp": 483,
+        "fn": 286,
+        "fp_over_background": 483,
+        "fp_over_other_foreground": 0,
+        "fp_near": 420,
+        "fp_far": 63,
+        "fn_to_background": 286,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 146,
+        "gained_tp": 25,
+        "added_fp": 29,
+        "removed_fp": 217
+      },
+      "stone_fn_change": 1087,
+      "fiber_fp_change": -188
+    },
+    {
+      "index": 18,
+      "sample_id": "reviewed_video_1_000623",
+      "video_id": "video_1",
+      "frame_index": 623,
+      "old_stone": {
+        "target_pixels": 8118,
+        "tp": 7178,
+        "fp": 51,
+        "fn": 940,
+        "fp_over_background": 51,
+        "fp_over_other_foreground": 0,
+        "fp_near": 51,
+        "fp_far": 0,
+        "fn_to_background": 940,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 8118,
+        "tp": 6592,
+        "fp": 0,
+        "fn": 1526,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 1526,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 615,
+        "gained_tp": 29,
+        "added_fp": 0,
+        "removed_fp": 51
+      },
+      "old_fiber": {
+        "target_pixels": 5587,
+        "tp": 5467,
+        "fp": 721,
+        "fn": 120,
+        "fp_over_background": 721,
+        "fp_over_other_foreground": 0,
+        "fp_near": 555,
+        "fp_far": 166,
+        "fn_to_background": 120,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5587,
+        "tp": 5324,
+        "fp": 569,
+        "fn": 263,
+        "fp_over_background": 569,
+        "fp_over_other_foreground": 0,
+        "fp_near": 480,
+        "fp_far": 89,
+        "fn_to_background": 263,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 143,
+        "gained_tp": 0,
+        "added_fp": 34,
+        "removed_fp": 186
+      },
+      "stone_fn_change": 586,
+      "fiber_fp_change": -152
+    },
+    {
+      "index": 19,
+      "sample_id": "reviewed_video_1_000721",
+      "video_id": "video_1",
+      "frame_index": 721,
+      "old_stone": {
+        "target_pixels": 6896,
+        "tp": 6212,
+        "fp": 342,
+        "fn": 684,
+        "fp_over_background": 252,
+        "fp_over_other_foreground": 90,
+        "fp_near": 282,
+        "fp_far": 60,
+        "fn_to_background": 646,
+        "fn_to_other_foreground": 38
+      },
+      "new_stone": {
+        "target_pixels": 6896,
+        "tp": 4494,
+        "fp": 4,
+        "fn": 2402,
+        "fp_over_background": 4,
+        "fp_over_other_foreground": 0,
+        "fp_near": 4,
+        "fp_far": 0,
+        "fn_to_background": 2356,
+        "fn_to_other_foreground": 46
+      },
+      "stone_changes": {
+        "lost_tp": 1718,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 338
+      },
+      "old_fiber": {
+        "target_pixels": 5934,
+        "tp": 5720,
+        "fp": 610,
+        "fn": 214,
+        "fp_over_background": 572,
+        "fp_over_other_foreground": 38,
+        "fp_near": 518,
+        "fp_far": 92,
+        "fn_to_background": 124,
+        "fn_to_other_foreground": 90
+      },
+      "new_fiber": {
+        "target_pixels": 5934,
+        "tp": 5690,
+        "fp": 615,
+        "fn": 244,
+        "fp_over_background": 569,
+        "fp_over_other_foreground": 46,
+        "fp_near": 502,
+        "fp_far": 113,
+        "fn_to_background": 244,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 116,
+        "gained_tp": 86,
+        "added_fp": 58,
+        "removed_fp": 53
+      },
+      "stone_fn_change": 1718,
+      "fiber_fp_change": 5
+    },
+    {
+      "index": 20,
+      "sample_id": "reviewed_video_2_000000",
+      "video_id": "video_2",
+      "frame_index": 0,
+      "old_stone": {
+        "target_pixels": 9870,
+        "tp": 6269,
+        "fp": 723,
+        "fn": 3601,
+        "fp_over_background": 723,
+        "fp_over_other_foreground": 0,
+        "fp_near": 634,
+        "fp_far": 89,
+        "fn_to_background": 3601,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 9870,
+        "tp": 5558,
+        "fp": 419,
+        "fn": 4312,
+        "fp_over_background": 419,
+        "fp_over_other_foreground": 0,
+        "fp_near": 407,
+        "fp_far": 12,
+        "fn_to_background": 4312,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 837,
+        "gained_tp": 126,
+        "added_fp": 21,
+        "removed_fp": 325
+      },
+      "old_fiber": {
+        "target_pixels": 6071,
+        "tp": 5946,
+        "fp": 622,
+        "fn": 125,
+        "fp_over_background": 622,
+        "fp_over_other_foreground": 0,
+        "fp_near": 491,
+        "fp_far": 131,
+        "fn_to_background": 125,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 6071,
+        "tp": 5811,
+        "fp": 887,
+        "fn": 260,
+        "fp_over_background": 887,
+        "fp_over_other_foreground": 0,
+        "fp_near": 623,
+        "fp_far": 264,
+        "fn_to_background": 260,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 174,
+        "gained_tp": 39,
+        "added_fp": 274,
+        "removed_fp": 9
+      },
+      "stone_fn_change": 711,
+      "fiber_fp_change": 265
+    },
+    {
+      "index": 21,
+      "sample_id": "reviewed_video_2_000075",
+      "video_id": "video_2",
+      "frame_index": 75,
+      "old_stone": {
+        "target_pixels": 9197,
+        "tp": 5425,
+        "fp": 639,
+        "fn": 3772,
+        "fp_over_background": 639,
+        "fp_over_other_foreground": 0,
+        "fp_near": 558,
+        "fp_far": 81,
+        "fn_to_background": 3772,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 9197,
+        "tp": 5336,
+        "fp": 403,
+        "fn": 3861,
+        "fp_over_background": 403,
+        "fp_over_other_foreground": 0,
+        "fp_near": 386,
+        "fp_far": 17,
+        "fn_to_background": 3861,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 329,
+        "gained_tp": 240,
+        "added_fp": 3,
+        "removed_fp": 239
+      },
+      "old_fiber": {
+        "target_pixels": 6350,
+        "tp": 6144,
+        "fp": 308,
+        "fn": 206,
+        "fp_over_background": 308,
+        "fp_over_other_foreground": 0,
+        "fp_near": 286,
+        "fp_far": 22,
+        "fn_to_background": 206,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 6350,
+        "tp": 6033,
+        "fp": 719,
+        "fn": 317,
+        "fp_over_background": 719,
+        "fp_over_other_foreground": 0,
+        "fp_near": 617,
+        "fp_far": 102,
+        "fn_to_background": 317,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 173,
+        "gained_tp": 62,
+        "added_fp": 416,
+        "removed_fp": 5
+      },
+      "stone_fn_change": 89,
+      "fiber_fp_change": 411
+    },
+    {
+      "index": 22,
+      "sample_id": "reviewed_video_2_000149",
+      "video_id": "video_2",
+      "frame_index": 149,
+      "old_stone": {
+        "target_pixels": 12579,
+        "tp": 7269,
+        "fp": 266,
+        "fn": 5310,
+        "fp_over_background": 266,
+        "fp_over_other_foreground": 0,
+        "fp_near": 253,
+        "fp_far": 13,
+        "fn_to_background": 5310,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 12579,
+        "tp": 6705,
+        "fp": 64,
+        "fn": 5874,
+        "fp_over_background": 64,
+        "fp_over_other_foreground": 0,
+        "fp_near": 64,
+        "fp_far": 0,
+        "fn_to_background": 5874,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 575,
+        "gained_tp": 11,
+        "added_fp": 8,
+        "removed_fp": 210
+      },
+      "old_fiber": {
+        "target_pixels": 6274,
+        "tp": 5968,
+        "fp": 438,
+        "fn": 306,
+        "fp_over_background": 438,
+        "fp_over_other_foreground": 0,
+        "fp_near": 393,
+        "fp_far": 45,
+        "fn_to_background": 306,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 6274,
+        "tp": 5725,
+        "fp": 766,
+        "fn": 549,
+        "fp_over_background": 766,
+        "fp_over_other_foreground": 0,
+        "fp_near": 559,
+        "fp_far": 207,
+        "fn_to_background": 549,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 266,
+        "gained_tp": 23,
+        "added_fp": 348,
+        "removed_fp": 20
+      },
+      "stone_fn_change": 564,
+      "fiber_fp_change": 328
+    },
+    {
+      "index": 23,
+      "sample_id": "reviewed_video_2_000986",
+      "video_id": "video_2",
+      "frame_index": 986,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 10634,
+        "tp": 8497,
+        "fp": 12,
+        "fn": 2137,
+        "fp_over_background": 12,
+        "fp_over_other_foreground": 0,
+        "fp_near": 12,
+        "fp_far": 0,
+        "fn_to_background": 2137,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 10634,
+        "tp": 9526,
+        "fp": 243,
+        "fn": 1108,
+        "fp_over_background": 243,
+        "fp_over_other_foreground": 0,
+        "fp_near": 219,
+        "fp_far": 24,
+        "fn_to_background": 1108,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 137,
+        "gained_tp": 1166,
+        "added_fp": 233,
+        "removed_fp": 2
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 231
+    },
+    {
+      "index": 24,
+      "sample_id": "reviewed_video_2_001061",
+      "video_id": "video_2",
+      "frame_index": 1061,
+      "old_stone": {
+        "target_pixels": 1254,
+        "tp": 291,
+        "fp": 0,
+        "fn": 963,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 963,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 1254,
+        "tp": 66,
+        "fp": 0,
+        "fn": 1188,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 1188,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 226,
+        "gained_tp": 1,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 6688,
+        "tp": 6229,
+        "fp": 2036,
+        "fn": 459,
+        "fp_over_background": 2036,
+        "fp_over_other_foreground": 0,
+        "fp_near": 340,
+        "fp_far": 1696,
+        "fn_to_background": 459,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 6688,
+        "tp": 6336,
+        "fp": 1306,
+        "fn": 352,
+        "fp_over_background": 1306,
+        "fp_over_other_foreground": 0,
+        "fp_near": 724,
+        "fp_far": 582,
+        "fn_to_background": 352,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 185,
+        "gained_tp": 292,
+        "added_fp": 622,
+        "removed_fp": 1352
+      },
+      "stone_fn_change": 225,
+      "fiber_fp_change": -730
+    },
+    {
+      "index": 25,
+      "sample_id": "reviewed_video_2_001135",
+      "video_id": "video_2",
+      "frame_index": 1135,
+      "old_stone": {
+        "target_pixels": 6572,
+        "tp": 3273,
+        "fp": 672,
+        "fn": 3299,
+        "fp_over_background": 672,
+        "fp_over_other_foreground": 0,
+        "fp_near": 574,
+        "fp_far": 98,
+        "fn_to_background": 3299,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 6572,
+        "tp": 2954,
+        "fp": 358,
+        "fn": 3618,
+        "fp_over_background": 358,
+        "fp_over_other_foreground": 0,
+        "fp_near": 312,
+        "fp_far": 46,
+        "fn_to_background": 3618,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 319,
+        "gained_tp": 0,
+        "added_fp": 4,
+        "removed_fp": 318
+      },
+      "old_fiber": {
+        "target_pixels": 6220,
+        "tp": 5515,
+        "fp": 110,
+        "fn": 705,
+        "fp_over_background": 110,
+        "fp_over_other_foreground": 0,
+        "fp_near": 110,
+        "fp_far": 0,
+        "fn_to_background": 705,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 6220,
+        "tp": 5709,
+        "fp": 309,
+        "fn": 511,
+        "fp_over_background": 309,
+        "fp_over_other_foreground": 0,
+        "fp_near": 296,
+        "fp_far": 13,
+        "fn_to_background": 511,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 167,
+        "gained_tp": 361,
+        "added_fp": 204,
+        "removed_fp": 5
+      },
+      "stone_fn_change": 319,
+      "fiber_fp_change": 199
+    },
+    {
+      "index": 26,
+      "sample_id": "reviewed_video_2_001822",
+      "video_id": "video_2",
+      "frame_index": 1822,
+      "old_stone": {
+        "target_pixels": 625,
+        "tp": 0,
+        "fp": 0,
+        "fn": 625,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 625,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 625,
+        "tp": 0,
+        "fp": 0,
+        "fn": 625,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 625,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 5027,
+        "tp": 3809,
+        "fp": 10081,
+        "fn": 1218,
+        "fp_over_background": 10081,
+        "fp_over_other_foreground": 0,
+        "fp_near": 28,
+        "fp_far": 10053,
+        "fn_to_background": 1218,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 5027,
+        "tp": 4104,
+        "fp": 8077,
+        "fn": 923,
+        "fp_over_background": 8077,
+        "fp_over_other_foreground": 0,
+        "fp_near": 89,
+        "fp_far": 7988,
+        "fn_to_background": 923,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 78,
+        "gained_tp": 373,
+        "added_fp": 1744,
+        "removed_fp": 3748
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": -2004
+    },
+    {
+      "index": 27,
+      "sample_id": "reviewed_video_2_001897",
+      "video_id": "video_2",
+      "frame_index": 1897,
+      "old_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fp_over_background": 0,
+        "fp_over_other_foreground": 0,
+        "fp_near": 0,
+        "fp_far": 0,
+        "fn_to_background": 0,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 0,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "old_fiber": {
+        "target_pixels": 10113,
+        "tp": 9077,
+        "fp": 179,
+        "fn": 1036,
+        "fp_over_background": 179,
+        "fp_over_other_foreground": 0,
+        "fp_near": 179,
+        "fp_far": 0,
+        "fn_to_background": 1036,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 10113,
+        "tp": 9439,
+        "fp": 577,
+        "fn": 674,
+        "fp_over_background": 577,
+        "fp_over_other_foreground": 0,
+        "fp_near": 547,
+        "fp_far": 30,
+        "fn_to_background": 674,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 145,
+        "gained_tp": 507,
+        "added_fp": 434,
+        "removed_fp": 36
+      },
+      "stone_fn_change": 0,
+      "fiber_fp_change": 398
+    },
+    {
+      "index": 28,
+      "sample_id": "reviewed_video_2_001971",
+      "video_id": "video_2",
+      "frame_index": 1971,
+      "old_stone": {
+        "target_pixels": 8035,
+        "tp": 5734,
+        "fp": 426,
+        "fn": 2301,
+        "fp_over_background": 426,
+        "fp_over_other_foreground": 0,
+        "fp_near": 380,
+        "fp_far": 46,
+        "fn_to_background": 2301,
+        "fn_to_other_foreground": 0
+      },
+      "new_stone": {
+        "target_pixels": 8035,
+        "tp": 5659,
+        "fp": 283,
+        "fn": 2376,
+        "fp_over_background": 283,
+        "fp_over_other_foreground": 0,
+        "fp_near": 281,
+        "fp_far": 2,
+        "fn_to_background": 2376,
+        "fn_to_other_foreground": 0
+      },
+      "stone_changes": {
+        "lost_tp": 329,
+        "gained_tp": 254,
+        "added_fp": 76,
+        "removed_fp": 219
+      },
+      "old_fiber": {
+        "target_pixels": 6553,
+        "tp": 6265,
+        "fp": 556,
+        "fn": 288,
+        "fp_over_background": 556,
+        "fp_over_other_foreground": 0,
+        "fp_near": 440,
+        "fp_far": 116,
+        "fn_to_background": 288,
+        "fn_to_other_foreground": 0
+      },
+      "new_fiber": {
+        "target_pixels": 6553,
+        "tp": 6131,
+        "fp": 722,
+        "fn": 422,
+        "fp_over_background": 722,
+        "fp_over_other_foreground": 0,
+        "fp_near": 544,
+        "fp_far": 178,
+        "fn_to_background": 422,
+        "fn_to_other_foreground": 0
+      },
+      "fiber_changes": {
+        "lost_tp": 192,
+        "gained_tp": 58,
+        "added_fp": 186,
+        "removed_fp": 20
+      },
+      "stone_fn_change": 75,
+      "fiber_fp_change": 166
+    }
+  ]
+}

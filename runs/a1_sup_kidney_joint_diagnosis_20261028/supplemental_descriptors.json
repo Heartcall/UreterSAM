@@ -1,0 +1,89 @@
+{
+  "positive_class_conditional": {
+    "train:kidney_stones_fiber_v1": {
+      "stone": {
+        "positive_images": 245,
+        "conditional_median_fraction": 0.1379241943359375
+      },
+      "fiber": {
+        "positive_images": 102,
+        "conditional_median_fraction": 0.008544921875
+      }
+    },
+    "train:kidney_stones_fiber_v2": {
+      "stone": {
+        "positive_images": 276,
+        "conditional_median_fraction": 0.195556640625
+      },
+      "fiber": {
+        "positive_images": 94,
+        "conditional_median_fraction": 0.00678253173828125
+      }
+    },
+    "image_val:kidney_stones_fiber_v1": {
+      "stone": {
+        "positive_images": 68,
+        "conditional_median_fraction": 0.140472412109375
+      },
+      "fiber": {
+        "positive_images": 27,
+        "conditional_median_fraction": 0.0114898681640625
+      }
+    },
+    "image_val:kidney_stones_fiber_v2": {
+      "stone": {
+        "positive_images": 64,
+        "conditional_median_fraction": 0.19577789306640625
+      },
+      "fiber": {
+        "positive_images": 23,
+        "conditional_median_fraction": 0.0051727294921875
+      }
+    },
+    "video_1": {
+      "stone": {
+        "positive_images": 13,
+        "conditional_median_fraction": 0.011138916015625
+      },
+      "fiber": {
+        "positive_images": 20,
+        "conditional_median_fraction": 0.03589630126953125
+      }
+    },
+    "video_2": {
+      "stone": {
+        "positive_images": 7,
+        "conditional_median_fraction": 0.050140380859375
+      },
+      "fiber": {
+        "positive_images": 9,
+        "conditional_median_fraction": 0.04076074047094966
+      }
+    }
+  },
+  "actual256_training_pixel_exposure": {
+    "historical190": {
+      "counts": {
+        "0": 144473985,
+        "1": 41475120,
+        "2": 828495,
+        "255": 0
+      },
+      "valid": 186777600,
+      "stone_fraction": 0.22205617804276315,
+      "fiber_fraction": 0.00443572998046875
+    },
+    "joint521": {
+      "counts": {
+        "0": 148402278,
+        "1": 37533929,
+        "2": 841393,
+        "255": 0
+      },
+      "valid": 186777600,
+      "stone_fraction": 0.20095519484135144,
+      "fiber_fraction": 0.004504785370408443
+    }
+  },
+  "interpretation": "Post-hoc descriptive summaries only; no labels/thresholds changed or causal claim"
+}

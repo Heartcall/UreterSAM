@@ -1,0 +1,23 @@
+{
+  "state": "retired",
+  "reason": "User requires video_1 and video_2 for validation only. This run trained on video_1 and must never seed the replacement run.",
+  "retired_utc": "2026-10-27T08:41:57.824354+00:00",
+  "last_saved_status": {
+    "completed_epoch": 10,
+    "planned_epochs": 60,
+    "state": "stopped_at_epoch_boundary",
+    "best_epoch": 9,
+    "resume_granularity": "epoch"
+  },
+  "last_observed_progress": {
+    "state": "training",
+    "epoch": 11,
+    "planned_epochs": 60,
+    "step": 376,
+    "steps_per_epoch": 834,
+    "loss": 0.20601476728916168,
+    "epoch_elapsed_s": 66.56426440004725
+  },
+  "replacement": "runs/a1_dev_videos_val_20261027",
+  "checkpoints_usable_for_replacement": false
+}

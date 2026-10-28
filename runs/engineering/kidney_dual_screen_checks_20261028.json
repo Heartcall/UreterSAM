@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "completed_all_three_frozen_arms": true,
+    "only_predeclared_seed_and_epoch_differences": true,
+    "identical_training_data_code_and_runtime": true,
+    "config_sources_and_438_inputs_frozen": true,
+    "kidney190_reserved800_video_training0": true,
+    "no_active_unlabeled_pseudo_or_mutual_learning": true,
+    "all_epochs_uniform190_images65_fiber95_updates": true,
+    "dual_and_single30_equal2850_updates5700_exposures": true,
+    "seed42_reproduces_historical_weights_and_all_epochs": true,
+    "members_have_distinct_weights_and_sampling_rng": true,
+    "artifact_contains_exact_members_and_no_optimizer": true,
+    "a0_and_validation_exactly_reproduced": true,
+    "single_final_scores_match_frozen_history": true,
+    "per_video_confusions_sum_to_global": true,
+    "two_network_parameter_cost_exactly_doubles": true,
+    "all_benchmarks_fixed87_samples_batch1": true,
+    "review_status_not_promoted": true
+  },
+  "all_passed": true,
+  "scope": "Experiment integrity and budget checks; no clinical or independent-case validity claim"
+}

@@ -1,0 +1,14 @@
+{
+  "unet256": {
+    "training_validation_io_wall_s": 61.18203399993945,
+    "peak_cuda_allocated_mib": 474.80859375,
+    "optimizer_updates": 1425,
+    "image_exposures": 2850
+  },
+  "unet512": {
+    "training_validation_io_wall_s": 92.68183150002733,
+    "peak_cuda_allocated_mib": 795.76171875,
+    "optimizer_updates": 1425,
+    "image_exposures": 2850
+  }
+}

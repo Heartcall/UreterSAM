@@ -1,0 +1,1299 @@
+{
+  "approved_frames": 29,
+  "ground_truth_available": true,
+  "coordinate_system": "raw_source_pixels",
+  "metrics_scope": "approved frames only, not unannotated intervals or whole-case accuracy",
+  "scores": {
+    "stone": {
+      "tp": 69234,
+      "fp": 125583,
+      "fn": 22062,
+      "dice": 0.4839626301496262,
+      "iou": 0.3192286943410842,
+      "precision": 0.35537966399236204,
+      "recall": 0.7583464773922187
+    },
+    "fiber": {
+      "tp": 170662,
+      "fp": 1,
+      "fn": 7991,
+      "dice": 0.9771210021871314,
+      "iou": 0.9552654852396252,
+      "precision": 0.9999941404991123,
+      "recall": 0.9552708322838127
+    }
+  },
+  "confusion_matrix": [
+    [
+      4231667,
+      125583,
+      0
+    ],
+    [
+      22061,
+      69234,
+      1
+    ],
+    [
+      7991,
+      0,
+      170662
+    ]
+  ],
+  "confirmed_stone_negative_frames": 9,
+  "negative_frames_with_any_stone_prediction": 8,
+  "negative_frame_false_positive_rate": 0.8888888888888888,
+  "negative_mean_false_positive_area_fraction": 0.0781576388888889,
+  "temporal_and_instance_accuracy": null,
+  "frames": [
+    {
+      "video_id": "video_1",
+      "frame_index": 2,
+      "scores": {
+        "stone": {
+          "tp": 971,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5706,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          153323,
+          0,
+          0
+        ],
+        [
+          0,
+          971,
+          0
+        ],
+        [
+          0,
+          0,
+          5706
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 32,
+      "scores": {
+        "stone": {
+          "tp": 1205,
+          "fp": 129,
+          "fn": 0,
+          "dice": 0.9491925955100433,
+          "iou": 0.9032983508245878,
+          "precision": 0.9032983508245878,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5653,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          153013,
+          129,
+          0
+        ],
+        [
+          0,
+          1205,
+          0
+        ],
+        [
+          0,
+          0,
+          5653
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 34,
+      "scores": {
+        "stone": {
+          "tp": 1125,
+          "fp": 320,
+          "fn": 0,
+          "dice": 0.8754863813229572,
+          "iou": 0.7785467128027682,
+          "precision": 0.7785467128027682,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5696,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          152859,
+          320,
+          0
+        ],
+        [
+          0,
+          1125,
+          0
+        ],
+        [
+          0,
+          0,
+          5696
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 36,
+      "scores": {
+        "stone": {
+          "tp": 1059,
+          "fp": 590,
+          "fn": 0,
+          "dice": 0.7821270310192023,
+          "iou": 0.6422073984232869,
+          "precision": 0.6422073984232869,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5652,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          152699,
+          590,
+          0
+        ],
+        [
+          0,
+          1059,
+          0
+        ],
+        [
+          0,
+          0,
+          5652
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 53,
+      "scores": {
+        "stone": {
+          "tp": 827,
+          "fp": 515,
+          "fn": 0,
+          "dice": 0.7625633932687874,
+          "iou": 0.6162444113263785,
+          "precision": 0.6162444113263785,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5772,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          152886,
+          515,
+          0
+        ],
+        [
+          0,
+          827,
+          0
+        ],
+        [
+          0,
+          0,
+          5772
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 62,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 3902,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 5834,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          150264,
+          3902,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5834
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 71,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 86,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 5847,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          154067,
+          86,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5847
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 72,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "dice": null,
+          "iou": null,
+          "precision": null,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 5846,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          154154,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5846
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 76,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 1078,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 5803,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          153119,
+          1078,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5803
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 77,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 79,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 5842,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          154079,
+          79,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5842
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 79,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 8744,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 5840,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          145416,
+          8744,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5840
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 96,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 34617,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 5768,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          119615,
+          34617,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5768
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 112,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 7234,
+          "fn": 1257,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "fiber": {
+          "tp": 5870,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          145639,
+          7234,
+          0
+        ],
+        [
+          1257,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5870
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 142,
+      "scores": {
+        "stone": {
+          "tp": 1803,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5739,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          152458,
+          0,
+          0
+        ],
+        [
+          0,
+          1803,
+          0
+        ],
+        [
+          0,
+          0,
+          5739
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 329,
+      "scores": {
+        "stone": {
+          "tp": 3157,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5496,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          151347,
+          0,
+          0
+        ],
+        [
+          0,
+          3157,
+          0
+        ],
+        [
+          0,
+          0,
+          5496
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 427,
+      "scores": {
+        "stone": {
+          "tp": 3198,
+          "fp": 0,
+          "fn": 224,
+          "dice": 0.9661631419939577,
+          "iou": 0.9345412039742841,
+          "precision": 1.0,
+          "recall": 0.9345412039742841
+        },
+        "fiber": {
+          "tp": 5578,
+          "fp": 1,
+          "fn": 0,
+          "dice": 0.999910370171193,
+          "iou": 0.9998207564079584,
+          "precision": 0.9998207564079584,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          151000,
+          0,
+          0
+        ],
+        [
+          223,
+          3198,
+          1
+        ],
+        [
+          0,
+          0,
+          5578
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 524,
+      "scores": {
+        "stone": {
+          "tp": 6635,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5636,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          147729,
+          0,
+          0
+        ],
+        [
+          0,
+          6635,
+          0
+        ],
+        [
+          0,
+          0,
+          5636
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 525,
+      "scores": {
+        "stone": {
+          "tp": 6689,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5624,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          147687,
+          0,
+          0
+        ],
+        [
+          0,
+          6689,
+          0
+        ],
+        [
+          0,
+          0,
+          5624
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 623,
+      "scores": {
+        "stone": {
+          "tp": 8118,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 5587,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          146295,
+          0,
+          0
+        ],
+        [
+          0,
+          8118,
+          0
+        ],
+        [
+          0,
+          0,
+          5587
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_1",
+      "frame_index": 721,
+      "scores": {
+        "stone": {
+          "tp": 6639,
+          "fp": 0,
+          "fn": 257,
+          "dice": 0.9810121906169191,
+          "iou": 0.9627320185614849,
+          "precision": 1.0,
+          "recall": 0.9627320185614849
+        },
+        "fiber": {
+          "tp": 5934,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          147170,
+          0,
+          0
+        ],
+        [
+          257,
+          6639,
+          0
+        ],
+        [
+          0,
+          0,
+          5934
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 0,
+      "scores": {
+        "stone": {
+          "tp": 4625,
+          "fp": 138,
+          "fn": 5245,
+          "dice": 0.6321328504066152,
+          "iou": 0.46213029576338926,
+          "precision": 0.9710266638673105,
+          "recall": 0.4685916919959473
+        },
+        "fiber": {
+          "tp": 5992,
+          "fp": 0,
+          "fn": 79,
+          "dice": 0.9934510486611954,
+          "iou": 0.9869873167517708,
+          "precision": 1.0,
+          "recall": 0.9869873167517708
+        }
+      },
+      "confusion_matrix": [
+        [
+          141682,
+          138,
+          0
+        ],
+        [
+          5245,
+          4625,
+          0
+        ],
+        [
+          79,
+          0,
+          5992
+        ]
+      ],
+      "valid_pixels": 157761,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 75,
+      "scores": {
+        "stone": {
+          "tp": 4497,
+          "fp": 0,
+          "fn": 4700,
+          "dice": 0.6567839929896305,
+          "iou": 0.488963792541046,
+          "precision": 1.0,
+          "recall": 0.488963792541046
+        },
+        "fiber": {
+          "tp": 5549,
+          "fp": 0,
+          "fn": 801,
+          "dice": 0.932683418774687,
+          "iou": 0.8738582677165354,
+          "precision": 1.0,
+          "recall": 0.8738582677165354
+        }
+      },
+      "confusion_matrix": [
+        [
+          142859,
+          0,
+          0
+        ],
+        [
+          4700,
+          4497,
+          0
+        ],
+        [
+          801,
+          0,
+          5549
+        ]
+      ],
+      "valid_pixels": 158406,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 149,
+      "scores": {
+        "stone": {
+          "tp": 8148,
+          "fp": 8,
+          "fn": 4431,
+          "dice": 0.7859175307451169,
+          "iou": 0.647334551521411,
+          "precision": 0.9990191270230505,
+          "recall": 0.6477462437395659
+        },
+        "fiber": {
+          "tp": 5369,
+          "fp": 0,
+          "fn": 905,
+          "dice": 0.9222708923816886,
+          "iou": 0.8557539050047817,
+          "precision": 1.0,
+          "recall": 0.8557539050047817
+        }
+      },
+      "confusion_matrix": [
+        [
+          135307,
+          8,
+          0
+        ],
+        [
+          4431,
+          8148,
+          0
+        ],
+        [
+          905,
+          0,
+          5369
+        ]
+      ],
+      "valid_pixels": 154168,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 986,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 51997,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 8489,
+          "fp": 0,
+          "fn": 2145,
+          "dice": 0.8878314072059823,
+          "iou": 0.7982885085574573,
+          "precision": 1.0,
+          "recall": 0.7982885085574573
+        }
+      },
+      "confusion_matrix": [
+        [
+          97369,
+          51997,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2145,
+          0,
+          8489
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 1061,
+      "scores": {
+        "stone": {
+          "tp": 834,
+          "fp": 4102,
+          "fn": 420,
+          "dice": 0.26946688206785135,
+          "iou": 0.15571321882001493,
+          "precision": 0.16896272285251215,
+          "recall": 0.6650717703349283
+        },
+        "fiber": {
+          "tp": 6180,
+          "fp": 0,
+          "fn": 508,
+          "dice": 0.9605222256760957,
+          "iou": 0.9240430622009569,
+          "precision": 1.0,
+          "recall": 0.9240430622009569
+        }
+      },
+      "confusion_matrix": [
+        [
+          147956,
+          4102,
+          0
+        ],
+        [
+          420,
+          834,
+          0
+        ],
+        [
+          508,
+          0,
+          6180
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 1135,
+      "scores": {
+        "stone": {
+          "tp": 2756,
+          "fp": 0,
+          "fn": 3816,
+          "dice": 0.5909090909090909,
+          "iou": 0.41935483870967744,
+          "precision": 1.0,
+          "recall": 0.41935483870967744
+        },
+        "fiber": {
+          "tp": 5046,
+          "fp": 0,
+          "fn": 1174,
+          "dice": 0.8957926504526895,
+          "iou": 0.8112540192926045,
+          "precision": 1.0,
+          "recall": 0.8112540192926045
+        }
+      },
+      "confusion_matrix": [
+        [
+          144072,
+          0,
+          0
+        ],
+        [
+          3816,
+          2756,
+          0
+        ],
+        [
+          1174,
+          0,
+          5046
+        ]
+      ],
+      "valid_pixels": 156864,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 1822,
+      "scores": {
+        "stone": {
+          "tp": 625,
+          "fp": 0,
+          "fn": 0,
+          "dice": 1.0,
+          "iou": 1.0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "fiber": {
+          "tp": 3930,
+          "fp": 0,
+          "fn": 1097,
+          "dice": 0.8775259573517918,
+          "iou": 0.7817783966580466,
+          "precision": 1.0,
+          "recall": 0.7817783966580466
+        }
+      },
+      "confusion_matrix": [
+        [
+          154348,
+          0,
+          0
+        ],
+        [
+          0,
+          625,
+          0
+        ],
+        [
+          1097,
+          0,
+          3930
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 1897,
+      "scores": {
+        "stone": {
+          "tp": 0,
+          "fp": 12044,
+          "fn": 0,
+          "dice": 0.0,
+          "iou": 0.0,
+          "precision": 0.0,
+          "recall": null
+        },
+        "fiber": {
+          "tp": 9876,
+          "fp": 0,
+          "fn": 237,
+          "dice": 0.9881434789134024,
+          "iou": 0.9765648175615544,
+          "precision": 1.0,
+          "recall": 0.9765648175615544
+        }
+      },
+      "confusion_matrix": [
+        [
+          137843,
+          12044,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          237,
+          0,
+          9876
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "absent"
+    },
+    {
+      "video_id": "video_2",
+      "frame_index": 1971,
+      "scores": {
+        "stone": {
+          "tp": 6323,
+          "fp": 0,
+          "fn": 1712,
+          "dice": 0.8807633375121884,
+          "iou": 0.7869321717485999,
+          "precision": 1.0,
+          "recall": 0.7869321717485999
+        },
+        "fiber": {
+          "tp": 5508,
+          "fp": 0,
+          "fn": 1045,
+          "dice": 0.9133571014012105,
+          "iou": 0.8405310544788647,
+          "precision": 1.0,
+          "recall": 0.8405310544788647
+        }
+      },
+      "confusion_matrix": [
+        [
+          145412,
+          0,
+          0
+        ],
+        [
+          1712,
+          6323,
+          0
+        ],
+        [
+          1045,
+          0,
+          5508
+        ]
+      ],
+      "valid_pixels": 160000,
+      "stone_presence": "present"
+    }
+  ],
+  "annotation_sha256": "36aad331da314747a9955ff502497720cb02edac517794759a4723641c871e19",
+  "config_sha256": "d3230073c42f5cddaffa4352594b947c21808c5631e6b8640fab176bedca2abd"
+}

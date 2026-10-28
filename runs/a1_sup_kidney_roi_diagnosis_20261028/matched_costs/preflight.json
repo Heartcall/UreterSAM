@@ -1,0 +1,18 @@
+{
+  "sources": {
+    "tools\\benchmark_refinement_proxy.py": "841de1dfac899aeebd5142f46ed4bdb0d692ff82e29553daef9c06e1de45fd0b",
+    "tools\\diagnose_refinement_roi.py": "5cc53ff4e2e4001e4ba2b21951eb276547f2c3dd8dc9a431ee74c0f10772aafa",
+    "tools\\refinement_roi.py": "01e8cf126426aa65de5898db7376fd5acb6a69c0ccec7bff8a2424e2dcb8f199"
+  },
+  "reason": "Repeat after tests completed; identical PIL/native-output full-frame references, no concurrent project tests",
+  "names": [
+    "full256",
+    "full512",
+    "hard_cap2",
+    "hard_cap4",
+    "hard_uncapped",
+    "soft_cap2",
+    "soft_cap4",
+    "soft_uncapped"
+  ]
+}

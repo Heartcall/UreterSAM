@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "frozen_sources_and_related_files_unchanged": true,
+    "frozen_checkpoints_and_video_bytes_unchanged": true,
+    "only29_reviewed_pixel_inputs_and_manifest_unchanged": true,
+    "reviewed_video_manifest_unchanged": true,
+    "no_training_default_or_temporal_change_and_state_preserved": true,
+    "video_1_exact_sequential_counts_and_indices": true,
+    "video_1_exact_export_inventory": true,
+    "video_1_repeat_and_alignment": true,
+    "video_1_preview_metadata": true,
+    "video_1_clip_metadata_and_one_based_ranges": true,
+    "video_1_sequential_source_end_exact": true,
+    "video_1_all_native_masks_and_policy_pixel_exact": true,
+    "video_1_all_per_frame_area_and_fov_counts_recomputed": true,
+    "video_1_all_adjacent_changes_recomputed": true,
+    "video_1_decoded_keyframe_pixels_rechecked": true,
+    "video_1_full_and_fixed_interval_runs_counts_recomputed": true,
+    "video_1_stage_and_total_timing_statistics_recomputed": true,
+    "video_2_exact_sequential_counts_and_indices": true,
+    "video_2_exact_export_inventory": true,
+    "video_2_repeat_and_alignment": true,
+    "video_2_preview_metadata": true,
+    "video_2_clip_metadata_and_one_based_ranges": true,
+    "video_2_sequential_source_end_exact": true,
+    "video_2_all_native_masks_and_policy_pixel_exact": true,
+    "video_2_all_per_frame_area_and_fov_counts_recomputed": true,
+    "video_2_all_adjacent_changes_recomputed": true,
+    "video_2_decoded_keyframe_pixels_rechecked": true,
+    "video_2_full_and_fixed_interval_runs_counts_recomputed": true,
+    "video_2_stage_and_total_timing_statistics_recomputed": true,
+    "reviewed29_independent_native_confusions": true,
+    "batch1_vs_batch2_differences_independently_counted": true,
+    "no_dense_accuracy_metrics_or_claimed_tracking": true,
+    "source_snapshot_unique_and_matches": true
+  },
+  "all_passed": true,
+  "details": {
+    "video_1": {
+      "frames": 722,
+      "reviewed_keyframes": 20,
+      "clips": 5,
+      "exported_model_masks": 2166
+    },
+    "video_2": {
+      "frames": 1972,
+      "reviewed_keyframes": 9,
+      "clips": 0,
+      "exported_model_masks": 5916
+    }
+  },
+  "batch_differences": {
+    "A0": 0,
+    "old190": 1,
+    "classwise": 0
+  },
+  "new_unit_tests": {
+    "passed": 3,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_classwise_replay.py -v"
+  },
+  "scope": "Full exported pixel, sequential decode, diagnostic and timing audit; no independent-case, event-truth or live-stream validation"
+}

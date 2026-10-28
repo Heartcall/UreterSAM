@@ -1,0 +1,6688 @@
+{
+  "config": {
+    "schema_version": 1,
+    "experiment": "A1_SUP_KIDNEY_JOINT_MATCHED1425UPDATES_20261028",
+    "manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+    "video_manifest": "datasets/ureter_semis_kidney_joint_20261028/video_validation_manifest.json",
+    "output": "runs/a1_sup_kidney_joint_20261028",
+    "training": {
+      "epochs": 15,
+      "images_per_epoch": 190,
+      "size": 256,
+      "batch_size": 2,
+      "learning_rate": 0.0001,
+      "device_name": "cuda:0",
+      "workers": 0,
+      "pretrained": true,
+      "class_weights": [
+        1.0,
+        2.0,
+        4.0
+      ],
+      "dice_weight": 1.0,
+      "seed": 42,
+      "allow_unreviewed_experiment": true,
+      "sampling_strategy": "uniform",
+      "fiber_background_policy": "strict_source",
+      "validation_grid": "native_probability"
+    },
+    "initialization": "Clean cached ImageNet ResNet34 encoder + random decoder; no surgical checkpoint initialization",
+    "budget": "15 budget epochs x95 updates xbatch2 =1425 effective updates,2850 exposures; uniform190 without replacement from larger pool each epoch, NOT15 full dataset passes; no auto extension",
+    "primary_checkpoint": "Fixed final budget epoch15; best image-val checkpoint diagnostic only, no video-based epoch selection",
+    "image_validation": "132 grouped canonical image development samples, native GT at original export resolution; aggregate and per-source results; unreviewed source labels, no independent-case claim",
+    "video_validation": "Original29 immutable reviewed frames, native400 probability-first protocol, separate regression not mixed with image validation; A0 and historical190 baseline rerun before training and native gates frozen",
+    "screening_scope": "Image-val history gates are diagnostic only and cannot accept S2, especially without verified stone-negative images. Acceptance evaluated separately on fixed final checkpoint video29, then still requires further validation",
+    "cost": {
+      "warmup_frames": 12,
+      "repeats": 3,
+      "scope": "Fresh process cached BGR native probability/mask output, same protocol as previous native comparison; no decode/display/geometry/memory"
+    },
+    "constraints": "Both raw sources only; stone_new banned; no active unlabeled or pseudo labels; all original test-associated components reserved; rejected/video-copy candidates excluded; source annotations remain pending; case identity unknown"
+  },
+  "fixed_final_epoch": 15,
+  "training_cost": {
+    "training_validation_io_wall_s": 113.6442887999583,
+    "peak_cuda_allocated_mib": 474.80859375,
+    "effective_updates": 1425,
+    "image_exposures": 2850,
+    "unique_training_images_seen": 519,
+    "training_pool_images": 521
+  },
+  "image_validation": {
+    "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_joint_20261028\\training\\last.pt",
+    "checkpoint_sha256": "b950d2e8f407fa58d74ecd44f940e9722a2a7856a1d65b8bd49b04e16b7b971f",
+    "input_size": 256,
+    "metrics": {
+      "stone_dice": 0.905710978420822,
+      "stone_iou": 0.8276707163833031,
+      "stone_precision": 0.901236573214744,
+      "stone_recall": 0.9102300338199221,
+      "stone_tp": 5959033,
+      "stone_fp": 653030,
+      "stone_fn": 587700,
+      "fiber_dice": 0.8029690669769929,
+      "fiber_iou": 0.6708005990698652,
+      "fiber_precision": 0.7140859252629224,
+      "fiber_recall": 0.9171246901605776,
+      "fiber_tp": 102120,
+      "fiber_fp": 40888,
+      "fiber_fn": 9228,
+      "mean_dice": 0.8543400226989075,
+      "mean_iou": 0.7492356577265842,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          25827201,
+          652156,
+          40162
+        ],
+        [
+          586974,
+          5959033,
+          726
+        ],
+        [
+          8354,
+          874,
+          102120
+        ]
+      ],
+      "valid_pixels": 33177600,
+      "stone_negative_images": 0,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": null,
+      "stone_negative_valid_pixels": 0,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": null
+    },
+    "boundaries": {
+      "1": {
+        "predicted_boundary": 153634,
+        "target_boundary": 173359,
+        "matched_predicted": 68212,
+        "matched_target": 68436,
+        "precision": 0.4439902625720869,
+        "recall": 0.3947646213926015,
+        "f_score": 0.4179329414519405
+      },
+      "2": {
+        "predicted_boundary": 12632,
+        "target_boundary": 10984,
+        "matched_predicted": 5047,
+        "matched_target": 5003,
+        "precision": 0.39954084863837874,
+        "recall": 0.45548069919883466,
+        "f_score": 0.425680839404885
+      }
+    },
+    "visible_stone_area_groups": {
+      "(0,1024]": {
+        "frames": 1,
+        "target_pixels": 967,
+        "tp": 897,
+        "pixel_recall": 0.9276111685625646,
+        "frames_any_tp": 1
+      },
+      "(1024,4096]": {
+        "frames": 6,
+        "target_pixels": 12854,
+        "tp": 8783,
+        "pixel_recall": 0.6832892484829625,
+        "frames_any_tp": 6
+      },
+      "(4096,inf]": {
+        "frames": 125,
+        "target_pixels": 6532912,
+        "tp": 5949353,
+        "pixel_recall": 0.9106739842814353,
+        "frames_any_tp": 124
+      }
+    },
+    "frames": [
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cccd1a7775145966c8bb5501",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 24549,
+        "stone_tp": 21549,
+        "stone_fp": 5494,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1187,
+            "target_boundary": 1150,
+            "matched_predicted": 517,
+            "matched_target": 538
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 12866,
+        "stone_tp": 7982,
+        "stone_fp": 461,
+        "fiber_fp": 513,
+        "fiber_fn": 3,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 568,
+            "target_boundary": 1211,
+            "matched_predicted": 373,
+            "matched_target": 389
+          },
+          "2": {
+            "predicted_boundary": 228,
+            "target_boundary": 221,
+            "matched_predicted": 138,
+            "matched_target": 134
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 7690,
+        "stone_tp": 6410,
+        "stone_fp": 167,
+        "fiber_fp": 236,
+        "fiber_fn": 45,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 498,
+            "target_boundary": 547,
+            "matched_predicted": 350,
+            "matched_target": 369
+          },
+          "2": {
+            "predicted_boundary": 135,
+            "target_boundary": 129,
+            "matched_predicted": 93,
+            "matched_target": 90
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 14113,
+        "stone_tp": 13191,
+        "stone_fp": 489,
+        "fiber_fp": 9,
+        "fiber_fn": 221,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 673,
+            "target_boundary": 616,
+            "matched_predicted": 444,
+            "matched_target": 426
+          },
+          "2": {
+            "predicted_boundary": 72,
+            "target_boundary": 106,
+            "matched_predicted": 49,
+            "matched_target": 52
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cebd05046dd66dfc157c7c22",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 12356,
+        "stone_tp": 11339,
+        "stone_fp": 511,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 486,
+            "target_boundary": 508,
+            "matched_predicted": 225,
+            "matched_target": 232
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cf2bc6993fd5bc9051797231",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 4637,
+        "stone_tp": 3995,
+        "stone_fp": 329,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 344,
+            "target_boundary": 509,
+            "matched_predicted": 319,
+            "matched_target": 329
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cf397a212754fa856044a105",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 42179,
+        "stone_tp": 37987,
+        "stone_fp": 1390,
+        "fiber_fp": 664,
+        "fiber_fn": 4,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1193,
+            "target_boundary": 1280,
+            "matched_predicted": 650,
+            "matched_target": 663
+          },
+          "2": {
+            "predicted_boundary": 298,
+            "target_boundary": 287,
+            "matched_predicted": 197,
+            "matched_target": 194
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 53670,
+        "stone_tp": 51935,
+        "stone_fp": 2670,
+        "fiber_fp": 895,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1672,
+            "target_boundary": 1298,
+            "matched_predicted": 844,
+            "matched_target": 833
+          },
+          "2": {
+            "predicted_boundary": 244,
+            "target_boundary": 224,
+            "matched_predicted": 86,
+            "matched_target": 80
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 9833,
+        "stone_tp": 8622,
+        "stone_fp": 357,
+        "fiber_fp": 3,
+        "fiber_fn": 330,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 438,
+            "target_boundary": 463,
+            "matched_predicted": 191,
+            "matched_target": 196
+          },
+          "2": {
+            "predicted_boundary": 90,
+            "target_boundary": 141,
+            "matched_predicted": 40,
+            "matched_target": 42
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d380e64796be3f2bc0ea8b8d",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 22860,
+        "stone_tp": 19061,
+        "stone_fp": 3637,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1249,
+            "target_boundary": 1650,
+            "matched_predicted": 824,
+            "matched_target": 864
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 23219,
+        "stone_tp": 22009,
+        "stone_fp": 17378,
+        "fiber_fp": 138,
+        "fiber_fn": 450,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1117,
+            "target_boundary": 1236,
+            "matched_predicted": 261,
+            "matched_target": 260
+          },
+          "2": {
+            "predicted_boundary": 116,
+            "target_boundary": 151,
+            "matched_predicted": 39,
+            "matched_target": 37
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 9023,
+        "stone_tp": 8619,
+        "stone_fp": 1165,
+        "fiber_fp": 235,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 576,
+            "target_boundary": 641,
+            "matched_predicted": 410,
+            "matched_target": 415
+          },
+          "2": {
+            "predicted_boundary": 71,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d476007d707213fa27659221",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 3085,
+        "stone_tp": 1438,
+        "stone_fp": 230,
+        "fiber_fp": 257,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 292,
+            "target_boundary": 549,
+            "matched_predicted": 196,
+            "matched_target": 195
+          },
+          "2": {
+            "predicted_boundary": 74,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 53539,
+        "stone_tp": 53354,
+        "stone_fp": 13878,
+        "fiber_fp": 189,
+        "fiber_fn": 778,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1562,
+            "target_boundary": 1371,
+            "matched_predicted": 414,
+            "matched_target": 414
+          },
+          "2": {
+            "predicted_boundary": 215,
+            "target_boundary": 260,
+            "matched_predicted": 120,
+            "matched_target": 122
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d504f85f2fb66ec103d21dc4",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 16221,
+        "stone_tp": 15120,
+        "stone_fp": 321,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 722,
+            "target_boundary": 808,
+            "matched_predicted": 569,
+            "matched_target": 561
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d5763e0bb069246f33640071",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 48033,
+        "stone_tp": 42881,
+        "stone_fp": 1510,
+        "fiber_fp": 109,
+        "fiber_fn": 310,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1027,
+            "target_boundary": 1338,
+            "matched_predicted": 453,
+            "matched_target": 472
+          },
+          "2": {
+            "predicted_boundary": 206,
+            "target_boundary": 216,
+            "matched_predicted": 180,
+            "matched_target": 178
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 24395,
+        "stone_tp": 23855,
+        "stone_fp": 2781,
+        "fiber_fp": 176,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 896,
+            "target_boundary": 829,
+            "matched_predicted": 357,
+            "matched_target": 345
+          },
+          "2": {
+            "predicted_boundary": 70,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d79781cd1c7cd071fc44de0c",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 6259,
+        "stone_tp": 4830,
+        "stone_fp": 280,
+        "fiber_fp": 598,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 459,
+            "target_boundary": 619,
+            "matched_predicted": 254,
+            "matched_target": 249
+          },
+          "2": {
+            "predicted_boundary": 115,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 38290,
+        "stone_tp": 34141,
+        "stone_fp": 2064,
+        "fiber_fp": 475,
+        "fiber_fn": 8,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 943,
+            "target_boundary": 885,
+            "matched_predicted": 400,
+            "matched_target": 411
+          },
+          "2": {
+            "predicted_boundary": 214,
+            "target_boundary": 207,
+            "matched_predicted": 139,
+            "matched_target": 138
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d8b6c834f397c1414e65a28a",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 23704,
+        "stone_tp": 23654,
+        "stone_fp": 3051,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 742,
+            "target_boundary": 708,
+            "matched_predicted": 287,
+            "matched_target": 284
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__db41ac8a866e0a43cc6b4d14",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 19541,
+        "stone_tp": 18951,
+        "stone_fp": 15152,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1313,
+            "target_boundary": 1600,
+            "matched_predicted": 453,
+            "matched_target": 464
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__db950909f5180cfe568caeeb",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 1584,
+        "stone_tp": 1189,
+        "stone_fp": 55,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 162,
+            "target_boundary": 206,
+            "matched_predicted": 121,
+            "matched_target": 123
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__df847941994bf694ac228c8c",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 24836,
+        "stone_tp": 22356,
+        "stone_fp": 4114,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1052,
+            "target_boundary": 1677,
+            "matched_predicted": 486,
+            "matched_target": 494
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e0267bedab5c1d75d479a19a",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 2985,
+        "stone_tp": 1875,
+        "stone_fp": 8,
+        "fiber_fp": 1190,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 198,
+            "target_boundary": 395,
+            "matched_predicted": 143,
+            "matched_target": 150
+          },
+          "2": {
+            "predicted_boundary": 307,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e128d928f63c992a140d652d",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 4920,
+        "stone_tp": 3945,
+        "stone_fp": 639,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 330,
+            "target_boundary": 367,
+            "matched_predicted": 140,
+            "matched_target": 144
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 13817,
+        "stone_tp": 10651,
+        "stone_fp": 2852,
+        "fiber_fp": 666,
+        "fiber_fn": 19,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1116,
+            "target_boundary": 1514,
+            "matched_predicted": 531,
+            "matched_target": 560
+          },
+          "2": {
+            "predicted_boundary": 256,
+            "target_boundary": 235,
+            "matched_predicted": 161,
+            "matched_target": 158
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 10133,
+        "stone_tp": 7178,
+        "stone_fp": 374,
+        "fiber_fp": 143,
+        "fiber_fn": 85,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 472,
+            "target_boundary": 798,
+            "matched_predicted": 269,
+            "matched_target": 264
+          },
+          "2": {
+            "predicted_boundary": 135,
+            "target_boundary": 152,
+            "matched_predicted": 114,
+            "matched_target": 121
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 70480,
+        "stone_tp": 69948,
+        "stone_fp": 2506,
+        "fiber_fp": 248,
+        "fiber_fn": 914,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1435,
+            "target_boundary": 1426,
+            "matched_predicted": 994,
+            "matched_target": 977
+          },
+          "2": {
+            "predicted_boundary": 255,
+            "target_boundary": 286,
+            "matched_predicted": 143,
+            "matched_target": 138
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e24d1cc256dfa5780aeb1769",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 10867,
+        "stone_tp": 9983,
+        "stone_fp": 784,
+        "fiber_fp": 216,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 612,
+            "target_boundary": 625,
+            "matched_predicted": 398,
+            "matched_target": 400
+          },
+          "2": {
+            "predicted_boundary": 66,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e2a826c4b9eb6402a96cd36c",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 12563,
+        "stone_tp": 11489,
+        "stone_fp": 1866,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 619,
+            "target_boundary": 948,
+            "matched_predicted": 290,
+            "matched_target": 311
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e3053295fb4f899238f8966a",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 5576,
+        "stone_tp": 3274,
+        "stone_fp": 227,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 292,
+            "target_boundary": 567,
+            "matched_predicted": 112,
+            "matched_target": 111
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e355e8693d335cbf9d8cf855",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 23281,
+        "stone_tp": 21462,
+        "stone_fp": 803,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 742,
+            "target_boundary": 669,
+            "matched_predicted": 390,
+            "matched_target": 391
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e3d9211a5dbed854971a5440",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 967,
+        "stone_tp": 897,
+        "stone_fp": 49,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 136,
+            "target_boundary": 149,
+            "matched_predicted": 136,
+            "matched_target": 147
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 11150,
+        "stone_tp": 10855,
+        "stone_fp": 2858,
+        "fiber_fp": 98,
+        "fiber_fn": 14,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 737,
+            "target_boundary": 574,
+            "matched_predicted": 376,
+            "matched_target": 350
+          },
+          "2": {
+            "predicted_boundary": 106,
+            "target_boundary": 104,
+            "matched_predicted": 99,
+            "matched_target": 99
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e5f4938cea8a6f11f27fb86f",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 1029,
+        "stone_tp": 1012,
+        "stone_fp": 360,
+        "fiber_fp": 666,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 164,
+            "target_boundary": 144,
+            "matched_predicted": 85,
+            "matched_target": 81
+          },
+          "2": {
+            "predicted_boundary": 139,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e655d4ca3bce9c5dbf8a7031",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 1662,
+        "stone_tp": 1431,
+        "stone_fp": 69,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 175,
+            "target_boundary": 227,
+            "matched_predicted": 163,
+            "matched_target": 184
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e6cbc0b8877053482b4cbaf9",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 52155,
+        "stone_tp": 28669,
+        "stone_fp": 758,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1422,
+            "target_boundary": 1125,
+            "matched_predicted": 225,
+            "matched_target": 223
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e7a5ff6c13b19390cae69340",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 2509,
+        "stone_tp": 1838,
+        "stone_fp": 110,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 204,
+            "target_boundary": 333,
+            "matched_predicted": 191,
+            "matched_target": 195
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e81644f0445056839c381270",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 14638,
+        "stone_tp": 13716,
+        "stone_fp": 905,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 726,
+            "target_boundary": 666,
+            "matched_predicted": 445,
+            "matched_target": 443
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 21649,
+        "stone_tp": 21062,
+        "stone_fp": 714,
+        "fiber_fp": 70,
+        "fiber_fn": 134,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 740,
+            "target_boundary": 772,
+            "matched_predicted": 624,
+            "matched_target": 642
+          },
+          "2": {
+            "predicted_boundary": 154,
+            "target_boundary": 182,
+            "matched_predicted": 150,
+            "matched_target": 159
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 29385,
+        "stone_tp": 25522,
+        "stone_fp": 439,
+        "fiber_fp": 970,
+        "fiber_fn": 415,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 930,
+            "target_boundary": 1048,
+            "matched_predicted": 538,
+            "matched_target": 545
+          },
+          "2": {
+            "predicted_boundary": 342,
+            "target_boundary": 256,
+            "matched_predicted": 102,
+            "matched_target": 99
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 10142,
+        "stone_tp": 5037,
+        "stone_fp": 241,
+        "fiber_fp": 20,
+        "fiber_fn": 82,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 534,
+            "target_boundary": 890,
+            "matched_predicted": 301,
+            "matched_target": 307
+          },
+          "2": {
+            "predicted_boundary": 90,
+            "target_boundary": 115,
+            "matched_predicted": 89,
+            "matched_target": 95
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb8e9610be90a060660bef16",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 25904,
+        "stone_tp": 23448,
+        "stone_fp": 4133,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1436,
+            "target_boundary": 1143,
+            "matched_predicted": 584,
+            "matched_target": 603
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb9414350213456173b9216e",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 7700,
+        "stone_tp": 7059,
+        "stone_fp": 1045,
+        "fiber_fp": 225,
+        "fiber_fn": 115,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 454,
+            "target_boundary": 577,
+            "matched_predicted": 243,
+            "matched_target": 249
+          },
+          "2": {
+            "predicted_boundary": 188,
+            "target_boundary": 196,
+            "matched_predicted": 148,
+            "matched_target": 146
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb9c5b0d82fbd7802848f976",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 17388,
+        "stone_tp": 12945,
+        "stone_fp": 817,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 675,
+            "target_boundary": 857,
+            "matched_predicted": 243,
+            "matched_target": 253
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 11823,
+        "stone_tp": 10751,
+        "stone_fp": 1091,
+        "fiber_fp": 8,
+        "fiber_fn": 174,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 740,
+            "target_boundary": 955,
+            "matched_predicted": 519,
+            "matched_target": 531
+          },
+          "2": {
+            "predicted_boundary": 82,
+            "target_boundary": 112,
+            "matched_predicted": 71,
+            "matched_target": 78
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ee46a5d978b3090ef07b252e",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 6771,
+        "stone_tp": 4904,
+        "stone_fp": 460,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 502,
+            "target_boundary": 571,
+            "matched_predicted": 147,
+            "matched_target": 148
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__efa54a36a80d5c48f25f4c5b",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 44786,
+        "stone_tp": 44493,
+        "stone_fp": 15153,
+        "fiber_fp": 311,
+        "fiber_fn": 166,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1329,
+            "target_boundary": 1221,
+            "matched_predicted": 705,
+            "matched_target": 710
+          },
+          "2": {
+            "predicted_boundary": 250,
+            "target_boundary": 255,
+            "matched_predicted": 214,
+            "matched_target": 214
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f30c29162d090fea5d6def64",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 38221,
+        "stone_tp": 37475,
+        "stone_fp": 2237,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 958,
+            "target_boundary": 911,
+            "matched_predicted": 645,
+            "matched_target": 646
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 12749,
+        "stone_tp": 11923,
+        "stone_fp": 284,
+        "fiber_fp": 364,
+        "fiber_fn": 23,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 597,
+            "target_boundary": 605,
+            "matched_predicted": 473,
+            "matched_target": 456
+          },
+          "2": {
+            "predicted_boundary": 111,
+            "target_boundary": 80,
+            "matched_predicted": 43,
+            "matched_target": 50
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b76748433d12f4d9d7a362",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 25471,
+        "stone_tp": 25301,
+        "stone_fp": 7605,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1008,
+            "target_boundary": 1093,
+            "matched_predicted": 291,
+            "matched_target": 276
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3e2e469a2139285aca27f9c",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 5593,
+        "stone_tp": 5262,
+        "stone_fp": 383,
+        "fiber_fp": 502,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 359,
+            "target_boundary": 405,
+            "matched_predicted": 286,
+            "matched_target": 291
+          },
+          "2": {
+            "predicted_boundary": 116,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f527f236680465cfac1ee1e1",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 15274,
+        "stone_tp": 12577,
+        "stone_fp": 467,
+        "fiber_fp": 219,
+        "fiber_fn": 522,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 876,
+            "target_boundary": 1172,
+            "matched_predicted": 615,
+            "matched_target": 645
+          },
+          "2": {
+            "predicted_boundary": 264,
+            "target_boundary": 292,
+            "matched_predicted": 210,
+            "matched_target": 213
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f55bfa67b4643136910eed51",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 26045,
+        "stone_tp": 23140,
+        "stone_fp": 480,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 930,
+            "target_boundary": 1183,
+            "matched_predicted": 655,
+            "matched_target": 654
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f62020c170af2da2938be744",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 45779,
+        "stone_tp": 45215,
+        "stone_fp": 2171,
+        "fiber_fp": 455,
+        "fiber_fn": 18,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1233,
+            "target_boundary": 1162,
+            "matched_predicted": 878,
+            "matched_target": 874
+          },
+          "2": {
+            "predicted_boundary": 239,
+            "target_boundary": 231,
+            "matched_predicted": 146,
+            "matched_target": 146
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f6d6396b0ba9dc078f202f5d",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 19443,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 714,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 10771,
+        "stone_tp": 8996,
+        "stone_fp": 853,
+        "fiber_fp": 99,
+        "fiber_fn": 164,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 654,
+            "target_boundary": 816,
+            "matched_predicted": 397,
+            "matched_target": 409
+          },
+          "2": {
+            "predicted_boundary": 128,
+            "target_boundary": 153,
+            "matched_predicted": 103,
+            "matched_target": 101
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f7a0ce0bac6c7a0bb0a5f9ec",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 15942,
+        "stone_tp": 10777,
+        "stone_fp": 1908,
+        "fiber_fp": 0,
+        "fiber_fn": 139,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1093,
+            "target_boundary": 1256,
+            "matched_predicted": 648,
+            "matched_target": 675
+          },
+          "2": {
+            "predicted_boundary": 56,
+            "target_boundary": 95,
+            "matched_predicted": 54,
+            "matched_target": 57
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f88483917dce2d5dc69e03cc",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 4483,
+        "stone_tp": 3610,
+        "stone_fp": 124,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 432,
+            "target_boundary": 517,
+            "matched_predicted": 328,
+            "matched_target": 359
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f95ce3dc9c950992589ef81a",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 7443,
+        "stone_tp": 6857,
+        "stone_fp": 163,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 404,
+            "target_boundary": 422,
+            "matched_predicted": 333,
+            "matched_target": 344
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fa8c7845974d43d219704de3",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 19749,
+        "stone_tp": 17224,
+        "stone_fp": 1796,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1206,
+            "target_boundary": 1959,
+            "matched_predicted": 897,
+            "matched_target": 950
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 19692,
+        "stone_tp": 18593,
+        "stone_fp": 2328,
+        "fiber_fp": 126,
+        "fiber_fn": 84,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1099,
+            "target_boundary": 1163,
+            "matched_predicted": 682,
+            "matched_target": 688
+          },
+          "2": {
+            "predicted_boundary": 83,
+            "target_boundary": 91,
+            "matched_predicted": 68,
+            "matched_target": 60
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fb75f7e4d2f47745183dddf4",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 48224,
+        "stone_tp": 47996,
+        "stone_fp": 2875,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1034,
+            "target_boundary": 1038,
+            "matched_predicted": 637,
+            "matched_target": 639
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fc77bf8ca279f9875f5807c2",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 11200,
+        "stone_tp": 6030,
+        "stone_fp": 545,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 613,
+            "target_boundary": 1267,
+            "matched_predicted": 424,
+            "matched_target": 417
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fccb14b3644a4b7c55ac628a",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 18192,
+        "stone_tp": 16520,
+        "stone_fp": 2225,
+        "fiber_fp": 102,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1204,
+            "target_boundary": 1263,
+            "matched_predicted": 761,
+            "matched_target": 780
+          },
+          "2": {
+            "predicted_boundary": 58,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 11829,
+        "stone_tp": 11100,
+        "stone_fp": 755,
+        "fiber_fp": 73,
+        "fiber_fn": 21,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 594,
+            "target_boundary": 622,
+            "matched_predicted": 431,
+            "matched_target": 441
+          },
+          "2": {
+            "predicted_boundary": 114,
+            "target_boundary": 116,
+            "matched_predicted": 112,
+            "matched_target": 114
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fe36ceb2449249673181a5a6",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 34996,
+        "stone_tp": 28358,
+        "stone_fp": 1197,
+        "fiber_fp": 5,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 966,
+            "target_boundary": 1086,
+            "matched_predicted": 617,
+            "matched_target": 602
+          },
+          "2": {
+            "predicted_boundary": 5,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ff39699780e8e83e6f08541a",
+        "native_shape": [
+          320,
+          320
+        ],
+        "gt_stone_pixels": 7441,
+        "stone_tp": 4703,
+        "stone_fp": 1013,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 704,
+            "target_boundary": 904,
+            "matched_predicted": 404,
+            "matched_target": 408
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cd97db274666dd9a90154901",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 176091,
+        "stone_tp": 173907,
+        "stone_fp": 6465,
+        "fiber_fp": 3211,
+        "fiber_fn": 9,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2114,
+            "target_boundary": 2288,
+            "matched_predicted": 950,
+            "matched_target": 941
+          },
+          "2": {
+            "predicted_boundary": 474,
+            "target_boundary": 418,
+            "matched_predicted": 46,
+            "matched_target": 46
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cec1352c534df462a5d62b9c",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 16301,
+        "stone_tp": 15972,
+        "stone_fp": 16425,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1201,
+            "target_boundary": 1072,
+            "matched_predicted": 146,
+            "matched_target": 148
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cf404f4f3a6de1d92bab3c86",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 249809,
+        "stone_tp": 244615,
+        "stone_fp": 26141,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2784,
+            "target_boundary": 2308,
+            "matched_predicted": 548,
+            "matched_target": 549
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 112420,
+        "stone_tp": 111211,
+        "stone_fp": 4195,
+        "fiber_fp": 1310,
+        "fiber_fn": 20,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1762,
+            "target_boundary": 1733,
+            "matched_predicted": 1027,
+            "matched_target": 998
+          },
+          "2": {
+            "predicted_boundary": 358,
+            "target_boundary": 337,
+            "matched_predicted": 128,
+            "matched_target": 123
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d027b44c9ee6ce7c1bea8c8b",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 32815,
+        "stone_tp": 29206,
+        "stone_fp": 1550,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1091,
+            "target_boundary": 1256,
+            "matched_predicted": 608,
+            "matched_target": 629
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d04ebe39fe149deead19c16b",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 113925,
+        "stone_tp": 91343,
+        "stone_fp": 4855,
+        "fiber_fp": 678,
+        "fiber_fn": 236,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2428,
+            "target_boundary": 3020,
+            "matched_predicted": 639,
+            "matched_target": 657
+          },
+          "2": {
+            "predicted_boundary": 454,
+            "target_boundary": 428,
+            "matched_predicted": 321,
+            "matched_target": 309
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d083dcdc2394bcb46eb2e2aa",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 88348,
+        "stone_tp": 79132,
+        "stone_fp": 1410,
+        "fiber_fp": 843,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1520,
+            "target_boundary": 1418,
+            "matched_predicted": 509,
+            "matched_target": 511
+          },
+          "2": {
+            "predicted_boundary": 132,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d36281673ef735de816fede2",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 114791,
+        "stone_tp": 112510,
+        "stone_fp": 7055,
+        "fiber_fp": 1003,
+        "fiber_fn": 6,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1616,
+            "target_boundary": 1598,
+            "matched_predicted": 603,
+            "matched_target": 592
+          },
+          "2": {
+            "predicted_boundary": 291,
+            "target_boundary": 257,
+            "matched_predicted": 86,
+            "matched_target": 76
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d3d9c90afe5e6b2c0ded7174",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 90310,
+        "stone_tp": 88433,
+        "stone_fp": 2327,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1542,
+            "target_boundary": 1546,
+            "matched_predicted": 842,
+            "matched_target": 839
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 120842,
+        "stone_tp": 110961,
+        "stone_fp": 7065,
+        "fiber_fp": 25,
+        "fiber_fn": 431,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2098,
+            "target_boundary": 2357,
+            "matched_predicted": 612,
+            "matched_target": 613
+          },
+          "2": {
+            "predicted_boundary": 154,
+            "target_boundary": 214,
+            "matched_predicted": 106,
+            "matched_target": 106
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 51354,
+        "stone_tp": 48943,
+        "stone_fp": 1784,
+        "fiber_fp": 2182,
+        "fiber_fn": 59,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1143,
+            "target_boundary": 1189,
+            "matched_predicted": 507,
+            "matched_target": 504
+          },
+          "2": {
+            "predicted_boundary": 468,
+            "target_boundary": 435,
+            "matched_predicted": 100,
+            "matched_target": 109
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d5368f406eb516fa7f27dc73",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 46425,
+        "stone_tp": 42885,
+        "stone_fp": 5365,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1248,
+            "target_boundary": 1119,
+            "matched_predicted": 372,
+            "matched_target": 379
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 79505,
+        "stone_tp": 79053,
+        "stone_fp": 2656,
+        "fiber_fp": 486,
+        "fiber_fn": 28,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1403,
+            "target_boundary": 1409,
+            "matched_predicted": 1084,
+            "matched_target": 1079
+          },
+          "2": {
+            "predicted_boundary": 216,
+            "target_boundary": 210,
+            "matched_predicted": 142,
+            "matched_target": 141
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d5d611a128f6941532e16819",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 35070,
+        "stone_tp": 32268,
+        "stone_fp": 31158,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1686,
+            "target_boundary": 1674,
+            "matched_predicted": 396,
+            "matched_target": 393
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d8d2493949c61074984753a0",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 33529,
+        "stone_tp": 32379,
+        "stone_fp": 4940,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1589,
+            "target_boundary": 1619,
+            "matched_predicted": 723,
+            "matched_target": 743
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 104587,
+        "stone_tp": 96027,
+        "stone_fp": 4307,
+        "fiber_fp": 944,
+        "fiber_fn": 55,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1581,
+            "target_boundary": 1709,
+            "matched_predicted": 848,
+            "matched_target": 819
+          },
+          "2": {
+            "predicted_boundary": 256,
+            "target_boundary": 229,
+            "matched_predicted": 84,
+            "matched_target": 74
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9627d33174b903c775d1044",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 70964,
+        "stone_tp": 51043,
+        "stone_fp": 8771,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1932,
+            "target_boundary": 1579,
+            "matched_predicted": 90,
+            "matched_target": 85
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9968ea323db4c528440cbb1",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 166369,
+        "stone_tp": 162438,
+        "stone_fp": 5428,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2388,
+            "target_boundary": 2709,
+            "matched_predicted": 1304,
+            "matched_target": 1320
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 97797,
+        "stone_tp": 96680,
+        "stone_fp": 19636,
+        "fiber_fp": 1782,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1636,
+            "target_boundary": 1621,
+            "matched_predicted": 624,
+            "matched_target": 598
+          },
+          "2": {
+            "predicted_boundary": 258,
+            "target_boundary": 193,
+            "matched_predicted": 5,
+            "matched_target": 3
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__da2dd2f086729d73aea03aed",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 84440,
+        "stone_tp": 81720,
+        "stone_fp": 9147,
+        "fiber_fp": 333,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1695,
+            "target_boundary": 2325,
+            "matched_predicted": 626,
+            "matched_target": 616
+          },
+          "2": {
+            "predicted_boundary": 86,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__da7e64c5e291613c411370df",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 11104,
+        "stone_tp": 8200,
+        "stone_fp": 491,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 541,
+            "target_boundary": 733,
+            "matched_predicted": 278,
+            "matched_target": 292
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 42671,
+        "stone_tp": 29570,
+        "stone_fp": 2422,
+        "fiber_fp": 3921,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1335,
+            "target_boundary": 1619,
+            "matched_predicted": 461,
+            "matched_target": 459
+          },
+          "2": {
+            "predicted_boundary": 542,
+            "target_boundary": 484,
+            "matched_predicted": 20,
+            "matched_target": 16
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__def3fefc93f0d3f79b4e49a4",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 52674,
+        "stone_tp": 50189,
+        "stone_fp": 1637,
+        "fiber_fp": 1090,
+        "fiber_fn": 3,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1210,
+            "target_boundary": 1350,
+            "matched_predicted": 740,
+            "matched_target": 745
+          },
+          "2": {
+            "predicted_boundary": 226,
+            "target_boundary": 189,
+            "matched_predicted": 42,
+            "matched_target": 38
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 88425,
+        "stone_tp": 66301,
+        "stone_fp": 31585,
+        "fiber_fp": 214,
+        "fiber_fn": 507,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2409,
+            "target_boundary": 2690,
+            "matched_predicted": 361,
+            "matched_target": 358
+          },
+          "2": {
+            "predicted_boundary": 225,
+            "target_boundary": 282,
+            "matched_predicted": 132,
+            "matched_target": 133
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 9869,
+        "stone_tp": 7865,
+        "stone_fp": 696,
+        "fiber_fp": 0,
+        "fiber_fn": 445,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 428,
+            "target_boundary": 636,
+            "matched_predicted": 208,
+            "matched_target": 202
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 107,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df9503c4c2237624a40883ea",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 56849,
+        "stone_tp": 54771,
+        "stone_fp": 70155,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1582,
+            "target_boundary": 1933,
+            "matched_predicted": 151,
+            "matched_target": 149
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e05ea5d59365643133440230",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 90955,
+        "stone_tp": 89706,
+        "stone_fp": 4576,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1543,
+            "target_boundary": 1533,
+            "matched_predicted": 595,
+            "matched_target": 572
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 190633,
+        "stone_tp": 130642,
+        "stone_fp": 10811,
+        "fiber_fp": 2004,
+        "fiber_fn": 47,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2705,
+            "target_boundary": 4051,
+            "matched_predicted": 775,
+            "matched_target": 782
+          },
+          "2": {
+            "predicted_boundary": 404,
+            "target_boundary": 370,
+            "matched_predicted": 116,
+            "matched_target": 112
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e152ad6f28bd0d5796d4b863",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 140091,
+        "stone_tp": 138437,
+        "stone_fp": 2539,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1607,
+            "target_boundary": 1552,
+            "matched_predicted": 1103,
+            "matched_target": 1047
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e2149dfdbb9fe2ad8b09442b",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 122052,
+        "stone_tp": 120078,
+        "stone_fp": 6500,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1750,
+            "target_boundary": 2054,
+            "matched_predicted": 1052,
+            "matched_target": 1031
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 58666,
+        "stone_tp": 55284,
+        "stone_fp": 388,
+        "fiber_fp": 0,
+        "fiber_fn": 893,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1263,
+            "target_boundary": 1358,
+            "matched_predicted": 778,
+            "matched_target": 784
+          },
+          "2": {
+            "predicted_boundary": 32,
+            "target_boundary": 187,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4fd74319c0ff1d67d66350a",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 139287,
+        "stone_tp": 135433,
+        "stone_fp": 5811,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1913,
+            "target_boundary": 1552,
+            "matched_predicted": 691,
+            "matched_target": 651
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e755cb48d88eff1a918421dc",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 76360,
+        "stone_tp": 75736,
+        "stone_fp": 26382,
+        "fiber_fp": 720,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1508,
+            "target_boundary": 1304,
+            "matched_predicted": 128,
+            "matched_target": 141
+          },
+          "2": {
+            "predicted_boundary": 129,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e7c03ad5034214e51303f46c",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 107878,
+        "stone_tp": 106150,
+        "stone_fp": 4976,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1543,
+            "target_boundary": 1683,
+            "matched_predicted": 637,
+            "matched_target": 624
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e80c71f5def8631f698af5e4",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 110850,
+        "stone_tp": 110252,
+        "stone_fp": 8937,
+        "fiber_fp": 529,
+        "fiber_fn": 177,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1634,
+            "target_boundary": 1618,
+            "matched_predicted": 534,
+            "matched_target": 536
+          },
+          "2": {
+            "predicted_boundary": 218,
+            "target_boundary": 216,
+            "matched_predicted": 120,
+            "matched_target": 121
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e850aabd9169d00e5abf281c",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 27421,
+        "stone_tp": 18744,
+        "stone_fp": 192,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 708,
+            "target_boundary": 1016,
+            "matched_predicted": 362,
+            "matched_target": 346
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e90fee97feeedc692c93a341",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 136369,
+        "stone_tp": 130153,
+        "stone_fp": 8254,
+        "fiber_fp": 792,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2793,
+            "target_boundary": 2975,
+            "matched_predicted": 1181,
+            "matched_target": 1190
+          },
+          "2": {
+            "predicted_boundary": 164,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e938455a11a8eb9671165411",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 49990,
+        "stone_tp": 41278,
+        "stone_fp": 1352,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1862,
+            "target_boundary": 2766,
+            "matched_predicted": 970,
+            "matched_target": 948
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ea7e31de924cc3072975fcc1",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 80736,
+        "stone_tp": 77393,
+        "stone_fp": 28501,
+        "fiber_fp": 157,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1617,
+            "target_boundary": 1845,
+            "matched_predicted": 397,
+            "matched_target": 398
+          },
+          "2": {
+            "predicted_boundary": 60,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 122695,
+        "stone_tp": 122374,
+        "stone_fp": 8821,
+        "fiber_fp": 325,
+        "fiber_fn": 551,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1697,
+            "target_boundary": 1593,
+            "matched_predicted": 705,
+            "matched_target": 677
+          },
+          "2": {
+            "predicted_boundary": 205,
+            "target_boundary": 219,
+            "matched_predicted": 54,
+            "matched_target": 52
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ebca1ec5de792875bb4fb300",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 9605,
+        "stone_tp": 8024,
+        "stone_fp": 2422,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 756,
+            "target_boundary": 951,
+            "matched_predicted": 293,
+            "matched_target": 282
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 75497,
+        "stone_tp": 72076,
+        "stone_fp": 15128,
+        "fiber_fp": 153,
+        "fiber_fn": 271,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1833,
+            "target_boundary": 2112,
+            "matched_predicted": 592,
+            "matched_target": 610
+          },
+          "2": {
+            "predicted_boundary": 178,
+            "target_boundary": 232,
+            "matched_predicted": 136,
+            "matched_target": 141
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ed6451a4c509c7f494d27ffa",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 46814,
+        "stone_tp": 44213,
+        "stone_fp": 2661,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1074,
+            "target_boundary": 1204,
+            "matched_predicted": 444,
+            "matched_target": 449
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ee9acf48105f94ed3bd8a6cd",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 59845,
+        "stone_tp": 55941,
+        "stone_fp": 995,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1118,
+            "target_boundary": 1168,
+            "matched_predicted": 428,
+            "matched_target": 445
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__efa5ed3a9775ddd7d978bf7f",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 109700,
+        "stone_tp": 100416,
+        "stone_fp": 4396,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2272,
+            "target_boundary": 2361,
+            "matched_predicted": 1200,
+            "matched_target": 1209
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__efe332ad3a90e57696efbc31",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 40063,
+        "stone_tp": 34858,
+        "stone_fp": 5166,
+        "fiber_fp": 653,
+        "fiber_fn": 4,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1854,
+            "target_boundary": 2017,
+            "matched_predicted": 808,
+            "matched_target": 819
+          },
+          "2": {
+            "predicted_boundary": 210,
+            "target_boundary": 187,
+            "matched_predicted": 72,
+            "matched_target": 70
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f0307b8a71d07dafb6ee2e3a",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 52649,
+        "stone_tp": 46131,
+        "stone_fp": 20676,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1496,
+            "target_boundary": 1519,
+            "matched_predicted": 287,
+            "matched_target": 280
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f0e67fadb14e6737cc037929",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 71257,
+        "stone_tp": 67776,
+        "stone_fp": 843,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1326,
+            "target_boundary": 1342,
+            "matched_predicted": 815,
+            "matched_target": 785
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f10ac95c407097f80554fecf",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 139002,
+        "stone_tp": 107064,
+        "stone_fp": 3001,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 3211,
+            "target_boundary": 4034,
+            "matched_predicted": 1115,
+            "matched_target": 1122
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 102748,
+        "stone_tp": 100436,
+        "stone_fp": 4626,
+        "fiber_fp": 434,
+        "fiber_fn": 50,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1492,
+            "target_boundary": 1573,
+            "matched_predicted": 552,
+            "matched_target": 562
+          },
+          "2": {
+            "predicted_boundary": 168,
+            "target_boundary": 176,
+            "matched_predicted": 86,
+            "matched_target": 85
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f18ef18f30ef93b3d7d55118",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 85803,
+        "stone_tp": 57026,
+        "stone_fp": 668,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1956,
+            "target_boundary": 2759,
+            "matched_predicted": 217,
+            "matched_target": 213
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f1c1d0100a3e53b144a2fd1a",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 17247,
+        "stone_tp": 15008,
+        "stone_fp": 376,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 720,
+            "target_boundary": 771,
+            "matched_predicted": 380,
+            "matched_target": 381
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 57715,
+        "stone_tp": 43939,
+        "stone_fp": 3359,
+        "fiber_fp": 186,
+        "fiber_fn": 198,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1386,
+            "target_boundary": 1622,
+            "matched_predicted": 385,
+            "matched_target": 374
+          },
+          "2": {
+            "predicted_boundary": 106,
+            "target_boundary": 181,
+            "matched_predicted": 75,
+            "matched_target": 71
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f405adc45e2f9ce5a820d803",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 86212,
+        "stone_tp": 85731,
+        "stone_fp": 8262,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1510,
+            "target_boundary": 1476,
+            "matched_predicted": 666,
+            "matched_target": 666
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f680d909de418e7337206b7e",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 80795,
+        "stone_tp": 78171,
+        "stone_fp": 1193,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1385,
+            "target_boundary": 1380,
+            "matched_predicted": 841,
+            "matched_target": 843
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 55352,
+        "stone_tp": 53260,
+        "stone_fp": 2457,
+        "fiber_fp": 1425,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1209,
+            "target_boundary": 1384,
+            "matched_predicted": 719,
+            "matched_target": 725
+          },
+          "2": {
+            "predicted_boundary": 314,
+            "target_boundary": 257,
+            "matched_predicted": 64,
+            "matched_target": 58
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 22277,
+        "stone_tp": 15203,
+        "stone_fp": 604,
+        "fiber_fp": 2081,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 838,
+            "target_boundary": 1353,
+            "matched_predicted": 336,
+            "matched_target": 339
+          },
+          "2": {
+            "predicted_boundary": 326,
+            "target_boundary": 283,
+            "matched_predicted": 4,
+            "matched_target": 4
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f7e916870021680f21ba0418",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 87966,
+        "stone_tp": 72941,
+        "stone_fp": 7637,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1414,
+            "target_boundary": 2674,
+            "matched_predicted": 610,
+            "matched_target": 609
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f810c0920b76afb8b8ca487e",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 155677,
+        "stone_tp": 151176,
+        "stone_fp": 2181,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 2008,
+            "target_boundary": 2131,
+            "matched_predicted": 1287,
+            "matched_target": 1300
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f84199195ae1f243a42f87a0",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 56613,
+        "stone_tp": 47727,
+        "stone_fp": 878,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1240,
+            "target_boundary": 1800,
+            "matched_predicted": 330,
+            "matched_target": 349
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f9088581b6cb409c0975ef84",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 51835,
+        "stone_tp": 50428,
+        "stone_fp": 15500,
+        "fiber_fp": 1814,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1910,
+            "target_boundary": 2054,
+            "matched_predicted": 803,
+            "matched_target": 790
+          },
+          "2": {
+            "predicted_boundary": 196,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__fbca32110bf977c60cfbe65c",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 26053,
+        "stone_tp": 21215,
+        "stone_fp": 1264,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 992,
+            "target_boundary": 1232,
+            "matched_predicted": 442,
+            "matched_target": 444
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__fcf80e46c1f36f89029968ba",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 85207,
+        "stone_tp": 83909,
+        "stone_fp": 4536,
+        "fiber_fp": 320,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1397,
+            "target_boundary": 1404,
+            "matched_predicted": 610,
+            "matched_target": 594
+          },
+          "2": {
+            "predicted_boundary": 90,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ff13d61c042e3d942d15b551",
+        "native_shape": [
+          640,
+          640
+        ],
+        "gt_stone_pixels": 60235,
+        "stone_tp": 47513,
+        "stone_fp": 2341,
+        "fiber_fp": 0,
+        "fiber_fn": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 1277,
+            "target_boundary": 1810,
+            "matched_predicted": 295,
+            "matched_target": 302
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          }
+        }
+      }
+    ]
+  },
+  "video_validation": {
+    "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_joint_20261028\\training\\last.pt",
+    "checkpoint_sha256": "b950d2e8f407fa58d74ecd44f940e9722a2a7856a1d65b8bd49b04e16b7b971f",
+    "input_size": 256,
+    "metrics": {
+      "stone_dice": 0.7694988426828951,
+      "stone_iou": 0.6253540178382719,
+      "stone_precision": 0.946694823062648,
+      "stone_recall": 0.6481773571678935,
+      "stone_tp": 59176,
+      "stone_fp": 3332,
+      "stone_fn": 32120,
+      "fiber_dice": 0.886313564446501,
+      "fiber_iou": 0.7958376219299157,
+      "fiber_precision": 0.8356592913553684,
+      "fiber_recall": 0.9435050069128422,
+      "fiber_tp": 168560,
+      "fiber_fp": 33149,
+      "fiber_fn": 10093,
+      "mean_dice": 0.827906203564698,
+      "mean_iou": 0.7105958198840938,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          4320952,
+          3332,
+          32966
+        ],
+        [
+          31937,
+          59176,
+          183
+        ],
+        [
+          10093,
+          0,
+          168560
+        ]
+      ],
+      "valid_pixels": 4627199,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 1440000,
+      "stone_negative_fp_pixels": 690,
+      "stone_negative_fp_pixel_fraction": 0.00047916666666666664
+    },
+    "boundaries": {
+      "1": {
+        "predicted_boundary": 6249,
+        "target_boundary": 9396,
+        "matched_predicted": 3622,
+        "matched_target": 3519,
+        "precision": 0.5796127380380861,
+        "recall": 0.37452107279693486,
+        "f_score": 0.4550246139308599
+      },
+      "2": {
+        "predicted_boundary": 12608,
+        "target_boundary": 9833,
+        "matched_predicted": 6730,
+        "matched_target": 6280,
+        "precision": 0.5337880710659898,
+        "recall": 0.6386657174819486,
+        "f_score": 0.5815361675156151
+      }
+    },
+    "visible_stone_area_groups": {
+      "(0,1024]": {
+        "frames": 3,
+        "target_pixels": 2423,
+        "tp": 1389,
+        "pixel_recall": 0.5732562938505984,
+        "frames_any_tp": 2
+      },
+      "(1024,4096]": {
+        "frames": 8,
+        "target_pixels": 14282,
+        "tp": 10207,
+        "pixel_recall": 0.7146758157120852,
+        "frames_any_tp": 8
+      },
+      "(4096,inf]": {
+        "frames": 9,
+        "target_pixels": 74591,
+        "tp": 47580,
+        "pixel_recall": 0.6378785644380689,
+        "frames_any_tp": 9
+      }
+    },
+    "frames": [
+      {
+        "sample_id": "reviewed_video_1_000002",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 971,
+        "stone_tp": 966,
+        "stone_fp": 375,
+        "fiber_fp": 656,
+        "fiber_fn": 223,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 164,
+            "target_boundary": 138,
+            "matched_predicted": 84,
+            "matched_target": 78
+          },
+          "2": {
+            "predicted_boundary": 384,
+            "target_boundary": 313,
+            "matched_predicted": 210,
+            "matched_target": 193
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000032",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 1205,
+        "stone_tp": 1191,
+        "stone_fp": 144,
+        "fiber_fp": 785,
+        "fiber_fn": 223,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 167,
+            "target_boundary": 156,
+            "matched_predicted": 167,
+            "matched_target": 156
+          },
+          "2": {
+            "predicted_boundary": 384,
+            "target_boundary": 313,
+            "matched_predicted": 192,
+            "matched_target": 176
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000034",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 1125,
+        "stone_tp": 1103,
+        "stone_fp": 123,
+        "fiber_fp": 746,
+        "fiber_fn": 226,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 156,
+            "target_boundary": 152,
+            "matched_predicted": 156,
+            "matched_target": 152
+          },
+          "2": {
+            "predicted_boundary": 384,
+            "target_boundary": 315,
+            "matched_predicted": 198,
+            "matched_target": 181
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000036",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 1059,
+        "stone_tp": 1002,
+        "stone_fp": 52,
+        "fiber_fp": 773,
+        "fiber_fn": 224,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 144,
+            "target_boundary": 148,
+            "matched_predicted": 144,
+            "matched_target": 148
+          },
+          "2": {
+            "predicted_boundary": 384,
+            "target_boundary": 313,
+            "matched_predicted": 190,
+            "matched_target": 173
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000053",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 827,
+        "stone_tp": 423,
+        "stone_fp": 0,
+        "fiber_fp": 856,
+        "fiber_fn": 215,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 91,
+            "target_boundary": 126,
+            "matched_predicted": 35,
+            "matched_target": 37
+          },
+          "2": {
+            "predicted_boundary": 390,
+            "target_boundary": 315,
+            "matched_predicted": 177,
+            "matched_target": 155
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000062",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 769,
+        "fiber_fn": 217,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 390,
+            "target_boundary": 319,
+            "matched_predicted": 200,
+            "matched_target": 177
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000071",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 624,
+        "fiber_fn": 255,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 437,
+            "target_boundary": 320,
+            "matched_predicted": 282,
+            "matched_target": 263
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000072",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 6308,
+        "fiber_fn": 248,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 760,
+            "target_boundary": 320,
+            "matched_predicted": 288,
+            "matched_target": 271
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000076",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 588,
+        "fiber_fn": 284,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 378,
+            "target_boundary": 318,
+            "matched_predicted": 245,
+            "matched_target": 230
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000077",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 531,
+        "fiber_fn": 293,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 380,
+            "target_boundary": 320,
+            "matched_predicted": 272,
+            "matched_target": 256
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000079",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 616,
+        "fiber_fn": 276,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 382,
+            "target_boundary": 320,
+            "matched_predicted": 244,
+            "matched_target": 230
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000096",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 690,
+        "fiber_fp": 1467,
+        "fiber_fn": 234,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 119,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 404,
+            "target_boundary": 323,
+            "matched_predicted": 108,
+            "matched_target": 100
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000112",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 1257,
+        "stone_tp": 856,
+        "stone_fp": 377,
+        "fiber_fp": 550,
+        "fiber_fn": 250,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 181,
+            "target_boundary": 164,
+            "matched_predicted": 67,
+            "matched_target": 62
+          },
+          "2": {
+            "predicted_boundary": 384,
+            "target_boundary": 320,
+            "matched_predicted": 261,
+            "matched_target": 245
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000142",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 1803,
+        "stone_tp": 1377,
+        "stone_fp": 40,
+        "fiber_fp": 724,
+        "fiber_fn": 221,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 170,
+            "target_boundary": 194,
+            "matched_predicted": 122,
+            "matched_target": 116
+          },
+          "2": {
+            "predicted_boundary": 388,
+            "target_boundary": 320,
+            "matched_predicted": 209,
+            "matched_target": 191
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000329",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 3157,
+        "stone_tp": 2629,
+        "stone_fp": 0,
+        "fiber_fp": 606,
+        "fiber_fn": 233,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 248,
+            "target_boundary": 264,
+            "matched_predicted": 206,
+            "matched_target": 201
+          },
+          "2": {
+            "predicted_boundary": 376,
+            "target_boundary": 310,
+            "matched_predicted": 226,
+            "matched_target": 205
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000427",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 3422,
+        "stone_tp": 1983,
+        "stone_fp": 0,
+        "fiber_fp": 790,
+        "fiber_fn": 260,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 216,
+            "target_boundary": 302,
+            "matched_predicted": 62,
+            "matched_target": 58
+          },
+          "2": {
+            "predicted_boundary": 374,
+            "target_boundary": 314,
+            "matched_predicted": 159,
+            "matched_target": 155
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000524",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 6635,
+        "stone_tp": 5122,
+        "stone_fp": 0,
+        "fiber_fp": 487,
+        "fiber_fn": 302,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 403,
+            "target_boundary": 444,
+            "matched_predicted": 114,
+            "matched_target": 102
+          },
+          "2": {
+            "predicted_boundary": 374,
+            "target_boundary": 314,
+            "matched_predicted": 256,
+            "matched_target": 231
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000525",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 6689,
+        "stone_tp": 5160,
+        "stone_fp": 0,
+        "fiber_fp": 483,
+        "fiber_fn": 286,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 404,
+            "target_boundary": 444,
+            "matched_predicted": 110,
+            "matched_target": 97
+          },
+          "2": {
+            "predicted_boundary": 375,
+            "target_boundary": 314,
+            "matched_predicted": 257,
+            "matched_target": 233
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000623",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 8118,
+        "stone_tp": 6592,
+        "stone_fp": 0,
+        "fiber_fp": 569,
+        "fiber_fn": 263,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 422,
+            "target_boundary": 460,
+            "matched_predicted": 119,
+            "matched_target": 109
+          },
+          "2": {
+            "predicted_boundary": 374,
+            "target_boundary": 310,
+            "matched_predicted": 228,
+            "matched_target": 209
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_1_000721",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 6896,
+        "stone_tp": 4494,
+        "stone_fp": 4,
+        "fiber_fp": 615,
+        "fiber_fn": 244,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 452,
+            "target_boundary": 538,
+            "matched_predicted": 103,
+            "matched_target": 87
+          },
+          "2": {
+            "predicted_boundary": 384,
+            "target_boundary": 320,
+            "matched_predicted": 238,
+            "matched_target": 215
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_000000",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 9870,
+        "stone_tp": 5558,
+        "stone_fp": 419,
+        "fiber_fp": 887,
+        "fiber_fn": 260,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 755,
+            "target_boundary": 1199,
+            "matched_predicted": 490,
+            "matched_target": 481
+          },
+          "2": {
+            "predicted_boundary": 343,
+            "target_boundary": 289,
+            "matched_predicted": 136,
+            "matched_target": 126
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_000075",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 9197,
+        "stone_tp": 5336,
+        "stone_fp": 403,
+        "fiber_fp": 719,
+        "fiber_fn": 317,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 634,
+            "target_boundary": 1164,
+            "matched_predicted": 402,
+            "matched_target": 377
+          },
+          "2": {
+            "predicted_boundary": 351,
+            "target_boundary": 314,
+            "matched_predicted": 217,
+            "matched_target": 198
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_000149",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 12579,
+        "stone_tp": 6705,
+        "stone_fp": 64,
+        "fiber_fp": 766,
+        "fiber_fn": 549,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 542,
+            "target_boundary": 1191,
+            "matched_predicted": 482,
+            "matched_target": 497
+          },
+          "2": {
+            "predicted_boundary": 420,
+            "target_boundary": 366,
+            "matched_predicted": 193,
+            "matched_target": 170
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_000986",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 243,
+        "fiber_fn": 1108,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 562,
+            "target_boundary": 545,
+            "matched_predicted": 380,
+            "matched_target": 384
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_001061",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 1254,
+        "stone_tp": 66,
+        "stone_fp": 0,
+        "fiber_fp": 1306,
+        "fiber_fn": 352,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 36,
+            "target_boundary": 286,
+            "matched_predicted": 6,
+            "matched_target": 3
+          },
+          "2": {
+            "predicted_boundary": 544,
+            "target_boundary": 379,
+            "matched_predicted": 191,
+            "matched_target": 166
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_001135",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 6572,
+        "stone_tp": 2954,
+        "stone_fp": 358,
+        "fiber_fp": 309,
+        "fiber_fn": 511,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 365,
+            "target_boundary": 1002,
+            "matched_predicted": 299,
+            "matched_target": 313
+          },
+          "2": {
+            "predicted_boundary": 377,
+            "target_boundary": 360,
+            "matched_predicted": 293,
+            "matched_target": 292
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_001822",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 625,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 8077,
+        "fiber_fn": 923,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 112,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 919,
+            "target_boundary": 331,
+            "matched_predicted": 221,
+            "matched_target": 220
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_001897",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 0,
+        "stone_tp": 0,
+        "stone_fp": 0,
+        "fiber_fp": 577,
+        "fiber_fn": 674,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 0,
+            "target_boundary": 0,
+            "matched_predicted": 0,
+            "matched_target": 0
+          },
+          "2": {
+            "predicted_boundary": 574,
+            "target_boundary": 531,
+            "matched_predicted": 425,
+            "matched_target": 416
+          }
+        }
+      },
+      {
+        "sample_id": "reviewed_video_2_001971",
+        "native_shape": [
+          400,
+          400
+        ],
+        "gt_stone_pixels": 8035,
+        "stone_tp": 5659,
+        "stone_fp": 283,
+        "fiber_fp": 722,
+        "fiber_fn": 422,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 580,
+            "target_boundary": 912,
+            "matched_predicted": 454,
+            "matched_target": 445
+          },
+          "2": {
+            "predicted_boundary": 432,
+            "target_boundary": 387,
+            "matched_predicted": 234,
+            "matched_target": 219
+          }
+        }
+      }
+    ]
+  },
+  "video_baselines": {
+    "A0": {
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+      "checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+      "input_size": 256,
+      "metrics": {
+        "stone_dice": 0.47401543332152984,
+        "stone_iou": 0.310629244667457,
+        "stone_precision": 0.34858274334686046,
+        "stone_recall": 0.7404596039256922,
+        "stone_tp": 67601,
+        "stone_fp": 126330,
+        "stone_fn": 23695,
+        "fiber_dice": 0.9668022126134994,
+        "fiber_iou": 0.9357377884626037,
+        "fiber_precision": 0.9890338294359419,
+        "fiber_recall": 0.9455480736399613,
+        "fiber_tp": 168925,
+        "fiber_fp": 1873,
+        "fiber_fn": 9728,
+        "mean_dice": 0.7204088229675146,
+        "mean_iou": 0.6231835165650303,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            4229056,
+            126321,
+            1873
+          ],
+          [
+            23695,
+            67601,
+            0
+          ],
+          [
+            9719,
+            9,
+            168925
+          ]
+        ],
+        "valid_pixels": 4627199,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 6,
+        "stone_negative_fp_image_rate": 0.6666666666666666,
+        "stone_negative_valid_pixels": 1440000,
+        "stone_negative_fp_pixels": 112064,
+        "stone_negative_fp_pixel_fraction": 0.07782222222222222
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 12448,
+          "target_boundary": 9396,
+          "matched_predicted": 6027,
+          "matched_target": 6109,
+          "precision": 0.4841741645244216,
+          "recall": 0.6501702852277564,
+          "f_score": 0.5550265701348964
+        },
+        "2": {
+          "predicted_boundary": 9341,
+          "target_boundary": 9833,
+          "matched_predicted": 8797,
+          "matched_target": 8788,
+          "precision": 0.9417621239695964,
+          "recall": 0.8937252110241025,
+          "f_score": 0.9171150755797767
+        }
+      },
+      "visible_stone_area_groups": {
+        "(0,1024]": {
+          "frames": 3,
+          "target_pixels": 2423,
+          "tp": 2322,
+          "pixel_recall": 0.9583161370202229,
+          "frames_any_tp": 3
+        },
+        "(1024,4096]": {
+          "frames": 8,
+          "target_pixels": 14282,
+          "tp": 12123,
+          "pixel_recall": 0.8488306959809551,
+          "frames_any_tp": 7
+        },
+        "(4096,inf]": {
+          "frames": 9,
+          "target_pixels": 74591,
+          "tp": 53156,
+          "pixel_recall": 0.7126328913675912,
+          "frames_any_tp": 9
+        }
+      },
+      "frames": [
+        {
+          "sample_id": "reviewed_video_1_000002",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 971,
+          "stone_tp": 932,
+          "stone_fp": 24,
+          "fiber_fp": 60,
+          "fiber_fn": 94,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 138,
+              "target_boundary": 138,
+              "matched_predicted": 138,
+              "matched_target": 138
+            },
+            "2": {
+              "predicted_boundary": 311,
+              "target_boundary": 313,
+              "matched_predicted": 311,
+              "matched_target": 313
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000032",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1205,
+          "stone_tp": 1164,
+          "stone_fp": 116,
+          "fiber_fp": 69,
+          "fiber_fn": 67,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 198,
+              "target_boundary": 156,
+              "matched_predicted": 157,
+              "matched_target": 156
+            },
+            "2": {
+              "predicted_boundary": 310,
+              "target_boundary": 313,
+              "matched_predicted": 310,
+              "matched_target": 313
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000034",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1125,
+          "stone_tp": 1077,
+          "stone_fp": 256,
+          "fiber_fp": 61,
+          "fiber_fn": 70,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 217,
+              "target_boundary": 152,
+              "matched_predicted": 150,
+              "matched_target": 152
+            },
+            "2": {
+              "predicted_boundary": 312,
+              "target_boundary": 315,
+              "matched_predicted": 312,
+              "matched_target": 315
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000036",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1059,
+          "stone_tp": 1021,
+          "stone_fp": 483,
+          "fiber_fp": 56,
+          "fiber_fn": 71,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 247,
+              "target_boundary": 148,
+              "matched_predicted": 148,
+              "matched_target": 148
+            },
+            "2": {
+              "predicted_boundary": 310,
+              "target_boundary": 313,
+              "matched_predicted": 310,
+              "matched_target": 313
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000053",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 827,
+          "stone_tp": 796,
+          "stone_fp": 354,
+          "fiber_fp": 56,
+          "fiber_fn": 71,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 204,
+              "target_boundary": 126,
+              "matched_predicted": 126,
+              "matched_target": 126
+            },
+            "2": {
+              "predicted_boundary": 316,
+              "target_boundary": 315,
+              "matched_predicted": 316,
+              "matched_target": 315
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000062",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 3533,
+          "fiber_fp": 65,
+          "fiber_fn": 69,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 301,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 316,
+              "target_boundary": 319,
+              "matched_predicted": 316,
+              "matched_target": 319
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000071",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 57,
+          "fiber_fn": 67,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 319,
+              "target_boundary": 320,
+              "matched_predicted": 319,
+              "matched_target": 320
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000072",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 65,
+          "fiber_fn": 60,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 317,
+              "target_boundary": 320,
+              "matched_predicted": 317,
+              "matched_target": 320
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000076",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 891,
+          "fiber_fp": 57,
+          "fiber_fn": 63,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 154,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 319,
+              "target_boundary": 318,
+              "matched_predicted": 319,
+              "matched_target": 318
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000077",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 54,
+          "fiber_fn": 84,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 318,
+              "target_boundary": 320,
+              "matched_predicted": 318,
+              "matched_target": 320
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000079",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 7407,
+          "fiber_fp": 57,
+          "fiber_fn": 71,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 746,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 317,
+              "target_boundary": 320,
+              "matched_predicted": 317,
+              "matched_target": 320
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000096",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 35316,
+          "fiber_fp": 56,
+          "fiber_fn": 86,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1051,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 321,
+              "target_boundary": 323,
+              "matched_predicted": 321,
+              "matched_target": 323
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000112",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1257,
+          "stone_tp": 0,
+          "stone_fp": 7443,
+          "fiber_fp": 52,
+          "fiber_fn": 70,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 547,
+              "target_boundary": 164,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 319,
+              "target_boundary": 320,
+              "matched_predicted": 319,
+              "matched_target": 320
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000142",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1803,
+          "stone_tp": 1774,
+          "stone_fp": 53,
+          "fiber_fp": 66,
+          "fiber_fn": 72,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 197,
+              "target_boundary": 194,
+              "matched_predicted": 197,
+              "matched_target": 194
+            },
+            "2": {
+              "predicted_boundary": 317,
+              "target_boundary": 320,
+              "matched_predicted": 317,
+              "matched_target": 320
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000329",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 3157,
+          "stone_tp": 3107,
+          "stone_fp": 65,
+          "fiber_fp": 80,
+          "fiber_fn": 62,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 268,
+              "target_boundary": 264,
+              "matched_predicted": 268,
+              "matched_target": 264
+            },
+            "2": {
+              "predicted_boundary": 308,
+              "target_boundary": 310,
+              "matched_predicted": 308,
+              "matched_target": 310
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000427",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 3422,
+          "stone_tp": 3165,
+          "stone_fp": 49,
+          "fiber_fp": 83,
+          "fiber_fn": 76,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 276,
+              "target_boundary": 302,
+              "matched_predicted": 263,
+              "matched_target": 261
+            },
+            "2": {
+              "predicted_boundary": 312,
+              "target_boundary": 314,
+              "matched_predicted": 312,
+              "matched_target": 314
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000524",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6635,
+          "stone_tp": 6531,
+          "stone_fp": 84,
+          "fiber_fp": 84,
+          "fiber_fn": 86,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 440,
+              "target_boundary": 444,
+              "matched_predicted": 440,
+              "matched_target": 444
+            },
+            "2": {
+              "predicted_boundary": 313,
+              "target_boundary": 314,
+              "matched_predicted": 313,
+              "matched_target": 314
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000525",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6689,
+          "stone_tp": 6578,
+          "stone_fp": 91,
+          "fiber_fp": 81,
+          "fiber_fn": 99,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 440,
+              "target_boundary": 444,
+              "matched_predicted": 440,
+              "matched_target": 444
+            },
+            "2": {
+              "predicted_boundary": 315,
+              "target_boundary": 314,
+              "matched_predicted": 315,
+              "matched_target": 314
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000623",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 8118,
+          "stone_tp": 8016,
+          "stone_fp": 116,
+          "fiber_fp": 108,
+          "fiber_fn": 69,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 460,
+              "target_boundary": 460,
+              "matched_predicted": 460,
+              "matched_target": 460
+            },
+            "2": {
+              "predicted_boundary": 310,
+              "target_boundary": 310,
+              "matched_predicted": 310,
+              "matched_target": 310
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000721",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6896,
+          "stone_tp": 6511,
+          "stone_fp": 79,
+          "fiber_fp": 87,
+          "fiber_fn": 70,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 506,
+              "target_boundary": 538,
+              "matched_predicted": 480,
+              "matched_target": 482
+            },
+            "2": {
+              "predicted_boundary": 319,
+              "target_boundary": 320,
+              "matched_predicted": 319,
+              "matched_target": 320
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000000",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 9870,
+          "stone_tp": 4442,
+          "stone_fp": 202,
+          "fiber_fp": 60,
+          "fiber_fn": 158,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 663,
+              "target_boundary": 1199,
+              "matched_predicted": 538,
+              "matched_target": 563
+            },
+            "2": {
+              "predicted_boundary": 312,
+              "target_boundary": 289,
+              "matched_predicted": 294,
+              "matched_target": 289
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000075",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 9197,
+          "stone_tp": 4180,
+          "stone_fp": 73,
+          "fiber_fp": 22,
+          "fiber_fn": 872,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 628,
+              "target_boundary": 1164,
+              "matched_predicted": 472,
+              "matched_target": 483
+            },
+            "2": {
+              "predicted_boundary": 342,
+              "target_boundary": 314,
+              "matched_predicted": 221,
+              "matched_target": 199
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000149",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 12579,
+          "stone_tp": 7983,
+          "stone_fp": 138,
+          "fiber_fp": 29,
+          "fiber_fn": 953,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 657,
+              "target_boundary": 1191,
+              "matched_predicted": 630,
+              "matched_target": 630
+            },
+            "2": {
+              "predicted_boundary": 328,
+              "target_boundary": 366,
+              "matched_predicted": 255,
+              "matched_target": 249
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000986",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 53131,
+          "fiber_fp": 106,
+          "fiber_fn": 1882,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 1447,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 399,
+              "target_boundary": 545,
+              "matched_predicted": 278,
+              "matched_target": 282
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001061",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1254,
+          "stone_tp": 815,
+          "stone_fp": 4467,
+          "fiber_fp": 49,
+          "fiber_fn": 480,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 544,
+              "target_boundary": 286,
+              "matched_predicted": 100,
+              "matched_target": 93
+            },
+            "2": {
+              "predicted_boundary": 359,
+              "target_boundary": 379,
+              "matched_predicted": 314,
+              "matched_target": 310
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001135",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6572,
+          "stone_tp": 2660,
+          "stone_fp": 67,
+          "fiber_fp": 34,
+          "fiber_fn": 1166,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 341,
+              "target_boundary": 1002,
+              "matched_predicted": 341,
+              "matched_target": 375
+            },
+            "2": {
+              "predicted_boundary": 260,
+              "target_boundary": 360,
+              "matched_predicted": 214,
+              "matched_target": 214
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001822",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 625,
+          "stone_tp": 594,
+          "stone_fp": 24,
+          "fiber_fp": 75,
+          "fiber_fn": 1236,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 110,
+              "target_boundary": 112,
+              "matched_predicted": 110,
+              "matched_target": 112
+            },
+            "2": {
+              "predicted_boundary": 241,
+              "target_boundary": 331,
+              "matched_predicted": 207,
+              "matched_target": 203
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001897",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 11786,
+          "fiber_fp": 106,
+          "fiber_fn": 425,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 997,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 505,
+              "target_boundary": 531,
+              "matched_predicted": 458,
+              "matched_target": 461
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001971",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 8035,
+          "stone_tp": 6255,
+          "stone_fp": 82,
+          "fiber_fp": 38,
+          "fiber_fn": 1079,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 671,
+              "target_boundary": 912,
+              "matched_predicted": 569,
+              "matched_target": 584
+            },
+            "2": {
+              "predicted_boundary": 296,
+              "target_boundary": 387,
+              "matched_predicted": 257,
+              "matched_target": 250
+            }
+          }
+        }
+      ]
+    },
+    "kidney190": {
+      "checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_resolution_20261028\\unet256\\last.pt",
+      "checkpoint_sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3",
+      "input_size": 256,
+      "metrics": {
+        "stone_dice": 0.810040106459961,
+        "stone_iou": 0.680728914358747,
+        "stone_precision": 0.9202312944127072,
+        "stone_recall": 0.7234161409043113,
+        "stone_tp": 66045,
+        "stone_fp": 5725,
+        "stone_fn": 25251,
+        "fiber_dice": 0.9038329411128243,
+        "fiber_iou": 0.8245394110186012,
+        "fiber_precision": 0.8745373932798358,
+        "fiber_recall": 0.9351592192686381,
+        "fiber_tp": 167069,
+        "fiber_fp": 23968,
+        "fiber_fn": 11584,
+        "mean_dice": 0.8569365237863926,
+        "mean_iou": 0.7526341626886741,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            4327788,
+            5544,
+            23918
+          ],
+          [
+            25201,
+            66045,
+            50
+          ],
+          [
+            11403,
+            181,
+            167069
+          ]
+        ],
+        "valid_pixels": 4627199,
+        "stone_negative_images": 9,
+        "stone_negative_images_with_fp": 1,
+        "stone_negative_fp_image_rate": 0.1111111111111111,
+        "stone_negative_valid_pixels": 1440000,
+        "stone_negative_fp_pixels": 477,
+        "stone_negative_fp_pixel_fraction": 0.00033125
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 6583,
+          "target_boundary": 9396,
+          "matched_predicted": 4648,
+          "matched_target": 4450,
+          "precision": 0.7060610663831081,
+          "recall": 0.4736057896977437,
+          "f_score": 0.5669305824699449
+        },
+        "2": {
+          "predicted_boundary": 12032,
+          "target_boundary": 9833,
+          "matched_predicted": 7933,
+          "matched_target": 7468,
+          "precision": 0.6593251329787234,
+          "recall": 0.7594833723177057,
+          "f_score": 0.7058690070988553
+        }
+      },
+      "visible_stone_area_groups": {
+        "(0,1024]": {
+          "frames": 3,
+          "target_pixels": 2423,
+          "tp": 1798,
+          "pixel_recall": 0.7420553033429633,
+          "frames_any_tp": 2
+        },
+        "(1024,4096]": {
+          "frames": 8,
+          "target_pixels": 14282,
+          "tp": 10454,
+          "pixel_recall": 0.7319703122811931,
+          "frames_any_tp": 8
+        },
+        "(4096,inf]": {
+          "frames": 9,
+          "target_pixels": 74591,
+          "tp": 53793,
+          "pixel_recall": 0.7211727956455872,
+          "frames_any_tp": 9
+        }
+      },
+      "frames": [
+        {
+          "sample_id": "reviewed_video_1_000002",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 971,
+          "stone_tp": 971,
+          "stone_fp": 446,
+          "fiber_fp": 444,
+          "fiber_fn": 69,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 168,
+              "target_boundary": 138,
+              "matched_predicted": 86,
+              "matched_target": 70
+            },
+            "2": {
+              "predicted_boundary": 330,
+              "target_boundary": 313,
+              "matched_predicted": 284,
+              "matched_target": 249
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000032",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1205,
+          "stone_tp": 1205,
+          "stone_fp": 334,
+          "fiber_fp": 452,
+          "fiber_fn": 96,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 176,
+              "target_boundary": 156,
+              "matched_predicted": 151,
+              "matched_target": 130
+            },
+            "2": {
+              "predicted_boundary": 333,
+              "target_boundary": 313,
+              "matched_predicted": 275,
+              "matched_target": 238
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000034",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1125,
+          "stone_tp": 1125,
+          "stone_fp": 331,
+          "fiber_fp": 422,
+          "fiber_fn": 92,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 172,
+              "target_boundary": 152,
+              "matched_predicted": 152,
+              "matched_target": 127
+            },
+            "2": {
+              "predicted_boundary": 333,
+              "target_boundary": 315,
+              "matched_predicted": 290,
+              "matched_target": 253
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000036",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1059,
+          "stone_tp": 1046,
+          "stone_fp": 124,
+          "fiber_fp": 446,
+          "fiber_fn": 73,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 152,
+              "target_boundary": 148,
+              "matched_predicted": 152,
+              "matched_target": 148
+            },
+            "2": {
+              "predicted_boundary": 332,
+              "target_boundary": 313,
+              "matched_predicted": 280,
+              "matched_target": 243
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000053",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 827,
+          "stone_tp": 827,
+          "stone_fp": 515,
+          "fiber_fp": 346,
+          "fiber_fn": 141,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 160,
+              "target_boundary": 126,
+              "matched_predicted": 69,
+              "matched_target": 61
+            },
+            "2": {
+              "predicted_boundary": 331,
+              "target_boundary": 315,
+              "matched_predicted": 312,
+              "matched_target": 286
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000062",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 356,
+          "fiber_fn": 115,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 337,
+              "target_boundary": 319,
+              "matched_predicted": 320,
+              "matched_target": 299
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000071",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 80,
+          "fiber_fn": 418,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 374,
+              "target_boundary": 320,
+              "matched_predicted": 301,
+              "matched_target": 293
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000072",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 3088,
+          "fiber_fn": 412,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 794,
+              "target_boundary": 320,
+              "matched_predicted": 305,
+              "matched_target": 298
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000076",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 76,
+          "fiber_fn": 466,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 368,
+              "target_boundary": 318,
+              "matched_predicted": 282,
+              "matched_target": 274
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000077",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 31,
+          "fiber_fn": 564,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 367,
+              "target_boundary": 320,
+              "matched_predicted": 275,
+              "matched_target": 269
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000079",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 44,
+          "fiber_fn": 523,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 368,
+              "target_boundary": 320,
+              "matched_predicted": 274,
+              "matched_target": 267
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000096",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 477,
+          "fiber_fp": 400,
+          "fiber_fn": 209,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 100,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 352,
+              "target_boundary": 323,
+              "matched_predicted": 263,
+              "matched_target": 243
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000112",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1257,
+          "stone_tp": 313,
+          "stone_fp": 0,
+          "fiber_fp": 68,
+          "fiber_fn": 498,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 82,
+              "target_boundary": 164,
+              "matched_predicted": 15,
+              "matched_target": 17
+            },
+            "2": {
+              "predicted_boundary": 371,
+              "target_boundary": 320,
+              "matched_predicted": 282,
+              "matched_target": 275
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000142",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1803,
+          "stone_tp": 1361,
+          "stone_fp": 25,
+          "fiber_fp": 238,
+          "fiber_fn": 249,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 170,
+              "target_boundary": 194,
+              "matched_predicted": 104,
+              "matched_target": 99
+            },
+            "2": {
+              "predicted_boundary": 339,
+              "target_boundary": 320,
+              "matched_predicted": 314,
+              "matched_target": 304
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000329",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 3157,
+          "stone_tp": 2966,
+          "stone_fp": 91,
+          "fiber_fp": 188,
+          "fiber_fn": 213,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 264,
+              "target_boundary": 264,
+              "matched_predicted": 264,
+              "matched_target": 263
+            },
+            "2": {
+              "predicted_boundary": 366,
+              "target_boundary": 310,
+              "matched_predicted": 312,
+              "matched_target": 310
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000427",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 3422,
+          "stone_tp": 2147,
+          "stone_fp": 0,
+          "fiber_fp": 210,
+          "fiber_fn": 294,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 229,
+              "target_boundary": 302,
+              "matched_predicted": 10,
+              "matched_target": 7
+            },
+            "2": {
+              "predicted_boundary": 366,
+              "target_boundary": 314,
+              "matched_predicted": 301,
+              "matched_target": 292
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000524",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6635,
+          "stone_tp": 6186,
+          "stone_fp": 143,
+          "fiber_fp": 735,
+          "fiber_fn": 173,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 430,
+              "target_boundary": 444,
+              "matched_predicted": 397,
+              "matched_target": 391
+            },
+            "2": {
+              "predicted_boundary": 378,
+              "target_boundary": 314,
+              "matched_predicted": 196,
+              "matched_target": 181
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000525",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6689,
+          "stone_tp": 6247,
+          "stone_fp": 120,
+          "fiber_fp": 671,
+          "fiber_fn": 165,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 430,
+              "target_boundary": 444,
+              "matched_predicted": 400,
+              "matched_target": 399
+            },
+            "2": {
+              "predicted_boundary": 376,
+              "target_boundary": 314,
+              "matched_predicted": 211,
+              "matched_target": 200
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000623",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 8118,
+          "stone_tp": 7178,
+          "stone_fp": 51,
+          "fiber_fp": 721,
+          "fiber_fn": 120,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 437,
+              "target_boundary": 460,
+              "matched_predicted": 296,
+              "matched_target": 290
+            },
+            "2": {
+              "predicted_boundary": 380,
+              "target_boundary": 310,
+              "matched_predicted": 204,
+              "matched_target": 186
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000721",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6896,
+          "stone_tp": 6212,
+          "stone_fp": 342,
+          "fiber_fp": 610,
+          "fiber_fn": 214,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 508,
+              "target_boundary": 538,
+              "matched_predicted": 409,
+              "matched_target": 401
+            },
+            "2": {
+              "predicted_boundary": 382,
+              "target_boundary": 320,
+              "matched_predicted": 249,
+              "matched_target": 218
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000000",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 9870,
+          "stone_tp": 6269,
+          "stone_fp": 723,
+          "fiber_fp": 622,
+          "fiber_fn": 125,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 760,
+              "target_boundary": 1199,
+              "matched_predicted": 463,
+              "matched_target": 422
+            },
+            "2": {
+              "predicted_boundary": 301,
+              "target_boundary": 289,
+              "matched_predicted": 165,
+              "matched_target": 143
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000075",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 9197,
+          "stone_tp": 5425,
+          "stone_fp": 639,
+          "fiber_fp": 308,
+          "fiber_fn": 206,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 645,
+              "target_boundary": 1164,
+              "matched_predicted": 321,
+              "matched_target": 296
+            },
+            "2": {
+              "predicted_boundary": 321,
+              "target_boundary": 314,
+              "matched_predicted": 276,
+              "matched_target": 256
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000149",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 12579,
+          "stone_tp": 7269,
+          "stone_fp": 266,
+          "fiber_fp": 438,
+          "fiber_fn": 306,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 596,
+              "target_boundary": 1191,
+              "matched_predicted": 528,
+              "matched_target": 521
+            },
+            "2": {
+              "predicted_boundary": 372,
+              "target_boundary": 366,
+              "matched_predicted": 291,
+              "matched_target": 267
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000986",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 12,
+          "fiber_fn": 2137,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 508,
+              "target_boundary": 545,
+              "matched_predicted": 249,
+              "matched_target": 246
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001061",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 1254,
+          "stone_tp": 291,
+          "stone_fp": 0,
+          "fiber_fp": 2036,
+          "fiber_fn": 459,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 74,
+              "target_boundary": 286,
+              "matched_predicted": 46,
+              "matched_target": 45
+            },
+            "2": {
+              "predicted_boundary": 709,
+              "target_boundary": 379,
+              "matched_predicted": 334,
+              "matched_target": 314
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001135",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 6572,
+          "stone_tp": 3273,
+          "stone_fp": 672,
+          "fiber_fp": 110,
+          "fiber_fn": 705,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 432,
+              "target_boundary": 1002,
+              "matched_predicted": 333,
+              "matched_target": 332
+            },
+            "2": {
+              "predicted_boundary": 319,
+              "target_boundary": 360,
+              "matched_predicted": 257,
+              "matched_target": 256
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001822",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 625,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 10081,
+          "fiber_fn": 1218,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 112,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 1023,
+              "target_boundary": 331,
+              "matched_predicted": 207,
+              "matched_target": 200
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001897",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 0,
+          "stone_tp": 0,
+          "stone_fp": 0,
+          "fiber_fp": 179,
+          "fiber_fn": 1036,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 0,
+              "target_boundary": 0,
+              "matched_predicted": 0,
+              "matched_target": 0
+            },
+            "2": {
+              "predicted_boundary": 530,
+              "target_boundary": 531,
+              "matched_predicted": 381,
+              "matched_target": 384
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001971",
+          "native_shape": [
+            400,
+            400
+          ],
+          "gt_stone_pixels": 8035,
+          "stone_tp": 5734,
+          "stone_fp": 426,
+          "fiber_fp": 556,
+          "fiber_fn": 288,
+          "boundaries": {
+            "1": {
+              "predicted_boundary": 598,
+              "target_boundary": 912,
+              "matched_predicted": 452,
+              "matched_target": 431
+            },
+            "2": {
+              "predicted_boundary": 372,
+              "target_boundary": 387,
+              "matched_predicted": 243,
+              "matched_target": 224
+            }
+          }
+        }
+      ]
+    }
+  },
+  "video_screening": {
+    "passed": false,
+    "checks": {
+      "stone_dice": true,
+      "fiber_dice": false,
+      "negative_fp_area": true
+    }
+  },
+  "image_best_epoch_diagnostic_only": 15,
+  "performance": {
+    "checkpoint_sha256": "b950d2e8f407fa58d74ecd44f940e9722a2a7856a1d65b8bd49b04e16b7b971f",
+    "input_size": 256,
+    "model_count": 1,
+    "parameter_count": 24601395,
+    "cuda_peak_allocated_mib": 128.77294921875,
+    "warmup_frames": 12,
+    "samples": 87,
+    "scope": "Fresh process, batch1 cached native BGR via OpenCV to native probability maps/masks; excludes decode/display/geometry/memory; accuracy uses PIL separately",
+    "timings": {
+      "pipeline_ms": {
+        "mean": 10.742700001728004,
+        "p50": 11.066799983382225,
+        "p95": 14.821169979404658
+      },
+      "preprocess_ms": {
+        "mean": 1.353851736298409,
+        "p50": 1.4671001117676497,
+        "p95": 1.666960003785789
+      },
+      "model_ms": {
+        "mean": 7.334186195064036,
+        "p50": 7.777700084261596,
+        "p95": 10.388680011965336
+      },
+      "native_postprocess_ms": {
+        "mean": 2.0546620703655583,
+        "p50": 2.2410000674426556,
+        "p95": 2.8788899537175894
+      }
+    },
+    "raw_samples": [
+      {
+        "pipeline_ms": 12.782700010575354,
+        "preprocess_ms": 1.4825999969616532,
+        "model_ms": 8.955300087109208,
+        "native_postprocess_ms": 2.3447999265044928
+      },
+      {
+        "pipeline_ms": 13.30780005082488,
+        "preprocess_ms": 1.4964999863877892,
+        "model_ms": 9.382499963976443,
+        "native_postprocess_ms": 2.4288001004606485
+      },
+      {
+        "pipeline_ms": 13.160299975425005,
+        "preprocess_ms": 1.5098999720066786,
+        "model_ms": 9.215200087055564,
+        "native_postprocess_ms": 2.4351999163627625
+      },
+      {
+        "pipeline_ms": 13.343899976462126,
+        "preprocess_ms": 1.5931000234559178,
+        "model_ms": 9.150999947451055,
+        "native_postprocess_ms": 2.599800005555153
+      },
+      {
+        "pipeline_ms": 13.136500027030706,
+        "preprocess_ms": 1.5366999432444572,
+        "model_ms": 9.116200031712651,
+        "native_postprocess_ms": 2.483600052073598
+      },
+      {
+        "pipeline_ms": 12.044099974445999,
+        "preprocess_ms": 1.4810999855399132,
+        "model_ms": 7.777700084261596,
+        "native_postprocess_ms": 2.7852999046444893
+      },
+      {
+        "pipeline_ms": 13.218999956734478,
+        "preprocess_ms": 1.5048999339342117,
+        "model_ms": 9.960700059309602,
+        "native_postprocess_ms": 1.753399963490665
+      },
+      {
+        "pipeline_ms": 8.281799964606762,
+        "preprocess_ms": 1.1060000397264957,
+        "model_ms": 5.611300002783537,
+        "native_postprocess_ms": 1.5644999220967293
+      },
+      {
+        "pipeline_ms": 14.269999926909804,
+        "preprocess_ms": 1.5249999705702066,
+        "model_ms": 9.903799975290895,
+        "native_postprocess_ms": 2.841199981048703
+      },
+      {
+        "pipeline_ms": 14.63840005453676,
+        "preprocess_ms": 1.6001000767573714,
+        "model_ms": 9.69849992543459,
+        "native_postprocess_ms": 3.339800052344799
+      },
+      {
+        "pipeline_ms": 12.456499971449375,
+        "preprocess_ms": 0.9851999348029494,
+        "model_ms": 9.23029996920377,
+        "native_postprocess_ms": 2.2410000674426556
+      },
+      {
+        "pipeline_ms": 15.678899944759905,
+        "preprocess_ms": 1.1613999959081411,
+        "model_ms": 11.742500006221235,
+        "native_postprocess_ms": 2.7749999426305294
+      },
+      {
+        "pipeline_ms": 13.23049992788583,
+        "preprocess_ms": 1.5444000018760562,
+        "model_ms": 9.39469994045794,
+        "native_postprocess_ms": 2.291399985551834
+      },
+      {
+        "pipeline_ms": 13.552900054492056,
+        "preprocess_ms": 1.5020000282675028,
+        "model_ms": 9.775200043804944,
+        "native_postprocess_ms": 2.27569998241961
+      },
+      {
+        "pipeline_ms": 13.022499973885715,
+        "preprocess_ms": 1.4863000251352787,
+        "model_ms": 9.220699896104634,
+        "native_postprocess_ms": 2.3155000526458025
+      },
+      {
+        "pipeline_ms": 12.982600019313395,
+        "preprocess_ms": 1.5935000265017152,
+        "model_ms": 8.887799922376871,
+        "native_postprocess_ms": 2.5013000704348087
+      },
+      {
+        "pipeline_ms": 10.254100081510842,
+        "preprocess_ms": 1.6463000793009996,
+        "model_ms": 7.089999970048666,
+        "native_postprocess_ms": 1.5178000321611762
+      },
+      {
+        "pipeline_ms": 8.645800058729947,
+        "preprocess_ms": 1.0509000858291984,
+        "model_ms": 5.732999998144805,
+        "native_postprocess_ms": 1.8618999747559428
+      },
+      {
+        "pipeline_ms": 7.340699899941683,
+        "preprocess_ms": 1.0943999513983727,
+        "model_ms": 4.679400008171797,
+        "native_postprocess_ms": 1.5668999403715134
+      },
+      {
+        "pipeline_ms": 8.8439000537619,
+        "preprocess_ms": 1.018499955534935,
+        "model_ms": 5.551000009290874,
+        "native_postprocess_ms": 2.2744000889360905
+      },
+      {
+        "pipeline_ms": 13.557399972341955,
+        "preprocess_ms": 1.6519000055268407,
+        "model_ms": 9.642799966968596,
+        "native_postprocess_ms": 2.262699999846518
+      },
+      {
+        "pipeline_ms": 7.4087000684812665,
+        "preprocess_ms": 1.1411000741645694,
+        "model_ms": 4.772299900650978,
+        "native_postprocess_ms": 1.495300093665719
+      },
+      {
+        "pipeline_ms": 8.020900073461235,
+        "preprocess_ms": 1.043400028720498,
+        "model_ms": 5.081400042399764,
+        "native_postprocess_ms": 1.8961000023409724
+      },
+      {
+        "pipeline_ms": 13.336400035768747,
+        "preprocess_ms": 1.4721000334247947,
+        "model_ms": 9.539299993775785,
+        "native_postprocess_ms": 2.3250000085681677
+      },
+      {
+        "pipeline_ms": 13.268299982883036,
+        "preprocess_ms": 1.6642999835312366,
+        "model_ms": 9.171799989417195,
+        "native_postprocess_ms": 2.432200009934604
+      },
+      {
+        "pipeline_ms": 12.840300099924207,
+        "preprocess_ms": 1.4671001117676497,
+        "model_ms": 8.921699947677553,
+        "native_postprocess_ms": 2.4515000404790044
+      },
+      {
+        "pipeline_ms": 11.17409998551011,
+        "preprocess_ms": 1.526299980469048,
+        "model_ms": 8.079800056293607,
+        "native_postprocess_ms": 1.567999948747456
+      },
+      {
+        "pipeline_ms": 8.979999925941229,
+        "preprocess_ms": 1.1540999403223395,
+        "model_ms": 6.19310000911355,
+        "native_postprocess_ms": 1.6327999765053391
+      },
+      {
+        "pipeline_ms": 9.97859996277839,
+        "preprocess_ms": 1.4898000517860055,
+        "model_ms": 6.887499941512942,
+        "native_postprocess_ms": 1.6012999694794416
+      },
+      {
+        "pipeline_ms": 7.205699919722974,
+        "preprocess_ms": 1.06819998472929,
+        "model_ms": 4.712700028903782,
+        "native_postprocess_ms": 1.424799906089902
+      },
+      {
+        "pipeline_ms": 7.43930006865412,
+        "preprocess_ms": 1.0285000316798687,
+        "model_ms": 4.885099944658577,
+        "native_postprocess_ms": 1.5257000923156738
+      },
+      {
+        "pipeline_ms": 9.583399980328977,
+        "preprocess_ms": 0.9878999553620815,
+        "model_ms": 6.4703000243753195,
+        "native_postprocess_ms": 2.125200000591576
+      },
+      {
+        "pipeline_ms": 9.228499955497682,
+        "preprocess_ms": 1.0689999908208847,
+        "model_ms": 5.808099987916648,
+        "native_postprocess_ms": 2.351399976760149
+      },
+      {
+        "pipeline_ms": 12.736500008031726,
+        "preprocess_ms": 1.510599977336824,
+        "model_ms": 8.92519997432828,
+        "native_postprocess_ms": 2.3007000563666224
+      },
+      {
+        "pipeline_ms": 12.861799914389849,
+        "preprocess_ms": 1.6163999680429697,
+        "model_ms": 8.969399961642921,
+        "native_postprocess_ms": 2.275999984703958
+      },
+      {
+        "pipeline_ms": 13.18200002424419,
+        "preprocess_ms": 1.7189000500366092,
+        "model_ms": 8.889299933798611,
+        "native_postprocess_ms": 2.573800040408969
+      },
+      {
+        "pipeline_ms": 7.572900038212538,
+        "preprocess_ms": 1.2706000125035644,
+        "model_ms": 4.835900035686791,
+        "native_postprocess_ms": 1.4663999900221825
+      },
+      {
+        "pipeline_ms": 7.048600004054606,
+        "preprocess_ms": 1.0240999981760979,
+        "model_ms": 4.649100010283291,
+        "native_postprocess_ms": 1.3753999955952168
+      },
+      {
+        "pipeline_ms": 11.649099993519485,
+        "preprocess_ms": 0.9764999849721789,
+        "model_ms": 8.207299979403615,
+        "native_postprocess_ms": 2.465300029143691
+      },
+      {
+        "pipeline_ms": 8.510800078511238,
+        "preprocess_ms": 1.5007000183686614,
+        "model_ms": 5.583300022408366,
+        "native_postprocess_ms": 1.4268000377342105
+      },
+      {
+        "pipeline_ms": 7.118400069884956,
+        "preprocess_ms": 1.0378999868407845,
+        "model_ms": 4.60340001154691,
+        "native_postprocess_ms": 1.4771000714972615
+      },
+      {
+        "pipeline_ms": 7.302200072444975,
+        "preprocess_ms": 1.0288000339642167,
+        "model_ms": 4.545100033283234,
+        "native_postprocess_ms": 1.728300005197525
+      },
+      {
+        "pipeline_ms": 7.545300060883164,
+        "preprocess_ms": 1.0184000711888075,
+        "model_ms": 4.967899993062019,
+        "native_postprocess_ms": 1.5589999966323376
+      },
+      {
+        "pipeline_ms": 6.876999977976084,
+        "preprocess_ms": 1.0349999647587538,
+        "model_ms": 4.466800019145012,
+        "native_postprocess_ms": 1.375199994072318
+      },
+      {
+        "pipeline_ms": 6.778600043617189,
+        "preprocess_ms": 0.9806000161916018,
+        "model_ms": 4.457699949853122,
+        "native_postprocess_ms": 1.340300077572465
+      },
+      {
+        "pipeline_ms": 6.7940999288111925,
+        "preprocess_ms": 1.0098000057041645,
+        "model_ms": 4.4198998948559165,
+        "native_postprocess_ms": 1.3644000282511115
+      },
+      {
+        "pipeline_ms": 7.5252000242471695,
+        "preprocess_ms": 1.2858000118285418,
+        "model_ms": 4.47739998344332,
+        "native_postprocess_ms": 1.762000028975308
+      },
+      {
+        "pipeline_ms": 7.810599985532463,
+        "preprocess_ms": 1.049600075930357,
+        "model_ms": 5.219099926762283,
+        "native_postprocess_ms": 1.5418999828398228
+      },
+      {
+        "pipeline_ms": 7.686999975703657,
+        "preprocess_ms": 1.0241999989375472,
+        "model_ms": 5.210099974647164,
+        "native_postprocess_ms": 1.4527000021189451
+      },
+      {
+        "pipeline_ms": 12.327099917456508,
+        "preprocess_ms": 3.625400015152991,
+        "model_ms": 6.830699974671006,
+        "native_postprocess_ms": 1.8709999276325107
+      },
+      {
+        "pipeline_ms": 15.126699930988252,
+        "preprocess_ms": 1.6681000124663115,
+        "model_ms": 10.575299966149032,
+        "native_postprocess_ms": 2.8832999523729086
+      },
+      {
+        "pipeline_ms": 13.956999988295138,
+        "preprocess_ms": 1.534300041384995,
+        "model_ms": 9.900799952447414,
+        "native_postprocess_ms": 2.5218999944627285
+      },
+      {
+        "pipeline_ms": 13.639200013130903,
+        "preprocess_ms": 1.5227999538183212,
+        "model_ms": 9.785000002011657,
+        "native_postprocess_ms": 2.3314000573009253
+      },
+      {
+        "pipeline_ms": 13.75369995366782,
+        "preprocess_ms": 1.5481999143958092,
+        "model_ms": 9.303900063969195,
+        "native_postprocess_ms": 2.9015999753028154
+      },
+      {
+        "pipeline_ms": 14.351700083352625,
+        "preprocess_ms": 1.5483000315725803,
+        "model_ms": 10.090700001455843,
+        "native_postprocess_ms": 2.7127000503242016
+      },
+      {
+        "pipeline_ms": 12.708900030702353,
+        "preprocess_ms": 1.6262000426650047,
+        "model_ms": 7.849699934013188,
+        "native_postprocess_ms": 3.23300005402416
+      },
+      {
+        "pipeline_ms": 16.251099994406104,
+        "preprocess_ms": 1.57220009714365,
+        "model_ms": 11.035599978640676,
+        "native_postprocess_ms": 3.6432999186217785
+      },
+      {
+        "pipeline_ms": 15.073199989274144,
+        "preprocess_ms": 1.8077000277116895,
+        "model_ms": 10.667899972759187,
+        "native_postprocess_ms": 2.5975999888032675
+      },
+      {
+        "pipeline_ms": 14.899499947205186,
+        "preprocess_ms": 1.8783999839797616,
+        "model_ms": 10.152500006370246,
+        "native_postprocess_ms": 2.868599956855178
+      },
+      {
+        "pipeline_ms": 13.328100088983774,
+        "preprocess_ms": 1.5404000878334045,
+        "model_ms": 9.378699935041368,
+        "native_postprocess_ms": 2.4090000661090016
+      },
+      {
+        "pipeline_ms": 13.07059999089688,
+        "preprocess_ms": 1.5217000618577003,
+        "model_ms": 9.285700041800737,
+        "native_postprocess_ms": 2.263199887238443
+      },
+      {
+        "pipeline_ms": 11.066799983382225,
+        "preprocess_ms": 1.445900066755712,
+        "model_ms": 8.093999931588769,
+        "native_postprocess_ms": 1.526899985037744
+      },
+      {
+        "pipeline_ms": 7.342400029301643,
+        "preprocess_ms": 1.0872000129893422,
+        "model_ms": 4.763899953104556,
+        "native_postprocess_ms": 1.4913000632077456
+      },
+      {
+        "pipeline_ms": 9.625900071114302,
+        "preprocess_ms": 1.0764000471681356,
+        "model_ms": 6.3087999587878585,
+        "native_postprocess_ms": 2.2407000651583076
+      },
+      {
+        "pipeline_ms": 13.17739998921752,
+        "preprocess_ms": 1.6365000046789646,
+        "model_ms": 9.24059993121773,
+        "native_postprocess_ms": 2.300300053320825
+      },
+      {
+        "pipeline_ms": 9.521099971607327,
+        "preprocess_ms": 1.4204999897629023,
+        "model_ms": 6.452000001445413,
+        "native_postprocess_ms": 1.6485999803990126
+      },
+      {
+        "pipeline_ms": 8.523100055754185,
+        "preprocess_ms": 1.0415000142529607,
+        "model_ms": 6.10130000859499,
+        "native_postprocess_ms": 1.3803000329062343
+      },
+      {
+        "pipeline_ms": 7.199899991974235,
+        "preprocess_ms": 1.0581000242382288,
+        "model_ms": 4.745100042782724,
+        "native_postprocess_ms": 1.3966999249532819
+      },
+      {
+        "pipeline_ms": 9.281200007535517,
+        "preprocess_ms": 1.026200014166534,
+        "model_ms": 5.877200048416853,
+        "native_postprocess_ms": 2.3777999449521303
+      },
+      {
+        "pipeline_ms": 10.341699933633208,
+        "preprocess_ms": 1.5301000094041228,
+        "model_ms": 6.39739993494004,
+        "native_postprocess_ms": 2.4141999892890453
+      },
+      {
+        "pipeline_ms": 13.953799963928759,
+        "preprocess_ms": 1.6577999340370297,
+        "model_ms": 10.48990001436323,
+        "native_postprocess_ms": 1.8061000155285
+      },
+      {
+        "pipeline_ms": 7.976999972015619,
+        "preprocess_ms": 1.0963999666273594,
+        "model_ms": 5.310000036843121,
+        "native_postprocess_ms": 1.5705999685451388
+      },
+      {
+        "pipeline_ms": 7.387900026515126,
+        "preprocess_ms": 1.0576000204309821,
+        "model_ms": 4.965499974787235,
+        "native_postprocess_ms": 1.3648000312969089
+      },
+      {
+        "pipeline_ms": 7.4347000336274505,
+        "preprocess_ms": 1.1455999920144677,
+        "model_ms": 4.771600011736155,
+        "native_postprocess_ms": 1.5175000298768282
+      },
+      {
+        "pipeline_ms": 8.173099951818585,
+        "preprocess_ms": 1.1312999995425344,
+        "model_ms": 4.728900035843253,
+        "native_postprocess_ms": 2.312899916432798
+      },
+      {
+        "pipeline_ms": 13.167400029487908,
+        "preprocess_ms": 1.5060000587254763,
+        "model_ms": 9.35639999806881,
+        "native_postprocess_ms": 2.304999972693622
+      },
+      {
+        "pipeline_ms": 13.371899956837296,
+        "preprocess_ms": 1.4678000006824732,
+        "model_ms": 9.60079999640584,
+        "native_postprocess_ms": 2.3032999597489834
+      },
+      {
+        "pipeline_ms": 12.871299986727536,
+        "preprocess_ms": 1.4881000388413668,
+        "model_ms": 9.102399926632643,
+        "native_postprocess_ms": 2.280800021253526
+      },
+      {
+        "pipeline_ms": 10.769100044853985,
+        "preprocess_ms": 1.547900028526783,
+        "model_ms": 7.822499959729612,
+        "native_postprocess_ms": 1.3987000565975904
+      },
+      {
+        "pipeline_ms": 7.187599898315966,
+        "preprocess_ms": 1.0359999723732471,
+        "model_ms": 4.759200033731759,
+        "native_postprocess_ms": 1.3923998922109604
+      },
+      {
+        "pipeline_ms": 7.016299990937114,
+        "preprocess_ms": 1.0784000623971224,
+        "model_ms": 4.492799984291196,
+        "native_postprocess_ms": 1.4450999442487955
+      },
+      {
+        "pipeline_ms": 7.587800035253167,
+        "preprocess_ms": 1.155099947936833,
+        "model_ms": 4.697400028817356,
+        "native_postprocess_ms": 1.7353000584989786
+      },
+      {
+        "pipeline_ms": 7.063600001856685,
+        "preprocess_ms": 0.9715000633150339,
+        "model_ms": 4.691299982368946,
+        "native_postprocess_ms": 1.4007999561727047
+      },
+      {
+        "pipeline_ms": 7.3315000627189875,
+        "preprocess_ms": 1.0057000909000635,
+        "model_ms": 4.775599925778806,
+        "native_postprocess_ms": 1.5502000460401177
+      },
+      {
+        "pipeline_ms": 7.206900045275688,
+        "preprocess_ms": 1.0619000531733036,
+        "model_ms": 4.781599971465766,
+        "native_postprocess_ms": 1.3634000206366181
+      },
+      {
+        "pipeline_ms": 12.967500020749867,
+        "preprocess_ms": 1.3841999461874366,
+        "model_ms": 9.179300046525896,
+        "native_postprocess_ms": 2.404000028036535
+      },
+      {
+        "pipeline_ms": 13.366600032895803,
+        "preprocess_ms": 1.5073000686243176,
+        "model_ms": 9.042599936947227,
+        "native_postprocess_ms": 2.8167000273242593
+      }
+    ],
+    "post_release_cuda_allocated_mib": 0.0
+  },
+  "adopted": false,
+  "s2_accepted": false,
+  "scope": "Single-seed new-data matched-update development baseline; no independent case or temporal/geometry acceptance"
+}

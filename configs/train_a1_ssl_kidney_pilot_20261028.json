@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_SSL_KIDNEY_paired_pilot_protocol_20261028",
+  "status": "DEFERRED_READINESS_FAILED",
+  "executable": false,
+  "implementation_status": "Protocol only; no pilot trainer or active-unlabeled manifest created. Legacy coupled Endo-SemiS trainer is not a substitute for this one-factor pilot",
+  "readiness_config": "diagnose_kidney_ssl_readiness_20261028.json",
+  "readiness_result": "../runs/a1_sup_kidney_ssl_diagnosis_20261028/diagnosis.json",
+  "required_primary_policy": "consensus_strong",
+  "failed_condition": "fiber_provisional_train_precision: observed0.9412222556995079 below frozen0.95; not a verified clinical error rate",
+  "data": {
+    "source_manifest": "../datasets/ureter_semis_a1_sup_kidney_only_20261027/manifest.json",
+    "supervised_images": 190,
+    "proposed_unlabeled_images": 800,
+    "active_unlabeled_manifest_created": false,
+    "diagnostic_masks_promoted_to_training": false,
+    "source_policy": "kidney_stones_fiber_v1 only; stone_new banned; validation videos and all derivatives never train"
+  },
+  "initialization": {
+    "checkpoint": "../runs/a1_sup_kidney_dual_20261028/single30_seed42/last.pt",
+    "mode": "new paired experiment from same pure-kidney supervised weights; reset optimizer, scheduler, AMP and RNG; never resume with changed losses",
+    "teacher_updates": false,
+    "student_model_count": 1
+  },
+  "shared_training": {
+    "epochs": 5,
+    "steps_per_epoch": 95,
+    "optimizer_updates_per_arm": 475,
+    "size": 256,
+    "batch_size": 2,
+    "seed": 42,
+    "learning_rate": 0.00001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR epochs5 eta_min1e-6",
+    "class_weights": [1, 2, 4],
+    "supervised_loss": "weighted CE plus foreground Dice; original provisional background retained"
+  },
+  "arms": {
+    "supervised_control": {"unsupervised_weight": 0, "unlabeled_forward": false},
+    "fixed_sparse_pseudo": {
+      "unlabeled_batch_size": 2,
+      "unlabeled_sampling": "independent seeded shuffle each epoch;95 batches per epoch; save generator state",
+      "pseudo_source": "new versioned frozen teacher-consensus artifact only after readiness passes; diagnostic masks are not a training dataset",
+      "loss": "class-balanced masked CE on strong photometric view, with geometric transforms applied identically to image and static mask",
+      "lambda_per_epoch": [0.02, 0.04, 0.06, 0.08, 0.1],
+      "background_pixel_cap": "at most4x accepted foreground pixels per batch, seeded selection",
+      "minimum_accepted_foreground_pixels_per_batch": 16,
+      "no_foreground_batch_policy": "skip unsupervised term; keep supervised update",
+      "mutual_learning": false,
+      "cross_student_pseudo_labels": false
+    }
+  },
+  "selection": "Fixed final epoch5 versus matched supervised control; frozen joint gates; selected epochs diagnostic only",
+  "stop_conditions": [
+    "Fail readiness: no pilot launch, no threshold relaxation after seeing results",
+    "Any nonfinite loss or changed input/source/checkpoint identity: stop immediately",
+    "Existing two-consecutive-epoch foreground-collapse check",
+    "Compared with same-epoch supervised control, fiber Dice drops by>0.02 or stone Recall by>0.05 for two consecutive epochs: stop and retain diagnosis",
+    "Accepted stone or fiber pseudo supervision absent for two consecutive epochs: stop",
+    "No automatic extension beyond fixed5 epochs"
+  ],
+  "limitations": "All numbers are development protocol choices, not clinical acceptance criteria; repeated29-frame validation and provisional source labels remain limited. No teacher accuracy inferred from reserve coverage or confidence"
+}

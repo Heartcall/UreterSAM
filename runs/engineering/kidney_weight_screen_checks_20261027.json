@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "only_class_weights_changed": true,
+    "preflight_configuration_frozen_before_start": true,
+    "identical_inputs_sources_runtime": true,
+    "snapshot_and_438_active_inputs_unchanged": true,
+    "same_15_epochs_1425_updates_uniform_190_images": true,
+    "a0_and_validation_exactly_reproduced": true,
+    "selected_checkpoint_matches_history": true,
+    "validation_not_trained_unlabeled_unused": true,
+    "diagnosis_counts_reproduce_all_reference_fiber_metrics": true,
+    "candidate_diagnosis_reproduces_fiber_metrics": true,
+    "job_completed_comparison": true
+  },
+  "all_passed": true
+}

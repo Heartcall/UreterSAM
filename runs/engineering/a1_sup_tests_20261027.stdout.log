@@ -1,0 +1,16 @@
+supervised epoch=1 stone=0.04 fiber=0.999 passed=False
+supervised epoch=2 stone=0.04 fiber=0.999 passed=False
+supervised epoch=3 stone=0.04 fiber=0.999 passed=False
+supervised epoch=1 stone=0.10328185328185328 fiber=0.10037174721189591 passed=True
+supervised epoch=2 stone=0.10326351680467609 fiber=0.10163339382940109 passed=True
+supervised epoch=1 stone=0.10328185328185328 fiber=0.10037174721189591 passed=True
+supervised epoch=2 stone=0.10326351680467609 fiber=0.10163339382940109 passed=True
+val epoch=1 mean_dice=0.500000 negative_fp_images=0
+val epoch=2 mean_dice=0.500000 negative_fp_images=0
+val epoch=1 mean_dice=0.500000 negative_fp_images=0
+val epoch=2 mean_dice=0.500000 negative_fp_images=0
+val epoch=2 mean_dice=0.500000 negative_fp_images=0
+val epoch=1 mean_dice=0.400000 negative_fp_images=0
+val epoch=2 mean_dice=0.400000 negative_fp_images=0
+val epoch=1 mean_dice=0.400000 negative_fp_images=0
+val epoch=2 mean_dice=0.400000 negative_fp_images=0

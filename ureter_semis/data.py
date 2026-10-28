@@ -60,11 +60,18 @@ class UreterDataset(Dataset):
             return {"weak": _tensor(weak), "strong": _tensor(_strong(weak.copy())), "name": str(image_path)}
 
         mask_path = self.root / sample["mask"]
-        mask = Image.fromarray(read_class_mask(mask_path)).resize(self.size, Image.Resampling.NEAREST)
+        original_mask = read_class_mask(mask_path)
+        presence = sample.get("stone_presence_review", "unknown")
+        if presence == "unknown":
+            presence = "present" if (original_mask == 1).any() else (
+                "absent" if (original_mask != 255).all() else "unknown")
+        mask = Image.fromarray(original_mask).resize(self.size, Image.Resampling.NEAREST)
         if self.mode == "train":
             image, mask = _geometric(image, mask)
         mask_tensor = torch.from_numpy(np.asarray(mask, dtype=np.int64).copy()).long()
-        return {"image": _tensor(image), "mask": mask_tensor, "name": str(image_path)}
+        return {"image": _tensor(image), "mask": mask_tensor, "name": str(image_path),
+                "stone_presence": presence, "source_dataset": sample.get("source_dataset", "unspecified"),
+                "native_fiber_annotation": bool((original_mask == 2).any())}
 
 
 def load_manifest(path: str | Path) -> tuple[Path, dict]:

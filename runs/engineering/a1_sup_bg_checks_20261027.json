@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-10-27T10:45:58.362089+00:00",
+  "checks": {
+    "a0_metrics_unchanged_after_single_model_support": true,
+    "all_active_input_hashes_match_launch": true,
+    "core_sources_match_launch": true,
+    "no_unlabeled_images_used": true,
+    "both_videos_validation_only": true,
+    "old_run_stays_retired": true,
+    "a0_checkpoint_unchanged": true
+  },
+  "active_input_files_checked": 758,
+  "tests": {
+    "total": 53,
+    "passed": 51,
+    "environment_blocked": 2,
+    "blocked_reason": "Unchanged review loopback HTTP tests: sandbox WinError 10013"
+  },
+  "targeted_supervised_tests_passed": 4,
+  "status": {
+    "completed_epoch": 5,
+    "planned_epochs": 5,
+    "state": "completed",
+    "best_epoch": 4,
+    "best_passed_screening": false,
+    "resume_granularity": "epoch"
+  }
+}

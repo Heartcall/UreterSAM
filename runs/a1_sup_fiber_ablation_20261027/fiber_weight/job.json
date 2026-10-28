@@ -1,0 +1,14 @@
+{
+  "pid": 32812,
+  "experiment": "A1_SUP_FIBER_fiber_weight_seed42_screen15_20261027",
+  "config_sha256": "d14e5bbe502293b0c91e41ba4af26d685da63b3a55748d48744b7b036ef78e3a",
+  "planned_epochs": 15,
+  "mode": "supervised_single_network",
+  "model_count": 1,
+  "unlabeled_images_used": 0,
+  "training_video_frames": 0,
+  "validation_frames": 29,
+  "phase": "completed_short_screen",
+  "screening_passed": false,
+  "best_checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_fiber_ablation_20261027\\fiber_weight\\training\\best.pt"
+}

@@ -1,0 +1,1167 @@
+{
+  "groups": [
+    {
+      "group_id": "03d1a8855b01688fa4424ccc",
+      "split": "train",
+      "canonical_index": 2213,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "122_jpg",
+      "canonical_counts": {
+        "fiber": 1,
+        "stone": 1
+      },
+      "members_metadata": [
+        {
+          "index": 171,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\174_jpg.rf.0a69fb89676bd09fb2a0220816235ad7.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\174_jpg.rf.0a69fb89676bd09fb2a0220816235ad7.txt",
+          "source_label_sha256": "38c3a4d87420cc6cc9c5a6feb3cf3226212d177f5468dc5ae4e99d6cd4181f46",
+          "image_sha256": "5f6df1a8ca104e702e5fa4968603dc7107eef4c5a729ec34e72b09916602779c",
+          "family": "174_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 172,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\174_jpg.rf.2d3076a9726be3ff5ed92670dfd50097.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\174_jpg.rf.2d3076a9726be3ff5ed92670dfd50097.txt",
+          "source_label_sha256": "f73155a9f794f958ff95c9b10f641b2644c3ae1b286865efbd25efc8c3538935",
+          "image_sha256": "15a200ac221cb77566db8180e3e1e8656ebee082e564e7e6232c8bd8dc106c6f",
+          "family": "174_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 173,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\174_jpg.rf.721b85baa69083be820a139af0fd1362.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\174_jpg.rf.721b85baa69083be820a139af0fd1362.txt",
+          "source_label_sha256": "d336ea15cd09e415dbd2e7f7685ee0e25b8977107b06f409c0b7dfd63083b18c",
+          "image_sha256": "ffc172e0f74cb47bf2ba54953a90f5efca3304acf94a73350017bcaf131ce012",
+          "family": "174_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 2213,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "valid",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\images\\122_jpg.rf.614c22e8d0184fdfc46f9dc73a57a263.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\valid\\labels\\122_jpg.rf.614c22e8d0184fdfc46f9dc73a57a263.txt",
+          "source_label_sha256": "492977f8a6c2c066edac3c1a7e228406b75945b7cdf25a776fe9127ed032609c",
+          "image_sha256": "ee531c42d2c736f6908d5a654aa53fb4f37002c38c1bb1c2505a5a1f3e59c892",
+          "family": "122_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "fiber": 1,
+            "stone": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "verified_D4_source_disagreement_only",
+      "member_index": 171,
+      "alignment": {
+        "query_index": 0,
+        "reference_index": 0,
+        "d4_orientation": 0,
+        "phash_distance": 0,
+        "rgb_mae": 0.0023743872549019606,
+        "gray_correlation": 0.9999751139531474
+      },
+      "canonical_fiber_pixels_256": 97,
+      "aligned_member_fiber_pixels_256": 0,
+      "fiber_disagreement_pixels_256": 97,
+      "fiber_union_overlap_with_other_source_laser_pixels_256": 0,
+      "fiber_union_pixels_256": 97,
+      "laser_overlap_fraction": 0.0
+    },
+    {
+      "group_id": "2a4deea80ad27e0b0434237e",
+      "split": "train",
+      "canonical_index": 1480,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "144_jpg",
+      "canonical_counts": {
+        "stone": 2,
+        "fiber": 1,
+        "tissue": 2
+      },
+      "members_metadata": [
+        {
+          "index": 291,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\224_jpg.rf.40f84a6a51366454772f9259d2a3d5ef.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\224_jpg.rf.40f84a6a51366454772f9259d2a3d5ef.txt",
+          "source_label_sha256": "2381232f1b27868eaa3fa23cab1bb1035a537c24c2d4ef556cedbf17875bb068",
+          "image_sha256": "7a168117164ef7fa4ec55c44bf81ea62b88c5179de6bcfc391209525ab8828e8",
+          "family": "224_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 2,
+            "tissue": 2
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 292,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\224_jpg.rf.56e8ce26821fcc22339dd80e9d62ec9b.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\224_jpg.rf.56e8ce26821fcc22339dd80e9d62ec9b.txt",
+          "source_label_sha256": "3af9e5b09f0f8c1b7f9a51ab4a22c37aa8a4fad5a8a1c45444c82687870c75f6",
+          "image_sha256": "69f648af74464cf9ebf8e6894c2d324e71ccab93fc3184124a9aed24daca9d8a",
+          "family": "224_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 2,
+            "tissue": 2
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 293,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\224_jpg.rf.97d3217534c85d1f0cb9c62b2797b284.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\224_jpg.rf.97d3217534c85d1f0cb9c62b2797b284.txt",
+          "source_label_sha256": "b66a3a15ba9570d5ff78256e11d4553d310cf64c8aa1684ffee605eeb962dac3",
+          "image_sha256": "9ed46ab1138e11dc135901df646ea31515d1dbfda5d1b3771cad4716fa32af9f",
+          "family": "224_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 2,
+            "tissue": 2
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 1480,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\144_jpg.rf.9fe970358ec1e0b86ef4ea33e1fcd42e.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\144_jpg.rf.9fe970358ec1e0b86ef4ea33e1fcd42e.txt",
+          "source_label_sha256": "dbddcea0241b304376ad307b4408a3b52eb4a4b68f5d01538af33cf66e216689",
+          "image_sha256": "0537eb7feb3fa0f09774f54e3a14477a996d853fffcbbb379b0999b860a32945",
+          "family": "144_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 2,
+            "fiber": 1,
+            "tissue": 2
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1481,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\144_jpg.rf.b0f68a5af602ec43522a42053b66db30.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\144_jpg.rf.b0f68a5af602ec43522a42053b66db30.txt",
+          "source_label_sha256": "cf87b99055e8813d394b9db0c03d87c207b3b4c07c6a5d3fa55b0ca94297a0ca",
+          "image_sha256": "a9e3980f8be6fb8867c362952097708dc4516e4039a2e4c6d5f53fd081f6bf88",
+          "family": "144_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 2,
+            "fiber": 1,
+            "tissue": 2
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1482,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\144_jpg.rf.e55c3badacca3a503b2bdad0d199ace3.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\144_jpg.rf.e55c3badacca3a503b2bdad0d199ace3.txt",
+          "source_label_sha256": "18816ca8487d659e8ad8bc52b99620460b7b83c5c627f57a9c4ad725380fbed8",
+          "image_sha256": "429436dd00bc290d12aa2d7c509ee8f82c35f5efe8e8902206e0bec6fe35efd3",
+          "family": "144_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 2,
+            "fiber": 1,
+            "tissue": 2
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "no_verified_direct_D4_match_no_label_overlap_claim"
+    },
+    {
+      "group_id": "1682766354779e0e22b63efd",
+      "split": "reserved_test",
+      "canonical_index": 2315,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "148_jpg",
+      "canonical_counts": {
+        "stone": 1,
+        "fiber": 1,
+        "tissue": 1
+      },
+      "members_metadata": [
+        {
+          "index": 303,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\230_jpg.rf.5035da0634c26eab8e830c1a6a3e5b7f.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\230_jpg.rf.5035da0634c26eab8e830c1a6a3e5b7f.txt",
+          "source_label_sha256": "5530122a0d20bb36e437e43761ca93a26371b2fd682db5a3a378bbbee211cb5c",
+          "image_sha256": "103da83f8e2a6d11780f1fb5f913721cb4f4d42e5993c9f0afe4a62d908a9016",
+          "family": "230_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 1,
+            "laser": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 304,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\230_jpg.rf.ac042d5c3040b59360a2e25b8ca62849.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\230_jpg.rf.ac042d5c3040b59360a2e25b8ca62849.txt",
+          "source_label_sha256": "a8f99ecc66465abc39a11ac0e56857fae36cd63f5bfc37bd37f271e6fe32f0cc",
+          "image_sha256": "6cc1f3ad273ff5a5788b5852a9360908b0413ec5598d0d49eb9c6710094a4074",
+          "family": "230_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 1,
+            "laser": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 305,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\230_jpg.rf.ed5b4d17fdeb46e2c6348454422b3bb5.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\230_jpg.rf.ed5b4d17fdeb46e2c6348454422b3bb5.txt",
+          "source_label_sha256": "1953a22e21da28fac72d32b3dbfa097f97d0e3df2fec044eafe2e85adf70ddec",
+          "image_sha256": "646b422d430deb2d76efa1d5836370f2e4bdf46760acea1001148106b153d618",
+          "family": "230_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 1,
+            "laser": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 2315,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "test",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\images\\148_jpg.rf.c05ea76db21041cf159cc315a9ee268e.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\labels\\148_jpg.rf.c05ea76db21041cf159cc315a9ee268e.txt",
+          "source_label_sha256": "54314c59bd3ba070088a2d973184aec11caec067f4c24ec71248f3f5351edca9",
+          "image_sha256": "3db16e4ebabda61815ecb584365824ec9c3fd4d32bb558bb38ef457e85ad1828",
+          "family": "148_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 1,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "skipped_reserved_test_metadata_only"
+    },
+    {
+      "group_id": "e4a3e164d6d744a489817e05",
+      "split": "image_val",
+      "canonical_index": 1487,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "149_jpg",
+      "canonical_counts": {
+        "stone": 1,
+        "fiber": 1,
+        "tissue": 1
+      },
+      "members_metadata": [
+        {
+          "index": 309,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\234_jpg.rf.05ef6418b39123bacc21a2e8f8c5ef8c.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\234_jpg.rf.05ef6418b39123bacc21a2e8f8c5ef8c.txt",
+          "source_label_sha256": "989dc9bfb6c792dc81c6ead0fe89a6bbebdbc39dd8d4f86504967e201bd25875",
+          "image_sha256": "f967e16ecd53a875f2a18ae16632022369e10bb48a58288e1086582a579b4a35",
+          "family": "234_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 1,
+            "laser": 1,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 310,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\234_jpg.rf.b3f2695698dee80b6e0b861b666d40d1.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\234_jpg.rf.b3f2695698dee80b6e0b861b666d40d1.txt",
+          "source_label_sha256": "b540065358353f803fbbc483c153442bba2068b438e96760c03d48dd586598ae",
+          "image_sha256": "bbe9bb25ead268a287577b3fe4f59795d07156e11b8ef04447332aef2fe30407",
+          "family": "234_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 1,
+            "laser": 1,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 311,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\234_jpg.rf.bda4cc1afa8ae555c203980d20898376.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\234_jpg.rf.bda4cc1afa8ae555c203980d20898376.txt",
+          "source_label_sha256": "595a8e392df7965f2fc8c4c7ce9bfae1a6c49c926fd6a98f2f72f2bee472edd5",
+          "image_sha256": "663a375a9374abe3809cec661b751b577ffda2bc214e31505b45b02778e4fc88",
+          "family": "234_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 1,
+            "laser": 1,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 1486,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\149_jpg.rf.0be346c942c438a983a2dda43c408cb0.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\149_jpg.rf.0be346c942c438a983a2dda43c408cb0.txt",
+          "source_label_sha256": "fcff38d5965adf26b67170709a153a5d18c7e720749bacd8b7e46474eac82fa3",
+          "image_sha256": "66e09fd8be443b1bfc0d017123b4dacfe02e7b20cfe9829d5ca6a94059c0f4b6",
+          "family": "149_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 1,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1487,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\149_jpg.rf.1c469ba8d4af15998ea440244a0f827c.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\149_jpg.rf.1c469ba8d4af15998ea440244a0f827c.txt",
+          "source_label_sha256": "5e8a6fc3fa57d69bc223468bb2591a20ef451f73df5854b5436b8e52b86c6b73",
+          "image_sha256": "23128203ed8f2233fa77983b656c4864c342b1ae9c1241de40c7693b25ecf6ef",
+          "family": "149_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 1,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1488,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\149_jpg.rf.4e70e40d1881140fa49d4859b1b0d390.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\149_jpg.rf.4e70e40d1881140fa49d4859b1b0d390.txt",
+          "source_label_sha256": "5cfc6a697e6d3d06f200473b4416992d8f02e7bd1923341a88a546a8880ffe5b",
+          "image_sha256": "a1d9a6c2f794aa87ddb4969cf2311712ee8ef7a6b058fe71ef53a77c25810a9d",
+          "family": "149_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 1,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "verified_D4_source_disagreement_only",
+      "member_index": 309,
+      "alignment": {
+        "query_index": 0,
+        "reference_index": 0,
+        "d4_orientation": 4,
+        "phash_distance": 0,
+        "rgb_mae": 0.0680453431372549,
+        "gray_correlation": 0.9981898165831442
+      },
+      "canonical_fiber_pixels_256": 150,
+      "aligned_member_fiber_pixels_256": 0,
+      "fiber_disagreement_pixels_256": 150,
+      "fiber_union_overlap_with_other_source_laser_pixels_256": 0,
+      "fiber_union_pixels_256": 150,
+      "laser_overlap_fraction": 0.0
+    },
+    {
+      "group_id": "f993d25068db43df97b0a2db",
+      "split": "reserved_test",
+      "canonical_index": 2317,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "153_jpg",
+      "canonical_counts": {
+        "fiber": 1,
+        "stone": 2,
+        "tissue": 1
+      },
+      "members_metadata": [
+        {
+          "index": 321,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\242_jpg.rf.834e0aeb9b247caed8bbbc1e20aafee6.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\242_jpg.rf.834e0aeb9b247caed8bbbc1e20aafee6.txt",
+          "source_label_sha256": "ff2cb486094b5c51da081dbec678c0226358ec4f4c13769a259935e07b770fc2",
+          "image_sha256": "faf99ef36ad61c83661a0ee9b2b7c261f5c1190ae4240eda5c1ad5be461333e1",
+          "family": "242_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "laser": 1,
+            "stone": 2,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 322,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\242_jpg.rf.abcaa739448c3ad08daea0f3ce7d748f.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\242_jpg.rf.abcaa739448c3ad08daea0f3ce7d748f.txt",
+          "source_label_sha256": "3b78feba74b79722fc435c5726ae6749854321ca4b2786324948212d4fcc2ec7",
+          "image_sha256": "a232fae7fe451aba9bb49f558239dd2802e632089dce3da5ea8a901d062f4e6f",
+          "family": "242_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "laser": 1,
+            "stone": 2,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 323,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\242_jpg.rf.c0c7767e327835a11879335d39e3df09.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\242_jpg.rf.c0c7767e327835a11879335d39e3df09.txt",
+          "source_label_sha256": "477a9f3db660b15e5e6027671d72c22379a71e7170b59974626f1d6612c518da",
+          "image_sha256": "2329ec598cb44d8fd23750d2e7e0b261893949effb9d1e9d9bea6144346ea7c8",
+          "family": "242_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "laser": 1,
+            "stone": 2,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 2317,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "test",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\images\\153_jpg.rf.481c31b3763914d92190261fa4b8edc0.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\labels\\153_jpg.rf.481c31b3763914d92190261fa4b8edc0.txt",
+          "source_label_sha256": "0e3c604ab4698143ce4f1e47bfa99aceac03c4696b67ac0501847ab5d6f2817b",
+          "image_sha256": "182bcb0287d107e5bc1d973ea31229e526e17c579924019f99bf4b5c20da6673",
+          "family": "153_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "fiber": 1,
+            "stone": 2,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "skipped_reserved_test_metadata_only"
+    },
+    {
+      "group_id": "ecc82ffbc242f725fc3090ae",
+      "split": "image_val",
+      "canonical_index": 1501,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "155_jpg",
+      "canonical_counts": {
+        "stone": 2,
+        "fiber": 1,
+        "tissue": 1
+      },
+      "members_metadata": [
+        {
+          "index": 333,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\249_jpg.rf.41b8f3a2cb7ec8bb343292085bf9179d.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\249_jpg.rf.41b8f3a2cb7ec8bb343292085bf9179d.txt",
+          "source_label_sha256": "e964c98fc1026e44c9ee5b3bc8a66a098dd11f156b57300e9b90e44623391f59",
+          "image_sha256": "6a393150700f3cb1eba2f2a2f02a5846f0ee0a98f8a63ee66ef4bf21fea6a5fb",
+          "family": "249_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "laser": 2,
+            "stone": 2,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 334,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\249_jpg.rf.45899d53dcbcd69da0e118a4a2eca328.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\249_jpg.rf.45899d53dcbcd69da0e118a4a2eca328.txt",
+          "source_label_sha256": "3fcdcf20fd5561c62625e48ca27a6c9b7db5a88156411b22650f8c806875a6f7",
+          "image_sha256": "c1d78ebb4db5e71e98ad9f94b113c963e0e86aa893eb8e0c53ec418a2383e93a",
+          "family": "249_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "laser": 2,
+            "stone": 2,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 335,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\249_jpg.rf.e45a912256ab3ca69db9cc04e368641e.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\249_jpg.rf.e45a912256ab3ca69db9cc04e368641e.txt",
+          "source_label_sha256": "20f4d9e47df09a4950f1017bab962d56e9042c363e09e3c8873c0e7f7fb44f82",
+          "image_sha256": "d90874e4e4dae4eb40ca0d4e730cd31a47dc1a706a7321e400c36c601625e0fc",
+          "family": "249_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "laser": 2,
+            "stone": 2,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 1501,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\155_jpg.rf.281ba127698a088d6dd6385e3e97bdd9.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\155_jpg.rf.281ba127698a088d6dd6385e3e97bdd9.txt",
+          "source_label_sha256": "dba8424ba80d63edbd55e44bbaa01be5e6e2afb63a038166eead090ed17a0e32",
+          "image_sha256": "0c51a82d3e82a5c8c60bf0715e8782a4e84727f8fa1e30e8af363a70e8b9d647",
+          "family": "155_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 2,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1502,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\155_jpg.rf.9eef3eb5e3387507f06ec128f2155a00.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\155_jpg.rf.9eef3eb5e3387507f06ec128f2155a00.txt",
+          "source_label_sha256": "125cfb89abc83dc171711fe1d6c38196c895dce7e871d6760a5a32329b033007",
+          "image_sha256": "9dd08f327c361e682df7a079e241b344936624ae241f75843145bbcd6cfd464d",
+          "family": "155_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 2,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1503,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\155_jpg.rf.b8ca3c4d5acf722177152f61d2b51619.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\155_jpg.rf.b8ca3c4d5acf722177152f61d2b51619.txt",
+          "source_label_sha256": "c06d06de8cd37d18c9cc4edfafc3494a55650aba02b9dc5445f801fd66d81659",
+          "image_sha256": "293af2b0a46e87bf06dca279fced93659d6c1c29b2d02a51f40ae9d6611ca83a",
+          "family": "155_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 2,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "no_verified_direct_D4_match_no_label_overlap_claim"
+    },
+    {
+      "group_id": "016b29c2ef17b29a6e831ae2",
+      "split": "train",
+      "canonical_index": 744,
+      "canonical_source": "kidney_stones_fiber_v1",
+      "canonical_family": "41_jpg",
+      "canonical_counts": {
+        "fiber": 1,
+        "stone": 4,
+        "tissue": 1
+      },
+      "members_metadata": [
+        {
+          "index": 744,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\41_jpg.rf.280af63242c0c239c8043714b7789c6f.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\41_jpg.rf.280af63242c0c239c8043714b7789c6f.txt",
+          "source_label_sha256": "676002887c1ecce6f1314b404c77f0fe237aab3596e053700d833de9b32033aa",
+          "image_sha256": "270371f7319a945c373cd8116f369cc5444c302c36a438e0df2d735fb65974ec",
+          "family": "41_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "fiber": 1,
+            "stone": 4,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 745,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\41_jpg.rf.902bc53c03877e46b0551935b614098f.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\41_jpg.rf.902bc53c03877e46b0551935b614098f.txt",
+          "source_label_sha256": "60d908d2856ff8742a883f51e7fb5ca55268978c42aeebaf964f22029aa8428b",
+          "image_sha256": "2ead5930f9699adf5531025ee74d18a0c7fcb215429bbef67b12f6a06a640c1a",
+          "family": "41_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "fiber": 1,
+            "stone": 4,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 746,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\41_jpg.rf.9db02cc0f1bb34464fea87cbf8e65cd9.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\41_jpg.rf.9db02cc0f1bb34464fea87cbf8e65cd9.txt",
+          "source_label_sha256": "7e4fffa8e8d755d40169c064b88c0f2fe259f146ae0a9e44e92aea6d825151b6",
+          "image_sha256": "b2d4a694c24a247e67371b935aeaa872fc6e7a6e526c54024f1df0084908ae18",
+          "family": "41_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "no_verified_direct_D4_match_no_label_overlap_claim"
+    },
+    {
+      "group_id": "8057fe67967d5da8fcc5d956",
+      "split": "reserved_test",
+      "canonical_index": 2338,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "255_jpg",
+      "canonical_counts": {
+        "stone": 3
+      },
+      "members_metadata": [
+        {
+          "index": 1011,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\539_jpg.rf.379c01e3d2828c8509e8232aedc0ff75.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\539_jpg.rf.379c01e3d2828c8509e8232aedc0ff75.txt",
+          "source_label_sha256": "7c3cd4efdf66f0de0e087594079394ec50f8018e55b4d57f0dd9ca96358c1b0e",
+          "image_sha256": "3ffdbc420a65567e78c7322a184e407c139d52e979990485d1000f9f8e6762be",
+          "family": "539_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1012,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\539_jpg.rf.48ed730e237a2e878a7d27c962ce0f3f.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\539_jpg.rf.48ed730e237a2e878a7d27c962ce0f3f.txt",
+          "source_label_sha256": "5712b30272e0fceb47c06c371379460c38f515478638fce122fc12ad87fe845f",
+          "image_sha256": "bd5d14f9d0227e9cc01159be58411ecc245695542c3ff2bc7ecec255cb71fe1f",
+          "family": "539_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1013,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\539_jpg.rf.e9e516c2ee60d43808ed7438cada899b.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\539_jpg.rf.e9e516c2ee60d43808ed7438cada899b.txt",
+          "source_label_sha256": "cbe66a2b1dd8811b10039aa4e609048f43fc3176e0ace8f18dd6b9a5bb203db4",
+          "image_sha256": "6e7d68edfd0a410ed182a0582b3de8ab6103f9c5f3bbd5d17524d84fa33a7209",
+          "family": "539_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 2338,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "test",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\images\\255_jpg.rf.3f6d31bf41ad2fc90e6fcffa3cdb7df8.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\labels\\255_jpg.rf.3f6d31bf41ad2fc90e6fcffa3cdb7df8.txt",
+          "source_label_sha256": "e28d5aac0a4be6ea6b8b21c488d35fe4f29acd49074069d725379b8a9ea0f7b6",
+          "image_sha256": "983909a3feb317865dfcfa9b60d11034818829c528ba550f5dc329c850f3cfc7",
+          "family": "255_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 3
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "skipped_reserved_test_metadata_only"
+    },
+    {
+      "group_id": "905d7eacb71daa39e900a2e2",
+      "split": "reserved_test",
+      "canonical_index": 2341,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "260_jpg",
+      "canonical_counts": {
+        "stone": 2,
+        "fiber": 1
+      },
+      "members_metadata": [
+        {
+          "index": 1023,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\548_jpg.rf.46a45518f67e445ca0cabf703a5c747e.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\548_jpg.rf.46a45518f67e445ca0cabf703a5c747e.txt",
+          "source_label_sha256": "5a0abe82be7e7ddccb33d227a1552901fa8ae85a7a091faa8a2f1a85b2e5d0d0",
+          "image_sha256": "89f91a9924d8521a1a35b6ae21a609cdeeab213bdb5434dc9d7f734dd1c4f61d",
+          "family": "548_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 1024,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\548_jpg.rf.5baa27d4ba0cb95db7107daf4436eded.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\548_jpg.rf.5baa27d4ba0cb95db7107daf4436eded.txt",
+          "source_label_sha256": "e22073279f26f04a80cb2346dde52876756f0ef221c5d0a6da7672e7beca4bbb",
+          "image_sha256": "d2ad218d3599b1988c9cd832fa768dd7e60fa54c537a30ac8c8d07c0e73335f0",
+          "family": "548_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 1025,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\images\\548_jpg.rf.8b896d928e721d4d2168282f263a9a62.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\train\\labels\\548_jpg.rf.8b896d928e721d4d2168282f263a9a62.txt",
+          "source_label_sha256": "ff8b8a484a9ec9b2443ee02b63f14bc65020e57866423a5af41b94b9281988ac",
+          "image_sha256": "8cbeb3bab74a3fdc005aa5d4e7703c83be9e5ffe123d1f8e6e48b99495734710",
+          "family": "548_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 4
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 2341,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "test",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\images\\260_jpg.rf.38debb91321091b6a40c939696e972ed.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\test\\labels\\260_jpg.rf.38debb91321091b6a40c939696e972ed.txt",
+          "source_label_sha256": "3f950924e7af079fa209ef8f1304b035d84459c00f6a459a35e361bbae3b0972",
+          "image_sha256": "787e4392ba107e8374d70625e20edf6b2f6f0d56bafcd7b52c2610b5f6990d5a",
+          "family": "260_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 2,
+            "fiber": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "skipped_reserved_test_metadata_only"
+    },
+    {
+      "group_id": "9ebaa4b8098d6dcd85d797e0",
+      "split": "train",
+      "canonical_index": 1493,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "150_jpg",
+      "canonical_counts": {
+        "stone": 1,
+        "fiber": 1,
+        "tissue": 1
+      },
+      "members_metadata": [
+        {
+          "index": 1264,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "valid",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\images\\235_jpg.rf.cd67d5c791a99face5c422c0e245f956.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\valid\\labels\\235_jpg.rf.cd67d5c791a99face5c422c0e245f956.txt",
+          "source_label_sha256": "00d3fffb55484884aee2dafa613d09f136ca75b2175aafbe9faa09f973e472a5",
+          "image_sha256": "7a5168e04079924e42aaefa157b50d68010662b44c1a0d929c38e4c54c8e6d53",
+          "family": "235_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "laser": 2,
+            "stone": 1,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified",
+            "laser_spot_without_fiber_annotation"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 1492,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\150_jpg.rf.237dfa98cd498f1075fc91dde780d30e.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\150_jpg.rf.237dfa98cd498f1075fc91dde780d30e.txt",
+          "source_label_sha256": "6d53304d27baf0dc93e5cd1bf44909b1ea28b018c9198e3042d0c01aefcc23f1",
+          "image_sha256": "d746cbc30cf21940ac3337fe67903ffd393cfaf69875828b9a3186f6ecd1f3ab",
+          "family": "150_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 1,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1493,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\150_jpg.rf.33d9b78f051e6be0893434e0604554a7.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\150_jpg.rf.33d9b78f051e6be0893434e0604554a7.txt",
+          "source_label_sha256": "ea1f9a4933439dd9f33170b9f2bfb3dc8a331488d2c290303992b60961adc284",
+          "image_sha256": "1d8afd784aea00808af2774d0d161200ac63571af3d9a791b9480bc83d827894",
+          "family": "150_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 1,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1494,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\150_jpg.rf.3cb6da12e804e71a48c8c7e91e98f4e4.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\150_jpg.rf.3cb6da12e804e71a48c8c7e91e98f4e4.txt",
+          "source_label_sha256": "ea1f9a4933439dd9f33170b9f2bfb3dc8a331488d2c290303992b60961adc284",
+          "image_sha256": "c1c6636705fa5fe5ae563fdb73e807bfb5722f6457dcf253cee398438c1dafbd",
+          "family": "150_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 1,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "no_verified_direct_D4_match_no_label_overlap_claim"
+    },
+    {
+      "group_id": "5ecf98c368a53c9378f111e5",
+      "split": "reserved_test",
+      "canonical_index": 1718,
+      "canonical_source": "kidney_stones_fiber_v2",
+      "canonical_family": "262_jpg",
+      "canonical_counts": {
+        "stone": 4,
+        "fiber": 1,
+        "tissue": 1
+      },
+      "members_metadata": [
+        {
+          "index": 1406,
+          "source_dataset": "kidney_stones_fiber_v1",
+          "source_split": "test",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\test\\images\\551_jpg.rf.b76a5c870fbbd0ff66516eaaa8bc51f7.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v1i.yolov8\\test\\labels\\551_jpg.rf.b76a5c870fbbd0ff66516eaaa8bc51f7.txt",
+          "source_label_sha256": "02b1f11673ff752e935e034ec3a1240248195157435237d418f446ba3b0b7f4a",
+          "image_sha256": "55fae5c09993c8a86b2cf6043b7fb8be120c85d377faa18b7cb9bfa7a23a55ee",
+          "family": "551_jpg",
+          "width": 320,
+          "height": 320,
+          "annotation_counts": {
+            "stone": 3,
+            "tissue": 1
+          },
+          "review_flags": [
+            "fiber_absence_or_completeness_unverified"
+          ],
+          "excluded": false
+        },
+        {
+          "index": 1717,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\262_jpg.rf.0547491c76d50f788d0b7ab7d4907955.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\262_jpg.rf.0547491c76d50f788d0b7ab7d4907955.txt",
+          "source_label_sha256": "8f76df63f02d26e771630e59c27e0f093213f16d23581884e25f77b660c4bd06",
+          "image_sha256": "c996343e7682b896b0b2bcb4f0b4e8d5bf32060e38d7263cd15e5ff92ee1ac54",
+          "family": "262_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 4,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1718,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\262_jpg.rf.6c0d0acaa8835a746a3c23cab96cfe61.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\262_jpg.rf.6c0d0acaa8835a746a3c23cab96cfe61.txt",
+          "source_label_sha256": "afc91b7bbb369d68186b85f09746e201cc60b6cf6103193615936b0d68b5edbe",
+          "image_sha256": "095cd63b3af606f1edc3f869db98e420fd33edbf86feaa92a9893fcbc157e74d",
+          "family": "262_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 4,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        },
+        {
+          "index": 1719,
+          "source_dataset": "kidney_stones_fiber_v2",
+          "source_split": "train",
+          "image": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\images\\262_jpg.rf.83f28f08a25d76dcf88abe9e3e15f5a8.jpg",
+          "source_label": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8\\train\\labels\\262_jpg.rf.83f28f08a25d76dcf88abe9e3e15f5a8.txt",
+          "source_label_sha256": "0f9d054b0589a17affda81cf17a413fc67f638fb92a6340c952aec3218b32c74",
+          "image_sha256": "62fadcf703f7af99f67a28ad8756b58de4a81e783bdfd81b9788f54e2075af4a",
+          "family": "262_jpg",
+          "width": 640,
+          "height": 640,
+          "annotation_counts": {
+            "stone": 4,
+            "fiber": 1,
+            "tissue": 1
+          },
+          "review_flags": [],
+          "excluded": false
+        }
+      ],
+      "pixel_analysis": "skipped_reserved_test_metadata_only"
+    }
+  ],
+  "reserved_test_pixels_read": false,
+  "interpretation": "D4 geometry and source annotation disagreement only; laser/fiber overlap cannot identify true physical object"
+}

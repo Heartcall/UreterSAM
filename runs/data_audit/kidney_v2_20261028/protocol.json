@@ -1,0 +1,13 @@
+{
+  "source": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\data\\Kidney stones-fiber-.v2i.yolov8",
+  "yaml_sha256": "9f3d88769af5fd103639e1d56745f5e9f31ff615b1851a03e5e45841c2c61b2f",
+  "manifest_sha256": "308ebe5a89d241c60f69f91f395ffeff287af2e1a88ddcc06b368920e440d5f0",
+  "mode": "Read-only admission audit, source annotations unreviewed, no active split changes",
+  "near_copy_method": "Interior80% pHash63 Hamming<=4 under8 flip/90degree orientations; RGB32 MAE<=0.03 or(gray corr>=0.985 and MAE<=0.12). Candidates, not case identities",
+  "training_updates": 0,
+  "audit_tool_sha256": "4003f38aa67c719f495f1bdb1e8497e9ef9b6adbe3b28ae22cce99f6101c1751",
+  "video_sha256": {
+    "video_1.mp4": "e75681bbc0b2dc07b1773a939f7c32805a66b17089eb38f58efc6cb22d064331",
+    "video_2.mp4": "753bfce9185ceb0e77d60803a609abc85c9e6b0331abcc0981ccb746657b14d0"
+  }
+}

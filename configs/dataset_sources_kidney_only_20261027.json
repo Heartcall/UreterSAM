@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "purpose": "kidney_only_active_review_export; excluded source retained only in historical configuration",
+  "sources": [
+    {
+      "id": "kidney_stones_fiber_v1",
+      "path": "data/Kidney stones-fiber-.v1i.yolov8",
+      "expected_names": [
+        "fiber",
+        "laser",
+        "stone",
+        "tissue"
+      ],
+      "class_policy": {
+        "fiber": "fiber",
+        "laser": "auxiliary_laser_dot",
+        "stone": "stone",
+        "tissue": "background"
+      }
+    }
+  ],
+  "mapping_note": "Source policies are assertions checked during export; laser spots preserve overlapping stone labels. Unreviewed records cannot enter training.",
+  "split_seed": 42,
+  "split_ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "excluded_sources": {
+    "stone_new_v4": "user excluded: fiber-tip-only annotations"
+  }
+}

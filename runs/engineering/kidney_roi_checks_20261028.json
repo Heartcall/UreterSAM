@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "six_predeclared_profiles_and_thresholds": true,
+    "all_validation_inputs_unchanged": true,
+    "frozen_sources_unchanged": true,
+    "checkpoint_and_native_reference_unchanged": true,
+    "coarse_masks_exactly_match_native_reference": true,
+    "ground_truth_free_deterministic_roi_geometry": true,
+    "native_per_frame_and_pooled_coverage_recomputed": true,
+    "perfect_inside_roi_oracle_only_recomputed": true,
+    "caps_and_pixel_compute_budget_recomputed": true,
+    "matched_fresh_process_cost_count_matches_coverage": true,
+    "cost_sources_unchanged": true,
+    "matched8_cost_variants12warmup87samples": true,
+    "no_training_or_reserve_reads_or_updates": true,
+    "no_failed_candidate_promoted": true,
+    "training_labels_remain_unreviewed": true,
+    "a0_preserved": true
+  },
+  "all_passed": true,
+  "tests": {
+    "total": 80,
+    "passed": 78,
+    "skipped": [
+      [
+        "test_context_stream_is_jpeg_without_browser_codec_dependency (test_review_workspace.ReviewWorkspaceTests.test_context_stream_is_jpeg_without_browser_codec_dependency)",
+        "Known sandbox loopback WinError10013; unchanged HTTP tests"
+      ],
+      [
+        "test_filters_and_loopback_http (test_review_workspace.ReviewWorkspaceTests.test_filters_and_loopback_http)",
+        "Known sandbox loopback WinError10013; unchanged HTTP tests"
+      ]
+    ],
+    "errors": [],
+    "failures": []
+  },
+  "scope": "Validation-only proposal coverage and compute proxy; no refinement accuracy or independent validation"
+}

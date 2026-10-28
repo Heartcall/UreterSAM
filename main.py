@@ -17,7 +17,7 @@ def build_parser() -> argparse.ArgumentParser:
     prepare.add_argument("--seed", type=int, default=42)
 
     review = commands.add_parser("prepare-review", help="build a source-audited, review-gated dataset draft")
-    review.add_argument("--config", default="configs/dataset_sources_v2.json")
+    review.add_argument("--config", default="configs/dataset_sources_kidney_only_20261027.json")
     review.add_argument("--output", required=True, help="a new directory; existing outputs are never replaced")
 
     train = commands.add_parser("train", help="train the two-model Endo-SemiS adaptation")
@@ -34,6 +34,10 @@ def build_parser() -> argparse.ArgumentParser:
     train.add_argument("--confidence-threshold", type=float, default=0.85)
     train.add_argument("--uncertainty-quantile", type=float, default=0.8)
     train.add_argument("--dice-weight", type=float, default=1.0)
+    train.add_argument("--seed", type=int, default=42)
+    train.add_argument("--resume", help="resume a full last.pt at an epoch boundary")
+    train.add_argument("--stop-after-epoch", type=int, help="stop early without changing the full scheduler horizon")
+    train.add_argument("--allow-unreviewed-experiment", action="store_true", help="opt in only for a separately authorized development manifest")
 
     demo = commands.add_parser("demo", help="render stone and fiber masks on a video")
     demo.add_argument("--checkpoint", required=True)
@@ -90,6 +94,10 @@ def main() -> None:
             confidence_threshold=args.confidence_threshold,
             uncertainty_quantile=args.uncertainty_quantile,
             dice_weight=args.dice_weight,
+            seed=args.seed,
+            resume=args.resume,
+            stop_after_epoch=args.stop_after_epoch,
+            allow_unreviewed_experiment=args.allow_unreviewed_experiment,
         )
         print(f"Best checkpoint: {checkpoint}")
     elif args.command == "demo":

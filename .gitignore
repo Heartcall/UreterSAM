@@ -16,6 +16,8 @@
 
 # Training checkpoints
 /runs/**/*.pt
+/runs/pretrained/*.pth
+/runs/pretrained/*.part
 
 # IDE
 /.idea/
@@ -29,3 +31,17 @@
 /runs/baselines/**/*.jsonl
 /runs/review_sets/
 /runs/test_tmp/
+/runs/engineering/**/synthetic_data/
+/runs/annotation_sessions/
+/runs/review_snapshots/**/*.png
+/datasets/ureter_semis_a1_dev_*/masks/
+/runs/runtime_temp/
+/runs/a1_dev_*.log
+/runs/a1_dev_*/**/*.png
+/runs/a1_dev_*/**/*.mp4
+/runs/a1_dev_*/**/*.zip
+/datasets/ureter_semis_a1_sup_*/masks/
+/runs/a1_sup_*.log
+/runs/a1_sup_*/**/*.png
+/runs/a1_sup_*/**/*.mp4
+/runs/a1_sup_*/**/*.zip

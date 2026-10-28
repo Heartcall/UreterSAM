@@ -1,0 +1,10 @@
+{
+  "total": 56,
+  "passed": 54,
+  "skipped": 2,
+  "skip_reason": "Two unchanged loopback HTTP tests: sandbox socket denied in prior runs",
+  "errors": 0,
+  "failures": 0,
+  "evidence": "fiber_ablation_tests_20261027.log",
+  "note": "Tests completed successfully; JSON summary serialization corrected after run without rerunning tests."
+}
