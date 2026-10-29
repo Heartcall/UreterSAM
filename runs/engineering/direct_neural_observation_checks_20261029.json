@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "all_sources_related_inputs_and_weights_unchanged": true,
+    "validation_only322_files_and_manifest_unchanged": true,
+    "521_132_144_29_unchanged": true,
+    "frozen_shape_search_weights_acceptance_tracking_and_original_gates_exact": true,
+    "no_training_shared_calibration_test_access_or_default_adoption": true,
+    "image132_complete_inventories_all_native_classes": true,
+    "image132_independent_confusions": true,
+    "image132_fixed_geometry_and_foreground_visibility_exact": true,
+    "image132_color_records_and_masks_reproduce_predecessor": true,
+    "image132_acceptance_checks_and_no_soft_bonus": true,
+    "image132_independent_paired_tp_fp_counts": true,
+    "image132_unoccupied_stone_semantics_unchanged": true,
+    "image132_subgroup_confusions_recomputed": true,
+    "video29_complete_inventories_all_native_classes": true,
+    "video29_independent_confusions": true,
+    "video29_fixed_geometry_and_foreground_visibility_exact": true,
+    "video29_color_records_and_masks_reproduce_predecessor": true,
+    "video29_acceptance_checks_and_no_soft_bonus": true,
+    "video29_independent_paired_tp_fp_counts": true,
+    "video29_unoccupied_stone_semantics_unchanged": true,
+    "video29_subgroup_confusions_recomputed": true,
+    "25_107_complete_disjoint": true,
+    "original_joint_gates_and_conditional_replay_decision": true,
+    "failed_static_has_no_full_video_or_causal_outputs": true,
+    "three_fresh_processes_actual1_or3_networks": true,
+    "all_cost_statistics_recomputed": true,
+    "frozen_snapshot_sources_unique_and_hash_exact": true
+  },
+  "all_passed": true,
+  "unit_tests": {
+    "passed": 7,
+    "failed": 0,
+    "scope": "4 observation-control and3 frozen-template tests"
+  },
+  "visual_selection": [
+    {
+      "sample_id": "reviewed_video_2_001897",
+      "split": "video29",
+      "index": 27,
+      "raw_tp_removed": 2048
+    },
+    {
+      "sample_id": "reviewed_video_2_000986",
+      "split": "video29",
+      "index": 23,
+      "raw_tp_removed": 1309
+    },
+    {
+      "sample_id": "reviewed_video_2_001822",
+      "split": "video29",
+      "index": 26,
+      "raw_tp_removed": 202
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+      "split": "image132",
+      "index": 89,
+      "raw_tp_removed": 8825
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+      "split": "image132",
+      "index": 123,
+      "raw_tp_removed": 2875
+    },
+    {
+      "sample_id": "kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75",
+      "split": "image132",
+      "index": 11,
+      "raw_tp_removed": 0
+    }
+  ],
+  "scope": "Output/inference/source/cost engineering verification; not clinical, independent-case, physical tip/angle or real-time validation"
+}

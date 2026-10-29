@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "all_frozen_sources_and_related_template_config_references_unchanged": true,
+    "weights_and_videos_unchanged": true,
+    "521_132_144_29_manifest_unchanged": true,
+    "calibration_only1042_active_train_files_no_validation_or_test": true,
+    "all1364_calibration_and_validation_input_bytes_unchanged": true,
+    "shared_shape_is_median_of31_train_only_eligible_records": true,
+    "no_gradient_updates_default_or_stone_memory_adoption": true,
+    "video_1_all_consecutive_frames_and_four_mask_inventories": true,
+    "video_1_fixed_shape_and_same_current_image_visibility_reconstructed": true,
+    "video_1_fusion_native_classes_and_area_counts_recomputed": true,
+    "video_1_raw_reference_and_reviewed_rgb_pixel_exact": true,
+    "video_1_causal_rejection_prediction_not_visible_and_case_reset": true,
+    "video_1_acceptance_and_tracking_counts_recomputed": true,
+    "video_1_full_video_and5fixed_interval_geometry_counts": true,
+    "video_1_timing_percentiles_recomputed": true,
+    "video_2_all_consecutive_frames_and_four_mask_inventories": true,
+    "video_2_fixed_shape_and_same_current_image_visibility_reconstructed": true,
+    "video_2_fusion_native_classes_and_area_counts_recomputed": true,
+    "video_2_raw_reference_and_reviewed_rgb_pixel_exact": true,
+    "video_2_causal_rejection_prediction_not_visible_and_case_reset": true,
+    "video_2_acceptance_and_tracking_counts_recomputed": true,
+    "video_2_full_video_and5fixed_interval_geometry_counts": true,
+    "video_2_timing_percentiles_recomputed": true,
+    "reviewed29_four_independent_confusions": true,
+    "image132_fixed_shape_confusions_and_no_unordered_tracking": true,
+    "historical25_107_cohorts_complete_disjoint": true,
+    "four_fresh_processes_actual1_or3_network_cost": true,
+    "isolated_cost_percentiles_recomputed": true,
+    "all_primary_frozen_gates_recomputed": true,
+    "no_tip_angle_truth_claim": true,
+    "frozen_unique_snapshot_and_sources": true
+  },
+  "all_passed": true,
+  "details": {
+    "video_1": {
+      "frames": 722,
+      "accepted": {
+        "image_template": 9,
+        "soft_template": 1,
+        "causal_template": 2
+      },
+      "prediction_only_frames": 3
+    },
+    "video_2": {
+      "frames": 1972,
+      "accepted": {
+        "image_template": 383,
+        "soft_template": 119,
+        "causal_template": 216
+      },
+      "prediction_only_frames": 84
+    }
+  },
+  "unit_tests": {
+    "passed": 3,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_direct_fiber_template.py -v"
+  },
+  "scope": "Calibration split, fixed-family output/export and cost correctness only; not tip/angle, clinical, independent-case or live-stream validity"
+}

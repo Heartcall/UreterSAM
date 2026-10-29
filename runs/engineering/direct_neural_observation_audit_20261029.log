@@ -1,0 +1,42 @@
+{
+  "all_passed": true,
+  "checks": 27,
+  "attribution": {
+    "image132": {
+      "reference_fiber_pixels": 111348,
+      "neural_field_supported_reference": 105051,
+      "reference_outside_neural_field": 6297,
+      "supported_reference_lost_to_shape_or_rejection": 35774,
+      "supported_reference_lost_to_shape": 9794,
+      "supported_reference_lost_to_rejection": 25980,
+      "visible_tp": 69277,
+      "lost_tp": 36097,
+      "gained_tp": 0,
+      "added_fp": 0,
+      "removed_fp": 44505,
+      "field_reference_recall": 0.9434475697812265,
+      "accepted": 39,
+      "total": 132,
+      "reference_positive_frames": 50,
+      "accepted_reference_positive_frames": 33
+    },
+    "video29": {
+      "reference_fiber_pixels": 178653,
+      "neural_field_supported_reference": 168458,
+      "reference_outside_neural_field": 10195,
+      "supported_reference_lost_to_shape_or_rejection": 26639,
+      "supported_reference_lost_to_shape": 26639,
+      "supported_reference_lost_to_rejection": 0,
+      "visible_tp": 141819,
+      "lost_tp": 27106,
+      "gained_tp": 0,
+      "added_fp": 0,
+      "removed_fp": 1201,
+      "field_reference_recall": 0.9429340677178665,
+      "accepted": 29,
+      "total": 29,
+      "reference_positive_frames": 29,
+      "accepted_reference_positive_frames": 29
+    }
+  }
+}

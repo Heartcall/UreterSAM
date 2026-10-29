@@ -17,9 +17,9 @@
   "local_review_session": "runs/annotation_sessions/review_20261027",
   "s2_engineering_checks": "runs/engineering/training_resume_256_20261027/summary.json",
   "remaining_prerequisites": [
-    "Resume finite A0 model1/model2 fiber plus old190 stone2network comparison, no geometry mask modification; all required-model cost measured",
-    "Retain image132/provenance limits, small-stone miss and true-fiber component deletion examples",
-    "S2 remains unaccepted; no independent-case, live-display, physical-tip or stone-memory validity claim"
+    "Static observation-channel-only control: retain shared shape/search/thresholds, replace HSV foreground map by A0 fiber probability; only passing static candidate may enter full causal replay",
+    "Keep mixed-source template/camera validity provisional; Godot camera metadata not confirmed for validation videos",
+    "S2 unaccepted, no direct tip/angle truth, independent-case or stone-memory acceptance"
   ],
   "reviewed_video_pixel_frames": 29,
   "reviewed_video_instance_frames": 0,
@@ -28,7 +28,7 @@
   "reviewed_video_snapshot": "runs/review_snapshots/video_keyframes_20261027_v2/pixel_reviews.json",
   "reviewed_video_evaluation": "runs/review_snapshots/video_keyframes_20261027_v2/report.md",
   "video_review_evidence": "approved session revisions reported complete by user 2026-10-27",
-  "execution_order_confirmation": "Completed four-arm component gate on29video132images and passing3net gated2694replay;3net slightly worse and slower,1net failed. Both not adopted; geometry kept diagnostic only. Restore previously deferred fixed A0 fiber-member two-network comparison",
+  "execution_order_confirmation": "User approved direct fixed unique-fiber template route ahead of member ablation. Completed TRAIN-only calibration and132images2694replay; geometry arms failed due color observation bottleneck. Next fixed-shape observation-channel control, static first",
   "reviewed_training_labels": 0,
   "training_approved_samples": 0,
   "training_stage_s2_variant": "kidney_v1_v2_joint_matched1425update_baseline_completed_not_adopted",
@@ -36,7 +36,7 @@
   "training_job": "runs/a1_sup_kidney_joint_20261028/job.json",
   "review_continuation_requested": false,
   "latest_instruction": "允许进入下一步",
-  "latest_instruction_effect": "Implemented original-component preservation with unchanged previous geometric acceptance, fresh-process actual1/3network costs and conditional full replay.4newtests26audits passed. No training/labels/splits/default or stone-memory change",
+  "latest_instruction_effect": "Implemented fixed31TRAIN-derived shared taper/cap and appearance, global pose search without component seed, independent image/neural-soft/causal arms.3newtests31audits passed. No neural gradient/weight updates, defaults/splits unchanged; GT-conditioned diagnosis never feeds automatic inference",
   "development_video_assignment": {
     "video_1": "20-frame development validation and full validation replay only",
     "video_2": "9-frame development validation and full validation replay only"
@@ -44,17 +44,17 @@
   "formal_verified_dataset_a1_completed": false,
   "video_frames_in_training": 0,
   "superseded_training_job": "runs/a1_dev_videos_val_20261027/retired_run.json",
-  "current_execution_checks": "runs/engineering/fiber_component_gate_checks_20261029.json",
+  "current_execution_checks": "runs/engineering/direct_neural_observation_checks_20261029.json",
   "deferred_review_items": [
     "Review training annotation completeness and real stone-negative candidates",
     "Verify training-source video/case grouping",
     "Complete dense visible masks and instance/event references; 29 sparse pixel reviews are available"
   ],
   "approved_implementation_plan": "docs/plans/segmentation_temporal_occlusion_plan.md",
-  "implementation_plan_revision": "v2.6_20261029_component_gate_completed",
+  "implementation_plan_revision": "v2.8_20261029_neural_observation_control",
   "latest_plan_instruction": "按照plan继续执行下一步",
   "current_training_assessment": "Fixed native400 video29: joint521pool stone/fiber Dice0.7695/0.8863 versus historical190 0.8100/0.9038; fiber recall slightly up0.9435 but precision down0.8357. New image-dev132 Dice0.9057/0.8030, separately reported; no verified stone-negative image-dev frames. Joint data candidate not adopted",
-  "plan_next_action": "Execute original compare_two_network_experts_20261028 protocol: old190 stone plus predefined A0 model1/model2 fiber, original native fusion without geometric mask correction, same29/image132/cohorts and isolated full2/3network costs. No training/threshold search/adoption/S3; stop member search if both fail quality",
+  "plan_next_action": "Execute prepared direct_template_neural_observation_20261029 static29/image132/cohort comparison; fixed shape and base score, replace scalar foreground observation HSV->A0 probability only, preserve RGB edges, no extra soft bonus. Full causal2694 only after gates pass; no validation template fitting or neural training/adoption",
   "plan_revision_changed_training_runtime": true,
   "active_training_images": 521,
   "reserved_unlabeled_images_not_used": 0,
@@ -139,7 +139,7 @@
     "fiber_dice_min": 0.9568022126134994,
     "negative_fp_fraction_max": 0.07782222222222222
   },
-  "s2_latest_execution_variant": "fiber_geometry_component_gate_four_arms_and_conditional2694_completed_not_adopted",
+  "s2_latest_execution_variant": "direct_fixed_neural_observation_static_failed_no_causal_replay",
   "last_completed_diagnostic_job": "runs/a1_sup_kidney_joint_diagnosis_20261028/job.json",
   "kidney_roi_report": "docs/progress/2026-10-28-kidney-automatic-roi-feasibility.md",
   "kidney_roi_config": "configs/diagnose_refinement_roi_20261028.json",
@@ -185,8 +185,8 @@
   "prepared_inference_control_config": "configs/compare_two_network_experts_20261028.json",
   "classwise_expert_control_executed": true,
   "classwise_expert_control_adopted": false,
-  "last_completed_inference_job": "runs/a1_fiber_component_gate_20261029/job.json",
-  "last_executed_inference_control_config": "configs/run_fiber_component_gate_20261029.json",
+  "last_completed_inference_job": "runs/a1_direct_neural_observation_20261029/job.json",
+  "last_executed_inference_control_config": "configs/run_direct_neural_observation_20261029.json",
   "classwise_expert_control_screening_passed": true,
   "classwise_expert_control_report": "docs/progress/2026-10-28-classwise-expert-control.md",
   "classwise_expert_control_training_updates": 0,
@@ -231,7 +231,7 @@
   "two_network_expert_control_adopted": false,
   "s3_started": false,
   "two_network_expert_control_deferred": false,
-  "two_network_expert_control_deferred_reason": "Geometric route experiments completed without adoption; fixed member comparison restored as next step, still not executed",
+  "two_network_expert_control_deferred_reason": null,
   "fiber_geometry_control_executed": true,
   "fiber_geometry_control_adopted": false,
   "fiber_geometry_control_report": "docs/progress/2026-10-28-fiber-geometric-prior-control.md",
@@ -268,5 +268,40 @@
     "old190_raw_1net": 10.342799942009151,
     "old190_component_gate_1net": 25.589799974113703
   },
-  "fiber_geometry_mask_correction_role": "Failed development controls retained; geometry not enabled in default visible segmentation"
+  "fiber_geometry_mask_correction_role": "Failed development controls retained; geometry not enabled in default visible segmentation",
+  "direct_fiber_template_executed": true,
+  "direct_fiber_template_adopted": false,
+  "direct_fiber_template_report": "docs/progress/2026-10-29-direct-fixed-fiber-template.md",
+  "direct_fiber_template_gradient_updates": 0,
+  "direct_fiber_template_calibration_train_images_read": 521,
+  "direct_fiber_template_calibration_eligible_train_images": 31,
+  "direct_fiber_template_shared_statistics_estimated": true,
+  "direct_fiber_template_validation_template_fitting": false,
+  "direct_fiber_template_video_frames": 2694,
+  "direct_fiber_template_image_fiber_dice": {
+    "image_template": 0.3650942855505244,
+    "soft_template": 0.4550354934976329
+  },
+  "direct_fiber_template_video_fiber_dice": {
+    "image_template": 0.0,
+    "soft_template": 0.0,
+    "causal_template": 0.0
+  },
+  "direct_fiber_template_reference_appearance_recall": 0.0961136952640034,
+  "direct_fiber_template_reference_conditioned_PCA_diagnostic_dice": 0.9182032785459424,
+  "direct_fiber_template_reference_conditioned_diagnosis_is_automatic_result": false,
+  "direct_fiber_template_neural_observation_executed": true,
+  "direct_fiber_template_neural_observation_adopted": false,
+  "direct_fiber_template_neural_observation_report": "docs/progress/2026-10-29-direct-neural-observation-control.md",
+  "direct_fiber_template_neural_observation_gradient_updates": 0,
+  "direct_fiber_template_neural_observation_template_updates": 0,
+  "direct_fiber_template_neural_observation_train_pixels_read": 0,
+  "direct_fiber_template_neural_observation_video_fiber_dice": 0.8832112697107839,
+  "direct_fiber_template_neural_observation_image_fiber_dice": 0.7074531909787642,
+  "direct_fiber_template_neural_observation_screening_passed": false,
+  "direct_fiber_template_neural_observation_full_replay_executed": false,
+  "direct_fiber_template_neural_observation_video_static_frames": 29,
+  "direct_fiber_template_neural_observation_field_reference_recall": 0.9429340677178665,
+  "direct_fiber_template_neural_observation_isolated_latency_p50_ms": 101.75490006804466,
+  "direct_fiber_template_neural_observation_isolated_latency_p95_ms": 137.29881000472233
 }

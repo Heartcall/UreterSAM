@@ -1,0 +1,15 @@
+{
+  "schema_version":1,
+  "status":"PREPARED_NOT_EXECUTED_IMPLEMENTATION_PENDING",
+  "experiment":"S2_DIRECT_TEMPLATE_OBSERVATION_CHANNEL_CONTROL_20261029",
+  "reason":"Direct fixed-family prototype failed: learned HSV visibility supports only9.61% of reviewed fiber pixels, while reference-PCA-aligned same shape has mean Dice0.918. Diagnose observation-channel failure separately from shape prior",
+  "frozen_shape":"runs/a1_direct_fiber_template_20261029/template.json; reuse slope,normalized cap radius and circular cap exactly; no re-estimation or validation calibration",
+  "base_config":"configs/direct_fiber_template_20261029.json",
+  "arms":["raw_classwise","fixed_image_observation_template","fixed_neural_observation_template"],
+  "single_factor":"Use the same image_template base score weights and all search/acceptance/visibility rules. Replace only scalar observed foreground field: TRAIN-derived HSV posterior -> frozen A0 native fiber probability. RGB-gradient field unchanged. Do not add the old separate network_soft bonus, so evidence is not counted twice",
+  "scope":"First static native29 and image132 including25/107 exposure groups, rejection and TP/FP changes. Only a neural-observation arm retaining all original primary gates becomes eligible for full2694-frame causal replay; a failed static result does not trigger full replay, threshold loosening or additional search",
+  "gates":{"stone_dice_min":0.47401543332152984,"fiber_dice_min":0.9568022126134994,"negative_fp_fraction_max":0.07782222222222222},
+  "pose_model":"Global entry/angle/length hypotheses, no largest-component seed; shared shape fixed. At most one accepted object hypothesis. Current visible support and history-only hypothesis remain separate",
+  "decision":"Finite observation-channel comparison. No default adoption, training or physical-tip/angle acceptance. Preserve current failed experiment and report absent/unreliable detections. A0 observation does not establish independent-case generalization",
+  "constraints":"No geometry/color learning from video1/2 or132dev, no stone_new training, A0 inference only,521/132/144/29 and source review status unchanged, reserved-test pixels never read"
+}

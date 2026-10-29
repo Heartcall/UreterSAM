@@ -1,0 +1,464 @@
+{
+  "arm": "image_template",
+  "pid": 37300,
+  "model_count": 1,
+  "parameter_count": 24601395,
+  "warmup_frames": 12,
+  "samples": 87,
+  "cuda_peak_allocated_mib": 128.77294921875,
+  "scope": "Fresh process per arm; full PIL preprocessing, exactly required old190/A0 models, native outputs and needed probability transfer, direct image observation/global search/fine localization and visible raster/fusion. No unrelated branch computed. Excludes video decoding/display/exports. Same device source as full replay; these are local timing samples, no live-stream claim",
+  "timings": {
+    "pipeline_ms": {
+      "mean": 60.04381034491134,
+      "p50": 57.35740007366985,
+      "p95": 65.4157500131987
+    },
+    "required_model_core_ms": {
+      "mean": 7.51217126166555,
+      "p50": 7.357000024057925,
+      "p95": 10.304680012632165
+    },
+    "direct_geometry_and_fusion_ms": {
+      "mean": 52.53163908324579,
+      "p50": 49.89779996685684,
+      "p95": 56.08841001521796
+    }
+  },
+  "raw_samples": [
+    {
+      "pipeline_ms": 59.02659997809678,
+      "required_model_core_ms": 7.546199951320887,
+      "direct_geometry_and_fusion_ms": 51.4804000267759
+    },
+    {
+      "pipeline_ms": 56.8784000352025,
+      "required_model_core_ms": 7.536699995398521,
+      "direct_geometry_and_fusion_ms": 49.34170003980398
+    },
+    {
+      "pipeline_ms": 56.88010004814714,
+      "required_model_core_ms": 7.396799977868795,
+      "direct_geometry_and_fusion_ms": 49.48330007027835
+    },
+    {
+      "pipeline_ms": 51.0781001066789,
+      "required_model_core_ms": 6.185600068420172,
+      "direct_geometry_and_fusion_ms": 44.89250003825873
+    },
+    {
+      "pipeline_ms": 56.5098999068141,
+      "required_model_core_ms": 6.612099939957261,
+      "direct_geometry_and_fusion_ms": 49.89779996685684
+    },
+    {
+      "pipeline_ms": 55.05930003710091,
+      "required_model_core_ms": 7.383899996057153,
+      "direct_geometry_and_fusion_ms": 47.67540004104376
+    },
+    {
+      "pipeline_ms": 60.039900010451674,
+      "required_model_core_ms": 7.505499990656972,
+      "direct_geometry_and_fusion_ms": 52.5344000197947
+    },
+    {
+      "pipeline_ms": 57.204100070521235,
+      "required_model_core_ms": 7.454200065694749,
+      "direct_geometry_and_fusion_ms": 49.749900004826486
+    },
+    {
+      "pipeline_ms": 58.58149996493012,
+      "required_model_core_ms": 6.698100012727082,
+      "direct_geometry_and_fusion_ms": 51.883399952203035
+    },
+    {
+      "pipeline_ms": 59.353800024837255,
+      "required_model_core_ms": 7.51930009573698,
+      "direct_geometry_and_fusion_ms": 51.834499929100275
+    },
+    {
+      "pipeline_ms": 65.91210002079606,
+      "required_model_core_ms": 9.475599974393845,
+      "direct_geometry_and_fusion_ms": 56.436500046402216
+    },
+    {
+      "pipeline_ms": 59.681500075384974,
+      "required_model_core_ms": 9.190700016915798,
+      "direct_geometry_and_fusion_ms": 50.490800058469176
+    },
+    {
+      "pipeline_ms": 62.868200009688735,
+      "required_model_core_ms": 11.699299910105765,
+      "direct_geometry_and_fusion_ms": 51.16890009958297
+    },
+    {
+      "pipeline_ms": 61.583500006236136,
+      "required_model_core_ms": 7.8446000115945935,
+      "direct_geometry_and_fusion_ms": 53.73889999464154
+    },
+    {
+      "pipeline_ms": 62.7528999466449,
+      "required_model_core_ms": 7.4767000041902065,
+      "direct_geometry_and_fusion_ms": 55.276199942454696
+    },
+    {
+      "pipeline_ms": 54.425899987109005,
+      "required_model_core_ms": 6.3581999856978655,
+      "direct_geometry_and_fusion_ms": 48.06770000141114
+    },
+    {
+      "pipeline_ms": 58.388000004924834,
+      "required_model_core_ms": 6.8515000166371465,
+      "direct_geometry_and_fusion_ms": 51.53649998828769
+    },
+    {
+      "pipeline_ms": 58.141799992881715,
+      "required_model_core_ms": 7.710700039751828,
+      "direct_geometry_and_fusion_ms": 50.43109995312989
+    },
+    {
+      "pipeline_ms": 132.43930006865412,
+      "required_model_core_ms": 7.426500087603927,
+      "direct_geometry_and_fusion_ms": 125.0127999810502
+    },
+    {
+      "pipeline_ms": 54.28309994749725,
+      "required_model_core_ms": 7.314999937079847,
+      "direct_geometry_and_fusion_ms": 46.9681000104174
+    },
+    {
+      "pipeline_ms": 56.316199945285916,
+      "required_model_core_ms": 7.940099923871458,
+      "direct_geometry_and_fusion_ms": 48.37610002141446
+    },
+    {
+      "pipeline_ms": 55.32320006750524,
+      "required_model_core_ms": 6.249500089325011,
+      "direct_geometry_and_fusion_ms": 49.07369997818023
+    },
+    {
+      "pipeline_ms": 57.33939993660897,
+      "required_model_core_ms": 7.764399982988834,
+      "direct_geometry_and_fusion_ms": 49.574999953620136
+    },
+    {
+      "pipeline_ms": 54.237800068221986,
+      "required_model_core_ms": 6.662000087089837,
+      "direct_geometry_and_fusion_ms": 47.57579998113215
+    },
+    {
+      "pipeline_ms": 57.11419996805489,
+      "required_model_core_ms": 10.660000029020011,
+      "direct_geometry_and_fusion_ms": 46.45419993903488
+    },
+    {
+      "pipeline_ms": 55.18409993965179,
+      "required_model_core_ms": 8.251499966718256,
+      "direct_geometry_and_fusion_ms": 46.93259997293353
+    },
+    {
+      "pipeline_ms": 57.35740007366985,
+      "required_model_core_ms": 7.450300035998225,
+      "direct_geometry_and_fusion_ms": 49.907100037671626
+    },
+    {
+      "pipeline_ms": 54.843900026753545,
+      "required_model_core_ms": 7.536900113336742,
+      "direct_geometry_and_fusion_ms": 47.3069999134168
+    },
+    {
+      "pipeline_ms": 57.43129993788898,
+      "required_model_core_ms": 7.611299981363118,
+      "direct_geometry_and_fusion_ms": 49.81999995652586
+    },
+    {
+      "pipeline_ms": 54.033400025218725,
+      "required_model_core_ms": 6.7622000351548195,
+      "direct_geometry_and_fusion_ms": 47.271199990063906
+    },
+    {
+      "pipeline_ms": 55.406700004823506,
+      "required_model_core_ms": 6.916899932548404,
+      "direct_geometry_and_fusion_ms": 48.4898000722751
+    },
+    {
+      "pipeline_ms": 56.12600001040846,
+      "required_model_core_ms": 11.076099937781692,
+      "direct_geometry_and_fusion_ms": 45.04990007262677
+    },
+    {
+      "pipeline_ms": 58.813099982216954,
+      "required_model_core_ms": 11.304799932986498,
+      "direct_geometry_and_fusion_ms": 47.508300049230456
+    },
+    {
+      "pipeline_ms": 54.513299954123795,
+      "required_model_core_ms": 7.132599945180118,
+      "direct_geometry_and_fusion_ms": 47.38070000894368
+    },
+    {
+      "pipeline_ms": 54.566600010730326,
+      "required_model_core_ms": 6.69539999216795,
+      "direct_geometry_and_fusion_ms": 47.87120001856238
+    },
+    {
+      "pipeline_ms": 58.29960003029555,
+      "required_model_core_ms": 7.211900083348155,
+      "direct_geometry_and_fusion_ms": 51.087699946947396
+    },
+    {
+      "pipeline_ms": 58.04030003491789,
+      "required_model_core_ms": 7.241799961775541,
+      "direct_geometry_and_fusion_ms": 50.79850007314235
+    },
+    {
+      "pipeline_ms": 56.98829994071275,
+      "required_model_core_ms": 7.0362999103963375,
+      "direct_geometry_and_fusion_ms": 49.95200003031641
+    },
+    {
+      "pipeline_ms": 53.12870000489056,
+      "required_model_core_ms": 7.330599939450622,
+      "direct_geometry_and_fusion_ms": 45.79810006543994
+    },
+    {
+      "pipeline_ms": 54.913599975407124,
+      "required_model_core_ms": 7.573699927888811,
+      "direct_geometry_and_fusion_ms": 47.33990004751831
+    },
+    {
+      "pipeline_ms": 56.16869998630136,
+      "required_model_core_ms": 7.402099901810288,
+      "direct_geometry_and_fusion_ms": 48.766600084491074
+    },
+    {
+      "pipeline_ms": 55.72879989631474,
+      "required_model_core_ms": 7.031199987977743,
+      "direct_geometry_and_fusion_ms": 48.697599908337
+    },
+    {
+      "pipeline_ms": 53.12310007866472,
+      "required_model_core_ms": 6.361400010064244,
+      "direct_geometry_and_fusion_ms": 46.761700068600476
+    },
+    {
+      "pipeline_ms": 56.842399993911386,
+      "required_model_core_ms": 7.537099998444319,
+      "direct_geometry_and_fusion_ms": 49.30529999546707
+    },
+    {
+      "pipeline_ms": 57.39849992096424,
+      "required_model_core_ms": 6.616699974983931,
+      "direct_geometry_and_fusion_ms": 50.78179994598031
+    },
+    {
+      "pipeline_ms": 54.59970002993941,
+      "required_model_core_ms": 6.719400058500469,
+      "direct_geometry_and_fusion_ms": 47.880299971438944
+    },
+    {
+      "pipeline_ms": 55.839400039985776,
+      "required_model_core_ms": 6.186200072988868,
+      "direct_geometry_and_fusion_ms": 49.65319996699691
+    },
+    {
+      "pipeline_ms": 59.19329996686429,
+      "required_model_core_ms": 7.357000024057925,
+      "direct_geometry_and_fusion_ms": 51.83629994280636
+    },
+    {
+      "pipeline_ms": 55.42520002927631,
+      "required_model_core_ms": 6.813999963924289,
+      "direct_geometry_and_fusion_ms": 48.61120006535202
+    },
+    {
+      "pipeline_ms": 59.33820002246648,
+      "required_model_core_ms": 6.3596999971196055,
+      "direct_geometry_and_fusion_ms": 52.978500025346875
+    },
+    {
+      "pipeline_ms": 57.95449996367097,
+      "required_model_core_ms": 7.310000015422702,
+      "direct_geometry_and_fusion_ms": 50.64449994824827
+    },
+    {
+      "pipeline_ms": 55.95500010531396,
+      "required_model_core_ms": 6.789300008676946,
+      "direct_geometry_and_fusion_ms": 49.16570009663701
+    },
+    {
+      "pipeline_ms": 121.56530003994703,
+      "required_model_core_ms": 7.286400068551302,
+      "direct_geometry_and_fusion_ms": 114.27889997139573
+    },
+    {
+      "pipeline_ms": 60.25129999034107,
+      "required_model_core_ms": 7.340600015595555,
+      "direct_geometry_and_fusion_ms": 52.91069997474551
+    },
+    {
+      "pipeline_ms": 60.14969991520047,
+      "required_model_core_ms": 7.3015999514609575,
+      "direct_geometry_and_fusion_ms": 52.848099963739514
+    },
+    {
+      "pipeline_ms": 59.240000089630485,
+      "required_model_core_ms": 7.199800107628107,
+      "direct_geometry_and_fusion_ms": 52.04019998200238
+    },
+    {
+      "pipeline_ms": 52.4102000053972,
+      "required_model_core_ms": 7.1616999339312315,
+      "direct_geometry_and_fusion_ms": 45.24850007146597
+    },
+    {
+      "pipeline_ms": 53.997900104150176,
+      "required_model_core_ms": 7.30760011356324,
+      "direct_geometry_and_fusion_ms": 46.69029999058694
+    },
+    {
+      "pipeline_ms": 54.51069993432611,
+      "required_model_core_ms": 7.824499974958599,
+      "direct_geometry_and_fusion_ms": 46.686199959367514
+    },
+    {
+      "pipeline_ms": 54.28599996957928,
+      "required_model_core_ms": 6.73100003041327,
+      "direct_geometry_and_fusion_ms": 47.55499993916601
+    },
+    {
+      "pipeline_ms": 58.76899999566376,
+      "required_model_core_ms": 7.3352999752387404,
+      "direct_geometry_and_fusion_ms": 51.43370002042502
+    },
+    {
+      "pipeline_ms": 57.65229999087751,
+      "required_model_core_ms": 7.236400037072599,
+      "direct_geometry_and_fusion_ms": 50.41589995380491
+    },
+    {
+      "pipeline_ms": 54.85039995983243,
+      "required_model_core_ms": 6.349499919451773,
+      "direct_geometry_and_fusion_ms": 48.50090004038066
+    },
+    {
+      "pipeline_ms": 65.94739994034171,
+      "required_model_core_ms": 7.3917999397963285,
+      "direct_geometry_and_fusion_ms": 58.55560000054538
+    },
+    {
+      "pipeline_ms": 58.34570003207773,
+      "required_model_core_ms": 6.728800013661385,
+      "direct_geometry_and_fusion_ms": 51.616900018416345
+    },
+    {
+      "pipeline_ms": 56.64480000268668,
+      "required_model_core_ms": 7.364699966274202,
+      "direct_geometry_and_fusion_ms": 49.28010003641248
+    },
+    {
+      "pipeline_ms": 56.37540004681796,
+      "required_model_core_ms": 6.735999952070415,
+      "direct_geometry_and_fusion_ms": 49.63940009474754
+    },
+    {
+      "pipeline_ms": 59.57119993399829,
+      "required_model_core_ms": 7.506900001317263,
+      "direct_geometry_and_fusion_ms": 52.064299932681024
+    },
+    {
+      "pipeline_ms": 58.83300001733005,
+      "required_model_core_ms": 7.263500010594726,
+      "direct_geometry_and_fusion_ms": 51.569500006735325
+    },
+    {
+      "pipeline_ms": 56.21599999722093,
+      "required_model_core_ms": 7.294600014574826,
+      "direct_geometry_and_fusion_ms": 48.92139998264611
+    },
+    {
+      "pipeline_ms": 56.568600004538894,
+      "required_model_core_ms": 6.790100014768541,
+      "direct_geometry_and_fusion_ms": 49.77849998977035
+    },
+    {
+      "pipeline_ms": 53.88849996961653,
+      "required_model_core_ms": 6.463999976404011,
+      "direct_geometry_and_fusion_ms": 47.42449999321252
+    },
+    {
+      "pipeline_ms": 63.70169995352626,
+      "required_model_core_ms": 8.915000013075769,
+      "direct_geometry_and_fusion_ms": 54.78669994045049
+    },
+    {
+      "pipeline_ms": 60.63439999707043,
+      "required_model_core_ms": 7.952500018291175,
+      "direct_geometry_and_fusion_ms": 52.681899978779256
+    },
+    {
+      "pipeline_ms": 61.53229996562004,
+      "required_model_core_ms": 8.239999995566905,
+      "direct_geometry_and_fusion_ms": 53.292299970053136
+    },
+    {
+      "pipeline_ms": 61.343499924987555,
+      "required_model_core_ms": 7.831099908798933,
+      "direct_geometry_and_fusion_ms": 53.51240001618862
+    },
+    {
+      "pipeline_ms": 61.36130006052554,
+      "required_model_core_ms": 7.7797999838367105,
+      "direct_geometry_and_fusion_ms": 53.581500076688826
+    },
+    {
+      "pipeline_ms": 62.65440001152456,
+      "required_model_core_ms": 7.966400007717311,
+      "direct_geometry_and_fusion_ms": 54.68800000380725
+    },
+    {
+      "pipeline_ms": 57.23929998930544,
+      "required_model_core_ms": 7.408199948258698,
+      "direct_geometry_and_fusion_ms": 49.83110004104674
+    },
+    {
+      "pipeline_ms": 57.61490005534142,
+      "required_model_core_ms": 6.22280000243336,
+      "direct_geometry_and_fusion_ms": 51.39210005290806
+    },
+    {
+      "pipeline_ms": 61.41199998091906,
+      "required_model_core_ms": 7.94150005094707,
+      "direct_geometry_and_fusion_ms": 53.47049992997199
+    },
+    {
+      "pipeline_ms": 64.25759999547154,
+      "required_model_core_ms": 11.771799996495247,
+      "direct_geometry_and_fusion_ms": 52.48579999897629
+    },
+    {
+      "pipeline_ms": 58.05410002358258,
+      "required_model_core_ms": 7.361900061368942,
+      "direct_geometry_and_fusion_ms": 50.692199962213635
+    },
+    {
+      "pipeline_ms": 61.97099993005395,
+      "required_model_core_ms": 7.389599923044443,
+      "direct_geometry_and_fusion_ms": 54.581400007009506
+    },
+    {
+      "pipeline_ms": 126.21789996046573,
+      "required_model_core_ms": 7.547599961981177,
+      "direct_geometry_and_fusion_ms": 118.67029999848455
+    },
+    {
+      "pipeline_ms": 60.577800031751394,
+      "required_model_core_ms": 7.631600019522011,
+      "direct_geometry_and_fusion_ms": 52.94620001222938
+    },
+    {
+      "pipeline_ms": 56.53399997390807,
+      "required_model_core_ms": 6.9046999560669065,
+      "direct_geometry_and_fusion_ms": 49.62930001784116
+    }
+  ]
+}

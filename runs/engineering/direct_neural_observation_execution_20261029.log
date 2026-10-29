@@ -1,0 +1,161 @@
+{
+  "phase": "completed",
+  "video29": {
+    "raw_classwise": {
+      "stone_dice": 0.8106167536054004,
+      "stone_iou": 0.6815437799907126,
+      "stone_precision": 0.9217210483713401,
+      "stone_recall": 0.7234161409043113,
+      "stone_tp": 66045,
+      "stone_fp": 5609,
+      "stone_fn": 25251,
+      "fiber_dice": 0.9668022126134994,
+      "fiber_iou": 0.9357377884626037,
+      "fiber_precision": 0.9890338294359419,
+      "fiber_recall": 0.9455480736399613,
+      "fiber_tp": 168925,
+      "fiber_fp": 1873,
+      "fiber_fn": 9728,
+      "mean_dice": 0.88870948310945,
+      "mean_iou": 0.8086407842266581,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          4349836,
+          5541,
+          1873
+        ],
+        [
+          25251,
+          66045,
+          0
+        ],
+        [
+          9660,
+          68,
+          168925
+        ]
+      ],
+      "valid_pixels": 4627199,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 1440000,
+      "stone_negative_fp_pixels": 477,
+      "stone_negative_fp_pixel_fraction": 0.00033125
+    },
+    "fixed_image_observation_template": {
+      "stone_dice": 0.810040106459961,
+      "stone_iou": 0.680728914358747,
+      "stone_precision": 0.9202312944127072,
+      "stone_recall": 0.7234161409043113,
+      "stone_tp": 66045,
+      "stone_fp": 5725,
+      "stone_fn": 25251,
+      "fiber_dice": 0.0,
+      "fiber_iou": 0.0,
+      "fiber_precision": 0.0,
+      "fiber_recall": 0.0,
+      "fiber_tp": 0,
+      "fiber_fp": 2563,
+      "fiber_fn": 178653,
+      "mean_dice": 0.4050200532299805,
+      "mean_iou": 0.3403644571793735,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          4349143,
+          5544,
+          2563
+        ],
+        [
+          25251,
+          66045,
+          0
+        ],
+        [
+          178472,
+          181,
+          0
+        ]
+      ],
+      "valid_pixels": 4627199,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 1440000,
+      "stone_negative_fp_pixels": 477,
+      "stone_negative_fp_pixel_fraction": 0.00033125
+    },
+    "fixed_neural_observation_template": {
+      "stone_dice": 0.810089785104504,
+      "stone_iou": 0.6807990846398863,
+      "stone_precision": 0.9203595317725752,
+      "stone_recall": 0.7234161409043113,
+      "stone_tp": 66045,
+      "stone_fp": 5715,
+      "stone_fn": 25251,
+      "fiber_dice": 0.8832112697107839,
+      "fiber_iou": 0.790849017147637,
+      "fiber_precision": 0.9952839126681685,
+      "fiber_recall": 0.7938237812967036,
+      "fiber_tp": 141819,
+      "fiber_fp": 672,
+      "fiber_fn": 36834,
+      "mean_dice": 0.8466505274076439,
+      "mean_iou": 0.7358240508937617,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          4351035,
+          5543,
+          672
+        ],
+        [
+          25251,
+          66045,
+          0
+        ],
+        [
+          36662,
+          172,
+          141819
+        ]
+      ],
+      "valid_pixels": 4627199,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 1440000,
+      "stone_negative_fp_pixels": 477,
+      "stone_negative_fp_pixel_fraction": 0.00033125
+    }
+  },
+  "screening": {
+    "raw_classwise": {
+      "passed": true,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": true,
+        "negative_fp_area": true
+      }
+    },
+    "fixed_image_observation_template": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    },
+    "fixed_neural_observation_template": {
+      "passed": false,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": false,
+        "negative_fp_area": true
+      }
+    }
+  },
+  "full_replay_executed": false
+}

@@ -1,0 +1,534 @@
+{
+  "scope": "Post-hoc diagnosis only. GT-PCA pose is reference-conditioned, not a certified optimum or automatic segmentation; no parameter changes",
+  "frames": [
+    {
+      "sample_id": "reviewed_video_1_000002",
+      "video_id": "video_1",
+      "frame_index": 2,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.05380301437083772,
+      "reference_fiber_pixels": 5706,
+      "reference_fiber_with_appearance_support": 307,
+      "reference_PCA_pose": [
+        -2.762322105033526,
+        182.36554942048627,
+        0.18669693171977997,
+        122.58473424911503
+      ],
+      "reference_PCA_template_dice": 0.9467576791808874,
+      "reference_PCA_visible_dice": 0.06921086675291074
+    },
+    {
+      "sample_id": "reviewed_video_1_000032",
+      "video_id": "video_1",
+      "frame_index": 32,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.05926056960905714,
+      "reference_fiber_pixels": 5653,
+      "reference_fiber_with_appearance_support": 335,
+      "reference_PCA_pose": [
+        -2.882972455270668,
+        182.54126204100882,
+        0.18931230902671814,
+        122.98013076782226
+      ],
+      "reference_PCA_template_dice": 0.942605422974938,
+      "reference_PCA_visible_dice": 0.0772837510105093
+    },
+    {
+      "sample_id": "reviewed_video_1_000034",
+      "video_id": "video_1",
+      "frame_index": 34,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.06214887640449438,
+      "reference_fiber_pixels": 5696,
+      "reference_fiber_with_appearance_support": 354,
+      "reference_PCA_pose": [
+        -2.871592065895733,
+        182.23798129541828,
+        0.19125941395759583,
+        123.04223670959472
+      ],
+      "reference_PCA_template_dice": 0.9425600818135333,
+      "reference_PCA_visible_dice": 0.07567740901074234
+    },
+    {
+      "sample_id": "reviewed_video_1_000036",
+      "video_id": "video_1",
+      "frame_index": 36,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.05785562632696391,
+      "reference_fiber_pixels": 5652,
+      "reference_fiber_with_appearance_support": 327,
+      "reference_PCA_pose": [
+        -2.8218944339977554,
+        182.60488105643282,
+        0.18667399883270264,
+        122.97459671020508
+      ],
+      "reference_PCA_template_dice": 0.941830624465355,
+      "reference_PCA_visible_dice": 0.0735602516534925
+    },
+    {
+      "sample_id": "reviewed_video_1_000053",
+      "video_id": "video_1",
+      "frame_index": 53,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.07016632016632017,
+      "reference_fiber_pixels": 5772,
+      "reference_fiber_with_appearance_support": 405,
+      "reference_PCA_pose": [
+        -2.827625477351006,
+        182.296726221088,
+        0.18985013663768768,
+        123.60032150268549
+      ],
+      "reference_PCA_template_dice": 0.9465159439851527,
+      "reference_PCA_visible_dice": 0.09382871536523929
+    },
+    {
+      "sample_id": "reviewed_video_1_000062",
+      "video_id": "video_1",
+      "frame_index": 62,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.09256085018854988,
+      "reference_fiber_pixels": 5834,
+      "reference_fiber_with_appearance_support": 540,
+      "reference_PCA_pose": [
+        -2.814617678841266,
+        181.85520139354284,
+        0.1930311769247055,
+        124.58625234603882
+      ],
+      "reference_PCA_template_dice": 0.945542490200984,
+      "reference_PCA_visible_dice": 0.1265161983724858
+    },
+    {
+      "sample_id": "reviewed_video_1_000071",
+      "video_id": "video_1",
+      "frame_index": 71,
+      "valid_fine_image_candidates": 29,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.07969899093552249,
+      "reference_fiber_pixels": 5847,
+      "reference_fiber_with_appearance_support": 466,
+      "reference_PCA_pose": [
+        -2.724251989363765,
+        181.6215446691616,
+        0.19739267230033875,
+        125.07694042205802
+      ],
+      "reference_PCA_template_dice": 0.946197276652275,
+      "reference_PCA_visible_dice": 0.10882033793210355
+    },
+    {
+      "sample_id": "reviewed_video_1_000072",
+      "video_id": "video_1",
+      "frame_index": 72,
+      "valid_fine_image_candidates": 80,
+      "selected_image_candidate_valid": true,
+      "appearance_recall_on_reference_fiber": 0.07800205268559698,
+      "reference_fiber_pixels": 5846,
+      "reference_fiber_with_appearance_support": 456,
+      "reference_PCA_pose": [
+        -2.7196411698459997,
+        181.71926427614017,
+        0.19622191786766052,
+        124.71327953338623
+      ],
+      "reference_PCA_template_dice": 0.9467987677961869,
+      "reference_PCA_visible_dice": 0.10305105853051058
+    },
+    {
+      "sample_id": "reviewed_video_1_000076",
+      "video_id": "video_1",
+      "frame_index": 76,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.09477856281233844,
+      "reference_fiber_pixels": 5803,
+      "reference_fiber_with_appearance_support": 550,
+      "reference_PCA_pose": [
+        -2.704363183225304,
+        181.56791151450608,
+        0.19691942632198334,
+        125.11115695953364
+      ],
+      "reference_PCA_template_dice": 0.9443611527569549,
+      "reference_PCA_visible_dice": 0.1379941993588765
+    },
+    {
+      "sample_id": "reviewed_video_1_000077",
+      "video_id": "video_1",
+      "frame_index": 77,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.11023622047244094,
+      "reference_fiber_pixels": 5842,
+      "reference_fiber_with_appearance_support": 644,
+      "reference_PCA_pose": [
+        -2.6913192776981134,
+        181.7205894936572,
+        0.1948229968547821,
+        124.69380495071411
+      ],
+      "reference_PCA_template_dice": 0.9463780183180682,
+      "reference_PCA_visible_dice": 0.15749924857228734
+    },
+    {
+      "sample_id": "reviewed_video_1_000079",
+      "video_id": "video_1",
+      "frame_index": 79,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.11301369863013698,
+      "reference_fiber_pixels": 5840,
+      "reference_fiber_with_appearance_support": 660,
+      "reference_PCA_pose": [
+        -2.4921461075141806,
+        181.75851647394546,
+        0.19433709979057312,
+        124.4940883255005
+      ],
+      "reference_PCA_template_dice": 0.9465089151808032,
+      "reference_PCA_visible_dice": 0.1612272522183787
+    },
+    {
+      "sample_id": "reviewed_video_1_000096",
+      "video_id": "video_1",
+      "frame_index": 96,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.12222607489597781,
+      "reference_fiber_pixels": 5768,
+      "reference_fiber_with_appearance_support": 705,
+      "reference_PCA_pose": [
+        -2.5655958993002272,
+        182.8756518619424,
+        0.18620982766151428,
+        124.73735681533813
+      ],
+      "reference_PCA_template_dice": 0.9384306508281747,
+      "reference_PCA_visible_dice": 0.18138424821002386
+    },
+    {
+      "sample_id": "reviewed_video_1_000112",
+      "video_id": "video_1",
+      "frame_index": 112,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.10579216354344123,
+      "reference_fiber_pixels": 5870,
+      "reference_fiber_with_appearance_support": 621,
+      "reference_PCA_pose": [
+        -2.531619905340918,
+        181.3363169544129,
+        0.20039550960063934,
+        125.18276252746583
+      ],
+      "reference_PCA_template_dice": 0.9487540359301266,
+      "reference_PCA_visible_dice": 0.16165299301124278
+    },
+    {
+      "sample_id": "reviewed_video_1_000142",
+      "video_id": "video_1",
+      "frame_index": 142,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.09879769994772608,
+      "reference_fiber_pixels": 5739,
+      "reference_fiber_with_appearance_support": 567,
+      "reference_PCA_pose": [
+        -2.7960908444343886,
+        181.75104241434917,
+        0.19913847744464874,
+        124.36892929077149
+      ],
+      "reference_PCA_template_dice": 0.9423255030731666,
+      "reference_PCA_visible_dice": 0.13984939296142615
+    },
+    {
+      "sample_id": "reviewed_video_1_000329",
+      "video_id": "video_1",
+      "frame_index": 329,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.10498544395924309,
+      "reference_fiber_pixels": 5496,
+      "reference_fiber_with_appearance_support": 577,
+      "reference_PCA_pose": [
+        -2.459258068496638,
+        184.70906576241566,
+        0.1980137825012207,
+        121.61317882537836
+      ],
+      "reference_PCA_template_dice": 0.9398305824818793,
+      "reference_PCA_visible_dice": 0.16114649681528662
+    },
+    {
+      "sample_id": "reviewed_video_1_000427",
+      "video_id": "video_1",
+      "frame_index": 427,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.13840086052348513,
+      "reference_fiber_pixels": 5578,
+      "reference_fiber_with_appearance_support": 772,
+      "reference_PCA_pose": [
+        -2.56969714255969,
+        186.0527274867784,
+        0.2025357037782669,
+        121.1149243736267
+      ],
+      "reference_PCA_template_dice": 0.9410127022794501,
+      "reference_PCA_visible_dice": 0.20510426392779335
+    },
+    {
+      "sample_id": "reviewed_video_1_000524",
+      "video_id": "video_1",
+      "frame_index": 524,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.16891412349183818,
+      "reference_fiber_pixels": 5636,
+      "reference_fiber_with_appearance_support": 952,
+      "reference_PCA_pose": [
+        -2.2692269437280785,
+        186.8803173471213,
+        0.18932871520519257,
+        121.71123037338256
+      ],
+      "reference_PCA_template_dice": 0.9430712255619671,
+      "reference_PCA_visible_dice": 0.2601043997017151
+    },
+    {
+      "sample_id": "reviewed_video_1_000525",
+      "video_id": "video_1",
+      "frame_index": 525,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.17496443812233287,
+      "reference_fiber_pixels": 5624,
+      "reference_fiber_with_appearance_support": 984,
+      "reference_PCA_pose": [
+        -2.2691078468407824,
+        186.68302403746102,
+        0.19209520518779755,
+        121.74173233032226
+      ],
+      "reference_PCA_template_dice": 0.9416429618136367,
+      "reference_PCA_visible_dice": 0.26648761563712325
+    },
+    {
+      "sample_id": "reviewed_video_1_000623",
+      "video_id": "video_1",
+      "frame_index": 623,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.18901020225523538,
+      "reference_fiber_pixels": 5587,
+      "reference_fiber_with_appearance_support": 1056,
+      "reference_PCA_pose": [
+        -2.2875984658993147,
+        186.49683094867171,
+        0.19543124735355377,
+        119.60967197418213
+      ],
+      "reference_PCA_template_dice": 0.9457731055628559,
+      "reference_PCA_visible_dice": 0.2747384155455904
+    },
+    {
+      "sample_id": "reviewed_video_1_000721",
+      "video_id": "video_1",
+      "frame_index": 721,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.1793056959892147,
+      "reference_fiber_pixels": 5934,
+      "reference_fiber_with_appearance_support": 1064,
+      "reference_PCA_pose": [
+        -2.358265249960759,
+        184.82462540020003,
+        0.20235750079154968,
+        123.32196928024293
+      ],
+      "reference_PCA_template_dice": 0.9506532412415745,
+      "reference_PCA_visible_dice": 0.25812920784987825
+    },
+    {
+      "sample_id": "reviewed_video_2_000000",
+      "video_id": "video_2",
+      "frame_index": 0,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.042002964915170485,
+      "reference_fiber_pixels": 6071,
+      "reference_fiber_with_appearance_support": 255,
+      "reference_PCA_pose": [
+        -2.4471173651130016,
+        184.74505882228593,
+        0.16765627264976501,
+        147.783616065979
+      ],
+      "reference_PCA_template_dice": 0.8557575757575757,
+      "reference_PCA_visible_dice": 0.06684898207231844
+    },
+    {
+      "sample_id": "reviewed_video_2_000075",
+      "video_id": "video_2",
+      "frame_index": 75,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.05921259842519685,
+      "reference_fiber_pixels": 6350,
+      "reference_fiber_with_appearance_support": 376,
+      "reference_PCA_pose": [
+        -2.1148913441187673,
+        183.31952467532994,
+        0.15650716423988342,
+        150.0745541381836
+      ],
+      "reference_PCA_template_dice": 0.8646191984575128,
+      "reference_PCA_visible_dice": 0.09687589567211236
+    },
+    {
+      "sample_id": "reviewed_video_2_000149",
+      "video_id": "video_2",
+      "frame_index": 149,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.09037296780363405,
+      "reference_fiber_pixels": 6274,
+      "reference_fiber_with_appearance_support": 567,
+      "reference_PCA_pose": [
+        -2.0056575109372545,
+        185.43932744700527,
+        0.15698567032814026,
+        150.99506534576417
+      ],
+      "reference_PCA_template_dice": 0.8533883728930168,
+      "reference_PCA_visible_dice": 0.1519094766619519
+    },
+    {
+      "sample_id": "reviewed_video_2_000986",
+      "video_id": "video_2",
+      "frame_index": 986,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.05520030092157231,
+      "reference_fiber_pixels": 10634,
+      "reference_fiber_with_appearance_support": 587,
+      "reference_PCA_pose": [
+        -9.966184797946127,
+        369.0621429642498,
+        -0.6539803743362427,
+        211.89636512756346
+      ],
+      "reference_PCA_template_dice": 0.875351047742493,
+      "reference_PCA_visible_dice": 0.08106267029972752
+    },
+    {
+      "sample_id": "reviewed_video_2_001061",
+      "video_id": "video_2",
+      "frame_index": 1061,
+      "valid_fine_image_candidates": 52,
+      "selected_image_candidate_valid": true,
+      "appearance_recall_on_reference_fiber": 0.07401315789473684,
+      "reference_fiber_pixels": 6688,
+      "reference_fiber_with_appearance_support": 495,
+      "reference_PCA_pose": [
+        -3.7942456008233876,
+        180.0848996573279,
+        0.17838028073310852,
+        154.83606569290157
+      ],
+      "reference_PCA_template_dice": 0.8734143763213531,
+      "reference_PCA_visible_dice": 0.12174831638716493
+    },
+    {
+      "sample_id": "reviewed_video_2_001135",
+      "video_id": "video_2",
+      "frame_index": 1135,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.09710610932475884,
+      "reference_fiber_pixels": 6220,
+      "reference_fiber_with_appearance_support": 604,
+      "reference_PCA_pose": [
+        -3.8485572319919683,
+        265.8740772274895,
+        -0.266008198261261,
+        156.36895151138302
+      ],
+      "reference_PCA_template_dice": 0.8351887048601684,
+      "reference_PCA_visible_dice": 0.15754376215615448
+    },
+    {
+      "sample_id": "reviewed_video_2_001822",
+      "video_id": "video_2",
+      "frame_index": 1822,
+      "valid_fine_image_candidates": 71,
+      "selected_image_candidate_valid": true,
+      "appearance_recall_on_reference_fiber": 0.19096876864929382,
+      "reference_fiber_pixels": 5027,
+      "reference_fiber_with_appearance_support": 960,
+      "reference_PCA_pose": [
+        0.4864985759554159,
+        178.57899679730062,
+        0.14198899269104004,
+        128.83698196411132
+      ],
+      "reference_PCA_template_dice": 0.8520710059171598,
+      "reference_PCA_visible_dice": 0.29925266338050566
+    },
+    {
+      "sample_id": "reviewed_video_2_001897",
+      "video_id": "video_2",
+      "frame_index": 1897,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.04934243053495501,
+      "reference_fiber_pixels": 10113,
+      "reference_fiber_with_appearance_support": 499,
+      "reference_PCA_pose": [
+        -14.360257804621241,
+        360.39899082592143,
+        -0.6447356939315796,
+        210.40146728515634
+      ],
+      "reference_PCA_template_dice": 0.8699950568462679,
+      "reference_PCA_visible_dice": 0.07184011523226504
+    },
+    {
+      "sample_id": "reviewed_video_2_001971",
+      "video_id": "video_2",
+      "frame_index": 1971,
+      "valid_fine_image_candidates": 0,
+      "selected_image_candidate_valid": false,
+      "appearance_recall_on_reference_fiber": 0.07416450480695864,
+      "reference_fiber_pixels": 6553,
+      "reference_fiber_with_appearance_support": 486,
+      "reference_PCA_pose": [
+        -2.7359796121982782,
+        180.7432339647784,
+        0.1688842922449112,
+        154.6750207519531
+      ],
+      "reference_PCA_template_dice": 0.8605593569388161,
+      "reference_PCA_visible_dice": 0.12288537014480985
+    }
+  ],
+  "summary": {
+    "frames_where_selected_rejected_but_valid_alternative_exists": 1,
+    "frames_no_valid_fine_image_candidate": 25,
+    "pooled_reference_fiber_appearance_recall": 0.0961136952640034,
+    "reference_PCA_template_dice_mean": 0.9182032785459424,
+    "reference_PCA_visible_dice_mean": 0.14700805429119404
+  }
+}
