@@ -1,0 +1,16 @@
+{
+  "frames": 1972,
+  "counts": {
+    "component_gate_1net_accepted": 1262,
+    "fixed_neural_accepted": 1971,
+    "reviewed_rgb_exact": 9
+  },
+  "parity": {
+    "classwise_historical_different_pixels": 0,
+    "old190_historical_different_pixels": 0,
+    "component_gate_1net_static_different_pixels": 0,
+    "fixed_neural_static_different_pixels": 0
+  },
+  "wall_seconds": 270.4796991000185,
+  "scope": "User-requested visualization supplement, not conditional acceptance replay or a timing benchmark"
+}

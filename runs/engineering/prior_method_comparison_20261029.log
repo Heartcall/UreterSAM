@@ -1,0 +1,123 @@
+infer video_1 100/722
+infer video_1 200/722
+infer video_1 300/722
+infer video_1 400/722
+infer video_1 500/722
+infer video_1 600/722
+infer video_1 700/722
+infer video_2 100/1972
+infer video_2 200/1972
+infer video_2 300/1972
+infer video_2 400/1972
+infer video_2 500/1972
+infer video_2 600/1972
+infer video_2 700/1972
+infer video_2 800/1972
+infer video_2 900/1972
+infer video_2 1000/1972
+infer video_2 1100/1972
+infer video_2 1200/1972
+infer video_2 1300/1972
+infer video_2 1400/1972
+infer video_2 1500/1972
+infer video_2 1600/1972
+infer video_2 1700/1972
+infer video_2 1800/1972
+infer video_2 1900/1972
+render video_1 100/722
+render video_1 200/722
+render video_1 300/722
+render video_1 400/722
+render video_1 500/722
+render video_1 600/722
+render video_1 700/722
+render video_2 100/1972
+render video_2 200/1972
+render video_2 300/1972
+render video_2 400/1972
+render video_2 500/1972
+render video_2 600/1972
+render video_2 700/1972
+render video_2 800/1972
+render video_2 900/1972
+render video_2 1000/1972
+render video_2 1100/1972
+render video_2 1200/1972
+render video_2 1300/1972
+render video_2 1400/1972
+render video_2 1500/1972
+render video_2 1600/1972
+render video_2 1700/1972
+render video_2 1800/1972
+render video_2 1900/1972
+{
+  "phase": "completed",
+  "exports": {
+    "video_1": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\prior_method_comparison_20261029\\video_1\\video_1_all_priors_comparison.mp4",
+      "frames": 722,
+      "decoded_frames": 722,
+      "fps": 30.0,
+      "source_fps": 30.0,
+      "duration_seconds": 24.066666666666666,
+      "width": 1600,
+      "height": 1436,
+      "codec": "H264 via Windows Media Foundation",
+      "sha256": "495671c0c3e5cb5c7cdb8580f9e968ee517b3e52889e76091eff359a56a72f8c",
+      "bytes": 205958012,
+      "source_mask_identity_chain": "f00722454f8f011408bca821225a4cdcbf3487463422c8b826d72990e22057e3",
+      "preview_images": [
+        "comparison_frame_000001.jpg",
+        "comparison_frame_000362.jpg",
+        "comparison_frame_000722.jpg"
+      ],
+      "encoded_samples": [
+        {
+          "one_based_frame": 1,
+          "psnr_against_jpeg_reference": 34.3479511465726
+        },
+        {
+          "one_based_frame": 362,
+          "psnr_against_jpeg_reference": 36.39989975130016
+        },
+        {
+          "one_based_frame": 722,
+          "psnr_against_jpeg_reference": 36.74417407678776
+        }
+      ]
+    },
+    "video_2": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\prior_method_comparison_20261029\\video_2\\video_2_all_priors_comparison.mp4",
+      "frames": 1972,
+      "decoded_frames": 1972,
+      "fps": 30.082,
+      "source_fps": 30.082069744027823,
+      "duration_seconds": 65.5541519845755,
+      "width": 1600,
+      "height": 1436,
+      "codec": "H264 via Windows Media Foundation",
+      "sha256": "34e87299847b857e803e5fdd27889e3bf8a609004154265d160890be9a931d57",
+      "bytes": 559888431,
+      "source_mask_identity_chain": "145c7fe18da1879946c6f1c0beec4d9af736fab0f59b6e95d5594676ef2082b9",
+      "preview_images": [
+        "comparison_frame_000001.jpg",
+        "comparison_frame_000987.jpg",
+        "comparison_frame_001972.jpg"
+      ],
+      "encoded_samples": [
+        {
+          "one_based_frame": 1,
+          "psnr_against_jpeg_reference": 33.45949881001994
+        },
+        {
+          "one_based_frame": 987,
+          "psnr_against_jpeg_reference": 37.74846367544327
+        },
+        {
+          "one_based_frame": 1972,
+          "psnr_against_jpeg_reference": 34.26480792463455
+        }
+      ]
+    }
+  }
+}

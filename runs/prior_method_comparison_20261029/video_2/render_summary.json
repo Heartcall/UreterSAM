@@ -1,0 +1,33 @@
+{
+  "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\prior_method_comparison_20261029\\video_2\\video_2_all_priors_comparison.mp4",
+  "frames": 1972,
+  "decoded_frames": 1972,
+  "fps": 30.082,
+  "source_fps": 30.082069744027823,
+  "duration_seconds": 65.5541519845755,
+  "width": 1600,
+  "height": 1436,
+  "codec": "H264 via Windows Media Foundation",
+  "sha256": "34e87299847b857e803e5fdd27889e3bf8a609004154265d160890be9a931d57",
+  "bytes": 559888431,
+  "source_mask_identity_chain": "145c7fe18da1879946c6f1c0beec4d9af736fab0f59b6e95d5594676ef2082b9",
+  "preview_images": [
+    "comparison_frame_000001.jpg",
+    "comparison_frame_000987.jpg",
+    "comparison_frame_001972.jpg"
+  ],
+  "encoded_samples": [
+    {
+      "one_based_frame": 1,
+      "psnr_against_jpeg_reference": 33.45949881001994
+    },
+    {
+      "one_based_frame": 987,
+      "psnr_against_jpeg_reference": 37.74846367544327
+    },
+    {
+      "one_based_frame": 1972,
+      "psnr_against_jpeg_reference": 34.26480792463455
+    }
+  ]
+}

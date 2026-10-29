@@ -1,0 +1,60 @@
+{
+  "all_passed": true,
+  "checks": {
+    "completed_all2694_frames": true,
+    "all_frozen_sources_metadata_videos_checkpoints_unchanged": true,
+    "no_training_default_acceptance_or_memory_change": true,
+    "all_eight_variants_and_two_references_labeled": true,
+    "video_1_supplemental_predictions_complete_consecutive": true,
+    "video_1_static_predictions_and_raw_reference_reproduce_exact": true,
+    "video_1_every_frame_ten_mask_sources_and_hash_chain_exact": true,
+    "video_1_h264_native_panels_fps_full_duration_and_three_encoded_samples": true,
+    "video_2_supplemental_predictions_complete_consecutive": true,
+    "video_2_static_predictions_and_raw_reference_reproduce_exact": true,
+    "video_2_every_frame_ten_mask_sources_and_hash_chain_exact": true,
+    "video_2_h264_native_panels_fps_full_duration_and_three_encoded_samples": true
+  },
+  "details": {
+    "video_1": {
+      "frames": 722,
+      "duration_seconds": 24.066666666666666,
+      "codec": "h264",
+      "bytes": 205958012,
+      "samples": [
+        {
+          "one_based_frame": 1,
+          "psnr": 34.3479511465726
+        },
+        {
+          "one_based_frame": 362,
+          "psnr": 36.39989975130016
+        },
+        {
+          "one_based_frame": 722,
+          "psnr": 36.74417407678776
+        }
+      ]
+    },
+    "video_2": {
+      "frames": 1972,
+      "duration_seconds": 65.5541519845755,
+      "codec": "h264",
+      "bytes": 559888431,
+      "samples": [
+        {
+          "one_based_frame": 1,
+          "psnr": 33.45949881001994
+        },
+        {
+          "one_based_frame": 987,
+          "psnr": 37.74846367544327
+        },
+        {
+          "one_based_frame": 1972,
+          "psnr": 34.26480792463455
+        }
+      ]
+    }
+  },
+  "scope": "Artifact/source/reproduction validation only; no dense-ground-truth quality or model acceptance claim"
+}

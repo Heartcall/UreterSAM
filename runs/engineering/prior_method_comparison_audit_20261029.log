@@ -1,0 +1,46 @@
+{
+  "all_passed": true,
+  "checks": 12,
+  "details": {
+    "video_1": {
+      "frames": 722,
+      "duration_seconds": 24.066666666666666,
+      "codec": "h264",
+      "bytes": 205958012,
+      "samples": [
+        {
+          "one_based_frame": 1,
+          "psnr": 34.3479511465726
+        },
+        {
+          "one_based_frame": 362,
+          "psnr": 36.39989975130016
+        },
+        {
+          "one_based_frame": 722,
+          "psnr": 36.74417407678776
+        }
+      ]
+    },
+    "video_2": {
+      "frames": 1972,
+      "duration_seconds": 65.5541519845755,
+      "codec": "h264",
+      "bytes": 559888431,
+      "samples": [
+        {
+          "one_based_frame": 1,
+          "psnr": 33.45949881001994
+        },
+        {
+          "one_based_frame": 987,
+          "psnr": 37.74846367544327
+        },
+        {
+          "one_based_frame": 1972,
+          "psnr": 34.26480792463455
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "exports": {
+    "video_1": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\prior_method_comparison_20261029\\video_1\\video_1_all_priors_comparison.mp4",
+      "frames": 722,
+      "decoded_frames": 722,
+      "fps": 30.0,
+      "source_fps": 30.0,
+      "duration_seconds": 24.066666666666666,
+      "width": 1600,
+      "height": 1436,
+      "codec": "H264 via Windows Media Foundation",
+      "sha256": "495671c0c3e5cb5c7cdb8580f9e968ee517b3e52889e76091eff359a56a72f8c",
+      "bytes": 205958012,
+      "source_mask_identity_chain": "f00722454f8f011408bca821225a4cdcbf3487463422c8b826d72990e22057e3",
+      "preview_images": [
+        "comparison_frame_000001.jpg",
+        "comparison_frame_000362.jpg",
+        "comparison_frame_000722.jpg"
+      ],
+      "encoded_samples": [
+        {
+          "one_based_frame": 1,
+          "psnr_against_jpeg_reference": 34.3479511465726
+        },
+        {
+          "one_based_frame": 362,
+          "psnr_against_jpeg_reference": 36.39989975130016
+        },
+        {
+          "one_based_frame": 722,
+          "psnr_against_jpeg_reference": 36.74417407678776
+        }
+      ]
+    },
+    "video_2": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\prior_method_comparison_20261029\\video_2\\video_2_all_priors_comparison.mp4",
+      "frames": 1972,
+      "decoded_frames": 1972,
+      "fps": 30.082,
+      "source_fps": 30.082069744027823,
+      "duration_seconds": 65.5541519845755,
+      "width": 1600,
+      "height": 1436,
+      "codec": "H264 via Windows Media Foundation",
+      "sha256": "34e87299847b857e803e5fdd27889e3bf8a609004154265d160890be9a931d57",
+      "bytes": 559888431,
+      "source_mask_identity_chain": "145c7fe18da1879946c6f1c0beec4d9af736fab0f59b6e95d5594676ef2082b9",
+      "preview_images": [
+        "comparison_frame_000001.jpg",
+        "comparison_frame_000987.jpg",
+        "comparison_frame_001972.jpg"
+      ],
+      "encoded_samples": [
+        {
+          "one_based_frame": 1,
+          "psnr_against_jpeg_reference": 33.45949881001994
+        },
+        {
+          "one_based_frame": 987,
+          "psnr_against_jpeg_reference": 37.74846367544327
+        },
+        {
+          "one_based_frame": 1972,
+          "psnr_against_jpeg_reference": 34.26480792463455
+        }
+      ]
+    }
+  },
+  "variants": {
+    "classwise_raw": "参照：原始三网类别组合",
+    "old190_raw": "参照：旧190单网",
+    "edge_geometry": "先验1：双边直线＋圆钝末端",
+    "edge_geometry_causal": "先验2：几何拟合＋因果姿态",
+    "component_gate_3net": "先验3：候选筛选（三网）",
+    "component_gate_1net": "先验4：候选筛选（单网）",
+    "fixed_color": "先验5：固定模板＋颜色观测",
+    "fixed_color_soft": "先验6：固定模板＋网络软评分",
+    "fixed_color_causal": "先验7：固定模板＋因果姿态",
+    "fixed_neural": "先验8：固定模板＋概率观测"
+  },
+  "quality_video29_only": {
+    "classwise_raw": 0.9668022126134994,
+    "old190_raw": 0.9038304962793252,
+    "edge_geometry": 0.9553358158055894,
+    "edge_geometry_causal": 0.9555689679186592,
+    "component_gate_3net": 0.9665833755513386,
+    "component_gate_1net": 0.9026955986491507,
+    "fixed_color": 0.0,
+    "fixed_color_soft": 0.0,
+    "fixed_color_causal": 0.0,
+    "fixed_neural": 0.8832112697107839
+  },
+  "supplemental_inference": {
+    "video_1": {
+      "frames": 722,
+      "counts": {
+        "component_gate_1net_accepted": 722,
+        "fixed_neural_accepted": 722,
+        "reviewed_rgb_exact": 20
+      },
+      "parity": {
+        "classwise_historical_different_pixels": 0,
+        "old190_historical_different_pixels": 0,
+        "component_gate_1net_static_different_pixels": 0,
+        "fixed_neural_static_different_pixels": 0
+      },
+      "wall_seconds": 122.55783589999191,
+      "scope": "User-requested visualization supplement, not conditional acceptance replay or a timing benchmark"
+    },
+    "video_2": {
+      "frames": 1972,
+      "counts": {
+        "component_gate_1net_accepted": 1262,
+        "fixed_neural_accepted": 1971,
+        "reviewed_rgb_exact": 9
+      },
+      "parity": {
+        "classwise_historical_different_pixels": 0,
+        "old190_historical_different_pixels": 0,
+        "component_gate_1net_static_different_pixels": 0,
+        "fixed_neural_static_different_pixels": 0
+      },
+      "wall_seconds": 270.4796991000185,
+      "scope": "User-requested visualization supplement, not conditional acceptance replay or a timing benchmark"
+    }
+  },
+  "model_state_unchanged": "aeb9337b45b7e1088e3cd8169c86b16dca5b115359a8557c18334e8b5793496c",
+  "training_updates": 0,
+  "default_model_changed": false,
+  "acceptance_decision_changed": false,
+  "s2_accepted": false,
+  "stone_memory_started": false,
+  "reserved_test_pixels_read": false,
+  "scope": "User-requested visual comparison; previous failed static candidates replayed for display only"
+}
