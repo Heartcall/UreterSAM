@@ -1,0 +1,50 @@
+[
+  {
+    "scope": "video",
+    "index": 26,
+    "sample_id": "reviewed_video_2_001822",
+    "selection_rule": "largest_single_net_true_fiber_loss",
+    "fiber_changes": {
+      "lost_tp": 3809,
+      "gained_tp": 0,
+      "added_fp": 0,
+      "removed_fp": 28
+    }
+  },
+  {
+    "scope": "video",
+    "index": 7,
+    "sample_id": "reviewed_video_1_000072",
+    "selection_rule": "largest_single_net_FP_removal",
+    "fiber_changes": {
+      "lost_tp": 54,
+      "gained_tp": 0,
+      "added_fp": 0,
+      "removed_fp": 3012
+    }
+  },
+  {
+    "scope": "video",
+    "index": 22,
+    "sample_id": "reviewed_video_2_000149",
+    "selection_rule": "largest_three_net_true_fiber_loss",
+    "fiber_changes": {
+      "lost_tp": 46,
+      "gained_tp": 0,
+      "added_fp": 0,
+      "removed_fp": 0
+    }
+  },
+  {
+    "scope": "image",
+    "index": 7,
+    "sample_id": "kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8",
+    "selection_rule": "largest_image_FP_removal_pending_label",
+    "fiber_changes": {
+      "lost_tp": 0,
+      "gained_tp": 0,
+      "added_fp": 0,
+      "removed_fp": 453
+    }
+  }
+]

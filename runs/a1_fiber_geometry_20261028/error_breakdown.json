@@ -1,0 +1,2471 @@
+{
+  "scope": "Post-hoc error localization only; longitudinal thirds are not anatomical tip/shaft truth and do not tune parameters",
+  "frames": [
+    {
+      "sample_id": "reviewed_video_1_000002",
+      "video_id": "video_1",
+      "frame_index": 2,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 145,
+            "gained_fiber_tp": 19,
+            "added_fiber_fp": 15,
+            "removed_fiber_fp": 10
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 43,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 5
+          },
+          "middle_third": {
+            "lost_fiber_tp": 33,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 69,
+            "gained_fiber_tp": 17,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 5
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 139,
+            "gained_fiber_tp": 19,
+            "added_fiber_fp": 15,
+            "removed_fiber_fp": 9
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 42,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 5
+          },
+          "middle_third": {
+            "lost_fiber_tp": 32,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 65,
+            "gained_fiber_tp": 17,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 4
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000032",
+      "video_id": "video_1",
+      "frame_index": 32,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 118,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 18,
+            "removed_fiber_fp": 10
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 54,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 5
+          },
+          "middle_third": {
+            "lost_fiber_tp": 35,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 9,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 29,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 5
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 122,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 18,
+            "removed_fiber_fp": 10
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 54,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 5
+          },
+          "middle_third": {
+            "lost_fiber_tp": 34,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 9,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 34,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 5
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 11,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 8,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000034",
+      "video_id": "video_1",
+      "frame_index": 34,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 127,
+            "gained_fiber_tp": 8,
+            "added_fiber_fp": 11,
+            "removed_fiber_fp": 20
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 58,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 34,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 35,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 6
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 129,
+            "gained_fiber_tp": 8,
+            "added_fiber_fp": 12,
+            "removed_fiber_fp": 19
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 60,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 35,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 34,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 5
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 3,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000036",
+      "video_id": "video_1",
+      "frame_index": 36,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 104,
+            "gained_fiber_tp": 8,
+            "added_fiber_fp": 20,
+            "removed_fiber_fp": 6
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 49,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 4
+          },
+          "middle_third": {
+            "lost_fiber_tp": 26,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 10,
+            "removed_fiber_fp": 1
+          },
+          "distal_third": {
+            "lost_fiber_tp": 29,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 1
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 102,
+            "gained_fiber_tp": 8,
+            "added_fiber_fp": 21,
+            "removed_fiber_fp": 6
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 47,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 3
+          },
+          "middle_third": {
+            "lost_fiber_tp": 28,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 10,
+            "removed_fiber_fp": 1
+          },
+          "distal_third": {
+            "lost_fiber_tp": 27,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 2
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 3
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 1
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 2
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000053",
+      "video_id": "video_1",
+      "frame_index": 53,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 193,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 29
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 64,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 16
+          },
+          "middle_third": {
+            "lost_fiber_tp": 46,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 8
+          },
+          "distal_third": {
+            "lost_fiber_tp": 83,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 5
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 194,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 30
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 65,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 16
+          },
+          "middle_third": {
+            "lost_fiber_tp": 46,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 9
+          },
+          "distal_third": {
+            "lost_fiber_tp": 83,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 5
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 3,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "distal_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000062",
+      "video_id": "video_1",
+      "frame_index": 62,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 270,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 52
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 110,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 22
+          },
+          "middle_third": {
+            "lost_fiber_tp": 70,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "distal_third": {
+            "lost_fiber_tp": 90,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 17
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 246,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 51
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 107,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 21
+          },
+          "middle_third": {
+            "lost_fiber_tp": 67,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "distal_third": {
+            "lost_fiber_tp": 72,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 17
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 24,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 18,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000071",
+      "video_id": "video_1",
+      "frame_index": 71,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 211,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 42
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 109,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 12
+          },
+          "middle_third": {
+            "lost_fiber_tp": 52,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 14
+          },
+          "distal_third": {
+            "lost_fiber_tp": 50,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 16
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 218,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 41
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 111,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 12
+          },
+          "middle_third": {
+            "lost_fiber_tp": 57,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "distal_third": {
+            "lost_fiber_tp": 50,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 16
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 10,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 6,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000072",
+      "video_id": "video_1",
+      "frame_index": 72,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 143,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 42
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 75,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 11
+          },
+          "middle_third": {
+            "lost_fiber_tp": 33,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 11
+          },
+          "distal_third": {
+            "lost_fiber_tp": 35,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 20
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 172,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 43
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 86,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 12
+          },
+          "middle_third": {
+            "lost_fiber_tp": 42,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 11
+          },
+          "distal_third": {
+            "lost_fiber_tp": 44,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 20
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 32,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 2
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 11,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "middle_third": {
+            "lost_fiber_tp": 12,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "distal_third": {
+            "lost_fiber_tp": 9,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000076",
+      "video_id": "video_1",
+      "frame_index": 76,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 133,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 34
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 56,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 34,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 8
+          },
+          "distal_third": {
+            "lost_fiber_tp": 43,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 12
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 124,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 35
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 54,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 31,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 8
+          },
+          "distal_third": {
+            "lost_fiber_tp": 39,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 13
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 10,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 1
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 1
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000077",
+      "video_id": "video_1",
+      "frame_index": 77,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 228,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 45
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 96,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 61,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 16
+          },
+          "distal_third": {
+            "lost_fiber_tp": 71,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 15
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 184,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 45
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 82,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 46,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 16
+          },
+          "distal_third": {
+            "lost_fiber_tp": 56,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 15
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 46,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 14,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 15,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 17,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000079",
+      "video_id": "video_1",
+      "frame_index": 79,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 196,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 44
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 91,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 15
+          },
+          "middle_third": {
+            "lost_fiber_tp": 54,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "distal_third": {
+            "lost_fiber_tp": 51,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 16
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 199,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 45
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 94,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 15
+          },
+          "middle_third": {
+            "lost_fiber_tp": 54,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 14
+          },
+          "distal_third": {
+            "lost_fiber_tp": 51,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 16
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 5,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 4,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "distal_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000096",
+      "video_id": "video_1",
+      "frame_index": 96,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 260,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 36
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 118,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 27,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 9
+          },
+          "distal_third": {
+            "lost_fiber_tp": 115,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 240,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 36
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 116,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 22,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 9
+          },
+          "distal_third": {
+            "lost_fiber_tp": 102,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 22,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 13,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000112",
+      "video_id": "video_1",
+      "frame_index": 112,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 272,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 44
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 108,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 9
+          },
+          "middle_third": {
+            "lost_fiber_tp": 91,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 19
+          },
+          "distal_third": {
+            "lost_fiber_tp": 73,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 16
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 260,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 44
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 108,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 9
+          },
+          "middle_third": {
+            "lost_fiber_tp": 87,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 19
+          },
+          "distal_third": {
+            "lost_fiber_tp": 65,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 16
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 14,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 8,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000142",
+      "video_id": "video_1",
+      "frame_index": 142,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 198,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 42
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 78,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 37,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 14
+          },
+          "distal_third": {
+            "lost_fiber_tp": 83,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 14
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 175,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 39
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 80,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 31,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 12
+          },
+          "distal_third": {
+            "lost_fiber_tp": 64,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 13
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 3,
+            "gained_fiber_tp": 26,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 3,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 19,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000329",
+      "video_id": "video_1",
+      "frame_index": 329,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 181,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 23,
+            "removed_fiber_fp": 35
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 38,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 16,
+            "removed_fiber_fp": 19
+          },
+          "middle_third": {
+            "lost_fiber_tp": 35,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "distal_third": {
+            "lost_fiber_tp": 108,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 3
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 182,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 21,
+            "removed_fiber_fp": 35
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 36,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 16,
+            "removed_fiber_fp": 19
+          },
+          "middle_third": {
+            "lost_fiber_tp": 35,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "distal_third": {
+            "lost_fiber_tp": 111,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 3
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 3,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 2
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 3,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 2
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000427",
+      "video_id": "video_1",
+      "frame_index": 427,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 255,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 18,
+            "removed_fiber_fp": 39
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 106,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 16,
+            "removed_fiber_fp": 15
+          },
+          "middle_third": {
+            "lost_fiber_tp": 58,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 16
+          },
+          "distal_third": {
+            "lost_fiber_tp": 91,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 8
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 239,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 18,
+            "removed_fiber_fp": 40
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 106,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 16,
+            "removed_fiber_fp": 16
+          },
+          "middle_third": {
+            "lost_fiber_tp": 59,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 16
+          },
+          "distal_third": {
+            "lost_fiber_tp": 74,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 8
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 3,
+            "gained_fiber_tp": 19,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 1
+          },
+          "middle_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 17,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000524",
+      "video_id": "video_1",
+      "frame_index": 524,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 241,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 10,
+            "removed_fiber_fp": 52
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 113,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 10,
+            "removed_fiber_fp": 21
+          },
+          "middle_third": {
+            "lost_fiber_tp": 63,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 18
+          },
+          "distal_third": {
+            "lost_fiber_tp": 65,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 258,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 10,
+            "removed_fiber_fp": 52
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 120,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 10,
+            "removed_fiber_fp": 21
+          },
+          "middle_third": {
+            "lost_fiber_tp": 68,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 18
+          },
+          "distal_third": {
+            "lost_fiber_tp": 70,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 17,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 7,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 5,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 5,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000525",
+      "video_id": "video_1",
+      "frame_index": 525,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 246,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 49
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 123,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 20
+          },
+          "middle_third": {
+            "lost_fiber_tp": 67,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 18
+          },
+          "distal_third": {
+            "lost_fiber_tp": 56,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 11
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 243,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 8,
+            "removed_fiber_fp": 48
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 117,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 8,
+            "removed_fiber_fp": 19
+          },
+          "middle_third": {
+            "lost_fiber_tp": 66,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 18
+          },
+          "distal_third": {
+            "lost_fiber_tp": 60,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 11
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 5,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 5,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000623",
+      "video_id": "video_1",
+      "frame_index": 623,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 263,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 23,
+            "removed_fiber_fp": 64
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 122,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 23,
+            "removed_fiber_fp": 26
+          },
+          "middle_third": {
+            "lost_fiber_tp": 73,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 17
+          },
+          "distal_third": {
+            "lost_fiber_tp": 68,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 21
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 274,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 23,
+            "removed_fiber_fp": 63
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 118,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 23,
+            "removed_fiber_fp": 25
+          },
+          "middle_third": {
+            "lost_fiber_tp": 72,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 17
+          },
+          "distal_third": {
+            "lost_fiber_tp": 84,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 21
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 18,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 16,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_1_000721",
+      "video_id": "video_1",
+      "frame_index": 721,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 280,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 17,
+            "removed_fiber_fp": 48
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 134,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 17,
+            "removed_fiber_fp": 20
+          },
+          "middle_third": {
+            "lost_fiber_tp": 75,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 17
+          },
+          "distal_third": {
+            "lost_fiber_tp": 71,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 11
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 272,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 17,
+            "removed_fiber_fp": 48
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 132,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 17,
+            "removed_fiber_fp": 20
+          },
+          "middle_third": {
+            "lost_fiber_tp": 72,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 17
+          },
+          "distal_third": {
+            "lost_fiber_tp": 68,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 11
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 9,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_000000",
+      "video_id": "video_2",
+      "frame_index": 0,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 22,
+            "gained_fiber_tp": 53,
+            "added_fiber_fp": 33,
+            "removed_fiber_fp": 6
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 7,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 14,
+            "removed_fiber_fp": 1
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 14,
+            "added_fiber_fp": 15,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 15,
+            "gained_fiber_tp": 32,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 5
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 22,
+            "gained_fiber_tp": 53,
+            "added_fiber_fp": 33,
+            "removed_fiber_fp": 6
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 7,
+            "gained_fiber_tp": 7,
+            "added_fiber_fp": 14,
+            "removed_fiber_fp": 1
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 14,
+            "added_fiber_fp": 15,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 15,
+            "gained_fiber_tp": 32,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 5
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_000075",
+      "video_id": "video_2",
+      "frame_index": 75,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 27,
+            "gained_fiber_tp": 101,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 9
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 15,
+            "gained_fiber_tp": 10,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 7
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 35,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 2
+          },
+          "distal_third": {
+            "lost_fiber_tp": 12,
+            "gained_fiber_tp": 56,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 26,
+            "gained_fiber_tp": 103,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 6
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 15,
+            "gained_fiber_tp": 10,
+            "added_fiber_fp": 6,
+            "removed_fiber_fp": 6
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 37,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 11,
+            "gained_fiber_tp": 56,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_000149",
+      "video_id": "video_2",
+      "frame_index": 149,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 93,
+            "gained_fiber_tp": 63,
+            "added_fiber_fp": 14,
+            "removed_fiber_fp": 1
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 7,
+            "gained_fiber_tp": 9,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 1
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 20,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 86,
+            "gained_fiber_tp": 34,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 93,
+            "gained_fiber_tp": 63,
+            "added_fiber_fp": 14,
+            "removed_fiber_fp": 1
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 6,
+            "gained_fiber_tp": 9,
+            "added_fiber_fp": 7,
+            "removed_fiber_fp": 1
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 20,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 87,
+            "gained_fiber_tp": 34,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_000986",
+      "video_id": "video_2",
+      "frame_index": 986,
+      "fit_accepted": false,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_001061",
+      "video_id": "video_2",
+      "frame_index": 1061,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 183,
+            "gained_fiber_tp": 18,
+            "added_fiber_fp": 12,
+            "removed_fiber_fp": 14
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 72,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 6
+          },
+          "middle_third": {
+            "lost_fiber_tp": 26,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 8
+          },
+          "distal_third": {
+            "lost_fiber_tp": 85,
+            "gained_fiber_tp": 14,
+            "added_fiber_fp": 10,
+            "removed_fiber_fp": 0
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 129,
+            "gained_fiber_tp": 57,
+            "added_fiber_fp": 8,
+            "removed_fiber_fp": 23
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 72,
+            "gained_fiber_tp": 3,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 9
+          },
+          "middle_third": {
+            "lost_fiber_tp": 28,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 14
+          },
+          "distal_third": {
+            "lost_fiber_tp": 29,
+            "gained_fiber_tp": 53,
+            "added_fiber_fp": 8,
+            "removed_fiber_fp": 0
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 9,
+            "gained_fiber_tp": 102,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 5,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 4
+          },
+          "middle_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 7
+          },
+          "distal_third": {
+            "lost_fiber_tp": 2,
+            "gained_fiber_tp": 97,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 2
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_001135",
+      "video_id": "video_2",
+      "frame_index": 1135,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 135,
+            "gained_fiber_tp": 56,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 16
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 81,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 33,
+            "gained_fiber_tp": 5,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 2
+          },
+          "distal_third": {
+            "lost_fiber_tp": 21,
+            "gained_fiber_tp": 50,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 224,
+            "gained_fiber_tp": 17,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 28
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 94,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 14
+          },
+          "middle_third": {
+            "lost_fiber_tp": 18,
+            "gained_fiber_tp": 6,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 14
+          },
+          "distal_third": {
+            "lost_fiber_tp": 112,
+            "gained_fiber_tp": 10,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 193,
+            "gained_fiber_tp": 65,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 15
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 51,
+            "gained_fiber_tp": 38,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 1
+          },
+          "middle_third": {
+            "lost_fiber_tp": 11,
+            "gained_fiber_tp": 27,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 14
+          },
+          "distal_third": {
+            "lost_fiber_tp": 131,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_001822",
+      "video_id": "video_2",
+      "frame_index": 1822,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 134,
+            "gained_fiber_tp": 38,
+            "added_fiber_fp": 20,
+            "removed_fiber_fp": 37
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 48,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 20,
+            "removed_fiber_fp": 17
+          },
+          "middle_third": {
+            "lost_fiber_tp": 44,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 13
+          },
+          "distal_third": {
+            "lost_fiber_tp": 42,
+            "gained_fiber_tp": 37,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 7
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 117,
+            "gained_fiber_tp": 38,
+            "added_fiber_fp": 20,
+            "removed_fiber_fp": 28
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 45,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 20,
+            "removed_fiber_fp": 13
+          },
+          "middle_third": {
+            "lost_fiber_tp": 41,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 12
+          },
+          "distal_third": {
+            "lost_fiber_tp": 31,
+            "gained_fiber_tp": 37,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 3
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 27,
+            "gained_fiber_tp": 44,
+            "added_fiber_fp": 9,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 12,
+            "gained_fiber_tp": 15,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 15,
+            "gained_fiber_tp": 18,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 11,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_001897",
+      "video_id": "video_2",
+      "frame_index": 1897,
+      "fit_accepted": false,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "reviewed_video_2_001971",
+      "video_id": "video_2",
+      "frame_index": 1971,
+      "fit_accepted": true,
+      "comparisons": {
+        "geometry": {
+          "all": {
+            "lost_fiber_tp": 137,
+            "gained_fiber_tp": 30,
+            "added_fiber_fp": 4,
+            "removed_fiber_fp": 23
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 32,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 8
+          },
+          "middle_third": {
+            "lost_fiber_tp": 58,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 15
+          },
+          "distal_third": {
+            "lost_fiber_tp": 47,
+            "gained_fiber_tp": 29,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          }
+        },
+        "geometry_causal": {
+          "all": {
+            "lost_fiber_tp": 133,
+            "gained_fiber_tp": 29,
+            "added_fiber_fp": 5,
+            "removed_fiber_fp": 22
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 31,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 3,
+            "removed_fiber_fp": 8
+          },
+          "middle_third": {
+            "lost_fiber_tp": 57,
+            "gained_fiber_tp": 0,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 14
+          },
+          "distal_third": {
+            "lost_fiber_tp": 45,
+            "gained_fiber_tp": 28,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          }
+        },
+        "causal_vs_geometry": {
+          "all": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 4,
+            "added_fiber_fp": 2,
+            "removed_fiber_fp": 0
+          },
+          "proximal_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 0,
+            "removed_fiber_fp": 0
+          },
+          "middle_third": {
+            "lost_fiber_tp": 0,
+            "gained_fiber_tp": 1,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          },
+          "distal_third": {
+            "lost_fiber_tp": 1,
+            "gained_fiber_tp": 2,
+            "added_fiber_fp": 1,
+            "removed_fiber_fp": 0
+          }
+        }
+      }
+    }
+  ],
+  "totals": {
+    "geometry": {
+      "all": {
+        "lost_fiber_tp": 4795,
+        "gained_fiber_tp": 450,
+        "added_fiber_fp": 292,
+        "removed_fiber_fp": 849
+      },
+      "distal_third": {
+        "lost_fiber_tp": 1623,
+        "gained_fiber_tp": 316,
+        "added_fiber_fp": 61,
+        "removed_fiber_fp": 240
+      },
+      "middle_third": {
+        "lost_fiber_tp": 1165,
+        "gained_fiber_tp": 88,
+        "added_fiber_fp": 50,
+        "removed_fiber_fp": 265
+      },
+      "proximal_third": {
+        "lost_fiber_tp": 2007,
+        "gained_fiber_tp": 46,
+        "added_fiber_fp": 181,
+        "removed_fiber_fp": 344
+      }
+    },
+    "geometry_causal": {
+      "all": {
+        "lost_fiber_tp": 4716,
+        "gained_fiber_tp": 447,
+        "added_fiber_fp": 295,
+        "removed_fiber_fp": 853
+      },
+      "distal_third": {
+        "lost_fiber_tp": 1583,
+        "gained_fiber_tp": 311,
+        "added_fiber_fp": 61,
+        "removed_fiber_fp": 235
+      },
+      "middle_third": {
+        "lost_fiber_tp": 1128,
+        "gained_fiber_tp": 90,
+        "added_fiber_fp": 51,
+        "removed_fiber_fp": 278
+      },
+      "proximal_third": {
+        "lost_fiber_tp": 2005,
+        "gained_fiber_tp": 46,
+        "added_fiber_fp": 183,
+        "removed_fiber_fp": 340
+      }
+    },
+    "causal_vs_geometry": {
+      "all": {
+        "lost_fiber_tp": 352,
+        "gained_fiber_tp": 428,
+        "added_fiber_fp": 38,
+        "removed_fiber_fp": 39
+      },
+      "distal_third": {
+        "lost_fiber_tp": 188,
+        "gained_fiber_tp": 223,
+        "added_fiber_fp": 12,
+        "removed_fiber_fp": 7
+      },
+      "middle_third": {
+        "lost_fiber_tp": 57,
+        "gained_fiber_tp": 96,
+        "added_fiber_fp": 13,
+        "removed_fiber_fp": 25
+      },
+      "proximal_third": {
+        "lost_fiber_tp": 107,
+        "gained_fiber_tp": 109,
+        "added_fiber_fp": 13,
+        "removed_fiber_fp": 7
+      }
+    }
+  }
+}

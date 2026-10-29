@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "experiment": "S2_FIBER_COMPONENT_GATE_EXECUTION_20261029",
+  "status": "FROZEN_BEFORE_VALIDATION",
+  "protocol": "configs/fiber_geometry_component_gate_20261028.json",
+  "geometry_config": "configs/fiber_geometry_prior_20261028.json",
+  "expert_manifest": "runs/a1_classwise_experts_20261028/predictor_manifest.json",
+  "arms": ["classwise_raw_3net", "classwise_component_gate_3net", "old190_raw_1net", "old190_component_gate_1net"],
+  "seed": 42,
+  "precision": "float32",
+  "batch_size": 1,
+  "input": "PIL RGB bilinear256 then original ImageNet normalization; each expert softmax FP32 native bilinear align_corners=False before argmax",
+  "gate": "Reuse preceding fit_shape unchanged. Independently recover the same largest entry-near connected candidate using identical frozen size/entry checks; accepted: keep every original candidate pixel, remove only other components; invalid: entire raw fiber fallback. No pixel addition, tube intersection, closing, threshold search or history",
+  "accuracy": "All29 reviewed video frames and132 image-development images for all four arms. Report every fallback and accepted subset,25 historical old190-exposed and107 unmatched groups, native boundaries,3small-stone frames, paired fiber/stone TP/FP changes and per-source/video results",
+  "cost": "Each arm in a fresh process,12warmup87timings on cached29 inputs; actual required1 or3 networks only. Include preprocessing, forward/native outputs, fiber probability CPU transfer, FOV/geometry selection if enabled, fusion and CPU output. Same probability-channel transfer policy for raw/gated within each network count; no decoding/export/display",
+  "conditional_full_replay": "For every gated arm passing all original29-frame class gates, sequentially replay all2694 video frames without updates/history. Export raw/gated native masks and input/raw/gated preview,5fixed user intervals,29RGB alignment and reviewed metrics. If neither gated arm passes, do not replay full videos. Full-video raw output must match same historical expert reference; preserve numerical differences if any",
+  "decision": "Finite four-arm comparison, no auto adoption/S3. Quality gate pass is development screening only; inspect actual pixel changes, image132 limits, missed small stone and total required-model cost. No raw/gated variant is a new trained model",
+  "training_updates": 0,
+  "temporal": false,
+  "constraints": "stone_new banned from training; video1/2 and derivatives validation only; A0 never initializes training. No source labels,521/132/144/29 splits, original weights or defaults changed; reserved-test pixels never read"
+}

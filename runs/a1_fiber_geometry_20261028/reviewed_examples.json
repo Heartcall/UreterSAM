@@ -1,0 +1,32 @@
+[
+  {
+    "video_id": "video_1",
+    "frame_index": 721,
+    "one_based_frame": 722,
+    "selection_rule": "geometric_TP_loss"
+  },
+  {
+    "video_id": "video_1",
+    "frame_index": 112,
+    "one_based_frame": 113,
+    "selection_rule": "geometric_TP_loss"
+  },
+  {
+    "video_id": "video_1",
+    "frame_index": 623,
+    "one_based_frame": 624,
+    "selection_rule": "geometric_FP_removal"
+  },
+  {
+    "video_id": "video_2",
+    "frame_index": 1135,
+    "one_based_frame": 1136,
+    "selection_rule": "causal_TP_loss"
+  },
+  {
+    "video_id": "video_2",
+    "frame_index": 1822,
+    "one_based_frame": 1823,
+    "selection_rule": "previous_small_stone_miss"
+  }
+]

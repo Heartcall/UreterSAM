@@ -1,0 +1,29 @@
+{
+  "pid": 26996,
+  "training_updates": 0,
+  "default_model_changed": false,
+  "s2_accepted": false,
+  "stone_memory_started": false,
+  "phase": "completed",
+  "arm": "classwise_component_gate_3net",
+  "video_id": null,
+  "frames_completed": 2694,
+  "expected_frames": 2694,
+  "passing_gated_arms": [
+    "classwise_component_gate_3net"
+  ],
+  "last_periodic_progress": {
+    "arm": "classwise_component_gate_3net",
+    "video_id": "video_2",
+    "frames_completed": 1800,
+    "expected_frames": 1972
+  },
+  "completed_video_frames": {
+    "classwise_component_gate_3net": {
+      "video_1": 722,
+      "video_2": 1972
+    }
+  },
+  "counter_scope": "all_completed_conditional_full_replays",
+  "completion_counter_source": "Completed per-video summary.json; periodic counters reconciled after independent output audit"
+}

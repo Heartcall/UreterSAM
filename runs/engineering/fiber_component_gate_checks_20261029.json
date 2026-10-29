@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "frozen_sources_protocols_and_historical_references_unchanged": true,
+    "weights_and_video_sources_unchanged": true,
+    "161_validation_images_masks_only_no_test_pixels": true,
+    "521_132_144_29_manifest_unchanged": true,
+    "previous_shape_source_and_all_fit_thresholds_unchanged": true,
+    "no_training_adoption_or_stone_memory": true,
+    "video_all_native_geometry_and_classes": true,
+    "video_four_independent_native_confusions": true,
+    "video_accepted_component_every_pixel_preserved": true,
+    "video_rejected_fits_exact_raw_fallback": true,
+    "video_fiber_never_added_and_removals_exact": true,
+    "video_paired_tp_fp_changes_recomputed": true,
+    "image_all_native_geometry_and_classes": true,
+    "image_four_independent_native_confusions": true,
+    "image_accepted_component_every_pixel_preserved": true,
+    "image_rejected_fits_exact_raw_fallback": true,
+    "image_fiber_never_added_and_removals_exact": true,
+    "image_paired_tp_fp_changes_recomputed": true,
+    "image25_107_cohorts_complete_disjoint": true,
+    "four_cost_processes_distinct": true,
+    "actual1_or3_network_full_cost_and_statistics": true,
+    "full_replay_only_exact_passing_gated_arms": true,
+    "classwise_component_gate_3net_full2694_masks_references_and_clips": true,
+    "classwise_component_gate_3net_full_no_added_fiber_and_raw_fallback": true,
+    "classwise_component_gate_3net_reviewed29_confusion_recomputed": true,
+    "source_snapshot_unique_and_matches": true
+  },
+  "all_passed": true,
+  "details": {
+    "classwise_component_gate_3net": {
+      "full_frames": 2694,
+      "primary_vs_full_different_pixels": 0
+    }
+  },
+  "unit_tests": {
+    "passed": 4,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_fiber_component_gate.py -v"
+  },
+  "scope": "Development export/selection/cost correctness; no live display, clinical, tip, identity or independent-case validation"
+}

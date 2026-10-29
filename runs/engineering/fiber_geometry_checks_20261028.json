@@ -1,0 +1,53 @@
+{
+  "checks": {
+    "frozen_config_sources_and_all_cached_references_unchanged": true,
+    "frozen_expert_weights_and_videos_unchanged": true,
+    "only161_validation_images_and_masks_no_test_pixels": true,
+    "manifest_and521_132_144_29_splits_unchanged": true,
+    "zero_training_no_default_or_stone_memory_adoption": true,
+    "video_1_exact_frame_indices_and_inventory": true,
+    "video_1_repeat_alignment_and_case_reset": true,
+    "video_1_all_pixel_fiber_priority_and_stone_delegation": true,
+    "video_1_accepted_fiber_inside_current_or_filtered_template": true,
+    "video_1_rejected_or_history_only_geometry_never_forces_visible_mask": true,
+    "video_1_raw_reproduced_and_area_delta_counts_recomputed": true,
+    "video_1_fit_rejection_and_tracking_status_counts": true,
+    "video_1_per_arm_stage_sums_and_percentiles": true,
+    "video_1_full_preview_geometry_count": true,
+    "video_1_user_clip_counts_and_index_mapping": true,
+    "video_2_exact_frame_indices_and_inventory": true,
+    "video_2_repeat_alignment_and_case_reset": true,
+    "video_2_all_pixel_fiber_priority_and_stone_delegation": true,
+    "video_2_accepted_fiber_inside_current_or_filtered_template": true,
+    "video_2_rejected_or_history_only_geometry_never_forces_visible_mask": true,
+    "video_2_raw_reproduced_and_area_delta_counts_recomputed": true,
+    "video_2_fit_rejection_and_tracking_status_counts": true,
+    "video_2_per_arm_stage_sums_and_percentiles": true,
+    "video_2_full_preview_geometry_count": true,
+    "video_2_user_clip_counts_and_index_mapping": true,
+    "native29_confusions_independently_recomputed": true,
+    "image132_confusions_fallback_and_no_unordered_tracking": true,
+    "historical25_107_cohorts_complete_and_disjoint": true,
+    "no_tip_angle_or_dense_accuracy_claims": true,
+    "frozen_snapshot_unique_and_source_identity": true
+  },
+  "all_passed": true,
+  "details": {
+    "video_1": {
+      "frames": 722,
+      "accepted_fits": 722,
+      "prediction_only_frames": 0
+    },
+    "video_2": {
+      "frames": 1972,
+      "accepted_fits": 1235,
+      "prediction_only_frames": 74
+    }
+  },
+  "unit_tests": {
+    "passed": 3,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_fiber_shape_prior.py -v"
+  },
+  "scope": "Algorithm/export correctness and development masks only; not geometric/clinical/independent-case validation"
+}
