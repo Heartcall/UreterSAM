@@ -1,0 +1,49 @@
+{
+  "policy": "first jump/confirmation, largest state disagreement and uniform context; all frames reported in logs, no success-only scoring",
+  "videos": {
+    "video_1": [
+      {
+        "frame_index": 312,
+        "display_frame": 313,
+        "reason": "largest legacy/gated endpoint separation (not GT error)"
+      },
+      {
+        "frame_index": 180,
+        "display_frame": 181,
+        "reason": "uniform timeline context"
+      },
+      {
+        "frame_index": 361,
+        "display_frame": 362,
+        "reason": "uniform timeline context"
+      },
+      {
+        "frame_index": 541,
+        "display_frame": 542,
+        "reason": "uniform timeline context"
+      }
+    ],
+    "video_2": [
+      {
+        "frame_index": 438,
+        "display_frame": 439,
+        "reason": "first rejected jump"
+      },
+      {
+        "frame_index": 439,
+        "display_frame": 440,
+        "reason": "before first confirmation"
+      },
+      {
+        "frame_index": 440,
+        "display_frame": 441,
+        "reason": "first confirmation"
+      },
+      {
+        "frame_index": 642,
+        "display_frame": 643,
+        "reason": "largest legacy/gated endpoint separation (not GT error)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+preflight {}
+source_timestamp_audit {"video_id": "video_1"}
+source_timestamp_audit {"video_id": "video_2"}
+static_reproduction {"scope": "video_native", "frames": 30}
+static_reproduction {"scope": "video_native", "frames": 60}
+static_reproduction {"scope": "image_native", "frames": 30}
+static_reproduction {"scope": "image_native", "frames": 60}
+static_reproduction {"scope": "image_native", "frames": 90}
+static_reproduction {"scope": "image_native", "frames": 120}
+full_video_fresh_process {"arm": "raw2", "video_id": "video_1"}
+full_video_fresh_process {"arm": "raw2", "video_id": "video_2"}
+full_video_fresh_process {"arm": "current_observation", "video_id": "video_1"}
+full_video_fresh_process {"arm": "current_observation", "video_id": "video_2"}
+full_video_fresh_process {"arm": "legacy_state_only", "video_id": "video_1"}
+full_video_fresh_process {"arm": "legacy_state_only", "video_id": "video_2"}
+full_video_fresh_process {"arm": "gated_state_only", "video_id": "video_1"}
+full_video_fresh_process {"arm": "gated_state_only", "video_id": "video_2"}
+comparison_export {"video_id": "video_1"}
+comparison_export {"video_id": "video_2"}
+completed {"full_frames": 10776}

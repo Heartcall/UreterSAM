@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\Study\Wang Shuangyi\Wu Yuanzhao\UreterSAM\runs\engineering\audit_fiber_temporal_state_20261030.py", line 128, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "E:\Study\Wang Shuangyi\Wu Yuanzhao\UreterSAM\runs\engineering\audit_fiber_temporal_state_20261030.py", line 94, in main
+    assert i>=2 and records[i-1]['tracked']['pending_count']==2 and st['state']==measured and st['uses_current_observation']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "experiment": "S2_S5_FIBER_TEMPORAL_GEOMETRY_STATE_ONLY_GATE_CONTROL",
+  "status": "READY_FOR_IMPLEMENTATION_NOT_EXECUTED",
+  "phase": "T0_geometry_states_only_no_segmentation_changes",
+  "planned_output": "runs/a1_fiber_temporal_state_gate_20261030",
+  "design_document": "docs/plans/fiber_temporal_state_gate_20261030.md",
+  "base": {
+    "scheme": "member1_2net",
+    "reference_run": "runs/a1_two_network_experts_20261029",
+    "expert_manifest": "runs/a1_classwise_experts_20261028/predictor_manifest.json",
+    "fiber_member": "model1",
+    "networks": 2,
+    "parameters": 49202790,
+    "static_frozen_classwise_reference": "runs/a1_two_network_experts_20261029",
+    "policy": "Member1 is an experimental lower-cost base, not adopted. All arms run the same actual2-network graph, shared PIL RGB256/ImageNet, FP32 softmax/native bilinear align_cornersFalse/fiber priority. Classwise historical quality reference remains separately reported; no cross-run timing subtraction."
+  },
+  "arms": ["raw2", "current_observation", "legacy_state_only", "gated_state_only"],
+  "observation": {
+    "fitter": "tools.fiber_shape_prior.fit_shape",
+    "fov": "ureter_semis.video_metrics.estimated_fov",
+    "frozen_fit_config": "configs/fiber_geometry_prior_20261028.json:fit",
+    "geometry_fields": ["entry_x", "entry_y", "angle_rad", "length_px", "proximal_width_px", "distal_width_px", "cap_axis_ratio"],
+    "policy": "Identical current-frame fitter/settings for all geometry arms, fed current member1 native probability and raw class2 mask. No history-assisted seed/ROI, no candidate refit/rerank, no color gate, no GT. Current observation itself is not ground truth; fitter component/entry biases remain limitations."
+  },
+  "state": {
+    "type": "constant_velocity_alpha_beta_with_causal_innovation_gate",
+    "alpha": 0.65,
+    "beta": 0.10,
+    "maximum_prediction_only_frames": 3,
+    "timestamp_gap_reset_seconds": 0.5,
+    "confirmation_observations": 3,
+    "initialization_observations": 1,
+    "angle_difference": "wrap to[-pi,pi)",
+    "tip": "entry + length*[cos(angle),sin(angle)]; derived image endpoint, not physical tip ground truth",
+    "taper": "Lc=length-cap_axis_ratio*distal_width/2; if Lc>0, signed half-taper=atan2(proximal_width-distal_width,2*Lc). Side-line directions derived from same state; never smooth redundant endpoint/angle quantities independently.",
+    "uncertainty": "Track age/missing/rejected count, innovation and evidence flags only. No calibrated covariance/confidence interval or probability of correctness."
+  },
+  "innovation_limits": {
+    "tip_jump_diagonal_fraction": 0.08,
+    "length_jump_diagonal_fraction": 0.10,
+    "angle_jump_degrees": 20,
+    "width_ratio": [0.5, 2.0],
+    "scale": "D=hypot(H,W); compare current observation to predicted state. Limits reused exactly from legacy tracker for first control. They are engineering hypotheses, not learned physical bounds or device calibration; no post-result tuning."
+  },
+  "gated_update_policy": {
+    "normal": "If finite positive geometry and innovation passes every limit, same alpha-beta update as legacy; clear pending branch and prediction-only age.",
+    "isolated_jump": "Reject from active-state update, save current valid observation in pending branch, predict active state and increase prediction-only age. Do not accept merely because neural probability is high. No visible mask deletion or fill.",
+    "pending_confirmation": "Three consecutive valid observations must be pairwise consistent under the same frozen limits, using actual inter-observation dt and pending constant-velocity extrapolation after two samples. Broken sequence restarts pending count. A normal observation matching active state clears pending. At third consistent pending sample, initialize active state at current sample, zero velocity, status confirmed_relocation; never rewrite earlier states.",
+    "missing": "No fit clears consecutive pending confirmation; active state may predict at most3 consecutive missing/rejected frames; fourth clears active state. Confirmation is evaluated before active-state expiry. A current valid pending count continues across active expiry, but a current accepted in-gate measurement clears it. No measurement means no visible geometry evidence.",
+    "initialization": "With no active/pending state, first valid fit initializes immediately for parity with legacy; this cannot authenticate a wrong first observation. With pending state, do not bypass confirmation via uninitialized shortcut.",
+    "reset": "Explicit sequence/source change, image shape change, nonmonotonic timestamp or gap>0.5s clears active/pending state. Do not invent an unvalidated scene-cut detector in this control. Large real movement without a cut can take three observations to relocate; log the two-frame confirmation delay.",
+    "invalid_state": "No finite/positive length,width,cap or Lc<=0 => unavailable geometry; never rasterize or repair into a visible mask. Record validation failures for every arm."
+  },
+  "mask_policy": {
+    "all_arms": "Output EXACTLY the current raw member1 fused mask. Neither visible_fiber(), rasterize(), ideal-template intersection, component deletion, geometry-driven additions nor crop refinement is called. Geometry output is separate metadata/overlay.",
+    "stone": "Exact raw stone class set preserved; existing coarse stone/fiber errors remain. No claim that state tracking solves the85/523 protected-pixel conflict.",
+    "static_images": "Fresh empty state per image; no sequence of image-dev rows, no state transfer between132 images. Static diagnostic fit is allowed, temporal predictions are not."
+  },
+  "data": {
+    "video_manifest": "runs/review_snapshots/video_development_supplement_20261029_v2/manifest.json",
+    "image_manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+    "static_video_frames": 70,
+    "static_image_frames": 132,
+    "original_video_regression_frames": 29,
+    "whole_video_sample_approved": 42,
+    "whole_video_sample_planned": 120,
+    "tip_truth_available": false,
+    "training_pixels_read": 0,
+    "reserved_test_pixels_read": 0
+  },
+  "execution": {
+    "full_videos": ["video_1", "video_2"],
+    "frames": [722, 1972],
+    "all_arms_full_replay_even_failure": true,
+    "fresh_process_per_arm_per_video": true,
+    "expected_processes": 8,
+    "expected_total_full_frame_forwards": 10776,
+    "batch_size": 1,
+    "precision": "float32",
+    "warmup_frames": 12,
+    "warmup_state_policy": "Warm network/fitter allocations using scratch state; clear active and pending state before real frame0.",
+    "time": "Use monotonic decoded PTS only when reliable; otherwise declared frame_index/sourceFPS for whole stream. Never use wall-clock execution speed as video dt or mix timestamp bases silently.",
+    "static": "Fresh native model1 reproduction on202 references; all state-only masks must match it exactly. Fit/initialization on individual images only. Never treat the70 sparse video references as consecutive frames: their temporal geometry comes from their true indices in full replay. Per-arm masks do not require repeated identical static forward copies; log inherited masks explicitly.",
+    "performance": "Measure actual2net preprocess/forward/native mapping+both3class expert maps and mask CPU transfer, FOV+fit, state update, total pipeline, full decode/render/audit/export cycle; p50,p95,max, allocated GPU peak, CPU runtime, actual network/model hashes. No sums/subtractions of percentiles.",
+    "outputs": "Per-frame raw RGB/mask hashes, fit acceptance/reason, observed/predicted geometry, derived tip/side angles, residuals, pending count, prediction age, reset/rejection/confirmation reasons, timings. Full native masks or immutable raw references with per-frame hash verification; complete comparison video for each source, all statuses/failures retained."
+  },
+  "evaluation": {
+    "segmentation": "70video/132image stone,fiber Dice/P/R/boundary F and paired TP/FP/FN changes must reproduce model1 exactly; report29/new41/43-27 cases/68-64 sources/25-107 exposure, and separate frozen classwise figures. Zero change is an invariant, not improvement.",
+    "geometry": "Validity, prediction-only coverage, rejection/confirmation/reset rates, missing-run length, parameter velocity/acceleration and derived-tip motion are diagnostics. Reduced jitter or fit residual does NOT prove geometric accuracy. No tip error/angle accuracy without independent references.",
+    "real_motion": "Report camera/fiber fast movement, frame gaps, wrong initialization, delayed relocation and occlusion separately. No optical-flow compensation in first control; unregistered adjacent-mask IoU/change is not segmentation accuracy or guaranteed temporal quality.",
+    "synthetic_tests": "Deterministic analytical trajectories test isolated outlier rejection, persistent3-observation relocation at current frame only, angle wrap, dt scaling, missing expiry/pending interaction, source/shape/time reset, prefix causality, static-order independence and raw-mask no mutation. Synthetic fixtures never fit device parameters or establish clinical accuracy.",
+    "gates": "All invariants/tests/identity checks pass, masks unchanged on every replay/static frame, no future/state leakage or hidden mask fill, all8 full processes complete. For a production candidate require same-run pipeline p95<=each source interval. Failed cost still fully replayed and reported. No adoption or downstream pixel fusion solely from these diagnostic gates.",
+    "historic_quality_gates_unchanged": true
+  },
+  "stop": "Finite4-arm T0 only. Do not tune legacy gates, confirmation count or TTL on videos, add candidates, trigger history-seeded search, enable pixel correction, train, adopt model1/default, or start stone memory automatically. If T0 mechanism is sound, separately freeze T1 search candidate/evidence/budget/ablation protocol; without geometric references its accuracy claims remain limited.",
+  "constraints": "Videos and derivatives validation only, stone_new excluded from all training, original521/132/144/29 split and active70 references frozen. A0 inference only, never new training initialization. No144 reserved-test pixels or training pixels read in T0. Unknown255 excluded. Histories independent per video and absent for static images; no Godot-to-real calibration assumption. All models/sources/config/input/output identities recorded. Any training requires separately approved plan."
+}

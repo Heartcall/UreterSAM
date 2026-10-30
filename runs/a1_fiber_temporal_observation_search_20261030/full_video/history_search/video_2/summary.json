@@ -1,0 +1,181 @@
+{
+  "arm": "history_search",
+  "video_id": "video_2",
+  "pid": 37560,
+  "frames": 1972,
+  "encoded_frames": 1972,
+  "source_fps": 30.082069744027823,
+  "timestamp_mode": "frame_index_over_source_fps",
+  "networks": 2,
+  "parameters": 49202790,
+  "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+  "individual_model_sha256": [
+    "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+    "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+  ],
+  "runtime": {
+    "python": "3.11.17",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "smp": "0.4.0",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "cpu_threads": 16,
+    "cublas_workspace_config": ":4096:8",
+    "opencv": "4.14.0",
+    "opencv_threads": 24
+  },
+  "approved_static_matches": 27,
+  "timings": {
+    "preprocess_ms": {
+      "mean": 1.8085244948938906,
+      "p50": 1.8419499974697828,
+      "p95": 2.025744941784069,
+      "max": 2.9160999692976475
+    },
+    "all_models_ms": {
+      "mean": 8.616665717777295,
+      "p50": 8.643149922136217,
+      "p95": 9.611080022295937,
+      "max": 84.82330001424998
+    },
+    "native_mapping_fusion_transfer_ms": {
+      "mean": 3.1420531441574693,
+      "p50": 3.1691499752923846,
+      "p95": 3.462925006169826,
+      "max": 5.3279000567272305
+    },
+    "pipeline_ms": {
+      "mean": 13.567243356828655,
+      "p50": 13.583250052761286,
+      "p95": 14.893204963300374,
+      "max": 89.44640005938709
+    },
+    "state_prepare_ms": {
+      "mean": 0.053014502573463664,
+      "p50": 0.05510007031261921,
+      "p95": 0.06990000256337225,
+      "max": 0.10489998385310173
+    },
+    "history_sampling_fit_ms": {
+      "mean": 0.043938894372180286,
+      "p50": 0.000400003045797348,
+      "p95": 0.2999900083523243,
+      "max": 1.2533999979496002
+    },
+    "state_update_ms": {
+      "mean": 0.06637023342726091,
+      "p50": 0.06749993190169334,
+      "p95": 0.08730001864023507,
+      "max": 0.25040004402399063
+    },
+    "geometry_total_ms": {
+      "mean": 3.814441836653957,
+      "p50": 3.7438999861478806,
+      "p95": 4.69887004001066,
+      "max": 6.3319000182673335
+    },
+    "grid_fov_proposals_ms": {
+      "mean": 2.0235806300246266,
+      "p50": 2.0355499582365155,
+      "p95": 2.377535059349611,
+      "max": 3.01059999037534
+    },
+    "current_sampling_fit_ms": {
+      "mean": 1.6097509119547262,
+      "p50": 1.613000058569014,
+      "p95": 2.2533449809998274,
+      "max": 2.8962999349460006
+    },
+    "quality_select_ms": {
+      "mean": 0.014524494047969972,
+      "p50": 0.005600042641162872,
+      "p95": 0.05634502740576861,
+      "max": 0.09909993968904018
+    },
+    "coarse_pipeline_ms": {
+      "mean": 13.609001420071806,
+      "p50": 13.621399994008243,
+      "p95": 14.938270009588448,
+      "max": 89.49390007182956
+    },
+    "pipeline_total_ms": {
+      "mean": 17.476893408515853,
+      "p50": 17.422450007870793,
+      "p95": 19.248384999809787,
+      "max": 93.82500010542572
+    },
+    "decode_ms": {
+      "mean": 0.20726622559525013,
+      "p50": 0.19599997904151678,
+      "p95": 0.26318997261114413,
+      "max": 9.854299947619438
+    },
+    "render_encode_ms": {
+      "mean": 2.2184753530275296,
+      "p50": 2.215699991211295,
+      "p95": 2.561629947740584,
+      "max": 4.925000015646219
+    },
+    "audit_record_ms": {
+      "mean": 0.04276698920403515,
+      "p50": 0.041599967516958714,
+      "p95": 0.054999953135848045,
+      "max": 0.1425000373274088
+    },
+    "cycle_ms": {
+      "mean": 20.14758980649516,
+      "p50": 20.068000012543052,
+      "p95": 22.089579980820417,
+      "max": 96.46560007240623
+    }
+  },
+  "wall_seconds": 39.76941720000468,
+  "cpu_process_seconds_including_render": 640.359375,
+  "offline_fps_including_render_audit_encode": 49.58584105174586,
+  "cuda_peak_allocated_mib": 223.9208984375,
+  "pipeline_p95_within_source_interval": true,
+  "geometry_p95_within_design_budget": true,
+  "statuses": {
+    "shaft": {
+      "strong_initialized": 7,
+      "strong_updated": 1670,
+      "strong_current_override": 20,
+      "weak_updated": 72,
+      "predicted": 27,
+      "expired": 6,
+      "unavailable": 170
+    },
+    "endpoint": {
+      "strong_initialized": 13,
+      "strong_updated": 1612,
+      "predicted": 74,
+      "expired": 12,
+      "unavailable": 194,
+      "strong_current_override": 18,
+      "weak_updated": 49
+    }
+  },
+  "ambiguous_frames": 1,
+  "current_strong_frames": 1697,
+  "qualified_shaft_frames": 1698,
+  "qualified_front_frames": 1644,
+  "history_attempted_frames": 105,
+  "history_used_frames": 72,
+  "strong_override_frames": 20,
+  "candidate_reasons": {
+    "qualified_shaft": 1699,
+    "insufficient_edge_pairs": 704,
+    "width_profile": 2,
+    "shaft_too_short": 10,
+    "line_residual": 1
+  },
+  "all_raw_masks_unchanged": true,
+  "state_cleared_after_video": true,
+  "video_sha256": "f148021d526da93e70876b3c157c457122638638d5e036b0dfce16bd1f31b4a9",
+  "tip_metrics": null,
+  "whole_video_accuracy": null
+}

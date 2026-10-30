@@ -1,0 +1,5112 @@
+{
+  "selection": {
+    "video_1": [
+      1,
+      181,
+      362,
+      542
+    ],
+    "video_2": [
+      439,
+      440,
+      441,
+      622,
+      643,
+      311,
+      1266
+    ]
+  },
+  "frames": {
+    "video_1": [
+      {
+        "display_frame": 1,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9756081735202738,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.14502755955445276,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.46269943067538416,
+              184.76160031352407,
+              0.14502755955445276,
+              122.1896974983753,
+              72.99422529451701,
+              22.176034591518214
+            ],
+            "support_count": 946,
+            "support_ids_sha256": "06502a8b2245ac42b2fdc8eabf5686fb9a11899b2467e8044765e684d960a68a",
+            "seed_length_px": 116.1065608626445,
+            "seed_mass": 889.7868841290474,
+            "fov_end_distances": [
+              2.5,
+              115.88523553788754
+            ],
+            "qN": 0.9999936963236227,
+            "qE": 1.0,
+            "qR": 0.8780534749541234,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              283,
+              303,
+              281,
+              260,
+              238,
+              217,
+              195,
+              174
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.22589853205555832,
+                0.30133173237705807
+              ],
+              [
+                0.31083283541575846,
+                0.2701848751871276
+              ],
+              [
+                0.35905565785116933,
+                0.26334916131630176
+              ],
+              [
+                0.25149496221654194,
+                0.3123155709703064
+              ],
+              [
+                0.26453083778110953,
+                0.33221965637421114
+              ],
+              [
+                0.28450986097806474,
+                0.31206554784410634
+              ],
+              [
+                0.3696165611361196,
+                0.33932935050328134
+              ],
+              [
+                0.2822019572924153,
+                0.3511426644557893
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.17024729732522198,
+                -25.72504495352372
+              ],
+              [
+                -0.24594637094182867,
+                26.67749338236482
+              ]
+            ],
+            "line_rms_px": 0.8186304268617477,
+            "residual_limit_px": 6.294843446101965,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.999998984258557,
+                0.9999986089533637,
+                0.9999936362120527
+              ],
+              [
+                0.9999977556880049,
+                0.999998271465344,
+                0.9999934297050159
+              ],
+              [
+                0.999998023962335,
+                0.9999973953471675,
+                0.9999940298358408
+              ],
+              [
+                0.999997559295408,
+                0.999997177280723,
+                0.9999944705382948
+              ],
+              [
+                0.9999938636550134,
+                0.9999933436864852,
+                0.9999938850871457
+              ],
+              [
+                0.9999934374073791,
+                0.9999927641934563,
+                0.9999939159134654
+              ],
+              [
+                0.9999905735936065,
+                0.9999919970688292,
+                0.9999920669081179
+              ],
+              [
+                0.9999813071839229,
+                0.9999849179204641,
+                0.9999872966069507
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.46269943067538416,
+              184.76160031352407
+            ],
+            "far_seed_xy": [
+              114.50722971737882,
+              201.55330053879467
+            ],
+            "width0_px": 72.99422529451701,
+            "far_seed_width_px": 24.671409819221417,
+            "observed_shaft_length_px": 116.1896974983753,
+            "shaft_lines": [
+              [
+                [
+                  6.173996995233939,
+                  148.8729740910424
+                ],
+                [
+                  116.75037507180551,
+                  189.42325871957954
+                ]
+              ],
+              [
+                [
+                  -7.099395856584707,
+                  220.65022653600576
+                ],
+                [
+                  112.26408436295213,
+                  213.68334235800978
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              5.0,
+              6.0,
+              3.0
+            ],
+            "front_profile_scores": [
+              0.4019089724216137,
+              0.47978805898748866,
+              0.3943157097431871
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              120.4442412574766,
+              202.42041873877992
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -4.373740045408631,
+            184.73319782270949,
+            0.13861980006955665,
+            123.875935654412,
+            73.63076430519152,
+            28.07216134748989,
+            1.0
+          ],
+          "status": "initialized",
+          "age": 0,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": true,
+          "prediction_only": false,
+          "innovation": null,
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.03333333333333333,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              118.31393432617188,
+              201.84991455078128
+            ],
+            "side_angles_rad": [
+              -0.06586795617602315,
+              0.343107556315136
+            ],
+            "signed_taper_angle_rad": 0.4089755124911592,
+            "cap_center_xy": [
+              104.41249264537743,
+              199.9104610516359
+            ],
+            "side_segments": [
+              [
+                [
+                  -9.460752823255184,
+                  221.19543395874058
+                ],
+                [
+                  102.47303914623207,
+                  213.81190273243035
+                ]
+              ],
+              [
+                [
+                  0.7132727324379218,
+                  148.2709616866784
+                ],
+                [
+                  106.35194614452278,
+                  186.00901937084146
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.46269943067538416,
+                184.76160031352407,
+                0.14502755955445276,
+                72.99422529451701
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                122.1896974983753,
+                22.176034591518214
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.4442412574766,
+            202.42041873877992
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.46269943067538416,
+                184.76160031352407,
+                0.14502755955445276,
+                72.99422529451701
+              ],
+              "status": "strong_initialized",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                122.1896974983753,
+                22.176034591518214
+              ],
+              "status": "strong_initialized",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.4442412574766,
+            202.42041873877992
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": false,
+            "checks": {},
+            "skipped": [
+              "entry",
+              "angle",
+              "width0",
+              "length",
+              "width1",
+              "front"
+            ]
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": null,
+            "endpoint": null,
+            "shaft_extent": null
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03333333333333333,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.46269943067538416,
+                184.76160031352407,
+                0.14502755955445276,
+                72.99422529451701
+              ],
+              "status": "strong_initialized",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                122.1896974983753,
+                22.176034591518214
+              ],
+              "status": "strong_initialized",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.4442412574766,
+            202.42041873877992
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": false,
+            "checks": {},
+            "skipped": [
+              "entry",
+              "angle",
+              "width0",
+              "length",
+              "width1",
+              "front"
+            ]
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": null,
+            "endpoint": null,
+            "shaft_extent": null
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03333333333333333,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 181,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.958676375084586,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.14312289145128945,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -1.1941885648219857,
+              185.8258020998565,
+              0.14312289145128945,
+              123.30047576158385,
+              70.48967524927671,
+              22.832688550799727
+            ],
+            "support_count": 964,
+            "support_ids_sha256": "73055e2146bcb01806a10278d5245ccfe663c00788572053dd8a7a1143da799f",
+            "seed_length_px": 117.10435874351596,
+            "seed_mass": 902.6174436956644,
+            "fov_end_distances": [
+              2.5,
+              116.16102370028024
+            ],
+            "qN": 0.9999948039288334,
+            "qE": 1.0,
+            "qR": 0.7933922675652633,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              285,
+              306,
+              286,
+              263,
+              244,
+              222,
+              200,
+              179
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.1974233429679146,
+                0.18444547576101628
+              ],
+              [
+                0.19527723906915692,
+                0.17829118000730565
+              ],
+              [
+                0.18193452642170188,
+                0.19539321031876442
+              ],
+              [
+                0.17241515426367518,
+                0.25830264694865945
+              ],
+              [
+                0.1703543994819387,
+                0.25765928583964615
+              ],
+              [
+                0.19134663331114563,
+                0.2183376311543685
+              ],
+              [
+                0.22056189609971585,
+                0.21105578792604995
+              ],
+              [
+                0.2197074383295435,
+                0.2396534760754829
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.13568056133689982,
+                -24.125828199008282
+              ],
+              [
+                -0.2514777080451837,
+                26.893944554572084
+              ]
+            ],
+            "line_rms_px": 1.4225369616096233,
+            "residual_limit_px": 6.146527065633052,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999988428069482,
+                0.9999986389148667,
+                0.9999915892814658
+              ],
+              [
+                0.9999978210957483,
+                0.9999977107751661,
+                0.9999930622386282
+              ],
+              [
+                0.9999978496194216,
+                0.9999961152344826,
+                0.9999902559871072
+              ],
+              [
+                0.9999978830846545,
+                0.9999943926055113,
+                0.9999899159503982
+              ],
+              [
+                0.9999963675257704,
+                0.9999914561749104,
+                0.9999908173492544
+              ],
+              [
+                0.9999965643401529,
+                0.9999955439639452,
+                0.9999952633788542
+              ],
+              [
+                0.9999948656053105,
+                0.9999967896430716,
+                0.9999971002509532
+              ],
+              [
+                0.9999876479642473,
+                0.9999937394782101,
+                0.9999950610229259
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -1.1941885648219857,
+              185.8258020998565
+            ],
+            "far_seed_xy": [
+              114.90693562721069,
+              202.5569280404538
+            ],
+            "width0_px": 70.48967524927671,
+            "far_seed_width_px": 25.151754381038412,
+            "observed_shaft_length_px": 117.30047576158385,
+            "shaft_lines": [
+              [
+                [
+                  5.840929971255781,
+                  151.29023078026694
+                ],
+                [
+                  117.41716954210922,
+                  190.23412751445673
+                ]
+              ],
+              [
+                [
+                  -8.229307100899753,
+                  220.3613734194461
+                ],
+                [
+                  112.39670171231215,
+                  214.87972856645092
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              5.0,
+              6.0,
+              4.0
+            ],
+            "front_profile_scores": [
+              0.33393289431426376,
+              0.36612074489286106,
+              0.35143146155510185
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              120.84558796966209,
+              203.41273663791955
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -4.713627119704806,
+            185.12118000265497,
+            0.14524131883290714,
+            125.40312298099177,
+            71.4687453269213,
+            27.165070497475572,
+            1.002067857049793
+          ],
+          "status": "updated",
+          "age": 0,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": true,
+          "prediction_only": false,
+          "innovation": {
+            "passed": true,
+            "checks": {
+              "tip": true,
+              "length": true,
+              "angle": true,
+              "width": true
+            },
+            "residual": [
+              -0.05889289771108075,
+              0.05097170809057161,
+              -0.00041094778133343723,
+              -0.02078601702244498,
+              -0.12623513518218488,
+              0.2244423273278393,
+              -0.0059081629994086615
+            ],
+            "tip_jump_px": 0.0720616883572326,
+            "width_ratios": [
+              0.9982357270859306,
+              1.0083067769834058
+            ]
+          },
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.033333333333333215,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              119.36912742232298,
+              203.270925969159
+            ],
+            "side_angles_rad": [
+              -0.05037608351341172,
+              0.340858721179226
+            ],
+            "signed_taper_angle_rad": 0.3912348046926375,
+            "cap_center_xy": [
+              105.90181155805838,
+              201.3010441536785
+            ],
+            "side_segments": [
+              [
+                [
+                  -9.885506182178435,
+                  220.47930575352348
+                ],
+                [
+                  103.93599477068025,
+                  214.74056900174017
+                ]
+              ],
+              [
+                [
+                  0.45825194276882364,
+                  149.76305425178646
+                ],
+                [
+                  107.86762834543651,
+                  187.86151930561684
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -1.1941885648219857,
+                185.8258020998565,
+                0.14312289145128945,
+                70.48967524927671
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                123.30047576158385,
+                22.832688550799727
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.84558796966209,
+            203.41273663791955
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -1.2317440518191998,
+                185.99201085754106,
+                0.14209522195233415,
+                70.1394775141224
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                123.28507372936464,
+                22.774659833692542
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.81079479025558,
+            203.451338377109
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -1.3014899562425974,
+              186.30068426466954,
+              0.14018669288284524,
+              69.48911029169297
+            ],
+            "endpoint": [
+              123.25646995524325,
+              22.666892216207774
+            ],
+            "shaft_extent": 117.28520603683666
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033333333333333215,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -1.2317440518191998,
+                185.99201085754106,
+                0.14209522195233415,
+                70.1394775141224
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                123.28507372936464,
+                22.774659833692542
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.81079479025558,
+            203.451338377109
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -1.3014899562425974,
+              186.30068426466954,
+              0.14018669288284524,
+              69.48911029169297
+            ],
+            "endpoint": [
+              123.25646995524325,
+              22.666892216207774
+            ],
+            "shaft_extent": 117.28520603683666
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033333333333333215,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 362,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9698813796247826,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.12612199723460504,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.5927605452014301,
+              190.3585583848723,
+              0.12612199723460504,
+              121.9687581457425,
+              70.23412383819482,
+              22.002782585372927
+            ],
+            "support_count": 958,
+            "support_ids_sha256": "316f20c59f4a68cf6e71692888568b74363f8ae6c640e5a7eb041db50c92f0cc",
+            "seed_length_px": 115.7409561871408,
+            "seed_mass": 899.7921783328056,
+            "fov_end_distances": [
+              2.5,
+              115.67242472895884
+            ],
+            "qN": 0.999992684074725,
+            "qE": 1.0,
+            "qR": 0.8494215299744629,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              280,
+              301,
+              279,
+              256,
+              236,
+              219,
+              199,
+              181
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.1675279415315627,
+                0.17647081426838962
+              ],
+              [
+                0.19074495170094005,
+                0.12961743394109204
+              ],
+              [
+                0.18681270629382465,
+                0.15871080422217518
+              ],
+              [
+                0.15059559458824612,
+                0.20094954736725254
+              ],
+              [
+                0.17958999628097133,
+                0.18784311082284777
+              ],
+              [
+                0.17371921951752511,
+                0.17642633509458
+              ],
+              [
+                0.15350709511753094,
+                0.1910153827262883
+              ],
+              [
+                0.15277983398384698,
+                0.16552255864246695
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.13533753304562482,
+                -23.847161280255026
+              ],
+              [
+                -0.2608809016338418,
+                26.357606773021114
+              ]
+            ],
+            "line_rms_px": 0.9937722047140746,
+            "residual_limit_px": 6.089301135655923,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999968783043945,
+                0.9999968805295332,
+                0.9999787020967317
+              ],
+              [
+                0.9999948114862377,
+                0.999996616431868,
+                0.9999884984630645
+              ],
+              [
+                0.9999963570260425,
+                0.9999958330379574,
+                0.9999893554585975
+              ],
+              [
+                0.9999971187687928,
+                0.999995212271785,
+                0.999984748762262
+              ],
+              [
+                0.9999944466069199,
+                0.9999939737883585,
+                0.9999829101804739
+              ],
+              [
+                0.9999971720086048,
+                0.9999961684041795,
+                0.9999933482899354
+              ],
+              [
+                0.9999951079972695,
+                0.9999957199219139,
+                0.9999952155947085
+              ],
+              [
+                0.9999849995664989,
+                0.9999934008092981,
+                0.9999909419879724
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.5927605452014301,
+              190.3585583848723
+            ],
+            "far_seed_xy": [
+              114.45487608053567,
+              204.94602467268507
+            ],
+            "width0_px": 70.23412383819482,
+            "far_seed_width_px": 24.37542334942118,
+            "observed_shaft_length_px": 115.9687581457425,
+            "shaft_lines": [
+              [
+                [
+                  5.998416322399033,
+                  155.86559641681671
+                ],
+                [
+                  116.74240695212178,
+                  192.97491284556486
+                ]
+              ],
+              [
+                [
+                  -7.1839374128018925,
+                  224.8515203529279
+                ],
+                [
+                  112.16734520894956,
+                  216.91713649980525
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              5.0,
+              6.0,
+              5.0
+            ],
+            "front_profile_scores": [
+              0.3417024906655424,
+              0.416147360792673,
+              0.3256699632819991
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              120.40721902868479,
+              205.70075205897714
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -4.185342119764251,
+            188.9471692600169,
+            0.13951245275742918,
+            124.40449270405902,
+            70.63814529156456,
+            25.381412446056476,
+            0.49831338354215354
+          ],
+          "status": "updated",
+          "age": 0,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": true,
+          "prediction_only": false,
+          "innovation": {
+            "passed": true,
+            "checks": {
+              "tip": true,
+              "length": true,
+              "angle": true,
+              "width": true
+            },
+            "residual": [
+              0.11650632878426492,
+              0.06867149054409083,
+              -0.0001673418445005126,
+              0.0034550131015436136,
+              -0.25476948598593196,
+              0.015984979585294212,
+              0.004818904165275639
+            ],
+            "tip_jump_px": 0.13206561791937552,
+            "width_ratios": [
+              0.9964017512867449,
+              1.0006300487009712
+            ]
+          },
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.033333333333333215,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              119.01042563315805,
+              206.24689794928543
+            ],
+            "side_angles_rad": [
+              -0.0498270637639866,
+              0.32885196927884497
+            ],
+            "signed_taper_angle_rad": 0.3786790330428313,
+            "cap_center_xy": [
+              112.74792091583888,
+              205.36748760507484
+            ],
+            "side_segments": [
+              [
+                [
+                  -9.096823699309034,
+                  223.92307870140007
+                ],
+                [
+                  110.98314723474788,
+                  217.93488981451083
+                ]
+              ],
+              [
+                [
+                  0.7261394597805317,
+                  153.9712598186337
+                ],
+                [
+                  114.51269459692988,
+                  192.80008539563886
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5927605452014301,
+                190.3585583848723,
+                0.12612199723460504,
+                70.23412383819482
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                121.9687581457425,
+                22.002782585372927
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.40721902868479,
+            205.70075205897714
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5539366504099374,
+                190.180297331162,
+                0.12837279917546462,
+                69.9038782567096
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                121.88398797657463,
+                22.86639906282689
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.32713157422958,
+            205.78394658202106
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.481835131511451,
+              189.8492410885571,
+              0.13255285992277477,
+              69.29056503395135
+            ],
+            "endpoint": [
+              121.72655766240574,
+              24.470258235241392
+            ],
+            "shaft_extent": 115.77243981212891
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033333333333333215,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5539366504099374,
+                190.180297331162,
+                0.12837279917546462,
+                69.9038782567096
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                121.88398797657463,
+                22.86639906282689
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            120.32713157422958,
+            205.78394658202106
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.481835131511451,
+              189.8492410885571,
+              0.13255285992277477,
+              69.29056503395135
+            ],
+            "endpoint": [
+              121.72655766240574,
+              24.470258235241392
+            ],
+            "shaft_extent": 115.77243981212891
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033333333333333215,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 542,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.97003864017641,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.13619856471531316,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.4430988991432726,
+              190.47772106519702,
+              0.13619856471531316,
+              121.30174276410449,
+              69.91759523834119,
+              22.63507838144437
+            ],
+            "support_count": 943,
+            "support_ids_sha256": "ede87ed19b70102a00d5c72c0c0c229c8c3d4925bdc3a51a5cb0d85b298efa79",
+            "seed_length_px": 114.1403096330493,
+            "seed_mass": 886.5057444125414,
+            "fov_end_distances": [
+              2.5,
+              114.10751354841783
+            ],
+            "qN": 0.9999885525828445,
+            "qE": 1.0,
+            "qR": 0.8502160957163606,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              280,
+              302,
+              280,
+              256,
+              235,
+              216,
+              194,
+              174
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.1225782431121739,
+                0.11534882979170766
+              ],
+              [
+                0.135473587852318,
+                0.14689602790846595
+              ],
+              [
+                0.12364347209598463,
+                0.15472920066211926
+              ],
+              [
+                0.14436881359764112,
+                0.1462486936515196
+              ],
+              [
+                0.12044663732481015,
+                0.1485367215760185
+              ],
+              [
+                0.1470711647698873,
+                0.14894024030275768
+              ],
+              [
+                0.12434723424383724,
+                0.17040063944852255
+              ],
+              [
+                0.1302989585092835,
+                0.16191703447101846
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.14196780327068262,
+                -24.230765632162637
+              ],
+              [
+                -0.2483760557867997,
+                26.421328197115038
+              ]
+            ],
+            "line_rms_px": 0.9927127504078962,
+            "residual_limit_px": 6.117859012855743,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999968578612728,
+                0.9999954691132402,
+                0.9999678545815809
+              ],
+              [
+                0.9999929173515714,
+                0.9999960470624913,
+                0.9999877007208064
+              ],
+              [
+                0.9999946343290642,
+                0.9999957342459933,
+                0.9999814231737516
+              ],
+              [
+                0.9999942888745027,
+                0.9999952500733638,
+                0.9999733337632974
+              ],
+              [
+                0.9999933780360364,
+                0.9999935328872296,
+                0.9999769243418066
+              ],
+              [
+                0.9999947221751044,
+                0.9999939083902107,
+                0.9999921001046504
+              ],
+              [
+                0.9999919674941165,
+                0.9999914867558841,
+                0.9999934831762097
+              ],
+              [
+                0.9999643224900013,
+                0.9999845042866731,
+                0.9999834206994112
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.4430988991432726,
+              190.47772106519702
+            ],
+            "far_seed_xy": [
+              112.80013020748908,
+              205.9973686260887
+            ],
+            "width0_px": 69.91759523834119,
+            "far_seed_width_px": 25.363626302160807,
+            "observed_shaft_length_px": 114.30174276410449,
+            "shaft_lines": [
+              [
+                [
+                  6.13695370192164,
+                  156.14376646125797
+                ],
+                [
+                  115.18714015331243,
+                  193.5422263821215
+                ]
+              ],
+              [
+                [
+                  -7.023151500208185,
+                  224.81167566913604
+                ],
+                [
+                  110.41312026166572,
+                  218.4525108700559
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              5.0,
+              7.0,
+              5.0
+            ],
+            "front_profile_scores": [
+              0.3261732878497538,
+              0.3134297199783651,
+              0.2994766096006124
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              119.73530533760413,
+              206.94781374003983
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -3.6086444277610803,
+            189.7119138214515,
+            0.14186547468884925,
+            120.8562325990944,
+            69.83153394345862,
+            28.10371489857102,
+            1.000080944431134
+          ],
+          "status": "updated",
+          "age": 0,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": true,
+          "prediction_only": false,
+          "innovation": {
+            "passed": true,
+            "checks": {
+              "tip": true,
+              "length": true,
+              "angle": true,
+              "width": true
+            },
+            "residual": [
+              -0.0342058917055903,
+              -0.042227020192939335,
+              0.002231097522422232,
+              0.01662859134223993,
+              0.06629825155953029,
+              -0.4008102479403739,
+              -0.000231269803240286
+            ],
+            "tip_jump_px": 0.23380970979321855,
+            "width_ratios": [
+              1.0009499890165705,
+              0.9858691709737308
+            ]
+          },
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.03333333333333499,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              116.03346153278275,
+              206.79978786629428
+            ],
+            "side_angles_rad": [
+              -0.05105403071400261,
+              0.3347849800917011
+            ],
+            "signed_taper_angle_rad": 0.3858390108057037,
+            "cap_center_xy": [
+              102.1216436231147,
+              204.81283360578007
+            ],
+            "side_segments": [
+              [
+                [
+                  -8.545387989602531,
+                  224.2769155750855
+                ],
+                [
+                  100.13485018246531,
+                  218.72352552240426
+                ]
+              ],
+              [
+                [
+                  1.3280991340803712,
+                  155.1469120678175
+                ],
+                [
+                  104.10843706376407,
+                  190.90214168915588
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.4430988991432726,
+                190.47772106519702,
+                0.13619856471531316,
+                69.91759523834119
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                121.30174276410449,
+                22.63507838144437
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            119.73530533760413,
+            206.94781374003983
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.33688567823255755,
+                190.0074270805566,
+                0.14371130189894332,
+                69.37883739886799
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                121.25965185640068,
+                23.090636171935447
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            119.67273574809822,
+            207.37388709531686
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.13963255368408675,
+              189.1340239662244,
+              0.15766352809711393,
+              68.37828712556062
+            ],
+            "endpoint": [
+              121.1814830278079,
+              23.936672068561734
+            ],
+            "shaft_extent": 114.16624330170818
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03333333333333499,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.33688567823255755,
+                190.0074270805566,
+                0.14371130189894332,
+                69.37883739886799
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                121.25965185640068,
+                23.090636171935447
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            119.67273574809822,
+            207.37388709531686
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.13963255368408675,
+              189.1340239662244,
+              0.15766352809711393,
+              68.37828712556062
+            ],
+            "endpoint": [
+              121.1814830278079,
+              23.936672068561734
+            ],
+            "shaft_extent": 114.16624330170818
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03333333333333499,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      }
+    ],
+    "video_2": [
+      {
+        "display_frame": 439,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9821453980562559,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.16356306269230672,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.5512310561105763,
+              183.09313436092054,
+              0.16356306269230672,
+              154.31424528186474,
+              80.47884785308284,
+              15.934754929716902
+            ],
+            "support_count": 1226,
+            "support_ids_sha256": "21b0206a69c1f87841b5ba1fd6fee0a27e28d01e227001995c693b39dd8086bc",
+            "seed_length_px": 144.2590575998554,
+            "seed_mass": 1152.2496538162231,
+            "fov_end_distances": [
+              2.5,
+              143.38932073844106
+            ],
+            "qN": 0.9999816237110192,
+            "qE": 1.0,
+            "qR": 0.9107637428592408,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              391,
+              412,
+              375,
+              340,
+              305,
+              277,
+              248,
+              214
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.2155937882532366,
+                0.27587187501558164
+              ],
+              [
+                0.21899133958386333,
+                0.20295364196813553
+              ],
+              [
+                0.18887200750463307,
+                0.2275446824944837
+              ],
+              [
+                0.20087250497032036,
+                0.21237230946987556
+              ],
+              [
+                0.28198007935631575,
+                0.20104637267785178
+              ],
+              [
+                0.22266308503640572,
+                0.22030339478888342
+              ],
+              [
+                0.22325894941653024,
+                0.196319671336992
+              ],
+              [
+                0.1878077005328441,
+                0.1773914850291584
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.18154857147967654,
+                -26.615019036740566
+              ],
+              [
+                -0.23687543574920136,
+                29.264530620615425
+              ]
+            ],
+            "line_rms_px": 0.6149532506299538,
+            "residual_limit_px": 6.5790276414102955,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999980884647622,
+                0.9999983838882005,
+                0.9999960096806378
+              ],
+              [
+                0.9999959146802925,
+                0.9999971836687715,
+                0.9999890783968932
+              ],
+              [
+                0.9999952285336686,
+                0.9999951444443215,
+                0.9999809473788216
+              ],
+              [
+                0.9999926450261396,
+                0.9999900332641998,
+                0.9999626377736694
+              ],
+              [
+                0.9999913514926062,
+                0.9999862245401282,
+                0.999963667929017
+              ],
+              [
+                0.9999814904341576,
+                0.9999729752950576,
+                0.9999658723909981
+              ],
+              [
+                0.9999808821139323,
+                0.9999819799293521,
+                0.9999827171826061
+              ],
+              [
+                0.9999434473265131,
+                0.9999612086045931,
+                0.9999558566251184
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.5512310561105763,
+              183.09313436092054
+            ],
+            "far_seed_xy": [
+              141.83690354227187,
+              206.59250705184874
+            ],
+            "width0_px": 80.47884785308284,
+            "far_seed_width_px": 20.11739489308983,
+            "observed_shaft_length_px": 144.31424528186474,
+            "shaft_lines": [
+              [
+                [
+                  7.096522994562046,
+                  143.58714625885764
+                ],
+                [
+                  143.74862186810418,
+                  196.7171474450392
+                ]
+              ],
+              [
+                [
+                  -8.1989851067832,
+                  222.59912246298342
+                ],
+                [
+                  139.92518521643956,
+                  216.46786665865832
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              9.0,
+              10.0,
+              6.0
+            ],
+            "front_profile_scores": [
+              0.21140941397551583,
+              0.2120065150290132,
+              0.09344306770554069
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              151.70343711421967,
+              208.22085445754186
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -11.321972079227024,
+            288.7209374818614,
+            -0.29674157756454766,
+            135.96687843446674,
+            82.50104848610522,
+            41.35854807894094,
+            1.5
+          ],
+          "status": "rejected_jump_pending",
+          "age": 1,
+          "pending_count": 1,
+          "pending_state": [
+            -4.930761344651742,
+            182.9777692605179,
+            0.1529596545148415,
+            156.80137283071804,
+            82.8344941402372,
+            19.696709495767685,
+            1.0
+          ],
+          "uses_current_observation": false,
+          "prediction_only": true,
+          "innovation": {
+            "active": {
+              "passed": false,
+              "checks": {
+                "tip": false,
+                "length": true,
+                "angle": false,
+                "width": false
+              },
+              "residual": [
+                6.3912107345752815,
+                -105.74316822134352,
+                0.44970123207938917,
+                20.8344943962513,
+                0.33344565413197813,
+                -21.661838583173257,
+                -0.5
+              ],
+              "tip_jump_px": 52.478666837706896,
+              "width_ratios": [
+                1.0040417141387983,
+                0.476242769890583
+              ]
+            },
+            "pending": null
+          },
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              118.70238494873045,
+              248.96343994140622
+            ],
+            "side_angles_rad": [
+              -0.4903013340571247,
+              -0.1031818210719706
+            ],
+            "signed_taper_angle_rad": 0.3871195129851543,
+            "cap_center_xy": [
+              89.03917569792348,
+              258.03354800260115
+            ],
+            "side_segments": [
+              [
+                [
+                  0.7399185445700542,
+                  328.16858056616024
+                ],
+                [
+                  95.08591440538677,
+                  277.8090208364725
+                ]
+              ],
+              [
+                [
+                  -23.3838627030241,
+                  249.2732943975626
+                ],
+                [
+                  82.99243699046019,
+                  238.25807516872982
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5512310561105763,
+                183.09313436092054,
+                0.16356306269230672,
+                80.47884785308284
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                154.31424528186474,
+                15.934754929716902
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            151.70343711421967,
+            208.22085445754186
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5512310561105763,
+                183.09313436092054,
+                0.16356306269230672,
+                80.47884785308284
+              ],
+              "status": "strong_current_override",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                154.31424528186474,
+                15.934754929716902
+              ],
+              "status": "strong_current_override",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            151.70343711421967,
+            208.22085445754186
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [
+            "shaft",
+            "endpoint"
+          ],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": false,
+            "checks": {
+              "entry": false,
+              "angle": false,
+              "width0": true,
+              "length": true,
+              "width1": false,
+              "front": false
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -6.836747741624562,
+              286.27657297736727,
+              -0.2692267680181968,
+              80.38079392011589
+            ],
+            "endpoint": [
+              133.67415785505753,
+              34.6437117752317
+            ],
+            "shaft_extent": 130.67415785505753
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5512310561105763,
+                183.09313436092054,
+                0.16356306269230672,
+                80.47884785308284
+              ],
+              "status": "strong_current_override",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                154.31424528186474,
+                15.934754929716902
+              ],
+              "status": "strong_current_override",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            151.70343711421967,
+            208.22085445754186
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [
+            "shaft",
+            "endpoint"
+          ],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": false,
+            "checks": {
+              "entry": false,
+              "angle": false,
+              "width0": true,
+              "length": true,
+              "width1": false,
+              "front": false
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -6.836747741624562,
+              286.27657297736727,
+              -0.2692267680181968,
+              80.38079392011589
+            ],
+            "endpoint": [
+              133.67415785505753,
+              34.6437117752317
+            ],
+            "shaft_extent": 130.67415785505753
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 440,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9818842435571619,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.1548867560100239,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.5101594212357037,
+              182.53465005112307,
+              0.1548867560100239,
+              153.3322642047591,
+              79.0734998758404,
+              13.224692170602815
+            ],
+            "support_count": 1187,
+            "support_ids_sha256": "ec4416c445406a19b8eadbd27a762cf916df4980ca6a04f3cd22bd7453b4f585",
+            "seed_length_px": 144.23556698617918,
+            "seed_mass": 1113.4519302248955,
+            "fov_end_distances": [
+              2.5,
+              143.45996856418944
+            ],
+            "qN": 0.9999910248597326,
+            "qE": 1.0,
+            "qR": 0.9094391680663437,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              380,
+              396,
+              362,
+              332,
+              296,
+              263,
+              236,
+              208
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.22624139481110095,
+                0.2791571593832151
+              ],
+              [
+                0.27992338127233773,
+                0.2431797738242723
+              ],
+              [
+                0.21911215476837867,
+                0.24450183959178412
+              ],
+              [
+                0.21597793987692696,
+                0.2520995793611838
+              ],
+              [
+                0.29996211385920135,
+                0.24653948614714563
+              ],
+              [
+                0.276791976792963,
+                0.26104986008802655
+              ],
+              [
+                0.2718520544515816,
+                0.26316569778065113
+              ],
+              [
+                0.22702644826316573,
+                0.1971071663616439
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.1782464314403207,
+                -25.835270860487633
+              ],
+              [
+                -0.25149321834088023,
+                28.071876670800187
+              ]
+            ],
+            "line_rms_px": 0.6006658148784175,
+            "residual_limit_px": 6.327649140926535,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999986571765445,
+                0.9999990760937992,
+                0.9999973466484323
+              ],
+              [
+                0.9999978330355951,
+                0.9999981629303624,
+                0.9999923521246498
+              ],
+              [
+                0.99999682324909,
+                0.9999965537015417,
+                0.9999887946673948
+              ],
+              [
+                0.9999954636098131,
+                0.9999950359491677,
+                0.999987643298726
+              ],
+              [
+                0.9999952785750088,
+                0.9999935888370174,
+                0.9999895922923101
+              ],
+              [
+                0.9999893257905337,
+                0.999988013639729,
+                0.9999904129847534
+              ],
+              [
+                0.9999887496345492,
+                0.9999920622017906,
+                0.9999930285501919
+              ],
+              [
+                0.99995738283578,
+                0.9999806865635272,
+                0.9999827322432748
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.5101594212357037,
+              182.53465005112307
+            ],
+            "far_seed_xy": [
+              142.09430426733726,
+              204.8005303743184
+            ],
+            "width0_px": 79.0734998758404,
+            "far_seed_width_px": 17.08975783320681,
+            "observed_shaft_length_px": 144.3322642047591,
+            "shaft_lines": [
+              [
+                [
+                  7.014695856657485,
+                  143.72059140350936
+                ],
+                [
+                  143.7206133927844,
+                  196.4118430915607
+                ]
+              ],
+              [
+                [
+                  -8.035014699128894,
+                  221.34870869873674
+                ],
+                [
+                  140.46799514189013,
+                  213.18921765707609
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              8.0,
+              9.0,
+              7.0
+            ],
+            "front_profile_scores": [
+              0.21323307158707033,
+              0.20231603443894533,
+              0.18419252714360282
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              150.98656533085378,
+              206.18894428172075
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -11.321972079227024,
+            288.7209374818614,
+            -0.29674157756454766,
+            135.96687843446674,
+            82.50104848610522,
+            41.35854807894094,
+            1.5
+          ],
+          "status": "rejected_jump_pending",
+          "age": 2,
+          "pending_count": 2,
+          "pending_state": [
+            -4.867349623628229,
+            181.66078448504157,
+            0.15620502927636304,
+            155.21240162158844,
+            79.57780112612235,
+            21.25981748674816,
+            1.5
+          ],
+          "uses_current_observation": false,
+          "prediction_only": true,
+          "innovation": {
+            "active": {
+              "passed": false,
+              "checks": {
+                "tip": false,
+                "length": true,
+                "angle": false,
+                "width": true
+              },
+              "residual": [
+                6.454622455598795,
+                -107.06015299681985,
+                0.4529466068409107,
+                19.245523187121705,
+                -2.9232473599828666,
+                -20.09873059219278,
+                0.0
+              ],
+              "tip_jump_px": 52.41842901063388,
+              "width_ratios": [
+                0.9645671489802314,
+                0.5140368430286675
+              ]
+            },
+            "pending": {
+              "pairwise": {
+                "passed": true,
+                "checks": {
+                  "tip": true,
+                  "length": true,
+                  "angle": true,
+                  "width": true
+                },
+                "residual": [
+                  0.06341172102351322,
+                  -1.3169847754763282,
+                  0.0032453747615215356,
+                  -1.5889712091295962,
+                  -3.2566930141148447,
+                  1.5631079909804768,
+                  0.5
+                ],
+                "tip_jump_px": 1.9071842629370832,
+                "width_ratios": [
+                  0.9606843375103936,
+                  1.079358838658627
+                ]
+              },
+              "extrapolated": {
+                "passed": true,
+                "checks": {
+                  "tip": true,
+                  "length": true,
+                  "angle": true,
+                  "width": true
+                },
+                "residual": [
+                  0.06341172102351322,
+                  -1.3169847754763282,
+                  0.0032453747615215356,
+                  -1.5889712091295962,
+                  -3.2566930141148447,
+                  1.5631079909804768,
+                  0.5
+                ],
+                "tip_jump_px": 1.9071842629370832,
+                "width_ratios": [
+                  0.9606843375103936,
+                  1.079358838658627
+                ]
+              },
+              "passed": true
+            }
+          },
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.03324239350912883,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              118.70238494873045,
+              248.96343994140622
+            ],
+            "side_angles_rad": [
+              -0.4903013340571247,
+              -0.1031818210719706
+            ],
+            "signed_taper_angle_rad": 0.3871195129851543,
+            "cap_center_xy": [
+              89.03917569792348,
+              258.03354800260115
+            ],
+            "side_segments": [
+              [
+                [
+                  0.7399185445700542,
+                  328.16858056616024
+                ],
+                [
+                  95.08591440538677,
+                  277.8090208364725
+                ]
+              ],
+              [
+                [
+                  -23.3838627030241,
+                  249.2732943975626
+                ],
+                [
+                  82.99243699046019,
+                  238.25807516872982
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5101594212357037,
+                182.53465005112307,
+                0.1548867560100239,
+                79.0734998758404
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.3322642047591,
+                13.224692170602815
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            150.98656533085378,
+            206.18894428172075
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.524534493441909,
+                182.73011955955218,
+                0.15792346334882268,
+                79.56537166787525
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.67595758174608,
+                14.173214136292746
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            151.23907713161722,
+            206.89840715269443
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.5512310561105763,
+              183.09313436092054,
+              0.1635630626923068,
+              80.47884785308284
+            ],
+            "endpoint": [
+              154.31424528186474,
+              15.934754929716902
+            ],
+            "shaft_extent": 144.31424528186474
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03324239350912883,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.524534493441909,
+                182.73011955955218,
+                0.15792346334882268,
+                79.56537166787525
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.67595758174608,
+                14.173214136292746
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            151.23907713161722,
+            206.89840715269443
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.5512310561105763,
+              183.09313436092054,
+              0.1635630626923068,
+              80.47884785308284
+            ],
+            "endpoint": [
+              154.31424528186474,
+              15.934754929716902
+            ],
+            "shaft_extent": 144.31424528186474
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03324239350912883,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 441,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9800856079426269,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.15613610675358805,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.509023086982594,
+              182.5671899934174,
+              0.15613610675358805,
+              153.34381546741994,
+              79.14493909634709,
+              13.71033021553697
+            ],
+            "support_count": 1184,
+            "support_ids_sha256": "167fad650f85c310a36e45c987752ba42d2b406920cb00f7dc056eb43703a4a4",
+            "seed_length_px": 144.25748644786685,
+            "seed_mass": 1115.6204924732447,
+            "fov_end_distances": [
+              2.5,
+              143.52469688061882
+            ],
+            "qN": 0.9999929228856844,
+            "qE": 1.0,
+            "qR": 0.9004421939417657,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              380,
+              396,
+              363,
+              328,
+              292,
+              261,
+              236,
+              208
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.2545083079611272,
+                0.3080941889204831
+              ],
+              [
+                0.28132357492209853,
+                0.2409098178233821
+              ],
+              [
+                0.23631432842661296,
+                0.26541748875928683
+              ],
+              [
+                0.22575243557099783,
+                0.2833505317574724
+              ],
+              [
+                0.30155040899321883,
+                0.25526825753271143
+              ],
+              [
+                0.2649941621145037,
+                0.3041388780678586
+              ],
+              [
+                0.24856731742553867,
+                0.2660253203423474
+              ],
+              [
+                0.2208621265388801,
+                0.20682218671097144
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.17888577830687302,
+                -25.69662214921123
+              ],
+              [
+                -0.24808786372256042,
+                28.41213274835635
+              ]
+            ],
+            "line_rms_px": 0.6665589100934411,
+            "residual_limit_px": 6.356091328250126,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.999998466304676,
+                0.9999992763323889,
+                0.9999981869244503
+              ],
+              [
+                0.9999976035080093,
+                0.999998391265831,
+                0.9999944833337615
+              ],
+              [
+                0.9999969578619787,
+                0.9999970540132916,
+                0.9999919730203869
+              ],
+              [
+                0.9999964257485947,
+                0.9999949266869713,
+                0.9999867945406367
+              ],
+              [
+                0.9999968073518629,
+                0.9999962517275801,
+                0.999991815294855
+              ],
+              [
+                0.9999926753402888,
+                0.9999895649880347,
+                0.9999905009847456
+              ],
+              [
+                0.9999922422096801,
+                0.9999938492997497,
+                0.9999911610818604
+              ],
+              [
+                0.9999747611139009,
+                0.9999847785287568,
+                0.99998520179413
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.509023086982594,
+              182.5671899934174
+            ],
+            "far_seed_xy": [
+              142.0789221680066,
+              205.01301213591822
+            ],
+            "width0_px": 79.14493909634709,
+            "far_seed_width_px": 17.550794717689747,
+            "observed_shaft_length_px": 144.34381546741994,
+            "shaft_lines": [
+              [
+                [
+                  6.992697481481594,
+                  143.7122735135972
+                ],
+                [
+                  143.74246704187794,
+                  196.3967358370616
+                ]
+              ],
+              [
+                [
+                  -8.010743655446783,
+                  221.42210647323762
+                ],
+                [
+                  140.4153772941353,
+                  213.62928843477482
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              8.0,
+              9.0,
+              7.0
+            ],
+            "front_profile_scores": [
+              0.23519505983477784,
+              0.21737555813777806,
+              0.1728587294761439
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              150.9694416761636,
+              206.41253450983038
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -4.866743401095938,
+            181.77638981077158,
+            0.15347462196537887,
+            155.39297503676391,
+            79.83668003887976,
+            19.407065074780434,
+            1.0
+          ],
+          "status": "confirmed_relocation",
+          "age": 0,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": true,
+          "prediction_only": false,
+          "innovation": {
+            "active": {
+              "passed": false,
+              "checks": {
+                "tip": false,
+                "length": true,
+                "angle": false,
+                "width": false
+              },
+              "residual": [
+                6.4552286781310855,
+                -106.94454767108985,
+                0.45021619952992653,
+                19.42609660229718,
+                -2.6643684472254563,
+                -21.951483004160508,
+                -0.5
+              ],
+              "tip_jump_px": 52.7840092379782,
+              "width_ratios": [
+                0.9677050353163186,
+                0.4692395158006568
+              ]
+            },
+            "pending": {
+              "pairwise": {
+                "passed": true,
+                "checks": {
+                  "tip": true,
+                  "length": true,
+                  "angle": true,
+                  "width": true
+                },
+                "residual": [
+                  0.0006062225322907011,
+                  0.1156053257300016,
+                  -0.002730407310984173,
+                  0.18057341517547343,
+                  0.25887891275741026,
+                  -1.852752411967728,
+                  -0.5
+                ],
+                "tip_jump_px": 0.3683016100176895,
+                "width_ratios": [
+                  1.003253154888599,
+                  0.9128519135631056
+                ]
+              },
+              "extrapolated": {
+                "passed": true,
+                "checks": {
+                  "tip": true,
+                  "length": true,
+                  "angle": true,
+                  "width": true
+                },
+                "residual": [
+                  -0.06280549849121897,
+                  1.432590101206273,
+                  -0.005975782072505709,
+                  1.7695446243049844,
+                  3.5155719268720844,
+                  -3.4158604029481197,
+                  -0.9999999999999734
+                ],
+                "tip_jump_px": 1.9948178884694174,
+                "width_ratios": [
+                  1.0460629046647578,
+                  0.850332052905249
+                ]
+              },
+              "passed": true
+            }
+          },
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              148.69972229003906,
+              205.53175354003906
+            ],
+            "side_angles_rad": [
+              -0.05101830714336497,
+              0.3579675510741227
+            ],
+            "signed_taper_angle_rad": 0.40898585821748773,
+            "cap_center_xy": [
+              139.1102463427937,
+              204.0483470679643
+            ],
+            "side_segments": [
+              [
+                [
+                  -10.969172976216818,
+                  221.2255244424502
+                ],
+                [
+                  137.62683987071892,
+                  213.63782301520968
+                ]
+              ],
+              [
+                [
+                  1.2356861740249405,
+                  142.32725517909296
+                ],
+                [
+                  140.59365281486845,
+                  194.45887112071892
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.509023086982594,
+                182.5671899934174,
+                0.15613610675358805,
+                79.14493909634709
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.34381546741994,
+                13.71033021553697
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            150.9694416761636,
+            206.41253450983038
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5130145720227338,
+                182.60466839072166,
+                0.15645801082804045,
+                79.24290331717846
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.4256958697354,
+                13.777487391232503
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            151.0386466947984,
+            206.51153184829914
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.520427329954422,
+              182.67427112857243,
+              0.15705583268059442,
+              79.42483687015101
+            ],
+            "endpoint": [
+              153.5777594740355,
+              13.90220786038135
+            ],
+            "shaft_extent": 144.3322642047591
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.5130145720227338,
+                182.60466839072166,
+                0.15645801082804045,
+                79.24290331717846
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.4256958697354,
+                13.777487391232503
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            151.0386466947984,
+            206.51153184829914
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.520427329954422,
+              182.67427112857243,
+              0.15705583268059442,
+              79.42483687015101
+            ],
+            "endpoint": [
+              153.5777594740355,
+              13.90220786038135
+            ],
+            "shaft_extent": 144.3322642047591
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 622,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9071206229209734,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": -0.3725369869042754,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -3.1609484259016982,
+              304.4499432406595,
+              -0.3725369869042754,
+              151.7422933508519,
+              68.54278188751528,
+              16.83994037993638
+            ],
+            "support_count": 932,
+            "support_ids_sha256": "10f5ea8ba14a5b82ae62087f3f438432fa839c55a7a82288ba3d53dd327ff367",
+            "seed_length_px": 143.50312672468604,
+            "seed_mass": 841.8868532478809,
+            "fov_end_distances": [
+              2.5,
+              130.58967992378896
+            ],
+            "qN": 0.9430555028417561,
+            "qE": 0.875,
+            "qR": 0.8994921089213547,
+            "edge_pairs": 7,
+            "station_support_counts": [
+              282,
+              335,
+              328,
+              294,
+              256,
+              212,
+              164,
+              130
+            ],
+            "valid_edge_samples": 260,
+            "selected_edge_contrasts": [
+              [
+                0.011607044029436187,
+                0.10968702618817278
+              ],
+              [
+                0.10289262810645874,
+                0.09898691702422507
+              ],
+              [
+                0.13434657262804622,
+                0.12234582684541566
+              ],
+              [
+                0.10625681690663108,
+                0.11618069695872159
+              ],
+              [
+                0.09715667409702475,
+                0.10475103094791773
+              ],
+              [
+                0.10625959809105888,
+                0.10332055619442843
+              ],
+              [
+                0.10353880285760286,
+                0.09562614272532743
+              ],
+              [
+                0.09823535198522983,
+                0.0809498501300647
+              ]
+            ],
+            "selected_edge_pairs": [
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.22840635541689558,
+                -24.98831065655757
+              ],
+              [
+                -0.1128894684059689,
+                24.040441269306974
+              ]
+            ],
+            "line_rms_px": 0.6066648697908049,
+            "residual_limit_px": 5.7273059158122415,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9583389389435885,
+                0.9998736534447478,
+                0.9996723343857113
+              ],
+              [
+                0.9999465129699869,
+                0.9998541192415672,
+                0.9996683532557384
+              ],
+              [
+                0.9998923391779224,
+                0.9997108718373726,
+                0.9995439829346017
+              ],
+              [
+                0.9998751538663566,
+                0.9996862607882118,
+                0.9990786339304294
+              ],
+              [
+                0.9996727149524968,
+                0.9987683438052037,
+                0.9951919023200051
+              ],
+              [
+                0.997658217022688,
+                0.9951381428951978,
+                0.9847577997516431
+              ],
+              [
+                0.9865481712453106,
+                0.9823368438544672,
+                0.6423090394341385
+              ],
+              [
+                0.8998424238323213,
+                0.9243916887589693,
+                0.2715756255534711
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 0.9583333333333334,
+            "entry_xy": [
+              -3.1609484259016982,
+              304.4499432406595
+            ],
+            "far_seed_xy": [
+              130.72162010977465,
+              252.1306854090322
+            ],
+            "width0_px": 68.54278188751528,
+            "far_seed_width_px": 19.565764030856624,
+            "observed_shaft_length_px": 143.7422933508519,
+            "shaft_lines": [
+              [
+                [
+                  -17.454896584973497,
+                  273.3017284724638
+                ],
+                [
+                  126.64136528135722,
+                  243.23932437356822
+                ]
+              ],
+              [
+                [
+                  11.132999733170102,
+                  335.5981580088551
+                ],
+                [
+                  134.80187493819207,
+                  261.0220464444962
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              3.0,
+              8.0,
+              8.0
+            ],
+            "front_profile_scores": [
+              0.11996194030452267,
+              0.17207020578233834,
+              0.16333456193243567
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              138.17287557062306,
+              249.21884886534087
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": null,
+          "status": "invalid_prediction_reset",
+          "age": 0,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": false,
+          "prediction_only": false,
+          "innovation": null,
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.03324239350913061,
+          "current_measurement_valid": false,
+          "geometry": null,
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -3.1609484259016982,
+                304.4499432406595,
+                -0.3725369869042754,
+                68.54278188751528
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                151.7422933508519,
+                16.83994037993638
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            138.17287557062306,
+            249.21884886534087
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -3.0198229039864173,
+                303.5099147766465,
+                -0.36847439420546824,
+                67.80399094987852
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.0782533232424,
+                15.949714450713115
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            139.78350317534384,
+            248.37225340825648
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -2.757732649000896,
+              301.76414762919376,
+              -0.36092957919339774,
+              66.43195063712456
+            ],
+            "endpoint": [
+              155.55932184339613,
+              14.296437725012765
+            ],
+            "shaft_extent": 144.33717181737012
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03324239350913061,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -3.0204772561666013,
+                303.50868714215017,
+                -0.3684650664308018,
+                67.80773632610921
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                153.08397870613564,
+                15.947120574143797
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            139.7887042312843,
+            248.37029562240326
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -2.7596022266585645,
+              301.7606401020615,
+              -0.36090292840863647,
+              66.44265171206938
+            ],
+            "endpoint": [
+              155.57568008023404,
+              14.289026649100428
+            ],
+            "shaft_extent": 144.33717181737012
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.03324239350913061,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 643,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9750944088677856,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.15583474454998728,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.6862547859070102,
+              181.13770635925704,
+              0.15583474454998728,
+              144.6887234540311,
+              77.1472511476728,
+              18.608631442801176
+            ],
+            "support_count": 1115,
+            "support_ids_sha256": "204efb8b87320aab519e44f7ba7c0824e2c460fb44572da952ec9c583c77c8b5",
+            "seed_length_px": 133.57355235205577,
+            "seed_mass": 1039.860092267394,
+            "fov_end_distances": [
+              2.5,
+              132.59886552533783
+            ],
+            "qN": 0.9999790507167852,
+            "qE": 1.0,
+            "qR": 0.8755139429053574,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              345,
+              371,
+              338,
+              311,
+              285,
+              264,
+              233,
+              203
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.2305643601663598,
+                0.1540780927991252
+              ],
+              [
+                0.18420552345701746,
+                0.2539823911259276
+              ],
+              [
+                0.21613287181081553,
+                0.1793685658865965
+              ],
+              [
+                0.26395532371801045,
+                0.20663685040123939
+              ],
+              [
+                0.18780926495020844,
+                0.23378004842487585
+              ],
+              [
+                0.16991694239618377,
+                0.19086121050150312
+              ],
+              [
+                0.20779032313346654,
+                0.15074829177746452
+              ],
+              [
+                0.13866574853107513,
+                0.16848792170308974
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.1609304331264491,
+                -26.934028126448883
+              ],
+              [
+                -0.24400156192209546,
+                28.037816732131574
+              ]
+            ],
+            "line_rms_px": 0.8640271910255806,
+            "residual_limit_px": 6.49917168069914,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999986820781123,
+                0.9999980726110559,
+                0.9999983098473518
+              ],
+              [
+                0.9999967017402186,
+                0.9999938949223728,
+                0.9999961348181354
+              ],
+              [
+                0.9999941489474974,
+                0.9999875633197501,
+                0.9999887732889057
+              ],
+              [
+                0.9999946452255412,
+                0.9999843653668339,
+                0.9999688020360876
+              ],
+              [
+                0.9999905572770657,
+                0.999981436352539,
+                0.9999710670719402
+              ],
+              [
+                0.9999902773582432,
+                0.9999843626151259,
+                0.999980333000644
+              ],
+              [
+                0.9999753158871447,
+                0.9999823640040293,
+                0.9999811695864794
+              ],
+              [
+                0.999874296815753,
+                0.9999480640649163,
+                0.9999378789671037
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.6862547859070102,
+              181.13770635925704
+            ],
+            "far_seed_xy": [
+              131.38247131324363,
+              201.88683562570893
+            ],
+            "width0_px": 77.1472511476728,
+            "far_seed_width_px": 23.05904610803365,
+            "observed_shaft_length_px": 133.6887234540311,
+            "shaft_lines": [
+              [
+                [
+                  6.876797932544984,
+                  143.3127830481855
+                ],
+                [
+                  133.64304157022465,
+                  190.58109708431508
+                ]
+              ],
+              [
+                [
+                  -8.249307504359004,
+                  218.96262967032857
+                ],
+                [
+                  129.12190105626263,
+                  213.19257416710278
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              7.0,
+              11.0,
+              6.0
+            ],
+            "front_profile_scores": [
+              0.0800552021406103,
+              0.17171676453449936,
+              0.11669311431537337
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              142.24917681806645,
+              203.59408823486
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": 1,
+        "T0_tracked": {
+          "state": [
+            -5.395321526239897,
+            296.6159393329657,
+            -0.2779439300484001,
+            110.81785727903346,
+            64.97064453105232,
+            41.30171830623597,
+            1.5
+          ],
+          "status": "rejected_jump_pending",
+          "age": 2,
+          "pending_count": 2,
+          "pending_state": [
+            -4.780996557269084,
+            181.0124351703704,
+            0.14816419840213513,
+            145.43380812772935,
+            78.24987210055752,
+            24.006732650264354,
+            1.5
+          ],
+          "uses_current_observation": false,
+          "prediction_only": true,
+          "innovation": {
+            "active": {
+              "passed": false,
+              "checks": {
+                "tip": false,
+                "length": true,
+                "angle": false,
+                "width": true
+              },
+              "residual": [
+                0.6143249689708128,
+                -115.6035041625953,
+                0.42610812845053525,
+                34.61595084869589,
+                13.27922756950521,
+                -17.294985655971615,
+                0.0
+              ],
+              "tip_jump_px": 74.14114988909554,
+              "width_ratios": [
+                1.2043881150533837,
+                0.581252636325295
+              ]
+            },
+            "pending": {
+              "pairwise": {
+                "passed": true,
+                "checks": {
+                  "tip": true,
+                  "length": true,
+                  "angle": true,
+                  "width": true
+                },
+                "residual": [
+                  -0.07585294857776148,
+                  -1.3136837159275387,
+                  0.006384821602130941,
+                  1.1912193176442543,
+                  -5.256149470507893,
+                  -3.8697835502806477,
+                  0.0
+                ],
+                "tip_jump_px": 0.9953887398608213,
+                "width_ratios": [
+                  0.9370566412862239,
+                  0.8611812350423834
+                ]
+              },
+              "extrapolated": {
+                "passed": true,
+                "checks": {
+                  "tip": true,
+                  "length": true,
+                  "angle": true,
+                  "width": true
+                },
+                "residual": [
+                  -0.07585294857776148,
+                  -1.3136837159275387,
+                  0.006384821602130941,
+                  1.1912193176442543,
+                  -5.256149470507893,
+                  -3.8697835502806477,
+                  0.0
+                ],
+                "tip_jump_px": 0.9953887398608213,
+                "width_ratios": [
+                  0.9370566412862239,
+                  0.8611812350423834
+                ]
+              },
+              "passed": true
+            }
+          },
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "current_measurement_valid": true,
+          "geometry": {
+            "tip_xy": [
+              101.16952514648436,
+              266.2098388671875
+            ],
+            "side_angles_rad": [
+              -0.42509683166892387,
+              -0.13079102842787638
+            ],
+            "signed_taper_angle_rad": 0.2943058032410471,
+            "cap_center_xy": [
+              71.38205641158216,
+              274.7090841178869
+            ],
+            "side_segments": [
+              [
+                [
+                  3.517970940529814,
+                  327.8545273307756
+                ],
+                [
+                  77.04821991204844,
+                  294.5673966078217
+                ]
+              ],
+              [
+                [
+                  -14.308613993009608,
+                  265.37735133515577
+                ],
+                [
+                  65.71589291111587,
+                  254.8507716279521
+                ]
+              ]
+            ],
+            "role": "uncalibrated_image_geometry_not_physical_tip_truth"
+          },
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.6862547859070102,
+                181.13770635925704,
+                0.15583474454998728,
+                77.1472511476728
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                144.6887234540311,
+                18.608631442801176
+              ],
+              "status": "current_observation",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            142.24917681806645,
+            203.59408823486
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.6624493663615327,
+                181.67262930902226,
+                0.1512214526136786,
+                79.45565184119732
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                144.30008044391639,
+                18.161486827938205
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            141.9908509675152,
+            203.41082426567655
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.6182393014913602,
+              182.6660576443005,
+              0.14265391044624787,
+              83.74268170059999
+            ],
+            "endpoint": [
+              143.57831485370335,
+              17.33107540033555
+            ],
+            "shaft_extent": 131.57831485370335
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -0.6624493663615327,
+                181.67262930902226,
+                0.1512214526136786,
+                79.45565184119732
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                144.30008044391639,
+                18.161486827938205
+              ],
+              "status": "strong_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            141.9908509675152,
+            203.41082426567655
+          ],
+          "front_is_prediction": false,
+          "selected_label": 1,
+          "used_provenance": "independent_current",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": true,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -0.6182393014913602,
+              182.6660576443005,
+              0.14265391044624787,
+              83.74268170059999
+            ],
+            "endpoint": [
+              143.57831485370335,
+              17.33107540033555
+            ],
+            "shaft_extent": 131.57831485370335
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 311,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.0,
+            "level": "rejected",
+            "reason": "insufficient_edge_pairs",
+            "axis_theta": -0.7818827155137854,
+            "oriented": true,
+            "front_observed": false,
+            "shaft_observed": false,
+            "pose": null,
+            "support_count": 1544,
+            "support_ids_sha256": "882e4258b55ab8ec0f8077ce90552eb801e3addfdf38e1d0029b633b08841a86",
+            "seed_length_px": 155.82530407057538,
+            "seed_mass": 1452.3500803560019,
+            "fov_end_distances": [
+              2.5,
+              105.76888245044697
+            ],
+            "qN": null,
+            "qE": 0.5,
+            "qR": null,
+            "edge_pairs": 4,
+            "station_support_counts": [
+              233,
+              338,
+              429,
+              499,
+              512,
+              477,
+              421,
+              361
+            ],
+            "valid_edge_samples": 213,
+            "selected_edge_contrasts": [
+              [
+                0.006941055959256561,
+                0.14248389578460063
+              ],
+              [
+                0.006165536048148028,
+                0.14130473047534947
+              ],
+              [
+                0.009335200560186734,
+                0.1366262264770518
+              ],
+              [
+                0.01955932412612534,
+                0.17062947592690086
+              ],
+              [
+                0.1020307167453519,
+                0.18477272823967084
+              ],
+              [
+                0.12098853210890671,
+                0.1801999652817746
+              ],
+              [
+                0.11983375711604127,
+                0.16648475928514397
+              ],
+              [
+                0.1074584593134537,
+                0.1372034878884631
+              ]
+            ],
+            "selected_edge_pairs": [
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              true
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": null,
+        "T0_tracked": {
+          "state": null,
+          "status": "expired_reset",
+          "age": 4,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": false,
+          "prediction_only": false,
+          "innovation": null,
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "current_measurement_valid": false,
+          "geometry": null,
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": null,
+              "status": "unavailable",
+              "age": 0,
+              "observed": false,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": null,
+              "status": "unavailable",
+              "age": 0,
+              "observed": false,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": null,
+          "front_is_prediction": false,
+          "selected_label": null,
+          "used_provenance": null,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -23.28005723977769,
+                344.4103058298207,
+                -0.5226467188216342,
+                105.66360782362621
+              ],
+              "status": "predicted",
+              "age": 1,
+              "observed": false,
+              "predicted": true
+            },
+            "endpoint": {
+              "value": [
+                166.68230937343955,
+                34.10641589240056
+              ],
+              "status": "predicted",
+              "age": 1,
+              "observed": false,
+              "predicted": true
+            }
+          },
+          "visible_front_candidate": [
+            121.15033711739214,
+            261.20661934962067
+          ],
+          "front_is_prediction": true,
+          "selected_label": null,
+          "used_provenance": null,
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": false,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": false,
+            "checks": {},
+            "skipped": [
+              "entry",
+              "angle",
+              "width0",
+              "length",
+              "width1",
+              "front"
+            ]
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -23.28005723977769,
+              344.4103058298207,
+              -0.5226467188216342,
+              105.66360782362621
+            ],
+            "endpoint": [
+              166.68230937343955,
+              34.10641589240056
+            ],
+            "shaft_extent": 157.68230937343955
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": [
+                -20.541456924795874,
+                349.16414715839716,
+                -0.5446861995020851,
+                106.45110782362623
+              ],
+              "status": "weak_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": [
+                166.744619259782,
+                33.84391589240057
+              ],
+              "status": "weak_updated",
+              "age": 0,
+              "observed": true,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": [
+            122.0735365647111,
+            262.7654684411995
+          ],
+          "front_is_prediction": false,
+          "selected_label": -1,
+          "used_provenance": "history_conditioned",
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": false,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [
+            {
+              "label": -1,
+              "provenance": "history_conditioned",
+              "passed": true,
+              "checks": {
+                "entry": true,
+                "angle": true,
+                "width0": true,
+                "length": true,
+                "width1": true,
+                "front": true
+              },
+              "skipped": []
+            }
+          ],
+          "selected_gate": {
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": [
+              -23.28005723977769,
+              344.4103058298207,
+              -0.5226467188216342,
+              105.66360782362621
+            ],
+            "endpoint": [
+              166.68230937343955,
+              34.10641589240056
+            ],
+            "shaft_extent": 157.68230937343955
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      },
+      {
+        "display_frame": 1266,
+        "current_candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.0,
+            "level": "rejected",
+            "reason": "insufficient_edge_pairs",
+            "axis_theta": -0.98074966240584,
+            "oriented": true,
+            "front_observed": false,
+            "shaft_observed": false,
+            "pose": null,
+            "support_count": 1257,
+            "support_ids_sha256": "6fbaba7772739766ecdbf9355955e3defe47d328f9ef8844f86873fec66320b2",
+            "seed_length_px": 125.44381414115348,
+            "seed_mass": 1161.9623060524464,
+            "fov_end_distances": [
+              2.5,
+              70.96534151843929
+            ],
+            "qN": null,
+            "qE": 0.375,
+            "qR": null,
+            "edge_pairs": 3,
+            "station_support_counts": [
+              147,
+              198,
+              254,
+              313,
+              370,
+              405,
+              416,
+              387
+            ],
+            "valid_edge_samples": 194,
+            "selected_edge_contrasts": [
+              [
+                0.06662869269832679,
+                0.26890013981644434
+              ],
+              [
+                0.013551855995088761,
+                0.29857507533104666
+              ],
+              [
+                0.005652255184156305,
+                0.30890204297226354
+              ],
+              [
+                0.014294362546986161,
+                0.2839142591554556
+              ],
+              [
+                0.010074530369150658,
+                0.28032782810152984
+              ],
+              [
+                0.012628962138221213,
+                0.3676153702979678
+              ],
+              [
+                0.2638540595029957,
+                0.404197482388154
+              ],
+              [
+                0.23635104390266576,
+                0.338656801919147
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "ambiguous": false,
+        "strong_label": null,
+        "T0_tracked": {
+          "state": null,
+          "status": "no_state",
+          "age": 4,
+          "pending_count": 0,
+          "pending_state": null,
+          "uses_current_observation": false,
+          "prediction_only": false,
+          "innovation": null,
+          "apply_to_mask": false,
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "current_measurement_valid": false,
+          "geometry": null,
+          "tip_metrics": null
+        },
+        "T1_current": {
+          "groups": {
+            "shaft": {
+              "value": null,
+              "status": "unavailable",
+              "age": 0,
+              "observed": false,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": null,
+              "status": "unavailable",
+              "age": 0,
+              "observed": false,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": null,
+          "front_is_prediction": false,
+          "selected_label": null,
+          "used_provenance": null,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_evidence": {
+          "groups": {
+            "shaft": {
+              "value": null,
+              "status": "unavailable",
+              "age": 4,
+              "observed": false,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": null,
+              "status": "unavailable",
+              "age": 4,
+              "observed": false,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": null,
+          "front_is_prediction": false,
+          "selected_label": null,
+          "used_provenance": null,
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": false,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": false,
+            "checks": {},
+            "skipped": [
+              "entry",
+              "angle",
+              "width0",
+              "length",
+              "width1",
+              "front"
+            ]
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": null,
+            "endpoint": null,
+            "shaft_extent": null
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "T1_history": {
+          "groups": {
+            "shaft": {
+              "value": null,
+              "status": "unavailable",
+              "age": 4,
+              "observed": false,
+              "predicted": false
+            },
+            "endpoint": {
+              "value": null,
+              "status": "unavailable",
+              "age": 4,
+              "observed": false,
+              "predicted": false
+            }
+          },
+          "visible_front_candidate": null,
+          "front_is_prediction": false,
+          "selected_label": null,
+          "used_provenance": null,
+          "orientation_resolved_by_history": false,
+          "independent_strong_used": false,
+          "strong_override_groups": [],
+          "weak_candidate_gates": [],
+          "selected_gate": {
+            "passed": false,
+            "checks": {},
+            "skipped": [
+              "entry",
+              "angle",
+              "width0",
+              "length",
+              "width1",
+              "front"
+            ]
+          },
+          "invalid_updates": [],
+          "prior": {
+            "shaft": null,
+            "endpoint": null,
+            "shaft_extent": null
+          },
+          "invalid_predictions": [],
+          "context_reset_reason": null,
+          "dt_seconds": 0.033242393509127055,
+          "apply_to_mask": false,
+          "tip_metrics": null
+        },
+        "tip_truth": null
+      }
+    ]
+  },
+  "policy": "fixed T0 regression frames, first history-use event, missing/uniform context; all frames retained in logs"
+}

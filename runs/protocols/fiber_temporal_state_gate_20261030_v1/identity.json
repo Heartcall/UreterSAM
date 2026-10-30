@@ -1,0 +1,33 @@
+{
+  "status": "protocol_only_not_executed",
+  "files": {
+    "configs/fiber_temporal_state_gate_20261030.json": "7c0928a0d6ffc5eacecd9c4720d7d9fd3aaf017e69644efeb06d02da4c19f0dc",
+    "docs/plans/fiber_temporal_state_gate_20261030.md": "1db11f7a6b8bd093693bf652532fd3794ecc3061c76e97e80a2a170d021409b7",
+    "configs/fiber_geometry_prior_20261028.json": "ff43a93c63b55d42ee7853852f571861ee043b02986b6dbfa2ae85dee1f454f4",
+    "tools/fiber_shape_prior.py": "9ba23d3a42c068512f3939e7cde69b97d596b80dcea78f6f0744081830ce3c95",
+    "tools/run_fiber_shape_control.py": "fe2aad6e691c837c31372f18aff02257509515249a445c49f0b69e0d43c59a23",
+    "tools/member_experts.py": "3de3f70835167f7b68c2ccc6b884d180397aa4ccc08ba73acad1a839bcc32fab",
+    "ureter_semis/video_metrics.py": "f857c980eab7e35710d8f7b81daafcdf8bac3bf7b9863ce4d927f3099ec5c5bb"
+  },
+  "weights": {
+    "A0": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+      "sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7"
+    },
+    "old190": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_resolution_20261028\\unet256\\last.pt",
+      "sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3"
+    }
+  },
+  "manifests": {
+    "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_development_supplement_20261029_v2\\manifest.json": "b1d08dc0d420e0df4d1eea08aa09660ef2dae883d3b2e2c66d3b246bd6115422",
+    "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\manifest.json": "7c9e930ba33eeecb4bfa88895513e2fe88823184d34aff32128008f278a57f6c"
+  },
+  "archive_sha256": "858bb78ada6a7c08c9059c1c3ab50710dd0dc7b49fee333cab1662cc215c5584",
+  "planned_processes": 8,
+  "planned_frames": 10776,
+  "actual_new_video_forwards": 0,
+  "training_updates": 0,
+  "training_pixels_read": 0,
+  "reserved_test_pixels_read": 0
+}

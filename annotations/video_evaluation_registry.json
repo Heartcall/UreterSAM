@@ -29,5 +29,21 @@
   "latest_feasibility_diagnostic": "configs/fiber_refinement_feasibility_20261030.json",
   "latest_feasibility_result": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_refinement_feasibility_20261030\\summary.json",
   "latest_feasibility_result_sha256": "4f4c8148152ec36cbadb9ae9550717daaa5f2df0ea3e3eefbeaae1cbe1550b39",
-  "latest_feasibility_is_segmentation_accuracy": false
+  "latest_feasibility_is_segmentation_accuracy": false,
+  "latest_plan_config": "configs/fiber_temporal_observation_search_20261030.json",
+  "latest_plan_document": "docs/plans/fiber_temporal_observation_search_20261030.md",
+  "latest_plan_identity": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\protocols\\fiber_temporal_observation_search_20261030_v1\\identity.json",
+  "latest_plan_executed": true,
+  "latest_state_control_config": "configs/fiber_temporal_observation_search_20261030.json",
+  "latest_state_control_result": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_temporal_observation_search_20261030\\summary.json",
+  "latest_state_control_result_sha256": "59de8d7149f014173baf495e3a23e3fe0da7d75f98d49eea89a31a3f009ab700",
+  "latest_state_control_changes_visible_masks": false,
+  "previous_state_control_before_T1": {
+    "latest_state_control_config": "configs/fiber_temporal_state_gate_20261030.json",
+    "latest_state_control_result": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_temporal_state_gate_20261030\\summary.json",
+    "latest_state_control_result_sha256": "ebadbb4af1572e5092d2e03827c274ef3f5cb9fdd007b4264838719c1f4e0e39",
+    "latest_state_control_changes_visible_masks": false
+  },
+  "latest_state_control_geometry_accuracy_validated": false,
+  "latest_state_control_report": "docs/progress/2026-10-30-fiber-temporal-observation-search-control.md"
 }

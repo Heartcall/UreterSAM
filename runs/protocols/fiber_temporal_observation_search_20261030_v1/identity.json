@@ -1,0 +1,39 @@
+{
+  "status": "protocol_only_not_implemented_not_executed",
+  "files": {
+    "configs/fiber_temporal_observation_search_20261030.json": "3bb944852e3f0b691ab3990c32aa5e2f2e7f00caeeb53ed03b9aac249302e3a4",
+    "docs/plans/fiber_temporal_observation_search_20261030.md": "48357638da5bb9474482e6450e70db7e86825ac087beaebb43bc1d5d527d9354",
+    "configs/fiber_temporal_state_gate_20261030.json": "7c0928a0d6ffc5eacecd9c4720d7d9fd3aaf017e69644efeb06d02da4c19f0dc",
+    "tools/fiber_shape_prior.py": "9ba23d3a42c068512f3939e7cde69b97d596b80dcea78f6f0744081830ce3c95",
+    "tools/fiber_temporal_state.py": "793b7ce18d5539136d1adbffba5c0630542dd36c0320eaac3ef05afb715f327b",
+    "tools/run_fiber_temporal_state_control.py": "6ccb08ba0799a8a2f9f7510172a8caec0b36b4c0d1bdd94b38db3981622febe9",
+    "tools/member_experts.py": "3de3f70835167f7b68c2ccc6b884d180397aa4ccc08ba73acad1a839bcc32fab",
+    "tools/run_two_network_experts.py": "974c232b8805515f1d42e1ac3a0f9e1d287bcb15000c23bfe7071584b03ad319"
+  },
+  "weights": {
+    "A0": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+      "sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7"
+    },
+    "old190": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_sup_kidney_resolution_20261028\\unet256\\last.pt",
+      "sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3"
+    }
+  },
+  "manifests": {
+    "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_development_supplement_20261029_v2\\manifest.json": "b1d08dc0d420e0df4d1eea08aa09660ef2dae883d3b2e2c66d3b246bd6115422",
+    "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\manifest.json": "7c9e930ba33eeecb4bfa88895513e2fe88823184d34aff32128008f278a57f6c"
+  },
+  "inherited_input_file_identities_from": "runs/a1_fiber_temporal_state_gate_20261030/preflight.json",
+  "inherited_input_file_identities_preflight_sha256": "0ad2440bf6b00f38b50bff21a5833ce5ff3acef7f732c92d391d27b0cc7a669f",
+  "archive_sha256": "219e48685424ab12c1fc897120d5ddf556e9f8f8e117b5dec573b4808b3ee7fe",
+  "planned_processes": 8,
+  "planned_frames": 10776,
+  "actual_new_video_forwards": 0,
+  "actual_new_static_forwards": 0,
+  "training_updates": 0,
+  "training_pixels_read": 0,
+  "reserved_test_pixels_read": 0,
+  "validation_pixels_decoded": 0,
+  "note": "Plan consistency checks only; not new unit tests or measured T1 performance"
+}

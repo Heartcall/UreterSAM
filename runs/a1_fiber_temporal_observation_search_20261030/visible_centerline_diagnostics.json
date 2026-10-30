@@ -1,0 +1,1434 @@
+{
+  "video_native": {
+    "method": "Zhang-Suen visible semantic skeleton, exact-pixel coverage; descriptive post-run metric, not anatomical axis or new adoption threshold",
+    "gt_centerline_recall": 0.9310747663551402,
+    "pred_centerline_precision": 0.9688365650969529,
+    "clDice": 0.9495803973067758,
+    "all_arms_same": true,
+    "records": [
+      {
+        "sample_id": "reviewed_video_1_000002",
+        "gt_skeleton_pixels": 113,
+        "pred_skeleton_pixels": 100,
+        "gt_skeleton_in_pred": 113,
+        "pred_skeleton_in_gt": 100
+      },
+      {
+        "sample_id": "reviewed_video_1_000018",
+        "gt_skeleton_pixels": 79,
+        "pred_skeleton_pixels": 78,
+        "gt_skeleton_in_pred": 79,
+        "pred_skeleton_in_gt": 78
+      },
+      {
+        "sample_id": "reviewed_video_1_000020",
+        "gt_skeleton_pixels": 124,
+        "pred_skeleton_pixels": 79,
+        "gt_skeleton_in_pred": 124,
+        "pred_skeleton_in_gt": 79
+      },
+      {
+        "sample_id": "reviewed_video_1_000021",
+        "gt_skeleton_pixels": 93,
+        "pred_skeleton_pixels": 78,
+        "gt_skeleton_in_pred": 93,
+        "pred_skeleton_in_gt": 78
+      },
+      {
+        "sample_id": "reviewed_video_1_000032",
+        "gt_skeleton_pixels": 108,
+        "pred_skeleton_pixels": 83,
+        "gt_skeleton_in_pred": 108,
+        "pred_skeleton_in_gt": 83
+      },
+      {
+        "sample_id": "reviewed_video_1_000034",
+        "gt_skeleton_pixels": 109,
+        "pred_skeleton_pixels": 86,
+        "gt_skeleton_in_pred": 109,
+        "pred_skeleton_in_gt": 86
+      },
+      {
+        "sample_id": "reviewed_video_1_000036",
+        "gt_skeleton_pixels": 109,
+        "pred_skeleton_pixels": 78,
+        "gt_skeleton_in_pred": 109,
+        "pred_skeleton_in_gt": 78
+      },
+      {
+        "sample_id": "reviewed_video_1_000041",
+        "gt_skeleton_pixels": 82,
+        "pred_skeleton_pixels": 78,
+        "gt_skeleton_in_pred": 82,
+        "pred_skeleton_in_gt": 78
+      },
+      {
+        "sample_id": "reviewed_video_1_000047",
+        "gt_skeleton_pixels": 102,
+        "pred_skeleton_pixels": 79,
+        "gt_skeleton_in_pred": 102,
+        "pred_skeleton_in_gt": 79
+      },
+      {
+        "sample_id": "reviewed_video_1_000053",
+        "gt_skeleton_pixels": 113,
+        "pred_skeleton_pixels": 79,
+        "gt_skeleton_in_pred": 113,
+        "pred_skeleton_in_gt": 79
+      },
+      {
+        "sample_id": "reviewed_video_1_000062",
+        "gt_skeleton_pixels": 110,
+        "pred_skeleton_pixels": 102,
+        "gt_skeleton_in_pred": 110,
+        "pred_skeleton_in_gt": 102
+      },
+      {
+        "sample_id": "reviewed_video_1_000065",
+        "gt_skeleton_pixels": 85,
+        "pred_skeleton_pixels": 82,
+        "gt_skeleton_in_pred": 85,
+        "pred_skeleton_in_gt": 82
+      },
+      {
+        "sample_id": "reviewed_video_1_000067",
+        "gt_skeleton_pixels": 80,
+        "pred_skeleton_pixels": 100,
+        "gt_skeleton_in_pred": 80,
+        "pred_skeleton_in_gt": 100
+      },
+      {
+        "sample_id": "reviewed_video_1_000071",
+        "gt_skeleton_pixels": 131,
+        "pred_skeleton_pixels": 102,
+        "gt_skeleton_in_pred": 131,
+        "pred_skeleton_in_gt": 102
+      },
+      {
+        "sample_id": "reviewed_video_1_000072",
+        "gt_skeleton_pixels": 104,
+        "pred_skeleton_pixels": 101,
+        "gt_skeleton_in_pred": 104,
+        "pred_skeleton_in_gt": 101
+      },
+      {
+        "sample_id": "reviewed_video_1_000075",
+        "gt_skeleton_pixels": 78,
+        "pred_skeleton_pixels": 103,
+        "gt_skeleton_in_pred": 78,
+        "pred_skeleton_in_gt": 103
+      },
+      {
+        "sample_id": "reviewed_video_1_000076",
+        "gt_skeleton_pixels": 127,
+        "pred_skeleton_pixels": 80,
+        "gt_skeleton_in_pred": 127,
+        "pred_skeleton_in_gt": 80
+      },
+      {
+        "sample_id": "reviewed_video_1_000077",
+        "gt_skeleton_pixels": 105,
+        "pred_skeleton_pixels": 108,
+        "gt_skeleton_in_pred": 105,
+        "pred_skeleton_in_gt": 108
+      },
+      {
+        "sample_id": "reviewed_video_1_000079",
+        "gt_skeleton_pixels": 113,
+        "pred_skeleton_pixels": 84,
+        "gt_skeleton_in_pred": 113,
+        "pred_skeleton_in_gt": 84
+      },
+      {
+        "sample_id": "reviewed_video_1_000096",
+        "gt_skeleton_pixels": 130,
+        "pred_skeleton_pixels": 100,
+        "gt_skeleton_in_pred": 130,
+        "pred_skeleton_in_gt": 100
+      },
+      {
+        "sample_id": "reviewed_video_1_000107",
+        "gt_skeleton_pixels": 79,
+        "pred_skeleton_pixels": 98,
+        "gt_skeleton_in_pred": 79,
+        "pred_skeleton_in_gt": 98
+      },
+      {
+        "sample_id": "reviewed_video_1_000112",
+        "gt_skeleton_pixels": 115,
+        "pred_skeleton_pixels": 85,
+        "gt_skeleton_in_pred": 115,
+        "pred_skeleton_in_gt": 85
+      },
+      {
+        "sample_id": "reviewed_video_1_000123",
+        "gt_skeleton_pixels": 81,
+        "pred_skeleton_pixels": 83,
+        "gt_skeleton_in_pred": 81,
+        "pred_skeleton_in_gt": 83
+      },
+      {
+        "sample_id": "reviewed_video_1_000142",
+        "gt_skeleton_pixels": 128,
+        "pred_skeleton_pixels": 109,
+        "gt_skeleton_in_pred": 128,
+        "pred_skeleton_in_gt": 109
+      },
+      {
+        "sample_id": "reviewed_video_1_000144",
+        "gt_skeleton_pixels": 78,
+        "pred_skeleton_pixels": 109,
+        "gt_skeleton_in_pred": 78,
+        "pred_skeleton_in_gt": 109
+      },
+      {
+        "sample_id": "reviewed_video_1_000146",
+        "gt_skeleton_pixels": 81,
+        "pred_skeleton_pixels": 88,
+        "gt_skeleton_in_pred": 81,
+        "pred_skeleton_in_gt": 88
+      },
+      {
+        "sample_id": "reviewed_video_1_000150",
+        "gt_skeleton_pixels": 103,
+        "pred_skeleton_pixels": 87,
+        "gt_skeleton_in_pred": 103,
+        "pred_skeleton_in_gt": 87
+      },
+      {
+        "sample_id": "reviewed_video_1_000152",
+        "gt_skeleton_pixels": 96,
+        "pred_skeleton_pixels": 83,
+        "gt_skeleton_in_pred": 96,
+        "pred_skeleton_in_gt": 83
+      },
+      {
+        "sample_id": "reviewed_video_1_000189",
+        "gt_skeleton_pixels": 87,
+        "pred_skeleton_pixels": 153,
+        "gt_skeleton_in_pred": 87,
+        "pred_skeleton_in_gt": 106
+      },
+      {
+        "sample_id": "reviewed_video_1_000204",
+        "gt_skeleton_pixels": 83,
+        "pred_skeleton_pixels": 93,
+        "gt_skeleton_in_pred": 83,
+        "pred_skeleton_in_gt": 93
+      },
+      {
+        "sample_id": "reviewed_video_1_000246",
+        "gt_skeleton_pixels": 91,
+        "pred_skeleton_pixels": 98,
+        "gt_skeleton_in_pred": 91,
+        "pred_skeleton_in_gt": 98
+      },
+      {
+        "sample_id": "reviewed_video_1_000292",
+        "gt_skeleton_pixels": 91,
+        "pred_skeleton_pixels": 75,
+        "gt_skeleton_in_pred": 91,
+        "pred_skeleton_in_gt": 75
+      },
+      {
+        "sample_id": "reviewed_video_1_000320",
+        "gt_skeleton_pixels": 105,
+        "pred_skeleton_pixels": 89,
+        "gt_skeleton_in_pred": 105,
+        "pred_skeleton_in_gt": 89
+      },
+      {
+        "sample_id": "reviewed_video_1_000329",
+        "gt_skeleton_pixels": 102,
+        "pred_skeleton_pixels": 90,
+        "gt_skeleton_in_pred": 102,
+        "pred_skeleton_in_gt": 90
+      },
+      {
+        "sample_id": "reviewed_video_1_000331",
+        "gt_skeleton_pixels": 93,
+        "pred_skeleton_pixels": 93,
+        "gt_skeleton_in_pred": 93,
+        "pred_skeleton_in_gt": 93
+      },
+      {
+        "sample_id": "reviewed_video_1_000337",
+        "gt_skeleton_pixels": 86,
+        "pred_skeleton_pixels": 93,
+        "gt_skeleton_in_pred": 86,
+        "pred_skeleton_in_gt": 93
+      },
+      {
+        "sample_id": "reviewed_video_1_000352",
+        "gt_skeleton_pixels": 77,
+        "pred_skeleton_pixels": 98,
+        "gt_skeleton_in_pred": 77,
+        "pred_skeleton_in_gt": 98
+      },
+      {
+        "sample_id": "reviewed_video_1_000380",
+        "gt_skeleton_pixels": 95,
+        "pred_skeleton_pixels": 86,
+        "gt_skeleton_in_pred": 95,
+        "pred_skeleton_in_gt": 86
+      },
+      {
+        "sample_id": "reviewed_video_1_000427",
+        "gt_skeleton_pixels": 141,
+        "pred_skeleton_pixels": 77,
+        "gt_skeleton_in_pred": 141,
+        "pred_skeleton_in_gt": 77
+      },
+      {
+        "sample_id": "reviewed_video_1_000524",
+        "gt_skeleton_pixels": 123,
+        "pred_skeleton_pixels": 82,
+        "gt_skeleton_in_pred": 123,
+        "pred_skeleton_in_gt": 82
+      },
+      {
+        "sample_id": "reviewed_video_1_000525",
+        "gt_skeleton_pixels": 122,
+        "pred_skeleton_pixels": 76,
+        "gt_skeleton_in_pred": 122,
+        "pred_skeleton_in_gt": 76
+      },
+      {
+        "sample_id": "reviewed_video_1_000623",
+        "gt_skeleton_pixels": 118,
+        "pred_skeleton_pixels": 70,
+        "gt_skeleton_in_pred": 118,
+        "pred_skeleton_in_gt": 70
+      },
+      {
+        "sample_id": "reviewed_video_1_000721",
+        "gt_skeleton_pixels": 100,
+        "pred_skeleton_pixels": 79,
+        "gt_skeleton_in_pred": 100,
+        "pred_skeleton_in_gt": 79
+      },
+      {
+        "sample_id": "reviewed_video_2_000000",
+        "gt_skeleton_pixels": 156,
+        "pred_skeleton_pixels": 138,
+        "gt_skeleton_in_pred": 153,
+        "pred_skeleton_in_gt": 138
+      },
+      {
+        "sample_id": "reviewed_video_2_000002",
+        "gt_skeleton_pixels": 111,
+        "pred_skeleton_pixels": 139,
+        "gt_skeleton_in_pred": 111,
+        "pred_skeleton_in_gt": 139
+      },
+      {
+        "sample_id": "reviewed_video_2_000047",
+        "gt_skeleton_pixels": 117,
+        "pred_skeleton_pixels": 111,
+        "gt_skeleton_in_pred": 117,
+        "pred_skeleton_in_gt": 111
+      },
+      {
+        "sample_id": "reviewed_video_2_000075",
+        "gt_skeleton_pixels": 141,
+        "pred_skeleton_pixels": 109,
+        "gt_skeleton_in_pred": 127,
+        "pred_skeleton_in_gt": 109
+      },
+      {
+        "sample_id": "reviewed_video_2_000149",
+        "gt_skeleton_pixels": 141,
+        "pred_skeleton_pixels": 116,
+        "gt_skeleton_in_pred": 141,
+        "pred_skeleton_in_gt": 116
+      },
+      {
+        "sample_id": "reviewed_video_2_000154",
+        "gt_skeleton_pixels": 114,
+        "pred_skeleton_pixels": 115,
+        "gt_skeleton_in_pred": 114,
+        "pred_skeleton_in_gt": 115
+      },
+      {
+        "sample_id": "reviewed_video_2_000191",
+        "gt_skeleton_pixels": 118,
+        "pred_skeleton_pixels": 112,
+        "gt_skeleton_in_pred": 118,
+        "pred_skeleton_in_gt": 112
+      },
+      {
+        "sample_id": "reviewed_video_2_000268",
+        "gt_skeleton_pixels": 163,
+        "pred_skeleton_pixels": 87,
+        "gt_skeleton_in_pred": 136,
+        "pred_skeleton_in_gt": 87
+      },
+      {
+        "sample_id": "reviewed_video_2_000340",
+        "gt_skeleton_pixels": 214,
+        "pred_skeleton_pixels": 233,
+        "gt_skeleton_in_pred": 209,
+        "pred_skeleton_in_gt": 233
+      },
+      {
+        "sample_id": "reviewed_video_2_000571",
+        "gt_skeleton_pixels": 212,
+        "pred_skeleton_pixels": 166,
+        "gt_skeleton_in_pred": 182,
+        "pred_skeleton_in_gt": 165
+      },
+      {
+        "sample_id": "reviewed_video_2_000649",
+        "gt_skeleton_pixels": 116,
+        "pred_skeleton_pixels": 85,
+        "gt_skeleton_in_pred": 93,
+        "pred_skeleton_in_gt": 85
+      },
+      {
+        "sample_id": "reviewed_video_2_000772",
+        "gt_skeleton_pixels": 136,
+        "pred_skeleton_pixels": 215,
+        "gt_skeleton_in_pred": 108,
+        "pred_skeleton_in_gt": 118
+      },
+      {
+        "sample_id": "reviewed_video_2_000884",
+        "gt_skeleton_pixels": 114,
+        "pred_skeleton_pixels": 111,
+        "gt_skeleton_in_pred": 113,
+        "pred_skeleton_in_gt": 111
+      },
+      {
+        "sample_id": "reviewed_video_2_000900",
+        "gt_skeleton_pixels": 119,
+        "pred_skeleton_pixels": 107,
+        "gt_skeleton_in_pred": 80,
+        "pred_skeleton_in_gt": 61
+      },
+      {
+        "sample_id": "reviewed_video_2_000942",
+        "gt_skeleton_pixels": 122,
+        "pred_skeleton_pixels": 116,
+        "gt_skeleton_in_pred": 122,
+        "pred_skeleton_in_gt": 116
+      },
+      {
+        "sample_id": "reviewed_video_2_000986",
+        "gt_skeleton_pixels": 224,
+        "pred_skeleton_pixels": 167,
+        "gt_skeleton_in_pred": 187,
+        "pred_skeleton_in_gt": 167
+      },
+      {
+        "sample_id": "reviewed_video_2_001000",
+        "gt_skeleton_pixels": 213,
+        "pred_skeleton_pixels": 175,
+        "gt_skeleton_in_pred": 189,
+        "pred_skeleton_in_gt": 175
+      },
+      {
+        "sample_id": "reviewed_video_2_001061",
+        "gt_skeleton_pixels": 176,
+        "pred_skeleton_pixels": 117,
+        "gt_skeleton_in_pred": 173,
+        "pred_skeleton_in_gt": 117
+      },
+      {
+        "sample_id": "reviewed_video_2_001135",
+        "gt_skeleton_pixels": 156,
+        "pred_skeleton_pixels": 100,
+        "gt_skeleton_in_pred": 120,
+        "pred_skeleton_in_gt": 100
+      },
+      {
+        "sample_id": "reviewed_video_2_001208",
+        "gt_skeleton_pixels": 222,
+        "pred_skeleton_pixels": 131,
+        "gt_skeleton_in_pred": 134,
+        "pred_skeleton_in_gt": 97
+      },
+      {
+        "sample_id": "reviewed_video_2_001223",
+        "gt_skeleton_pixels": 227,
+        "pred_skeleton_pixels": 155,
+        "gt_skeleton_in_pred": 175,
+        "pred_skeleton_in_gt": 155
+      },
+      {
+        "sample_id": "reviewed_video_2_001822",
+        "gt_skeleton_pixels": 125,
+        "pred_skeleton_pixels": 52,
+        "gt_skeleton_in_pred": 97,
+        "pred_skeleton_in_gt": 52
+      },
+      {
+        "sample_id": "reviewed_video_2_001846",
+        "gt_skeleton_pixels": 116,
+        "pred_skeleton_pixels": 43,
+        "gt_skeleton_in_pred": 73,
+        "pred_skeleton_in_gt": 43
+      },
+      {
+        "sample_id": "reviewed_video_2_001881",
+        "gt_skeleton_pixels": 115,
+        "pred_skeleton_pixels": 57,
+        "gt_skeleton_in_pred": 75,
+        "pred_skeleton_in_gt": 57
+      },
+      {
+        "sample_id": "reviewed_video_2_001897",
+        "gt_skeleton_pixels": 225,
+        "pred_skeleton_pixels": 207,
+        "gt_skeleton_in_pred": 218,
+        "pred_skeleton_in_gt": 207
+      },
+      {
+        "sample_id": "reviewed_video_2_001965",
+        "gt_skeleton_pixels": 143,
+        "pred_skeleton_pixels": 110,
+        "gt_skeleton_in_pred": 113,
+        "pred_skeleton_in_gt": 110
+      },
+      {
+        "sample_id": "reviewed_video_2_001971",
+        "gt_skeleton_pixels": 154,
+        "pred_skeleton_pixels": 72,
+        "gt_skeleton_in_pred": 122,
+        "pred_skeleton_in_gt": 72
+      }
+    ]
+  },
+  "image_native": {
+    "method": "Zhang-Suen visible semantic skeleton, exact-pixel coverage; descriptive post-run metric, not anatomical axis or new adoption threshold",
+    "gt_centerline_recall": 0.911934716082965,
+    "pred_centerline_precision": 0.7523487410747839,
+    "clDice": 0.8244904828401212,
+    "all_arms_same": true,
+    "records": [
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cccd1a7775145966c8bb5501",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2",
+        "gt_skeleton_pixels": 61,
+        "pred_skeleton_pixels": 39,
+        "gt_skeleton_in_pred": 61,
+        "pred_skeleton_in_gt": 39
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e",
+        "gt_skeleton_pixels": 26,
+        "pred_skeleton_pixels": 14,
+        "gt_skeleton_in_pred": 25,
+        "pred_skeleton_in_gt": 14
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+        "gt_skeleton_pixels": 22,
+        "pred_skeleton_pixels": 14,
+        "gt_skeleton_in_pred": 19,
+        "pred_skeleton_in_gt": 14
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cebd05046dd66dfc157c7c22",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cf2bc6993fd5bc9051797231",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cf397a212754fa856044a105",
+        "gt_skeleton_pixels": 66,
+        "pred_skeleton_pixels": 76,
+        "gt_skeleton_in_pred": 66,
+        "pred_skeleton_in_gt": 76
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8",
+        "gt_skeleton_pixels": 66,
+        "pred_skeleton_pixels": 35,
+        "gt_skeleton_in_pred": 57,
+        "pred_skeleton_in_gt": 32
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+        "gt_skeleton_pixels": 46,
+        "pred_skeleton_pixels": 31,
+        "gt_skeleton_in_pred": 43,
+        "pred_skeleton_in_gt": 31
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d380e64796be3f2bc0ea8b8d",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+        "gt_skeleton_pixels": 46,
+        "pred_skeleton_pixels": 6,
+        "gt_skeleton_in_pred": 42,
+        "pred_skeleton_in_gt": 6
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 21,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d476007d707213fa27659221",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 21,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+        "gt_skeleton_pixels": 64,
+        "pred_skeleton_pixels": 53,
+        "gt_skeleton_in_pred": 64,
+        "pred_skeleton_in_gt": 48
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d504f85f2fb66ec103d21dc4",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d5763e0bb069246f33640071",
+        "gt_skeleton_pixels": 57,
+        "pred_skeleton_pixels": 23,
+        "gt_skeleton_in_pred": 56,
+        "pred_skeleton_in_gt": 23
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 16,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d79781cd1c7cd071fc44de0c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 14,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9",
+        "gt_skeleton_pixels": 33,
+        "pred_skeleton_pixels": 32,
+        "gt_skeleton_in_pred": 33,
+        "pred_skeleton_in_gt": 32
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d8b6c834f397c1414e65a28a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__db41ac8a866e0a43cc6b4d14",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 3,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__db950909f5180cfe568caeeb",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__df847941994bf694ac228c8c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e0267bedab5c1d75d479a19a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e128d928f63c992a140d652d",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+        "gt_skeleton_pixels": 54,
+        "pred_skeleton_pixels": 36,
+        "gt_skeleton_in_pred": 52,
+        "pred_skeleton_in_gt": 36
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556",
+        "gt_skeleton_pixels": 50,
+        "pred_skeleton_pixels": 35,
+        "gt_skeleton_in_pred": 38,
+        "pred_skeleton_in_gt": 34
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+        "gt_skeleton_pixels": 74,
+        "pred_skeleton_pixels": 94,
+        "gt_skeleton_in_pred": 74,
+        "pred_skeleton_in_gt": 93
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e24d1cc256dfa5780aeb1769",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 4,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e2a826c4b9eb6402a96cd36c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 25,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e3053295fb4f899238f8966a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e355e8693d335cbf9d8cf855",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e3d9211a5dbed854971a5440",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+        "gt_skeleton_pixels": 21,
+        "pred_skeleton_pixels": 14,
+        "gt_skeleton_in_pred": 21,
+        "pred_skeleton_in_gt": 13
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e5f4938cea8a6f11f27fb86f",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e655d4ca3bce9c5dbf8a7031",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e6cbc0b8877053482b4cbaf9",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e7a5ff6c13b19390cae69340",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e81644f0445056839c381270",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 5,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2",
+        "gt_skeleton_pixels": 50,
+        "pred_skeleton_pixels": 31,
+        "gt_skeleton_in_pred": 50,
+        "pred_skeleton_in_gt": 31
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+        "gt_skeleton_pixels": 112,
+        "pred_skeleton_pixels": 96,
+        "gt_skeleton_in_pred": 109,
+        "pred_skeleton_in_gt": 96
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd",
+        "gt_skeleton_pixels": 43,
+        "pred_skeleton_pixels": 28,
+        "gt_skeleton_in_pred": 42,
+        "pred_skeleton_in_gt": 28
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb8e9610be90a060660bef16",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb9414350213456173b9216e",
+        "gt_skeleton_pixels": 69,
+        "pred_skeleton_pixels": 38,
+        "gt_skeleton_in_pred": 60,
+        "pred_skeleton_in_gt": 38
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb9c5b0d82fbd7802848f976",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 13,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+        "gt_skeleton_pixels": 29,
+        "pred_skeleton_pixels": 19,
+        "gt_skeleton_in_pred": 24,
+        "pred_skeleton_in_gt": 19
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ee46a5d978b3090ef07b252e",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__efa54a36a80d5c48f25f4c5b",
+        "gt_skeleton_pixels": 24,
+        "pred_skeleton_pixels": 82,
+        "gt_skeleton_in_pred": 24,
+        "pred_skeleton_in_gt": 49
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f30c29162d090fea5d6def64",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+        "gt_skeleton_pixels": 23,
+        "pred_skeleton_pixels": 28,
+        "gt_skeleton_in_pred": 23,
+        "pred_skeleton_in_gt": 1
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b76748433d12f4d9d7a362",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3e2e469a2139285aca27f9c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 21,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f527f236680465cfac1ee1e1",
+        "gt_skeleton_pixels": 82,
+        "pred_skeleton_pixels": 57,
+        "gt_skeleton_in_pred": 82,
+        "pred_skeleton_in_gt": 52
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f55bfa67b4643136910eed51",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f62020c170af2da2938be744",
+        "gt_skeleton_pixels": 48,
+        "pred_skeleton_pixels": 47,
+        "gt_skeleton_in_pred": 48,
+        "pred_skeleton_in_gt": 43
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f6d6396b0ba9dc078f202f5d",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+        "gt_skeleton_pixels": 43,
+        "pred_skeleton_pixels": 27,
+        "gt_skeleton_in_pred": 29,
+        "pred_skeleton_in_gt": 27
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f7a0ce0bac6c7a0bb0a5f9ec",
+        "gt_skeleton_pixels": 30,
+        "pred_skeleton_pixels": 45,
+        "gt_skeleton_in_pred": 27,
+        "pred_skeleton_in_gt": 21
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f88483917dce2d5dc69e03cc",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f95ce3dc9c950992589ef81a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fa8c7845974d43d219704de3",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+        "gt_skeleton_pixels": 32,
+        "pred_skeleton_pixels": 43,
+        "gt_skeleton_in_pred": 4,
+        "pred_skeleton_in_gt": 4
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fb75f7e4d2f47745183dddf4",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 14,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fc77bf8ca279f9875f5807c2",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fccb14b3644a4b7c55ac628a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 44,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e",
+        "gt_skeleton_pixels": 23,
+        "pred_skeleton_pixels": 19,
+        "gt_skeleton_in_pred": 23,
+        "pred_skeleton_in_gt": 19
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fe36ceb2449249673181a5a6",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 18,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ff39699780e8e83e6f08541a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cd97db274666dd9a90154901",
+        "gt_skeleton_pixels": 108,
+        "pred_skeleton_pixels": 97,
+        "gt_skeleton_in_pred": 108,
+        "pred_skeleton_in_gt": 97
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cec1352c534df462a5d62b9c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cf404f4f3a6de1d92bab3c86",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b",
+        "gt_skeleton_pixels": 68,
+        "pred_skeleton_pixels": 46,
+        "gt_skeleton_in_pred": 68,
+        "pred_skeleton_in_gt": 46
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d027b44c9ee6ce7c1bea8c8b",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d04ebe39fe149deead19c16b",
+        "gt_skeleton_pixels": 51,
+        "pred_skeleton_pixels": 68,
+        "gt_skeleton_in_pred": 51,
+        "pred_skeleton_in_gt": 68
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d083dcdc2394bcb46eb2e2aa",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 22,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d36281673ef735de816fede2",
+        "gt_skeleton_pixels": 64,
+        "pred_skeleton_pixels": 43,
+        "gt_skeleton_in_pred": 64,
+        "pred_skeleton_in_gt": 43
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d3d9c90afe5e6b2c0ded7174",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3",
+        "gt_skeleton_pixels": 68,
+        "pred_skeleton_pixels": 53,
+        "gt_skeleton_in_pred": 62,
+        "pred_skeleton_in_gt": 53
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374",
+        "gt_skeleton_pixels": 133,
+        "pred_skeleton_pixels": 47,
+        "gt_skeleton_in_pred": 133,
+        "pred_skeleton_in_gt": 47
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d5368f406eb516fa7f27dc73",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 4,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+        "gt_skeleton_pixels": 79,
+        "pred_skeleton_pixels": 46,
+        "gt_skeleton_in_pred": 72,
+        "pred_skeleton_in_gt": 46
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d5d611a128f6941532e16819",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d8d2493949c61074984753a0",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044",
+        "gt_skeleton_pixels": 74,
+        "pred_skeleton_pixels": 42,
+        "gt_skeleton_in_pred": 74,
+        "pred_skeleton_in_gt": 42
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9627d33174b903c775d1044",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 77,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9968ea323db4c528440cbb1",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a",
+        "gt_skeleton_pixels": 65,
+        "pred_skeleton_pixels": 31,
+        "gt_skeleton_in_pred": 65,
+        "pred_skeleton_in_gt": 31
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__da2dd2f086729d73aea03aed",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 21,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__da7e64c5e291613c411370df",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+        "gt_skeleton_pixels": 103,
+        "pred_skeleton_pixels": 99,
+        "gt_skeleton_in_pred": 103,
+        "pred_skeleton_in_gt": 99
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__def3fefc93f0d3f79b4e49a4",
+        "gt_skeleton_pixels": 49,
+        "pred_skeleton_pixels": 36,
+        "gt_skeleton_in_pred": 49,
+        "pred_skeleton_in_gt": 36
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+        "gt_skeleton_pixels": 101,
+        "pred_skeleton_pixels": 71,
+        "gt_skeleton_in_pred": 99,
+        "pred_skeleton_in_gt": 71
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+        "gt_skeleton_pixels": 29,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df9503c4c2237624a40883ea",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e05ea5d59365643133440230",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+        "gt_skeleton_pixels": 56,
+        "pred_skeleton_pixels": 63,
+        "gt_skeleton_in_pred": 56,
+        "pred_skeleton_in_gt": 63
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e152ad6f28bd0d5796d4b863",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e2149dfdbb9fe2ad8b09442b",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+        "gt_skeleton_pixels": 60,
+        "pred_skeleton_pixels": 17,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4fd74319c0ff1d67d66350a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e755cb48d88eff1a918421dc",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 11,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e7c03ad5034214e51303f46c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e80c71f5def8631f698af5e4",
+        "gt_skeleton_pixels": 80,
+        "pred_skeleton_pixels": 39,
+        "gt_skeleton_in_pred": 80,
+        "pred_skeleton_in_gt": 39
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e850aabd9169d00e5abf281c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e90fee97feeedc692c93a341",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 57,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e938455a11a8eb9671165411",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ea7e31de924cc3072975fcc1",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+        "gt_skeleton_pixels": 52,
+        "pred_skeleton_pixels": 18,
+        "gt_skeleton_in_pred": 42,
+        "pred_skeleton_in_gt": 18
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ebca1ec5de792875bb4fb300",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+        "gt_skeleton_pixels": 62,
+        "pred_skeleton_pixels": 97,
+        "gt_skeleton_in_pred": 51,
+        "pred_skeleton_in_gt": 43
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ed6451a4c509c7f494d27ffa",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ee9acf48105f94ed3bd8a6cd",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__efa5ed3a9775ddd7d978bf7f",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__efe332ad3a90e57696efbc31",
+        "gt_skeleton_pixels": 54,
+        "pred_skeleton_pixels": 35,
+        "gt_skeleton_in_pred": 54,
+        "pred_skeleton_in_gt": 35
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f0307b8a71d07dafb6ee2e3a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f0e67fadb14e6737cc037929",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f10ac95c407097f80554fecf",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded",
+        "gt_skeleton_pixels": 71,
+        "pred_skeleton_pixels": 56,
+        "gt_skeleton_in_pred": 71,
+        "pred_skeleton_in_gt": 55
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f18ef18f30ef93b3d7d55118",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f1c1d0100a3e53b144a2fd1a",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+        "gt_skeleton_pixels": 73,
+        "pred_skeleton_pixels": 27,
+        "gt_skeleton_in_pred": 40,
+        "pred_skeleton_in_gt": 27
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f405adc45e2f9ce5a820d803",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f680d909de418e7337206b7e",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+        "gt_skeleton_pixels": 72,
+        "pred_skeleton_pixels": 52,
+        "gt_skeleton_in_pred": 69,
+        "pred_skeleton_in_gt": 52
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2",
+        "gt_skeleton_pixels": 75,
+        "pred_skeleton_pixels": 72,
+        "gt_skeleton_in_pred": 75,
+        "pred_skeleton_in_gt": 72
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f7e916870021680f21ba0418",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f810c0920b76afb8b8ca487e",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f84199195ae1f243a42f87a0",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f9088581b6cb409c0975ef84",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 33,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__fbca32110bf977c60cfbe65c",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__fcf80e46c1f36f89029968ba",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ff13d61c042e3d942d15b551",
+        "gt_skeleton_pixels": 0,
+        "pred_skeleton_pixels": 0,
+        "gt_skeleton_in_pred": 0,
+        "pred_skeleton_in_gt": 0
+      }
+    ]
+  }
+}
