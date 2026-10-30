@@ -1,0 +1,73 @@
+{
+  "role": "largest failure counts, not success selection or metric subset",
+  "frames": {
+    "image_native": [
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+        "selection": "largest_outside_FN",
+        "native_shape": [
+          640,
+          640
+        ]
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+        "selection": "largest_total_FP",
+        "native_shape": [
+          640,
+          640
+        ]
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+        "selection": "largest_lost_TP",
+        "native_shape": [
+          640,
+          640
+        ]
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+        "selection": "largest_stone_blocked_fiber",
+        "native_shape": [
+          320,
+          320
+        ]
+      }
+    ],
+    "video_native": [
+      {
+        "sample_id": "reviewed_video_1_000002",
+        "selection": "largest_outside_FN",
+        "native_shape": [
+          400,
+          400
+        ]
+      },
+      {
+        "sample_id": "reviewed_video_2_000772",
+        "selection": "largest_total_FP",
+        "native_shape": [
+          400,
+          400
+        ]
+      },
+      {
+        "sample_id": "reviewed_video_2_001208",
+        "selection": "largest_lost_TP",
+        "native_shape": [
+          400,
+          400
+        ]
+      },
+      {
+        "sample_id": "reviewed_video_1_000524",
+        "selection": "largest_stone_blocked_fiber",
+        "native_shape": [
+          400,
+          400
+        ]
+      }
+    ]
+  }
+}

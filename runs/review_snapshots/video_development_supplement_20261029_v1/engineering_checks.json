@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "36_new_plus_original29_equals65_unique_frames",
+      "passed": true
+    },
+    {
+      "name": "new23_13_and_combined43_22_by_video",
+      "passed": true
+    },
+    {
+      "name": "snapshot_and_original_source_image_mask_hashes_match",
+      "passed": true
+    },
+    {
+      "name": "frozen_session_is_exact_atomic_capture",
+      "passed": true
+    },
+    {
+      "name": "live_session_was_not_changed_by_import",
+      "passed": true
+    },
+    {
+      "name": "sources_unchanged_after_evaluation",
+      "passed": true
+    },
+    {
+      "name": "original521_132_144_split_manifest_unchanged",
+      "passed": true
+    },
+    {
+      "name": "reference_manifest_is_validation_only_and_not_training",
+      "passed": true
+    },
+    {
+      "name": "only_approved_visible_pixels_added",
+      "passed": true
+    },
+    {
+      "name": "37_of120_sampled_frames_no_completed_design",
+      "passed": true
+    },
+    {
+      "name": "no_semantic_to_anatomical_tip_promotion",
+      "passed": true
+    },
+    {
+      "name": "11_schemes_complete_all2694_and_original29_exact",
+      "passed": true
+    },
+    {
+      "name": "classwise_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "old190_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "A0_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_causal_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "component_gate_3net_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "component_gate_1net_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "fixed_color_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "fixed_soft_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "fixed_causal_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "fixed_neural_confusion_conserved_across_cohorts_and_cases",
+      "passed": true
+    },
+    {
+      "name": "no_full_video_or_tip_accuracy_from_incomplete_reference",
+      "passed": true
+    },
+    {
+      "name": "active65_and_new36_registry_hashes_match",
+      "passed": true
+    }
+  ],
+  "count": 25,
+  "new_frames": 36,
+  "combined_frames": 65,
+  "all_prediction_identities_verified": 29634,
+  "live_session_changed": false,
+  "training_updates": 0,
+  "reserved_test_pixels_read": 0
+}

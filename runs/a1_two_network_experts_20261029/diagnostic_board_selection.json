@@ -1,0 +1,49 @@
+{
+  "role": "diagnostic extremes and latest reference; all70 metrics reported separately; never used for selection",
+  "frames": {
+    "video_1": [
+      {
+        "sample_id": "reviewed_video_1_000079",
+        "display_frame_one_based": 80,
+        "selection": "largest_lost_tp"
+      },
+      {
+        "sample_id": "reviewed_video_1_000189",
+        "display_frame_one_based": 190,
+        "selection": "largest_added_fp"
+      },
+      {
+        "sample_id": "reviewed_video_1_000018",
+        "display_frame_one_based": 19,
+        "selection": "largest_net_tp_gain"
+      },
+      {
+        "sample_id": "reviewed_video_1_000721",
+        "display_frame_one_based": 722,
+        "selection": "latest_approved_frame"
+      }
+    ],
+    "video_2": [
+      {
+        "sample_id": "reviewed_video_2_001208",
+        "display_frame_one_based": 1209,
+        "selection": "largest_lost_tp"
+      },
+      {
+        "sample_id": "reviewed_video_2_000772",
+        "display_frame_one_based": 773,
+        "selection": "largest_added_fp"
+      },
+      {
+        "sample_id": "reviewed_video_2_001223",
+        "display_frame_one_based": 1224,
+        "selection": "largest_net_tp_gain"
+      },
+      {
+        "sample_id": "reviewed_video_2_001971",
+        "display_frame_one_based": 1972,
+        "selection": "latest_approved_frame"
+      }
+    ]
+  }
+}

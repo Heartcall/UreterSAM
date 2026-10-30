@@ -46,3 +46,6 @@
 /runs/a1_sup_*/**/*.mp4
 /runs/a1_sup_*/**/*.zip
 /runs/**/*.mp4
+
+# NumPy archive files
+*.npz

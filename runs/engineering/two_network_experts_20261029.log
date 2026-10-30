@@ -1,0 +1,31 @@
+preflight {}
+static_arm {"scheme": "classwise3"}
+static_video {"scheme": "classwise3", "samples_completed": 30, "samples_expected": 70}
+static_video {"scheme": "classwise3", "samples_completed": 60, "samples_expected": 70}
+static_image {"scheme": "classwise3", "samples_completed": 30, "samples_expected": 132}
+static_image {"scheme": "classwise3", "samples_completed": 60, "samples_expected": 132}
+static_image {"scheme": "classwise3", "samples_completed": 90, "samples_expected": 132}
+static_image {"scheme": "classwise3", "samples_completed": 120, "samples_expected": 132}
+static_arm {"scheme": "member1_2net"}
+static_video {"scheme": "member1_2net", "samples_completed": 30, "samples_expected": 70}
+static_video {"scheme": "member1_2net", "samples_completed": 60, "samples_expected": 70}
+static_image {"scheme": "member1_2net", "samples_completed": 30, "samples_expected": 132}
+static_image {"scheme": "member1_2net", "samples_completed": 60, "samples_expected": 132}
+static_image {"scheme": "member1_2net", "samples_completed": 90, "samples_expected": 132}
+static_image {"scheme": "member1_2net", "samples_completed": 120, "samples_expected": 132}
+static_arm {"scheme": "member2_2net"}
+static_video {"scheme": "member2_2net", "samples_completed": 30, "samples_expected": 70}
+static_video {"scheme": "member2_2net", "samples_completed": 60, "samples_expected": 70}
+static_image {"scheme": "member2_2net", "samples_completed": 30, "samples_expected": 132}
+static_image {"scheme": "member2_2net", "samples_completed": 60, "samples_expected": 132}
+static_image {"scheme": "member2_2net", "samples_completed": 90, "samples_expected": 132}
+static_image {"scheme": "member2_2net", "samples_completed": 120, "samples_expected": 132}
+full_video_fresh_process {"scheme": "classwise3", "video_id": "video_1"}
+full_video_fresh_process {"scheme": "classwise3", "video_id": "video_2"}
+full_video_fresh_process {"scheme": "member1_2net", "video_id": "video_1"}
+full_video_fresh_process {"scheme": "member1_2net", "video_id": "video_2"}
+full_video_fresh_process {"scheme": "member2_2net", "video_id": "video_1"}
+full_video_fresh_process {"scheme": "member2_2net", "video_id": "video_2"}
+comparison_video_export {"video_id": "video_1"}
+comparison_video_export {"video_id": "video_2"}
+completed {"static_frames_per_arm": 202, "full_frames_all_schemes": 8082}

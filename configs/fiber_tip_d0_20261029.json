@@ -1,0 +1,16 @@
+{
+  "schema_version":1,
+  "status":"FROZEN_BEFORE_EXECUTION",
+  "experiment":"D0_FIBER_FOREGROUND_STAGE_AND_DISTAL_APPEARANCE_DIAGNOSIS",
+  "manifest":"datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+  "experts":"runs/a1_classwise_experts_20261028/predictor_manifest.json",
+  "output":"runs/a1_fiber_tip_d0_20261029",
+  "static_scope":"All29 reviewed video frames and132 image-dev samples. Reproduce unchanged classwise native output; cache FP32 old190/A0 ensemble/A0 member three-class probabilities and model-grid probabilities. Reference never enters inference",
+  "full_video_policy":"User requires EVERY actually implemented comparison scheme to run on both complete videos, even when static screening fails. No static failure exempts a scheme from full-video performance/failure testing. Absence of dense GT still forbids dense accuracy claims. D0 introduces no new segmentation scheme: test frozen classwise baseline on722+1972 sequential frames in a fresh process per video. Future A+/B/C/D need their own frozen all-video execution protocols",
+  "full_video_baseline":{"warmup_frames":12,"batch_size":1,"precision":"float32","future_frames":false,"video_resets":true,"required_networks":3,"scope":"Include all2694 frames in native pipeline P50/P95, peak allocation and full decode/render/export throughput. Pipeline timing excludes reference auditing and disk exports; full cycle includes them. Offline throughput is not live display/queue acceptance"},
+  "diagnostic_only":{"axis":"PCA of ALL reference fiber pixels, orient by median estimated-FOV distance at5/95 percentiles; no largest-component selection. Skip axial statistics if orientation ambiguous; this is a GT-conditioned measurement, never an inference input or anatomical tip truth","minimum_reference_pixels":16,"minimum_axis_eigenvalue_ratio":3.0,"minimum_end_distance_difference_fraction":0.01,"axial_boundaries":[0,0.25,0.5,0.85,1.0],"foreground_probability_bins":[0,0.1,0.5,0.8,1.0],"saturation_bins":[0,0.2,0.5,1.0],"value_bins":[0,0.2,0.8,0.98,1.0],"quantiles":[5,25,50,75,95],"tip_metrics_without_reviewed_tip_reference":null},
+  "pilot_reference_frames_zero_based":{"video_1":[2,72,96,329,525,721],"video_2":[0,149,986,1061,1822,1897]},
+  "pilot_policy":"12 pending sidecar requests,6 per case, include existing successes and failures. Never auto-populate tip/shaft labels, points or visibility from predictions. Original29 masks unchanged; dedicated tip metrics remain null until independently reviewed",
+  "stop":"Any baseline reproduction/identity failure stops this run; do not fix by selecting thresholds. D0 only diagnoses; no color/geometry model fitting, segmentation changes, training, default adoption, S3 or A+ execution",
+  "constraints":"No TRAIN pixel reads or source statistical fitting in D0; no144 reserved-test pixels; stone_new remains excluded; video1/2 validation only;521/132/144/29 and all labels/checkpoints unchanged"
+}

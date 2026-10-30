@@ -1,0 +1,70 @@
+{
+  "neural_relaxation_control": {
+    "checks": {
+      "video_combined70_fiber_dice": true,
+      "video_combined70_fiber_precision": false,
+      "video_combined70_fiber_recall": true,
+      "video_combined70_fiber_boundary_f": true,
+      "video_combined70_stone_identical_counts": true,
+      "video_original29_fiber_dice": true,
+      "video_original29_fiber_precision": false,
+      "video_original29_fiber_recall": true,
+      "video_original29_fiber_boundary_f": true,
+      "video_original29_stone_identical_counts": true,
+      "video_new41_fiber_dice": true,
+      "video_new41_fiber_precision": false,
+      "video_new41_fiber_recall": true,
+      "video_new41_fiber_boundary_f": true,
+      "video_new41_stone_identical_counts": true,
+      "image132_fiber_dice": false,
+      "image132_fiber_precision": false,
+      "image132_fiber_recall": true,
+      "image132_fiber_boundary_f": false,
+      "image132_stone_identical_counts": true,
+      "at_least_one_dice_improvement": true
+    },
+    "passed": false,
+    "rejected_checks": [
+      "video_combined70_fiber_precision",
+      "video_original29_fiber_precision",
+      "video_new41_fiber_precision",
+      "image132_fiber_dice",
+      "image132_fiber_precision",
+      "image132_fiber_boundary_f"
+    ]
+  },
+  "blue_aplus": {
+    "checks": {
+      "video_combined70_fiber_dice": true,
+      "video_combined70_fiber_precision": false,
+      "video_combined70_fiber_recall": true,
+      "video_combined70_fiber_boundary_f": true,
+      "video_combined70_stone_identical_counts": true,
+      "video_original29_fiber_dice": true,
+      "video_original29_fiber_precision": false,
+      "video_original29_fiber_recall": true,
+      "video_original29_fiber_boundary_f": true,
+      "video_original29_stone_identical_counts": true,
+      "video_new41_fiber_dice": true,
+      "video_new41_fiber_precision": false,
+      "video_new41_fiber_recall": true,
+      "video_new41_fiber_boundary_f": true,
+      "video_new41_stone_identical_counts": true,
+      "image132_fiber_dice": false,
+      "image132_fiber_precision": false,
+      "image132_fiber_recall": true,
+      "image132_fiber_boundary_f": false,
+      "image132_stone_identical_counts": true,
+      "at_least_one_dice_improvement": true
+    },
+    "passed": false,
+    "rejected_checks": [
+      "video_combined70_fiber_precision",
+      "video_original29_fiber_precision",
+      "video_new41_fiber_precision",
+      "image132_fiber_dice",
+      "image132_fiber_precision",
+      "image132_fiber_boundary_f"
+    ]
+  }
+}

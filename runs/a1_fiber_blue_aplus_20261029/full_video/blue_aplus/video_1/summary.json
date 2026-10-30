@@ -1,0 +1,69 @@
+{
+  "scheme": "blue_aplus",
+  "video_id": "video_1",
+  "pid": 14064,
+  "frames": 722,
+  "encoded_frames": 722,
+  "fps": 30.0,
+  "warmup_frames": 12,
+  "networks": 3,
+  "timings": {
+    "base_pipeline_ms": {
+      "mean": 30.155064681947355,
+      "p50": 30.487350013572723,
+      "p95": 39.1563550394494,
+      "max": 46.47380008827895
+    },
+    "refinement_ms": {
+      "mean": 12.839706233280795,
+      "p50": 12.74565001949668,
+      "p95": 15.59546001954004,
+      "max": 19.510699901729822
+    },
+    "pipeline_ms": {
+      "mean": 42.99477091522815,
+      "p50": 43.649550003465265,
+      "p95": 54.00115501252003,
+      "max": 63.104000058956444
+    },
+    "decode_ms": {
+      "mean": 0.2953749313857664,
+      "p50": 0.26890001026913524,
+      "p95": 0.3649099846370517,
+      "max": 15.778400003910065
+    },
+    "render_encode_ms": {
+      "mean": 2.20757922518178,
+      "p50": 2.1961500169709325,
+      "p95": 2.7375950070563704,
+      "max": 4.315500031225383
+    },
+    "audit_export_ms": {
+      "mean": 2.1259072014205467,
+      "p50": 1.6764000174589455,
+      "p95": 7.971394952619445,
+      "max": 19.538299995474517
+    },
+    "cycle_ms": {
+      "mean": 47.90975734136142,
+      "p50": 48.73699997551739,
+      "p95": 60.2638250857126,
+      "max": 69.84760006889701
+    }
+  },
+  "offline_fps_including_all_exports": 20.840717367360497,
+  "wall_seconds": 34.64372110005934,
+  "cuda_peak_allocated_mib": 319.81884765625,
+  "changed_frames": 722,
+  "protection_violations": 0,
+  "fallback_counts": {
+    "applied": 722
+  },
+  "raw_baseline_different_pixels": 0,
+  "approved_frame_static_matches": 43,
+  "tip_metrics": null,
+  "dense_accuracy": null,
+  "model_state_sha256": "aeb9337b45b7e1088e3cd8169c86b16dca5b115359a8557c18334e8b5793496c",
+  "realtime_p95_passed": false,
+  "replay_sha256": "bda6feba8346e29cbbfb932e43d3f7681aaef0dbf4ea075cbca445df9b02cc47"
+}

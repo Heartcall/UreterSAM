@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "version": "video_development65_20261029_v1",
+  "role": "active_video_test_is_repeated_development_validation_not_independent_final_test",
+  "user_authorization": "User selected and annotated frames, requested adding them to the test set on2026-10-29",
+  "active_video_test_manifest": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_development_supplement_20261029_v1\\manifest.json",
+  "active_video_test_manifest_sha256": "7d3e8e6bca4b6dc3b94a3c19465d33d028a44725c564d5a36b5263f59d16d4b3",
+  "active_video_test_frames": 65,
+  "additional_frames": 36,
+  "additional_manifest": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_development_supplement_20261029_v1\\new_frames_manifest.json",
+  "additional_manifest_sha256": "c704483614d64c17f61455b1ccff9adf6a3503b1e216ca0aca7a332e01a617b0",
+  "original29_regression_manifest": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\video_validation_manifest.json",
+  "original29_regression_manifest_sha256": "3723edb8cc24b889ffe919c150282eaf5ec287156dd922d664a68993d1b9aadc",
+  "original_image132_and_train521_manifest": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis_kidney_joint_20261028\\manifest.json",
+  "original_image132_and_train521_manifest_sha256": "7c9e930ba33eeecb4bfa88895513e2fe88823184d34aff32128008f278a57f6c",
+  "evaluation_result": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_development_supplement_20261029_v1\\comparison\\summary.json",
+  "evaluation_result_sha256": "2a7a1ef66dd1889956b9280088687bcd346ea9c9fc3f3e3f786d5b1ae47cc234",
+  "whole_video_probability_sample_completed": 37,
+  "whole_video_probability_sample_planned": 120,
+  "whole_video_estimate_available": false,
+  "tip_metrics_available": false,
+  "policy": "Use active65 for additional static development tests; report original29/new36/combined65 separately. Original29/132 adoption gates unchanged. Do not require complete120 to add approved frames, but no whole-video estimate from this partial selection. Videos and derivatives never enter training;144 reserved-test groups remain untouched."
+}

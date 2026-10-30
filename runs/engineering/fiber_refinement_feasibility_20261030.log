@@ -1,0 +1,16 @@
+preflight {}
+static_diagnosis {"scope": "video_native", "frames": 30}
+static_diagnosis {"scope": "video_native", "frames": 60}
+static_diagnosis {"scope": "image_native", "frames": 30}
+static_diagnosis {"scope": "image_native", "frames": 60}
+static_diagnosis {"scope": "image_native", "frames": 90}
+static_diagnosis {"scope": "image_native", "frames": 120}
+full_video_compute_proxy {"arm": "member1_raw", "video_id": "video_1"}
+full_video_compute_proxy {"arm": "member1_raw", "video_id": "video_2"}
+full_video_compute_proxy {"arm": "hard2", "video_id": "video_1"}
+full_video_compute_proxy {"arm": "hard2", "video_id": "video_2"}
+full_video_compute_proxy {"arm": "soft02_2", "video_id": "video_1"}
+full_video_compute_proxy {"arm": "soft02_2", "video_id": "video_2"}
+comparison_export {"video_id": "video_1"}
+comparison_export {"video_id": "video_2"}
+completed {"full_frames": 8082}

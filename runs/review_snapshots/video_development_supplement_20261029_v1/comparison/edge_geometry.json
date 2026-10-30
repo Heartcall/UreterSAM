@@ -1,0 +1,4248 @@
+{
+  "all_full_video_cached_outputs_reverified": 2694,
+  "changed_output_files": 0,
+  "original29": {
+    "frames": 29,
+    "metrics": {
+      "confusion_matrix": [
+        [
+          4350390,
+          5544,
+          1316
+        ],
+        [
+          25251,
+          66045,
+          0
+        ],
+        [
+          13922,
+          151,
+          164580
+        ]
+      ],
+      "valid_pixels": 4627199.0,
+      "stone": {
+        "tp": 66045.0,
+        "fp": 5695.0,
+        "fn": 25251.0,
+        "dice": 0.8101891606761696,
+        "iou": 0.6809394686104896,
+        "precision": 0.9206161137440758,
+        "recall": 0.7234161409043113
+      },
+      "fiber": {
+        "tp": 164580.0,
+        "fp": 1316.0,
+        "fn": 14073.0,
+        "dice": 0.9553358158055894,
+        "iou": 0.9144908289761015,
+        "precision": 0.992067319284371,
+        "recall": 0.9212271834226126
+      }
+    },
+    "unknown_pixels": 12801,
+    "boundaries": {
+      "1": {
+        "predicted_boundary": 6584,
+        "target_boundary": 9396,
+        "matched_predicted": 4664,
+        "matched_target": 4468,
+        "precision": 0.7083839611178615,
+        "recall": 0.47552149851000425,
+        "f_score": 0.5690518613151762
+      },
+      "2": {
+        "predicted_boundary": 8966,
+        "target_boundary": 9833,
+        "matched_predicted": 8487,
+        "matched_target": 8674,
+        "precision": 0.9465759536024984,
+        "recall": 0.8821315976812774,
+        "f_score": 0.913218253724459
+      }
+    },
+    "paired_with_classwise": {
+      "stone": {
+        "removed_correct_pixels": 0,
+        "recovered_correct_pixels": 0,
+        "removed_fp": 0,
+        "added_fp": 86
+      },
+      "fiber": {
+        "removed_correct_pixels": 4795,
+        "recovered_correct_pixels": 450,
+        "removed_fp": 849,
+        "added_fp": 292
+      }
+    }
+  },
+  "new_approved": {
+    "frames": 36,
+    "metrics": {
+      "confusion_matrix": [
+        [
+          5378046,
+          8868,
+          1243
+        ],
+        [
+          45052,
+          69675,
+          218
+        ],
+        [
+          22776,
+          7,
+          210501
+        ]
+      ],
+      "valid_pixels": 5736386.0,
+      "stone": {
+        "tp": 69675.0,
+        "fp": 8875.0,
+        "fn": 45270.0,
+        "dice": 0.7201736478978785,
+        "iou": 0.5627120012921983,
+        "precision": 0.8870146403564608,
+        "recall": 0.6061594675714472
+      },
+      "fiber": {
+        "tp": 210501.0,
+        "fp": 1461.0,
+        "fn": 22783.0,
+        "dice": 0.9455492020141675,
+        "iou": 0.8967219749089438,
+        "precision": 0.9931072550740228,
+        "recall": 0.9023379228751222
+      }
+    },
+    "unknown_pixels": 23614,
+    "boundaries": {
+      "1": {
+        "predicted_boundary": 8092,
+        "target_boundary": 12879,
+        "matched_predicted": 4550,
+        "matched_target": 4569,
+        "precision": 0.5622837370242214,
+        "recall": 0.3547635686000466,
+        "f_score": 0.4350436098314274
+      },
+      "2": {
+        "predicted_boundary": 11195,
+        "target_boundary": 12049,
+        "matched_predicted": 9823,
+        "matched_target": 9767,
+        "precision": 0.8774452880750335,
+        "recall": 0.8106066893518135,
+        "f_score": 0.842702747978238
+      }
+    },
+    "paired_with_classwise": {
+      "stone": {
+        "removed_correct_pixels": 0,
+        "recovered_correct_pixels": 0,
+        "removed_fp": 0,
+        "added_fp": 0
+      },
+      "fiber": {
+        "removed_correct_pixels": 4042,
+        "recovered_correct_pixels": 936,
+        "removed_fp": 6566,
+        "added_fp": 50
+      }
+    }
+  },
+  "combined_approved": {
+    "frames": 65,
+    "metrics": {
+      "confusion_matrix": [
+        [
+          9728436,
+          14412,
+          2559
+        ],
+        [
+          70303,
+          135720,
+          218
+        ],
+        [
+          36698,
+          158,
+          375081
+        ]
+      ],
+      "valid_pixels": 10363585.0,
+      "stone": {
+        "tp": 135720.0,
+        "fp": 14570.0,
+        "fn": 70521.0,
+        "dice": 0.7613363213857981,
+        "iou": 0.6146432922272894,
+        "precision": 0.90305409541553,
+        "recall": 0.6580650792034561
+      },
+      "fiber": {
+        "tp": 375081.0,
+        "fp": 2777.0,
+        "fn": 36856.0,
+        "dice": 0.9498186238201052,
+        "iou": 0.9044329345042608,
+        "precision": 0.992650678297138,
+        "recall": 0.9105300082294138
+      }
+    },
+    "unknown_pixels": 36415,
+    "boundaries": {
+      "1": {
+        "predicted_boundary": 14676,
+        "target_boundary": 22275,
+        "matched_predicted": 9214,
+        "matched_target": 9037,
+        "precision": 0.627827745979831,
+        "recall": 0.4057014590347924,
+        "f_score": 0.49289489127293423
+      },
+      "2": {
+        "predicted_boundary": 20161,
+        "target_boundary": 21882,
+        "matched_predicted": 18310,
+        "matched_target": 18441,
+        "precision": 0.9081890779227221,
+        "recall": 0.8427474636687688,
+        "f_score": 0.8742453238829262
+      }
+    },
+    "paired_with_classwise": {
+      "stone": {
+        "removed_correct_pixels": 0,
+        "recovered_correct_pixels": 0,
+        "removed_fp": 0,
+        "added_fp": 86
+      },
+      "fiber": {
+        "removed_correct_pixels": 8837,
+        "recovered_correct_pixels": 1386,
+        "removed_fp": 7415,
+        "added_fp": 342
+      }
+    }
+  },
+  "cases": {
+    "video_1": {
+      "combined_approved": {
+        "frames": 43,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              6542091,
+              5569,
+              1641
+            ],
+            [
+              19091,
+              64673,
+              218
+            ],
+            [
+              11794,
+              151,
+              234772
+            ]
+          ],
+          "valid_pixels": 6880000.0,
+          "stone": {
+            "tp": 64673.0,
+            "fp": 5720.0,
+            "fn": 19309.0,
+            "dice": 0.8378688259109311,
+            "iou": 0.7209761209337584,
+            "precision": 0.9187419203613996,
+            "recall": 0.7700816841704174
+          },
+          "fiber": {
+            "tp": 234772.0,
+            "fp": 1859.0,
+            "fn": 11945.0,
+            "dice": 0.9714408666219784,
+            "iou": 0.9444676879505665,
+            "precision": 0.9921438864730319,
+            "recall": 0.9515842037638266
+          }
+        },
+        "unknown_pixels": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6891,
+            "target_boundary": 8167,
+            "matched_predicted": 4148,
+            "matched_target": 4036,
+            "precision": 0.601944565375127,
+            "recall": 0.4941839108607812,
+            "f_score": 0.5427672501675831
+          },
+          "2": {
+            "predicted_boundary": 13041,
+            "target_boundary": 13423,
+            "matched_predicted": 12787,
+            "matched_target": 13005,
+            "precision": 0.9805229660302124,
+            "recall": 0.9688594203978246,
+            "f_score": 0.9746563005480988
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 86
+          },
+          "fiber": {
+            "removed_correct_pixels": 6811,
+            "recovered_correct_pixels": 399,
+            "removed_fp": 3534,
+            "added_fp": 221
+          }
+        }
+      },
+      "new_approved": {
+        "frames": 23,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              3503609,
+              2751,
+              828
+            ],
+            [
+              13711,
+              26889,
+              218
+            ],
+            [
+              6495,
+              0,
+              125499
+            ]
+          ],
+          "valid_pixels": 3680000.0,
+          "stone": {
+            "tp": 26889.0,
+            "fp": 2751.0,
+            "fn": 13929.0,
+            "dice": 0.7632632206420846,
+            "iou": 0.6171589891895614,
+            "precision": 0.9071862348178138,
+            "recall": 0.6587534911068647
+          },
+          "fiber": {
+            "tp": 125499.0,
+            "fp": 1046.0,
+            "fn": 6495.0,
+            "dice": 0.9708322535478207,
+            "iou": 0.943317799158148,
+            "precision": 0.9917341657118022,
+            "recall": 0.9507932178735397
+          }
+        },
+        "unknown_pixels": 0,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 3412,
+            "target_boundary": 4637,
+            "matched_predicted": 1627,
+            "matched_target": 1615,
+            "precision": 0.4768464243845252,
+            "recall": 0.3482855294371361,
+            "f_score": 0.4025506674605522
+          },
+          "2": {
+            "predicted_boundary": 6966,
+            "target_boundary": 7092,
+            "matched_predicted": 6751,
+            "matched_target": 6779,
+            "precision": 0.9691358024691358,
+            "recall": 0.9558657642413988,
+            "f_score": 0.9624550447133849
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          },
+          "fiber": {
+            "removed_correct_pixels": 2747,
+            "recovered_correct_pixels": 308,
+            "removed_fp": 2791,
+            "added_fp": 19
+          }
+        }
+      },
+      "stratified_whole_video_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 60,
+        "approved_and_predicted": 24,
+        "missing_ids": [
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:322",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null
+    },
+    "video_2": {
+      "combined_approved": {
+        "frames": 22,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              3186345,
+              8843,
+              918
+            ],
+            [
+              51212,
+              71047,
+              0
+            ],
+            [
+              24904,
+              7,
+              140309
+            ]
+          ],
+          "valid_pixels": 3483585.0,
+          "stone": {
+            "tp": 71047.0,
+            "fp": 8850.0,
+            "fn": 51212.0,
+            "dice": 0.7028928154494549,
+            "iou": 0.5418926236947883,
+            "precision": 0.8892323866978735,
+            "recall": 0.5811187724421106
+          },
+          "fiber": {
+            "tp": 140309.0,
+            "fp": 918.0,
+            "fn": 24911.0,
+            "dice": 0.9157146260201601,
+            "iou": 0.8445328582262938,
+            "precision": 0.9934998265204246,
+            "recall": 0.8492252753903886
+          }
+        },
+        "unknown_pixels": 36415,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 7785,
+            "target_boundary": 14108,
+            "matched_predicted": 5066,
+            "matched_target": 5001,
+            "precision": 0.6507385998715478,
+            "recall": 0.3544797278140062,
+            "f_score": 0.45895231992366065
+          },
+          "2": {
+            "predicted_boundary": 7120,
+            "target_boundary": 8459,
+            "matched_predicted": 5523,
+            "matched_target": 5436,
+            "precision": 0.7757022471910112,
+            "recall": 0.6426291523820783,
+            "f_score": 0.7029229949548822
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          },
+          "fiber": {
+            "removed_correct_pixels": 2026,
+            "recovered_correct_pixels": 987,
+            "removed_fp": 3881,
+            "added_fp": 121
+          }
+        }
+      },
+      "new_approved": {
+        "frames": 13,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              1874437,
+              6117,
+              415
+            ],
+            [
+              31341,
+              42786,
+              0
+            ],
+            [
+              16281,
+              7,
+              85002
+            ]
+          ],
+          "valid_pixels": 2056386.0,
+          "stone": {
+            "tp": 42786.0,
+            "fp": 6124.0,
+            "fn": 31341.0,
+            "dice": 0.6954981021969001,
+            "iou": 0.533152234863117,
+            "precision": 0.8747904314046208,
+            "recall": 0.5771985916062973
+          },
+          "fiber": {
+            "tp": 85002.0,
+            "fp": 415.0,
+            "fn": 16288.0,
+            "dice": 0.9105389728290851,
+            "iou": 0.8357701194631533,
+            "precision": 0.9951414823747029,
+            "recall": 0.8391943923388291
+          }
+        },
+        "unknown_pixels": 23614,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 4680,
+            "target_boundary": 8242,
+            "matched_predicted": 2923,
+            "matched_target": 2954,
+            "precision": 0.6245726495726496,
+            "recall": 0.35840815336083476,
+            "f_score": 0.4554553442040405
+          },
+          "2": {
+            "predicted_boundary": 4229,
+            "target_boundary": 4957,
+            "matched_predicted": 3072,
+            "matched_target": 2988,
+            "precision": 0.7264128635611256,
+            "recall": 0.6027839419003429,
+            "f_score": 0.6588490245317317
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          },
+          "fiber": {
+            "removed_correct_pixels": 1295,
+            "recovered_correct_pixels": 628,
+            "removed_fp": 3775,
+            "added_fp": 31
+          }
+        }
+      },
+      "stratified_whole_video_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 60,
+        "approved_and_predicted": 13,
+        "missing_ids": [
+          "semantic:video_2:38",
+          "semantic:video_2:159",
+          "semantic:video_2:206",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:851",
+          "semantic:video_2:898",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null
+    }
+  },
+  "stratified_pooled_estimate": {
+    "status": "awaiting_all_planned_sample_references",
+    "planned": 120,
+    "approved_and_predicted": 37,
+    "missing_ids": [
+      "semantic:video_1:206",
+      "semantic:video_1:207",
+      "semantic:video_1:213",
+      "semantic:video_1:248",
+      "semantic:video_1:256",
+      "semantic:video_1:277",
+      "semantic:video_1:322",
+      "semantic:video_1:385",
+      "semantic:video_1:398",
+      "semantic:video_1:408",
+      "semantic:video_1:415",
+      "semantic:video_1:428",
+      "semantic:video_1:434",
+      "semantic:video_1:442",
+      "semantic:video_1:444",
+      "semantic:video_1:454",
+      "semantic:video_1:484",
+      "semantic:video_1:499",
+      "semantic:video_1:509",
+      "semantic:video_1:540",
+      "semantic:video_1:541",
+      "semantic:video_1:563",
+      "semantic:video_1:564",
+      "semantic:video_1:567",
+      "semantic:video_1:575",
+      "semantic:video_1:588",
+      "semantic:video_1:607",
+      "semantic:video_1:625",
+      "semantic:video_1:626",
+      "semantic:video_1:657",
+      "semantic:video_1:661",
+      "semantic:video_1:668",
+      "semantic:video_1:687",
+      "semantic:video_1:697",
+      "semantic:video_1:706",
+      "semantic:video_1:719",
+      "semantic:video_2:38",
+      "semantic:video_2:159",
+      "semantic:video_2:206",
+      "semantic:video_2:279",
+      "semantic:video_2:282",
+      "semantic:video_2:361",
+      "semantic:video_2:474",
+      "semantic:video_2:485",
+      "semantic:video_2:494",
+      "semantic:video_2:520",
+      "semantic:video_2:541",
+      "semantic:video_2:651",
+      "semantic:video_2:689",
+      "semantic:video_2:690",
+      "semantic:video_2:701",
+      "semantic:video_2:713",
+      "semantic:video_2:851",
+      "semantic:video_2:898",
+      "semantic:video_2:1002",
+      "semantic:video_2:1038",
+      "semantic:video_2:1054",
+      "semantic:video_2:1079",
+      "semantic:video_2:1175",
+      "semantic:video_2:1208",
+      "semantic:video_2:1220",
+      "semantic:video_2:1223",
+      "semantic:video_2:1309",
+      "semantic:video_2:1316",
+      "semantic:video_2:1364",
+      "semantic:video_2:1406",
+      "semantic:video_2:1411",
+      "semantic:video_2:1438",
+      "semantic:video_2:1505",
+      "semantic:video_2:1530",
+      "semantic:video_2:1575",
+      "semantic:video_2:1607",
+      "semantic:video_2:1631",
+      "semantic:video_2:1650",
+      "semantic:video_2:1770",
+      "semantic:video_2:1783",
+      "semantic:video_2:1789",
+      "semantic:video_2:1804",
+      "semantic:video_2:1824",
+      "semantic:video_2:1846",
+      "semantic:video_2:1881",
+      "semantic:video_2:1884",
+      "semantic:video_2:1965"
+    ],
+    "metrics": null
+  },
+  "dense_exact_accuracy": null,
+  "tip_metrics": null,
+  "frames": [
+    {
+      "id": "semantic:video_1:2",
+      "video_id": "video_1",
+      "frame_index": 2,
+      "cohort": "original29",
+      "reference_sha256": "ea32413a512fd6415965d033cea7c3f563e418d8fd9c7d84bf0eddd8fde7229d",
+      "prediction_sha256": "ad0ddd2b1753ca19ade2b0874aaf0fa04efa995a5bbc7bfcfa4f792411c3f540",
+      "confusion_matrix": [
+        [
+          152812,
+          446,
+          65
+        ],
+        [
+          0,
+          971,
+          0
+        ],
+        [
+          220,
+          0,
+          5486
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 168,
+          "target_boundary": 138,
+          "matched_predicted": 86,
+          "matched_target": 70
+        },
+        "2": {
+          "predicted_boundary": 300,
+          "target_boundary": 313,
+          "matched_predicted": 294,
+          "matched_target": 298
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 145,
+          "recovered_correct_pixels": 19,
+          "removed_fp": 10,
+          "added_fp": 15
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:18",
+      "video_id": "video_1",
+      "frame_index": 18,
+      "cohort": "new_user_approved",
+      "reference_sha256": "509ae8107624c7e8779e92a65583fb856d3fcec76550f037375f903df546eec0",
+      "prediction_sha256": "ec104c5cf7cbcbd13cb2b869d3e6168a93d6f1bbfc94f020f105f420e835af06",
+      "confusion_matrix": [
+        [
+          152838,
+          416,
+          55
+        ],
+        [
+          22,
+          954,
+          0
+        ],
+        [
+          272,
+          0,
+          5443
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 164,
+          "target_boundary": 149,
+          "matched_predicted": 75,
+          "matched_target": 72
+        },
+        "2": {
+          "predicted_boundary": 300,
+          "target_boundary": 307,
+          "matched_predicted": 280,
+          "matched_target": 277
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 91,
+          "recovered_correct_pixels": 25,
+          "removed_fp": 69,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:20",
+      "video_id": "video_1",
+      "frame_index": 20,
+      "cohort": "new_user_approved",
+      "reference_sha256": "4fdfd434c4b41dc0fefb65d0336dd79be557d6e143afa1a0c686db0ab2201f1a",
+      "prediction_sha256": "987e2bd2dd40bbeaeb0eeb969a01a62341e2cc049158465791e6c07046459a44",
+      "confusion_matrix": [
+        [
+          152584,
+          492,
+          64
+        ],
+        [
+          3,
+          1016,
+          0
+        ],
+        [
+          444,
+          0,
+          5397
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 174,
+          "target_boundary": 152,
+          "matched_predicted": 72,
+          "matched_target": 69
+        },
+        "2": {
+          "predicted_boundary": 297,
+          "target_boundary": 308,
+          "matched_predicted": 259,
+          "matched_target": 257
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 111,
+          "recovered_correct_pixels": 22,
+          "removed_fp": 71,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:21",
+      "video_id": "video_1",
+      "frame_index": 21,
+      "cohort": "new_user_approved",
+      "reference_sha256": "43616537a918ec3e40b604a7fffc57dbf6386c7261c68784557094298495c3bd",
+      "prediction_sha256": "97a0857f57aafc9840b969bddf3c329c972aec8325e0f1c7277b1266b7092f92",
+      "confusion_matrix": [
+        [
+          152492,
+          613,
+          68
+        ],
+        [
+          4,
+          1058,
+          0
+        ],
+        [
+          315,
+          0,
+          5450
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 184,
+          "target_boundary": 158,
+          "matched_predicted": 52,
+          "matched_target": 50
+        },
+        "2": {
+          "predicted_boundary": 301,
+          "target_boundary": 309,
+          "matched_predicted": 290,
+          "matched_target": 291
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 65,
+          "recovered_correct_pixels": 24,
+          "removed_fp": 68,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:32",
+      "video_id": "video_1",
+      "frame_index": 32,
+      "cohort": "original29",
+      "reference_sha256": "7e95d761252aae5b35ea21736079b5742aa509ee265794e96bc6df41f1286c60",
+      "prediction_sha256": "db036391d1fd2cb69d205e34e1112f54cd3c746a94de4ef780e1182a92386afc",
+      "confusion_matrix": [
+        [
+          152731,
+          334,
+          77
+        ],
+        [
+          0,
+          1205,
+          0
+        ],
+        [
+          178,
+          0,
+          5475
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 176,
+          "target_boundary": 156,
+          "matched_predicted": 151,
+          "matched_target": 130
+        },
+        "2": {
+          "predicted_boundary": 304,
+          "target_boundary": 313,
+          "matched_predicted": 304,
+          "matched_target": 313
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 118,
+          "recovered_correct_pixels": 7,
+          "removed_fp": 10,
+          "added_fp": 18
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:34",
+      "video_id": "video_1",
+      "frame_index": 34,
+      "cohort": "original29",
+      "reference_sha256": "1fcd65a6a165fed9752c35b9a84896ad7c36a7dd4bb019fd4943ee0a6083feee",
+      "prediction_sha256": "78c958cdb62caff4e3a59c90ec88541f9023d562a801f1af0063ec82f01ed1e6",
+      "confusion_matrix": [
+        [
+          152796,
+          331,
+          52
+        ],
+        [
+          0,
+          1125,
+          0
+        ],
+        [
+          189,
+          0,
+          5507
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 172,
+          "target_boundary": 152,
+          "matched_predicted": 152,
+          "matched_target": 127
+        },
+        "2": {
+          "predicted_boundary": 304,
+          "target_boundary": 315,
+          "matched_predicted": 304,
+          "matched_target": 315
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 127,
+          "recovered_correct_pixels": 8,
+          "removed_fp": 20,
+          "added_fp": 11
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:36",
+      "video_id": "video_1",
+      "frame_index": 36,
+      "cohort": "original29",
+      "reference_sha256": "bc57b7e7e8e366e0e1f79383cdc4aa30d550adcd29f832228a137965a87ccf19",
+      "prediction_sha256": "468f900b4d3d3dda58f3c5d19756143ebb449a4a6564b31500ca7163604edb4d",
+      "confusion_matrix": [
+        [
+          153095,
+          124,
+          70
+        ],
+        [
+          13,
+          1046,
+          0
+        ],
+        [
+          167,
+          0,
+          5485
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 152,
+          "target_boundary": 148,
+          "matched_predicted": 152,
+          "matched_target": 148
+        },
+        "2": {
+          "predicted_boundary": 304,
+          "target_boundary": 313,
+          "matched_predicted": 304,
+          "matched_target": 313
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 104,
+          "recovered_correct_pixels": 8,
+          "removed_fp": 6,
+          "added_fp": 20
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:41",
+      "video_id": "video_1",
+      "frame_index": 41,
+      "cohort": "new_user_approved",
+      "reference_sha256": "632e4d2e12b0477cc3ec9d43f72b7008e3abf01268870e013b5fd739acfdbdc4",
+      "prediction_sha256": "5467ace21c253e413eee31b642ae9ebfe822a21f042528ed40fd1673b236e71d",
+      "confusion_matrix": [
+        [
+          152947,
+          1,
+          14
+        ],
+        [
+          485,
+          780,
+          0
+        ],
+        [
+          249,
+          0,
+          5524
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 125,
+          "target_boundary": 154,
+          "matched_predicted": 64,
+          "matched_target": 66
+        },
+        "2": {
+          "predicted_boundary": 303,
+          "target_boundary": 308,
+          "matched_predicted": 303,
+          "matched_target": 308
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 72,
+          "recovered_correct_pixels": 14,
+          "removed_fp": 88,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:47",
+      "video_id": "video_1",
+      "frame_index": 47,
+      "cohort": "new_user_approved",
+      "reference_sha256": "a427227ab2ad419972c25d5e4558f64202806947e24fe1eb39da3284ef0ce3f5",
+      "prediction_sha256": "792d2f1759000bd077a4ecac72324f3503239cca19bceca4f4a25185227dd152",
+      "confusion_matrix": [
+        [
+          152999,
+          0,
+          13
+        ],
+        [
+          929,
+          237,
+          0
+        ],
+        [
+          210,
+          0,
+          5612
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 67,
+          "target_boundary": 156,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 304,
+          "target_boundary": 310,
+          "matched_predicted": 304,
+          "matched_target": 310
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 72,
+          "recovered_correct_pixels": 14,
+          "removed_fp": 72,
+          "added_fp": 3
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:53",
+      "video_id": "video_1",
+      "frame_index": 53,
+      "cohort": "original29",
+      "reference_sha256": "620e5fd5bfab2f0d2223008724941a7ab40c15d05e39af5b4c910695e652d2b2",
+      "prediction_sha256": "88f50abd473a5b37df7684805b374550e37ff9dc1e4ab5cd5229e954a47461ee",
+      "confusion_matrix": [
+        [
+          152853,
+          515,
+          33
+        ],
+        [
+          0,
+          827,
+          0
+        ],
+        [
+          259,
+          0,
+          5513
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 160,
+          "target_boundary": 126,
+          "matched_predicted": 69,
+          "matched_target": 61
+        },
+        "2": {
+          "predicted_boundary": 302,
+          "target_boundary": 315,
+          "matched_predicted": 296,
+          "matched_target": 304
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 193,
+          "recovered_correct_pixels": 5,
+          "removed_fp": 29,
+          "added_fp": 6
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:62",
+      "video_id": "video_1",
+      "frame_index": 62,
+      "cohort": "original29",
+      "reference_sha256": "7ffea32712e30a2e2370f30e2c735eb590347087134a2ff38a0f823de5f1c97a",
+      "prediction_sha256": "104b979eebfdc1d9e5b906d7c131142d9c28fd042e3abb905c13091bf207855c",
+      "confusion_matrix": [
+        [
+          154150,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          337,
+          0,
+          5497
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 303,
+          "target_boundary": 319,
+          "matched_predicted": 299,
+          "matched_target": 308
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 270,
+          "recovered_correct_pixels": 2,
+          "removed_fp": 52,
+          "added_fp": 3
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:65",
+      "video_id": "video_1",
+      "frame_index": 65,
+      "cohort": "new_user_approved",
+      "reference_sha256": "19537f674bdf0ff64a279e13f4b52cfadbc6a340d2bf3a26951578f081e206fa",
+      "prediction_sha256": "bcee7239fa34990edf3bc7a3bcaa1c10ab4c75a6ab93312fbbac3e3ba614a86b",
+      "confusion_matrix": [
+        [
+          153884,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          556,
+          0,
+          5560
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 305,
+          "target_boundary": 312,
+          "matched_predicted": 295,
+          "matched_target": 298
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 213,
+          "recovered_correct_pixels": 5,
+          "removed_fp": 36,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:67",
+      "video_id": "video_1",
+      "frame_index": 67,
+      "cohort": "new_user_approved",
+      "reference_sha256": "84af5a0cdf6952901b531d7bc964a3366da4e41ff552a22c4745702537867709",
+      "prediction_sha256": "eaabbc84feb5a059ee1215017918ce2a737bdc2168252eec23adbf963c4e3a49",
+      "confusion_matrix": [
+        [
+          154070,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          428,
+          0,
+          5500
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 301,
+          "target_boundary": 311,
+          "matched_predicted": 291,
+          "matched_target": 293
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 207,
+          "recovered_correct_pixels": 3,
+          "removed_fp": 77,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:71",
+      "video_id": "video_1",
+      "frame_index": 71,
+      "cohort": "original29",
+      "reference_sha256": "5a22302626b6da6b95f91da5db9fb61a8376df5d58ebc7c994382c3450d47dd1",
+      "prediction_sha256": "585b3c1ca67a753861cd25e8baffde4b256d0d93fbbbba2745484ec0968d3520",
+      "confusion_matrix": [
+        [
+          154136,
+          0,
+          17
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          277,
+          0,
+          5570
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 305,
+          "target_boundary": 320,
+          "matched_predicted": 305,
+          "matched_target": 318
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 211,
+          "recovered_correct_pixels": 1,
+          "removed_fp": 42,
+          "added_fp": 2
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:72",
+      "video_id": "video_1",
+      "frame_index": 72,
+      "cohort": "original29",
+      "reference_sha256": "50d08f3f5cbdba79cd390eca6a036eb1e65d4ecd031a94feea4994b38d36137b",
+      "prediction_sha256": "59fb80db3cfa2c6e0731161245fc0b797d0cc4e1562c18acf97c29bbf9c03b00",
+      "confusion_matrix": [
+        [
+          154126,
+          0,
+          28
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          199,
+          0,
+          5647
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 309,
+          "target_boundary": 320,
+          "matched_predicted": 309,
+          "matched_target": 320
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 143,
+          "recovered_correct_pixels": 4,
+          "removed_fp": 42,
+          "added_fp": 5
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:75",
+      "video_id": "video_1",
+      "frame_index": 75,
+      "cohort": "new_user_approved",
+      "reference_sha256": "004c72242d722192397229a00566662a4b7f8a6c7232bf4aab74cb8ff42a025e",
+      "prediction_sha256": "572f5ea19dc942c45eff8335c47576d2ac8e2db62a514878e48e93e86f9731e7",
+      "confusion_matrix": [
+        [
+          154122,
+          0,
+          65
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          227,
+          0,
+          5586
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 309,
+          "target_boundary": 308,
+          "matched_predicted": 309,
+          "matched_target": 308
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 96,
+          "recovered_correct_pixels": 8,
+          "removed_fp": 73,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:76",
+      "video_id": "video_1",
+      "frame_index": 76,
+      "cohort": "original29",
+      "reference_sha256": "3a10fe5f7a6ee5800546a94fe52809e6579b113b1275ac932e964a773a85a883",
+      "prediction_sha256": "b44e6b4f39f5c27e02462391348b65e6db9bf5fa533f3ea29ec2849403e8eb42",
+      "confusion_matrix": [
+        [
+          154168,
+          0,
+          29
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          189,
+          0,
+          5614
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 309,
+          "target_boundary": 318,
+          "matched_predicted": 309,
+          "matched_target": 318
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 133,
+          "recovered_correct_pixels": 7,
+          "removed_fp": 34,
+          "added_fp": 6
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:77",
+      "video_id": "video_1",
+      "frame_index": 77,
+      "cohort": "original29",
+      "reference_sha256": "5e75b76dccdcd1a55ca9a7ccf41663e1d8461db072b61e6aab5fe0a15a14e503",
+      "prediction_sha256": "6f2f7a3ea408a65187375b58344e1fef1609e7996098a6bf5fc6fc5e9560ffc3",
+      "confusion_matrix": [
+        [
+          154144,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          310,
+          0,
+          5532
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 309,
+          "target_boundary": 320,
+          "matched_predicted": 309,
+          "matched_target": 319
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 228,
+          "recovered_correct_pixels": 2,
+          "removed_fp": 45,
+          "added_fp": 5
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:79",
+      "video_id": "video_1",
+      "frame_index": 79,
+      "cohort": "original29",
+      "reference_sha256": "63206b33323c707928151870c587d3af41f8749dbb247ca0c4cb93d1cc1431ee",
+      "prediction_sha256": "8e6beba928276020e58d75ed3ce2c07e9832fc014065f93ddb4b1b593c39c398",
+      "confusion_matrix": [
+        [
+          154144,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          263,
+          0,
+          5577
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 310,
+          "target_boundary": 320,
+          "matched_predicted": 310,
+          "matched_target": 318
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 196,
+          "recovered_correct_pixels": 4,
+          "removed_fp": 44,
+          "added_fp": 3
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:96",
+      "video_id": "video_1",
+      "frame_index": 96,
+      "cohort": "original29",
+      "reference_sha256": "f7539254c555ea02bd1d6f70523a8e15d53c1ab96810222b6db05defb37c89a2",
+      "prediction_sha256": "eec22bda64ed48eb7804a02e32990394b15ca2b15d3a4ae85731d85ca7bdf5b8",
+      "confusion_matrix": [
+        [
+          153730,
+          477,
+          25
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          344,
+          0,
+          5424
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 100,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 306,
+          "target_boundary": 323,
+          "matched_predicted": 301,
+          "matched_target": 308
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 260,
+          "recovered_correct_pixels": 2,
+          "removed_fp": 36,
+          "added_fp": 5
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:107",
+      "video_id": "video_1",
+      "frame_index": 107,
+      "cohort": "new_user_approved",
+      "reference_sha256": "816d488ccc9e1ee3b6478bd2ee6d09262e528a50d86cf28cc1378b8fcfc0a2c8",
+      "prediction_sha256": "c1187991e194b7d4a98b08d9decc8ec26bfbc19cb9f61a0a6e26ba897c75c680",
+      "confusion_matrix": [
+        [
+          153656,
+          489,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          368,
+          0,
+          5485
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 100,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 305,
+          "target_boundary": 310,
+          "matched_predicted": 305,
+          "matched_target": 310
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 198,
+          "recovered_correct_pixels": 5,
+          "removed_fp": 134,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:112",
+      "video_id": "video_1",
+      "frame_index": 112,
+      "cohort": "original29",
+      "reference_sha256": "9a6d5e94635b5dee532ba21b51809d71bfa60de1cda8fca98f91305d341b9a53",
+      "prediction_sha256": "82ba51ab81d341ba2be2ec8317de71736c9178a49027c0bcc2b8a324003305aa",
+      "confusion_matrix": [
+        [
+          152862,
+          0,
+          11
+        ],
+        [
+          944,
+          313,
+          0
+        ],
+        [
+          337,
+          0,
+          5533
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 82,
+          "target_boundary": 164,
+          "matched_predicted": 15,
+          "matched_target": 17
+        },
+        "2": {
+          "predicted_boundary": 308,
+          "target_boundary": 320,
+          "matched_predicted": 307,
+          "matched_target": 317
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 272,
+          "recovered_correct_pixels": 5,
+          "removed_fp": 44,
+          "added_fp": 3
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:123",
+      "video_id": "video_1",
+      "frame_index": 123,
+      "cohort": "new_user_approved",
+      "reference_sha256": "bb1e8496a70648f1171e622fa81bd6ed37c949b09584426bcc09cce6d7772524",
+      "prediction_sha256": "af757df56a38b7f88d1c0e93f11d6e3f4fb55bb2836b26b1c679b3ca3992d56f",
+      "confusion_matrix": [
+        [
+          153243,
+          0,
+          10
+        ],
+        [
+          801,
+          161,
+          0
+        ],
+        [
+          284,
+          0,
+          5501
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 54,
+          "target_boundary": 152,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 299,
+          "target_boundary": 309,
+          "matched_predicted": 290,
+          "matched_target": 292
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 157,
+          "recovered_correct_pixels": 5,
+          "removed_fp": 105,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:142",
+      "video_id": "video_1",
+      "frame_index": 142,
+      "cohort": "original29",
+      "reference_sha256": "7426e8eec1f2729df161c38c8d48d0e1aba1223b5812a3951e100df2ad8bd973",
+      "prediction_sha256": "01f3ddfd56b39e0f0bfe115746a46883f5c742140e014923f04b9c6c0d90e1ee",
+      "confusion_matrix": [
+        [
+          152407,
+          25,
+          26
+        ],
+        [
+          442,
+          1361,
+          0
+        ],
+        [
+          263,
+          0,
+          5476
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 170,
+          "target_boundary": 194,
+          "matched_predicted": 104,
+          "matched_target": 99
+        },
+        "2": {
+          "predicted_boundary": 302,
+          "target_boundary": 320,
+          "matched_predicted": 296,
+          "matched_target": 306
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 198,
+          "recovered_correct_pixels": 7,
+          "removed_fp": 42,
+          "added_fp": 2
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:144",
+      "video_id": "video_1",
+      "frame_index": 144,
+      "cohort": "new_user_approved",
+      "reference_sha256": "06fb0debeb4db9ac4e09d7738702c4f58d4e68e5936b91e150268ceec28f1d49",
+      "prediction_sha256": "441589b14355d6fd93294ef31cb95048203f94ced36c2b3012d837252199fc65",
+      "confusion_matrix": [
+        [
+          152022,
+          6,
+          34
+        ],
+        [
+          765,
+          1335,
+          0
+        ],
+        [
+          332,
+          0,
+          5506
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 164,
+          "target_boundary": 217,
+          "matched_predicted": 70,
+          "matched_target": 70
+        },
+        "2": {
+          "predicted_boundary": 305,
+          "target_boundary": 310,
+          "matched_predicted": 299,
+          "matched_target": 301
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 119,
+          "recovered_correct_pixels": 10,
+          "removed_fp": 96,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:146",
+      "video_id": "video_1",
+      "frame_index": 146,
+      "cohort": "new_user_approved",
+      "reference_sha256": "169c5bbf86a0a73da1f48ea5a661dd04638124bf199c2a92140f0d2b32c2585a",
+      "prediction_sha256": "b13973bb494e69bd0a859cc229cda589875e8f293d4cc493e7f5335c1703eaef",
+      "confusion_matrix": [
+        [
+          152020,
+          8,
+          52
+        ],
+        [
+          764,
+          1371,
+          0
+        ],
+        [
+          306,
+          0,
+          5479
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 174,
+          "target_boundary": 277,
+          "matched_predicted": 112,
+          "matched_target": 110
+        },
+        "2": {
+          "predicted_boundary": 307,
+          "target_boundary": 311,
+          "matched_predicted": 307,
+          "matched_target": 311
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 131,
+          "recovered_correct_pixels": 4,
+          "removed_fp": 75,
+          "added_fp": 3
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:150",
+      "video_id": "video_1",
+      "frame_index": 150,
+      "cohort": "new_user_approved",
+      "reference_sha256": "a9200ddee98e806db370a48f1993d25d7ec227acf36fae7b5c5c5b093fa5afc1",
+      "prediction_sha256": "c82130fe04db3af141a85dbe7d4ed41cf661757c04e7cbf8627ae7fba3152c02",
+      "confusion_matrix": [
+        [
+          151785,
+          53,
+          60
+        ],
+        [
+          529,
+          1585,
+          0
+        ],
+        [
+          500,
+          0,
+          5488
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 186,
+          "target_boundary": 260,
+          "matched_predicted": 133,
+          "matched_target": 127
+        },
+        "2": {
+          "predicted_boundary": 305,
+          "target_boundary": 316,
+          "matched_predicted": 240,
+          "matched_target": 239
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 129,
+          "recovered_correct_pixels": 11,
+          "removed_fp": 80,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:152",
+      "video_id": "video_1",
+      "frame_index": 152,
+      "cohort": "new_user_approved",
+      "reference_sha256": "0846e2273cf6d8f9af10008f7d7317b804b59bfb8dedec007d86c89d499ce138",
+      "prediction_sha256": "414cff93c4e0fe028d10606021975218d12b7d31c61c6b73b64a55d098038a06",
+      "confusion_matrix": [
+        [
+          151753,
+          58,
+          103
+        ],
+        [
+          749,
+          1625,
+          0
+        ],
+        [
+          292,
+          0,
+          5420
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 187,
+          "target_boundary": 284,
+          "matched_predicted": 101,
+          "matched_target": 90
+        },
+        "2": {
+          "predicted_boundary": 304,
+          "target_boundary": 312,
+          "matched_predicted": 304,
+          "matched_target": 309
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 139,
+          "recovered_correct_pixels": 4,
+          "removed_fp": 88,
+          "added_fp": 5
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:189",
+      "video_id": "video_1",
+      "frame_index": 189,
+      "cohort": "new_user_approved",
+      "reference_sha256": "b8ee200549e128a1bdc1624d53e5f0f9a6339afcc0714967cddbf3c5ad9eebb0",
+      "prediction_sha256": "8914d74865d5b990b5ace0368851bddab96737a6e30275ee9108d91194a2f557",
+      "confusion_matrix": [
+        [
+          153202,
+          0,
+          30
+        ],
+        [
+          1005,
+          0,
+          0
+        ],
+        [
+          170,
+          0,
+          5593
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 140,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 306,
+          "target_boundary": 311,
+          "matched_predicted": 306,
+          "matched_target": 311
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 94,
+          "recovered_correct_pixels": 3,
+          "removed_fp": 698,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:204",
+      "video_id": "video_1",
+      "frame_index": 204,
+      "cohort": "new_user_approved",
+      "reference_sha256": "20b7608aeb13ba345bb7c3c568eef42df6c1ccb5bf505cb6037899d9445ffc5e",
+      "prediction_sha256": "1dab84bb4deaa03b2dae74ed48bdf398cde925722cb2987043d8a556f98a04d0",
+      "confusion_matrix": [
+        [
+          151713,
+          29,
+          80
+        ],
+        [
+          806,
+          1691,
+          0
+        ],
+        [
+          257,
+          0,
+          5424
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 192,
+          "target_boundary": 319,
+          "matched_predicted": 128,
+          "matched_target": 125
+        },
+        "2": {
+          "predicted_boundary": 305,
+          "target_boundary": 311,
+          "matched_predicted": 303,
+          "matched_target": 305
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 150,
+          "recovered_correct_pixels": 9,
+          "removed_fp": 95,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:246",
+      "video_id": "video_1",
+      "frame_index": 246,
+      "cohort": "new_user_approved",
+      "reference_sha256": "9d37e998ec0920ede0bc3e4177bd74cef9acafd08cdac2c065c9155e67433307",
+      "prediction_sha256": "698956efe1c5725e950f5758bb38b2b9cdbd7ce607bcf59cd3cb0308094180ea",
+      "confusion_matrix": [
+        [
+          150501,
+          17,
+          36
+        ],
+        [
+          945,
+          2891,
+          0
+        ],
+        [
+          210,
+          0,
+          5400
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 246,
+          "target_boundary": 294,
+          "matched_predicted": 93,
+          "matched_target": 96
+        },
+        "2": {
+          "predicted_boundary": 302,
+          "target_boundary": 307,
+          "matched_predicted": 302,
+          "matched_target": 307
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 103,
+          "recovered_correct_pixels": 18,
+          "removed_fp": 91,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:292",
+      "video_id": "video_1",
+      "frame_index": 292,
+      "cohort": "new_user_approved",
+      "reference_sha256": "bb844d86a04276e69e374783583d23ec813259e56a28b2479aadbb645e25f3f2",
+      "prediction_sha256": "e76b223a9a34af09a27afba13a693987d863be9ff0baa3f5622fbaf870fb68f9",
+      "confusion_matrix": [
+        [
+          150807,
+          44,
+          71
+        ],
+        [
+          859,
+          2693,
+          0
+        ],
+        [
+          241,
+          0,
+          5285
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 248,
+          "target_boundary": 292,
+          "matched_predicted": 133,
+          "matched_target": 135
+        },
+        "2": {
+          "predicted_boundary": 300,
+          "target_boundary": 306,
+          "matched_predicted": 285,
+          "matched_target": 283
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 93,
+          "recovered_correct_pixels": 28,
+          "removed_fp": 90,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:320",
+      "video_id": "video_1",
+      "frame_index": 320,
+      "cohort": "new_user_approved",
+      "reference_sha256": "860607a3bfa228bb974d6099247053ccf15c41b7dc33384fe542ca5f56de3ade",
+      "prediction_sha256": "3f7309b9283331fe10ff996f05726f207d25bc2079184797ba9dcdd21e3e9988",
+      "confusion_matrix": [
+        [
+          151146,
+          129,
+          0
+        ],
+        [
+          391,
+          2791,
+          0
+        ],
+        [
+          284,
+          0,
+          5259
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 252,
+          "target_boundary": 279,
+          "matched_predicted": 191,
+          "matched_target": 198
+        },
+        "2": {
+          "predicted_boundary": 294,
+          "target_boundary": 301,
+          "matched_predicted": 282,
+          "matched_target": 282
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 160,
+          "recovered_correct_pixels": 19,
+          "removed_fp": 42,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:329",
+      "video_id": "video_1",
+      "frame_index": 329,
+      "cohort": "original29",
+      "reference_sha256": "1b893d501c587efcf4152416f3a49721a1e19bcee4a0d5d469255d5822bdeb5c",
+      "prediction_sha256": "7744360241c0bbe113eb145c9c55102cea222b17bb82245f2c69717329db1cac",
+      "confusion_matrix": [
+        [
+          151188,
+          91,
+          68
+        ],
+        [
+          191,
+          2966,
+          0
+        ],
+        [
+          243,
+          0,
+          5253
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 264,
+          "target_boundary": 264,
+          "matched_predicted": 264,
+          "matched_target": 263
+        },
+        "2": {
+          "predicted_boundary": 298,
+          "target_boundary": 310,
+          "matched_predicted": 293,
+          "matched_target": 297
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 181,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 35,
+          "added_fp": 23
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:331",
+      "video_id": "video_1",
+      "frame_index": 331,
+      "cohort": "new_user_approved",
+      "reference_sha256": "75347da30229d6c118356b7ba0df7570fb404b7e9aa33828aa45f5183066bd2e",
+      "prediction_sha256": "fa089b9ff84209f67a5b4a1ac253932acd42ccf898e7c7adf54c834d0a2c72e2",
+      "confusion_matrix": [
+        [
+          151119,
+          269,
+          2
+        ],
+        [
+          295,
+          2672,
+          0
+        ],
+        [
+          281,
+          0,
+          5362
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 266,
+          "target_boundary": 275,
+          "matched_predicted": 187,
+          "matched_target": 188
+        },
+        "2": {
+          "predicted_boundary": 298,
+          "target_boundary": 309,
+          "matched_predicted": 281,
+          "matched_target": 281
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 177,
+          "recovered_correct_pixels": 22,
+          "removed_fp": 53,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:337",
+      "video_id": "video_1",
+      "frame_index": 337,
+      "cohort": "new_user_approved",
+      "reference_sha256": "5f33ecd050f239c8f0047e3840e7eee3495bdafe74de5476872b3a391b583704",
+      "prediction_sha256": "772b5ca0a9730252ca7405f204656ebe19a35ae8db2d166353b5479ac579fb3a",
+      "confusion_matrix": [
+        [
+          151624,
+          127,
+          17
+        ],
+        [
+          592,
+          2096,
+          56
+        ],
+        [
+          63,
+          0,
+          5425
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 262,
+          "target_boundary": 293,
+          "matched_predicted": 154,
+          "matched_target": 153
+        },
+        "2": {
+          "predicted_boundary": 308,
+          "target_boundary": 301,
+          "matched_predicted": 308,
+          "matched_target": 301
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 29,
+          "recovered_correct_pixels": 20,
+          "removed_fp": 162,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:352",
+      "video_id": "video_1",
+      "frame_index": 352,
+      "cohort": "new_user_approved",
+      "reference_sha256": "6ca477a1e31464db2700b0a8720cb6f6c79c605818fa5e7cb0425804f7ca73d3",
+      "prediction_sha256": "f5a26ddce3f3d2c909aafe44874ca32ac118f6b7814a2ae010f5e4e6420405b3",
+      "confusion_matrix": [
+        [
+          151715,
+          0,
+          9
+        ],
+        [
+          1320,
+          1332,
+          99
+        ],
+        [
+          129,
+          0,
+          5396
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 244,
+          "target_boundary": 334,
+          "matched_predicted": 61,
+          "matched_target": 65
+        },
+        "2": {
+          "predicted_boundary": 304,
+          "target_boundary": 300,
+          "matched_predicted": 304,
+          "matched_target": 300
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 85,
+          "recovered_correct_pixels": 15,
+          "removed_fp": 121,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:380",
+      "video_id": "video_1",
+      "frame_index": 380,
+      "cohort": "new_user_approved",
+      "reference_sha256": "e2792fb61fba2f699ad8d8b32caa1fd4db31fd12db00b93704889441b155c9f7",
+      "prediction_sha256": "9318958270d53f4c28bcc2010bfbd2ba1328551a2e1270ec6cf0b47c545991ab",
+      "confusion_matrix": [
+        [
+          151367,
+          0,
+          41
+        ],
+        [
+          2447,
+          601,
+          63
+        ],
+        [
+          77,
+          0,
+          5404
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 123,
+          "target_boundary": 452,
+          "matched_predicted": 1,
+          "matched_target": 1
+        },
+        "2": {
+          "predicted_boundary": 304,
+          "target_boundary": 305,
+          "matched_predicted": 304,
+          "matched_target": 305
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 56,
+          "recovered_correct_pixels": 20,
+          "removed_fp": 307,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:427",
+      "video_id": "video_1",
+      "frame_index": 427,
+      "cohort": "original29",
+      "reference_sha256": "50ace0a8cbf3744cb0033bf22d227a5e77cd61a3c0d39afc2640c755291830d5",
+      "prediction_sha256": "fc9f9097aa9c9720a00b3e44ea0ce6267782c011d0b7d5771234654d7fefc93c",
+      "confusion_matrix": [
+        [
+          150938,
+          0,
+          62
+        ],
+        [
+          1275,
+          2147,
+          0
+        ],
+        [
+          330,
+          0,
+          5248
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 229,
+          "target_boundary": 302,
+          "matched_predicted": 10,
+          "matched_target": 7
+        },
+        "2": {
+          "predicted_boundary": 297,
+          "target_boundary": 314,
+          "matched_predicted": 292,
+          "matched_target": 300
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 255,
+          "recovered_correct_pixels": 1,
+          "removed_fp": 39,
+          "added_fp": 18
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:524",
+      "video_id": "video_1",
+      "frame_index": 524,
+      "cohort": "original29",
+      "reference_sha256": "fa478066cc4e2b16f7f7fe8fa530f74e8409f0d73e2f0243ba3b76381bbe4b7d",
+      "prediction_sha256": "548186de007da87b119e49c7b77de61d7853aa4ab73af02d4d32340c2f344e3b",
+      "confusion_matrix": [
+        [
+          147592,
+          95,
+          42
+        ],
+        [
+          449,
+          6186,
+          0
+        ],
+        [
+          280,
+          46,
+          5310
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 430,
+          "target_boundary": 444,
+          "matched_predicted": 398,
+          "matched_target": 392
+        },
+        "2": {
+          "predicted_boundary": 302,
+          "target_boundary": 314,
+          "matched_predicted": 302,
+          "matched_target": 314
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 21
+        },
+        "fiber": {
+          "removed_correct_pixels": 241,
+          "recovered_correct_pixels": 1,
+          "removed_fp": 52,
+          "added_fp": 10
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:525",
+      "video_id": "video_1",
+      "frame_index": 525,
+      "cohort": "original29",
+      "reference_sha256": "4916fb9fabbc043958844d81ccd378138abf10ae99abaf726d0ee13fc9a1cbf0",
+      "prediction_sha256": "7162c8195f9a52db4235d58d257835818b74152e3969d6d445d975812a495061",
+      "confusion_matrix": [
+        [
+          147571,
+          77,
+          39
+        ],
+        [
+          442,
+          6247,
+          0
+        ],
+        [
+          296,
+          43,
+          5285
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 430,
+          "target_boundary": 444,
+          "matched_predicted": 400,
+          "matched_target": 399
+        },
+        "2": {
+          "predicted_boundary": 300,
+          "target_boundary": 314,
+          "matched_predicted": 300,
+          "matched_target": 314
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 18
+        },
+        "fiber": {
+          "removed_correct_pixels": 246,
+          "recovered_correct_pixels": 6,
+          "removed_fp": 49,
+          "added_fp": 7
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:623",
+      "video_id": "video_1",
+      "frame_index": 623,
+      "cohort": "original29",
+      "reference_sha256": "f2ac99d81935f130116d467f3799d70e26907554e25731750986bc7ad1779730",
+      "prediction_sha256": "93b088a534dceb7a4b3d106c835ab4bf8d3daac4bb7e364c504b48267245c7aa",
+      "confusion_matrix": [
+        [
+          146177,
+          51,
+          67
+        ],
+        [
+          940,
+          7178,
+          0
+        ],
+        [
+          332,
+          0,
+          5255
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 437,
+          "target_boundary": 460,
+          "matched_predicted": 296,
+          "matched_target": 290
+        },
+        "2": {
+          "predicted_boundary": 297,
+          "target_boundary": 310,
+          "matched_predicted": 297,
+          "matched_target": 309
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 263,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 64,
+          "added_fp": 23
+        }
+      }
+    },
+    {
+      "id": "semantic:video_1:721",
+      "video_id": "video_1",
+      "frame_index": 721,
+      "cohort": "original29",
+      "reference_sha256": "ea403a2486835538833c7445d17c35bee8850a18e186e620ff6b6499be769077",
+      "prediction_sha256": "2c9803ab581a7de725c130ea4f0e3ae0e62d4868cfcdfdb6c7084af1baf618e9",
+      "confusion_matrix": [
+        [
+          146862,
+          252,
+          56
+        ],
+        [
+          684,
+          6212,
+          0
+        ],
+        [
+          286,
+          62,
+          5586
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 509,
+          "target_boundary": 538,
+          "matched_predicted": 424,
+          "matched_target": 418
+        },
+        "2": {
+          "predicted_boundary": 306,
+          "target_boundary": 320,
+          "matched_predicted": 305,
+          "matched_target": 317
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 47
+        },
+        "fiber": {
+          "removed_correct_pixels": 280,
+          "recovered_correct_pixels": 2,
+          "removed_fp": 48,
+          "added_fp": 17
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:0",
+      "video_id": "video_2",
+      "frame_index": 0,
+      "cohort": "original29",
+      "reference_sha256": "7e56b57c327d7abdd23cea5616ebc0f3128c433347dc1bd4f217066597e032d2",
+      "prediction_sha256": "55f911dd205e72722aeea2b701d1d4a86fe29d9451cfa3d233f28abba72f6f65",
+      "confusion_matrix": [
+        [
+          141010,
+          723,
+          87
+        ],
+        [
+          3601,
+          6269,
+          0
+        ],
+        [
+          127,
+          0,
+          5944
+        ]
+      ],
+      "unknown_pixels": 2239,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 760,
+          "target_boundary": 1199,
+          "matched_predicted": 463,
+          "matched_target": 422
+        },
+        "2": {
+          "predicted_boundary": 296,
+          "target_boundary": 289,
+          "matched_predicted": 285,
+          "matched_target": 289
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 22,
+          "recovered_correct_pixels": 53,
+          "removed_fp": 6,
+          "added_fp": 33
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:2",
+      "video_id": "video_2",
+      "frame_index": 2,
+      "cohort": "new_user_approved",
+      "reference_sha256": "ef7f2d2b47daf668d677addff1a23f9e4f0a4c23f9465e42cb5c78cf9e58c710",
+      "prediction_sha256": "22b9482ee04903cef7614c92f79eaa72959b9aeec26977f05c221c258c12647d",
+      "confusion_matrix": [
+        [
+          140076,
+          485,
+          45
+        ],
+        [
+          3372,
+          6465,
+          0
+        ],
+        [
+          503,
+          0,
+          5951
+        ]
+      ],
+      "unknown_pixels": 3103,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 738,
+          "target_boundary": 1171,
+          "matched_predicted": 423,
+          "matched_target": 443
+        },
+        "2": {
+          "predicted_boundary": 280,
+          "target_boundary": 289,
+          "matched_predicted": 233,
+          "matched_target": 232
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 22,
+          "recovered_correct_pixels": 69,
+          "removed_fp": 8,
+          "added_fp": 12
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:47",
+      "video_id": "video_2",
+      "frame_index": 47,
+      "cohort": "new_user_approved",
+      "reference_sha256": "c1d0d18afcb92425b984c7b51d213ebc51d534619fd92c9cf3c95f19bf667482",
+      "prediction_sha256": "b9aec5c3eafd50cb39b9e2264e32446784903e45982a9b5637c8b47e8aeec19a",
+      "confusion_matrix": [
+        [
+          142042,
+          361,
+          174
+        ],
+        [
+          3557,
+          4300,
+          0
+        ],
+        [
+          276,
+          0,
+          5892
+        ]
+      ],
+      "unknown_pixels": 3398,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 450,
+          "target_boundary": 1023,
+          "matched_predicted": 260,
+          "matched_target": 263
+        },
+        "2": {
+          "predicted_boundary": 299,
+          "target_boundary": 313,
+          "matched_predicted": 288,
+          "matched_target": 285
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 49,
+          "recovered_correct_pixels": 38,
+          "removed_fp": 206,
+          "added_fp": 7
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:75",
+      "video_id": "video_2",
+      "frame_index": 75,
+      "cohort": "original29",
+      "reference_sha256": "762da8b9bf22f2e35b046941ea3eebb94063f6d9f574f0cc8a73f594e37eeceb",
+      "prediction_sha256": "888fa8945e8db279c093c2211f2856390db523bfc6ed5c2972911d6525c4c953",
+      "confusion_matrix": [
+        [
+          142201,
+          639,
+          19
+        ],
+        [
+          3772,
+          5425,
+          0
+        ],
+        [
+          798,
+          0,
+          5552
+        ]
+      ],
+      "unknown_pixels": 1594,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 645,
+          "target_boundary": 1164,
+          "matched_predicted": 321,
+          "matched_target": 296
+        },
+        "2": {
+          "predicted_boundary": 306,
+          "target_boundary": 314,
+          "matched_predicted": 220,
+          "matched_target": 210
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 27,
+          "recovered_correct_pixels": 101,
+          "removed_fp": 9,
+          "added_fp": 6
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:149",
+      "video_id": "video_2",
+      "frame_index": 149,
+      "cohort": "original29",
+      "reference_sha256": "fe168727e8d90c60759b7578fa2b93293de61718d2fdb7964a4b57d1e34939ae",
+      "prediction_sha256": "f4c3765ec7675f1f7afa5026013d78c92c27864e47367ec3cd90ccaffb123855",
+      "confusion_matrix": [
+        [
+          135007,
+          266,
+          42
+        ],
+        [
+          5310,
+          7269,
+          0
+        ],
+        [
+          983,
+          0,
+          5291
+        ]
+      ],
+      "unknown_pixels": 5832,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 596,
+          "target_boundary": 1191,
+          "matched_predicted": 528,
+          "matched_target": 521
+        },
+        "2": {
+          "predicted_boundary": 293,
+          "target_boundary": 366,
+          "matched_predicted": 255,
+          "matched_target": 250
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 93,
+          "recovered_correct_pixels": 63,
+          "removed_fp": 1,
+          "added_fp": 14
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:154",
+      "video_id": "video_2",
+      "frame_index": 154,
+      "cohort": "new_user_approved",
+      "reference_sha256": "c640afac23f08bd130c71e5870277a19ec476136ed66224e137874737af93805",
+      "prediction_sha256": "c3cf8ccef8c8fb2195401519a8a4b66aac1d92c0032841b30e2bbbe4de0b4154",
+      "confusion_matrix": [
+        [
+          132494,
+          105,
+          17
+        ],
+        [
+          6436,
+          7577,
+          0
+        ],
+        [
+          1140,
+          0,
+          5329
+        ]
+      ],
+      "unknown_pixels": 6902,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 599,
+          "target_boundary": 1156,
+          "matched_predicted": 437,
+          "matched_target": 440
+        },
+        "2": {
+          "predicted_boundary": 299,
+          "target_boundary": 368,
+          "matched_predicted": 240,
+          "matched_target": 233
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 61,
+          "recovered_correct_pixels": 78,
+          "removed_fp": 11,
+          "added_fp": 6
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:191",
+      "video_id": "video_2",
+      "frame_index": 191,
+      "cohort": "new_user_approved",
+      "reference_sha256": "d7b11927e8380fb815c50654305a3558814bd15c7b442fd19548cccfe92b2c5e",
+      "prediction_sha256": "b9379d49ce52eef860cc4d82bdebca34c9259c5d60ce779741606af2c356effd",
+      "confusion_matrix": [
+        [
+          134765,
+          180,
+          10
+        ],
+        [
+          5422,
+          5863,
+          0
+        ],
+        [
+          363,
+          0,
+          5926
+        ]
+      ],
+      "unknown_pixels": 7471,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 508,
+          "target_boundary": 938,
+          "matched_predicted": 340,
+          "matched_target": 356
+        },
+        "2": {
+          "predicted_boundary": 313,
+          "target_boundary": 288,
+          "matched_predicted": 268,
+          "matched_target": 254
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 44,
+          "recovered_correct_pixels": 38,
+          "removed_fp": 37,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:268",
+      "video_id": "video_2",
+      "frame_index": 268,
+      "cohort": "new_user_approved",
+      "reference_sha256": "09ad712f490a108c6bff840b7d74088cdca7c49646ac36dca6573006fed653e8",
+      "prediction_sha256": "5500ee7d80e1083c4d0f2df22740ffaca75bfb119c0b3a58bc943e08f7b48bb9",
+      "confusion_matrix": [
+        [
+          148786,
+          467,
+          6
+        ],
+        [
+          2657,
+          1002,
+          0
+        ],
+        [
+          1112,
+          0,
+          5970
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 186,
+          "target_boundary": 656,
+          "matched_predicted": 107,
+          "matched_target": 112
+        },
+        "2": {
+          "predicted_boundary": 302,
+          "target_boundary": 395,
+          "matched_predicted": 269,
+          "matched_target": 268
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 161,
+          "recovered_correct_pixels": 17,
+          "removed_fp": 156,
+          "added_fp": 2
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:340",
+      "video_id": "video_2",
+      "frame_index": 340,
+      "cohort": "new_user_approved",
+      "reference_sha256": "c4d7ddba0135a669f4a0fc68f6b341ffd5e86961f6934d8341db7afa61aa9745",
+      "prediction_sha256": "e6a574f6bb762a78fa9da5fa62a9a8daf3b17a62bb3378926ccba2dab1139dbf",
+      "confusion_matrix": [
+        [
+          138699,
+          676,
+          74
+        ],
+        [
+          3215,
+          3133,
+          0
+        ],
+        [
+          649,
+          0,
+          10814
+        ]
+      ],
+      "unknown_pixels": 2740,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 497,
+          "target_boundary": 957,
+          "matched_predicted": 325,
+          "matched_target": 325
+        },
+        "2": {
+          "predicted_boundary": 425,
+          "target_boundary": 398,
+          "matched_predicted": 337,
+          "matched_target": 312
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 242,
+          "recovered_correct_pixels": 44,
+          "removed_fp": 13,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:571",
+      "video_id": "video_2",
+      "frame_index": 571,
+      "cohort": "new_user_approved",
+      "reference_sha256": "8cc36c859e22f7e8ac02161f805c6ebc759ac5e0e17878d2b07ab052290c61de",
+      "prediction_sha256": "a3cc4a01db2cf67c8761c2d99aa7c00043933100049e8c97c539696a04691b22",
+      "confusion_matrix": [
+        [
+          148838,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2905,
+          0,
+          8257
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 401,
+          "target_boundary": 515,
+          "matched_predicted": 167,
+          "matched_target": 165
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 223,
+          "recovered_correct_pixels": 134,
+          "removed_fp": 44,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:649",
+      "video_id": "video_2",
+      "frame_index": 649,
+      "cohort": "new_user_approved",
+      "reference_sha256": "2e88702c779e33546d32e7d4cf48a598e9bbc179491c2ba26adccd5a9abad957",
+      "prediction_sha256": "93bf7af114dc237f1718466018b526476db6ef7b6014a3321bb58616222cae52",
+      "confusion_matrix": [
+        [
+          144441,
+          1178,
+          2
+        ],
+        [
+          2445,
+          5294,
+          0
+        ],
+        [
+          1037,
+          0,
+          5603
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 482,
+          "target_boundary": 734,
+          "matched_predicted": 358,
+          "matched_target": 361
+        },
+        "2": {
+          "predicted_boundary": 292,
+          "target_boundary": 370,
+          "matched_predicted": 253,
+          "matched_target": 249
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 85,
+          "recovered_correct_pixels": 37,
+          "removed_fp": 32,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:772",
+      "video_id": "video_2",
+      "frame_index": 772,
+      "cohort": "new_user_approved",
+      "reference_sha256": "7d32fa65dc26abe928d6640aab99ee88bb8155e42e22edbb2d781d3c6916b759",
+      "prediction_sha256": "975914b4230363d2eb30b74052c4e812c70eebc91499c5173f5c599edf41087a",
+      "confusion_matrix": [
+        [
+          149675,
+          532,
+          34
+        ],
+        [
+          631,
+          2424,
+          0
+        ],
+        [
+          1364,
+          0,
+          5340
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 238,
+          "target_boundary": 312,
+          "matched_predicted": 159,
+          "matched_target": 147
+        },
+        "2": {
+          "predicted_boundary": 289,
+          "target_boundary": 369,
+          "matched_predicted": 229,
+          "matched_target": 221
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 135,
+          "recovered_correct_pixels": 42,
+          "removed_fp": 3184,
+          "added_fp": 2
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:884",
+      "video_id": "video_2",
+      "frame_index": 884,
+      "cohort": "new_user_approved",
+      "reference_sha256": "b12ba2aba0086f0a9c0e264822115a1e6c5d40bb8d646d2a2291f54cb1860611",
+      "prediction_sha256": "0c3e559cd294b410d2a8632cf7adca366a1f5632090015387912991f0fbb496c",
+      "confusion_matrix": [
+        [
+          144346,
+          1587,
+          50
+        ],
+        [
+          2561,
+          5084,
+          0
+        ],
+        [
+          924,
+          0,
+          5448
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 700,
+          "target_boundary": 834,
+          "matched_predicted": 372,
+          "matched_target": 372
+        },
+        "2": {
+          "predicted_boundary": 348,
+          "target_boundary": 362,
+          "matched_predicted": 220,
+          "matched_target": 211
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 29,
+          "recovered_correct_pixels": 70,
+          "removed_fp": 12,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:900",
+      "video_id": "video_2",
+      "frame_index": 900,
+      "cohort": "new_user_approved",
+      "reference_sha256": "9897b7957d251e4a3afb85e8ba8ea9e9d77d80ca50c8c0bc94109bd1e9cbf61b",
+      "prediction_sha256": "afe1e94a54aade6df06083b8aa3561d91ada190b747e8bec17de48ea3d511256",
+      "confusion_matrix": [
+        [
+          153080,
+          0,
+          3
+        ],
+        [
+          352,
+          335,
+          0
+        ],
+        [
+          1072,
+          7,
+          5151
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 80,
+          "target_boundary": 150,
+          "matched_predicted": 51,
+          "matched_target": 54
+        },
+        "2": {
+          "predicted_boundary": 280,
+          "target_boundary": 366,
+          "matched_predicted": 244,
+          "matched_target": 240
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 101,
+          "recovered_correct_pixels": 40,
+          "removed_fp": 21,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:942",
+      "video_id": "video_2",
+      "frame_index": 942,
+      "cohort": "new_user_approved",
+      "reference_sha256": "adea9927fa62c7d6228c6449f3437aaf75a6ab6e6f0bf3fcb1b73fa00f5555cc",
+      "prediction_sha256": "f324a3505cc71bff2e1f768565cb89fe1cde2ce26cfb524c147aa2b1784ada7d",
+      "confusion_matrix": [
+        [
+          149486,
+          546,
+          0
+        ],
+        [
+          693,
+          1309,
+          0
+        ],
+        [
+          1675,
+          0,
+          6291
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 202,
+          "target_boundary": 311,
+          "matched_predicted": 91,
+          "matched_target": 81
+        },
+        "2": {
+          "predicted_boundary": 317,
+          "target_boundary": 397,
+          "matched_predicted": 251,
+          "matched_target": 245
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 143,
+          "recovered_correct_pixels": 21,
+          "removed_fp": 51,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:986",
+      "video_id": "video_2",
+      "frame_index": 986,
+      "cohort": "original29",
+      "reference_sha256": "377e057c5dc5525ba98417923f92eb886c91f9157440c5211009b2a8dbfcb8d5",
+      "prediction_sha256": "8e28581e9899d058e7bb86bd8c658b854c1b5c137229bbe993eb0ca50585fbec",
+      "confusion_matrix": [
+        [
+          149260,
+          0,
+          106
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1882,
+          0,
+          8752
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 399,
+          "target_boundary": 545,
+          "matched_predicted": 278,
+          "matched_target": 282
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:1000",
+      "video_id": "video_2",
+      "frame_index": 1000,
+      "cohort": "new_user_approved",
+      "reference_sha256": "adcc39e5a0a23ad02031a09c3baaae144488b7fc126299fe65906aeaff7482d6",
+      "prediction_sha256": "87b5d7e311bf4a79a5ecc99abf0bf7962fbdef42f83c553afbf10e03b49a75b5",
+      "confusion_matrix": [
+        [
+          147709,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3261,
+          0,
+          9030
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 384,
+          "target_boundary": 527,
+          "matched_predicted": 73,
+          "matched_target": 73
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:1061",
+      "video_id": "video_2",
+      "frame_index": 1061,
+      "cohort": "original29",
+      "reference_sha256": "bd59694cb499141f811d1d8e688200ade15e5f32cd0592042f9891002e485ff3",
+      "prediction_sha256": "bb7bbd4ab22007c97ea86d5840a08d411e1bf36c4f1db6dbf5cb7a2879a4f2a7",
+      "confusion_matrix": [
+        [
+          152011,
+          0,
+          47
+        ],
+        [
+          963,
+          291,
+          0
+        ],
+        [
+          645,
+          0,
+          6043
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 74,
+          "target_boundary": 286,
+          "matched_predicted": 46,
+          "matched_target": 45
+        },
+        "2": {
+          "predicted_boundary": 320,
+          "target_boundary": 379,
+          "matched_predicted": 301,
+          "matched_target": 303
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 183,
+          "recovered_correct_pixels": 18,
+          "removed_fp": 14,
+          "added_fp": 12
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:1135",
+      "video_id": "video_2",
+      "frame_index": 1135,
+      "cohort": "original29",
+      "reference_sha256": "b6f7e5c5e059cabbd0b480a59aaa8eb730edf921b4d941a437265585cd540e3a",
+      "prediction_sha256": "88811adde26d4503d53cdf693af288684adf5a36f743441ab442cb70154ca0d8",
+      "confusion_matrix": [
+        [
+          143381,
+          672,
+          19
+        ],
+        [
+          3299,
+          3273,
+          0
+        ],
+        [
+          1245,
+          0,
+          4975
+        ]
+      ],
+      "unknown_pixels": 3136,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 432,
+          "target_boundary": 1002,
+          "matched_predicted": 333,
+          "matched_target": 332
+        },
+        "2": {
+          "predicted_boundary": 251,
+          "target_boundary": 360,
+          "matched_predicted": 208,
+          "matched_target": 209
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 135,
+          "recovered_correct_pixels": 56,
+          "removed_fp": 16,
+          "added_fp": 1
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:1822",
+      "video_id": "video_2",
+      "frame_index": 1822,
+      "cohort": "original29",
+      "reference_sha256": "e86b64f61e9dab306916ac69d0d3aaafeafae0fd5e7c52a060a82cad5735ef80",
+      "prediction_sha256": "e83ff782fd73d3a925d90e68adc7773e25c4f55c90625858b7cb86a0fece6a14",
+      "confusion_matrix": [
+        [
+          154290,
+          0,
+          58
+        ],
+        [
+          625,
+          0,
+          0
+        ],
+        [
+          1332,
+          0,
+          3695
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 112,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 232,
+          "target_boundary": 331,
+          "matched_predicted": 198,
+          "matched_target": 199
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 134,
+          "recovered_correct_pixels": 38,
+          "removed_fp": 37,
+          "added_fp": 20
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:1897",
+      "video_id": "video_2",
+      "frame_index": 1897,
+      "cohort": "original29",
+      "reference_sha256": "fb07c4181dc42521994b40e74fde532aacda2220613b774ca549a69172ff8048",
+      "prediction_sha256": "23c2e0405c2510201eef98387ea9a3400f93e41155bc88b52e5be06be154d1be",
+      "confusion_matrix": [
+        [
+          149781,
+          0,
+          106
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          425,
+          0,
+          9688
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 0,
+          "target_boundary": 0,
+          "matched_predicted": 0,
+          "matched_target": 0
+        },
+        "2": {
+          "predicted_boundary": 505,
+          "target_boundary": 531,
+          "matched_predicted": 458,
+          "matched_target": 461
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        }
+      }
+    },
+    {
+      "id": "semantic:video_2:1971",
+      "video_id": "video_2",
+      "frame_index": 1971,
+      "cohort": "original29",
+      "reference_sha256": "d67648356bc53edc3529953ef5b3091c4264526aeea5e569607cddb2c00ee50c",
+      "prediction_sha256": "187729b582dadcf31090706ad68c3d4e6b17a8484ae154db3a22a22101b55945",
+      "confusion_matrix": [
+        [
+          144967,
+          426,
+          19
+        ],
+        [
+          2301,
+          5734,
+          0
+        ],
+        [
+          1186,
+          0,
+          5367
+        ]
+      ],
+      "unknown_pixels": 0,
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 598,
+          "target_boundary": 912,
+          "matched_predicted": 452,
+          "matched_target": 431
+        },
+        "2": {
+          "predicted_boundary": 289,
+          "target_boundary": 387,
+          "matched_predicted": 248,
+          "matched_target": 245
+        }
+      },
+      "paired": {
+        "stone": {
+          "removed_correct_pixels": 0,
+          "recovered_correct_pixels": 0,
+          "removed_fp": 0,
+          "added_fp": 0
+        },
+        "fiber": {
+          "removed_correct_pixels": 137,
+          "recovered_correct_pixels": 30,
+          "removed_fp": 23,
+          "added_fp": 4
+        }
+      }
+    }
+  ]
+}

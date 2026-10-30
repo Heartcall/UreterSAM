@@ -1,0 +1,76 @@
+{
+  "scheme": "member2_2net",
+  "video_id": "video_1",
+  "pid": 15576,
+  "networks": 2,
+  "parameters": 49202790,
+  "individual_model_sha256": [
+    "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+    "35ad407bfae961717a0f0dd4e6f18da331e80bfc9debb8d8c85d7f86ecf7ab33"
+  ],
+  "model_state_sha256": "19d112a546705011af79f1ca96d845f507365095b12e5c0a2a9bdc710d347d97",
+  "frames": 722,
+  "encoded_frames": 722,
+  "fps": 30.0,
+  "warmup_frames": 12,
+  "approved_static_matches": 43,
+  "baseline_history_matches": 0,
+  "changed_frames_vs_classwise3": 722,
+  "timings": {
+    "preprocess_ms": {
+      "mean": 1.8262735490914217,
+      "p50": 1.8353000050410628,
+      "p95": 2.1594800346065304,
+      "max": 2.9770000837743282
+    },
+    "all_models_ms": {
+      "mean": 9.287320633536241,
+      "p50": 9.122600022237748,
+      "p95": 11.851794953690835,
+      "max": 18.407099996693432
+    },
+    "native_mapping_fusion_transfer_ms": {
+      "mean": 3.312757064606427,
+      "p50": 3.298699972219765,
+      "p95": 3.8533450104296194,
+      "max": 4.993899958208203
+    },
+    "pipeline_ms": {
+      "mean": 14.42635124723409,
+      "p50": 14.262399927247316,
+      "p95": 17.618034948827695,
+      "max": 25.279299938119948
+    },
+    "decode_ms": {
+      "mean": 0.2139732680203512,
+      "p50": 0.19084993982687593,
+      "p95": 0.2625599096063524,
+      "max": 9.6186000155285
+    },
+    "render_encode_ms": {
+      "mean": 1.6609016638842522,
+      "p50": 1.667250005993992,
+      "p95": 2.014049969147891,
+      "max": 4.049799987114966
+    },
+    "audit_export_ms": {
+      "mean": 1.6896698046333758,
+      "p50": 1.290749991312623,
+      "p95": 6.467789929592976,
+      "max": 15.786099946126342
+    },
+    "cycle_ms": {
+      "mean": 18.229617174183357,
+      "p50": 17.762499977834523,
+      "p95": 23.449344997061413,
+      "max": 40.4563999036327
+    }
+  },
+  "offline_fps_including_all_exports": 54.666127647681506,
+  "wall_seconds": 13.207447299966589,
+  "cuda_peak_allocated_mib": 223.9208984375,
+  "realtime_p95_passed": true,
+  "replay_sha256": "efd0903334ba7d0fda36df4a7766ad748fa102e13ccd27c3919af3fae275e27d",
+  "full_video_accuracy": null,
+  "tip_metrics": null
+}

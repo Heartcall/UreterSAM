@@ -1,0 +1,51 @@
+{
+  "video_id": "video_1",
+  "frames": 722,
+  "decoded_export_frames": 722,
+  "fps": 30.0,
+  "warmup_frames": 12,
+  "model_count": 3,
+  "parameter_count": 73804185,
+  "raw_historical_different_pixels": 0,
+  "reviewed_rgb_exact": 20,
+  "timings": {
+    "pipeline_ms": {
+      "mean": 28.246859281383188,
+      "p50": 28.792400029487908,
+      "p95": 36.4094999502413,
+      "max": 42.83569997642189
+    },
+    "decode_ms": {
+      "mean": 0.26885609379827646,
+      "p50": 0.24075002875179052,
+      "p95": 0.3233650175388902,
+      "max": 17.707200022414327
+    },
+    "render_encode_ms": {
+      "mean": 2.273258176526452,
+      "p50": 2.3303499910980463,
+      "p95": 2.7635449776425958,
+      "max": 5.133899976499379
+    },
+    "audit_and_mask_export_ms": {
+      "mean": 2.7859753442456086,
+      "p50": 2.707050007302314,
+      "p95": 3.1879949441645294,
+      "max": 7.90590001270175
+    },
+    "cycle_ms": {
+      "mean": 33.68408809070297,
+      "p50": 34.16449995711446,
+      "p95": 42.2396449954249,
+      "max": 60.020399978384376
+    }
+  },
+  "offline_fps_including_decode_audit_render_exports": 29.627398410159255,
+  "wall_seconds_including_writer_flush": 24.36933510005474,
+  "cuda_peak_allocated_mib": 319.81884765625,
+  "model_state_sha256_unchanged": "aeb9337b45b7e1088e3cd8169c86b16dca5b115359a8557c18334e8b5793496c",
+  "video_sha256": "8e9c11879170ba58497cda0f1746928f93e95fb02a18658b583677f86f9ce048",
+  "scope": "All frames, fresh process per video. Pipeline preprocessing+required3 networks+FP32 native outputs+CPU transfer. Full cycle additionally decode/render/audit/export; no live display/queue acceptance",
+  "dense_accuracy_metrics": null,
+  "tip_metrics": null
+}

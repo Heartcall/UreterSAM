@@ -1,0 +1,525 @@
+{
+  "design": {
+    "design": "stratified_simple_random_without_replacement",
+    "strata_per_video": 12,
+    "frames_per_stratum": 5,
+    "seed_by_video": {
+      "video_1": 2026102901,
+      "video_2": 2026102902
+    },
+    "stratum_construction": "numpy.array_split of zero-based complete sequential frame indices; sizes differ by at most1",
+    "selection": "numpy.default_rng(seed).choice(stratum,size5,replaceFalse), in temporal order; no image or model features used",
+    "weights": "N_h/n_h fixed before labels. Ratio metrics from Horvitz-Thompson weighted TP/FP/FN. Approximate95% normal intervals by stratified finite-population variance and delta method, conditional on these two development videos; not patient generalization intervals",
+    "known_failure_frames": "Existing29 and12 tip pilot remain diagnostic supplements; do not pool convenience samples into probability-sample estimates unless randomly selected",
+    "partial_review_policy": "No overall estimate until all planned sample references are approved. Dense accuracy remains unavailable; unknown-pixel fractions reported separately"
+  },
+  "population_frames": 2694,
+  "sample_frames": 120,
+  "strata": [
+    {
+      "stratum_id": "video_1:00",
+      "population_frames": 61,
+      "first_frame_zero_based": 0,
+      "last_frame_zero_based": 60,
+      "selected_frames_zero_based": [
+        18,
+        20,
+        21,
+        41,
+        47
+      ],
+      "selected_frames_one_based": [
+        19,
+        21,
+        22,
+        42,
+        48
+      ],
+      "weight": 12.2
+    },
+    {
+      "stratum_id": "video_1:01",
+      "population_frames": 61,
+      "first_frame_zero_based": 61,
+      "last_frame_zero_based": 121,
+      "selected_frames_zero_based": [
+        65,
+        67,
+        75,
+        77,
+        107
+      ],
+      "selected_frames_one_based": [
+        66,
+        68,
+        76,
+        78,
+        108
+      ],
+      "weight": 12.2
+    },
+    {
+      "stratum_id": "video_1:02",
+      "population_frames": 60,
+      "first_frame_zero_based": 122,
+      "last_frame_zero_based": 181,
+      "selected_frames_zero_based": [
+        123,
+        144,
+        146,
+        150,
+        152
+      ],
+      "selected_frames_one_based": [
+        124,
+        145,
+        147,
+        151,
+        153
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:03",
+      "population_frames": 60,
+      "first_frame_zero_based": 182,
+      "last_frame_zero_based": 241,
+      "selected_frames_zero_based": [
+        189,
+        204,
+        206,
+        207,
+        213
+      ],
+      "selected_frames_one_based": [
+        190,
+        205,
+        207,
+        208,
+        214
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:04",
+      "population_frames": 60,
+      "first_frame_zero_based": 242,
+      "last_frame_zero_based": 301,
+      "selected_frames_zero_based": [
+        246,
+        248,
+        256,
+        277,
+        292
+      ],
+      "selected_frames_one_based": [
+        247,
+        249,
+        257,
+        278,
+        293
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:05",
+      "population_frames": 60,
+      "first_frame_zero_based": 302,
+      "last_frame_zero_based": 361,
+      "selected_frames_zero_based": [
+        320,
+        322,
+        331,
+        337,
+        352
+      ],
+      "selected_frames_one_based": [
+        321,
+        323,
+        332,
+        338,
+        353
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:06",
+      "population_frames": 60,
+      "first_frame_zero_based": 362,
+      "last_frame_zero_based": 421,
+      "selected_frames_zero_based": [
+        380,
+        385,
+        398,
+        408,
+        415
+      ],
+      "selected_frames_one_based": [
+        381,
+        386,
+        399,
+        409,
+        416
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:07",
+      "population_frames": 60,
+      "first_frame_zero_based": 422,
+      "last_frame_zero_based": 481,
+      "selected_frames_zero_based": [
+        428,
+        434,
+        442,
+        444,
+        454
+      ],
+      "selected_frames_one_based": [
+        429,
+        435,
+        443,
+        445,
+        455
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:08",
+      "population_frames": 60,
+      "first_frame_zero_based": 482,
+      "last_frame_zero_based": 541,
+      "selected_frames_zero_based": [
+        484,
+        499,
+        509,
+        540,
+        541
+      ],
+      "selected_frames_one_based": [
+        485,
+        500,
+        510,
+        541,
+        542
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:09",
+      "population_frames": 60,
+      "first_frame_zero_based": 542,
+      "last_frame_zero_based": 601,
+      "selected_frames_zero_based": [
+        563,
+        564,
+        567,
+        575,
+        588
+      ],
+      "selected_frames_one_based": [
+        564,
+        565,
+        568,
+        576,
+        589
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:10",
+      "population_frames": 60,
+      "first_frame_zero_based": 602,
+      "last_frame_zero_based": 661,
+      "selected_frames_zero_based": [
+        607,
+        625,
+        626,
+        657,
+        661
+      ],
+      "selected_frames_one_based": [
+        608,
+        626,
+        627,
+        658,
+        662
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_1:11",
+      "population_frames": 60,
+      "first_frame_zero_based": 662,
+      "last_frame_zero_based": 721,
+      "selected_frames_zero_based": [
+        668,
+        687,
+        697,
+        706,
+        719
+      ],
+      "selected_frames_one_based": [
+        669,
+        688,
+        698,
+        707,
+        720
+      ],
+      "weight": 12.0
+    },
+    {
+      "stratum_id": "video_2:00",
+      "population_frames": 165,
+      "first_frame_zero_based": 0,
+      "last_frame_zero_based": 164,
+      "selected_frames_zero_based": [
+        2,
+        38,
+        47,
+        154,
+        159
+      ],
+      "selected_frames_one_based": [
+        3,
+        39,
+        48,
+        155,
+        160
+      ],
+      "weight": 33.0
+    },
+    {
+      "stratum_id": "video_2:01",
+      "population_frames": 165,
+      "first_frame_zero_based": 165,
+      "last_frame_zero_based": 329,
+      "selected_frames_zero_based": [
+        191,
+        206,
+        268,
+        279,
+        282
+      ],
+      "selected_frames_one_based": [
+        192,
+        207,
+        269,
+        280,
+        283
+      ],
+      "weight": 33.0
+    },
+    {
+      "stratum_id": "video_2:02",
+      "population_frames": 165,
+      "first_frame_zero_based": 330,
+      "last_frame_zero_based": 494,
+      "selected_frames_zero_based": [
+        340,
+        361,
+        474,
+        485,
+        494
+      ],
+      "selected_frames_one_based": [
+        341,
+        362,
+        475,
+        486,
+        495
+      ],
+      "weight": 33.0
+    },
+    {
+      "stratum_id": "video_2:03",
+      "population_frames": 165,
+      "first_frame_zero_based": 495,
+      "last_frame_zero_based": 659,
+      "selected_frames_zero_based": [
+        520,
+        541,
+        571,
+        649,
+        651
+      ],
+      "selected_frames_one_based": [
+        521,
+        542,
+        572,
+        650,
+        652
+      ],
+      "weight": 33.0
+    },
+    {
+      "stratum_id": "video_2:04",
+      "population_frames": 164,
+      "first_frame_zero_based": 660,
+      "last_frame_zero_based": 823,
+      "selected_frames_zero_based": [
+        689,
+        690,
+        701,
+        713,
+        772
+      ],
+      "selected_frames_one_based": [
+        690,
+        691,
+        702,
+        714,
+        773
+      ],
+      "weight": 32.8
+    },
+    {
+      "stratum_id": "video_2:05",
+      "population_frames": 164,
+      "first_frame_zero_based": 824,
+      "last_frame_zero_based": 987,
+      "selected_frames_zero_based": [
+        851,
+        884,
+        898,
+        900,
+        942
+      ],
+      "selected_frames_one_based": [
+        852,
+        885,
+        899,
+        901,
+        943
+      ],
+      "weight": 32.8
+    },
+    {
+      "stratum_id": "video_2:06",
+      "population_frames": 164,
+      "first_frame_zero_based": 988,
+      "last_frame_zero_based": 1151,
+      "selected_frames_zero_based": [
+        1000,
+        1002,
+        1038,
+        1054,
+        1079
+      ],
+      "selected_frames_one_based": [
+        1001,
+        1003,
+        1039,
+        1055,
+        1080
+      ],
+      "weight": 32.8
+    },
+    {
+      "stratum_id": "video_2:07",
+      "population_frames": 164,
+      "first_frame_zero_based": 1152,
+      "last_frame_zero_based": 1315,
+      "selected_frames_zero_based": [
+        1175,
+        1208,
+        1220,
+        1223,
+        1309
+      ],
+      "selected_frames_one_based": [
+        1176,
+        1209,
+        1221,
+        1224,
+        1310
+      ],
+      "weight": 32.8
+    },
+    {
+      "stratum_id": "video_2:08",
+      "population_frames": 164,
+      "first_frame_zero_based": 1316,
+      "last_frame_zero_based": 1479,
+      "selected_frames_zero_based": [
+        1316,
+        1364,
+        1406,
+        1411,
+        1438
+      ],
+      "selected_frames_one_based": [
+        1317,
+        1365,
+        1407,
+        1412,
+        1439
+      ],
+      "weight": 32.8
+    },
+    {
+      "stratum_id": "video_2:09",
+      "population_frames": 164,
+      "first_frame_zero_based": 1480,
+      "last_frame_zero_based": 1643,
+      "selected_frames_zero_based": [
+        1505,
+        1530,
+        1575,
+        1607,
+        1631
+      ],
+      "selected_frames_one_based": [
+        1506,
+        1531,
+        1576,
+        1608,
+        1632
+      ],
+      "weight": 32.8
+    },
+    {
+      "stratum_id": "video_2:10",
+      "population_frames": 164,
+      "first_frame_zero_based": 1644,
+      "last_frame_zero_based": 1807,
+      "selected_frames_zero_based": [
+        1650,
+        1770,
+        1783,
+        1789,
+        1804
+      ],
+      "selected_frames_one_based": [
+        1651,
+        1771,
+        1784,
+        1790,
+        1805
+      ],
+      "weight": 32.8
+    },
+    {
+      "stratum_id": "video_2:11",
+      "population_frames": 164,
+      "first_frame_zero_based": 1808,
+      "last_frame_zero_based": 1971,
+      "selected_frames_zero_based": [
+        1824,
+        1846,
+        1881,
+        1884,
+        1965
+      ],
+      "selected_frames_one_based": [
+        1825,
+        1847,
+        1882,
+        1885,
+        1966
+      ],
+      "weight": 32.8
+    }
+  ],
+  "image_features_used_for_sampling": false
+}

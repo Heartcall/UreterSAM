@@ -1,0 +1,21 @@
+preflight {}
+static_image132 {}
+static_image {"completed": 20, "total": 132}
+static_image {"completed": 40, "total": 132}
+static_image {"completed": 60, "total": 132}
+static_image {"completed": 80, "total": 132}
+static_image {"completed": 100, "total": 132}
+static_image {"completed": 120, "total": 132}
+static_video70 {}
+static_video {"completed": 20, "total": 70}
+static_video {"completed": 40, "total": 70}
+static_video {"completed": 60, "total": 70}
+full_video_fresh_process {"scheme": "raw", "video_id": "video_1"}
+full_video_fresh_process {"scheme": "raw", "video_id": "video_2"}
+full_video_fresh_process {"scheme": "neural_relaxation_control", "video_id": "video_1"}
+full_video_fresh_process {"scheme": "neural_relaxation_control", "video_id": "video_2"}
+full_video_fresh_process {"scheme": "blue_aplus", "video_id": "video_1"}
+full_video_fresh_process {"scheme": "blue_aplus", "video_id": "video_2"}
+comparison_video_export {"video_id": "video_1"}
+comparison_video_export {"video_id": "video_2"}
+completed {}

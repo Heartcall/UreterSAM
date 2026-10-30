@@ -1,0 +1,24 @@
+{
+  "diagnostic_not_inference": true,
+  "cases": [
+    {
+      "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+      "native_shape": [
+        640,
+        640
+      ],
+      "reference_fiber_pixels": 445,
+      "reference_fiber_bbox": [
+        435,
+        190,
+        460,
+        221
+      ],
+      "gt_fiber_probability_max": 0.00024362227122765034,
+      "gt_fiber_probability_mean": 8.467744191875681e-05,
+      "source_image_sha256": "0f280ca0c4f957a6cd8f807002878d92dee93fca16b61aab132fd3fe85006b27",
+      "reference_mask_sha256": "d5b847d168206c64047a2ed9141ae4666ccd5cf6c70c75321308b87e43752ef2",
+      "visual_observation": "Image includes desktop window/white margins; blue edge object is small in whole-frame input. Observation, not a proven causal explanation or authorization to relabel/crop."
+    }
+  ]
+}

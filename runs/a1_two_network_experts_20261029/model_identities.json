@@ -1,0 +1,27 @@
+{
+  "classwise3": {
+    "individual_model_sha256": [
+      "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+      "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03",
+      "35ad407bfae961717a0f0dd4e6f18da331e80bfc9debb8d8c85d7f86ecf7ab33"
+    ],
+    "networks": 3,
+    "parameters": 73804185
+  },
+  "member1_2net": {
+    "individual_model_sha256": [
+      "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+      "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+    ],
+    "networks": 2,
+    "parameters": 49202790
+  },
+  "member2_2net": {
+    "individual_model_sha256": [
+      "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+      "35ad407bfae961717a0f0dd4e6f18da331e80bfc9debb8d8c85d7f86ecf7ab33"
+    ],
+    "networks": 2,
+    "parameters": 49202790
+  }
+}

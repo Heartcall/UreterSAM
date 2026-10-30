@@ -1,0 +1,71 @@
+{
+  "scheme": "blue_aplus",
+  "video_id": "video_2",
+  "pid": 22460,
+  "frames": 1972,
+  "encoded_frames": 1972,
+  "fps": 30.082069744027823,
+  "warmup_frames": 12,
+  "networks": 3,
+  "timings": {
+    "base_pipeline_ms": {
+      "mean": 32.99929137834259,
+      "p50": 34.45670002838597,
+      "p95": 40.850010002031915,
+      "max": 234.66769990045577
+    },
+    "refinement_ms": {
+      "mean": 13.57005547766827,
+      "p50": 14.26190003985539,
+      "p95": 15.820350038120521,
+      "max": 18.94670003093779
+    },
+    "pipeline_ms": {
+      "mean": 46.56934685601086,
+      "p50": 48.01299999235198,
+      "p95": 55.851305014221,
+      "max": 245.23389991372824
+    },
+    "decode_ms": {
+      "mean": 0.28283468532162526,
+      "p50": 0.26659993454813957,
+      "p95": 0.37577995099127287,
+      "max": 16.776699922047555
+    },
+    "render_encode_ms": {
+      "mean": 2.356550406249482,
+      "p50": 2.4009000044316053,
+      "p95": 3.0112699954770505,
+      "max": 5.356500041671097
+    },
+    "audit_export_ms": {
+      "mean": 1.8388366626110872,
+      "p50": 1.7154499655589461,
+      "p95": 2.050875016720965,
+      "max": 20.420300075784326
+    },
+    "cycle_ms": {
+      "mean": 51.3469744932391,
+      "p50": 52.804549981374294,
+      "p95": 61.22373502003028,
+      "max": 248.90989996492863
+    }
+  },
+  "offline_fps_including_all_exports": 19.465131721122603,
+  "wall_seconds": 101.30935810005758,
+  "cuda_peak_allocated_mib": 319.81884765625,
+  "changed_frames": 1920,
+  "protection_violations": 0,
+  "fallback_counts": {
+    "applied": 1920,
+    "addition_budget": 49,
+    "no_supported_uncertain_background": 3
+  },
+  "raw_baseline_different_pixels": 0,
+  "approved_frame_static_matches": 27,
+  "tip_metrics": null,
+  "dense_accuracy": null,
+  "model_state_sha256": "aeb9337b45b7e1088e3cd8169c86b16dca5b115359a8557c18334e8b5793496c",
+  "realtime_p95_passed": false,
+  "replay_sha256": "3958ebb11246d7f79e216c3edcb5c3dea65a2914d46300dd62f7e5f572467393"
+}

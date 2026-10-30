@@ -1,0 +1,190 @@
+{
+  "checks": [
+    {
+      "name": "2694_semantic_12_tip_records_and_unique_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_sources_and_inputs_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_validation_images_match_saved_file_identities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_1_every_frame_raw_rgb_identity_matches_D0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_1_fixed_model_independent_60_frame_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_1_12_disjoint_time_strata_five_samples_each",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_2_every_frame_raw_rgb_identity_matches_D0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_2_fixed_model_independent_60_frame_sample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_2_12_disjoint_time_strata_five_samples_each",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all29_original_masks_immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_random_sample_has_existing_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_annotations_generated_by_agent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all11_schemes_have2694_valid_outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "classwise_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "old190_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "A0_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "edge_geometry_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "edge_geometry_causal_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "component_gate_3net_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "component_gate_1net_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_color_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_soft_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_causal_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fixed_neural_no_unlabelled_frame_accuracy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_dense_and_incomplete_probability_estimates_remain_null",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline29_metrics_exactly_match_frozen_history",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "D0_all_frozen_sources_still_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "local_page_CSP_and_no_cache",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "UI120_samples_with_one_readonly_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tip_UI_starts_all_unknown_without_predicted_points",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stale_revision_rejected409",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_write_rejected400",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_unknown_approval_rejected400",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "foreign_origin_rejected403",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "API_checks_wrote_no_reference_revisions",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": true,
+  "count": 35,
+  "prediction_identity_records": 29634,
+  "new_human_references_created": 0,
+  "source_inputs_and_29_labels_unchanged": true,
+  "tip_metrics": null,
+  "dense_accuracy": null,
+  "sampled_estimates": null,
+  "training_updates": 0,
+  "reserved_test_pixels_read": 0,
+  "protocol_sha256": "3d2f9b8ddf4f46eb6e2103355635a65447763f141811aace3fccecb86ccd0003"
+}

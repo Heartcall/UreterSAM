@@ -1,0 +1,5524 @@
+{
+  "role": "reference-mask-derived visible centerline coverage proxy, not anatomical tip or physical axis truth",
+  "method": "two-subiteration thinning of all reference class2 components, no largest-component choice or hidden gap fill; unknown255 and3px neighborhood/image-border margin excluded",
+  "adoption_gate_changed": false,
+  "posthoc_supplementary_metric": true,
+  "self_tests_passed": 3,
+  "source_sha256": "d7c5785098dbd1fbe2a6912421927eaeb58f627a8b0048a5b6e37e7d3d7253b9",
+  "sets": {
+    "video_native": {
+      "models": {
+        "raw": {
+          "covered": 7771,
+          "missed": 780,
+          "reference_centerline_pixels": 8551,
+          "missed_fragments": 23,
+          "longest_missed_fragment_pixels": 88,
+          "coverage": 0.9087825985264881
+        },
+        "neural_relaxation_control": {
+          "covered": 7791,
+          "missed": 760,
+          "reference_centerline_pixels": 8551,
+          "missed_fragments": 20,
+          "longest_missed_fragment_pixels": 88,
+          "coverage": 0.9111215062565782
+        },
+        "blue_aplus": {
+          "covered": 7792,
+          "missed": 759,
+          "reference_centerline_pixels": 8551,
+          "missed_fragments": 20,
+          "longest_missed_fragment_pixels": 88,
+          "coverage": 0.9112384516430827
+        }
+      },
+      "frames": [
+        {
+          "sample_id": "reviewed_video_1_000002",
+          "centerline_pixels": 113,
+          "models": {
+            "raw": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000018",
+          "centerline_pixels": 79,
+          "models": {
+            "raw": {
+              "covered": 79,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 79,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 79,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000020",
+          "centerline_pixels": 124,
+          "models": {
+            "raw": {
+              "covered": 124,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 124,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 124,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000021",
+          "centerline_pixels": 93,
+          "models": {
+            "raw": {
+              "covered": 93,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 93,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 93,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000032",
+          "centerline_pixels": 108,
+          "models": {
+            "raw": {
+              "covered": 108,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 108,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 108,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000034",
+          "centerline_pixels": 109,
+          "models": {
+            "raw": {
+              "covered": 109,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 109,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 109,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000036",
+          "centerline_pixels": 109,
+          "models": {
+            "raw": {
+              "covered": 109,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 109,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 109,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000041",
+          "centerline_pixels": 82,
+          "models": {
+            "raw": {
+              "covered": 82,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 82,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 82,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000047",
+          "centerline_pixels": 102,
+          "models": {
+            "raw": {
+              "covered": 102,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 102,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 102,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000053",
+          "centerline_pixels": 113,
+          "models": {
+            "raw": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000062",
+          "centerline_pixels": 110,
+          "models": {
+            "raw": {
+              "covered": 110,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 110,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 110,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000065",
+          "centerline_pixels": 85,
+          "models": {
+            "raw": {
+              "covered": 85,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 85,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 85,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000067",
+          "centerline_pixels": 80,
+          "models": {
+            "raw": {
+              "covered": 80,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 80,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 80,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000071",
+          "centerline_pixels": 131,
+          "models": {
+            "raw": {
+              "covered": 131,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 131,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 131,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000072",
+          "centerline_pixels": 104,
+          "models": {
+            "raw": {
+              "covered": 104,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 104,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 104,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000075",
+          "centerline_pixels": 78,
+          "models": {
+            "raw": {
+              "covered": 78,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 78,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 78,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000076",
+          "centerline_pixels": 127,
+          "models": {
+            "raw": {
+              "covered": 127,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 127,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 127,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000077",
+          "centerline_pixels": 105,
+          "models": {
+            "raw": {
+              "covered": 105,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 105,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 105,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000079",
+          "centerline_pixels": 113,
+          "models": {
+            "raw": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 113,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000096",
+          "centerline_pixels": 130,
+          "models": {
+            "raw": {
+              "covered": 130,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 130,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 130,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000107",
+          "centerline_pixels": 79,
+          "models": {
+            "raw": {
+              "covered": 79,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 79,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 79,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000112",
+          "centerline_pixels": 115,
+          "models": {
+            "raw": {
+              "covered": 115,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 115,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 115,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000123",
+          "centerline_pixels": 81,
+          "models": {
+            "raw": {
+              "covered": 81,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 81,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 81,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000142",
+          "centerline_pixels": 128,
+          "models": {
+            "raw": {
+              "covered": 128,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 128,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 128,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000144",
+          "centerline_pixels": 78,
+          "models": {
+            "raw": {
+              "covered": 78,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 78,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 78,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000146",
+          "centerline_pixels": 81,
+          "models": {
+            "raw": {
+              "covered": 81,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 81,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 81,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000150",
+          "centerline_pixels": 103,
+          "models": {
+            "raw": {
+              "covered": 103,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 103,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 103,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000152",
+          "centerline_pixels": 96,
+          "models": {
+            "raw": {
+              "covered": 96,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 96,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 96,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000189",
+          "centerline_pixels": 87,
+          "models": {
+            "raw": {
+              "covered": 87,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 87,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 87,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000204",
+          "centerline_pixels": 83,
+          "models": {
+            "raw": {
+              "covered": 83,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 83,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 83,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000246",
+          "centerline_pixels": 91,
+          "models": {
+            "raw": {
+              "covered": 91,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 91,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 91,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000292",
+          "centerline_pixels": 91,
+          "models": {
+            "raw": {
+              "covered": 91,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 91,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 91,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000320",
+          "centerline_pixels": 105,
+          "models": {
+            "raw": {
+              "covered": 105,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 105,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 105,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000329",
+          "centerline_pixels": 102,
+          "models": {
+            "raw": {
+              "covered": 102,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 102,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 102,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000331",
+          "centerline_pixels": 93,
+          "models": {
+            "raw": {
+              "covered": 93,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 93,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 93,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000337",
+          "centerline_pixels": 86,
+          "models": {
+            "raw": {
+              "covered": 86,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 86,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 86,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000352",
+          "centerline_pixels": 77,
+          "models": {
+            "raw": {
+              "covered": 77,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 77,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 77,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000380",
+          "centerline_pixels": 95,
+          "models": {
+            "raw": {
+              "covered": 95,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 95,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 95,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000427",
+          "centerline_pixels": 141,
+          "models": {
+            "raw": {
+              "covered": 141,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 141,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 141,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000524",
+          "centerline_pixels": 123,
+          "models": {
+            "raw": {
+              "covered": 123,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 123,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 123,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000525",
+          "centerline_pixels": 122,
+          "models": {
+            "raw": {
+              "covered": 122,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 122,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 122,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000623",
+          "centerline_pixels": 118,
+          "models": {
+            "raw": {
+              "covered": 118,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 118,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 118,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000721",
+          "centerline_pixels": 100,
+          "models": {
+            "raw": {
+              "covered": 100,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 100,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 100,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000000",
+          "centerline_pixels": 156,
+          "models": {
+            "raw": {
+              "covered": 155,
+              "missed": 1,
+              "coverage": 0.9935897435897436,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "neural_relaxation_control": {
+              "covered": 155,
+              "missed": 1,
+              "coverage": 0.9935897435897436,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "blue_aplus": {
+              "covered": 155,
+              "missed": 1,
+              "coverage": 0.9935897435897436,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000002",
+          "centerline_pixels": 111,
+          "models": {
+            "raw": {
+              "covered": 111,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 111,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 111,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000047",
+          "centerline_pixels": 117,
+          "models": {
+            "raw": {
+              "covered": 117,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 117,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 117,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000075",
+          "centerline_pixels": 141,
+          "models": {
+            "raw": {
+              "covered": 124,
+              "missed": 17,
+              "coverage": 0.8794326241134752,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 16
+            },
+            "neural_relaxation_control": {
+              "covered": 127,
+              "missed": 14,
+              "coverage": 0.900709219858156,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 14
+            },
+            "blue_aplus": {
+              "covered": 127,
+              "missed": 14,
+              "coverage": 0.900709219858156,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 14
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000149",
+          "centerline_pixels": 141,
+          "models": {
+            "raw": {
+              "covered": 127,
+              "missed": 14,
+              "coverage": 0.900709219858156,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 14
+            },
+            "neural_relaxation_control": {
+              "covered": 129,
+              "missed": 12,
+              "coverage": 0.9148936170212766,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 12
+            },
+            "blue_aplus": {
+              "covered": 129,
+              "missed": 12,
+              "coverage": 0.9148936170212766,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 12
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000154",
+          "centerline_pixels": 114,
+          "models": {
+            "raw": {
+              "covered": 99,
+              "missed": 15,
+              "coverage": 0.868421052631579,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 15
+            },
+            "neural_relaxation_control": {
+              "covered": 102,
+              "missed": 12,
+              "coverage": 0.8947368421052632,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 12
+            },
+            "blue_aplus": {
+              "covered": 102,
+              "missed": 12,
+              "coverage": 0.8947368421052632,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 12
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000191",
+          "centerline_pixels": 118,
+          "models": {
+            "raw": {
+              "covered": 118,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 118,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 118,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000268",
+          "centerline_pixels": 163,
+          "models": {
+            "raw": {
+              "covered": 128,
+              "missed": 35,
+              "coverage": 0.7852760736196319,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 35
+            },
+            "neural_relaxation_control": {
+              "covered": 128,
+              "missed": 35,
+              "coverage": 0.7852760736196319,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 35
+            },
+            "blue_aplus": {
+              "covered": 128,
+              "missed": 35,
+              "coverage": 0.7852760736196319,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 35
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000340",
+          "centerline_pixels": 209,
+          "models": {
+            "raw": {
+              "covered": 209,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 209,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 209,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000571",
+          "centerline_pixels": 212,
+          "models": {
+            "raw": {
+              "covered": 170,
+              "missed": 42,
+              "coverage": 0.8018867924528302,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 42
+            },
+            "neural_relaxation_control": {
+              "covered": 171,
+              "missed": 41,
+              "coverage": 0.8066037735849056,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 41
+            },
+            "blue_aplus": {
+              "covered": 171,
+              "missed": 41,
+              "coverage": 0.8066037735849056,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 41
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000649",
+          "centerline_pixels": 116,
+          "models": {
+            "raw": {
+              "covered": 90,
+              "missed": 26,
+              "coverage": 0.7758620689655172,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 26
+            },
+            "neural_relaxation_control": {
+              "covered": 90,
+              "missed": 26,
+              "coverage": 0.7758620689655172,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 26
+            },
+            "blue_aplus": {
+              "covered": 90,
+              "missed": 26,
+              "coverage": 0.7758620689655172,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 26
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000772",
+          "centerline_pixels": 136,
+          "models": {
+            "raw": {
+              "covered": 104,
+              "missed": 32,
+              "coverage": 0.7647058823529411,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 32
+            },
+            "neural_relaxation_control": {
+              "covered": 104,
+              "missed": 32,
+              "coverage": 0.7647058823529411,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 32
+            },
+            "blue_aplus": {
+              "covered": 105,
+              "missed": 31,
+              "coverage": 0.7720588235294118,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 31
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000884",
+          "centerline_pixels": 114,
+          "models": {
+            "raw": {
+              "covered": 114,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 114,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 114,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000900",
+          "centerline_pixels": 119,
+          "models": {
+            "raw": {
+              "covered": 84,
+              "missed": 35,
+              "coverage": 0.7058823529411765,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 35
+            },
+            "neural_relaxation_control": {
+              "covered": 85,
+              "missed": 34,
+              "coverage": 0.7142857142857143,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 34
+            },
+            "blue_aplus": {
+              "covered": 85,
+              "missed": 34,
+              "coverage": 0.7142857142857143,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 34
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000942",
+          "centerline_pixels": 122,
+          "models": {
+            "raw": {
+              "covered": 97,
+              "missed": 25,
+              "coverage": 0.7950819672131147,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 25
+            },
+            "neural_relaxation_control": {
+              "covered": 98,
+              "missed": 24,
+              "coverage": 0.8032786885245902,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 24
+            },
+            "blue_aplus": {
+              "covered": 98,
+              "missed": 24,
+              "coverage": 0.8032786885245902,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 24
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000986",
+          "centerline_pixels": 224,
+          "models": {
+            "raw": {
+              "covered": 172,
+              "missed": 52,
+              "coverage": 0.7678571428571429,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 52
+            },
+            "neural_relaxation_control": {
+              "covered": 172,
+              "missed": 52,
+              "coverage": 0.7678571428571429,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 52
+            },
+            "blue_aplus": {
+              "covered": 172,
+              "missed": 52,
+              "coverage": 0.7678571428571429,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 52
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001000",
+          "centerline_pixels": 213,
+          "models": {
+            "raw": {
+              "covered": 166,
+              "missed": 47,
+              "coverage": 0.7793427230046949,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 47
+            },
+            "neural_relaxation_control": {
+              "covered": 167,
+              "missed": 46,
+              "coverage": 0.784037558685446,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 46
+            },
+            "blue_aplus": {
+              "covered": 167,
+              "missed": 46,
+              "coverage": 0.784037558685446,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 46
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001061",
+          "centerline_pixels": 172,
+          "models": {
+            "raw": {
+              "covered": 169,
+              "missed": 3,
+              "coverage": 0.9825581395348837,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            },
+            "neural_relaxation_control": {
+              "covered": 172,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 172,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001135",
+          "centerline_pixels": 156,
+          "models": {
+            "raw": {
+              "covered": 112,
+              "missed": 44,
+              "coverage": 0.717948717948718,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 44
+            },
+            "neural_relaxation_control": {
+              "covered": 113,
+              "missed": 43,
+              "coverage": 0.7243589743589743,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 43
+            },
+            "blue_aplus": {
+              "covered": 113,
+              "missed": 43,
+              "coverage": 0.7243589743589743,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 43
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001208",
+          "centerline_pixels": 222,
+          "models": {
+            "raw": {
+              "covered": 134,
+              "missed": 88,
+              "coverage": 0.6036036036036037,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 88
+            },
+            "neural_relaxation_control": {
+              "covered": 134,
+              "missed": 88,
+              "coverage": 0.6036036036036037,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 88
+            },
+            "blue_aplus": {
+              "covered": 134,
+              "missed": 88,
+              "coverage": 0.6036036036036037,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 88
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001223",
+          "centerline_pixels": 227,
+          "models": {
+            "raw": {
+              "covered": 142,
+              "missed": 85,
+              "coverage": 0.6255506607929515,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 85
+            },
+            "neural_relaxation_control": {
+              "covered": 142,
+              "missed": 85,
+              "coverage": 0.6255506607929515,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 85
+            },
+            "blue_aplus": {
+              "covered": 142,
+              "missed": 85,
+              "coverage": 0.6255506607929515,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 85
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001822",
+          "centerline_pixels": 125,
+          "models": {
+            "raw": {
+              "covered": 84,
+              "missed": 41,
+              "coverage": 0.672,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 41
+            },
+            "neural_relaxation_control": {
+              "covered": 85,
+              "missed": 40,
+              "coverage": 0.68,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 40
+            },
+            "blue_aplus": {
+              "covered": 85,
+              "missed": 40,
+              "coverage": 0.68,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 40
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001846",
+          "centerline_pixels": 116,
+          "models": {
+            "raw": {
+              "covered": 71,
+              "missed": 45,
+              "coverage": 0.6120689655172413,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 45
+            },
+            "neural_relaxation_control": {
+              "covered": 71,
+              "missed": 45,
+              "coverage": 0.6120689655172413,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 45
+            },
+            "blue_aplus": {
+              "covered": 71,
+              "missed": 45,
+              "coverage": 0.6120689655172413,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 45
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001881",
+          "centerline_pixels": 115,
+          "models": {
+            "raw": {
+              "covered": 57,
+              "missed": 58,
+              "coverage": 0.4956521739130435,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 58
+            },
+            "neural_relaxation_control": {
+              "covered": 57,
+              "missed": 58,
+              "coverage": 0.4956521739130435,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 58
+            },
+            "blue_aplus": {
+              "covered": 57,
+              "missed": 58,
+              "coverage": 0.4956521739130435,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 58
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001897",
+          "centerline_pixels": 225,
+          "models": {
+            "raw": {
+              "covered": 224,
+              "missed": 1,
+              "coverage": 0.9955555555555555,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "neural_relaxation_control": {
+              "covered": 225,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 225,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001965",
+          "centerline_pixels": 143,
+          "models": {
+            "raw": {
+              "covered": 107,
+              "missed": 36,
+              "coverage": 0.7482517482517482,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 36
+            },
+            "neural_relaxation_control": {
+              "covered": 108,
+              "missed": 35,
+              "coverage": 0.7552447552447552,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 35
+            },
+            "blue_aplus": {
+              "covered": 108,
+              "missed": 35,
+              "coverage": 0.7552447552447552,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 35
+            }
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001971",
+          "centerline_pixels": 154,
+          "models": {
+            "raw": {
+              "covered": 116,
+              "missed": 38,
+              "coverage": 0.7532467532467533,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 38
+            },
+            "neural_relaxation_control": {
+              "covered": 117,
+              "missed": 37,
+              "coverage": 0.7597402597402597,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 37
+            },
+            "blue_aplus": {
+              "covered": 117,
+              "missed": 37,
+              "coverage": 0.7597402597402597,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 37
+            }
+          }
+        }
+      ]
+    },
+    "image_native": {
+      "models": {
+        "raw": {
+          "covered": 2655,
+          "missed": 286,
+          "reference_centerline_pixels": 2941,
+          "missed_fragments": 30,
+          "longest_missed_fragment_pixels": 60,
+          "coverage": 0.902754165249915
+        },
+        "neural_relaxation_control": {
+          "covered": 2667,
+          "missed": 274,
+          "reference_centerline_pixels": 2941,
+          "missed_fragments": 29,
+          "longest_missed_fragment_pixels": 48,
+          "coverage": 0.9068344100646039
+        },
+        "blue_aplus": {
+          "covered": 2657,
+          "missed": 284,
+          "reference_centerline_pixels": 2941,
+          "missed_fragments": 28,
+          "longest_missed_fragment_pixels": 60,
+          "coverage": 0.9034342060523631
+        }
+      },
+      "frames": [
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cccd1a7775145966c8bb5501",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2",
+          "centerline_pixels": 61,
+          "models": {
+            "raw": {
+              "covered": 61,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 61,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 61,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e",
+          "centerline_pixels": 26,
+          "models": {
+            "raw": {
+              "covered": 25,
+              "missed": 1,
+              "coverage": 0.9615384615384616,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "neural_relaxation_control": {
+              "covered": 25,
+              "missed": 1,
+              "coverage": 0.9615384615384616,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "blue_aplus": {
+              "covered": 25,
+              "missed": 1,
+              "coverage": 0.9615384615384616,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+          "centerline_pixels": 22,
+          "models": {
+            "raw": {
+              "covered": 19,
+              "missed": 3,
+              "coverage": 0.8636363636363636,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            },
+            "neural_relaxation_control": {
+              "covered": 19,
+              "missed": 3,
+              "coverage": 0.8636363636363636,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            },
+            "blue_aplus": {
+              "covered": 19,
+              "missed": 3,
+              "coverage": 0.8636363636363636,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cebd05046dd66dfc157c7c22",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cf2bc6993fd5bc9051797231",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cf397a212754fa856044a105",
+          "centerline_pixels": 66,
+          "models": {
+            "raw": {
+              "covered": 66,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 66,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 66,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8",
+          "centerline_pixels": 66,
+          "models": {
+            "raw": {
+              "covered": 58,
+              "missed": 8,
+              "coverage": 0.8787878787878788,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 8
+            },
+            "neural_relaxation_control": {
+              "covered": 59,
+              "missed": 7,
+              "coverage": 0.8939393939393939,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 7
+            },
+            "blue_aplus": {
+              "covered": 58,
+              "missed": 8,
+              "coverage": 0.8787878787878788,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 8
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+          "centerline_pixels": 46,
+          "models": {
+            "raw": {
+              "covered": 43,
+              "missed": 3,
+              "coverage": 0.9347826086956522,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            },
+            "neural_relaxation_control": {
+              "covered": 43,
+              "missed": 3,
+              "coverage": 0.9347826086956522,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            },
+            "blue_aplus": {
+              "covered": 43,
+              "missed": 3,
+              "coverage": 0.9347826086956522,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d380e64796be3f2bc0ea8b8d",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+          "centerline_pixels": 46,
+          "models": {
+            "raw": {
+              "covered": 42,
+              "missed": 4,
+              "coverage": 0.9130434782608695,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 4
+            },
+            "neural_relaxation_control": {
+              "covered": 42,
+              "missed": 4,
+              "coverage": 0.9130434782608695,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 4
+            },
+            "blue_aplus": {
+              "covered": 42,
+              "missed": 4,
+              "coverage": 0.9130434782608695,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 4
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d476007d707213fa27659221",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+          "centerline_pixels": 64,
+          "models": {
+            "raw": {
+              "covered": 64,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 64,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 64,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d504f85f2fb66ec103d21dc4",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d5763e0bb069246f33640071",
+          "centerline_pixels": 57,
+          "models": {
+            "raw": {
+              "covered": 57,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 57,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 57,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d79781cd1c7cd071fc44de0c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9",
+          "centerline_pixels": 33,
+          "models": {
+            "raw": {
+              "covered": 33,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 33,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 33,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d8b6c834f397c1414e65a28a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__db41ac8a866e0a43cc6b4d14",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__db950909f5180cfe568caeeb",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__df847941994bf694ac228c8c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e0267bedab5c1d75d479a19a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e128d928f63c992a140d652d",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+          "centerline_pixels": 54,
+          "models": {
+            "raw": {
+              "covered": 52,
+              "missed": 2,
+              "coverage": 0.9629629629629629,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 2
+            },
+            "neural_relaxation_control": {
+              "covered": 52,
+              "missed": 2,
+              "coverage": 0.9629629629629629,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 2
+            },
+            "blue_aplus": {
+              "covered": 52,
+              "missed": 2,
+              "coverage": 0.9629629629629629,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 2
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556",
+          "centerline_pixels": 50,
+          "models": {
+            "raw": {
+              "covered": 40,
+              "missed": 10,
+              "coverage": 0.8,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 6
+            },
+            "neural_relaxation_control": {
+              "covered": 40,
+              "missed": 10,
+              "coverage": 0.8,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 6
+            },
+            "blue_aplus": {
+              "covered": 40,
+              "missed": 10,
+              "coverage": 0.8,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 6
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+          "centerline_pixels": 74,
+          "models": {
+            "raw": {
+              "covered": 74,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 74,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 74,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e24d1cc256dfa5780aeb1769",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e2a826c4b9eb6402a96cd36c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e3053295fb4f899238f8966a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e355e8693d335cbf9d8cf855",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e3d9211a5dbed854971a5440",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+          "centerline_pixels": 21,
+          "models": {
+            "raw": {
+              "covered": 21,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 21,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 21,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e5f4938cea8a6f11f27fb86f",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e655d4ca3bce9c5dbf8a7031",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e6cbc0b8877053482b4cbaf9",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e7a5ff6c13b19390cae69340",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e81644f0445056839c381270",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2",
+          "centerline_pixels": 50,
+          "models": {
+            "raw": {
+              "covered": 50,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 50,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 50,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+          "centerline_pixels": 112,
+          "models": {
+            "raw": {
+              "covered": 110,
+              "missed": 2,
+              "coverage": 0.9821428571428571,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 2
+            },
+            "neural_relaxation_control": {
+              "covered": 110,
+              "missed": 2,
+              "coverage": 0.9821428571428571,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 2
+            },
+            "blue_aplus": {
+              "covered": 110,
+              "missed": 2,
+              "coverage": 0.9821428571428571,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 2
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd",
+          "centerline_pixels": 43,
+          "models": {
+            "raw": {
+              "covered": 42,
+              "missed": 1,
+              "coverage": 0.9767441860465116,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "neural_relaxation_control": {
+              "covered": 42,
+              "missed": 1,
+              "coverage": 0.9767441860465116,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "blue_aplus": {
+              "covered": 42,
+              "missed": 1,
+              "coverage": 0.9767441860465116,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb8e9610be90a060660bef16",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb9414350213456173b9216e",
+          "centerline_pixels": 69,
+          "models": {
+            "raw": {
+              "covered": 60,
+              "missed": 9,
+              "coverage": 0.8695652173913043,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 8
+            },
+            "neural_relaxation_control": {
+              "covered": 61,
+              "missed": 8,
+              "coverage": 0.8840579710144928,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 8
+            },
+            "blue_aplus": {
+              "covered": 61,
+              "missed": 8,
+              "coverage": 0.8840579710144928,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 8
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb9c5b0d82fbd7802848f976",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+          "centerline_pixels": 29,
+          "models": {
+            "raw": {
+              "covered": 24,
+              "missed": 5,
+              "coverage": 0.8275862068965517,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 5
+            },
+            "neural_relaxation_control": {
+              "covered": 24,
+              "missed": 5,
+              "coverage": 0.8275862068965517,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 5
+            },
+            "blue_aplus": {
+              "covered": 24,
+              "missed": 5,
+              "coverage": 0.8275862068965517,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 5
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ee46a5d978b3090ef07b252e",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__efa54a36a80d5c48f25f4c5b",
+          "centerline_pixels": 24,
+          "models": {
+            "raw": {
+              "covered": 24,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 24,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 24,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f30c29162d090fea5d6def64",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+          "centerline_pixels": 23,
+          "models": {
+            "raw": {
+              "covered": 23,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 23,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 23,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3b76748433d12f4d9d7a362",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3e2e469a2139285aca27f9c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f527f236680465cfac1ee1e1",
+          "centerline_pixels": 82,
+          "models": {
+            "raw": {
+              "covered": 82,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 82,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 82,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f55bfa67b4643136910eed51",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f62020c170af2da2938be744",
+          "centerline_pixels": 48,
+          "models": {
+            "raw": {
+              "covered": 48,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 48,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 48,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f6d6396b0ba9dc078f202f5d",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+          "centerline_pixels": 43,
+          "models": {
+            "raw": {
+              "covered": 30,
+              "missed": 13,
+              "coverage": 0.6976744186046512,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 13
+            },
+            "neural_relaxation_control": {
+              "covered": 30,
+              "missed": 13,
+              "coverage": 0.6976744186046512,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 13
+            },
+            "blue_aplus": {
+              "covered": 30,
+              "missed": 13,
+              "coverage": 0.6976744186046512,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 13
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f7a0ce0bac6c7a0bb0a5f9ec",
+          "centerline_pixels": 30,
+          "models": {
+            "raw": {
+              "covered": 27,
+              "missed": 3,
+              "coverage": 0.9,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            },
+            "neural_relaxation_control": {
+              "covered": 27,
+              "missed": 3,
+              "coverage": 0.9,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            },
+            "blue_aplus": {
+              "covered": 27,
+              "missed": 3,
+              "coverage": 0.9,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 3
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f88483917dce2d5dc69e03cc",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f95ce3dc9c950992589ef81a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fa8c7845974d43d219704de3",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+          "centerline_pixels": 32,
+          "models": {
+            "raw": {
+              "covered": 10,
+              "missed": 22,
+              "coverage": 0.3125,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 20
+            },
+            "neural_relaxation_control": {
+              "covered": 10,
+              "missed": 22,
+              "coverage": 0.3125,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 20
+            },
+            "blue_aplus": {
+              "covered": 10,
+              "missed": 22,
+              "coverage": 0.3125,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 20
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fb75f7e4d2f47745183dddf4",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fc77bf8ca279f9875f5807c2",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fccb14b3644a4b7c55ac628a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e",
+          "centerline_pixels": 23,
+          "models": {
+            "raw": {
+              "covered": 23,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 23,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 23,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fe36ceb2449249673181a5a6",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ff39699780e8e83e6f08541a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cd97db274666dd9a90154901",
+          "centerline_pixels": 108,
+          "models": {
+            "raw": {
+              "covered": 108,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 108,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 108,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cec1352c534df462a5d62b9c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cf404f4f3a6de1d92bab3c86",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b",
+          "centerline_pixels": 68,
+          "models": {
+            "raw": {
+              "covered": 68,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 68,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 68,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d027b44c9ee6ce7c1bea8c8b",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d04ebe39fe149deead19c16b",
+          "centerline_pixels": 51,
+          "models": {
+            "raw": {
+              "covered": 51,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 51,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 51,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d083dcdc2394bcb46eb2e2aa",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d36281673ef735de816fede2",
+          "centerline_pixels": 64,
+          "models": {
+            "raw": {
+              "covered": 64,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 64,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 64,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d3d9c90afe5e6b2c0ded7174",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3",
+          "centerline_pixels": 68,
+          "models": {
+            "raw": {
+              "covered": 62,
+              "missed": 6,
+              "coverage": 0.9117647058823529,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 6
+            },
+            "neural_relaxation_control": {
+              "covered": 63,
+              "missed": 5,
+              "coverage": 0.9264705882352942,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 5
+            },
+            "blue_aplus": {
+              "covered": 62,
+              "missed": 6,
+              "coverage": 0.9117647058823529,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 6
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374",
+          "centerline_pixels": 133,
+          "models": {
+            "raw": {
+              "covered": 133,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 133,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 133,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d5368f406eb516fa7f27dc73",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+          "centerline_pixels": 79,
+          "models": {
+            "raw": {
+              "covered": 71,
+              "missed": 8,
+              "coverage": 0.8987341772151899,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 8
+            },
+            "neural_relaxation_control": {
+              "covered": 71,
+              "missed": 8,
+              "coverage": 0.8987341772151899,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 8
+            },
+            "blue_aplus": {
+              "covered": 71,
+              "missed": 8,
+              "coverage": 0.8987341772151899,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 8
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d5d611a128f6941532e16819",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d8d2493949c61074984753a0",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044",
+          "centerline_pixels": 74,
+          "models": {
+            "raw": {
+              "covered": 74,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 74,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 74,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9627d33174b903c775d1044",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9968ea323db4c528440cbb1",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a",
+          "centerline_pixels": 65,
+          "models": {
+            "raw": {
+              "covered": 65,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 65,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 65,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__da2dd2f086729d73aea03aed",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__da7e64c5e291613c411370df",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+          "centerline_pixels": 103,
+          "models": {
+            "raw": {
+              "covered": 103,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 103,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 103,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__def3fefc93f0d3f79b4e49a4",
+          "centerline_pixels": 49,
+          "models": {
+            "raw": {
+              "covered": 49,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 49,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 49,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+          "centerline_pixels": 101,
+          "models": {
+            "raw": {
+              "covered": 100,
+              "missed": 1,
+              "coverage": 0.9900990099009901,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "neural_relaxation_control": {
+              "covered": 100,
+              "missed": 1,
+              "coverage": 0.9900990099009901,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "blue_aplus": {
+              "covered": 100,
+              "missed": 1,
+              "coverage": 0.9900990099009901,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+          "centerline_pixels": 29,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 29,
+              "coverage": 0.0,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 29
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 29,
+              "coverage": 0.0,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 29
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 29,
+              "coverage": 0.0,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 29
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df9503c4c2237624a40883ea",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e05ea5d59365643133440230",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+          "centerline_pixels": 56,
+          "models": {
+            "raw": {
+              "covered": 56,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 56,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 56,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e152ad6f28bd0d5796d4b863",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e2149dfdbb9fe2ad8b09442b",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+          "centerline_pixels": 60,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 60,
+              "coverage": 0.0,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 60
+            },
+            "neural_relaxation_control": {
+              "covered": 5,
+              "missed": 55,
+              "coverage": 0.08333333333333333,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 48
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 60,
+              "coverage": 0.0,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 60
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e4fd74319c0ff1d67d66350a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e755cb48d88eff1a918421dc",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e7c03ad5034214e51303f46c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e80c71f5def8631f698af5e4",
+          "centerline_pixels": 80,
+          "models": {
+            "raw": {
+              "covered": 80,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 80,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 80,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e850aabd9169d00e5abf281c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e90fee97feeedc692c93a341",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e938455a11a8eb9671165411",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ea7e31de924cc3072975fcc1",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+          "centerline_pixels": 52,
+          "models": {
+            "raw": {
+              "covered": 45,
+              "missed": 7,
+              "coverage": 0.8653846153846154,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 7
+            },
+            "neural_relaxation_control": {
+              "covered": 45,
+              "missed": 7,
+              "coverage": 0.8653846153846154,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 7
+            },
+            "blue_aplus": {
+              "covered": 45,
+              "missed": 7,
+              "coverage": 0.8653846153846154,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 7
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ebca1ec5de792875bb4fb300",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+          "centerline_pixels": 62,
+          "models": {
+            "raw": {
+              "covered": 45,
+              "missed": 17,
+              "coverage": 0.7258064516129032,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 11
+            },
+            "neural_relaxation_control": {
+              "covered": 48,
+              "missed": 14,
+              "coverage": 0.7741935483870968,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 11
+            },
+            "blue_aplus": {
+              "covered": 45,
+              "missed": 17,
+              "coverage": 0.7258064516129032,
+              "missed_fragments": 2,
+              "longest_missed_fragment_pixels": 11
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ed6451a4c509c7f494d27ffa",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ee9acf48105f94ed3bd8a6cd",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__efa5ed3a9775ddd7d978bf7f",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__efe332ad3a90e57696efbc31",
+          "centerline_pixels": 54,
+          "models": {
+            "raw": {
+              "covered": 54,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 54,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 54,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f0307b8a71d07dafb6ee2e3a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f0e67fadb14e6737cc037929",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f10ac95c407097f80554fecf",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded",
+          "centerline_pixels": 71,
+          "models": {
+            "raw": {
+              "covered": 71,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 71,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 71,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f18ef18f30ef93b3d7d55118",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f1c1d0100a3e53b144a2fd1a",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+          "centerline_pixels": 73,
+          "models": {
+            "raw": {
+              "covered": 3,
+              "missed": 70,
+              "coverage": 0.0410958904109589,
+              "missed_fragments": 3,
+              "longest_missed_fragment_pixels": 45
+            },
+            "neural_relaxation_control": {
+              "covered": 3,
+              "missed": 70,
+              "coverage": 0.0410958904109589,
+              "missed_fragments": 3,
+              "longest_missed_fragment_pixels": 45
+            },
+            "blue_aplus": {
+              "covered": 3,
+              "missed": 70,
+              "coverage": 0.0410958904109589,
+              "missed_fragments": 3,
+              "longest_missed_fragment_pixels": 45
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f405adc45e2f9ce5a820d803",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f680d909de418e7337206b7e",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+          "centerline_pixels": 72,
+          "models": {
+            "raw": {
+              "covered": 71,
+              "missed": 1,
+              "coverage": 0.9861111111111112,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "neural_relaxation_control": {
+              "covered": 71,
+              "missed": 1,
+              "coverage": 0.9861111111111112,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "blue_aplus": {
+              "covered": 71,
+              "missed": 1,
+              "coverage": 0.9861111111111112,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2",
+          "centerline_pixels": 75,
+          "models": {
+            "raw": {
+              "covered": 74,
+              "missed": 1,
+              "coverage": 0.9866666666666667,
+              "missed_fragments": 1,
+              "longest_missed_fragment_pixels": 1
+            },
+            "neural_relaxation_control": {
+              "covered": 75,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 75,
+              "missed": 0,
+              "coverage": 1.0,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f7e916870021680f21ba0418",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f810c0920b76afb8b8ca487e",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f84199195ae1f243a42f87a0",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f9088581b6cb409c0975ef84",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__fbca32110bf977c60cfbe65c",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__fcf80e46c1f36f89029968ba",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ff13d61c042e3d942d15b551",
+          "centerline_pixels": 0,
+          "models": {
+            "raw": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "neural_relaxation_control": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            },
+            "blue_aplus": {
+              "covered": 0,
+              "missed": 0,
+              "coverage": null,
+              "missed_fragments": 0,
+              "longest_missed_fragment_pixels": 0
+            }
+          }
+        }
+      ]
+    }
+  }
+}

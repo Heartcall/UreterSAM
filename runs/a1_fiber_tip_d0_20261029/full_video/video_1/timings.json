@@ -1,0 +1,5056 @@
+[
+  {
+    "pipeline_ms": 29.97549995779991,
+    "decode_ms": 17.707200022414327,
+    "render_encode_ms": 5.133899976499379,
+    "audit_and_mask_export_ms": 7.04799999948591,
+    "cycle_ms": 60.020399978384376
+  },
+  {
+    "pipeline_ms": 36.57609992660582,
+    "decode_ms": 0.3234000178053975,
+    "render_encode_ms": 2.4468000046908855,
+    "audit_and_mask_export_ms": 2.949699992313981,
+    "cycle_ms": 42.428100015968084
+  },
+  {
+    "pipeline_ms": 24.214399978518486,
+    "decode_ms": 0.30509999487549067,
+    "render_encode_ms": 1.8542000325396657,
+    "audit_and_mask_export_ms": 5.332599976100028,
+    "cycle_ms": 31.831800006330013
+  },
+  {
+    "pipeline_ms": 28.330900007858872,
+    "decode_ms": 0.2582999877631664,
+    "render_encode_ms": 1.8709000432863832,
+    "audit_and_mask_export_ms": 3.0559999868273735,
+    "cycle_ms": 33.62690005451441
+  },
+  {
+    "pipeline_ms": 22.755300044082105,
+    "decode_ms": 0.34030003007501364,
+    "render_encode_ms": 1.7656999407336116,
+    "audit_and_mask_export_ms": 2.564899972639978,
+    "cycle_ms": 27.552700019441545
+  },
+  {
+    "pipeline_ms": 35.72609997354448,
+    "decode_ms": 0.29120000544935465,
+    "render_encode_ms": 2.588900038972497,
+    "audit_and_mask_export_ms": 2.6986999437212944,
+    "cycle_ms": 41.4135999744758
+  },
+  {
+    "pipeline_ms": 35.96440004184842,
+    "decode_ms": 0.2742999931797385,
+    "render_encode_ms": 2.315600053407252,
+    "audit_and_mask_export_ms": 2.8602000093087554,
+    "cycle_ms": 41.53210006188601
+  },
+  {
+    "pipeline_ms": 35.81739997025579,
+    "decode_ms": 0.2994000678882003,
+    "render_encode_ms": 2.41380010265857,
+    "audit_and_mask_export_ms": 2.9941999819129705,
+    "cycle_ms": 41.641300078481436
+  },
+  {
+    "pipeline_ms": 25.51790000870824,
+    "decode_ms": 0.3298000665381551,
+    "render_encode_ms": 1.905200071632862,
+    "audit_and_mask_export_ms": 2.7950999792665243,
+    "cycle_ms": 30.66050005145371
+  },
+  {
+    "pipeline_ms": 26.298200013116002,
+    "decode_ms": 0.2973999362438917,
+    "render_encode_ms": 2.40320002194494,
+    "audit_and_mask_export_ms": 2.5415000272914767,
+    "cycle_ms": 31.6467999946326
+  },
+  {
+    "pipeline_ms": 30.337100033648312,
+    "decode_ms": 0.21440000273287296,
+    "render_encode_ms": 2.4917999980971217,
+    "audit_and_mask_export_ms": 2.8638000367209315,
+    "cycle_ms": 36.0145999584347
+  },
+  {
+    "pipeline_ms": 34.23660004045814,
+    "decode_ms": 0.19920000340789557,
+    "render_encode_ms": 2.3818000918254256,
+    "audit_and_mask_export_ms": 2.8681999538093805,
+    "cycle_ms": 39.79399998206645
+  },
+  {
+    "pipeline_ms": 34.29650003090501,
+    "decode_ms": 0.2756000030785799,
+    "render_encode_ms": 2.435700036585331,
+    "audit_and_mask_export_ms": 2.5000000605359674,
+    "cycle_ms": 39.615900022909045
+  },
+  {
+    "pipeline_ms": 22.971499944105744,
+    "decode_ms": 0.24300010409206152,
+    "render_encode_ms": 1.8310999730601907,
+    "audit_and_mask_export_ms": 2.7407000306993723,
+    "cycle_ms": 27.89420005865395
+  },
+  {
+    "pipeline_ms": 31.646299990825355,
+    "decode_ms": 0.26439991779625416,
+    "render_encode_ms": 1.9774999236688018,
+    "audit_and_mask_export_ms": 2.9633999802172184,
+    "cycle_ms": 36.972399917431176
+  },
+  {
+    "pipeline_ms": 39.58750003948808,
+    "decode_ms": 0.2940000267699361,
+    "render_encode_ms": 2.9678998980671167,
+    "audit_and_mask_export_ms": 2.5421000318601727,
+    "cycle_ms": 45.51520000677556
+  },
+  {
+    "pipeline_ms": 36.96779999881983,
+    "decode_ms": 0.27219997718930244,
+    "render_encode_ms": 2.8768000192940235,
+    "audit_and_mask_export_ms": 3.0288000125437975,
+    "cycle_ms": 43.28770004212856
+  },
+  {
+    "pipeline_ms": 32.9817000310868,
+    "decode_ms": 0.36010006442666054,
+    "render_encode_ms": 2.8863000916317105,
+    "audit_and_mask_export_ms": 2.8467999072745442,
+    "cycle_ms": 39.21239997725934
+  },
+  {
+    "pipeline_ms": 36.06489999219775,
+    "decode_ms": 0.2919000107795,
+    "render_encode_ms": 2.4893999798223376,
+    "audit_and_mask_export_ms": 3.333800006657839,
+    "cycle_ms": 42.30099997948855
+  },
+  {
+    "pipeline_ms": 26.71930007636547,
+    "decode_ms": 0.264400034211576,
+    "render_encode_ms": 2.4284999817609787,
+    "audit_and_mask_export_ms": 2.700400073081255,
+    "cycle_ms": 32.23860007710755
+  },
+  {
+    "pipeline_ms": 33.47090003080666,
+    "decode_ms": 0.30250009149312973,
+    "render_encode_ms": 2.3551000049337745,
+    "audit_and_mask_export_ms": 2.8481000335887074,
+    "cycle_ms": 39.098900044336915
+  },
+  {
+    "pipeline_ms": 27.172000030986965,
+    "decode_ms": 0.24069997016340494,
+    "render_encode_ms": 2.1551999961957335,
+    "audit_and_mask_export_ms": 2.274499973282218,
+    "cycle_ms": 31.951499986462295
+  },
+  {
+    "pipeline_ms": 20.956600084900856,
+    "decode_ms": 0.2207999350503087,
+    "render_encode_ms": 1.6966999974101782,
+    "audit_and_mask_export_ms": 2.3954000789672136,
+    "cycle_ms": 25.38420003838837
+  },
+  {
+    "pipeline_ms": 21.894599893130362,
+    "decode_ms": 0.20050001330673695,
+    "render_encode_ms": 1.8573000561445951,
+    "audit_and_mask_export_ms": 2.3753000423312187,
+    "cycle_ms": 26.41580009367317
+  },
+  {
+    "pipeline_ms": 30.620200093835592,
+    "decode_ms": 0.211200094781816,
+    "render_encode_ms": 2.3706000065431,
+    "audit_and_mask_export_ms": 2.628799993544817,
+    "cycle_ms": 35.93040001578629
+  },
+  {
+    "pipeline_ms": 25.26010002475232,
+    "decode_ms": 0.26220001745969057,
+    "render_encode_ms": 1.8420000560581684,
+    "audit_and_mask_export_ms": 2.3308999370783567,
+    "cycle_ms": 29.823499964550138
+  },
+  {
+    "pipeline_ms": 25.27780004311353,
+    "decode_ms": 0.2169000217691064,
+    "render_encode_ms": 2.2380000445991755,
+    "audit_and_mask_export_ms": 2.805700059980154,
+    "cycle_ms": 30.633500078693032
+  },
+  {
+    "pipeline_ms": 18.56300001963973,
+    "decode_ms": 0.23380003403872252,
+    "render_encode_ms": 2.202900010161102,
+    "audit_and_mask_export_ms": 2.4293999886140227,
+    "cycle_ms": 23.532800027169287
+  },
+  {
+    "pipeline_ms": 21.644199965521693,
+    "decode_ms": 0.23690005764365196,
+    "render_encode_ms": 2.460299991071224,
+    "audit_and_mask_export_ms": 2.962999977171421,
+    "cycle_ms": 27.41550002247095
+  },
+  {
+    "pipeline_ms": 19.399199984036386,
+    "decode_ms": 0.24079997092485428,
+    "render_encode_ms": 1.7495999345555902,
+    "audit_and_mask_export_ms": 2.823800081387162,
+    "cycle_ms": 24.32670001871884
+  },
+  {
+    "pipeline_ms": 30.391499982215464,
+    "decode_ms": 0.26510003954172134,
+    "render_encode_ms": 2.480400027707219,
+    "audit_and_mask_export_ms": 2.5809999788179994,
+    "cycle_ms": 35.82119999919087
+  },
+  {
+    "pipeline_ms": 34.35139998327941,
+    "decode_ms": 0.27020007837563753,
+    "render_encode_ms": 2.2273999638855457,
+    "audit_and_mask_export_ms": 2.5948999682441354,
+    "cycle_ms": 39.5528000080958
+  },
+  {
+    "pipeline_ms": 34.497000044211745,
+    "decode_ms": 0.4267999902367592,
+    "render_encode_ms": 2.413199981674552,
+    "audit_and_mask_export_ms": 5.7357000187039375,
+    "cycle_ms": 43.179200030863285
+  },
+  {
+    "pipeline_ms": 34.288099966943264,
+    "decode_ms": 0.2114999806508422,
+    "render_encode_ms": 2.398099983111024,
+    "audit_and_mask_export_ms": 2.427400089800358,
+    "cycle_ms": 39.458899991586804
+  },
+  {
+    "pipeline_ms": 18.328299978747964,
+    "decode_ms": 0.1898000482469797,
+    "render_encode_ms": 1.5999999595806003,
+    "audit_and_mask_export_ms": 5.72500005364418,
+    "cycle_ms": 25.941200088709593
+  },
+  {
+    "pipeline_ms": 33.98750000633299,
+    "decode_ms": 0.24999992456287146,
+    "render_encode_ms": 2.2205000277608633,
+    "audit_and_mask_export_ms": 3.1383999157696962,
+    "cycle_ms": 39.70629989635199
+  },
+  {
+    "pipeline_ms": 28.341999975964427,
+    "decode_ms": 0.25919999461621046,
+    "render_encode_ms": 1.8718999344855547,
+    "audit_and_mask_export_ms": 5.091500002890825,
+    "cycle_ms": 35.670600016601384
+  },
+  {
+    "pipeline_ms": 26.496100006625056,
+    "decode_ms": 0.18540001474320889,
+    "render_encode_ms": 2.2769999923184514,
+    "audit_and_mask_export_ms": 2.4707999546080828,
+    "cycle_ms": 31.52429999317974
+  },
+  {
+    "pipeline_ms": 18.871700041927397,
+    "decode_ms": 0.2036000369116664,
+    "render_encode_ms": 1.827400061301887,
+    "audit_and_mask_export_ms": 3.0131000094115734,
+    "cycle_ms": 24.02000001166016
+  },
+  {
+    "pipeline_ms": 34.81800004374236,
+    "decode_ms": 0.24129997473210096,
+    "render_encode_ms": 2.251500030979514,
+    "audit_and_mask_export_ms": 3.1307999743148685,
+    "cycle_ms": 40.55119992699474
+  },
+  {
+    "pipeline_ms": 33.1221999367699,
+    "decode_ms": 0.2707999665290117,
+    "render_encode_ms": 2.295800019055605,
+    "audit_and_mask_export_ms": 2.6768000097945333,
+    "cycle_ms": 38.46640000119805
+  },
+  {
+    "pipeline_ms": 33.132600015960634,
+    "decode_ms": 0.1813999842852354,
+    "render_encode_ms": 2.294000005349517,
+    "audit_and_mask_export_ms": 2.4136999854817986,
+    "cycle_ms": 38.116500014439225
+  },
+  {
+    "pipeline_ms": 18.186300061643124,
+    "decode_ms": 0.18909992650151253,
+    "render_encode_ms": 1.7334000440314412,
+    "audit_and_mask_export_ms": 2.656299970112741,
+    "cycle_ms": 22.853199974633753
+  },
+  {
+    "pipeline_ms": 22.67289999872446,
+    "decode_ms": 0.2571999793872237,
+    "render_encode_ms": 1.7530000768601894,
+    "audit_and_mask_export_ms": 2.5818999856710434,
+    "cycle_ms": 27.3769999621436
+  },
+  {
+    "pipeline_ms": 20.332999993115664,
+    "decode_ms": 0.215300009585917,
+    "render_encode_ms": 2.376900054514408,
+    "audit_and_mask_export_ms": 2.8559999773278832,
+    "cycle_ms": 25.894399965181947
+  },
+  {
+    "pipeline_ms": 36.07879998162389,
+    "decode_ms": 0.2742999931797385,
+    "render_encode_ms": 2.274499973282218,
+    "audit_and_mask_export_ms": 2.3784999502822757,
+    "cycle_ms": 41.12069995608181
+  },
+  {
+    "pipeline_ms": 20.8180999616161,
+    "decode_ms": 0.2778000198304653,
+    "render_encode_ms": 1.8041000002995133,
+    "audit_and_mask_export_ms": 2.624099957756698,
+    "cycle_ms": 25.651899981312454
+  },
+  {
+    "pipeline_ms": 34.47000007145107,
+    "decode_ms": 0.24189997930079699,
+    "render_encode_ms": 2.1090999944135547,
+    "audit_and_mask_export_ms": 2.827599993906915,
+    "cycle_ms": 39.762299973517656
+  },
+  {
+    "pipeline_ms": 33.88280002400279,
+    "decode_ms": 0.42619998566806316,
+    "render_encode_ms": 2.226000069640577,
+    "audit_and_mask_export_ms": 2.642099978402257,
+    "cycle_ms": 39.294600021094084
+  },
+  {
+    "pipeline_ms": 26.624699938111007,
+    "decode_ms": 0.24869991466403008,
+    "render_encode_ms": 1.8978000152856112,
+    "audit_and_mask_export_ms": 2.8841999592259526,
+    "cycle_ms": 31.75779990851879
+  },
+  {
+    "pipeline_ms": 19.98809992801398,
+    "decode_ms": 0.2490000333636999,
+    "render_encode_ms": 2.390399924479425,
+    "audit_and_mask_export_ms": 2.5381000014021993,
+    "cycle_ms": 25.272600003518164
+  },
+  {
+    "pipeline_ms": 35.787600092589855,
+    "decode_ms": 0.26460003573447466,
+    "render_encode_ms": 2.603700035251677,
+    "audit_and_mask_export_ms": 2.610999974422157,
+    "cycle_ms": 41.36919998563826
+  },
+  {
+    "pipeline_ms": 27.042899979278445,
+    "decode_ms": 0.23520004469901323,
+    "render_encode_ms": 2.342800027690828,
+    "audit_and_mask_export_ms": 2.3575000232085586,
+    "cycle_ms": 32.098300056532025
+  },
+  {
+    "pipeline_ms": 30.433000065386295,
+    "decode_ms": 0.25400007143616676,
+    "render_encode_ms": 2.4092000676319003,
+    "audit_and_mask_export_ms": 5.47159998677671,
+    "cycle_ms": 38.675200077705085
+  },
+  {
+    "pipeline_ms": 26.451800018548965,
+    "decode_ms": 0.24369999300688505,
+    "render_encode_ms": 1.8134000711143017,
+    "audit_and_mask_export_ms": 2.7944999746978283,
+    "cycle_ms": 31.41159994993359
+  },
+  {
+    "pipeline_ms": 28.987099998630583,
+    "decode_ms": 0.3100999165326357,
+    "render_encode_ms": 1.407700008712709,
+    "audit_and_mask_export_ms": 2.518800087273121,
+    "cycle_ms": 33.33170001860708
+  },
+  {
+    "pipeline_ms": 17.999800038523972,
+    "decode_ms": 0.2202000468969345,
+    "render_encode_ms": 1.4684000052511692,
+    "audit_and_mask_export_ms": 2.208600053563714,
+    "cycle_ms": 21.99480007402599
+  },
+  {
+    "pipeline_ms": 24.026600061915815,
+    "decode_ms": 0.2177999122068286,
+    "render_encode_ms": 1.342100091278553,
+    "audit_and_mask_export_ms": 2.425599959678948,
+    "cycle_ms": 28.127899975515902
+  },
+  {
+    "pipeline_ms": 20.2846999745816,
+    "decode_ms": 0.20539993420243263,
+    "render_encode_ms": 1.6831000102683902,
+    "audit_and_mask_export_ms": 2.736199996434152,
+    "cycle_ms": 25.011299992911518
+  },
+  {
+    "pipeline_ms": 32.890499918721616,
+    "decode_ms": 0.23879995569586754,
+    "render_encode_ms": 1.6391000244766474,
+    "audit_and_mask_export_ms": 2.8048999374732375,
+    "cycle_ms": 37.67499991226941
+  },
+  {
+    "pipeline_ms": 18.19580001756549,
+    "decode_ms": 0.18470000941306353,
+    "render_encode_ms": 1.2382999993860722,
+    "audit_and_mask_export_ms": 2.62229994405061,
+    "cycle_ms": 22.32470002491027
+  },
+  {
+    "pipeline_ms": 32.77449996676296,
+    "decode_ms": 0.23799994960427284,
+    "render_encode_ms": 1.6859000315889716,
+    "audit_and_mask_export_ms": 2.658099983818829,
+    "cycle_ms": 37.45910001453012
+  },
+  {
+    "pipeline_ms": 17.78350002132356,
+    "decode_ms": 0.19219995010644197,
+    "render_encode_ms": 1.3086999533697963,
+    "audit_and_mask_export_ms": 5.2510000532492995,
+    "cycle_ms": 24.62999999988824
+  },
+  {
+    "pipeline_ms": 18.406599992886186,
+    "decode_ms": 0.18900004215538502,
+    "render_encode_ms": 1.2960999738425016,
+    "audit_and_mask_export_ms": 2.6515000499784946,
+    "cycle_ms": 22.63620006851852
+  },
+  {
+    "pipeline_ms": 34.065800020471215,
+    "decode_ms": 0.23419992066919804,
+    "render_encode_ms": 1.8559000454843044,
+    "audit_and_mask_export_ms": 2.732299966737628,
+    "cycle_ms": 38.99019991513342
+  },
+  {
+    "pipeline_ms": 28.74600002542138,
+    "decode_ms": 0.2452000044286251,
+    "render_encode_ms": 1.5453000087291002,
+    "audit_and_mask_export_ms": 2.581199980340898,
+    "cycle_ms": 33.218099968507886
+  },
+  {
+    "pipeline_ms": 19.12620000075549,
+    "decode_ms": 0.22829999215900898,
+    "render_encode_ms": 1.3531999429687858,
+    "audit_and_mask_export_ms": 2.5914000580087304,
+    "cycle_ms": 23.398100049234927
+  },
+  {
+    "pipeline_ms": 33.35669997613877,
+    "decode_ms": 0.2906000008806586,
+    "render_encode_ms": 1.7399999778717756,
+    "audit_and_mask_export_ms": 2.7901000576093793,
+    "cycle_ms": 38.28159999102354
+  },
+  {
+    "pipeline_ms": 20.673300023190677,
+    "decode_ms": 0.21410000044852495,
+    "render_encode_ms": 1.384599949233234,
+    "audit_and_mask_export_ms": 2.4256999604403973,
+    "cycle_ms": 24.801299907267094
+  },
+  {
+    "pipeline_ms": 19.406900042667985,
+    "decode_ms": 0.2001000102609396,
+    "render_encode_ms": 1.3109000865370035,
+    "audit_and_mask_export_ms": 2.7720999205484986,
+    "cycle_ms": 23.786799982190132
+  },
+  {
+    "pipeline_ms": 33.714900026097894,
+    "decode_ms": 0.29120000544935465,
+    "render_encode_ms": 1.7724999925121665,
+    "audit_and_mask_export_ms": 2.7197999879717827,
+    "cycle_ms": 38.60750002786517
+  },
+  {
+    "pipeline_ms": 34.09620001912117,
+    "decode_ms": 0.26439991779625416,
+    "render_encode_ms": 1.748399925418198,
+    "audit_and_mask_export_ms": 5.814900039695203,
+    "cycle_ms": 42.026199982501566
+  },
+  {
+    "pipeline_ms": 27.799900039099157,
+    "decode_ms": 0.18009997438639402,
+    "render_encode_ms": 1.6989000141620636,
+    "audit_and_mask_export_ms": 4.8195000272244215,
+    "cycle_ms": 34.59379996638745
+  },
+  {
+    "pipeline_ms": 33.93050003796816,
+    "decode_ms": 0.18640002235770226,
+    "render_encode_ms": 1.754599972628057,
+    "audit_and_mask_export_ms": 2.384499995969236,
+    "cycle_ms": 38.359600002877414
+  },
+  {
+    "pipeline_ms": 28.791500022634864,
+    "decode_ms": 0.22499996703118086,
+    "render_encode_ms": 1.7769000260159373,
+    "audit_and_mask_export_ms": 2.3994999937713146,
+    "cycle_ms": 33.296999987214804
+  },
+  {
+    "pipeline_ms": 32.16879989486188,
+    "decode_ms": 0.21769991144537926,
+    "render_encode_ms": 1.715600024908781,
+    "audit_and_mask_export_ms": 2.760999952442944,
+    "cycle_ms": 36.97129990905523
+  },
+  {
+    "pipeline_ms": 25.434600072912872,
+    "decode_ms": 0.24820002727210522,
+    "render_encode_ms": 1.3511000433936715,
+    "audit_and_mask_export_ms": 5.2770000183954835,
+    "cycle_ms": 32.41870005149394
+  },
+  {
+    "pipeline_ms": 22.51879998948425,
+    "decode_ms": 0.1892999280244112,
+    "render_encode_ms": 1.4833000022917986,
+    "audit_and_mask_export_ms": 7.90590001270175,
+    "cycle_ms": 32.20109990797937
+  },
+  {
+    "pipeline_ms": 39.69699994195253,
+    "decode_ms": 0.37729996256530285,
+    "render_encode_ms": 2.1315000485628843,
+    "audit_and_mask_export_ms": 3.3253999426960945,
+    "cycle_ms": 45.67739996127784
+  },
+  {
+    "pipeline_ms": 26.68220002669841,
+    "decode_ms": 0.24159997701644897,
+    "render_encode_ms": 1.5368000604212284,
+    "audit_and_mask_export_ms": 6.124699953943491,
+    "cycle_ms": 34.707400016486645
+  },
+  {
+    "pipeline_ms": 32.931100111454725,
+    "decode_ms": 0.27790002059191465,
+    "render_encode_ms": 1.4663999900221825,
+    "audit_and_mask_export_ms": 2.7694000164046884,
+    "cycle_ms": 37.55859995726496
+  },
+  {
+    "pipeline_ms": 38.12609997112304,
+    "decode_ms": 0.27730001602321863,
+    "render_encode_ms": 1.984999980777502,
+    "audit_and_mask_export_ms": 2.7540000155568123,
+    "cycle_ms": 43.25510002672672
+  },
+  {
+    "pipeline_ms": 22.188200033269823,
+    "decode_ms": 0.28879998717457056,
+    "render_encode_ms": 1.4803000958636403,
+    "audit_and_mask_export_ms": 2.719899988733232,
+    "cycle_ms": 26.798499980941415
+  },
+  {
+    "pipeline_ms": 35.88270000182092,
+    "decode_ms": 0.2999999560415745,
+    "render_encode_ms": 1.8243000376969576,
+    "audit_and_mask_export_ms": 2.634100033901632,
+    "cycle_ms": 40.79020000062883
+  },
+  {
+    "pipeline_ms": 18.184300046414137,
+    "decode_ms": 0.24030008353292942,
+    "render_encode_ms": 1.4236000133678317,
+    "audit_and_mask_export_ms": 2.3244000039994717,
+    "cycle_ms": 22.288300096988678
+  },
+  {
+    "pipeline_ms": 18.185000051744282,
+    "decode_ms": 0.2028000308200717,
+    "render_encode_ms": 1.3293999945744872,
+    "audit_and_mask_export_ms": 2.6450000004842877,
+    "cycle_ms": 22.458699997514486
+  },
+  {
+    "pipeline_ms": 34.28110003005713,
+    "decode_ms": 0.2906000008806586,
+    "render_encode_ms": 1.811099937185645,
+    "audit_and_mask_export_ms": 2.4377000518143177,
+    "cycle_ms": 38.933200063183904
+  },
+  {
+    "pipeline_ms": 34.945999970659614,
+    "decode_ms": 0.1892999280244112,
+    "render_encode_ms": 1.7546999733895063,
+    "audit_and_mask_export_ms": 3.0724999960511923,
+    "cycle_ms": 40.06059991661459
+  },
+  {
+    "pipeline_ms": 37.06639993470162,
+    "decode_ms": 0.3282000543549657,
+    "render_encode_ms": 2.45939998421818,
+    "audit_and_mask_export_ms": 2.9011000879108906,
+    "cycle_ms": 42.88970003835857
+  },
+  {
+    "pipeline_ms": 36.184499971568584,
+    "decode_ms": 0.3060000017285347,
+    "render_encode_ms": 2.4251999566331506,
+    "audit_and_mask_export_ms": 2.7284000534564257,
+    "cycle_ms": 41.76720010582358
+  },
+  {
+    "pipeline_ms": 34.114700043573976,
+    "decode_ms": 0.341600039973855,
+    "render_encode_ms": 2.2846999345347285,
+    "audit_and_mask_export_ms": 2.3068999871611595,
+    "cycle_ms": 39.169800002127886
+  },
+  {
+    "pipeline_ms": 33.02690002601594,
+    "decode_ms": 0.20510004833340645,
+    "render_encode_ms": 1.7504999414086342,
+    "audit_and_mask_export_ms": 2.397799980826676,
+    "cycle_ms": 37.47149999253452
+  },
+  {
+    "pipeline_ms": 32.849500072188675,
+    "decode_ms": 0.19789999350905418,
+    "render_encode_ms": 1.3830999378114939,
+    "audit_and_mask_export_ms": 2.6105999713763595,
+    "cycle_ms": 37.11729997303337
+  },
+  {
+    "pipeline_ms": 35.80190008506179,
+    "decode_ms": 0.23610005155205727,
+    "render_encode_ms": 1.8213000148534775,
+    "audit_and_mask_export_ms": 2.654900075867772,
+    "cycle_ms": 40.6157000688836
+  },
+  {
+    "pipeline_ms": 19.93069995660335,
+    "decode_ms": 0.24620001204311848,
+    "render_encode_ms": 1.8262999365106225,
+    "audit_and_mask_export_ms": 2.7074000099673867,
+    "cycle_ms": 24.812699994072318
+  },
+  {
+    "pipeline_ms": 18.769899965263903,
+    "decode_ms": 0.36010006442666054,
+    "render_encode_ms": 1.4294000575318933,
+    "audit_and_mask_export_ms": 2.6983999414369464,
+    "cycle_ms": 23.36029999423772
+  },
+  {
+    "pipeline_ms": 34.305699984543025,
+    "decode_ms": 0.22819999139755964,
+    "render_encode_ms": 2.252000034786761,
+    "audit_and_mask_export_ms": 4.890099982731044,
+    "cycle_ms": 41.77200002595782
+  },
+  {
+    "pipeline_ms": 33.01350004039705,
+    "decode_ms": 0.19109994173049927,
+    "render_encode_ms": 2.395199961028993,
+    "audit_and_mask_export_ms": 2.68480007071048,
+    "cycle_ms": 38.39090000838041
+  },
+  {
+    "pipeline_ms": 29.988800059072673,
+    "decode_ms": 0.20920007955282927,
+    "render_encode_ms": 2.461399999447167,
+    "audit_and_mask_export_ms": 2.4785998975858092,
+    "cycle_ms": 35.240099998191
+  },
+  {
+    "pipeline_ms": 18.224800005555153,
+    "decode_ms": 0.19789999350905418,
+    "render_encode_ms": 1.855399925261736,
+    "audit_and_mask_export_ms": 3.1308000907301903,
+    "cycle_ms": 23.508500074967742
+  },
+  {
+    "pipeline_ms": 18.63120007328689,
+    "decode_ms": 0.17740007024258375,
+    "render_encode_ms": 1.3287001056596637,
+    "audit_and_mask_export_ms": 2.279799897223711,
+    "cycle_ms": 22.51609996892512
+  },
+  {
+    "pipeline_ms": 18.249699962325394,
+    "decode_ms": 0.2145000034943223,
+    "render_encode_ms": 1.3743999879807234,
+    "audit_and_mask_export_ms": 2.2508000256493688,
+    "cycle_ms": 22.193500073626637
+  },
+  {
+    "pipeline_ms": 28.049299959093332,
+    "decode_ms": 0.23770006373524666,
+    "render_encode_ms": 1.881999894976616,
+    "audit_and_mask_export_ms": 2.240000059828162,
+    "cycle_ms": 32.526400056667626
+  },
+  {
+    "pipeline_ms": 20.67300002090633,
+    "decode_ms": 0.2090999623760581,
+    "render_encode_ms": 1.5468000201508403,
+    "audit_and_mask_export_ms": 2.5749000487849116,
+    "cycle_ms": 25.092900032177567
+  },
+  {
+    "pipeline_ms": 34.35390000231564,
+    "decode_ms": 0.2104000886902213,
+    "render_encode_ms": 1.903100055642426,
+    "audit_and_mask_export_ms": 2.5357999838888645,
+    "cycle_ms": 39.10420008469373
+  },
+  {
+    "pipeline_ms": 17.806599964387715,
+    "decode_ms": 0.30780001543462276,
+    "render_encode_ms": 1.4888000441715121,
+    "audit_and_mask_export_ms": 2.6842999504879117,
+    "cycle_ms": 22.398600005544722
+  },
+  {
+    "pipeline_ms": 34.507500007748604,
+    "decode_ms": 0.24820002727210522,
+    "render_encode_ms": 1.8158999737352133,
+    "audit_and_mask_export_ms": 2.365000080317259,
+    "cycle_ms": 39.04160007368773
+  },
+  {
+    "pipeline_ms": 23.304399917833507,
+    "decode_ms": 0.23820006754249334,
+    "render_encode_ms": 2.48599995393306,
+    "audit_and_mask_export_ms": 2.4916999973356724,
+    "cycle_ms": 28.641600045375526
+  },
+  {
+    "pipeline_ms": 19.68599995598197,
+    "decode_ms": 0.2172000240534544,
+    "render_encode_ms": 2.352599985897541,
+    "audit_and_mask_export_ms": 2.4458999978378415,
+    "cycle_ms": 24.81219999026507
+  },
+  {
+    "pipeline_ms": 19.028799957595766,
+    "decode_ms": 0.22199994418770075,
+    "render_encode_ms": 1.9178000511601567,
+    "audit_and_mask_export_ms": 2.3271000245586038,
+    "cycle_ms": 23.603999987244606
+  },
+  {
+    "pipeline_ms": 35.265799961052835,
+    "decode_ms": 0.20649994257837534,
+    "render_encode_ms": 2.5439999299123883,
+    "audit_and_mask_export_ms": 3.0661000637337565,
+    "cycle_ms": 41.184699977748096
+  },
+  {
+    "pipeline_ms": 23.35749997291714,
+    "decode_ms": 0.2703999634832144,
+    "render_encode_ms": 1.8362000118941069,
+    "audit_and_mask_export_ms": 3.2318999292328954,
+    "cycle_ms": 28.808899922296405
+  },
+  {
+    "pipeline_ms": 31.576599925756454,
+    "decode_ms": 0.19489997066557407,
+    "render_encode_ms": 2.507900004275143,
+    "audit_and_mask_export_ms": 4.861599998548627,
+    "cycle_ms": 39.246900007128716
+  },
+  {
+    "pipeline_ms": 24.045199970714748,
+    "decode_ms": 0.21930004004389048,
+    "render_encode_ms": 1.8849000334739685,
+    "audit_and_mask_export_ms": 2.2761999862268567,
+    "cycle_ms": 28.542599990032613
+  },
+  {
+    "pipeline_ms": 28.029999928548932,
+    "decode_ms": 0.18989993259310722,
+    "render_encode_ms": 2.4205000372603536,
+    "audit_and_mask_export_ms": 3.0993999680504203,
+    "cycle_ms": 33.84429996367544
+  },
+  {
+    "pipeline_ms": 33.73579995241016,
+    "decode_ms": 0.23690005764365196,
+    "render_encode_ms": 2.5274999206885695,
+    "audit_and_mask_export_ms": 3.0814000638201833,
+    "cycle_ms": 39.72170001361519
+  },
+  {
+    "pipeline_ms": 22.378499968908727,
+    "decode_ms": 0.2805999247357249,
+    "render_encode_ms": 2.3465000558644533,
+    "audit_and_mask_export_ms": 2.6208999333903193,
+    "cycle_ms": 27.77119993697852
+  },
+  {
+    "pipeline_ms": 31.888199970126152,
+    "decode_ms": 0.2218000590801239,
+    "render_encode_ms": 2.324499888345599,
+    "audit_and_mask_export_ms": 2.6319000171497464,
+    "cycle_ms": 37.17729996424168
+  },
+  {
+    "pipeline_ms": 33.42770005110651,
+    "decode_ms": 0.20590005442500114,
+    "render_encode_ms": 2.4144999915733933,
+    "audit_and_mask_export_ms": 2.4521000450477004,
+    "cycle_ms": 38.606900023296475
+  },
+  {
+    "pipeline_ms": 18.77810002770275,
+    "decode_ms": 0.19189994782209396,
+    "render_encode_ms": 1.8593999557197094,
+    "audit_and_mask_export_ms": 2.5242000119760633,
+    "cycle_ms": 23.453300003893673
+  },
+  {
+    "pipeline_ms": 23.28040008433163,
+    "decode_ms": 0.19569997675716877,
+    "render_encode_ms": 4.640699946321547,
+    "audit_and_mask_export_ms": 2.4770000018179417,
+    "cycle_ms": 30.706499936059117
+  },
+  {
+    "pipeline_ms": 22.55450002849102,
+    "decode_ms": 0.21980004385113716,
+    "render_encode_ms": 1.7815000610426068,
+    "audit_and_mask_export_ms": 2.3802999639883637,
+    "cycle_ms": 27.059199986979365
+  },
+  {
+    "pipeline_ms": 19.639599951915443,
+    "decode_ms": 0.20350003615021706,
+    "render_encode_ms": 1.8130999524146318,
+    "audit_and_mask_export_ms": 2.8493000427260995,
+    "cycle_ms": 24.620300042442977
+  },
+  {
+    "pipeline_ms": 34.936900017783046,
+    "decode_ms": 0.2672000555321574,
+    "render_encode_ms": 2.3433000314980745,
+    "audit_and_mask_export_ms": 2.4532999377697706,
+    "cycle_ms": 40.12010002043098
+  },
+  {
+    "pipeline_ms": 26.38589998241514,
+    "decode_ms": 0.19649998284876347,
+    "render_encode_ms": 2.5024000788107514,
+    "audit_and_mask_export_ms": 2.803599927574396,
+    "cycle_ms": 31.99389996007085
+  },
+  {
+    "pipeline_ms": 34.352999995462596,
+    "decode_ms": 0.31100003980100155,
+    "render_encode_ms": 2.349899965338409,
+    "audit_and_mask_export_ms": 2.5913999415934086,
+    "cycle_ms": 39.71759998239577
+  },
+  {
+    "pipeline_ms": 33.310299972072244,
+    "decode_ms": 0.25759998243302107,
+    "render_encode_ms": 2.328600035980344,
+    "audit_and_mask_export_ms": 2.346899942494929,
+    "cycle_ms": 38.34660002030432
+  },
+  {
+    "pipeline_ms": 19.52319999691099,
+    "decode_ms": 0.21650001872330904,
+    "render_encode_ms": 2.31440004426986,
+    "audit_and_mask_export_ms": 2.8805999318137765,
+    "cycle_ms": 25.03439993597567
+  },
+  {
+    "pipeline_ms": 26.02740004658699,
+    "decode_ms": 0.2742999931797385,
+    "render_encode_ms": 2.3182000732049346,
+    "audit_and_mask_export_ms": 2.632100018672645,
+    "cycle_ms": 31.366000068373978
+  },
+  {
+    "pipeline_ms": 19.871499971486628,
+    "decode_ms": 0.20000000949949026,
+    "render_encode_ms": 2.33220006339252,
+    "audit_and_mask_export_ms": 2.7453999500721693,
+    "cycle_ms": 25.24840005207807
+  },
+  {
+    "pipeline_ms": 33.511599991470575,
+    "decode_ms": 0.2660999307408929,
+    "render_encode_ms": 2.3356000892817974,
+    "audit_and_mask_export_ms": 2.31859995983541,
+    "cycle_ms": 38.5410999879241
+  },
+  {
+    "pipeline_ms": 22.685599979013205,
+    "decode_ms": 0.18809991888701916,
+    "render_encode_ms": 2.359599922783673,
+    "audit_and_mask_export_ms": 2.7887000469490886,
+    "cycle_ms": 28.111599967814982
+  },
+  {
+    "pipeline_ms": 17.682199948467314,
+    "decode_ms": 0.188700039871037,
+    "render_encode_ms": 1.7997999675571918,
+    "audit_and_mask_export_ms": 2.306999987922609,
+    "cycle_ms": 22.070999955758452
+  },
+  {
+    "pipeline_ms": 18.127899966202676,
+    "decode_ms": 0.20869995933026075,
+    "render_encode_ms": 1.8029999919235706,
+    "audit_and_mask_export_ms": 2.237900043837726,
+    "cycle_ms": 22.477800026535988
+  },
+  {
+    "pipeline_ms": 28.850500006228685,
+    "decode_ms": 0.19329995848238468,
+    "render_encode_ms": 2.31409992557019,
+    "audit_and_mask_export_ms": 2.657600096426904,
+    "cycle_ms": 34.097100025974214
+  },
+  {
+    "pipeline_ms": 35.2207999676466,
+    "decode_ms": 0.2416000934317708,
+    "render_encode_ms": 2.3991999914869666,
+    "audit_and_mask_export_ms": 2.7288999408483505,
+    "cycle_ms": 40.695999981835485
+  },
+  {
+    "pipeline_ms": 18.22649990208447,
+    "decode_ms": 0.26110000908374786,
+    "render_encode_ms": 2.496400033123791,
+    "audit_and_mask_export_ms": 2.4621000047773123,
+    "cycle_ms": 23.55150005314499
+  },
+  {
+    "pipeline_ms": 18.259800039231777,
+    "decode_ms": 0.1996000064536929,
+    "render_encode_ms": 1.9014000426977873,
+    "audit_and_mask_export_ms": 2.199099981226027,
+    "cycle_ms": 22.669199970550835
+  },
+  {
+    "pipeline_ms": 29.21139996033162,
+    "decode_ms": 0.18889992497861385,
+    "render_encode_ms": 2.370700007304549,
+    "audit_and_mask_export_ms": 2.7045999886468053,
+    "cycle_ms": 34.56980001647025
+  },
+  {
+    "pipeline_ms": 17.603600048460066,
+    "decode_ms": 0.19860011525452137,
+    "render_encode_ms": 1.812900067307055,
+    "audit_and_mask_export_ms": 3.0476999236270785,
+    "cycle_ms": 22.76500000152737
+  },
+  {
+    "pipeline_ms": 27.179499971680343,
+    "decode_ms": 0.19290007185190916,
+    "render_encode_ms": 2.417700015939772,
+    "audit_and_mask_export_ms": 2.373300027102232,
+    "cycle_ms": 32.26930007804185
+  },
+  {
+    "pipeline_ms": 33.44449994619936,
+    "decode_ms": 0.20370003767311573,
+    "render_encode_ms": 2.338099991902709,
+    "audit_and_mask_export_ms": 2.3358999751508236,
+    "cycle_ms": 38.424900034442544
+  },
+  {
+    "pipeline_ms": 18.534100032411516,
+    "decode_ms": 0.23520004469901323,
+    "render_encode_ms": 1.824700040742755,
+    "audit_and_mask_export_ms": 4.727100022137165,
+    "cycle_ms": 25.41430003475398
+  },
+  {
+    "pipeline_ms": 31.61890001501888,
+    "decode_ms": 0.23129989858716726,
+    "render_encode_ms": 2.2954000160098076,
+    "audit_and_mask_export_ms": 2.6711999671533704,
+    "cycle_ms": 36.93039994686842
+  },
+  {
+    "pipeline_ms": 18.416200065985322,
+    "decode_ms": 0.2172000240534544,
+    "render_encode_ms": 1.816699979826808,
+    "audit_and_mask_export_ms": 2.4281999794766307,
+    "cycle_ms": 22.976999985985458
+  },
+  {
+    "pipeline_ms": 18.73650006018579,
+    "decode_ms": 0.22419996093958616,
+    "render_encode_ms": 1.7905000131577253,
+    "audit_and_mask_export_ms": 2.307599992491305,
+    "cycle_ms": 23.17389997188002
+  },
+  {
+    "pipeline_ms": 34.508700016885996,
+    "decode_ms": 0.24860003031790257,
+    "render_encode_ms": 2.4069000501185656,
+    "audit_and_mask_export_ms": 3.0901000136509538,
+    "cycle_ms": 40.34900001715869
+  },
+  {
+    "pipeline_ms": 33.655399922281504,
+    "decode_ms": 0.24749990552663803,
+    "render_encode_ms": 2.3859000066295266,
+    "audit_and_mask_export_ms": 2.6160000124946237,
+    "cycle_ms": 39.02579995337874
+  },
+  {
+    "pipeline_ms": 33.65769993979484,
+    "decode_ms": 0.22329995408654213,
+    "render_encode_ms": 2.4426999734714627,
+    "audit_and_mask_export_ms": 2.7689000125974417,
+    "cycle_ms": 39.194899960421026
+  },
+  {
+    "pipeline_ms": 23.176999995484948,
+    "decode_ms": 0.2620000159367919,
+    "render_encode_ms": 1.7737000016495585,
+    "audit_and_mask_export_ms": 2.574299927800894,
+    "cycle_ms": 27.897399966605008
+  },
+  {
+    "pipeline_ms": 34.69280002173036,
+    "decode_ms": 0.2375999465584755,
+    "render_encode_ms": 2.418300020508468,
+    "audit_and_mask_export_ms": 2.4473000084981322,
+    "cycle_ms": 39.915099972859025
+  },
+  {
+    "pipeline_ms": 28.025100007653236,
+    "decode_ms": 0.24750002194195986,
+    "render_encode_ms": 1.8632999854162335,
+    "audit_and_mask_export_ms": 2.449300023727119,
+    "cycle_ms": 32.72320004180074
+  },
+  {
+    "pipeline_ms": 29.625099967233837,
+    "decode_ms": 0.2337999176234007,
+    "render_encode_ms": 2.382099977694452,
+    "audit_and_mask_export_ms": 2.265600021928549,
+    "cycle_ms": 34.60259991697967
+  },
+  {
+    "pipeline_ms": 28.86770002078265,
+    "decode_ms": 0.18400000408291817,
+    "render_encode_ms": 2.3563000140711665,
+    "audit_and_mask_export_ms": 2.91119993198663,
+    "cycle_ms": 34.40889995545149
+  },
+  {
+    "pipeline_ms": 34.095600014552474,
+    "decode_ms": 0.27840002439916134,
+    "render_encode_ms": 2.3874000180512667,
+    "audit_and_mask_export_ms": 2.499599941074848,
+    "cycle_ms": 39.36719999182969
+  },
+  {
+    "pipeline_ms": 18.32330005709082,
+    "decode_ms": 0.22479996550828218,
+    "render_encode_ms": 2.3724999045953155,
+    "audit_and_mask_export_ms": 4.369300091639161,
+    "cycle_ms": 25.38740006275475
+  },
+  {
+    "pipeline_ms": 28.793300036340952,
+    "decode_ms": 0.26270002126693726,
+    "render_encode_ms": 2.471399959176779,
+    "audit_and_mask_export_ms": 2.6500000385567546,
+    "cycle_ms": 34.30420008953661
+  },
+  {
+    "pipeline_ms": 18.662899965420365,
+    "decode_ms": 0.22520008496940136,
+    "render_encode_ms": 1.9323000451549888,
+    "audit_and_mask_export_ms": 2.5620999513193965,
+    "cycle_ms": 23.488800041377544
+  },
+  {
+    "pipeline_ms": 33.822799916379154,
+    "decode_ms": 0.2848999574780464,
+    "render_encode_ms": 2.314700046554208,
+    "audit_and_mask_export_ms": 2.88759998511523,
+    "cycle_ms": 39.430500008165836
+  },
+  {
+    "pipeline_ms": 19.120700075291097,
+    "decode_ms": 0.25349995121359825,
+    "render_encode_ms": 1.7949000466614962,
+    "audit_and_mask_export_ms": 2.683600061573088,
+    "cycle_ms": 23.958700010553002
+  },
+  {
+    "pipeline_ms": 29.256400070153177,
+    "decode_ms": 0.23470004089176655,
+    "render_encode_ms": 1.8828000174835324,
+    "audit_and_mask_export_ms": 2.333299955353141,
+    "cycle_ms": 33.81719999015331
+  },
+  {
+    "pipeline_ms": 20.896899979561567,
+    "decode_ms": 0.18780003301799297,
+    "render_encode_ms": 1.9622000399976969,
+    "audit_and_mask_export_ms": 2.392199938185513,
+    "cycle_ms": 25.531799998134375
+  },
+  {
+    "pipeline_ms": 26.822199928574264,
+    "decode_ms": 0.23500004317611456,
+    "render_encode_ms": 2.304999972693622,
+    "audit_and_mask_export_ms": 2.9100000392645597,
+    "cycle_ms": 32.37370005808771
+  },
+  {
+    "pipeline_ms": 33.23120006825775,
+    "decode_ms": 0.2867000875994563,
+    "render_encode_ms": 1.908999984152615,
+    "audit_and_mask_export_ms": 2.9338999884203076,
+    "cycle_ms": 38.47450006287545
+  },
+  {
+    "pipeline_ms": 34.67399999499321,
+    "decode_ms": 0.2663999330252409,
+    "render_encode_ms": 2.4292999878525734,
+    "audit_and_mask_export_ms": 2.8698000824078918,
+    "cycle_ms": 40.34990002401173
+  },
+  {
+    "pipeline_ms": 34.7806999925524,
+    "decode_ms": 0.25919999461621046,
+    "render_encode_ms": 2.534800092689693,
+    "audit_and_mask_export_ms": 2.43859994225204,
+    "cycle_ms": 40.121200028806925
+  },
+  {
+    "pipeline_ms": 31.064099981449544,
+    "decode_ms": 0.19890000112354755,
+    "render_encode_ms": 2.4933000095188618,
+    "audit_and_mask_export_ms": 2.6434999890625477,
+    "cycle_ms": 36.49460000451654
+  },
+  {
+    "pipeline_ms": 27.05989999230951,
+    "decode_ms": 0.20979996770620346,
+    "render_encode_ms": 2.635400043800473,
+    "audit_and_mask_export_ms": 3.173799952492118,
+    "cycle_ms": 33.18049991503358
+  },
+  {
+    "pipeline_ms": 35.30809993389994,
+    "decode_ms": 0.24480000138282776,
+    "render_encode_ms": 2.4372999323531985,
+    "audit_and_mask_export_ms": 2.4554000701755285,
+    "cycle_ms": 40.55660008452833
+  },
+  {
+    "pipeline_ms": 27.169100008904934,
+    "decode_ms": 0.20890007726848125,
+    "render_encode_ms": 1.88920006621629,
+    "audit_and_mask_export_ms": 2.7614999562501907,
+    "cycle_ms": 32.17010002117604
+  },
+  {
+    "pipeline_ms": 34.43360002711415,
+    "decode_ms": 0.2861999673768878,
+    "render_encode_ms": 2.5369999930262566,
+    "audit_and_mask_export_ms": 2.4227999383583665,
+    "cycle_ms": 39.79439998511225
+  },
+  {
+    "pipeline_ms": 21.47450007032603,
+    "decode_ms": 0.1938999630510807,
+    "render_encode_ms": 2.531200065277517,
+    "audit_and_mask_export_ms": 3.1878999434411526,
+    "cycle_ms": 27.484099962748587
+  },
+  {
+    "pipeline_ms": 22.042799973860383,
+    "decode_ms": 0.1981999957934022,
+    "render_encode_ms": 2.128200023435056,
+    "audit_and_mask_export_ms": 2.574100042693317,
+    "cycle_ms": 27.0499000325799
+  },
+  {
+    "pipeline_ms": 22.657599998638034,
+    "decode_ms": 0.20869995933026075,
+    "render_encode_ms": 2.1838999819010496,
+    "audit_and_mask_export_ms": 2.474999986588955,
+    "cycle_ms": 27.630599914118648
+  },
+  {
+    "pipeline_ms": 34.9595999578014,
+    "decode_ms": 0.1981999957934022,
+    "render_encode_ms": 2.462900010868907,
+    "audit_and_mask_export_ms": 2.8844999615103006,
+    "cycle_ms": 40.60890001710504
+  },
+  {
+    "pipeline_ms": 19.936800003051758,
+    "decode_ms": 0.2332000294700265,
+    "render_encode_ms": 1.7111999914050102,
+    "audit_and_mask_export_ms": 2.5544000091031194,
+    "cycle_ms": 24.544999934732914
+  },
+  {
+    "pipeline_ms": 33.17419998347759,
+    "decode_ms": 0.22390007507055998,
+    "render_encode_ms": 2.4991000536829233,
+    "audit_and_mask_export_ms": 2.317399950698018,
+    "cycle_ms": 38.326899986714125
+  },
+  {
+    "pipeline_ms": 29.76529998704791,
+    "decode_ms": 0.19040005281567574,
+    "render_encode_ms": 2.4519999278709292,
+    "audit_and_mask_export_ms": 2.88909999653697,
+    "cycle_ms": 35.388599964790046
+  },
+  {
+    "pipeline_ms": 36.03509999811649,
+    "decode_ms": 0.24940003640949726,
+    "render_encode_ms": 2.4880999699234962,
+    "audit_and_mask_export_ms": 2.4664000375196338,
+    "cycle_ms": 41.346700047142804
+  },
+  {
+    "pipeline_ms": 26.835200027562678,
+    "decode_ms": 0.22359995637089014,
+    "render_encode_ms": 2.52169999293983,
+    "audit_and_mask_export_ms": 2.9426999390125275,
+    "cycle_ms": 32.629699911922216
+  },
+  {
+    "pipeline_ms": 34.193200059235096,
+    "decode_ms": 0.26430003345012665,
+    "render_encode_ms": 2.3666000925004482,
+    "audit_and_mask_export_ms": 2.7915999526157975,
+    "cycle_ms": 39.72200001589954
+  },
+  {
+    "pipeline_ms": 36.217199987731874,
+    "decode_ms": 0.2606000052765012,
+    "render_encode_ms": 2.4692999431863427,
+    "audit_and_mask_export_ms": 2.572600031271577,
+    "cycle_ms": 41.631000000052154
+  },
+  {
+    "pipeline_ms": 23.61090003978461,
+    "decode_ms": 0.24399999529123306,
+    "render_encode_ms": 1.5551999676972628,
+    "audit_and_mask_export_ms": 2.6551999617367983,
+    "cycle_ms": 28.197299921885133
+  },
+  {
+    "pipeline_ms": 36.731099942699075,
+    "decode_ms": 0.2837000647559762,
+    "render_encode_ms": 2.0379999186843634,
+    "audit_and_mask_export_ms": 3.4840001026168466,
+    "cycle_ms": 42.65010007657111
+  },
+  {
+    "pipeline_ms": 32.65220008324832,
+    "decode_ms": 0.33320009242743254,
+    "render_encode_ms": 1.7652000533416867,
+    "audit_and_mask_export_ms": 2.3991999914869666,
+    "cycle_ms": 37.28460008278489
+  },
+  {
+    "pipeline_ms": 29.78330000769347,
+    "decode_ms": 0.2457000082358718,
+    "render_encode_ms": 1.665899995714426,
+    "audit_and_mask_export_ms": 2.7230000123381615,
+    "cycle_ms": 34.50760000851005
+  },
+  {
+    "pipeline_ms": 35.901600029319525,
+    "decode_ms": 0.23650005459785461,
+    "render_encode_ms": 1.9922999199479818,
+    "audit_and_mask_export_ms": 2.7863000286743045,
+    "cycle_ms": 41.02090001106262
+  },
+  {
+    "pipeline_ms": 36.307299975305796,
+    "decode_ms": 0.28819998260587454,
+    "render_encode_ms": 2.175500034354627,
+    "audit_and_mask_export_ms": 2.7805999852716923,
+    "cycle_ms": 41.66460002306849
+  },
+  {
+    "pipeline_ms": 31.97010001167655,
+    "decode_ms": 0.28819998260587454,
+    "render_encode_ms": 1.4428000431507826,
+    "audit_and_mask_export_ms": 2.402600017376244,
+    "cycle_ms": 36.227499949745834
+  },
+  {
+    "pipeline_ms": 24.322399985976517,
+    "decode_ms": 0.21790002938359976,
+    "render_encode_ms": 1.5924999024719,
+    "audit_and_mask_export_ms": 2.7351001044735312,
+    "cycle_ms": 28.97580002900213
+  },
+  {
+    "pipeline_ms": 27.752700028941035,
+    "decode_ms": 0.2750999992713332,
+    "render_encode_ms": 2.0451999735087156,
+    "audit_and_mask_export_ms": 2.4207999231293797,
+    "cycle_ms": 32.6084999833256
+  },
+  {
+    "pipeline_ms": 40.61050002928823,
+    "decode_ms": 0.20800007041543722,
+    "render_encode_ms": 2.026399946771562,
+    "audit_and_mask_export_ms": 2.9592999489977956,
+    "cycle_ms": 45.909899985417724
+  },
+  {
+    "pipeline_ms": 35.86770000401884,
+    "decode_ms": 0.2490000333636999,
+    "render_encode_ms": 2.9482999816536903,
+    "audit_and_mask_export_ms": 3.0212000710889697,
+    "cycle_ms": 42.20490006264299
+  },
+  {
+    "pipeline_ms": 41.56939999666065,
+    "decode_ms": 0.29000011272728443,
+    "render_encode_ms": 4.060200066305697,
+    "audit_and_mask_export_ms": 3.693799953907728,
+    "cycle_ms": 49.73930004052818
+  },
+  {
+    "pipeline_ms": 40.175799978896976,
+    "decode_ms": 0.3765999572351575,
+    "render_encode_ms": 2.665499923750758,
+    "audit_and_mask_export_ms": 2.5652999756857753,
+    "cycle_ms": 45.93429993838072
+  },
+  {
+    "pipeline_ms": 37.22950001247227,
+    "decode_ms": 0.21510000806301832,
+    "render_encode_ms": 2.8301000129431486,
+    "audit_and_mask_export_ms": 2.7622999623417854,
+    "cycle_ms": 43.149400036782026
+  },
+  {
+    "pipeline_ms": 27.367600006982684,
+    "decode_ms": 0.3081000177189708,
+    "render_encode_ms": 2.7739000506699085,
+    "audit_and_mask_export_ms": 2.8516999445855618,
+    "cycle_ms": 33.427099930122495
+  },
+  {
+    "pipeline_ms": 25.909500080160797,
+    "decode_ms": 0.25779998395591974,
+    "render_encode_ms": 2.497999928891659,
+    "audit_and_mask_export_ms": 2.7048999909311533,
+    "cycle_ms": 31.478499993681908
+  },
+  {
+    "pipeline_ms": 24.64799990411848,
+    "decode_ms": 0.34929998219013214,
+    "render_encode_ms": 2.687899977900088,
+    "audit_and_mask_export_ms": 2.9854000313207507,
+    "cycle_ms": 30.776700004935265
+  },
+  {
+    "pipeline_ms": 25.27589991223067,
+    "decode_ms": 0.2506999298930168,
+    "render_encode_ms": 2.0126999588683248,
+    "audit_and_mask_export_ms": 2.9582000570371747,
+    "cycle_ms": 30.60830000322312
+  },
+  {
+    "pipeline_ms": 34.377100062556565,
+    "decode_ms": 0.28689997270703316,
+    "render_encode_ms": 2.309699892066419,
+    "audit_and_mask_export_ms": 2.508100005798042,
+    "cycle_ms": 39.593399967998266
+  },
+  {
+    "pipeline_ms": 25.246000033803284,
+    "decode_ms": 0.19170006271451712,
+    "render_encode_ms": 2.3267000215128064,
+    "audit_and_mask_export_ms": 2.8218000661581755,
+    "cycle_ms": 30.692600063048303
+  },
+  {
+    "pipeline_ms": 37.13519999291748,
+    "decode_ms": 0.22810010705143213,
+    "render_encode_ms": 2.450200030580163,
+    "audit_and_mask_export_ms": 2.5377999991178513,
+    "cycle_ms": 42.46770008467138
+  },
+  {
+    "pipeline_ms": 29.276099987328053,
+    "decode_ms": 0.23999996483325958,
+    "render_encode_ms": 2.517299959436059,
+    "audit_and_mask_export_ms": 3.0397999798879027,
+    "cycle_ms": 35.18209990579635
+  },
+  {
+    "pipeline_ms": 22.103399969637394,
+    "decode_ms": 0.26840006466954947,
+    "render_encode_ms": 2.1161999320611358,
+    "audit_and_mask_export_ms": 2.424800070002675,
+    "cycle_ms": 27.02310006134212
+  },
+  {
+    "pipeline_ms": 20.539000048302114,
+    "decode_ms": 0.24839991237968206,
+    "render_encode_ms": 2.494500018656254,
+    "audit_and_mask_export_ms": 2.7311000740155578,
+    "cycle_ms": 26.12639998551458
+  },
+  {
+    "pipeline_ms": 21.29329997114837,
+    "decode_ms": 0.2335000317543745,
+    "render_encode_ms": 1.8367000157013535,
+    "audit_and_mask_export_ms": 2.8898000018671155,
+    "cycle_ms": 26.36220003478229
+  },
+  {
+    "pipeline_ms": 37.0771000161767,
+    "decode_ms": 0.24730002041906118,
+    "render_encode_ms": 2.3975000949576497,
+    "audit_and_mask_export_ms": 3.0499999411404133,
+    "cycle_ms": 42.881199973635375
+  },
+  {
+    "pipeline_ms": 37.71609999239445,
+    "decode_ms": 0.29660004656761885,
+    "render_encode_ms": 2.3619000567123294,
+    "audit_and_mask_export_ms": 2.559299929998815,
+    "cycle_ms": 43.050399981439114
+  },
+  {
+    "pipeline_ms": 25.339000043459237,
+    "decode_ms": 0.21810003090649843,
+    "render_encode_ms": 2.560200053267181,
+    "audit_and_mask_export_ms": 2.2806000197306275,
+    "cycle_ms": 30.503000016324222
+  },
+  {
+    "pipeline_ms": 29.206600040197372,
+    "decode_ms": 0.20599993877112865,
+    "render_encode_ms": 2.4124999763444066,
+    "audit_and_mask_export_ms": 2.7691000141203403,
+    "cycle_ms": 34.687899984419346
+  },
+  {
+    "pipeline_ms": 36.842400091700256,
+    "decode_ms": 0.29889994766563177,
+    "render_encode_ms": 2.4048000341281295,
+    "audit_and_mask_export_ms": 2.758899936452508,
+    "cycle_ms": 42.41509991697967
+  },
+  {
+    "pipeline_ms": 22.370200022123754,
+    "decode_ms": 0.2063000574707985,
+    "render_encode_ms": 2.2094999440014362,
+    "audit_and_mask_export_ms": 2.7484000893309712,
+    "cycle_ms": 27.649400057271123
+  },
+  {
+    "pipeline_ms": 35.19269998650998,
+    "decode_ms": 0.2744999947026372,
+    "render_encode_ms": 2.543700044043362,
+    "audit_and_mask_export_ms": 3.1904999632388353,
+    "cycle_ms": 41.313900030218065
+  },
+  {
+    "pipeline_ms": 34.228799981065094,
+    "decode_ms": 0.21410000044852495,
+    "render_encode_ms": 1.9841999746859074,
+    "audit_and_mask_export_ms": 3.010600106790662,
+    "cycle_ms": 39.54410005826503
+  },
+  {
+    "pipeline_ms": 24.982500006444752,
+    "decode_ms": 0.2519000554457307,
+    "render_encode_ms": 2.3987999884411693,
+    "audit_and_mask_export_ms": 2.6404999662190676,
+    "cycle_ms": 30.38320003543049
+  },
+  {
+    "pipeline_ms": 33.09160005301237,
+    "decode_ms": 0.25209994055330753,
+    "render_encode_ms": 1.898899907246232,
+    "audit_and_mask_export_ms": 2.890900010243058,
+    "cycle_ms": 38.24579995125532
+  },
+  {
+    "pipeline_ms": 29.968000017106533,
+    "decode_ms": 0.2234999556094408,
+    "render_encode_ms": 2.408799948170781,
+    "audit_and_mask_export_ms": 2.71569995675236,
+    "cycle_ms": 35.41909996420145
+  },
+  {
+    "pipeline_ms": 23.899400024674833,
+    "decode_ms": 0.24279998615384102,
+    "render_encode_ms": 1.9123000092804432,
+    "audit_and_mask_export_ms": 2.839599968865514,
+    "cycle_ms": 29.013799969106913
+  },
+  {
+    "pipeline_ms": 28.90940010547638,
+    "decode_ms": 0.33469998743385077,
+    "render_encode_ms": 2.1262000082060695,
+    "audit_and_mask_export_ms": 2.496300032362342,
+    "cycle_ms": 33.99150003679097
+  },
+  {
+    "pipeline_ms": 25.441000005230308,
+    "decode_ms": 0.22579997312277555,
+    "render_encode_ms": 2.104800078086555,
+    "audit_and_mask_export_ms": 2.779599977657199,
+    "cycle_ms": 30.653199995867908
+  },
+  {
+    "pipeline_ms": 28.926300001330674,
+    "decode_ms": 0.2473999047651887,
+    "render_encode_ms": 2.1111000096425414,
+    "audit_and_mask_export_ms": 2.38840002566576,
+    "cycle_ms": 33.78900000825524
+  },
+  {
+    "pipeline_ms": 18.553600064478815,
+    "decode_ms": 0.21600001491606236,
+    "render_encode_ms": 1.70519994571805,
+    "audit_and_mask_export_ms": 2.7287000557407737,
+    "cycle_ms": 23.29710009507835
+  },
+  {
+    "pipeline_ms": 25.244100019335747,
+    "decode_ms": 0.2530000638216734,
+    "render_encode_ms": 2.05629994161427,
+    "audit_and_mask_export_ms": 2.7405000291764736,
+    "cycle_ms": 30.397100024856627
+  },
+  {
+    "pipeline_ms": 29.35820003040135,
+    "decode_ms": 0.21580001339316368,
+    "render_encode_ms": 1.981099951080978,
+    "audit_and_mask_export_ms": 2.5405000196769834,
+    "cycle_ms": 34.20320001896471
+  },
+  {
+    "pipeline_ms": 31.354300095699728,
+    "decode_ms": 0.20519993267953396,
+    "render_encode_ms": 1.9949000561609864,
+    "audit_and_mask_export_ms": 2.3925999412313104,
+    "cycle_ms": 36.0454999608919
+  },
+  {
+    "pipeline_ms": 34.546100068837404,
+    "decode_ms": 0.26220001745969057,
+    "render_encode_ms": 2.3695999989286065,
+    "audit_and_mask_export_ms": 2.9015999753028154,
+    "cycle_ms": 40.179000003263354
+  },
+  {
+    "pipeline_ms": 34.129099920392036,
+    "decode_ms": 0.2544999588280916,
+    "render_encode_ms": 2.3378999903798103,
+    "audit_and_mask_export_ms": 2.366499975323677,
+    "cycle_ms": 39.1907999292016
+  },
+  {
+    "pipeline_ms": 27.858100016601384,
+    "decode_ms": 0.3618999617174268,
+    "render_encode_ms": 2.1391999907791615,
+    "audit_and_mask_export_ms": 2.7869000332430005,
+    "cycle_ms": 33.243600046262145
+  },
+  {
+    "pipeline_ms": 32.40699996240437,
+    "decode_ms": 0.2460998948663473,
+    "render_encode_ms": 2.2366000339388847,
+    "audit_and_mask_export_ms": 2.660500002093613,
+    "cycle_ms": 37.652899976819754
+  },
+  {
+    "pipeline_ms": 28.354500071145594,
+    "decode_ms": 0.1976999919861555,
+    "render_encode_ms": 2.449600026011467,
+    "audit_and_mask_export_ms": 2.6150000048801303,
+    "cycle_ms": 33.71969994623214
+  },
+  {
+    "pipeline_ms": 27.816700050607324,
+    "decode_ms": 0.2449000021442771,
+    "render_encode_ms": 2.524400013498962,
+    "audit_and_mask_export_ms": 2.976900083012879,
+    "cycle_ms": 33.668700023554265
+  },
+  {
+    "pipeline_ms": 35.56459990795702,
+    "decode_ms": 0.2492000348865986,
+    "render_encode_ms": 2.422700054012239,
+    "audit_and_mask_export_ms": 2.7689000125974417,
+    "cycle_ms": 41.109600104391575
+  },
+  {
+    "pipeline_ms": 31.66059998329729,
+    "decode_ms": 0.2994000678882003,
+    "render_encode_ms": 2.0617999834939837,
+    "audit_and_mask_export_ms": 2.5749000487849116,
+    "cycle_ms": 36.711900029331446
+  },
+  {
+    "pipeline_ms": 21.82440005708486,
+    "decode_ms": 0.20739994943141937,
+    "render_encode_ms": 1.9876000005751848,
+    "audit_and_mask_export_ms": 2.353199990466237,
+    "cycle_ms": 26.47319994866848
+  },
+  {
+    "pipeline_ms": 35.095199942588806,
+    "decode_ms": 0.3312000771984458,
+    "render_encode_ms": 2.3400000063702464,
+    "audit_and_mask_export_ms": 2.594499965198338,
+    "cycle_ms": 40.46749998815358
+  },
+  {
+    "pipeline_ms": 32.978100003674626,
+    "decode_ms": 0.23230002261698246,
+    "render_encode_ms": 2.2834999253973365,
+    "audit_and_mask_export_ms": 2.4905999889597297,
+    "cycle_ms": 38.082399987615645
+  },
+  {
+    "pipeline_ms": 29.96089996304363,
+    "decode_ms": 0.21950004156678915,
+    "render_encode_ms": 2.3867000127211213,
+    "audit_and_mask_export_ms": 2.4259999627247453,
+    "cycle_ms": 35.0843999767676
+  },
+  {
+    "pipeline_ms": 19.718600087799132,
+    "decode_ms": 0.2468000166118145,
+    "render_encode_ms": 2.119000069797039,
+    "audit_and_mask_export_ms": 2.6313000125810504,
+    "cycle_ms": 24.83920007944107
+  },
+  {
+    "pipeline_ms": 21.144400001503527,
+    "decode_ms": 0.1892000436782837,
+    "render_encode_ms": 2.1213999716565013,
+    "audit_and_mask_export_ms": 2.6219000574201345,
+    "cycle_ms": 26.180900051258504
+  },
+  {
+    "pipeline_ms": 20.218600053340197,
+    "decode_ms": 0.2164000179618597,
+    "render_encode_ms": 1.886800047941506,
+    "audit_and_mask_export_ms": 2.8778999112546444,
+    "cycle_ms": 25.306599913164973
+  },
+  {
+    "pipeline_ms": 33.16729993093759,
+    "decode_ms": 0.2672000555321574,
+    "render_encode_ms": 1.931800041347742,
+    "audit_and_mask_export_ms": 2.6853999588638544,
+    "cycle_ms": 38.16350002307445
+  },
+  {
+    "pipeline_ms": 21.199199953116477,
+    "decode_ms": 0.2266999799758196,
+    "render_encode_ms": 1.8505000043660402,
+    "audit_and_mask_export_ms": 2.4399999529123306,
+    "cycle_ms": 25.82129999063909
+  },
+  {
+    "pipeline_ms": 34.10900000017136,
+    "decode_ms": 0.1813999842852354,
+    "render_encode_ms": 2.3831999860703945,
+    "audit_and_mask_export_ms": 2.593599958345294,
+    "cycle_ms": 39.347499958239496
+  },
+  {
+    "pipeline_ms": 31.54289990197867,
+    "decode_ms": 0.21520000882446766,
+    "render_encode_ms": 2.5526999961584806,
+    "audit_and_mask_export_ms": 2.8161000227555633,
+    "cycle_ms": 37.230700021609664
+  },
+  {
+    "pipeline_ms": 36.63430002052337,
+    "decode_ms": 0.3149999538436532,
+    "render_encode_ms": 2.1708999993279576,
+    "audit_and_mask_export_ms": 2.826399984769523,
+    "cycle_ms": 42.05549997277558
+  },
+  {
+    "pipeline_ms": 29.54180003143847,
+    "decode_ms": 0.2452000044286251,
+    "render_encode_ms": 2.19440006185323,
+    "audit_and_mask_export_ms": 3.163799992762506,
+    "cycle_ms": 35.25630000513047
+  },
+  {
+    "pipeline_ms": 22.672699997201562,
+    "decode_ms": 0.26860006619244814,
+    "render_encode_ms": 2.0955000072717667,
+    "audit_and_mask_export_ms": 2.4077000562101603,
+    "cycle_ms": 27.562200091779232
+  },
+  {
+    "pipeline_ms": 21.034799981862307,
+    "decode_ms": 0.22240006364881992,
+    "render_encode_ms": 2.38389999140054,
+    "audit_and_mask_export_ms": 2.770500024780631,
+    "cycle_ms": 26.50740009266883
+  },
+  {
+    "pipeline_ms": 19.29800002835691,
+    "decode_ms": 0.22330007050186396,
+    "render_encode_ms": 2.093199989758432,
+    "audit_and_mask_export_ms": 2.930199960246682,
+    "cycle_ms": 24.65270005632192
+  },
+  {
+    "pipeline_ms": 25.863599963486195,
+    "decode_ms": 0.2874999772757292,
+    "render_encode_ms": 1.922300085425377,
+    "audit_and_mask_export_ms": 2.7478999691084027,
+    "cycle_ms": 30.928199994377792
+  },
+  {
+    "pipeline_ms": 25.328800082206726,
+    "decode_ms": 0.21909992210566998,
+    "render_encode_ms": 2.1368999732658267,
+    "audit_and_mask_export_ms": 2.731700078584254,
+    "cycle_ms": 30.530299991369247
+  },
+  {
+    "pipeline_ms": 28.3073999453336,
+    "decode_ms": 0.2894999925047159,
+    "render_encode_ms": 2.799100009724498,
+    "audit_and_mask_export_ms": 2.596899983473122,
+    "cycle_ms": 34.160299925133586
+  },
+  {
+    "pipeline_ms": 35.07839993108064,
+    "decode_ms": 0.2367000561207533,
+    "render_encode_ms": 2.5438000448048115,
+    "audit_and_mask_export_ms": 2.5182999670505524,
+    "cycle_ms": 40.47190002165735
+  },
+  {
+    "pipeline_ms": 20.542899961583316,
+    "decode_ms": 0.21059997379779816,
+    "render_encode_ms": 1.9205999560654163,
+    "audit_and_mask_export_ms": 2.8028000378981233,
+    "cycle_ms": 25.574599974788725
+  },
+  {
+    "pipeline_ms": 20.930300001055002,
+    "decode_ms": 0.20779995247721672,
+    "render_encode_ms": 1.9463999196887016,
+    "audit_and_mask_export_ms": 2.440200070850551,
+    "cycle_ms": 25.636999984271824
+  },
+  {
+    "pipeline_ms": 19.719699979759753,
+    "decode_ms": 0.20399992354214191,
+    "render_encode_ms": 1.7001000232994556,
+    "audit_and_mask_export_ms": 2.7387000154703856,
+    "cycle_ms": 24.47479998227209
+  },
+  {
+    "pipeline_ms": 21.220399998128414,
+    "decode_ms": 0.20110001787543297,
+    "render_encode_ms": 2.5632999604567885,
+    "audit_and_mask_export_ms": 2.4122000904753804,
+    "cycle_ms": 26.498100021854043
+  },
+  {
+    "pipeline_ms": 30.426800018176436,
+    "decode_ms": 0.20140002015978098,
+    "render_encode_ms": 2.4775000056251884,
+    "audit_and_mask_export_ms": 2.6453000027686357,
+    "cycle_ms": 35.854300018399954
+  },
+  {
+    "pipeline_ms": 24.503499967977405,
+    "decode_ms": 0.19399996381253004,
+    "render_encode_ms": 2.397499978542328,
+    "audit_and_mask_export_ms": 2.9860000358894467,
+    "cycle_ms": 30.186600051820278
+  },
+  {
+    "pipeline_ms": 33.982799970544875,
+    "decode_ms": 0.26430003345012665,
+    "render_encode_ms": 2.3823999799788,
+    "audit_and_mask_export_ms": 2.7031999779865146,
+    "cycle_ms": 39.445300004445016
+  },
+  {
+    "pipeline_ms": 21.375700016506016,
+    "decode_ms": 0.23500004317611456,
+    "render_encode_ms": 2.4379000533372164,
+    "audit_and_mask_export_ms": 2.794099971652031,
+    "cycle_ms": 26.946700061671436
+  },
+  {
+    "pipeline_ms": 34.20640004333109,
+    "decode_ms": 0.1876999158412218,
+    "render_encode_ms": 2.4379000533372164,
+    "audit_and_mask_export_ms": 2.6625000173226,
+    "cycle_ms": 39.59759999997914
+  },
+  {
+    "pipeline_ms": 33.824600046500564,
+    "decode_ms": 0.2522000577300787,
+    "render_encode_ms": 2.643299987539649,
+    "audit_and_mask_export_ms": 3.1513000139966607,
+    "cycle_ms": 39.98310002498329
+  },
+  {
+    "pipeline_ms": 34.161899937316775,
+    "decode_ms": 0.2634000265970826,
+    "render_encode_ms": 2.4317000061273575,
+    "audit_and_mask_export_ms": 2.7474999660626054,
+    "cycle_ms": 39.71419995650649
+  },
+  {
+    "pipeline_ms": 20.691500045359135,
+    "decode_ms": 0.24750002194195986,
+    "render_encode_ms": 2.039399929344654,
+    "audit_and_mask_export_ms": 2.867800067178905,
+    "cycle_ms": 25.95350006595254
+  },
+  {
+    "pipeline_ms": 32.834399957209826,
+    "decode_ms": 0.27930003125220537,
+    "render_encode_ms": 2.026899950578809,
+    "audit_and_mask_export_ms": 2.5649999734014273,
+    "cycle_ms": 37.81050001271069
+  },
+  {
+    "pipeline_ms": 34.61980004794896,
+    "decode_ms": 0.2058000536635518,
+    "render_encode_ms": 1.780599937774241,
+    "audit_and_mask_export_ms": 2.44609999936074,
+    "cycle_ms": 39.1484999563545
+  },
+  {
+    "pipeline_ms": 21.115400013513863,
+    "decode_ms": 0.22759998682886362,
+    "render_encode_ms": 2.077899989672005,
+    "audit_and_mask_export_ms": 2.655500080436468,
+    "cycle_ms": 26.183600071817636
+  },
+  {
+    "pipeline_ms": 34.24389997962862,
+    "decode_ms": 0.31100003980100155,
+    "render_encode_ms": 2.461099997162819,
+    "audit_and_mask_export_ms": 2.639799960888922,
+    "cycle_ms": 39.76950002834201
+  },
+  {
+    "pipeline_ms": 19.88650008570403,
+    "decode_ms": 0.23470004089176655,
+    "render_encode_ms": 1.8985000206157565,
+    "audit_and_mask_export_ms": 2.8325000312179327,
+    "cycle_ms": 24.94879998266697
+  },
+  {
+    "pipeline_ms": 23.863699985668063,
+    "decode_ms": 0.2517999382689595,
+    "render_encode_ms": 2.1292000310495496,
+    "audit_and_mask_export_ms": 2.3483000695705414,
+    "cycle_ms": 28.700500028207898
+  },
+  {
+    "pipeline_ms": 28.257800033316016,
+    "decode_ms": 0.1914000604301691,
+    "render_encode_ms": 1.8265999387949705,
+    "audit_and_mask_export_ms": 2.59719998575747,
+    "cycle_ms": 32.96460001729429
+  },
+  {
+    "pipeline_ms": 20.258700009435415,
+    "decode_ms": 0.215300009585917,
+    "render_encode_ms": 1.9815999548882246,
+    "audit_and_mask_export_ms": 2.8345000464469194,
+    "cycle_ms": 25.419100071303546
+  },
+  {
+    "pipeline_ms": 23.120699916034937,
+    "decode_ms": 0.20370003767311573,
+    "render_encode_ms": 2.4311000015586615,
+    "audit_and_mask_export_ms": 3.0218999600037932,
+    "cycle_ms": 28.88250001706183
+  },
+  {
+    "pipeline_ms": 26.249899994581938,
+    "decode_ms": 0.24500000290572643,
+    "render_encode_ms": 1.8884000601246953,
+    "audit_and_mask_export_ms": 2.8580999933183193,
+    "cycle_ms": 31.36140003334731
+  },
+  {
+    "pipeline_ms": 26.604700018651783,
+    "decode_ms": 0.24749990552663803,
+    "render_encode_ms": 2.059800084680319,
+    "audit_and_mask_export_ms": 2.3799999617040157,
+    "cycle_ms": 31.39489993918687
+  },
+  {
+    "pipeline_ms": 31.85170004144311,
+    "decode_ms": 0.19209994934499264,
+    "render_encode_ms": 2.4905999889597297,
+    "audit_and_mask_export_ms": 2.6440999936312437,
+    "cycle_ms": 37.2759000165388
+  },
+  {
+    "pipeline_ms": 22.687399992719293,
+    "decode_ms": 0.2305000089108944,
+    "render_encode_ms": 2.4687000550329685,
+    "audit_and_mask_export_ms": 2.7562000323086977,
+    "cycle_ms": 28.25410000514239
+  },
+  {
+    "pipeline_ms": 32.81340003013611,
+    "decode_ms": 0.3154000733047724,
+    "render_encode_ms": 1.8988000229001045,
+    "audit_and_mask_export_ms": 2.3086000001057982,
+    "cycle_ms": 37.439600098878145
+  },
+  {
+    "pipeline_ms": 32.11989998817444,
+    "decode_ms": 0.2221000613644719,
+    "render_encode_ms": 2.714299946092069,
+    "audit_and_mask_export_ms": 2.412100089713931,
+    "cycle_ms": 37.57700009737164
+  },
+  {
+    "pipeline_ms": 21.874899975955486,
+    "decode_ms": 0.19260006956756115,
+    "render_encode_ms": 2.1118000149726868,
+    "audit_and_mask_export_ms": 2.939000027254224,
+    "cycle_ms": 27.21840003505349
+  },
+  {
+    "pipeline_ms": 36.59449995029718,
+    "decode_ms": 0.3242000238969922,
+    "render_encode_ms": 2.396899973973632,
+    "audit_and_mask_export_ms": 2.323299995623529,
+    "cycle_ms": 41.7601999361068
+  },
+  {
+    "pipeline_ms": 20.101899979636073,
+    "decode_ms": 0.24099997244775295,
+    "render_encode_ms": 1.8123999470844865,
+    "audit_and_mask_export_ms": 2.3487000726163387,
+    "cycle_ms": 24.622400058433414
+  },
+  {
+    "pipeline_ms": 34.40640005283058,
+    "decode_ms": 0.2125999890267849,
+    "render_encode_ms": 2.6446999981999397,
+    "audit_and_mask_export_ms": 2.387200016528368,
+    "cycle_ms": 39.75909994915128
+  },
+  {
+    "pipeline_ms": 24.297199910506606,
+    "decode_ms": 0.21299999207258224,
+    "render_encode_ms": 2.3984999861568213,
+    "audit_and_mask_export_ms": 2.6123999850824475,
+    "cycle_ms": 29.609499964863062
+  },
+  {
+    "pipeline_ms": 22.082499926909804,
+    "decode_ms": 0.21650001872330904,
+    "render_encode_ms": 2.1605000365525484,
+    "audit_and_mask_export_ms": 2.7536998968571424,
+    "cycle_ms": 27.328899945132434
+  },
+  {
+    "pipeline_ms": 38.51169999688864,
+    "decode_ms": 0.32270001247525215,
+    "render_encode_ms": 2.4542000610381365,
+    "audit_and_mask_export_ms": 2.650599926710129,
+    "cycle_ms": 44.075399986468256
+  },
+  {
+    "pipeline_ms": 36.15429997444153,
+    "decode_ms": 0.24129997473210096,
+    "render_encode_ms": 2.5336999678984284,
+    "audit_and_mask_export_ms": 2.9458999633789062,
+    "cycle_ms": 41.980299982242286
+  },
+  {
+    "pipeline_ms": 27.07650000229478,
+    "decode_ms": 0.3108000382781029,
+    "render_encode_ms": 1.9255999941378832,
+    "audit_and_mask_export_ms": 2.612199983559549,
+    "cycle_ms": 32.04089996870607
+  },
+  {
+    "pipeline_ms": 18.907299963757396,
+    "decode_ms": 0.1957999775186181,
+    "render_encode_ms": 2.007699920795858,
+    "audit_and_mask_export_ms": 2.343100029975176,
+    "cycle_ms": 23.545100004412234
+  },
+  {
+    "pipeline_ms": 29.86879996024072,
+    "decode_ms": 0.19839999731630087,
+    "render_encode_ms": 2.481500036083162,
+    "audit_and_mask_export_ms": 2.6141999987885356,
+    "cycle_ms": 35.25970003101975
+  },
+  {
+    "pipeline_ms": 34.74639996420592,
+    "decode_ms": 0.2609998919069767,
+    "render_encode_ms": 2.417400013655424,
+    "audit_and_mask_export_ms": 2.6694999542087317,
+    "cycle_ms": 40.202299947850406
+  },
+  {
+    "pipeline_ms": 22.792599978856742,
+    "decode_ms": 0.2383999526500702,
+    "render_encode_ms": 2.4262000806629658,
+    "audit_and_mask_export_ms": 2.8322000289335847,
+    "cycle_ms": 28.395300032570958
+  },
+  {
+    "pipeline_ms": 18.63450009841472,
+    "decode_ms": 0.18510001245886087,
+    "render_encode_ms": 2.1049000788480043,
+    "audit_and_mask_export_ms": 2.846099901944399,
+    "cycle_ms": 23.864799994044006
+  },
+  {
+    "pipeline_ms": 22.649999940767884,
+    "decode_ms": 0.25560008361935616,
+    "render_encode_ms": 2.1476999390870333,
+    "audit_and_mask_export_ms": 2.9177000978961587,
+    "cycle_ms": 28.079200070351362
+  },
+  {
+    "pipeline_ms": 20.5570999532938,
+    "decode_ms": 0.24910003412514925,
+    "render_encode_ms": 2.0226999185979366,
+    "audit_and_mask_export_ms": 2.7987000066787004,
+    "cycle_ms": 25.730299996212125
+  },
+  {
+    "pipeline_ms": 33.39970007073134,
+    "decode_ms": 0.2199000446125865,
+    "render_encode_ms": 2.399899996817112,
+    "audit_and_mask_export_ms": 2.462300006300211,
+    "cycle_ms": 38.584700087085366
+  },
+  {
+    "pipeline_ms": 20.887100021354854,
+    "decode_ms": 0.1922000665217638,
+    "render_encode_ms": 2.3394000018015504,
+    "audit_and_mask_export_ms": 2.915700082667172,
+    "cycle_ms": 26.429600082337856
+  },
+  {
+    "pipeline_ms": 34.79809989221394,
+    "decode_ms": 0.2633000258356333,
+    "render_encode_ms": 2.3932999465614557,
+    "audit_and_mask_export_ms": 2.47150007635355,
+    "cycle_ms": 40.03600007854402
+  },
+  {
+    "pipeline_ms": 25.36650002002716,
+    "decode_ms": 0.2269999822601676,
+    "render_encode_ms": 2.429199987091124,
+    "audit_and_mask_export_ms": 2.782900002785027,
+    "cycle_ms": 30.919400043785572
+  },
+  {
+    "pipeline_ms": 32.67340001184493,
+    "decode_ms": 0.3040999872609973,
+    "render_encode_ms": 1.8409000476822257,
+    "audit_and_mask_export_ms": 2.7981000021100044,
+    "cycle_ms": 37.73159999400377
+  },
+  {
+    "pipeline_ms": 20.611700019799173,
+    "decode_ms": 0.2085000742226839,
+    "render_encode_ms": 2.535099978558719,
+    "audit_and_mask_export_ms": 2.477700007148087,
+    "cycle_ms": 25.935100042261183
+  },
+  {
+    "pipeline_ms": 35.95100005622953,
+    "decode_ms": 0.21309999283403158,
+    "render_encode_ms": 2.326499903574586,
+    "audit_and_mask_export_ms": 2.774300053715706,
+    "cycle_ms": 41.371700004674494
+  },
+  {
+    "pipeline_ms": 34.117499948479235,
+    "decode_ms": 0.27740001678466797,
+    "render_encode_ms": 2.440100070089102,
+    "audit_and_mask_export_ms": 2.7120000449940562,
+    "cycle_ms": 39.66210002545267
+  },
+  {
+    "pipeline_ms": 22.805799962952733,
+    "decode_ms": 0.327700050547719,
+    "render_encode_ms": 2.1918000420555472,
+    "audit_and_mask_export_ms": 2.8473999118432403,
+    "cycle_ms": 28.284500003792346
+  },
+  {
+    "pipeline_ms": 35.323800053447485,
+    "decode_ms": 0.24610001128166914,
+    "render_encode_ms": 2.397299977019429,
+    "audit_and_mask_export_ms": 2.724400022998452,
+    "cycle_ms": 40.79860006459057
+  },
+  {
+    "pipeline_ms": 34.10839999560267,
+    "decode_ms": 0.24070008657872677,
+    "render_encode_ms": 2.461700001731515,
+    "audit_and_mask_export_ms": 2.728199935518205,
+    "cycle_ms": 39.64470000937581
+  },
+  {
+    "pipeline_ms": 34.37360003590584,
+    "decode_ms": 0.24770002346485853,
+    "render_encode_ms": 2.5921000633388758,
+    "audit_and_mask_export_ms": 2.886399975977838,
+    "cycle_ms": 40.1990000391379
+  },
+  {
+    "pipeline_ms": 34.22469994984567,
+    "decode_ms": 0.2343000378459692,
+    "render_encode_ms": 2.4332000175490975,
+    "audit_and_mask_export_ms": 2.5939999613910913,
+    "cycle_ms": 39.588000043295324
+  },
+  {
+    "pipeline_ms": 23.046899936161935,
+    "decode_ms": 0.2975999377667904,
+    "render_encode_ms": 1.9093999871984124,
+    "audit_and_mask_export_ms": 2.4272999726235867,
+    "cycle_ms": 27.792299981229007
+  },
+  {
+    "pipeline_ms": 19.675199990160763,
+    "decode_ms": 0.23150001652538776,
+    "render_encode_ms": 2.0433000754565,
+    "audit_and_mask_export_ms": 2.670799964107573,
+    "cycle_ms": 24.719799985177815
+  },
+  {
+    "pipeline_ms": 21.842799964360893,
+    "decode_ms": 0.2269999822601676,
+    "render_encode_ms": 2.2812000242993236,
+    "audit_and_mask_export_ms": 2.6906999992206693,
+    "cycle_ms": 27.154100011102855
+  },
+  {
+    "pipeline_ms": 21.574400016106665,
+    "decode_ms": 0.4194999346509576,
+    "render_encode_ms": 2.5870000245049596,
+    "audit_and_mask_export_ms": 2.823200076818466,
+    "cycle_ms": 27.521200012415648
+  },
+  {
+    "pipeline_ms": 36.085200030356646,
+    "decode_ms": 0.26270002126693726,
+    "render_encode_ms": 2.637100056745112,
+    "audit_and_mask_export_ms": 3.0019000405445695,
+    "cycle_ms": 42.09970007650554
+  },
+  {
+    "pipeline_ms": 28.18770008161664,
+    "decode_ms": 0.2554000820964575,
+    "render_encode_ms": 1.9332000520080328,
+    "audit_and_mask_export_ms": 2.95290001668036,
+    "cycle_ms": 33.448200090788305
+  },
+  {
+    "pipeline_ms": 25.552900042384863,
+    "decode_ms": 0.26160001289099455,
+    "render_encode_ms": 2.4438999826088548,
+    "audit_and_mask_export_ms": 3.054599976167083,
+    "cycle_ms": 31.421600026078522
+  },
+  {
+    "pipeline_ms": 29.180799960158765,
+    "decode_ms": 0.2386999549344182,
+    "render_encode_ms": 2.5347000919282436,
+    "audit_and_mask_export_ms": 2.8332999208942056,
+    "cycle_ms": 34.899899968877435
+  },
+  {
+    "pipeline_ms": 19.546300056390464,
+    "decode_ms": 0.22960000205785036,
+    "render_encode_ms": 2.04480008687824,
+    "audit_and_mask_export_ms": 2.626399975270033,
+    "cycle_ms": 24.556900025345385
+  },
+  {
+    "pipeline_ms": 27.142800041474402,
+    "decode_ms": 0.2767000114545226,
+    "render_encode_ms": 2.619899925775826,
+    "audit_and_mask_export_ms": 2.3045000853016973,
+    "cycle_ms": 32.45729999616742
+  },
+  {
+    "pipeline_ms": 27.666499954648316,
+    "decode_ms": 0.20129990298300982,
+    "render_encode_ms": 1.9602000247687101,
+    "audit_and_mask_export_ms": 2.3271000245586038,
+    "cycle_ms": 32.25940000265837
+  },
+  {
+    "pipeline_ms": 31.976900063455105,
+    "decode_ms": 0.278000021353364,
+    "render_encode_ms": 2.0369000267237425,
+    "audit_and_mask_export_ms": 2.7169999666512012,
+    "cycle_ms": 37.12150000501424
+  },
+  {
+    "pipeline_ms": 23.128999979235232,
+    "decode_ms": 0.2964000450447202,
+    "render_encode_ms": 1.9636000506579876,
+    "audit_and_mask_export_ms": 2.405000035651028,
+    "cycle_ms": 27.90920005645603
+  },
+  {
+    "pipeline_ms": 34.11269991192967,
+    "decode_ms": 0.19329995848238468,
+    "render_encode_ms": 2.5511999847367406,
+    "audit_and_mask_export_ms": 3.3488000044599175,
+    "cycle_ms": 40.309299947693944
+  },
+  {
+    "pipeline_ms": 31.916400068439543,
+    "decode_ms": 0.23419992066919804,
+    "render_encode_ms": 2.399899996817112,
+    "audit_and_mask_export_ms": 2.8261999832466245,
+    "cycle_ms": 37.493999931029975
+  },
+  {
+    "pipeline_ms": 31.911799916997552,
+    "decode_ms": 0.2490000333636999,
+    "render_encode_ms": 2.752100001089275,
+    "audit_and_mask_export_ms": 3.0333000468090177,
+    "cycle_ms": 38.06280007120222
+  },
+  {
+    "pipeline_ms": 20.119799999520183,
+    "decode_ms": 0.2460000105202198,
+    "render_encode_ms": 1.9734000088647008,
+    "audit_and_mask_export_ms": 2.735299989581108,
+    "cycle_ms": 25.1887000631541
+  },
+  {
+    "pipeline_ms": 26.068300008773804,
+    "decode_ms": 0.20429992582648993,
+    "render_encode_ms": 2.2136999759823084,
+    "audit_and_mask_export_ms": 2.4707999546080828,
+    "cycle_ms": 31.059499946422875
+  },
+  {
+    "pipeline_ms": 23.5190000385046,
+    "decode_ms": 0.3032999811694026,
+    "render_encode_ms": 2.5414000265300274,
+    "audit_and_mask_export_ms": 2.612599986605346,
+    "cycle_ms": 29.108299990184605
+  },
+  {
+    "pipeline_ms": 25.43919999152422,
+    "decode_ms": 0.2567999763414264,
+    "render_encode_ms": 2.108900109305978,
+    "audit_and_mask_export_ms": 5.484099965542555,
+    "cycle_ms": 33.391800010576844
+  },
+  {
+    "pipeline_ms": 34.16259994264692,
+    "decode_ms": 0.24470000062137842,
+    "render_encode_ms": 2.4265999672934413,
+    "audit_and_mask_export_ms": 2.4328000145033,
+    "cycle_ms": 39.37359992414713
+  },
+  {
+    "pipeline_ms": 34.11450004205108,
+    "decode_ms": 0.19010005053132772,
+    "render_encode_ms": 2.5501000927761197,
+    "audit_and_mask_export_ms": 2.769499900750816,
+    "cycle_ms": 39.71479996107519
+  },
+  {
+    "pipeline_ms": 31.488200067542493,
+    "decode_ms": 0.26020000223070383,
+    "render_encode_ms": 2.299899933859706,
+    "audit_and_mask_export_ms": 2.796199987642467,
+    "cycle_ms": 36.95119998883456
+  },
+  {
+    "pipeline_ms": 34.83280004002154,
+    "decode_ms": 0.2527000615373254,
+    "render_encode_ms": 2.3588000331074,
+    "audit_and_mask_export_ms": 3.091400023549795,
+    "cycle_ms": 40.64190003555268
+  },
+  {
+    "pipeline_ms": 35.999500076286495,
+    "decode_ms": 0.26729993987828493,
+    "render_encode_ms": 2.451100037433207,
+    "audit_and_mask_export_ms": 2.4914999958127737,
+    "cycle_ms": 41.32229997776449
+  },
+  {
+    "pipeline_ms": 31.802400015294552,
+    "decode_ms": 0.22289995104074478,
+    "render_encode_ms": 1.686900039203465,
+    "audit_and_mask_export_ms": 2.7721000369638205,
+    "cycle_ms": 36.58379998523742
+  },
+  {
+    "pipeline_ms": 35.49929999280721,
+    "decode_ms": 0.3141999477520585,
+    "render_encode_ms": 2.558399923145771,
+    "audit_and_mask_export_ms": 2.451700042001903,
+    "cycle_ms": 40.93559994362295
+  },
+  {
+    "pipeline_ms": 31.090299948118627,
+    "decode_ms": 0.18530001398175955,
+    "render_encode_ms": 2.5239000096917152,
+    "audit_and_mask_export_ms": 2.784100011922419,
+    "cycle_ms": 36.68140002992004
+  },
+  {
+    "pipeline_ms": 34.005000023171306,
+    "decode_ms": 0.2454998902976513,
+    "render_encode_ms": 2.424200065433979,
+    "audit_and_mask_export_ms": 2.8228999581187963,
+    "cycle_ms": 39.60589994676411
+  },
+  {
+    "pipeline_ms": 20.61230002436787,
+    "decode_ms": 0.25619997177273035,
+    "render_encode_ms": 2.517300075851381,
+    "audit_and_mask_export_ms": 2.5984999956563115,
+    "cycle_ms": 26.0806999867782
+  },
+  {
+    "pipeline_ms": 33.96969998721033,
+    "decode_ms": 0.2463000128045678,
+    "render_encode_ms": 2.3737000301480293,
+    "audit_and_mask_export_ms": 2.74679996073246,
+    "cycle_ms": 39.43769994657487
+  },
+  {
+    "pipeline_ms": 20.14120004605502,
+    "decode_ms": 0.331499963067472,
+    "render_encode_ms": 1.8594000721350312,
+    "audit_and_mask_export_ms": 2.727799932472408,
+    "cycle_ms": 25.15899995341897
+  },
+  {
+    "pipeline_ms": 21.393900038674474,
+    "decode_ms": 0.2063000574707985,
+    "render_encode_ms": 2.3684001062065363,
+    "audit_and_mask_export_ms": 2.2536999313160777,
+    "cycle_ms": 26.328700012527406
+  },
+  {
+    "pipeline_ms": 19.52610001899302,
+    "decode_ms": 0.18740002997219563,
+    "render_encode_ms": 1.9241999834775925,
+    "audit_and_mask_export_ms": 2.3997999960556626,
+    "cycle_ms": 24.128600023686886
+  },
+  {
+    "pipeline_ms": 20.16289997845888,
+    "decode_ms": 0.19429996609687805,
+    "render_encode_ms": 2.000699983909726,
+    "audit_and_mask_export_ms": 2.704199985601008,
+    "cycle_ms": 25.159599957987666
+  },
+  {
+    "pipeline_ms": 31.581299961544573,
+    "decode_ms": 0.25779998395591974,
+    "render_encode_ms": 1.9971000729128718,
+    "audit_and_mask_export_ms": 2.5786999613046646,
+    "cycle_ms": 36.52169997803867
+  },
+  {
+    "pipeline_ms": 23.26839999295771,
+    "decode_ms": 0.26300002355128527,
+    "render_encode_ms": 2.6949000312015414,
+    "audit_and_mask_export_ms": 2.7666999958455563,
+    "cycle_ms": 29.105399968102574
+  },
+  {
+    "pipeline_ms": 28.022099984809756,
+    "decode_ms": 0.20240002777427435,
+    "render_encode_ms": 2.4760999949648976,
+    "audit_and_mask_export_ms": 2.7969999937340617,
+    "cycle_ms": 33.616699976846576
+  },
+  {
+    "pipeline_ms": 31.269699917174876,
+    "decode_ms": 0.3046999918296933,
+    "render_encode_ms": 2.0123999565839767,
+    "audit_and_mask_export_ms": 2.7404000284150243,
+    "cycle_ms": 36.44399996846914
+  },
+  {
+    "pipeline_ms": 26.012300048023462,
+    "decode_ms": 0.27299998328089714,
+    "render_encode_ms": 1.8626999808475375,
+    "audit_and_mask_export_ms": 2.6784000219777226,
+    "cycle_ms": 30.9345000423491
+  },
+  {
+    "pipeline_ms": 20.244200015440583,
+    "decode_ms": 0.2476000227034092,
+    "render_encode_ms": 1.8785999855026603,
+    "audit_and_mask_export_ms": 2.6089000748470426,
+    "cycle_ms": 25.087400106713176
+  },
+  {
+    "pipeline_ms": 21.20620000641793,
+    "decode_ms": 0.21379999816417694,
+    "render_encode_ms": 2.1646000677719712,
+    "audit_and_mask_export_ms": 2.490099985152483,
+    "cycle_ms": 26.18300006724894
+  },
+  {
+    "pipeline_ms": 22.073699976317585,
+    "decode_ms": 0.22029993124306202,
+    "render_encode_ms": 1.9256999948993325,
+    "audit_and_mask_export_ms": 2.7118000434711576,
+    "cycle_ms": 27.04529999755323
+  },
+  {
+    "pipeline_ms": 25.550800026394427,
+    "decode_ms": 0.30910002533346415,
+    "render_encode_ms": 2.090799971483648,
+    "audit_and_mask_export_ms": 3.2339999452233315,
+    "cycle_ms": 31.32529999129474
+  },
+  {
+    "pipeline_ms": 24.97260004747659,
+    "decode_ms": 0.2362000523135066,
+    "render_encode_ms": 1.8609000835567713,
+    "audit_and_mask_export_ms": 2.8850999660789967,
+    "cycle_ms": 30.075900023803115
+  },
+  {
+    "pipeline_ms": 37.754999939352274,
+    "decode_ms": 0.2848999574780464,
+    "render_encode_ms": 2.5719000259414315,
+    "audit_and_mask_export_ms": 2.8492999263107777,
+    "cycle_ms": 43.578899931162596
+  },
+  {
+    "pipeline_ms": 36.201799986884,
+    "decode_ms": 0.2668000524863601,
+    "render_encode_ms": 2.3542999988421798,
+    "audit_and_mask_export_ms": 3.077500034123659,
+    "cycle_ms": 42.01370000373572
+  },
+  {
+    "pipeline_ms": 26.616199989803135,
+    "decode_ms": 0.2492000348865986,
+    "render_encode_ms": 2.436499926261604,
+    "audit_and_mask_export_ms": 2.7999000158160925,
+    "cycle_ms": 32.20719995442778
+  },
+  {
+    "pipeline_ms": 34.16420007124543,
+    "decode_ms": 0.2500000409781933,
+    "render_encode_ms": 2.279900014400482,
+    "audit_and_mask_export_ms": 2.8141000075265765,
+    "cycle_ms": 39.613100001588464
+  },
+  {
+    "pipeline_ms": 33.394700032658875,
+    "decode_ms": 0.24830002803355455,
+    "render_encode_ms": 2.695700037293136,
+    "audit_and_mask_export_ms": 2.6349000399932265,
+    "cycle_ms": 39.08020001836121
+  },
+  {
+    "pipeline_ms": 31.00720001384616,
+    "decode_ms": 0.27739990036934614,
+    "render_encode_ms": 1.8275000620633364,
+    "audit_and_mask_export_ms": 2.4462000001221895,
+    "cycle_ms": 35.66239995416254
+  },
+  {
+    "pipeline_ms": 19.152899971231818,
+    "decode_ms": 0.19189994782209396,
+    "render_encode_ms": 2.154699992388487,
+    "audit_and_mask_export_ms": 2.9944999841973186,
+    "cycle_ms": 24.58829991519451
+  },
+  {
+    "pipeline_ms": 33.37209997698665,
+    "decode_ms": 0.23830006830394268,
+    "render_encode_ms": 1.8423000583425164,
+    "audit_and_mask_export_ms": 2.5564999086782336,
+    "cycle_ms": 38.1125999847427
+  },
+  {
+    "pipeline_ms": 31.962999957613647,
+    "decode_ms": 0.24470000062137842,
+    "render_encode_ms": 2.30529997497797,
+    "audit_and_mask_export_ms": 2.741800039075315,
+    "cycle_ms": 37.35870006494224
+  },
+  {
+    "pipeline_ms": 21.75279997754842,
+    "decode_ms": 0.21559989545494318,
+    "render_encode_ms": 2.054199925623834,
+    "audit_and_mask_export_ms": 2.6445999974384904,
+    "cycle_ms": 26.773499906994402
+  },
+  {
+    "pipeline_ms": 30.446800054050982,
+    "decode_ms": 0.21159998141229153,
+    "render_encode_ms": 2.430900000035763,
+    "audit_and_mask_export_ms": 2.8210000600665808,
+    "cycle_ms": 36.01000003982335
+  },
+  {
+    "pipeline_ms": 19.945800071582198,
+    "decode_ms": 0.21989992819726467,
+    "render_encode_ms": 1.5525000635534525,
+    "audit_and_mask_export_ms": 2.4401999544352293,
+    "cycle_ms": 24.269699933938682
+  },
+  {
+    "pipeline_ms": 25.093200034461915,
+    "decode_ms": 0.1946999691426754,
+    "render_encode_ms": 1.7618000274524093,
+    "audit_and_mask_export_ms": 2.971799927763641,
+    "cycle_ms": 30.115599976852536
+  },
+  {
+    "pipeline_ms": 34.73139996640384,
+    "decode_ms": 0.25589996948838234,
+    "render_encode_ms": 2.275399980135262,
+    "audit_and_mask_export_ms": 3.01510002464056,
+    "cycle_ms": 40.38160003256053
+  },
+  {
+    "pipeline_ms": 32.50370000023395,
+    "decode_ms": 0.3079999005421996,
+    "render_encode_ms": 1.8321999814361334,
+    "audit_and_mask_export_ms": 2.5113000301644206,
+    "cycle_ms": 37.26979997009039
+  },
+  {
+    "pipeline_ms": 23.737899959087372,
+    "decode_ms": 0.2258999738842249,
+    "render_encode_ms": 2.3855000035837293,
+    "audit_and_mask_export_ms": 2.6906999992206693,
+    "cycle_ms": 29.151199967600405
+  },
+  {
+    "pipeline_ms": 21.652899915352464,
+    "decode_ms": 0.27139997109770775,
+    "render_encode_ms": 2.215399988926947,
+    "audit_and_mask_export_ms": 2.574700047262013,
+    "cycle_ms": 26.831199997104704
+  },
+  {
+    "pipeline_ms": 20.49799996893853,
+    "decode_ms": 0.20279991440474987,
+    "render_encode_ms": 2.119799959473312,
+    "audit_and_mask_export_ms": 2.425400074571371,
+    "cycle_ms": 25.3489000024274
+  },
+  {
+    "pipeline_ms": 18.431599950417876,
+    "decode_ms": 0.1941000809893012,
+    "render_encode_ms": 2.4302999954670668,
+    "audit_and_mask_export_ms": 2.603699918836355,
+    "cycle_ms": 23.761100019328296
+  },
+  {
+    "pipeline_ms": 35.3758999845013,
+    "decode_ms": 0.25939999613910913,
+    "render_encode_ms": 2.4800000246614218,
+    "audit_and_mask_export_ms": 2.960899961180985,
+    "cycle_ms": 41.18970001582056
+  },
+  {
+    "pipeline_ms": 22.857800009660423,
+    "decode_ms": 0.1900999341160059,
+    "render_encode_ms": 2.3639999562874436,
+    "audit_and_mask_export_ms": 2.747800084762275,
+    "cycle_ms": 28.254700009711087
+  },
+  {
+    "pipeline_ms": 20.907699945382774,
+    "decode_ms": 0.26670005172491074,
+    "render_encode_ms": 1.904799952171743,
+    "audit_and_mask_export_ms": 2.8008000226691365,
+    "cycle_ms": 25.980700040236115
+  },
+  {
+    "pipeline_ms": 34.641999984160066,
+    "decode_ms": 0.2519999397918582,
+    "render_encode_ms": 2.3098000092431903,
+    "audit_and_mask_export_ms": 2.4787000147625804,
+    "cycle_ms": 39.78460002690554
+  },
+  {
+    "pipeline_ms": 20.587499951943755,
+    "decode_ms": 0.22389995865523815,
+    "render_encode_ms": 1.9629000453278422,
+    "audit_and_mask_export_ms": 2.90969992056489,
+    "cycle_ms": 25.780199910514057
+  },
+  {
+    "pipeline_ms": 26.475399965420365,
+    "decode_ms": 0.24970003869384527,
+    "render_encode_ms": 1.8782999832183123,
+    "audit_and_mask_export_ms": 2.7908000629395247,
+    "cycle_ms": 31.50180005468428
+  },
+  {
+    "pipeline_ms": 35.93059990089387,
+    "decode_ms": 0.2762000076472759,
+    "render_encode_ms": 2.063299994915724,
+    "audit_and_mask_export_ms": 2.696800045669079,
+    "cycle_ms": 41.07770009431988
+  },
+  {
+    "pipeline_ms": 26.463899994269013,
+    "decode_ms": 0.19750010687857866,
+    "render_encode_ms": 2.5018000742420554,
+    "audit_and_mask_export_ms": 2.7900999411940575,
+    "cycle_ms": 32.062500016763806
+  },
+  {
+    "pipeline_ms": 36.38669999781996,
+    "decode_ms": 0.2823000540956855,
+    "render_encode_ms": 2.589800045825541,
+    "audit_and_mask_export_ms": 3.049599938094616,
+    "cycle_ms": 42.42379998322576
+  },
+  {
+    "pipeline_ms": 35.22140008863062,
+    "decode_ms": 0.2968000480905175,
+    "render_encode_ms": 2.454900066368282,
+    "audit_and_mask_export_ms": 3.1413999386131763,
+    "cycle_ms": 41.22869996353984
+  },
+  {
+    "pipeline_ms": 32.27570001035929,
+    "decode_ms": 0.229199999012053,
+    "render_encode_ms": 1.8933999817818403,
+    "audit_and_mask_export_ms": 2.776299952529371,
+    "cycle_ms": 37.27430000435561
+  },
+  {
+    "pipeline_ms": 36.25939995981753,
+    "decode_ms": 0.26270002126693726,
+    "render_encode_ms": 2.4848999455571175,
+    "audit_and_mask_export_ms": 3.3588000806048512,
+    "cycle_ms": 42.474000016227365
+  },
+  {
+    "pipeline_ms": 30.289500020444393,
+    "decode_ms": 0.2623999025672674,
+    "render_encode_ms": 2.100100042298436,
+    "audit_and_mask_export_ms": 2.863400033675134,
+    "cycle_ms": 35.63539998140186
+  },
+  {
+    "pipeline_ms": 36.4314999897033,
+    "decode_ms": 0.2839999506250024,
+    "render_encode_ms": 1.9830999663099647,
+    "audit_and_mask_export_ms": 2.5038999738171697,
+    "cycle_ms": 41.31599992979318
+  },
+  {
+    "pipeline_ms": 35.864199977368116,
+    "decode_ms": 0.2514999359846115,
+    "render_encode_ms": 2.638600068166852,
+    "audit_and_mask_export_ms": 2.6081999531015754,
+    "cycle_ms": 41.49179998785257
+  },
+  {
+    "pipeline_ms": 42.83569997642189,
+    "decode_ms": 0.2812999300658703,
+    "render_encode_ms": 2.6848999550566077,
+    "audit_and_mask_export_ms": 3.0367999570444226,
+    "cycle_ms": 48.961899941787124
+  },
+  {
+    "pipeline_ms": 33.751399954780936,
+    "decode_ms": 0.20969996694475412,
+    "render_encode_ms": 2.7872000355273485,
+    "audit_and_mask_export_ms": 2.9995000222697854,
+    "cycle_ms": 39.86220003571361
+  },
+  {
+    "pipeline_ms": 42.3327999887988,
+    "decode_ms": 0.31869998201727867,
+    "render_encode_ms": 2.6012000162154436,
+    "audit_and_mask_export_ms": 2.8740999987348914,
+    "cycle_ms": 48.24819997884333
+  },
+  {
+    "pipeline_ms": 30.284999986179173,
+    "decode_ms": 0.21029997151345015,
+    "render_encode_ms": 2.2498000180348754,
+    "audit_and_mask_export_ms": 3.3349000150337815,
+    "cycle_ms": 36.189100006595254
+  },
+  {
+    "pipeline_ms": 32.103899982757866,
+    "decode_ms": 0.3203999949619174,
+    "render_encode_ms": 2.6131999911740422,
+    "audit_and_mask_export_ms": 3.1248999293893576,
+    "cycle_ms": 38.29749999567866
+  },
+  {
+    "pipeline_ms": 35.73690005578101,
+    "decode_ms": 0.3730000462383032,
+    "render_encode_ms": 2.518199966289103,
+    "audit_and_mask_export_ms": 2.8291000053286552,
+    "cycle_ms": 41.650200029835105
+  },
+  {
+    "pipeline_ms": 23.88480002991855,
+    "decode_ms": 0.23499992676079273,
+    "render_encode_ms": 2.594300080090761,
+    "audit_and_mask_export_ms": 2.707800013013184,
+    "cycle_ms": 29.539400013163686
+  },
+  {
+    "pipeline_ms": 23.966899956576526,
+    "decode_ms": 0.18960004672408104,
+    "render_encode_ms": 2.4697999469935894,
+    "audit_and_mask_export_ms": 2.884100074879825,
+    "cycle_ms": 29.612400103360415
+  },
+  {
+    "pipeline_ms": 35.22389999125153,
+    "decode_ms": 0.2479000249877572,
+    "render_encode_ms": 2.3672999814152718,
+    "audit_and_mask_export_ms": 2.9236000264063478,
+    "cycle_ms": 40.87420005816966
+  },
+  {
+    "pipeline_ms": 37.50840004067868,
+    "decode_ms": 0.3027999773621559,
+    "render_encode_ms": 2.4247000692412257,
+    "audit_and_mask_export_ms": 4.304399946704507,
+    "cycle_ms": 44.66309992130846
+  },
+  {
+    "pipeline_ms": 27.731999987736344,
+    "decode_ms": 0.23770006373524666,
+    "render_encode_ms": 2.429300104267895,
+    "audit_and_mask_export_ms": 3.0876999953761697,
+    "cycle_ms": 33.597600064240396
+  },
+  {
+    "pipeline_ms": 34.59439997095615,
+    "decode_ms": 0.20809995476156473,
+    "render_encode_ms": 2.486599958501756,
+    "audit_and_mask_export_ms": 2.501899958588183,
+    "cycle_ms": 39.89529993850738
+  },
+  {
+    "pipeline_ms": 28.245000052265823,
+    "decode_ms": 0.25699997786432505,
+    "render_encode_ms": 2.642399980686605,
+    "audit_and_mask_export_ms": 3.051100065931678,
+    "cycle_ms": 34.31370004545897
+  },
+  {
+    "pipeline_ms": 41.00609989836812,
+    "decode_ms": 0.33549999352544546,
+    "render_encode_ms": 1.9542999798431993,
+    "audit_and_mask_export_ms": 2.800000016577542,
+    "cycle_ms": 46.22849996667355
+  },
+  {
+    "pipeline_ms": 19.429399981163442,
+    "decode_ms": 0.23309991229325533,
+    "render_encode_ms": 1.8816000083461404,
+    "audit_and_mask_export_ms": 3.325900062918663,
+    "cycle_ms": 24.97839997522533
+  },
+  {
+    "pipeline_ms": 25.713599985465407,
+    "decode_ms": 0.20839995704591274,
+    "render_encode_ms": 1.953599974513054,
+    "audit_and_mask_export_ms": 2.521499991416931,
+    "cycle_ms": 30.499199987389147
+  },
+  {
+    "pipeline_ms": 29.2530000442639,
+    "decode_ms": 0.25809998624026775,
+    "render_encode_ms": 2.100300043821335,
+    "audit_and_mask_export_ms": 2.806499949656427,
+    "cycle_ms": 34.52659992035478
+  },
+  {
+    "pipeline_ms": 29.796799994073808,
+    "decode_ms": 0.28330006171017885,
+    "render_encode_ms": 1.9548999844118953,
+    "audit_and_mask_export_ms": 2.631500014103949,
+    "cycle_ms": 34.78940005879849
+  },
+  {
+    "pipeline_ms": 34.11970008164644,
+    "decode_ms": 0.2463000128045678,
+    "render_encode_ms": 2.433100016787648,
+    "audit_and_mask_export_ms": 2.937900018878281,
+    "cycle_ms": 39.83440005686134
+  },
+  {
+    "pipeline_ms": 19.362399936653674,
+    "decode_ms": 0.18560001626610756,
+    "render_encode_ms": 1.8198000034317374,
+    "audit_and_mask_export_ms": 2.897900063544512,
+    "cycle_ms": 24.359800037927926
+  },
+  {
+    "pipeline_ms": 35.630199941806495,
+    "decode_ms": 0.2012000186368823,
+    "render_encode_ms": 2.426199964247644,
+    "audit_and_mask_export_ms": 3.1389000359922647,
+    "cycle_ms": 41.497400030493736
+  },
+  {
+    "pipeline_ms": 34.18329998385161,
+    "decode_ms": 0.282999943010509,
+    "render_encode_ms": 2.536299987696111,
+    "audit_and_mask_export_ms": 2.5963999796658754,
+    "cycle_ms": 39.71709997858852
+  },
+  {
+    "pipeline_ms": 35.04610003437847,
+    "decode_ms": 0.2565999748185277,
+    "render_encode_ms": 2.4733999744057655,
+    "audit_and_mask_export_ms": 2.880399930290878,
+    "cycle_ms": 40.76599993277341
+  },
+  {
+    "pipeline_ms": 23.07740005198866,
+    "decode_ms": 0.21389999892562628,
+    "render_encode_ms": 1.8609000835567713,
+    "audit_and_mask_export_ms": 2.596899983473122,
+    "cycle_ms": 27.861000038683414
+  },
+  {
+    "pipeline_ms": 21.66410000063479,
+    "decode_ms": 0.23140001576393843,
+    "render_encode_ms": 1.8875999376177788,
+    "audit_and_mask_export_ms": 2.3838001070544124,
+    "cycle_ms": 26.268600020557642
+  },
+  {
+    "pipeline_ms": 34.22899998258799,
+    "decode_ms": 0.24449999909847975,
+    "render_encode_ms": 2.3172000655904412,
+    "audit_and_mask_export_ms": 2.8698999667540193,
+    "cycle_ms": 39.770000032149255
+  },
+  {
+    "pipeline_ms": 20.11889999266714,
+    "decode_ms": 0.23619993589818478,
+    "render_encode_ms": 2.06840003374964,
+    "audit_and_mask_export_ms": 2.7433999348431826,
+    "cycle_ms": 25.282299960963428
+  },
+  {
+    "pipeline_ms": 29.273899970576167,
+    "decode_ms": 0.3322999691590667,
+    "render_encode_ms": 2.9627999756485224,
+    "audit_and_mask_export_ms": 2.96920002438128,
+    "cycle_ms": 35.6686000013724
+  },
+  {
+    "pipeline_ms": 30.76410002540797,
+    "decode_ms": 0.3635999746620655,
+    "render_encode_ms": 2.0348000107333064,
+    "audit_and_mask_export_ms": 2.8152999002486467,
+    "cycle_ms": 36.11669992096722
+  },
+  {
+    "pipeline_ms": 32.80069993343204,
+    "decode_ms": 0.23440003860741854,
+    "render_encode_ms": 2.7106000343337655,
+    "audit_and_mask_export_ms": 2.7593999402597547,
+    "cycle_ms": 38.617099984548986
+  },
+  {
+    "pipeline_ms": 22.090100101195276,
+    "decode_ms": 0.21470000501722097,
+    "render_encode_ms": 1.9307000329717994,
+    "audit_and_mask_export_ms": 2.4503000313416123,
+    "cycle_ms": 26.79330005776137
+  },
+  {
+    "pipeline_ms": 20.65219997894019,
+    "decode_ms": 0.2063000574707985,
+    "render_encode_ms": 2.098799915984273,
+    "audit_and_mask_export_ms": 2.3837999906390905,
+    "cycle_ms": 25.44060000218451
+  },
+  {
+    "pipeline_ms": 20.442600012756884,
+    "decode_ms": 0.2484000287950039,
+    "render_encode_ms": 2.12009996175766,
+    "audit_and_mask_export_ms": 2.8253999771550298,
+    "cycle_ms": 25.758199975825846
+  },
+  {
+    "pipeline_ms": 19.568399991840124,
+    "decode_ms": 0.2117999829351902,
+    "render_encode_ms": 2.144700032658875,
+    "audit_and_mask_export_ms": 3.0743000097572803,
+    "cycle_ms": 25.10910003911704
+  },
+  {
+    "pipeline_ms": 35.80330009572208,
+    "decode_ms": 0.3128999378532171,
+    "render_encode_ms": 2.3048000875860453,
+    "audit_and_mask_export_ms": 3.1021999893710017,
+    "cycle_ms": 41.6315000038594
+  },
+  {
+    "pipeline_ms": 33.998000086285174,
+    "decode_ms": 0.28270005714148283,
+    "render_encode_ms": 2.3781000636518,
+    "audit_and_mask_export_ms": 2.3981999838724732,
+    "cycle_ms": 39.16070004925132
+  },
+  {
+    "pipeline_ms": 21.5844000922516,
+    "decode_ms": 0.21860003471374512,
+    "render_encode_ms": 2.0555000519379973,
+    "audit_and_mask_export_ms": 2.4685999378561974,
+    "cycle_ms": 26.429399964399636
+  },
+  {
+    "pipeline_ms": 19.590300042182207,
+    "decode_ms": 0.20969996694475412,
+    "render_encode_ms": 2.107699983753264,
+    "audit_and_mask_export_ms": 2.550999983213842,
+    "cycle_ms": 24.562499951571226
+  },
+  {
+    "pipeline_ms": 20.812699920497835,
+    "decode_ms": 0.21630001720041037,
+    "render_encode_ms": 2.1723000099882483,
+    "audit_and_mask_export_ms": 5.1006999565288424,
+    "cycle_ms": 28.40509999077767
+  },
+  {
+    "pipeline_ms": 20.207999972626567,
+    "decode_ms": 0.24119997397065163,
+    "render_encode_ms": 1.8736999481916428,
+    "audit_and_mask_export_ms": 2.5127000408247113,
+    "cycle_ms": 24.942000047303736
+  },
+  {
+    "pipeline_ms": 30.17269994597882,
+    "decode_ms": 0.23699994198977947,
+    "render_encode_ms": 2.483900054357946,
+    "audit_and_mask_export_ms": 2.768400008790195,
+    "cycle_ms": 35.77219997532666
+  },
+  {
+    "pipeline_ms": 35.18990008160472,
+    "decode_ms": 0.4181999247521162,
+    "render_encode_ms": 2.488100086338818,
+    "audit_and_mask_export_ms": 2.32589989900589,
+    "cycle_ms": 40.532699902541935
+  },
+  {
+    "pipeline_ms": 20.762500003911555,
+    "decode_ms": 0.19789999350905418,
+    "render_encode_ms": 2.0999000407755375,
+    "audit_and_mask_export_ms": 2.2926999954506755,
+    "cycle_ms": 25.459300028160214
+  },
+  {
+    "pipeline_ms": 33.5705999750644,
+    "decode_ms": 0.18480001017451286,
+    "render_encode_ms": 2.4722000816836953,
+    "audit_and_mask_export_ms": 2.6560999685898423,
+    "cycle_ms": 38.97080000024289
+  },
+  {
+    "pipeline_ms": 23.445799946784973,
+    "decode_ms": 0.1943999668583274,
+    "render_encode_ms": 2.052200026810169,
+    "audit_and_mask_export_ms": 2.7172999689355493,
+    "cycle_ms": 28.521399945020676
+  },
+  {
+    "pipeline_ms": 20.526399952359498,
+    "decode_ms": 0.25459995958954096,
+    "render_encode_ms": 2.153799985535443,
+    "audit_and_mask_export_ms": 2.750599989667535,
+    "cycle_ms": 25.80940001644194
+  },
+  {
+    "pipeline_ms": 20.70270001422614,
+    "decode_ms": 0.20359992049634457,
+    "render_encode_ms": 1.9337000558152795,
+    "audit_and_mask_export_ms": 2.7042999863624573,
+    "cycle_ms": 25.640100007876754
+  },
+  {
+    "pipeline_ms": 21.010300028137863,
+    "decode_ms": 0.1946999691426754,
+    "render_encode_ms": 2.318499959073961,
+    "audit_and_mask_export_ms": 2.5583000387996435,
+    "cycle_ms": 26.186699979007244
+  },
+  {
+    "pipeline_ms": 19.937700009904802,
+    "decode_ms": 0.18729991279542446,
+    "render_encode_ms": 2.535100094974041,
+    "audit_and_mask_export_ms": 2.8276999946683645,
+    "cycle_ms": 25.592899997718632
+  },
+  {
+    "pipeline_ms": 33.784400089643896,
+    "decode_ms": 0.31770009081810713,
+    "render_encode_ms": 2.5155000621452928,
+    "audit_and_mask_export_ms": 2.5747999316081405,
+    "cycle_ms": 39.30730000138283
+  },
+  {
+    "pipeline_ms": 28.040000004693866,
+    "decode_ms": 0.2058000536635518,
+    "render_encode_ms": 1.927300007082522,
+    "audit_and_mask_export_ms": 2.6820000493898988,
+    "cycle_ms": 32.95430005528033
+  },
+  {
+    "pipeline_ms": 34.01460009627044,
+    "decode_ms": 0.2581999870017171,
+    "render_encode_ms": 2.548699965700507,
+    "audit_and_mask_export_ms": 3.0110999941825867,
+    "cycle_ms": 39.938899921253324
+  },
+  {
+    "pipeline_ms": 28.557299985550344,
+    "decode_ms": 0.2590999938547611,
+    "render_encode_ms": 1.9708999898284674,
+    "audit_and_mask_export_ms": 2.7523000026121736,
+    "cycle_ms": 33.64849998615682
+  },
+  {
+    "pipeline_ms": 26.583399972878397,
+    "decode_ms": 0.2530999481678009,
+    "render_encode_ms": 2.4791000178083777,
+    "audit_and_mask_export_ms": 2.8637999203056097,
+    "cycle_ms": 32.313099945895374
+  },
+  {
+    "pipeline_ms": 24.017099989578128,
+    "decode_ms": 0.1914000604301691,
+    "render_encode_ms": 2.4359000381082296,
+    "audit_and_mask_export_ms": 3.0050999484956264,
+    "cycle_ms": 29.755800031125546
+  },
+  {
+    "pipeline_ms": 36.67900001164526,
+    "decode_ms": 0.27029996272176504,
+    "render_encode_ms": 2.0152999786660075,
+    "audit_and_mask_export_ms": 2.3855000035837293,
+    "cycle_ms": 41.46149998996407
+  },
+  {
+    "pipeline_ms": 33.320800052024424,
+    "decode_ms": 0.23689994122833014,
+    "render_encode_ms": 2.035000012256205,
+    "audit_and_mask_export_ms": 3.053799970075488,
+    "cycle_ms": 38.77159999683499
+  },
+  {
+    "pipeline_ms": 31.75199998077005,
+    "decode_ms": 0.2522999420762062,
+    "render_encode_ms": 2.52470001578331,
+    "audit_and_mask_export_ms": 2.6624000165611506,
+    "cycle_ms": 37.30049997102469
+  },
+  {
+    "pipeline_ms": 30.613699927926064,
+    "decode_ms": 0.2055999357253313,
+    "render_encode_ms": 1.9168000435456634,
+    "audit_and_mask_export_ms": 2.799700014293194,
+    "cycle_ms": 35.63699999358505
+  },
+  {
+    "pipeline_ms": 22.96749991364777,
+    "decode_ms": 0.1911999424919486,
+    "render_encode_ms": 2.341100014746189,
+    "audit_and_mask_export_ms": 2.7534000109881163,
+    "cycle_ms": 28.3577999798581
+  },
+  {
+    "pipeline_ms": 20.422099973075092,
+    "decode_ms": 0.21430000197142363,
+    "render_encode_ms": 2.1898000268265605,
+    "audit_and_mask_export_ms": 2.969799912534654,
+    "cycle_ms": 25.900299893692136
+  },
+  {
+    "pipeline_ms": 30.49320005811751,
+    "decode_ms": 0.25130005087703466,
+    "render_encode_ms": 2.612899988889694,
+    "audit_and_mask_export_ms": 2.765500103123486,
+    "cycle_ms": 36.229200079105794
+  },
+  {
+    "pipeline_ms": 30.71520000230521,
+    "decode_ms": 0.2699000760912895,
+    "render_encode_ms": 2.057999954558909,
+    "audit_and_mask_export_ms": 3.451299970038235,
+    "cycle_ms": 36.60260001197457
+  },
+  {
+    "pipeline_ms": 31.487899948842824,
+    "decode_ms": 0.36669999826699495,
+    "render_encode_ms": 2.569400006905198,
+    "audit_and_mask_export_ms": 2.5945999659597874,
+    "cycle_ms": 37.24159998819232
+  },
+  {
+    "pipeline_ms": 35.536699928343296,
+    "decode_ms": 0.2652000403031707,
+    "render_encode_ms": 2.6011000154539943,
+    "audit_and_mask_export_ms": 2.88159993942827,
+    "cycle_ms": 41.3946999469772
+  },
+  {
+    "pipeline_ms": 33.70240004733205,
+    "decode_ms": 0.2680000616237521,
+    "render_encode_ms": 2.601899905130267,
+    "audit_and_mask_export_ms": 2.8516000602394342,
+    "cycle_ms": 39.541800040751696
+  },
+  {
+    "pipeline_ms": 26.307599968276918,
+    "decode_ms": 0.2508999314159155,
+    "render_encode_ms": 2.4344000266864896,
+    "audit_and_mask_export_ms": 2.8376999543979764,
+    "cycle_ms": 31.93439997266978
+  },
+  {
+    "pipeline_ms": 19.144700025208294,
+    "decode_ms": 0.19809999503195286,
+    "render_encode_ms": 1.8887999467551708,
+    "audit_and_mask_export_ms": 2.8372000670060515,
+    "cycle_ms": 24.169899988919497
+  },
+  {
+    "pipeline_ms": 35.59099999256432,
+    "decode_ms": 0.26050000451505184,
+    "render_encode_ms": 2.4522000458091497,
+    "audit_and_mask_export_ms": 2.623699954710901,
+    "cycle_ms": 41.03560000658035
+  },
+  {
+    "pipeline_ms": 22.144399932585657,
+    "decode_ms": 0.237800064496696,
+    "render_encode_ms": 2.217400004155934,
+    "audit_and_mask_export_ms": 2.701299963518977,
+    "cycle_ms": 27.398200007155538
+  },
+  {
+    "pipeline_ms": 28.62019999884069,
+    "decode_ms": 0.20270003005862236,
+    "render_encode_ms": 2.4687000550329685,
+    "audit_and_mask_export_ms": 2.437699935398996,
+    "cycle_ms": 33.829999971203506
+  },
+  {
+    "pipeline_ms": 25.594300008378923,
+    "decode_ms": 0.2031000331044197,
+    "render_encode_ms": 1.7510000616312027,
+    "audit_and_mask_export_ms": 2.714599948376417,
+    "cycle_ms": 30.36400000564754
+  },
+  {
+    "pipeline_ms": 35.33939993940294,
+    "decode_ms": 0.215600011870265,
+    "render_encode_ms": 2.4154999991878867,
+    "audit_and_mask_export_ms": 2.6043999241665006,
+    "cycle_ms": 40.67459993530065
+  },
+  {
+    "pipeline_ms": 31.530499923974276,
+    "decode_ms": 0.20920007955282927,
+    "render_encode_ms": 2.454599947668612,
+    "audit_and_mask_export_ms": 2.7649999829009175,
+    "cycle_ms": 37.05789998639375
+  },
+  {
+    "pipeline_ms": 26.716000051237643,
+    "decode_ms": 0.23090001195669174,
+    "render_encode_ms": 2.526699914596975,
+    "audit_and_mask_export_ms": 2.992300083860755,
+    "cycle_ms": 32.57480007596314
+  },
+  {
+    "pipeline_ms": 25.043300003744662,
+    "decode_ms": 0.2658000448718667,
+    "render_encode_ms": 2.117199939675629,
+    "audit_and_mask_export_ms": 2.7694000164046884,
+    "cycle_ms": 30.30620003119111
+  },
+  {
+    "pipeline_ms": 33.74340001028031,
+    "decode_ms": 0.25489996187388897,
+    "render_encode_ms": 2.4577000876888633,
+    "audit_and_mask_export_ms": 2.425599959678948,
+    "cycle_ms": 38.986100000329316
+  },
+  {
+    "pipeline_ms": 27.98910008277744,
+    "decode_ms": 0.1993000041693449,
+    "render_encode_ms": 2.0786001114174724,
+    "audit_and_mask_export_ms": 2.5815999833866954,
+    "cycle_ms": 32.93310001026839
+  },
+  {
+    "pipeline_ms": 19.494999898597598,
+    "decode_ms": 0.18969993107020855,
+    "render_encode_ms": 2.1786000579595566,
+    "audit_and_mask_export_ms": 2.5608999421820045,
+    "cycle_ms": 24.513599928468466
+  },
+  {
+    "pipeline_ms": 24.803200038149953,
+    "decode_ms": 0.21970004308968782,
+    "render_encode_ms": 1.9261001143604517,
+    "audit_and_mask_export_ms": 2.743199933320284,
+    "cycle_ms": 29.81119998730719
+  },
+  {
+    "pipeline_ms": 24.18259996920824,
+    "decode_ms": 0.2269999822601676,
+    "render_encode_ms": 2.4251999566331506,
+    "audit_and_mask_export_ms": 2.5739000411704183,
+    "cycle_ms": 29.524500016123056
+  },
+  {
+    "pipeline_ms": 33.67979999165982,
+    "decode_ms": 0.28659997042268515,
+    "render_encode_ms": 2.503400086425245,
+    "audit_and_mask_export_ms": 2.881099935621023,
+    "cycle_ms": 39.45349995046854
+  },
+  {
+    "pipeline_ms": 26.7693999921903,
+    "decode_ms": 0.2511999337002635,
+    "render_encode_ms": 1.9914999138563871,
+    "audit_and_mask_export_ms": 2.3205000907182693,
+    "cycle_ms": 31.43800003454089
+  },
+  {
+    "pipeline_ms": 34.605200053192675,
+    "decode_ms": 0.1849000109359622,
+    "render_encode_ms": 2.512300037778914,
+    "audit_and_mask_export_ms": 3.168000024743378,
+    "cycle_ms": 40.568700060248375
+  },
+  {
+    "pipeline_ms": 34.78649992030114,
+    "decode_ms": 0.26709993835538626,
+    "render_encode_ms": 2.4769000010564923,
+    "audit_and_mask_export_ms": 2.5067999958992004,
+    "cycle_ms": 40.14229995664209
+  },
+  {
+    "pipeline_ms": 20.64619993325323,
+    "decode_ms": 0.24530000519007444,
+    "render_encode_ms": 2.148300060071051,
+    "audit_and_mask_export_ms": 2.7442999416962266,
+    "cycle_ms": 25.897199986502528
+  },
+  {
+    "pipeline_ms": 20.438999985344708,
+    "decode_ms": 0.22359995637089014,
+    "render_encode_ms": 2.1516999695450068,
+    "audit_and_mask_export_ms": 2.7904000598937273,
+    "cycle_ms": 25.719800032675266
+  },
+  {
+    "pipeline_ms": 31.040900037623942,
+    "decode_ms": 0.2672000555321574,
+    "render_encode_ms": 2.446400001645088,
+    "audit_and_mask_export_ms": 3.199899918399751,
+    "cycle_ms": 37.058599991723895
+  },
+  {
+    "pipeline_ms": 35.63259996008128,
+    "decode_ms": 0.24620001204311848,
+    "render_encode_ms": 2.890200004912913,
+    "audit_and_mask_export_ms": 2.482100040651858,
+    "cycle_ms": 41.35180008597672
+  },
+  {
+    "pipeline_ms": 22.48899999540299,
+    "decode_ms": 0.2191000385209918,
+    "render_encode_ms": 2.4741000961512327,
+    "audit_and_mask_export_ms": 3.187999944202602,
+    "cycle_ms": 28.489200049079955
+  },
+  {
+    "pipeline_ms": 32.92570007033646,
+    "decode_ms": 0.27139997109770775,
+    "render_encode_ms": 2.9124999418854713,
+    "audit_and_mask_export_ms": 2.6027000276371837,
+    "cycle_ms": 38.84109994396567
+  },
+  {
+    "pipeline_ms": 20.753400051034987,
+    "decode_ms": 0.22839999292045832,
+    "render_encode_ms": 1.7754000145941973,
+    "audit_and_mask_export_ms": 2.532100072130561,
+    "cycle_ms": 25.40100004989654
+  },
+  {
+    "pipeline_ms": 34.2353000305593,
+    "decode_ms": 0.24670001585036516,
+    "render_encode_ms": 2.4853000650182366,
+    "audit_and_mask_export_ms": 2.883999957703054,
+    "cycle_ms": 39.95260002557188
+  },
+  {
+    "pipeline_ms": 30.472600017674267,
+    "decode_ms": 0.23640005383640528,
+    "render_encode_ms": 2.4262000806629658,
+    "audit_and_mask_export_ms": 2.8590000001713634,
+    "cycle_ms": 36.11730004195124
+  },
+  {
+    "pipeline_ms": 34.67259998433292,
+    "decode_ms": 0.29479991644620895,
+    "render_encode_ms": 1.9714999943971634,
+    "audit_and_mask_export_ms": 2.5186999700963497,
+    "cycle_ms": 39.56049995031208
+  },
+  {
+    "pipeline_ms": 28.605900006368756,
+    "decode_ms": 0.23889995645731688,
+    "render_encode_ms": 2.4346000282093883,
+    "audit_and_mask_export_ms": 2.7666999958455563,
+    "cycle_ms": 34.16869998909533
+  },
+  {
+    "pipeline_ms": 29.636100050993264,
+    "decode_ms": 0.21709990687668324,
+    "render_encode_ms": 2.4892999790608883,
+    "audit_and_mask_export_ms": 2.7802999829873443,
+    "cycle_ms": 35.23559996392578
+  },
+  {
+    "pipeline_ms": 29.295000014826655,
+    "decode_ms": 0.25889999233186245,
+    "render_encode_ms": 2.0295000867918134,
+    "audit_and_mask_export_ms": 2.368299989029765,
+    "cycle_ms": 34.06239999458194
+  },
+  {
+    "pipeline_ms": 20.097199943847954,
+    "decode_ms": 0.3097999142482877,
+    "render_encode_ms": 2.0463999826461077,
+    "audit_and_mask_export_ms": 2.4216000456362963,
+    "cycle_ms": 24.993599974550307
+  },
+  {
+    "pipeline_ms": 23.648499976843596,
+    "decode_ms": 0.282999943010509,
+    "render_encode_ms": 2.1764999255537987,
+    "audit_and_mask_export_ms": 2.292499993927777,
+    "cycle_ms": 28.520199935883284
+  },
+  {
+    "pipeline_ms": 20.319800009019673,
+    "decode_ms": 0.20819995552301407,
+    "render_encode_ms": 2.147100050933659,
+    "audit_and_mask_export_ms": 2.53800000064075,
+    "cycle_ms": 25.308500044047832
+  },
+  {
+    "pipeline_ms": 23.549300036393106,
+    "decode_ms": 0.2269000979140401,
+    "render_encode_ms": 2.545399940572679,
+    "audit_and_mask_export_ms": 2.5450000539422035,
+    "cycle_ms": 28.969000093638897
+  },
+  {
+    "pipeline_ms": 33.74199999962002,
+    "decode_ms": 0.19619998056441545,
+    "render_encode_ms": 2.433600020594895,
+    "audit_and_mask_export_ms": 2.7680000057443976,
+    "cycle_ms": 39.24129996448755
+  },
+  {
+    "pipeline_ms": 22.41350000258535,
+    "decode_ms": 0.24949992075562477,
+    "render_encode_ms": 2.2649000165984035,
+    "audit_and_mask_export_ms": 2.6647000340744853,
+    "cycle_ms": 27.699299971573055
+  },
+  {
+    "pipeline_ms": 33.79260003566742,
+    "decode_ms": 0.23529992904514074,
+    "render_encode_ms": 2.4710000725463033,
+    "audit_and_mask_export_ms": 2.739100018516183,
+    "cycle_ms": 39.33990001678467
+  },
+  {
+    "pipeline_ms": 23.40499998535961,
+    "decode_ms": 0.1990000018849969,
+    "render_encode_ms": 2.5161999510601163,
+    "audit_and_mask_export_ms": 3.071499988436699,
+    "cycle_ms": 29.293700004927814
+  },
+  {
+    "pipeline_ms": 32.92920009698719,
+    "decode_ms": 0.27329998556524515,
+    "render_encode_ms": 2.6008000131696463,
+    "audit_and_mask_export_ms": 2.537699998356402,
+    "cycle_ms": 38.44959998968989
+  },
+  {
+    "pipeline_ms": 21.799499983899295,
+    "decode_ms": 0.22899999748915434,
+    "render_encode_ms": 2.168299979530275,
+    "audit_and_mask_export_ms": 2.456099959090352,
+    "cycle_ms": 26.77090000361204
+  },
+  {
+    "pipeline_ms": 31.019299989566207,
+    "decode_ms": 0.2636000281199813,
+    "render_encode_ms": 2.5683999992907047,
+    "audit_and_mask_export_ms": 2.419100026600063,
+    "cycle_ms": 36.37300000991672
+  },
+  {
+    "pipeline_ms": 20.01179999206215,
+    "decode_ms": 0.2767000114545226,
+    "render_encode_ms": 2.229299978353083,
+    "audit_and_mask_export_ms": 2.738300012424588,
+    "cycle_ms": 25.361299980431795
+  },
+  {
+    "pipeline_ms": 22.24169997498393,
+    "decode_ms": 0.28439995367079973,
+    "render_encode_ms": 2.0118000684306026,
+    "audit_and_mask_export_ms": 2.56459997035563,
+    "cycle_ms": 27.209999971091747
+  },
+  {
+    "pipeline_ms": 35.471800016239285,
+    "decode_ms": 0.2443999983370304,
+    "render_encode_ms": 2.6331000262871385,
+    "audit_and_mask_export_ms": 2.8488999232649803,
+    "cycle_ms": 41.30579996854067
+  },
+  {
+    "pipeline_ms": 31.40379989054054,
+    "decode_ms": 0.2463000128045678,
+    "render_encode_ms": 2.5339999701827765,
+    "audit_and_mask_export_ms": 2.431900007650256,
+    "cycle_ms": 36.72199998982251
+  },
+  {
+    "pipeline_ms": 33.996200072579086,
+    "decode_ms": 0.26240001898258924,
+    "render_encode_ms": 2.4740000953897834,
+    "audit_and_mask_export_ms": 2.8976999456062913,
+    "cycle_ms": 39.73780001979321
+  },
+  {
+    "pipeline_ms": 32.49619994312525,
+    "decode_ms": 0.22909999825060368,
+    "render_encode_ms": 2.5836999993771315,
+    "audit_and_mask_export_ms": 2.6624000165611506,
+    "cycle_ms": 38.0812999792397
+  },
+  {
+    "pipeline_ms": 33.57269999105483,
+    "decode_ms": 0.2573999809101224,
+    "render_encode_ms": 2.3911999305710196,
+    "audit_and_mask_export_ms": 2.97670008148998,
+    "cycle_ms": 39.29660003632307
+  },
+  {
+    "pipeline_ms": 31.18189994711429,
+    "decode_ms": 0.2693000715225935,
+    "render_encode_ms": 2.4019000120460987,
+    "audit_and_mask_export_ms": 2.648000023327768,
+    "cycle_ms": 36.611300078220665
+  },
+  {
+    "pipeline_ms": 33.64490007515997,
+    "decode_ms": 0.32510003075003624,
+    "render_encode_ms": 2.563500078395009,
+    "audit_and_mask_export_ms": 2.853199956007302,
+    "cycle_ms": 39.543600054457784
+  },
+  {
+    "pipeline_ms": 33.76320004463196,
+    "decode_ms": 0.3269999288022518,
+    "render_encode_ms": 2.4292999878525734,
+    "audit_and_mask_export_ms": 2.7192000998184085,
+    "cycle_ms": 39.37190002761781
+  },
+  {
+    "pipeline_ms": 18.798999954015017,
+    "decode_ms": 0.23150001652538776,
+    "render_encode_ms": 2.0909999730065465,
+    "audit_and_mask_export_ms": 2.7646999806165695,
+    "cycle_ms": 23.98860000539571
+  },
+  {
+    "pipeline_ms": 20.805900101549923,
+    "decode_ms": 0.24040008429437876,
+    "render_encode_ms": 2.2094000596553087,
+    "audit_and_mask_export_ms": 2.785300021059811,
+    "cycle_ms": 26.15490008611232
+  },
+  {
+    "pipeline_ms": 32.99189999233931,
+    "decode_ms": 0.23610005155205727,
+    "render_encode_ms": 2.0601999713107944,
+    "audit_and_mask_export_ms": 2.6883999817073345,
+    "cycle_ms": 38.08349999599159
+  },
+  {
+    "pipeline_ms": 25.921500055119395,
+    "decode_ms": 0.2136999974027276,
+    "render_encode_ms": 2.7200999902561307,
+    "audit_and_mask_export_ms": 2.58089997805655,
+    "cycle_ms": 31.54320002067834
+  },
+  {
+    "pipeline_ms": 36.24769998714328,
+    "decode_ms": 0.2460000105202198,
+    "render_encode_ms": 2.7009000768885016,
+    "audit_and_mask_export_ms": 2.646500011906028,
+    "cycle_ms": 41.95480002090335
+  },
+  {
+    "pipeline_ms": 22.26420002989471,
+    "decode_ms": 0.20130001939833164,
+    "render_encode_ms": 2.221900038421154,
+    "audit_and_mask_export_ms": 2.5901999324560165,
+    "cycle_ms": 27.381099993363023
+  },
+  {
+    "pipeline_ms": 20.224199979566038,
+    "decode_ms": 0.1996000064536929,
+    "render_encode_ms": 2.1165000507608056,
+    "audit_and_mask_export_ms": 2.8334999224171042,
+    "cycle_ms": 25.472800014540553
+  },
+  {
+    "pipeline_ms": 34.867299953475595,
+    "decode_ms": 0.2410999732092023,
+    "render_encode_ms": 2.5083000073209405,
+    "audit_and_mask_export_ms": 2.9972000047564507,
+    "cycle_ms": 40.71710002608597
+  },
+  {
+    "pipeline_ms": 29.81880004517734,
+    "decode_ms": 0.2845999551936984,
+    "render_encode_ms": 2.0576000679284334,
+    "audit_and_mask_export_ms": 3.139199921861291,
+    "cycle_ms": 35.41349992156029
+  },
+  {
+    "pipeline_ms": 38.21250004693866,
+    "decode_ms": 0.30750001315027475,
+    "render_encode_ms": 2.2725999588146806,
+    "audit_and_mask_export_ms": 3.006799961440265,
+    "cycle_ms": 43.93569997046143
+  },
+  {
+    "pipeline_ms": 38.07270003017038,
+    "decode_ms": 0.3645999822765589,
+    "render_encode_ms": 2.5960000930354,
+    "audit_and_mask_export_ms": 2.5404999032616615,
+    "cycle_ms": 43.70549996383488
+  },
+  {
+    "pipeline_ms": 22.012499975971878,
+    "decode_ms": 0.20450004376471043,
+    "render_encode_ms": 2.0669999066740274,
+    "audit_and_mask_export_ms": 2.6632000226527452,
+    "cycle_ms": 27.04519999679178
+  },
+  {
+    "pipeline_ms": 27.78739994391799,
+    "decode_ms": 0.3874000394716859,
+    "render_encode_ms": 2.626399975270033,
+    "audit_and_mask_export_ms": 2.8554999735206366,
+    "cycle_ms": 33.77280000131577
+  },
+  {
+    "pipeline_ms": 29.34000000823289,
+    "decode_ms": 0.23609993513673544,
+    "render_encode_ms": 2.5221999967470765,
+    "audit_and_mask_export_ms": 2.857699990272522,
+    "cycle_ms": 35.058700013905764
+  },
+  {
+    "pipeline_ms": 24.48060002643615,
+    "decode_ms": 0.2145000034943223,
+    "render_encode_ms": 2.4796000216156244,
+    "audit_and_mask_export_ms": 2.688199980184436,
+    "cycle_ms": 29.966000001877546
+  },
+  {
+    "pipeline_ms": 19.700300064869225,
+    "decode_ms": 0.21219998598098755,
+    "render_encode_ms": 1.9328000489622355,
+    "audit_and_mask_export_ms": 2.637399942614138,
+    "cycle_ms": 24.586500017903745
+  },
+  {
+    "pipeline_ms": 19.37459991313517,
+    "decode_ms": 0.19719998817890882,
+    "render_encode_ms": 2.285500057041645,
+    "audit_and_mask_export_ms": 6.195699912495911,
+    "cycle_ms": 28.156899963505566
+  },
+  {
+    "pipeline_ms": 33.818299998529255,
+    "decode_ms": 0.35099999513477087,
+    "render_encode_ms": 2.62110005132854,
+    "audit_and_mask_export_ms": 6.399799953214824,
+    "cycle_ms": 43.30909997224808
+  },
+  {
+    "pipeline_ms": 33.39359990786761,
+    "decode_ms": 0.30449999030679464,
+    "render_encode_ms": 2.5246000150218606,
+    "audit_and_mask_export_ms": 2.7670999988913536,
+    "cycle_ms": 39.110600017011166
+  },
+  {
+    "pipeline_ms": 19.781399983912706,
+    "decode_ms": 0.23210002109408379,
+    "render_encode_ms": 2.195600070990622,
+    "audit_and_mask_export_ms": 2.713399939239025,
+    "cycle_ms": 25.020899949595332
+  },
+  {
+    "pipeline_ms": 18.516300013288856,
+    "decode_ms": 0.23150001652538776,
+    "render_encode_ms": 2.091399976052344,
+    "audit_and_mask_export_ms": 2.5047999806702137,
+    "cycle_ms": 23.462899960577488
+  },
+  {
+    "pipeline_ms": 19.519199966453016,
+    "decode_ms": 0.2215000567957759,
+    "render_encode_ms": 2.103499951772392,
+    "audit_and_mask_export_ms": 2.572300028987229,
+    "cycle_ms": 24.52350000385195
+  },
+  {
+    "pipeline_ms": 18.692899961024523,
+    "decode_ms": 0.2239999594166875,
+    "render_encode_ms": 2.1458000410348177,
+    "audit_and_mask_export_ms": 2.6808999245986342,
+    "cycle_ms": 23.845799965783954
+  },
+  {
+    "pipeline_ms": 23.955299984663725,
+    "decode_ms": 0.2479000249877572,
+    "render_encode_ms": 1.742799999192357,
+    "audit_and_mask_export_ms": 3.143999958410859,
+    "cycle_ms": 29.196899966336787
+  },
+  {
+    "pipeline_ms": 29.349299962632358,
+    "decode_ms": 0.2498000394552946,
+    "render_encode_ms": 2.174900029785931,
+    "audit_and_mask_export_ms": 2.5566999102011323,
+    "cycle_ms": 34.44329998455942
+  },
+  {
+    "pipeline_ms": 33.827400067821145,
+    "decode_ms": 0.2701000776141882,
+    "render_encode_ms": 2.603899920359254,
+    "audit_and_mask_export_ms": 2.3213999811559916,
+    "cycle_ms": 39.16579997166991
+  },
+  {
+    "pipeline_ms": 20.498599973507226,
+    "decode_ms": 0.21399999968707561,
+    "render_encode_ms": 2.032599993981421,
+    "audit_and_mask_export_ms": 2.542399917729199,
+    "cycle_ms": 25.39149997755885
+  },
+  {
+    "pipeline_ms": 34.262800007127225,
+    "decode_ms": 0.2589999930933118,
+    "render_encode_ms": 2.4440999841317534,
+    "audit_and_mask_export_ms": 2.8138000052422285,
+    "cycle_ms": 39.878200041130185
+  },
+  {
+    "pipeline_ms": 20.03580005839467,
+    "decode_ms": 0.19519997294992208,
+    "render_encode_ms": 2.2043000208213925,
+    "audit_and_mask_export_ms": 2.82410008367151,
+    "cycle_ms": 25.351500022225082
+  },
+  {
+    "pipeline_ms": 24.1426998982206,
+    "decode_ms": 0.26240001898258924,
+    "render_encode_ms": 1.950400066561997,
+    "audit_and_mask_export_ms": 3.0175999272614717,
+    "cycle_ms": 29.477700009010732
+  },
+  {
+    "pipeline_ms": 34.68309994786978,
+    "decode_ms": 0.2674000570550561,
+    "render_encode_ms": 2.4383999407291412,
+    "audit_and_mask_export_ms": 2.7299000648781657,
+    "cycle_ms": 40.24240002036095
+  },
+  {
+    "pipeline_ms": 20.472500007599592,
+    "decode_ms": 0.27820002287626266,
+    "render_encode_ms": 2.370400005020201,
+    "audit_and_mask_export_ms": 2.5014999555423856,
+    "cycle_ms": 25.71159997023642
+  },
+  {
+    "pipeline_ms": 19.421500037424266,
+    "decode_ms": 0.21580001339316368,
+    "render_encode_ms": 2.019300009123981,
+    "audit_and_mask_export_ms": 2.7295000618323684,
+    "cycle_ms": 24.4922999991104
+  },
+  {
+    "pipeline_ms": 35.52989999298006,
+    "decode_ms": 0.24259998463094234,
+    "render_encode_ms": 1.7664999468252063,
+    "audit_and_mask_export_ms": 2.320899977348745,
+    "cycle_ms": 39.97069993056357
+  },
+  {
+    "pipeline_ms": 20.067799952812493,
+    "decode_ms": 0.18039997667074203,
+    "render_encode_ms": 2.219800022430718,
+    "audit_and_mask_export_ms": 2.453999943099916,
+    "cycle_ms": 25.008499971590936
+  },
+  {
+    "pipeline_ms": 21.070500020869076,
+    "decode_ms": 0.21410000044852495,
+    "render_encode_ms": 2.002799999900162,
+    "audit_and_mask_export_ms": 2.7054999954998493,
+    "cycle_ms": 26.092999964021146
+  },
+  {
+    "pipeline_ms": 32.899899990297854,
+    "decode_ms": 0.1808000961318612,
+    "render_encode_ms": 2.6203999295830727,
+    "audit_and_mask_export_ms": 2.5742000434547663,
+    "cycle_ms": 38.365300046280026
+  },
+  {
+    "pipeline_ms": 21.435300004668534,
+    "decode_ms": 0.24449999909847975,
+    "render_encode_ms": 2.351700095459819,
+    "audit_and_mask_export_ms": 2.6868999702855945,
+    "cycle_ms": 26.830899994820356
+  },
+  {
+    "pipeline_ms": 20.926800090819597,
+    "decode_ms": 0.2698999596759677,
+    "render_encode_ms": 2.2613999899476767,
+    "audit_and_mask_export_ms": 2.896200050599873,
+    "cycle_ms": 26.47909999359399
+  },
+  {
+    "pipeline_ms": 30.963500030338764,
+    "decode_ms": 0.3029000945389271,
+    "render_encode_ms": 2.7043999871239066,
+    "audit_and_mask_export_ms": 2.6741999899968505,
+    "cycle_ms": 36.76950000226498
+  },
+  {
+    "pipeline_ms": 22.655799984931946,
+    "decode_ms": 0.20490004681050777,
+    "render_encode_ms": 2.7233000146225095,
+    "audit_and_mask_export_ms": 2.6503000408411026,
+    "cycle_ms": 28.35210005287081
+  },
+  {
+    "pipeline_ms": 31.50050004478544,
+    "decode_ms": 0.24719990324229002,
+    "render_encode_ms": 2.535099978558719,
+    "audit_and_mask_export_ms": 2.5378999998793006,
+    "cycle_ms": 36.93159995600581
+  },
+  {
+    "pipeline_ms": 32.05050004180521,
+    "decode_ms": 0.21700002253055573,
+    "render_encode_ms": 2.7740999357774854,
+    "audit_and_mask_export_ms": 2.703299978747964,
+    "cycle_ms": 37.848399952054024
+  },
+  {
+    "pipeline_ms": 34.51900009531528,
+    "decode_ms": 0.25949999690055847,
+    "render_encode_ms": 2.3740000324323773,
+    "audit_and_mask_export_ms": 2.842599991708994,
+    "cycle_ms": 40.09999998379499
+  },
+  {
+    "pipeline_ms": 39.79129996150732,
+    "decode_ms": 0.41310000233352184,
+    "render_encode_ms": 2.8135000029578805,
+    "audit_and_mask_export_ms": 2.4028000188991427,
+    "cycle_ms": 45.54570000618696
+  },
+  {
+    "pipeline_ms": 27.333400095812976,
+    "decode_ms": 0.19679998513311148,
+    "render_encode_ms": 2.3317000595852733,
+    "audit_and_mask_export_ms": 2.271799952723086,
+    "cycle_ms": 32.240499975159764
+  },
+  {
+    "pipeline_ms": 30.877199955284595,
+    "decode_ms": 0.21989992819726467,
+    "render_encode_ms": 2.6132999919354916,
+    "audit_and_mask_export_ms": 2.8182000387459993,
+    "cycle_ms": 36.645299987867475
+  },
+  {
+    "pipeline_ms": 23.006100091151893,
+    "decode_ms": 0.23809995036572218,
+    "render_encode_ms": 2.611700096167624,
+    "audit_and_mask_export_ms": 2.8822999447584152,
+    "cycle_ms": 28.844999964348972
+  },
+  {
+    "pipeline_ms": 26.87499998137355,
+    "decode_ms": 0.2666999353095889,
+    "render_encode_ms": 2.045000088401139,
+    "audit_and_mask_export_ms": 2.333299955353141,
+    "cycle_ms": 31.628099968656898
+  },
+  {
+    "pipeline_ms": 19.75869992747903,
+    "decode_ms": 0.2266999799758196,
+    "render_encode_ms": 2.2709000622853637,
+    "audit_and_mask_export_ms": 2.5597999338060617,
+    "cycle_ms": 24.918299983255565
+  },
+  {
+    "pipeline_ms": 21.98089996818453,
+    "decode_ms": 0.25809998624026775,
+    "render_encode_ms": 2.3907999275252223,
+    "audit_and_mask_export_ms": 2.7147000655531883,
+    "cycle_ms": 27.458900003693998
+  },
+  {
+    "pipeline_ms": 31.409000046551228,
+    "decode_ms": 0.28739997651427984,
+    "render_encode_ms": 2.6337000308558345,
+    "audit_and_mask_export_ms": 2.9106000438332558,
+    "cycle_ms": 37.348999991081655
+  },
+  {
+    "pipeline_ms": 32.63540007174015,
+    "decode_ms": 0.2071999479085207,
+    "render_encode_ms": 2.613999997265637,
+    "audit_and_mask_export_ms": 2.480400027707219,
+    "cycle_ms": 38.04549993947148
+  },
+  {
+    "pipeline_ms": 34.528300049714744,
+    "decode_ms": 0.23360003251582384,
+    "render_encode_ms": 2.625000081025064,
+    "audit_and_mask_export_ms": 2.648400026373565,
+    "cycle_ms": 40.13820004183799
+  },
+  {
+    "pipeline_ms": 29.111800016835332,
+    "decode_ms": 0.2815000480040908,
+    "render_encode_ms": 2.029700088314712,
+    "audit_and_mask_export_ms": 2.8214999474585056,
+    "cycle_ms": 34.35650002211332
+  },
+  {
+    "pipeline_ms": 28.184899943880737,
+    "decode_ms": 0.24369999300688505,
+    "render_encode_ms": 2.319199964404106,
+    "audit_and_mask_export_ms": 2.6571000926196575,
+    "cycle_ms": 33.50360004696995
+  },
+  {
+    "pipeline_ms": 33.30009989440441,
+    "decode_ms": 0.18440000712871552,
+    "render_encode_ms": 2.014499972574413,
+    "audit_and_mask_export_ms": 2.7359999949112535,
+    "cycle_ms": 38.32799999509007
+  },
+  {
+    "pipeline_ms": 36.252700025215745,
+    "decode_ms": 0.31949998810887337,
+    "render_encode_ms": 2.5348999770358205,
+    "audit_and_mask_export_ms": 2.773400046862662,
+    "cycle_ms": 41.99040005914867
+  },
+  {
+    "pipeline_ms": 34.30529998149723,
+    "decode_ms": 0.31569995917379856,
+    "render_encode_ms": 2.5130000431090593,
+    "audit_and_mask_export_ms": 2.5774999521672726,
+    "cycle_ms": 39.83409993816167
+  },
+  {
+    "pipeline_ms": 20.317999995313585,
+    "decode_ms": 0.22579997312277555,
+    "render_encode_ms": 2.1690999856218696,
+    "audit_and_mask_export_ms": 2.3907999275252223,
+    "cycle_ms": 25.218799943104386
+  },
+  {
+    "pipeline_ms": 20.956500084139407,
+    "decode_ms": 0.19130005966871977,
+    "render_encode_ms": 2.063299994915724,
+    "audit_and_mask_export_ms": 2.6837000623345375,
+    "cycle_ms": 25.98280005622655
+  },
+  {
+    "pipeline_ms": 34.24010006710887,
+    "decode_ms": 0.2756000030785799,
+    "render_encode_ms": 2.058899961411953,
+    "audit_and_mask_export_ms": 3.0314000323414803,
+    "cycle_ms": 39.71869999077171
+  },
+  {
+    "pipeline_ms": 34.13530008401722,
+    "decode_ms": 0.28110004495829344,
+    "render_encode_ms": 2.5731000350788236,
+    "audit_and_mask_export_ms": 2.7106000343337655,
+    "cycle_ms": 39.810100104659796
+  },
+  {
+    "pipeline_ms": 30.327699962072074,
+    "decode_ms": 0.31100003980100155,
+    "render_encode_ms": 2.5529999984428287,
+    "audit_and_mask_export_ms": 2.860700013116002,
+    "cycle_ms": 36.17640002630651
+  },
+  {
+    "pipeline_ms": 19.873700104653835,
+    "decode_ms": 0.2532999496906996,
+    "render_encode_ms": 2.0744000794366,
+    "audit_and_mask_export_ms": 2.7481999713927507,
+    "cycle_ms": 25.058800005353987
+  },
+  {
+    "pipeline_ms": 34.47579999919981,
+    "decode_ms": 0.28739997651427984,
+    "render_encode_ms": 2.619900042191148,
+    "audit_and_mask_export_ms": 2.648700028657913,
+    "cycle_ms": 40.14679999090731
+  },
+  {
+    "pipeline_ms": 22.193899960257113,
+    "decode_ms": 0.22519996855407953,
+    "render_encode_ms": 2.0679000299423933,
+    "audit_and_mask_export_ms": 2.7412999188527465,
+    "cycle_ms": 27.323799906298518
+  },
+  {
+    "pipeline_ms": 19.21930001117289,
+    "decode_ms": 0.1927000703290105,
+    "render_encode_ms": 2.2250000620260835,
+    "audit_and_mask_export_ms": 2.7571999235078692,
+    "cycle_ms": 24.49370000977069
+  },
+  {
+    "pipeline_ms": 26.54130000155419,
+    "decode_ms": 0.1970999874174595,
+    "render_encode_ms": 3.0725999968126416,
+    "audit_and_mask_export_ms": 2.5314000668004155,
+    "cycle_ms": 32.44450001511723
+  },
+  {
+    "pipeline_ms": 28.101200005039573,
+    "decode_ms": 0.1916999462991953,
+    "render_encode_ms": 2.1983999758958817,
+    "audit_and_mask_export_ms": 2.762199961580336,
+    "cycle_ms": 33.350199926644564
+  },
+  {
+    "pipeline_ms": 32.8615999314934,
+    "decode_ms": 0.28110004495829344,
+    "render_encode_ms": 2.3302999325096607,
+    "audit_and_mask_export_ms": 2.6524000568315387,
+    "cycle_ms": 38.24210003949702
+  },
+  {
+    "pipeline_ms": 35.34189995843917,
+    "decode_ms": 0.24949992075562477,
+    "render_encode_ms": 2.154699992388487,
+    "audit_and_mask_export_ms": 3.083599964156747,
+    "cycle_ms": 40.9468999132514
+  },
+  {
+    "pipeline_ms": 36.049799993634224,
+    "decode_ms": 0.2756000030785799,
+    "render_encode_ms": 2.628499991260469,
+    "audit_and_mask_export_ms": 3.0547999776899815,
+    "cycle_ms": 42.119999998249114
+  },
+  {
+    "pipeline_ms": 24.05959996394813,
+    "decode_ms": 0.25130005087703466,
+    "render_encode_ms": 2.295200014486909,
+    "audit_and_mask_export_ms": 2.860700013116002,
+    "cycle_ms": 29.596099979244173
+  },
+  {
+    "pipeline_ms": 31.862700008787215,
+    "decode_ms": 0.3062000032514334,
+    "render_encode_ms": 2.330400049686432,
+    "audit_and_mask_export_ms": 2.7560999151319265,
+    "cycle_ms": 37.37179993186146
+  },
+  {
+    "pipeline_ms": 35.45079997275025,
+    "decode_ms": 0.2612000098451972,
+    "render_encode_ms": 2.1409000037238,
+    "audit_and_mask_export_ms": 2.904199995100498,
+    "cycle_ms": 40.86710000410676
+  },
+  {
+    "pipeline_ms": 36.41069994773716,
+    "decode_ms": 0.23260002490133047,
+    "render_encode_ms": 2.659299992956221,
+    "audit_and_mask_export_ms": 2.6276999851688743,
+    "cycle_ms": 42.04620001837611
+  },
+  {
+    "pipeline_ms": 35.22089996840805,
+    "decode_ms": 0.2855999628081918,
+    "render_encode_ms": 2.7729999274015427,
+    "audit_and_mask_export_ms": 2.6678000576794147,
+    "cycle_ms": 41.079499991610646
+  },
+  {
+    "pipeline_ms": 31.877300003543496,
+    "decode_ms": 0.23710005916655064,
+    "render_encode_ms": 2.541300025768578,
+    "audit_and_mask_export_ms": 2.5429000379517674,
+    "cycle_ms": 37.3141000745818
+  },
+  {
+    "pipeline_ms": 34.262800007127225,
+    "decode_ms": 0.33740000799298286,
+    "render_encode_ms": 2.671400085091591,
+    "audit_and_mask_export_ms": 2.640599966980517,
+    "cycle_ms": 40.02199997194111
+  },
+  {
+    "pipeline_ms": 27.14609995018691,
+    "decode_ms": 0.20389992278069258,
+    "render_encode_ms": 2.626399975270033,
+    "audit_and_mask_export_ms": 2.7155999559909105,
+    "cycle_ms": 32.80299995094538
+  },
+  {
+    "pipeline_ms": 34.54699995927513,
+    "decode_ms": 0.33930002246052027,
+    "render_encode_ms": 2.624699962325394,
+    "audit_and_mask_export_ms": 2.8723999857902527,
+    "cycle_ms": 40.492999949492514
+  },
+  {
+    "pipeline_ms": 34.345299936831,
+    "decode_ms": 0.256099971011281,
+    "render_encode_ms": 2.613099990412593,
+    "audit_and_mask_export_ms": 2.979799988679588,
+    "cycle_ms": 40.30160000547767
+  },
+  {
+    "pipeline_ms": 34.599200007505715,
+    "decode_ms": 0.2533999504521489,
+    "render_encode_ms": 2.623499953188002,
+    "audit_and_mask_export_ms": 2.667900058440864,
+    "cycle_ms": 40.24620004929602
+  },
+  {
+    "pipeline_ms": 32.148800091817975,
+    "decode_ms": 0.3396000247448683,
+    "render_encode_ms": 3.1301999697461724,
+    "audit_and_mask_export_ms": 3.128299955278635,
+    "cycle_ms": 38.849900010973215
+  },
+  {
+    "pipeline_ms": 37.90820005815476,
+    "decode_ms": 0.30289997812360525,
+    "render_encode_ms": 2.836800063960254,
+    "audit_and_mask_export_ms": 3.1183999963104725,
+    "cycle_ms": 44.280200032517314
+  },
+  {
+    "pipeline_ms": 40.63029994722456,
+    "decode_ms": 0.31999999191612005,
+    "render_encode_ms": 2.9328999808058143,
+    "audit_and_mask_export_ms": 2.703299978747964,
+    "cycle_ms": 46.710000024177134
+  },
+  {
+    "pipeline_ms": 21.40600001439452,
+    "decode_ms": 0.19479996990412474,
+    "render_encode_ms": 2.2564000682905316,
+    "audit_and_mask_export_ms": 2.4671999271959066,
+    "cycle_ms": 26.426499942317605
+  },
+  {
+    "pipeline_ms": 28.313000104390085,
+    "decode_ms": 0.21730002481490374,
+    "render_encode_ms": 2.8738999972119927,
+    "audit_and_mask_export_ms": 2.9271000530570745,
+    "cycle_ms": 34.45630008354783
+  },
+  {
+    "pipeline_ms": 32.88079996127635,
+    "decode_ms": 0.24930003564804792,
+    "render_encode_ms": 2.8935999143868685,
+    "audit_and_mask_export_ms": 2.3879000218585134,
+    "cycle_ms": 38.53180003352463
+  },
+  {
+    "pipeline_ms": 35.334000014699996,
+    "decode_ms": 0.27199997566640377,
+    "render_encode_ms": 2.659799996763468,
+    "audit_and_mask_export_ms": 2.677600015886128,
+    "cycle_ms": 41.0668000113219
+  },
+  {
+    "pipeline_ms": 24.09520000219345,
+    "decode_ms": 0.292200013063848,
+    "render_encode_ms": 2.6365999365225434,
+    "audit_and_mask_export_ms": 2.6651000371202826,
+    "cycle_ms": 29.791399952955544
+  },
+  {
+    "pipeline_ms": 18.99559993762523,
+    "decode_ms": 0.20760006736963987,
+    "render_encode_ms": 2.305599977262318,
+    "audit_and_mask_export_ms": 2.309700008481741,
+    "cycle_ms": 23.91460002399981
+  },
+  {
+    "pipeline_ms": 21.279899985529482,
+    "decode_ms": 0.21740002557635307,
+    "render_encode_ms": 2.2339000133797526,
+    "audit_and_mask_export_ms": 2.576799946837127,
+    "cycle_ms": 26.414999971166253
+  },
+  {
+    "pipeline_ms": 20.035299938172102,
+    "decode_ms": 0.23300002794712782,
+    "render_encode_ms": 2.032299991697073,
+    "audit_and_mask_export_ms": 2.7576000429689884,
+    "cycle_ms": 25.155600043945014
+  },
+  {
+    "pipeline_ms": 27.598900021985173,
+    "decode_ms": 0.3038999857380986,
+    "render_encode_ms": 2.3464999394491315,
+    "audit_and_mask_export_ms": 2.787900040857494,
+    "cycle_ms": 33.15969998948276
+  },
+  {
+    "pipeline_ms": 35.135700018145144,
+    "decode_ms": 0.26329990942031145,
+    "render_encode_ms": 2.548399963416159,
+    "audit_and_mask_export_ms": 3.074800013564527,
+    "cycle_ms": 41.13219992723316
+  },
+  {
+    "pipeline_ms": 34.102900070138276,
+    "decode_ms": 0.24149997625499964,
+    "render_encode_ms": 2.6292999973520637,
+    "audit_and_mask_export_ms": 2.4486000183969736,
+    "cycle_ms": 39.53179996460676
+  },
+  {
+    "pipeline_ms": 33.93739997409284,
+    "decode_ms": 0.2999999560415745,
+    "render_encode_ms": 2.7606000658124685,
+    "audit_and_mask_export_ms": 2.741699921898544,
+    "cycle_ms": 39.839599980041385
+  },
+  {
+    "pipeline_ms": 21.230099955573678,
+    "decode_ms": 0.19489997066557407,
+    "render_encode_ms": 2.079300000332296,
+    "audit_and_mask_export_ms": 2.532099955715239,
+    "cycle_ms": 26.14570001605898
+  },
+  {
+    "pipeline_ms": 21.16319991182536,
+    "decode_ms": 0.2536999527364969,
+    "render_encode_ms": 2.091799979098141,
+    "audit_and_mask_export_ms": 2.589500043541193,
+    "cycle_ms": 26.203299988992512
+  },
+  {
+    "pipeline_ms": 22.27010007482022,
+    "decode_ms": 0.2937999088317156,
+    "render_encode_ms": 2.7295000618323684,
+    "audit_and_mask_export_ms": 2.3542999988421798,
+    "cycle_ms": 27.77719998266548
+  },
+  {
+    "pipeline_ms": 29.285999946296215,
+    "decode_ms": 0.2025999128818512,
+    "render_encode_ms": 2.509600017219782,
+    "audit_and_mask_export_ms": 3.003600053489208,
+    "cycle_ms": 35.104600014165044
+  },
+  {
+    "pipeline_ms": 28.306800057180226,
+    "decode_ms": 0.27270009741187096,
+    "render_encode_ms": 2.115700044669211,
+    "audit_and_mask_export_ms": 2.4660000344738364,
+    "cycle_ms": 33.27840007841587
+  },
+  {
+    "pipeline_ms": 26.657799957320094,
+    "decode_ms": 0.2364999381825328,
+    "render_encode_ms": 2.5766000617295504,
+    "audit_and_mask_export_ms": 2.57639994379133,
+    "cycle_ms": 32.158599933609366
+  },
+  {
+    "pipeline_ms": 20.760799990966916,
+    "decode_ms": 0.19059993792325258,
+    "render_encode_ms": 2.3346999660134315,
+    "audit_and_mask_export_ms": 2.719899988733232,
+    "cycle_ms": 26.11049998085946
+  },
+  {
+    "pipeline_ms": 23.068999988026917,
+    "decode_ms": 0.28719997499138117,
+    "render_encode_ms": 2.2779999999329448,
+    "audit_and_mask_export_ms": 2.420000033453107,
+    "cycle_ms": 28.181100031360984
+  },
+  {
+    "pipeline_ms": 37.107400014065206,
+    "decode_ms": 0.27210009284317493,
+    "render_encode_ms": 2.764799981378019,
+    "audit_and_mask_export_ms": 2.9472000896930695,
+    "cycle_ms": 43.203200097195804
+  },
+  {
+    "pipeline_ms": 25.67470003850758,
+    "decode_ms": 0.24730002041906118,
+    "render_encode_ms": 2.9548000311478972,
+    "audit_and_mask_export_ms": 2.7570000384002924,
+    "cycle_ms": 31.75380011089146
+  },
+  {
+    "pipeline_ms": 30.55649995803833,
+    "decode_ms": 0.24830002803355455,
+    "render_encode_ms": 2.7051999932155013,
+    "audit_and_mask_export_ms": 2.7028999757021666,
+    "cycle_ms": 36.325099994428456
+  },
+  {
+    "pipeline_ms": 27.17419993132353,
+    "decode_ms": 0.20940008107572794,
+    "render_encode_ms": 2.5869999080896378,
+    "audit_and_mask_export_ms": 2.424500067718327,
+    "cycle_ms": 32.50970004592091
+  },
+  {
+    "pipeline_ms": 34.26140011288226,
+    "decode_ms": 0.2114999806508422,
+    "render_encode_ms": 2.880200045183301,
+    "audit_and_mask_export_ms": 2.503699972294271,
+    "cycle_ms": 39.957899949513376
+  },
+  {
+    "pipeline_ms": 25.38120001554489,
+    "decode_ms": 0.1990000018849969,
+    "render_encode_ms": 2.8594000032171607,
+    "audit_and_mask_export_ms": 2.430099993944168,
+    "cycle_ms": 30.964600038714707
+  },
+  {
+    "pipeline_ms": 19.81480000540614,
+    "decode_ms": 0.22240006364881992,
+    "render_encode_ms": 2.394299954175949,
+    "audit_and_mask_export_ms": 2.5234000058844686,
+    "cycle_ms": 25.058700004592538
+  },
+  {
+    "pipeline_ms": 32.6975000789389,
+    "decode_ms": 0.20540005061775446,
+    "render_encode_ms": 2.4859000695869327,
+    "audit_and_mask_export_ms": 2.5855000130832195,
+    "cycle_ms": 38.0776000674814
+  },
+  {
+    "pipeline_ms": 23.93829997163266,
+    "decode_ms": 0.22289995104074478,
+    "render_encode_ms": 2.271299948915839,
+    "audit_and_mask_export_ms": 5.714900093153119,
+    "cycle_ms": 32.256499980576336
+  },
+  {
+    "pipeline_ms": 35.40890000294894,
+    "decode_ms": 0.25050004478543997,
+    "render_encode_ms": 2.6273999828845263,
+    "audit_and_mask_export_ms": 2.8677000664174557,
+    "cycle_ms": 41.26330011058599
+  },
+  {
+    "pipeline_ms": 21.548899938352406,
+    "decode_ms": 0.2394000766798854,
+    "render_encode_ms": 2.615200006403029,
+    "audit_and_mask_export_ms": 2.369399997405708,
+    "cycle_ms": 26.88070002477616
+  },
+  {
+    "pipeline_ms": 33.76599994953722,
+    "decode_ms": 0.19950000569224358,
+    "render_encode_ms": 2.597799990326166,
+    "audit_and_mask_export_ms": 2.683199942111969,
+    "cycle_ms": 39.345999946817756
+  },
+  {
+    "pipeline_ms": 20.01370000652969,
+    "decode_ms": 0.21309999283403158,
+    "render_encode_ms": 2.237800043076277,
+    "audit_and_mask_export_ms": 2.8693999629467726,
+    "cycle_ms": 25.439799996092916
+  },
+  {
+    "pipeline_ms": 20.521100028418005,
+    "decode_ms": 0.21520000882446766,
+    "render_encode_ms": 2.0400999346747994,
+    "audit_and_mask_export_ms": 2.5177999632433057,
+    "cycle_ms": 25.39009996689856
+  },
+  {
+    "pipeline_ms": 29.19619996100664,
+    "decode_ms": 0.17959997057914734,
+    "render_encode_ms": 2.71569995675236,
+    "audit_and_mask_export_ms": 2.637399942614138,
+    "cycle_ms": 34.82499998062849
+  },
+  {
+    "pipeline_ms": 35.080700065009296,
+    "decode_ms": 0.278300023637712,
+    "render_encode_ms": 2.5112000294029713,
+    "audit_and_mask_export_ms": 2.799700014293194,
+    "cycle_ms": 40.782600059174
+  },
+  {
+    "pipeline_ms": 32.924999948590994,
+    "decode_ms": 0.31720008701086044,
+    "render_encode_ms": 2.0183000015094876,
+    "audit_and_mask_export_ms": 2.760700066573918,
+    "cycle_ms": 38.128800108097494
+  },
+  {
+    "pipeline_ms": 24.075900088064373,
+    "decode_ms": 0.1993000041693449,
+    "render_encode_ms": 2.609899966046214,
+    "audit_and_mask_export_ms": 2.9587000608444214,
+    "cycle_ms": 29.942500055767596
+  },
+  {
+    "pipeline_ms": 33.440500032156706,
+    "decode_ms": 0.26899995282292366,
+    "render_encode_ms": 2.634800039231777,
+    "audit_and_mask_export_ms": 2.6585999876260757,
+    "cycle_ms": 39.10799999721348
+  },
+  {
+    "pipeline_ms": 34.32389989029616,
+    "decode_ms": 0.25299994740635157,
+    "render_encode_ms": 2.675499999895692,
+    "audit_and_mask_export_ms": 3.0122000025585294,
+    "cycle_ms": 40.36809992976487
+  },
+  {
+    "pipeline_ms": 23.754799971356988,
+    "decode_ms": 0.2343000378459692,
+    "render_encode_ms": 2.0296000875532627,
+    "audit_and_mask_export_ms": 2.879499923437834,
+    "cycle_ms": 28.996099950745702
+  },
+  {
+    "pipeline_ms": 22.191000054590404,
+    "decode_ms": 0.28989999555051327,
+    "render_encode_ms": 2.1717000054195523,
+    "audit_and_mask_export_ms": 2.3222999880090356,
+    "cycle_ms": 27.084900066256523
+  },
+  {
+    "pipeline_ms": 30.51810001488775,
+    "decode_ms": 0.20579993724822998,
+    "render_encode_ms": 2.694200025871396,
+    "audit_and_mask_export_ms": 2.9464000836014748,
+    "cycle_ms": 36.462799995206296
+  },
+  {
+    "pipeline_ms": 34.06460001133382,
+    "decode_ms": 0.175100052729249,
+    "render_encode_ms": 2.8597000055015087,
+    "audit_and_mask_export_ms": 2.93049996253103,
+    "cycle_ms": 40.12220003642142
+  },
+  {
+    "pipeline_ms": 33.87729998212308,
+    "decode_ms": 0.24930003564804792,
+    "render_encode_ms": 2.72320001386106,
+    "audit_and_mask_export_ms": 2.7593999402597547,
+    "cycle_ms": 39.714899961836636
+  },
+  {
+    "pipeline_ms": 20.866399980150163,
+    "decode_ms": 0.2258999738842249,
+    "render_encode_ms": 2.609899966046214,
+    "audit_and_mask_export_ms": 2.5221999967470765,
+    "cycle_ms": 26.32229996379465
+  },
+  {
+    "pipeline_ms": 20.550400018692017,
+    "decode_ms": 0.20730006508529186,
+    "render_encode_ms": 2.1112000104039907,
+    "audit_and_mask_export_ms": 3.097600070759654,
+    "cycle_ms": 26.077600079588592
+  },
+  {
+    "pipeline_ms": 35.797799937427044,
+    "decode_ms": 0.25690009351819754,
+    "render_encode_ms": 2.691800007596612,
+    "audit_and_mask_export_ms": 2.666400047019124,
+    "cycle_ms": 41.5217000991106
+  },
+  {
+    "pipeline_ms": 33.39660004712641,
+    "decode_ms": 0.21000008564442396,
+    "render_encode_ms": 2.7135000564157963,
+    "audit_and_mask_export_ms": 2.593299956060946,
+    "cycle_ms": 39.02000002563
+  },
+  {
+    "pipeline_ms": 25.189099949784577,
+    "decode_ms": 0.24079997092485428,
+    "render_encode_ms": 2.7216000016778708,
+    "audit_and_mask_export_ms": 2.8315000236034393,
+    "cycle_ms": 31.086800037883222
+  },
+  {
+    "pipeline_ms": 35.28569999616593,
+    "decode_ms": 0.33489998895674944,
+    "render_encode_ms": 2.6582001009956002,
+    "audit_and_mask_export_ms": 2.6276999851688743,
+    "cycle_ms": 41.106500080786645
+  },
+  {
+    "pipeline_ms": 25.249099940992892,
+    "decode_ms": 0.2340999199077487,
+    "render_encode_ms": 2.368199988268316,
+    "audit_and_mask_export_ms": 2.3695999989286065,
+    "cycle_ms": 30.36849992349744
+  },
+  {
+    "pipeline_ms": 24.779500090517104,
+    "decode_ms": 0.19189994782209396,
+    "render_encode_ms": 2.6201000437140465,
+    "audit_and_mask_export_ms": 2.940800040960312,
+    "cycle_ms": 30.628200038336217
+  },
+  {
+    "pipeline_ms": 36.792100057937205,
+    "decode_ms": 0.2842000685632229,
+    "render_encode_ms": 2.640899969264865,
+    "audit_and_mask_export_ms": 2.3874000180512667,
+    "cycle_ms": 42.21010010223836
+  },
+  {
+    "pipeline_ms": 28.088699909858406,
+    "decode_ms": 0.20800007041543722,
+    "render_encode_ms": 2.7140999445691705,
+    "audit_and_mask_export_ms": 3.018000046722591,
+    "cycle_ms": 34.13350007031113
+  },
+  {
+    "pipeline_ms": 21.13479992840439,
+    "decode_ms": 0.23559993132948875,
+    "render_encode_ms": 2.2101999493315816,
+    "audit_and_mask_export_ms": 2.2329000057652593,
+    "cycle_ms": 25.92369995545596
+  },
+  {
+    "pipeline_ms": 21.226700046099722,
+    "decode_ms": 0.19859999883919954,
+    "render_encode_ms": 2.0593999652191997,
+    "audit_and_mask_export_ms": 2.506999997422099,
+    "cycle_ms": 26.09519998077303
+  },
+  {
+    "pipeline_ms": 26.75940003246069,
+    "decode_ms": 0.23579993285238743,
+    "render_encode_ms": 1.954799983650446,
+    "audit_and_mask_export_ms": 2.3999999975785613,
+    "cycle_ms": 31.46309999283403
+  },
+  {
+    "pipeline_ms": 20.705800037831068,
+    "decode_ms": 0.24039996787905693,
+    "render_encode_ms": 2.186400000937283,
+    "audit_and_mask_export_ms": 2.518200082704425,
+    "cycle_ms": 25.761299999430776
+  },
+  {
+    "pipeline_ms": 25.269799982197583,
+    "decode_ms": 0.19419996533542871,
+    "render_encode_ms": 2.920400002039969,
+    "audit_and_mask_export_ms": 2.8766999021172523,
+    "cycle_ms": 31.358199892565608
+  },
+  {
+    "pipeline_ms": 34.163600066676736,
+    "decode_ms": 0.2707000821828842,
+    "render_encode_ms": 2.533599967136979,
+    "audit_and_mask_export_ms": 2.9026000993326306,
+    "cycle_ms": 39.976300089620054
+  },
+  {
+    "pipeline_ms": 28.44389993697405,
+    "decode_ms": 0.22869999520480633,
+    "render_encode_ms": 2.6774000143632293,
+    "audit_and_mask_export_ms": 2.64920003246516,
+    "cycle_ms": 34.10560009069741
+  },
+  {
+    "pipeline_ms": 20.068799960426986,
+    "decode_ms": 0.19080005586147308,
+    "render_encode_ms": 1.9869999960064888,
+    "audit_and_mask_export_ms": 2.348399953916669,
+    "cycle_ms": 24.693200015462935
+  },
+  {
+    "pipeline_ms": 30.34910000860691,
+    "decode_ms": 0.20510004833340645,
+    "render_encode_ms": 2.763999975286424,
+    "audit_and_mask_export_ms": 2.785200020298362,
+    "cycle_ms": 36.191900027915835
+  },
+  {
+    "pipeline_ms": 20.739899948239326,
+    "decode_ms": 0.19639998208731413,
+    "render_encode_ms": 2.349599963054061,
+    "audit_and_mask_export_ms": 2.7774000773206353,
+    "cycle_ms": 26.16080001462251
+  },
+  {
+    "pipeline_ms": 32.757499953731894,
+    "decode_ms": 0.20340003538876772,
+    "render_encode_ms": 2.657499979250133,
+    "audit_and_mask_export_ms": 2.849500044248998,
+    "cycle_ms": 38.5675000725314
+  },
+  {
+    "pipeline_ms": 33.86930003762245,
+    "decode_ms": 0.2641999162733555,
+    "render_encode_ms": 2.763699973002076,
+    "audit_and_mask_export_ms": 2.2956000175327063,
+    "cycle_ms": 39.29889993742108
+  },
+  {
+    "pipeline_ms": 27.143799932673573,
+    "decode_ms": 0.25889999233186245,
+    "render_encode_ms": 2.6344999205321074,
+    "audit_and_mask_export_ms": 2.786200027912855,
+    "cycle_ms": 32.930999994277954
+  },
+  {
+    "pipeline_ms": 29.16969999205321,
+    "decode_ms": 0.20849995780736208,
+    "render_encode_ms": 2.5822999887168407,
+    "audit_and_mask_export_ms": 2.808299963362515,
+    "cycle_ms": 34.870099974796176
+  },
+  {
+    "pipeline_ms": 35.04620003513992,
+    "decode_ms": 0.2541999565437436,
+    "render_encode_ms": 2.560500055551529,
+    "audit_and_mask_export_ms": 2.450500032864511,
+    "cycle_ms": 40.42690002825111
+  },
+  {
+    "pipeline_ms": 23.234300082549453,
+    "decode_ms": 0.18429988995194435,
+    "render_encode_ms": 2.3419999051839113,
+    "audit_and_mask_export_ms": 2.6678000576794147,
+    "cycle_ms": 28.50769995711744
+  },
+  {
+    "pipeline_ms": 20.019000046886504,
+    "decode_ms": 0.1884999219328165,
+    "render_encode_ms": 2.085600048303604,
+    "audit_and_mask_export_ms": 2.5239000096917152,
+    "cycle_ms": 24.91779997944832
+  },
+  {
+    "pipeline_ms": 26.847500004805624,
+    "decode_ms": 0.24159997701644897,
+    "render_encode_ms": 2.782900002785027,
+    "audit_and_mask_export_ms": 2.7089000213891268,
+    "cycle_ms": 32.687900005839765
+  },
+  {
+    "pipeline_ms": 34.57670006901026,
+    "decode_ms": 0.3081000177189708,
+    "render_encode_ms": 2.20920005813241,
+    "audit_and_mask_export_ms": 2.540899906307459,
+    "cycle_ms": 39.76640000473708
+  },
+  {
+    "pipeline_ms": 35.06219992414117,
+    "decode_ms": 0.2810000441968441,
+    "render_encode_ms": 2.6174000231549144,
+    "audit_and_mask_export_ms": 2.7963999891653657,
+    "cycle_ms": 40.879799984395504
+  },
+  {
+    "pipeline_ms": 23.610299918800592,
+    "decode_ms": 0.21930004004389048,
+    "render_encode_ms": 1.9856999861076474,
+    "audit_and_mask_export_ms": 2.4883999722078443,
+    "cycle_ms": 28.40369998011738
+  },
+  {
+    "pipeline_ms": 34.049500012770295,
+    "decode_ms": 0.29820005875080824,
+    "render_encode_ms": 2.719299984164536,
+    "audit_and_mask_export_ms": 2.27569998241961,
+    "cycle_ms": 39.450000040233135
+  },
+  {
+    "pipeline_ms": 34.29949993733317,
+    "decode_ms": 0.2465000143274665,
+    "render_encode_ms": 2.534799976274371,
+    "audit_and_mask_export_ms": 2.588900038972497,
+    "cycle_ms": 39.78140000253916
+  },
+  {
+    "pipeline_ms": 27.933500008657575,
+    "decode_ms": 0.20330003462731838,
+    "render_encode_ms": 2.6276999851688743,
+    "audit_and_mask_export_ms": 2.5948999682441354,
+    "cycle_ms": 33.45730004366487
+  },
+  {
+    "pipeline_ms": 19.88470007199794,
+    "decode_ms": 0.20769995171576738,
+    "render_encode_ms": 2.062199986539781,
+    "audit_and_mask_export_ms": 2.5414000265300274,
+    "cycle_ms": 24.807599955238402
+  },
+  {
+    "pipeline_ms": 36.551999975927174,
+    "decode_ms": 0.2759000053629279,
+    "render_encode_ms": 2.927199937403202,
+    "audit_and_mask_export_ms": 2.648700028657913,
+    "cycle_ms": 42.51359996851534
+  },
+  {
+    "pipeline_ms": 35.70999996736646,
+    "decode_ms": 0.27089996729046106,
+    "render_encode_ms": 2.7652999851852655,
+    "audit_and_mask_export_ms": 3.165300004184246,
+    "cycle_ms": 42.027899995446205
+  },
+  {
+    "pipeline_ms": 36.729399929754436,
+    "decode_ms": 0.30159996822476387,
+    "render_encode_ms": 2.686199964955449,
+    "audit_and_mask_export_ms": 2.7067000046372414,
+    "cycle_ms": 42.5431999610737
+  },
+  {
+    "pipeline_ms": 24.98450002167374,
+    "decode_ms": 0.1946999691426754,
+    "render_encode_ms": 2.041699946857989,
+    "audit_and_mask_export_ms": 2.6254000840708613,
+    "cycle_ms": 29.94010003749281
+  },
+  {
+    "pipeline_ms": 29.038600041531026,
+    "decode_ms": 0.19149994477629662,
+    "render_encode_ms": 2.572600031271577,
+    "audit_and_mask_export_ms": 3.0462000286206603,
+    "cycle_ms": 34.9481999874115
+  },
+  {
+    "pipeline_ms": 35.9910000115633,
+    "decode_ms": 0.2443999983370304,
+    "render_encode_ms": 2.6051000459119678,
+    "audit_and_mask_export_ms": 2.933699986897409,
+    "cycle_ms": 41.88049992080778
+  },
+  {
+    "pipeline_ms": 32.45609998703003,
+    "decode_ms": 0.23609993513673544,
+    "render_encode_ms": 2.9544000281021,
+    "audit_and_mask_export_ms": 2.4836999364197254,
+    "cycle_ms": 38.24569995049387
+  },
+  {
+    "pipeline_ms": 32.597600016742945,
+    "decode_ms": 0.24459999985992908,
+    "render_encode_ms": 2.60299991350621,
+    "audit_and_mask_export_ms": 2.460299991071224,
+    "cycle_ms": 38.018599967472255
+  },
+  {
+    "pipeline_ms": 34.81800004374236,
+    "decode_ms": 0.23600005079060793,
+    "render_encode_ms": 2.7677000034600496,
+    "audit_and_mask_export_ms": 2.7250999119132757,
+    "cycle_ms": 40.6502999830991
+  },
+  {
+    "pipeline_ms": 20.140400039963424,
+    "decode_ms": 0.20570005290210247,
+    "render_encode_ms": 2.0664999028667808,
+    "audit_and_mask_export_ms": 2.4329000152647495,
+    "cycle_ms": 24.950999999418855
+  },
+  {
+    "pipeline_ms": 21.272299927659333,
+    "decode_ms": 0.21510000806301832,
+    "render_encode_ms": 2.1892000222578645,
+    "audit_and_mask_export_ms": 2.645400003530085,
+    "cycle_ms": 26.423700037412345
+  },
+  {
+    "pipeline_ms": 34.35650002211332,
+    "decode_ms": 0.21979992743581533,
+    "render_encode_ms": 2.625799970701337,
+    "audit_and_mask_export_ms": 2.2598999785259366,
+    "cycle_ms": 39.57299992907792
+  },
+  {
+    "pipeline_ms": 21.37380000203848,
+    "decode_ms": 0.19970000721514225,
+    "render_encode_ms": 2.5693000061437488,
+    "audit_and_mask_export_ms": 2.426499966531992,
+    "cycle_ms": 26.67749999091029
+  },
+  {
+    "pipeline_ms": 31.68420004658401,
+    "decode_ms": 0.21620001643896103,
+    "render_encode_ms": 2.6836999459192157,
+    "audit_and_mask_export_ms": 3.030200023204088,
+    "cycle_ms": 37.73250000085682
+  },
+  {
+    "pipeline_ms": 33.981099957600236,
+    "decode_ms": 0.26220001745969057,
+    "render_encode_ms": 2.131399931386113,
+    "audit_and_mask_export_ms": 2.5622000684961677,
+    "cycle_ms": 39.049900020472705
+  },
+  {
+    "pipeline_ms": 33.905800082720816,
+    "decode_ms": 0.26590004563331604,
+    "render_encode_ms": 2.5557000190019608,
+    "audit_and_mask_export_ms": 2.9848000267520547,
+    "cycle_ms": 39.8016000399366
+  },
+  {
+    "pipeline_ms": 27.961799991317093,
+    "decode_ms": 0.21760002709925175,
+    "render_encode_ms": 2.6427999837324023,
+    "audit_and_mask_export_ms": 2.679100027307868,
+    "cycle_ms": 33.60760002397001
+  },
+  {
+    "pipeline_ms": 21.681000012904406,
+    "decode_ms": 0.313800061121583,
+    "render_encode_ms": 2.0311999833211303,
+    "audit_and_mask_export_ms": 2.8487000381574035,
+    "cycle_ms": 26.979800080880523
+  },
+  {
+    "pipeline_ms": 21.447400096803904,
+    "decode_ms": 0.21410000044852495,
+    "render_encode_ms": 2.3137000389397144,
+    "audit_and_mask_export_ms": 2.3723000194877386,
+    "cycle_ms": 26.463599991984665
+  },
+  {
+    "pipeline_ms": 25.33099998254329,
+    "decode_ms": 0.20810007117688656,
+    "render_encode_ms": 2.6273999828845263,
+    "audit_and_mask_export_ms": 2.486299956217408,
+    "cycle_ms": 30.76120000332594
+  },
+  {
+    "pipeline_ms": 19.09319998230785,
+    "decode_ms": 0.23660005535930395,
+    "render_encode_ms": 2.1099000005051494,
+    "audit_and_mask_export_ms": 2.8581999940797687,
+    "cycle_ms": 24.392900057137012
+  },
+  {
+    "pipeline_ms": 36.365099949762225,
+    "decode_ms": 0.24589989334344864,
+    "render_encode_ms": 2.6672999374568462,
+    "audit_and_mask_export_ms": 2.631800016388297,
+    "cycle_ms": 42.02239995356649
+  },
+  {
+    "pipeline_ms": 21.879600011743605,
+    "decode_ms": 0.19339995924383402,
+    "render_encode_ms": 2.2535999305546284,
+    "audit_and_mask_export_ms": 2.724400022998452,
+    "cycle_ms": 27.146399952471256
+  },
+  {
+    "pipeline_ms": 34.85300007741898,
+    "decode_ms": 0.25569996796548367,
+    "render_encode_ms": 2.561699948273599,
+    "audit_and_mask_export_ms": 2.9489999869838357,
+    "cycle_ms": 40.72779999114573
+  },
+  {
+    "pipeline_ms": 23.569799959659576,
+    "decode_ms": 0.23300002794712782,
+    "render_encode_ms": 2.2817999124526978,
+    "audit_and_mask_export_ms": 2.4311000015586615,
+    "cycle_ms": 28.611499932594597
+  },
+  {
+    "pipeline_ms": 30.274600023403764,
+    "decode_ms": 0.19759999122470617,
+    "render_encode_ms": 2.522399998269975,
+    "audit_and_mask_export_ms": 2.606700058095157,
+    "cycle_ms": 35.704400041140616
+  },
+  {
+    "pipeline_ms": 25.653499993495643,
+    "decode_ms": 0.25619997177273035,
+    "render_encode_ms": 2.0213999086990952,
+    "audit_and_mask_export_ms": 2.634200034663081,
+    "cycle_ms": 30.66469996701926
+  },
+  {
+    "pipeline_ms": 23.623200017027557,
+    "decode_ms": 0.2954000374302268,
+    "render_encode_ms": 2.3758000461384654,
+    "audit_and_mask_export_ms": 2.9103999258950353,
+    "cycle_ms": 29.318599961698055
+  },
+  {
+    "pipeline_ms": 19.494400010444224,
+    "decode_ms": 0.2012000186368823,
+    "render_encode_ms": 2.2956000175327063,
+    "audit_and_mask_export_ms": 2.4147999938577414,
+    "cycle_ms": 24.506899993866682
+  },
+  {
+    "pipeline_ms": 28.542099986225367,
+    "decode_ms": 0.2540999557822943,
+    "render_encode_ms": 2.225800068117678,
+    "audit_and_mask_export_ms": 2.741799922659993,
+    "cycle_ms": 33.874699962325394
+  },
+  {
+    "pipeline_ms": 21.15140005480498,
+    "decode_ms": 0.22259994875639677,
+    "render_encode_ms": 2.09469988476485,
+    "audit_and_mask_export_ms": 2.3974000941962004,
+    "cycle_ms": 25.980800040997565
+  },
+  {
+    "pipeline_ms": 20.687000011093915,
+    "decode_ms": 0.16879988834261894,
+    "render_encode_ms": 2.330099930986762,
+    "audit_and_mask_export_ms": 2.3395000025629997,
+    "cycle_ms": 25.613099918700755
+  },
+  {
+    "pipeline_ms": 23.838000022806227,
+    "decode_ms": 0.16469997353851795,
+    "render_encode_ms": 1.992700039409101,
+    "audit_and_mask_export_ms": 2.803899929858744,
+    "cycle_ms": 28.89419998973608
+  },
+  {
+    "pipeline_ms": 35.82980006467551,
+    "decode_ms": 0.18129998352378607,
+    "render_encode_ms": 2.7646999806165695,
+    "audit_and_mask_export_ms": 2.820800058543682,
+    "cycle_ms": 41.6941000148654
+  },
+  {
+    "pipeline_ms": 35.01940006390214,
+    "decode_ms": 0.23269990924745798,
+    "render_encode_ms": 2.6453000027686357,
+    "audit_and_mask_export_ms": 2.399599994532764,
+    "cycle_ms": 40.41519993916154
+  },
+  {
+    "pipeline_ms": 20.55420004762709,
+    "decode_ms": 0.25269994512200356,
+    "render_encode_ms": 2.0531000336632133,
+    "audit_and_mask_export_ms": 2.7878000400960445,
+    "cycle_ms": 25.765500031411648
+  },
+  {
+    "pipeline_ms": 24.007600033655763,
+    "decode_ms": 0.24770002346485853,
+    "render_encode_ms": 2.069199923425913,
+    "audit_and_mask_export_ms": 2.4489000206813216,
+    "cycle_ms": 28.899800032377243
+  },
+  {
+    "pipeline_ms": 36.59590007737279,
+    "decode_ms": 0.3108000382781029,
+    "render_encode_ms": 2.5565000250935555,
+    "audit_and_mask_export_ms": 2.6596999960020185,
+    "cycle_ms": 42.241199989803135
+  },
+  {
+    "pipeline_ms": 33.96859997883439,
+    "decode_ms": 0.31319994013756514,
+    "render_encode_ms": 2.587400027550757,
+    "audit_and_mask_export_ms": 2.810399979352951,
+    "cycle_ms": 39.77939998731017
+  },
+  {
+    "pipeline_ms": 20.165399997495115,
+    "decode_ms": 0.1908999402076006,
+    "render_encode_ms": 2.3545000003650784,
+    "audit_and_mask_export_ms": 2.8915998991578817,
+    "cycle_ms": 25.707699940539896
+  },
+  {
+    "pipeline_ms": 38.05049997754395,
+    "decode_ms": 0.25020004250109196,
+    "render_encode_ms": 2.199399983510375,
+    "audit_and_mask_export_ms": 2.74229992646724,
+    "cycle_ms": 43.370199971832335
+  },
+  {
+    "pipeline_ms": 31.27210005186498,
+    "decode_ms": 0.3192999865859747,
+    "render_encode_ms": 2.643000101670623,
+    "audit_and_mask_export_ms": 2.8033999260514975,
+    "cycle_ms": 37.16720000375062
+  },
+  {
+    "pipeline_ms": 35.436399979516864,
+    "decode_ms": 0.30910002533346415,
+    "render_encode_ms": 2.6591999921947718,
+    "audit_and_mask_export_ms": 2.623699954710901,
+    "cycle_ms": 41.149199940264225
+  },
+  {
+    "pipeline_ms": 20.909800077788532,
+    "decode_ms": 0.19180006347596645,
+    "render_encode_ms": 2.289899974130094,
+    "audit_and_mask_export_ms": 2.392600057646632,
+    "cycle_ms": 25.872400030493736
+  },
+  {
+    "pipeline_ms": 26.674099965021014,
+    "decode_ms": 0.23909995798021555,
+    "render_encode_ms": 2.0071000326424837,
+    "audit_and_mask_export_ms": 2.7079000137746334,
+    "cycle_ms": 31.74180001951754
+  },
+  {
+    "pipeline_ms": 18.68169999215752,
+    "decode_ms": 0.17730006948113441,
+    "render_encode_ms": 2.0203000167384744,
+    "audit_and_mask_export_ms": 2.674399991519749,
+    "cycle_ms": 23.653400014154613
+  },
+  {
+    "pipeline_ms": 30.580800026655197,
+    "decode_ms": 0.24860003031790257,
+    "render_encode_ms": 2.259200089611113,
+    "audit_and_mask_export_ms": 6.079499959014356,
+    "cycle_ms": 39.279700024053454
+  }
+]

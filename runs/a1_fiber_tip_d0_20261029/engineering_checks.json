@@ -1,0 +1,29 @@
+{
+  "all_passed": true,
+  "checks": {
+    "all_frozen_code_related_inputs_weights_and_videos_unchanged": true,
+    "322_validation_files_and521_132_144_29_unchanged": true,
+    "no_training_fitting_default_or_stone_memory_change": true,
+    "12_pilot_references_pending_without_predicted_tip_truth": true,
+    "image_native_probability_cache_native_fusion_and_fn_counts_independent": true,
+    "image_native_all_static_cache_files_and_no_tip_metrics": true,
+    "video_native_probability_cache_native_fusion_and_fn_counts_independent": true,
+    "video_native_all_static_cache_files_and_no_tip_metrics": true,
+    "historical25_107_and_source68_64_groups_complete": true,
+    "video_1_all_consecutive_frames_masks_raw_hashes_and_historical_reference": true,
+    "video_1_every_frame_timing_statistics_recomputed": true,
+    "video_1_full_video_export_no_dense_truth_claims": true,
+    "video_1_fresh_process3nets_and_alignment": true,
+    "video_2_all_consecutive_frames_masks_raw_hashes_and_historical_reference": true,
+    "video_2_every_frame_timing_statistics_recomputed": true,
+    "video_2_full_video_export_no_dense_truth_claims": true,
+    "video_2_fresh_process3nets_and_alignment": true,
+    "two_videos_really_separate_processes": true,
+    "canonical_snapshot_all_frozen_sources_exact": true
+  },
+  "unit_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "scope": "Cache/reproduction/stage-accounting/all-frame timing/export verification only; no dedicated tip GT or clinical/live acceptance"
+}

@@ -1,0 +1,4481 @@
+{
+  "role": "Post-hoc diagnostic only, no new gate or inference change; distances to reference fiber for FP are reference-conditioned, not inference features",
+  "sets": {
+    "video_native": {
+      "summary": {
+        "reference_fp_pixels": 12492,
+        "fp_in_no_reference_fiber_images": 0,
+        "fp_in_components_without_fiber_overlap": 5598,
+        "fp_distance_gt_le3": 6795,
+        "fp_distance_gt_3_to16": 99,
+        "fp_distance_gt_gt16_or_no_gt": 5598,
+        "fp_probability_ge09": 5285,
+        "no_reference_fiber_images": 0,
+        "predicted_fiber_in_no_reference_fiber_images": 0,
+        "reference_present_but_no_tp_frames": 0
+      },
+      "frames": [
+        {
+          "sample_id": "reviewed_video_1_000002",
+          "video_id": "video_1",
+          "frame_index": 2,
+          "reference_fiber_pixels": 5706,
+          "fp_pixels": 54,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1,
+          "fp_distance_gt_le3": 54,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000018",
+          "video_id": "video_1",
+          "frame_index": 18,
+          "reference_fiber_pixels": 5715,
+          "fp_pixels": 107,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 9,
+          "fp_distance_gt_le3": 107,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000020",
+          "video_id": "video_1",
+          "frame_index": 20,
+          "reference_fiber_pixels": 5841,
+          "fp_pixels": 107,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 11,
+          "fp_distance_gt_le3": 107,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000021",
+          "video_id": "video_1",
+          "frame_index": 21,
+          "reference_fiber_pixels": 5765,
+          "fp_pixels": 114,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 36,
+          "fp_distance_gt_le3": 114,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000032",
+          "video_id": "video_1",
+          "frame_index": 32,
+          "reference_fiber_pixels": 5653,
+          "fp_pixels": 92,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 6,
+          "fp_distance_gt_le3": 92,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000034",
+          "video_id": "video_1",
+          "frame_index": 34,
+          "reference_fiber_pixels": 5696,
+          "fp_pixels": 84,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 7,
+          "fp_distance_gt_le3": 84,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000036",
+          "video_id": "video_1",
+          "frame_index": 36,
+          "reference_fiber_pixels": 5652,
+          "fp_pixels": 98,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 6,
+          "fp_distance_gt_le3": 98,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000041",
+          "video_id": "video_1",
+          "frame_index": 41,
+          "reference_fiber_pixels": 5773,
+          "fp_pixels": 77,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 10,
+          "fp_distance_gt_le3": 77,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000047",
+          "video_id": "video_1",
+          "frame_index": 47,
+          "reference_fiber_pixels": 5822,
+          "fp_pixels": 49,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 49,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000053",
+          "video_id": "video_1",
+          "frame_index": 53,
+          "reference_fiber_pixels": 5772,
+          "fp_pixels": 53,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 53,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000062",
+          "video_id": "video_1",
+          "frame_index": 62,
+          "reference_fiber_pixels": 5834,
+          "fp_pixels": 81,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 2,
+          "fp_distance_gt_le3": 81,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000065",
+          "video_id": "video_1",
+          "frame_index": 65,
+          "reference_fiber_pixels": 6116,
+          "fp_pixels": 32,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 3,
+          "fp_distance_gt_le3": 32,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000067",
+          "video_id": "video_1",
+          "frame_index": 67,
+          "reference_fiber_pixels": 5928,
+          "fp_pixels": 76,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 12,
+          "fp_distance_gt_le3": 76,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000071",
+          "video_id": "video_1",
+          "frame_index": 71,
+          "reference_fiber_pixels": 5847,
+          "fp_pixels": 57,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1,
+          "fp_distance_gt_le3": 57,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000072",
+          "video_id": "video_1",
+          "frame_index": 72,
+          "reference_fiber_pixels": 5846,
+          "fp_pixels": 51,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 51,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000075",
+          "video_id": "video_1",
+          "frame_index": 75,
+          "reference_fiber_pixels": 5813,
+          "fp_pixels": 117,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 13,
+          "fp_distance_gt_le3": 117,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000076",
+          "video_id": "video_1",
+          "frame_index": 76,
+          "reference_fiber_pixels": 5803,
+          "fp_pixels": 53,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 53,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000077",
+          "video_id": "video_1",
+          "frame_index": 77,
+          "reference_fiber_pixels": 5842,
+          "fp_pixels": 57,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1,
+          "fp_distance_gt_le3": 57,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000079",
+          "video_id": "video_1",
+          "frame_index": 79,
+          "reference_fiber_pixels": 5840,
+          "fp_pixels": 63,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 63,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000096",
+          "video_id": "video_1",
+          "frame_index": 96,
+          "reference_fiber_pixels": 5768,
+          "fp_pixels": 111,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 3,
+          "fp_distance_gt_le3": 111,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000107",
+          "video_id": "video_1",
+          "frame_index": 107,
+          "reference_fiber_pixels": 5853,
+          "fp_pixels": 110,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 28,
+          "fp_distance_gt_le3": 105,
+          "fp_distance_gt_3_to16": 5,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000112",
+          "video_id": "video_1",
+          "frame_index": 112,
+          "reference_fiber_pixels": 5870,
+          "fp_pixels": 83,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 83,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000123",
+          "video_id": "video_1",
+          "frame_index": 123,
+          "reference_fiber_pixels": 5785,
+          "fp_pixels": 139,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 32,
+          "fp_distance_gt_le3": 137,
+          "fp_distance_gt_3_to16": 2,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000142",
+          "video_id": "video_1",
+          "frame_index": 142,
+          "reference_fiber_pixels": 5739,
+          "fp_pixels": 109,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 2,
+          "fp_distance_gt_le3": 109,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000144",
+          "video_id": "video_1",
+          "frame_index": 144,
+          "reference_fiber_pixels": 5838,
+          "fp_pixels": 143,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 28,
+          "fp_distance_gt_le3": 143,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000146",
+          "video_id": "video_1",
+          "frame_index": 146,
+          "reference_fiber_pixels": 5785,
+          "fp_pixels": 136,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 12,
+          "fp_distance_gt_le3": 136,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000150",
+          "video_id": "video_1",
+          "frame_index": 150,
+          "reference_fiber_pixels": 5988,
+          "fp_pixels": 144,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 20,
+          "fp_distance_gt_le3": 144,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000152",
+          "video_id": "video_1",
+          "frame_index": 152,
+          "reference_fiber_pixels": 5712,
+          "fp_pixels": 190,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 32,
+          "fp_distance_gt_le3": 190,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000189",
+          "video_id": "video_1",
+          "frame_index": 189,
+          "reference_fiber_pixels": 5763,
+          "fp_pixels": 1075,
+          "fp_in_no_overlap_components": 994,
+          "fp_probability_ge09": 733,
+          "fp_distance_gt_le3": 81,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 994,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000204",
+          "video_id": "video_1",
+          "frame_index": 204,
+          "reference_fiber_pixels": 5681,
+          "fp_pixels": 189,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 55,
+          "fp_distance_gt_le3": 186,
+          "fp_distance_gt_3_to16": 3,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000246",
+          "video_id": "video_1",
+          "frame_index": 246,
+          "reference_fiber_pixels": 5610,
+          "fp_pixels": 144,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 24,
+          "fp_distance_gt_le3": 144,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000292",
+          "video_id": "video_1",
+          "frame_index": 292,
+          "reference_fiber_pixels": 5526,
+          "fp_pixels": 183,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 32,
+          "fp_distance_gt_le3": 183,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000320",
+          "video_id": "video_1",
+          "frame_index": 320,
+          "reference_fiber_pixels": 5543,
+          "fp_pixels": 49,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 4,
+          "fp_distance_gt_le3": 49,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000329",
+          "video_id": "video_1",
+          "frame_index": 329,
+          "reference_fiber_pixels": 5496,
+          "fp_pixels": 103,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 2,
+          "fp_distance_gt_le3": 103,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000331",
+          "video_id": "video_1",
+          "frame_index": 331,
+          "reference_fiber_pixels": 5643,
+          "fp_pixels": 77,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 5,
+          "fp_distance_gt_le3": 77,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000337",
+          "video_id": "video_1",
+          "frame_index": 337,
+          "reference_fiber_pixels": 5488,
+          "fp_pixels": 243,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 65,
+          "fp_distance_gt_le3": 233,
+          "fp_distance_gt_3_to16": 10,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000352",
+          "video_id": "video_1",
+          "frame_index": 352,
+          "reference_fiber_pixels": 5525,
+          "fp_pixels": 230,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 78,
+          "fp_distance_gt_le3": 226,
+          "fp_distance_gt_3_to16": 4,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000380",
+          "video_id": "video_1",
+          "frame_index": 380,
+          "reference_fiber_pixels": 5481,
+          "fp_pixels": 381,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 93,
+          "fp_distance_gt_le3": 381,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000427",
+          "video_id": "video_1",
+          "frame_index": 427,
+          "reference_fiber_pixels": 5578,
+          "fp_pixels": 79,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 79,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000524",
+          "video_id": "video_1",
+          "frame_index": 524,
+          "reference_fiber_pixels": 5636,
+          "fp_pixels": 112,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 2,
+          "fp_distance_gt_le3": 112,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 34
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 34
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000525",
+          "video_id": "video_1",
+          "frame_index": 525,
+          "reference_fiber_pixels": 5624,
+          "fp_pixels": 102,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 2,
+          "fp_distance_gt_le3": 102,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 34
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 34
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000623",
+          "video_id": "video_1",
+          "frame_index": 623,
+          "reference_fiber_pixels": 5587,
+          "fp_pixels": 116,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 2,
+          "fp_distance_gt_le3": 116,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_1_000721",
+          "video_id": "video_1",
+          "frame_index": 721,
+          "reference_fiber_pixels": 5934,
+          "fp_pixels": 89,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1,
+          "fp_distance_gt_le3": 89,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 10
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 10
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000000",
+          "video_id": "video_2",
+          "frame_index": 0,
+          "reference_fiber_pixels": 6071,
+          "fp_pixels": 66,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1,
+          "fp_distance_gt_le3": 66,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000002",
+          "video_id": "video_2",
+          "frame_index": 2,
+          "reference_fiber_pixels": 6454,
+          "fp_pixels": 42,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 42,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000047",
+          "video_id": "video_2",
+          "frame_index": 47,
+          "reference_fiber_pixels": 6168,
+          "fp_pixels": 345,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 102,
+          "fp_distance_gt_le3": 311,
+          "fp_distance_gt_3_to16": 34,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000075",
+          "video_id": "video_2",
+          "frame_index": 75,
+          "reference_fiber_pixels": 6350,
+          "fp_pixels": 17,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 17,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000149",
+          "video_id": "video_2",
+          "frame_index": 149,
+          "reference_fiber_pixels": 6274,
+          "fp_pixels": 29,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 29,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000154",
+          "video_id": "video_2",
+          "frame_index": 154,
+          "reference_fiber_pixels": 6469,
+          "fp_pixels": 18,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 18,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000191",
+          "video_id": "video_2",
+          "frame_index": 191,
+          "reference_fiber_pixels": 6289,
+          "fp_pixels": 65,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1,
+          "fp_distance_gt_le3": 65,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000268",
+          "video_id": "video_2",
+          "frame_index": 268,
+          "reference_fiber_pixels": 7082,
+          "fp_pixels": 141,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 29,
+          "fp_distance_gt_le3": 131,
+          "fp_distance_gt_3_to16": 10,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000340",
+          "video_id": "video_2",
+          "frame_index": 340,
+          "reference_fiber_pixels": 11463,
+          "fp_pixels": 45,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 45,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000571",
+          "video_id": "video_2",
+          "frame_index": 571,
+          "reference_fiber_pixels": 11162,
+          "fp_pixels": 74,
+          "fp_in_no_overlap_components": 12,
+          "fp_probability_ge09": 17,
+          "fp_distance_gt_le3": 62,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 12,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000649",
+          "video_id": "video_2",
+          "frame_index": 649,
+          "reference_fiber_pixels": 6640,
+          "fp_pixels": 30,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 5,
+          "fp_distance_gt_le3": 30,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000772",
+          "video_id": "video_2",
+          "frame_index": 772,
+          "reference_fiber_pixels": 6704,
+          "fp_pixels": 4201,
+          "fp_in_no_overlap_components": 4148,
+          "fp_probability_ge09": 3573,
+          "fp_distance_gt_le3": 53,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 4148,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000884",
+          "video_id": "video_2",
+          "frame_index": 884,
+          "reference_fiber_pixels": 6372,
+          "fp_pixels": 59,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 59,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000900",
+          "video_id": "video_2",
+          "frame_index": 900,
+          "reference_fiber_pixels": 6230,
+          "fp_pixels": 347,
+          "fp_in_no_overlap_components": 327,
+          "fp_probability_ge09": 4,
+          "fp_distance_gt_le3": 20,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 327,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 7
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 7
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000942",
+          "video_id": "video_2",
+          "frame_index": 942,
+          "reference_fiber_pixels": 7966,
+          "fp_pixels": 27,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 27,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_000986",
+          "video_id": "video_2",
+          "frame_index": 986,
+          "reference_fiber_pixels": 10634,
+          "fp_pixels": 184,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 7,
+          "fp_distance_gt_le3": 184,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001000",
+          "video_id": "video_2",
+          "frame_index": 1000,
+          "reference_fiber_pixels": 12291,
+          "fp_pixels": 4,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 4,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001061",
+          "video_id": "video_2",
+          "frame_index": 1061,
+          "reference_fiber_pixels": 6688,
+          "fp_pixels": 175,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 14,
+          "fp_distance_gt_le3": 175,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001135",
+          "video_id": "video_2",
+          "frame_index": 1135,
+          "reference_fiber_pixels": 6220,
+          "fp_pixels": 59,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 59,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001208",
+          "video_id": "video_2",
+          "frame_index": 1208,
+          "reference_fiber_pixels": 11422,
+          "fp_pixels": 117,
+          "fp_in_no_overlap_components": 117,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 117,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001223",
+          "video_id": "video_2",
+          "frame_index": 1223,
+          "reference_fiber_pixels": 11479,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001822",
+          "video_id": "video_2",
+          "frame_index": 1822,
+          "reference_fiber_pixels": 5027,
+          "fp_pixels": 140,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 5,
+          "fp_distance_gt_le3": 140,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001846",
+          "video_id": "video_2",
+          "frame_index": 1846,
+          "reference_fiber_pixels": 6163,
+          "fp_pixels": 11,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 11,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001881",
+          "video_id": "video_2",
+          "frame_index": 1881,
+          "reference_fiber_pixels": 5850,
+          "fp_pixels": 262,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 125,
+          "fp_distance_gt_le3": 231,
+          "fp_distance_gt_3_to16": 31,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 2,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001897",
+          "video_id": "video_2",
+          "frame_index": 1897,
+          "reference_fiber_pixels": 10113,
+          "fp_pixels": 206,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 28,
+          "fp_distance_gt_le3": 206,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001965",
+          "video_id": "video_2",
+          "frame_index": 1965,
+          "reference_fiber_pixels": 6569,
+          "fp_pixels": 34,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1,
+          "fp_distance_gt_le3": 34,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "reviewed_video_2_001971",
+          "video_id": "video_2",
+          "frame_index": 1971,
+          "reference_fiber_pixels": 6553,
+          "fp_pixels": 35,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 35,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        }
+      ]
+    },
+    "image_native": {
+      "summary": {
+        "reference_fp_pixels": 58343,
+        "fp_in_no_reference_fiber_images": 21536,
+        "fp_in_components_without_fiber_overlap": 34821,
+        "fp_distance_gt_le3": 13651,
+        "fp_distance_gt_3_to16": 9149,
+        "fp_distance_gt_gt16_or_no_gt": 35543,
+        "fp_probability_ge09": 41306,
+        "no_reference_fiber_images": 82,
+        "predicted_fiber_in_no_reference_fiber_images": 20,
+        "reference_present_but_no_tp_frames": 2
+      },
+      "frames": [
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cccd1a7775145966c8bb5501",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1933,
+          "fp_pixels": 252,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 108,
+          "fp_distance_gt_le3": 244,
+          "fp_distance_gt_3_to16": 8,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 619,
+          "fp_pixels": 88,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 45,
+          "fp_distance_gt_le3": 83,
+          "fp_distance_gt_3_to16": 5,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 453,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 71
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 71
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cebd05046dd66dfc157c7c22",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cf2bc6993fd5bc9051797231",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__cf397a212754fa856044a105",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 3148,
+          "fp_pixels": 291,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 163,
+          "fp_distance_gt_le3": 262,
+          "fp_distance_gt_3_to16": 29,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 7
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 7
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2086,
+          "fp_pixels": 282,
+          "fp_in_no_overlap_components": 85,
+          "fp_probability_ge09": 82,
+          "fp_distance_gt_le3": 197,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 85,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 24
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 24
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 662,
+          "fp_pixels": 97,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 16,
+          "fp_distance_gt_le3": 97,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d380e64796be3f2bc0ea8b8d",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 930,
+          "fp_pixels": 258,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 128,
+          "fp_distance_gt_le3": 213,
+          "fp_distance_gt_3_to16": 45,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 35
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 35
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 250,
+          "fp_in_no_overlap_components": 250,
+          "fp_probability_ge09": 176,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 250,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d476007d707213fa27659221",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 392,
+          "fp_in_no_overlap_components": 392,
+          "fp_probability_ge09": 310,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 392,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2690,
+          "fp_pixels": 546,
+          "fp_in_no_overlap_components": 290,
+          "fp_probability_ge09": 349,
+          "fp_distance_gt_le3": 245,
+          "fp_distance_gt_3_to16": 11,
+          "fp_distance_gt_gt16_or_no_gt": 290,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 13
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 13
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d504f85f2fb66ec103d21dc4",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d5763e0bb069246f33640071",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2136,
+          "fp_pixels": 560,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 405,
+          "fp_distance_gt_le3": 279,
+          "fp_distance_gt_3_to16": 281,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 2
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 2
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 1381,
+          "fp_in_no_overlap_components": 1381,
+          "fp_probability_ge09": 1203,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 1381,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d79781cd1c7cd071fc44de0c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 625,
+          "fp_in_no_overlap_components": 625,
+          "fp_probability_ge09": 527,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 625,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1748,
+          "fp_pixels": 310,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 197,
+          "fp_distance_gt_le3": 202,
+          "fp_distance_gt_3_to16": 108,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 5
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 5
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__d8b6c834f397c1414e65a28a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__db41ac8a866e0a43cc6b4d14",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 26,
+          "fp_in_no_overlap_components": 26,
+          "fp_probability_ge09": 4,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 26,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__db950909f5180cfe568caeeb",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__df847941994bf694ac228c8c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e0267bedab5c1d75d479a19a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e128d928f63c992a140d652d",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2421,
+          "fp_pixels": 311,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 194,
+          "fp_distance_gt_le3": 206,
+          "fp_distance_gt_3_to16": 105,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 576,
+          "fp_pixels": 80,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 34,
+          "fp_distance_gt_le3": 70,
+          "fp_distance_gt_3_to16": 10,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 3054,
+          "fp_pixels": 363,
+          "fp_in_no_overlap_components": 271,
+          "fp_probability_ge09": 230,
+          "fp_distance_gt_le3": 92,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 271,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 25
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 25
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e24d1cc256dfa5780aeb1769",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 182,
+          "fp_in_no_overlap_components": 182,
+          "fp_probability_ge09": 135,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 182,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e2a826c4b9eb6402a96cd36c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 577,
+          "fp_in_no_overlap_components": 577,
+          "fp_probability_ge09": 437,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 577,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e3053295fb4f899238f8966a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e355e8693d335cbf9d8cf855",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e3d9211a5dbed854971a5440",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 445,
+          "fp_pixels": 115,
+          "fp_in_no_overlap_components": 75,
+          "fp_probability_ge09": 53,
+          "fp_distance_gt_le3": 40,
+          "fp_distance_gt_3_to16": 7,
+          "fp_distance_gt_gt16_or_no_gt": 68,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 2
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 2
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e5f4938cea8a6f11f27fb86f",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e655d4ca3bce9c5dbf8a7031",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e6cbc0b8877053482b4cbaf9",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e7a5ff6c13b19390cae69340",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e81644f0445056839c381270",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 588,
+          "fp_in_no_overlap_components": 588,
+          "fp_probability_ge09": 456,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 588,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1175,
+          "fp_pixels": 142,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 53,
+          "fp_distance_gt_le3": 141,
+          "fp_distance_gt_3_to16": 1,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 3896,
+          "fp_pixels": 221,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 99,
+          "fp_distance_gt_le3": 203,
+          "fp_distance_gt_3_to16": 18,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 96
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 96
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 351,
+          "fp_pixels": 156,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 79,
+          "fp_distance_gt_le3": 146,
+          "fp_distance_gt_3_to16": 10,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb8e9610be90a060660bef16",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb9414350213456173b9216e",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1484,
+          "fp_pixels": 131,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 97,
+          "fp_distance_gt_le3": 76,
+          "fp_distance_gt_3_to16": 55,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__eb9c5b0d82fbd7802848f976",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 138,
+          "fp_in_no_overlap_components": 138,
+          "fp_probability_ge09": 79,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 138,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 457,
+          "fp_pixels": 123,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 68,
+          "fp_distance_gt_le3": 110,
+          "fp_distance_gt_3_to16": 13,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 25
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 25
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ee46a5d978b3090ef07b252e",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__efa54a36a80d5c48f25f4c5b",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2568,
+          "fp_pixels": 1110,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 900,
+          "fp_distance_gt_le3": 157,
+          "fp_distance_gt_3_to16": 286,
+          "fp_distance_gt_gt16_or_no_gt": 667,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 27
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 27
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f30c29162d090fea5d6def64",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 157,
+          "fp_pixels": 355,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 282,
+          "fp_distance_gt_le3": 80,
+          "fp_distance_gt_3_to16": 235,
+          "fp_distance_gt_gt16_or_no_gt": 40,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 1
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 1
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3b76748433d12f4d9d7a362",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f3e2e469a2139285aca27f9c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 254,
+          "fp_in_no_overlap_components": 254,
+          "fp_probability_ge09": 174,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 254,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f527f236680465cfac1ee1e1",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 3141,
+          "fp_pixels": 490,
+          "fp_in_no_overlap_components": 403,
+          "fp_probability_ge09": 330,
+          "fp_distance_gt_le3": 87,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 403,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f55bfa67b4643136910eed51",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f62020c170af2da2938be744",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2147,
+          "fp_pixels": 1080,
+          "fp_in_no_overlap_components": 863,
+          "fp_probability_ge09": 849,
+          "fp_distance_gt_le3": 216,
+          "fp_distance_gt_3_to16": 1,
+          "fp_distance_gt_gt16_or_no_gt": 863,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f6d6396b0ba9dc078f202f5d",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 678,
+          "fp_pixels": 41,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 16,
+          "fp_distance_gt_le3": 41,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 19
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 19
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f7a0ce0bac6c7a0bb0a5f9ec",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 273,
+          "fp_pixels": 1114,
+          "fp_in_no_overlap_components": 646,
+          "fp_probability_ge09": 876,
+          "fp_distance_gt_le3": 92,
+          "fp_distance_gt_3_to16": 171,
+          "fp_distance_gt_gt16_or_no_gt": 851,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f88483917dce2d5dc69e03cc",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__f95ce3dc9c950992589ef81a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fa8c7845974d43d219704de3",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 285,
+          "fp_pixels": 971,
+          "fp_in_no_overlap_components": 971,
+          "fp_probability_ge09": 756,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 971,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 25
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 25
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fb75f7e4d2f47745183dddf4",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 560,
+          "fp_in_no_overlap_components": 560,
+          "fp_probability_ge09": 446,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 560,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fc77bf8ca279f9875f5807c2",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fccb14b3644a4b7c55ac628a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 1087,
+          "fp_in_no_overlap_components": 1087,
+          "fp_probability_ge09": 847,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 1087,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 512,
+          "fp_pixels": 66,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 20,
+          "fp_distance_gt_le3": 66,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__fe36ceb2449249673181a5a6",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 473,
+          "fp_in_no_overlap_components": 473,
+          "fp_probability_ge09": 331,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 473,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v1__joint__ff39699780e8e83e6f08541a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cd97db274666dd9a90154901",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 7486,
+          "fp_pixels": 1267,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 579,
+          "fp_distance_gt_le3": 837,
+          "fp_distance_gt_3_to16": 430,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cec1352c534df462a5d62b9c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cf404f4f3a6de1d92bab3c86",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 4545,
+          "fp_pixels": 758,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 311,
+          "fp_distance_gt_le3": 544,
+          "fp_distance_gt_3_to16": 214,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 10
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 10
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d027b44c9ee6ce7c1bea8c8b",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d04ebe39fe149deead19c16b",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 8580,
+          "fp_pixels": 2135,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 1370,
+          "fp_distance_gt_le3": 768,
+          "fp_distance_gt_3_to16": 1367,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 31
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 31
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d083dcdc2394bcb46eb2e2aa",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 1201,
+          "fp_in_no_overlap_components": 1201,
+          "fp_probability_ge09": 892,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 1201,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d36281673ef735de816fede2",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 3151,
+          "fp_pixels": 578,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 256,
+          "fp_distance_gt_le3": 423,
+          "fp_distance_gt_3_to16": 155,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d3d9c90afe5e6b2c0ded7174",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1240,
+          "fp_pixels": 534,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 240,
+          "fp_distance_gt_le3": 399,
+          "fp_distance_gt_3_to16": 135,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 7705,
+          "fp_pixels": 1377,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 625,
+          "fp_distance_gt_le3": 873,
+          "fp_distance_gt_3_to16": 504,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d5368f406eb516fa7f27dc73",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 2041,
+          "fp_in_no_overlap_components": 2041,
+          "fp_probability_ge09": 1579,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 2041,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1491,
+          "fp_pixels": 375,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 139,
+          "fp_distance_gt_le3": 263,
+          "fp_distance_gt_3_to16": 112,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d5d611a128f6941532e16819",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d8d2493949c61074984753a0",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2471,
+          "fp_pixels": 877,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 474,
+          "fp_distance_gt_le3": 509,
+          "fp_distance_gt_3_to16": 368,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 1
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 1
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9627d33174b903c775d1044",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 3906,
+          "fp_in_no_overlap_components": 3906,
+          "fp_probability_ge09": 3114,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 3906,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9968ea323db4c528440cbb1",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1415,
+          "fp_pixels": 1100,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 720,
+          "fp_distance_gt_le3": 472,
+          "fp_distance_gt_3_to16": 628,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__da2dd2f086729d73aea03aed",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 834,
+          "fp_in_no_overlap_components": 834,
+          "fp_probability_ge09": 606,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 834,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__da7e64c5e291613c411370df",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 8840,
+          "fp_pixels": 1529,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 809,
+          "fp_distance_gt_le3": 934,
+          "fp_distance_gt_3_to16": 595,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__def3fefc93f0d3f79b4e49a4",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1309,
+          "fp_pixels": 640,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 355,
+          "fp_distance_gt_le3": 444,
+          "fp_distance_gt_3_to16": 196,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2458,
+          "fp_pixels": 735,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 399,
+          "fp_distance_gt_le3": 429,
+          "fp_distance_gt_3_to16": 306,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 445,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 445,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 445,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__df9503c4c2237624a40883ea",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e05ea5d59365643133440230",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 5694,
+          "fp_pixels": 1176,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 623,
+          "fp_distance_gt_le3": 581,
+          "fp_distance_gt_3_to16": 595,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 1
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 1
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e152ad6f28bd0d5796d4b863",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e2149dfdbb9fe2ad8b09442b",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 943,
+          "fp_pixels": 5111,
+          "fp_in_no_overlap_components": 5111,
+          "fp_probability_ge09": 4384,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 5111,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 14
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 14
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e4fd74319c0ff1d67d66350a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e755cb48d88eff1a918421dc",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 347,
+          "fp_in_no_overlap_components": 347,
+          "fp_probability_ge09": 198,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 347,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e7c03ad5034214e51303f46c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e80c71f5def8631f698af5e4",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1850,
+          "fp_pixels": 591,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 301,
+          "fp_distance_gt_le3": 361,
+          "fp_distance_gt_3_to16": 230,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 9
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 9
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e850aabd9169d00e5abf281c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e90fee97feeedc692c93a341",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 4939,
+          "fp_in_no_overlap_components": 4939,
+          "fp_probability_ge09": 4292,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 4939,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__e938455a11a8eb9671165411",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ea7e31de924cc3072975fcc1",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2110,
+          "fp_pixels": 54,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 54,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 50
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 50
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ebca1ec5de792875bb4fb300",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1543,
+          "fp_pixels": 4574,
+          "fp_in_no_overlap_components": 4570,
+          "fp_probability_ge09": 3898,
+          "fp_distance_gt_le3": 4,
+          "fp_distance_gt_3_to16": 183,
+          "fp_distance_gt_gt16_or_no_gt": 4387,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 30
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 30
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ed6451a4c509c7f494d27ffa",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ee9acf48105f94ed3bd8a6cd",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__efa5ed3a9775ddd7d978bf7f",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__efe332ad3a90e57696efbc31",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 1369,
+          "fp_pixels": 781,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 448,
+          "fp_distance_gt_le3": 441,
+          "fp_distance_gt_3_to16": 340,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f0307b8a71d07dafb6ee2e3a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f0e67fadb14e6737cc037929",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f10ac95c407097f80554fecf",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 803,
+          "fp_pixels": 885,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 529,
+          "fp_distance_gt_le3": 450,
+          "fp_distance_gt_3_to16": 435,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f18ef18f30ef93b3d7d55118",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f1c1d0100a3e53b144a2fd1a",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 529,
+          "fp_pixels": 187,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 65,
+          "fp_distance_gt_le3": 157,
+          "fp_distance_gt_3_to16": 30,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f405adc45e2f9ce5a820d803",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f680d909de418e7337206b7e",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2880,
+          "fp_pixels": 645,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 278,
+          "fp_distance_gt_le3": 468,
+          "fp_distance_gt_3_to16": 177,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 2466,
+          "fp_pixels": 1345,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 891,
+          "fp_distance_gt_le3": 595,
+          "fp_distance_gt_3_to16": 750,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f7e916870021680f21ba0418",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f810c0920b76afb8b8ca487e",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f84199195ae1f243a42f87a0",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__f9088581b6cb409c0975ef84",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 1735,
+          "fp_in_no_overlap_components": 1735,
+          "fp_probability_ge09": 1377,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 1735,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 1,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__fbca32110bf977c60cfbe65c",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__fcf80e46c1f36f89029968ba",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        },
+        {
+          "sample_id": "kidney_stones_fiber_v2__joint__ff13d61c042e3d942d15b551",
+          "video_id": null,
+          "frame_index": null,
+          "reference_fiber_pixels": 0,
+          "fp_pixels": 0,
+          "fp_in_no_overlap_components": 0,
+          "fp_probability_ge09": 0,
+          "fp_distance_gt_le3": 0,
+          "fp_distance_gt_3_to16": 0,
+          "fp_distance_gt_gt16_or_no_gt": 0,
+          "hard2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          },
+          "soft02_2": {
+            "outside_fn": 0,
+            "roi_count": 0,
+            "inaccessible_gt_fiber_on_stone": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "groups": {
+    "video_native": {
+      "neither_arm_budget_rejected": {
+        "frames": 68,
+        "control_TP_not_kept_by_blue": 338,
+        "control_FP_avoided_by_blue": 523,
+        "blue_TP_missing_from_control": 0,
+        "blue_FP_missing_from_control": 0
+      },
+      "budget_rejection_present": {
+        "frames": 2,
+        "control_TP_not_kept_by_blue": 0,
+        "control_FP_avoided_by_blue": 0,
+        "blue_TP_missing_from_control": 60,
+        "blue_FP_missing_from_control": 53
+      }
+    },
+    "image_native": {
+      "neither_arm_budget_rejected": {
+        "frames": 127,
+        "control_TP_not_kept_by_blue": 325,
+        "control_FP_avoided_by_blue": 1357,
+        "blue_TP_missing_from_control": 0,
+        "blue_FP_missing_from_control": 0
+      },
+      "budget_rejection_present": {
+        "frames": 5,
+        "control_TP_not_kept_by_blue": 0,
+        "control_FP_avoided_by_blue": 0,
+        "blue_TP_missing_from_control": 0,
+        "blue_FP_missing_from_control": 36
+      }
+    }
+  },
+  "interpretation": "Shared budget has nonlinear fallback: a smaller blue proposal can pass when uniform boost is fully rejected. Separate these cases before attributing all gains to color discrimination.",
+  "source_sha256": "7bd656f7a186ef5c97971a437f47f3a32fdedbf0a7c931f242aeeff80a56e070"
+}

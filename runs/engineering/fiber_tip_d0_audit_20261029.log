@@ -1,0 +1,262 @@
+{
+  "all_passed": true,
+  "checks": 19,
+  "video29": {
+    "network_counts": {
+      "reference_pixels": 178653,
+      "raw_tp": 168925,
+      "raw_fn": 9728,
+      "raw_fn_background_winner": 9719,
+      "raw_fn_stone_winner": 9,
+      "fn_either_member_predicts_fiber": 2941,
+      "fn_both_members_reject_fiber": 6787,
+      "nearest_argmax_counterfactual_lost_tp": 257,
+      "nearest_argmax_counterfactual_gained_tp": 2213,
+      "fn_probability_[0,0.1)": 5756,
+      "fn_probability_[0.1,0.5)": 3972,
+      "fn_probability_[0.5,0.8)": 0,
+      "fn_probability_[0.8,1.0]": 0
+    },
+    "axis_status": {
+      "valid": 29
+    },
+    "reference_axial_proxy": {
+      "0": {
+        "reference_pixels": 55689,
+        "tp": 55256,
+        "fn": 433,
+        "recall": 0.9922246763274615
+      },
+      "1": {
+        "reference_pixels": 56891,
+        "tp": 56183,
+        "fn": 708,
+        "recall": 0.9875551493206307
+      },
+      "2": {
+        "reference_pixels": 53292,
+        "tp": 48188,
+        "fn": 5104,
+        "recall": 0.9042257749756061
+      },
+      "3": {
+        "reference_pixels": 12781,
+        "tp": 9298,
+        "fn": 3483,
+        "recall": 0.7274861121977936
+      }
+    },
+    "proxy_probability_distributions": {
+      "0": {
+        "pixels": 55689,
+        "mean": 0.969069242477417,
+        "p05_p25_p50_p75_p95": [
+          0.7545028328895569,
+          0.999382495880127,
+          0.9999781250953674,
+          0.9999924302101135,
+          0.9999974370002747
+        ]
+      },
+      "1": {
+        "pixels": 56891,
+        "mean": 0.9793658256530762,
+        "p05_p25_p50_p75_p95": [
+          0.8961134850978851,
+          0.9997533559799194,
+          0.9999678134918213,
+          0.9999843239784241,
+          0.9999926090240479
+        ]
+      },
+      "2": {
+        "pixels": 53292,
+        "mean": 0.8914024233818054,
+        "p05_p25_p50_p75_p95": [
+          0.03262372855097056,
+          0.9896037131547928,
+          0.9998340010643005,
+          0.9999709129333496,
+          0.9999908804893494
+        ]
+      },
+      "3": {
+        "pixels": 12781,
+        "mean": 0.7127671241760254,
+        "p05_p25_p50_p75_p95": [
+          9.555605356581509e-05,
+          0.3719225227832794,
+          0.99346524477005,
+          0.9999765753746033,
+          0.9999985694885254
+        ]
+      }
+    },
+    "historical_changes": {
+      "geometry": {
+        "lost_tp": 4795,
+        "gained_tp": 450,
+        "added_fp": 292,
+        "removed_fp": 849
+      },
+      "geometry_causal": {
+        "lost_tp": 4716,
+        "gained_tp": 447,
+        "added_fp": 295,
+        "removed_fp": 853
+      },
+      "fixed_color": {
+        "lost_tp": 168925,
+        "gained_tp": 0,
+        "added_fp": 2563,
+        "removed_fp": 1873
+      },
+      "fixed_soft": {
+        "lost_tp": 168925,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 1873
+      },
+      "fixed_causal": {
+        "lost_tp": 168925,
+        "gained_tp": 0,
+        "added_fp": 553,
+        "removed_fp": 1873
+      },
+      "component3": {
+        "lost_tp": 74,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 0
+      },
+      "component1": {
+        "lost_tp": 4285,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 4744
+      },
+      "fixed_neural": {
+        "lost_tp": 27106,
+        "gained_tp": 0,
+        "added_fp": 0,
+        "removed_fp": 1201
+      },
+      "threshold_counterfactual_not_a_new_scheme": {
+        "reference_supported_color": 17171,
+        "raw_tp_removed_by_probability_05_only": 467,
+        "raw_tp_removed_by_darkness_after_probability_05": 0,
+        "reference_supported_neural_05_and_value": 168458
+      }
+    },
+    "historical_first_exclusion": {
+      "fixed_color": {
+        "fit_rejected": 153140,
+        "outside_hypothesis": 15785,
+        "foreground_field_rejected": 0,
+        "darkness_rejected": 0,
+        "unexplained": 0,
+        "lost_tp": 168925,
+        "gained_tp": 0,
+        "removed_fp": 1873,
+        "added_fp": 2563
+      },
+      "fixed_soft": {
+        "fit_rejected": 168925,
+        "outside_hypothesis": 0,
+        "foreground_field_rejected": 0,
+        "darkness_rejected": 0,
+        "unexplained": 0,
+        "lost_tp": 168925,
+        "gained_tp": 0,
+        "removed_fp": 1873,
+        "added_fp": 0
+      },
+      "fixed_causal": {
+        "fit_rejected": 165134,
+        "outside_hypothesis": 3791,
+        "foreground_field_rejected": 0,
+        "darkness_rejected": 0,
+        "unexplained": 0,
+        "lost_tp": 168925,
+        "gained_tp": 0,
+        "removed_fp": 1873,
+        "added_fp": 553
+      },
+      "fixed_neural": {
+        "fit_rejected": 0,
+        "outside_hypothesis": 26958,
+        "foreground_field_rejected": 148,
+        "darkness_rejected": 0,
+        "unexplained": 0,
+        "lost_tp": 27106,
+        "gained_tp": 0,
+        "removed_fp": 1201,
+        "added_fp": 0
+      }
+    },
+    "whole_fiber_observable_condition_groups": {
+      "saturation": {
+        "[0, 0.2]": {
+          "reference_pixels": 333,
+          "tp": 90,
+          "fn": 243,
+          "recall": 0.2702702702702703
+        },
+        "[0.2, 0.5]": {
+          "reference_pixels": 4052,
+          "tp": 2121,
+          "fn": 1931,
+          "recall": 0.5234452122408687
+        },
+        "[0.5, 1.0]": {
+          "reference_pixels": 174268,
+          "tp": 166714,
+          "fn": 7554,
+          "recall": 0.9566529712856061
+        }
+      },
+      "value": {
+        "[0, 0.2]": {
+          "reference_pixels": 64,
+          "tp": 1,
+          "fn": 63,
+          "recall": 0.015625
+        },
+        "[0.2, 0.8]": {
+          "reference_pixels": 72751,
+          "tp": 64458,
+          "fn": 8293,
+          "recall": 0.8860084397465327
+        },
+        "[0.8, 0.98]": {
+          "reference_pixels": 47614,
+          "tp": 46506,
+          "fn": 1108,
+          "recall": 0.976729533330533
+        },
+        "[0.98, 1.0]": {
+          "reference_pixels": 58224,
+          "tp": 57960,
+          "fn": 264,
+          "recall": 0.9954657873042044
+        }
+      }
+    },
+    "tip_metrics": null,
+    "scope": "Post-hoc diagnosis only. Axial proxies/low-S/high-V conditions are not reviewed tip, exposure or defocus truth"
+  },
+  "performance": {
+    "video_1": {
+      "mean": 28.246859281383188,
+      "p50": 28.792400029487908,
+      "p95": 36.4094999502413,
+      "max": 42.83569997642189
+    },
+    "video_2": {
+      "mean": 26.06877413774089,
+      "p50": 24.048299994319677,
+      "p95": 37.07539996248669,
+      "max": 47.764600021764636
+    }
+  }
+}

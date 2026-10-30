@@ -1,0 +1,5748 @@
+{
+  "schema_version": 1,
+  "models": {
+    "classwise": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3037944,
+                  2815,
+                  1354
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  1409,
+                  68,
+                  113246
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2883.0,
+                "fn": 5380.0,
+                "dice": 0.9014326442485476,
+                "iou": 0.820552913327687,
+                "precision": 0.9291071384660782,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 113246.0,
+                "fp": 1354.0,
+                "fn": 1477.0,
+                "dice": 0.987654967011595,
+                "iou": 0.9756110168250386,
+                "precision": 0.9881849912739965,
+                "recall": 0.9871255110134847
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3487,
+                "target_boundary": 3530,
+                "matched_predicted": 2556,
+                "matched_target": 2463,
+                "precision": 0.7330083166045311,
+                "recall": 0.6977337110481586,
+                "f_score": 0.7149361703070001
+              },
+              "2": {
+                "predicted_boundary": 6299,
+                "target_boundary": 6331,
+                "matched_predicted": 6299,
+                "matched_target": 6331,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f_score": 1.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1311892,
+                  2726,
+                  519
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  8251,
+                  0,
+                  55679
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 55679.0,
+                "fp": 519.0,
+                "fn": 8251.0,
+                "dice": 0.9269945391582313,
+                "iou": 0.8639234123105091,
+                "precision": 0.9907647959002099,
+                "recall": 0.8709369623025184
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 3042,
+                "target_boundary": 3502,
+                "matched_predicted": 2498,
+                "matched_target": 2457,
+                "precision": 0.8211702827087443,
+                "recall": 0.7015990862364363,
+                "f_score": 0.7566901879462637
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4349836,
+              5541,
+              1873
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              9660,
+              68,
+              168925
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5609.0,
+            "fn": 25251.0,
+            "dice": 0.8106167536054004,
+            "iou": 0.6815437799907126,
+            "precision": 0.9217210483713401,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 168925.0,
+            "fp": 1873.0,
+            "fn": 9728.0,
+            "dice": 0.9668022126134994,
+            "iou": 0.9357377884626037,
+            "precision": 0.9890338294359419,
+            "recall": 0.9455480736399613
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6592,
+            "target_boundary": 9396,
+            "matched_predicted": 4699,
+            "matched_target": 4510,
+            "precision": 0.7128337378640777,
+            "recall": 0.47999148573861217,
+            "f_score": 0.5736869377872125
+          },
+          "2": {
+            "predicted_boundary": 9341,
+            "target_boundary": 9833,
+            "matched_predicted": 8797,
+            "matched_target": 8788,
+            "precision": 0.9417621239695964,
+            "recall": 0.8937252110241025,
+            "f_score": 0.9171150755797767
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          },
+          "fiber": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\classwise_frames.jsonl",
+      "identity_log_sha256": "188bcd4d541d9b6a2faf2f82eb58f65acea20c7a2bd491180da42fc2984a8f88"
+    },
+    "old190": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3029719,
+                  2818,
+                  9576
+                ],
+                [
+                  5330,
+                  37784,
+                  50
+                ],
+                [
+                  4923,
+                  181,
+                  109619
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2999.0,
+                "fn": 5380.0,
+                "dice": 0.9001870227643632,
+                "iou": 0.8184909992851418,
+                "precision": 0.9264644582301449,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 109619.0,
+                "fp": 9626.0,
+                "fn": 5104.0,
+                "dice": 0.9370426725022225,
+                "iou": 0.881543076341587,
+                "precision": 0.9192754413182943,
+                "recall": 0.955510228986341
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3478,
+                "target_boundary": 3530,
+                "matched_predicted": 2505,
+                "matched_target": 2403,
+                "precision": 0.7202415181138585,
+                "recall": 0.6807365439093485,
+                "f_score": 0.6999320476336321
+              },
+              "2": {
+                "predicted_boundary": 7577,
+                "target_boundary": 6331,
+                "matched_predicted": 5530,
+                "matched_target": 5178,
+                "precision": 0.7298403061897849,
+                "recall": 0.8178802716790396,
+                "f_score": 0.771356272500767
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 116
+              },
+              "fiber": {
+                "removed_correct_pixels": 4182,
+                "recovered_correct_pixels": 555,
+                "removed_fp": 410,
+                "added_fp": 8682
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1298068,
+                  2726,
+                  14343
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  6480,
+                  0,
+                  57450
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 57450.0,
+                "fp": 14343.0,
+                "fn": 6480.0,
+                "dice": 0.8465772197785195,
+                "iou": 0.7339695680502856,
+                "precision": 0.8002172913793824,
+                "recall": 0.8986391365556077
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 4456,
+                "target_boundary": 3502,
+                "matched_predicted": 2404,
+                "matched_target": 2290,
+                "precision": 0.5394973070017953,
+                "recall": 0.653912050256996,
+                "f_score": 0.591220083844492
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 1653,
+                "recovered_correct_pixels": 3424,
+                "removed_fp": 234,
+                "added_fp": 14058
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4327787,
+              5544,
+              23919
+            ],
+            [
+              25201,
+              66045,
+              50
+            ],
+            [
+              11403,
+              181,
+              167069
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5725.0,
+            "fn": 25251.0,
+            "dice": 0.810040106459961,
+            "iou": 0.680728914358747,
+            "precision": 0.9202312944127072,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 167069.0,
+            "fp": 23969.0,
+            "fn": 11584.0,
+            "dice": 0.9038304962793252,
+            "iou": 0.8245353416706972,
+            "precision": 0.8745328154607984,
+            "recall": 0.9351592192686381
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6583,
+            "target_boundary": 9396,
+            "matched_predicted": 4648,
+            "matched_target": 4450,
+            "precision": 0.7060610663831081,
+            "recall": 0.4736057896977437,
+            "f_score": 0.5669305824699449
+          },
+          "2": {
+            "predicted_boundary": 12033,
+            "target_boundary": 9833,
+            "matched_predicted": 7934,
+            "matched_target": 7468,
+            "precision": 0.6593534446937588,
+            "recall": 0.7594833723177057,
+            "f_score": 0.7058852317916211
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 116
+          },
+          "fiber": {
+            "removed_correct_pixels": 5835,
+            "recovered_correct_pixels": 3979,
+            "removed_fp": 644,
+            "added_fp": 22740
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\old190_frames.jsonl",
+      "identity_log_sha256": "ed86a8c64dfae08824240baa6f71bfb868a50445e5c349ec1c7e8e50d9ab6c4d"
+    },
+    "A0": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  2984408,
+                  56351,
+                  1354
+                ],
+                [
+                  2492,
+                  40672,
+                  0
+                ],
+                [
+                  1468,
+                  9,
+                  113246
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 40672.0,
+                "fp": 56360.0,
+                "fn": 2492.0,
+                "dice": 0.580216268652458,
+                "iou": 0.40866524657369074,
+                "precision": 0.4191606892571523,
+                "recall": 0.9422667037345936
+              },
+              "fiber": {
+                "tp": 113246.0,
+                "fp": 1354.0,
+                "fn": 1477.0,
+                "dice": 0.987654967011595,
+                "iou": 0.9756110168250386,
+                "precision": 0.9881849912739965,
+                "recall": 0.9871255110134847
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 6390,
+                "target_boundary": 3530,
+                "matched_predicted": 3267,
+                "matched_target": 3269,
+                "precision": 0.5112676056338028,
+                "recall": 0.9260623229461756,
+                "f_score": 0.6588127848811064
+              },
+              "2": {
+                "predicted_boundary": 6299,
+                "target_boundary": 6331,
+                "matched_predicted": 6299,
+                "matched_target": 6331,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f_score": 1.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 685,
+                "recovered_correct_pixels": 3573,
+                "removed_fp": 2602,
+                "added_fp": 56079
+              },
+              "fiber": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1244648,
+                  69970,
+                  519
+                ],
+                [
+                  21203,
+                  26929,
+                  0
+                ],
+                [
+                  8251,
+                  0,
+                  55679
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 26929.0,
+                "fp": 69970.0,
+                "fn": 21203.0,
+                "dice": 0.37135508960153346,
+                "iou": 0.22801476689641156,
+                "precision": 0.2779079247463854,
+                "recall": 0.5594822571262362
+              },
+              "fiber": {
+                "tp": 55679.0,
+                "fp": 519.0,
+                "fn": 8251.0,
+                "dice": 0.9269945391582313,
+                "iou": 0.8639234123105091,
+                "precision": 0.9907647959002099,
+                "recall": 0.8709369623025184
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 6058,
+                "target_boundary": 5866,
+                "matched_predicted": 2760,
+                "matched_target": 2840,
+                "precision": 0.45559590623968305,
+                "recall": 0.484145925673372,
+                "f_score": 0.46943723109650337
+              },
+              "2": {
+                "predicted_boundary": 3042,
+                "target_boundary": 3502,
+                "matched_predicted": 2498,
+                "matched_target": 2457,
+                "precision": 0.8211702827087443,
+                "recall": 0.7015990862364363,
+                "f_score": 0.7566901879462637
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 5000,
+                "recovered_correct_pixels": 3668,
+                "removed_fp": 2418,
+                "added_fp": 69662
+              },
+              "fiber": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4229056,
+              126321,
+              1873
+            ],
+            [
+              23695,
+              67601,
+              0
+            ],
+            [
+              9719,
+              9,
+              168925
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 67601.0,
+            "fp": 126330.0,
+            "fn": 23695.0,
+            "dice": 0.47401543332152984,
+            "iou": 0.310629244667457,
+            "precision": 0.34858274334686046,
+            "recall": 0.7404596039256922
+          },
+          "fiber": {
+            "tp": 168925.0,
+            "fp": 1873.0,
+            "fn": 9728.0,
+            "dice": 0.9668022126134994,
+            "iou": 0.9357377884626037,
+            "precision": 0.9890338294359419,
+            "recall": 0.9455480736399613
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 12448,
+            "target_boundary": 9396,
+            "matched_predicted": 6027,
+            "matched_target": 6109,
+            "precision": 0.4841741645244216,
+            "recall": 0.6501702852277564,
+            "f_score": 0.5550265701348964
+          },
+          "2": {
+            "predicted_boundary": 9341,
+            "target_boundary": 9833,
+            "matched_predicted": 8797,
+            "matched_target": 8788,
+            "precision": 0.9417621239695964,
+            "recall": 0.8937252110241025,
+            "f_score": 0.9171150755797767
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 5685,
+            "recovered_correct_pixels": 7241,
+            "removed_fp": 5020,
+            "added_fp": 125741
+          },
+          "fiber": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\A0_frames.jsonl",
+      "identity_log_sha256": "02470f3c927b8af8c7f52f0332c8a075f89483709e32f43bbe928522b19f7df2"
+    },
+    "edge_geometry": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3038482,
+                  2818,
+                  813
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  5299,
+                  151,
+                  109273
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2969.0,
+                "fn": 5380.0,
+                "dice": 0.9005088361118725,
+                "iou": 0.8190232588385754,
+                "precision": 0.9271464677447059,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 109273.0,
+                "fp": 813.0,
+                "fn": 5450.0,
+                "dice": 0.9721407950749302,
+                "iou": 0.9457917878410192,
+                "precision": 0.9926148647421107,
+                "recall": 0.9524942688039887
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3479,
+                "target_boundary": 3530,
+                "matched_predicted": 2521,
+                "matched_target": 2421,
+                "precision": 0.7246335153779822,
+                "recall": 0.6858356940509915,
+                "f_score": 0.7047009982629392
+              },
+              "2": {
+                "predicted_boundary": 6075,
+                "target_boundary": 6331,
+                "matched_predicted": 6036,
+                "matched_target": 6226,
+                "precision": 0.9935802469135803,
+                "recall": 0.9834149423471805,
+                "f_score": 0.988471460672774
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 86
+              },
+              "fiber": {
+                "removed_correct_pixels": 4064,
+                "recovered_correct_pixels": 91,
+                "removed_fp": 743,
+                "added_fp": 202
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1311908,
+                  2726,
+                  503
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  8623,
+                  0,
+                  55307
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 55307.0,
+                "fp": 503.0,
+                "fn": 8623.0,
+                "dice": 0.9237848672122932,
+                "iou": 0.8583645026616796,
+                "precision": 0.9909872782655438,
+                "recall": 0.8651180979195996
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 2891,
+                "target_boundary": 3502,
+                "matched_predicted": 2451,
+                "matched_target": 2448,
+                "precision": 0.8478035281909374,
+                "recall": 0.6990291262135923,
+                "f_score": 0.7662617644185364
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 731,
+                "recovered_correct_pixels": 359,
+                "removed_fp": 106,
+                "added_fp": 90
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4350390,
+              5544,
+              1316
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              13922,
+              151,
+              164580
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5695.0,
+            "fn": 25251.0,
+            "dice": 0.8101891606761696,
+            "iou": 0.6809394686104896,
+            "precision": 0.9206161137440758,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 164580.0,
+            "fp": 1316.0,
+            "fn": 14073.0,
+            "dice": 0.9553358158055894,
+            "iou": 0.9144908289761015,
+            "precision": 0.992067319284371,
+            "recall": 0.9212271834226126
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6584,
+            "target_boundary": 9396,
+            "matched_predicted": 4664,
+            "matched_target": 4468,
+            "precision": 0.7083839611178615,
+            "recall": 0.47552149851000425,
+            "f_score": 0.5690518613151762
+          },
+          "2": {
+            "predicted_boundary": 8966,
+            "target_boundary": 9833,
+            "matched_predicted": 8487,
+            "matched_target": 8674,
+            "precision": 0.9465759536024984,
+            "recall": 0.8821315976812774,
+            "f_score": 0.913218253724459
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 86
+          },
+          "fiber": {
+            "removed_correct_pixels": 4795,
+            "recovered_correct_pixels": 450,
+            "removed_fp": 849,
+            "added_fp": 292
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\edge_geometry_frames.jsonl",
+      "identity_log_sha256": "fd7e62de773a073a795149759960d62876a0a40db3575917d6e7fafec88407f8"
+    },
+    "edge_geometry_causal": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3038474,
+                  2818,
+                  821
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  5211,
+                  151,
+                  109361
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2969.0,
+                "fn": 5380.0,
+                "dice": 0.9005088361118725,
+                "iou": 0.8190232588385754,
+                "precision": 0.9271464677447059,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 109361.0,
+                "fp": 821.0,
+                "fn": 5362.0,
+                "dice": 0.9725083924323603,
+                "iou": 0.9464879180225715,
+                "precision": 0.9925486921638743,
+                "recall": 0.9532613338214656
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3479,
+                "target_boundary": 3530,
+                "matched_predicted": 2521,
+                "matched_target": 2421,
+                "precision": 0.7246335153779822,
+                "recall": 0.6858356940509915,
+                "f_score": 0.7047009982629392
+              },
+              "2": {
+                "predicted_boundary": 6077,
+                "target_boundary": 6331,
+                "matched_predicted": 6054,
+                "matched_target": 6251,
+                "precision": 0.9962152377818002,
+                "recall": 0.9873637655978519,
+                "f_score": 0.9917697523983459
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 86
+              },
+              "fiber": {
+                "removed_correct_pixels": 3972,
+                "recovered_correct_pixels": 87,
+                "removed_fp": 739,
+                "added_fp": 206
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1311917,
+                  2726,
+                  494
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  8635,
+                  0,
+                  55295
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 55295.0,
+                "fp": 494.0,
+                "fn": 8635.0,
+                "dice": 0.9237464395793483,
+                "iou": 0.8582981497578542,
+                "precision": 0.9911452078366703,
+                "recall": 0.8649303926169247
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 2922,
+                "target_boundary": 3502,
+                "matched_predicted": 2473,
+                "matched_target": 2462,
+                "precision": 0.8463381245722108,
+                "recall": 0.703026841804683,
+                "f_score": 0.7680545665212392
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 744,
+                "recovered_correct_pixels": 360,
+                "removed_fp": 114,
+                "added_fp": 89
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4350391,
+              5544,
+              1315
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              13846,
+              151,
+              164656
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5695.0,
+            "fn": 25251.0,
+            "dice": 0.8101891606761696,
+            "iou": 0.6809394686104896,
+            "precision": 0.9206161137440758,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 164656.0,
+            "fp": 1315.0,
+            "fn": 13997.0,
+            "dice": 0.9555689679186592,
+            "iou": 0.9149182076813656,
+            "precision": 0.992076929102072,
+            "recall": 0.9216525890973003
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6584,
+            "target_boundary": 9396,
+            "matched_predicted": 4664,
+            "matched_target": 4468,
+            "precision": 0.7083839611178615,
+            "recall": 0.47552149851000425,
+            "f_score": 0.5690518613151762
+          },
+          "2": {
+            "predicted_boundary": 8999,
+            "target_boundary": 9833,
+            "matched_predicted": 8527,
+            "matched_target": 8713,
+            "precision": 0.9475497277475275,
+            "recall": 0.8860978338248754,
+            "f_score": 0.915794047661412
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 86
+          },
+          "fiber": {
+            "removed_correct_pixels": 4716,
+            "recovered_correct_pixels": 447,
+            "removed_fp": 853,
+            "added_fp": 295
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\edge_geometry_causal_frames.jsonl",
+      "identity_log_sha256": "a64fffb77a8f2389ad73c906788b0ab9ead37d78c8a74575ee055506377026c4"
+    },
+    "component_gate_3net": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3037944,
+                  2815,
+                  1354
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  1409,
+                  68,
+                  113246
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2883.0,
+                "fn": 5380.0,
+                "dice": 0.9014326442485476,
+                "iou": 0.820552913327687,
+                "precision": 0.9291071384660782,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 113246.0,
+                "fp": 1354.0,
+                "fn": 1477.0,
+                "dice": 0.987654967011595,
+                "iou": 0.9756110168250386,
+                "precision": 0.9881849912739965,
+                "recall": 0.9871255110134847
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3487,
+                "target_boundary": 3530,
+                "matched_predicted": 2556,
+                "matched_target": 2463,
+                "precision": 0.7330083166045311,
+                "recall": 0.6977337110481586,
+                "f_score": 0.7149361703070001
+              },
+              "2": {
+                "predicted_boundary": 6299,
+                "target_boundary": 6331,
+                "matched_predicted": 6299,
+                "matched_target": 6331,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f_score": 1.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1311892,
+                  2726,
+                  519
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  8325,
+                  0,
+                  55605
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 55605.0,
+                "fp": 519.0,
+                "fn": 8325.0,
+                "dice": 0.9263331500824629,
+                "iou": 0.8627752176139273,
+                "precision": 0.9907526192003421,
+                "recall": 0.8697794462693571
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 2992,
+                "target_boundary": 3502,
+                "matched_predicted": 2498,
+                "matched_target": 2457,
+                "precision": 0.8348930481283422,
+                "recall": 0.7015990862364363,
+                "f_score": 0.7624642997787486
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 74,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4349836,
+              5541,
+              1873
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              9734,
+              68,
+              168851
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5609.0,
+            "fn": 25251.0,
+            "dice": 0.8106167536054004,
+            "iou": 0.6815437799907126,
+            "precision": 0.9217210483713401,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 168851.0,
+            "fp": 1873.0,
+            "fn": 9802.0,
+            "dice": 0.9665833755513386,
+            "iou": 0.9353278752091112,
+            "precision": 0.9890290761697242,
+            "recall": 0.9451338628514495
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6592,
+            "target_boundary": 9396,
+            "matched_predicted": 4699,
+            "matched_target": 4510,
+            "precision": 0.7128337378640777,
+            "recall": 0.47999148573861217,
+            "f_score": 0.5736869377872125
+          },
+          "2": {
+            "predicted_boundary": 9291,
+            "target_boundary": 9833,
+            "matched_predicted": 8797,
+            "matched_target": 8788,
+            "precision": 0.9468302658486708,
+            "recall": 0.8937252110241025,
+            "f_score": 0.9195116254657763
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          },
+          "fiber": {
+            "removed_correct_pixels": 74,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 0
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\component_gate_3net_frames.jsonl",
+      "identity_log_sha256": "c57bff6a9fbb238764241c74985a256e3f587df2ddf2b690288dc35f973a5d32"
+    },
+    "component_gate_1net": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3032739,
+                  2818,
+                  6556
+                ],
+                [
+                  5330,
+                  37784,
+                  50
+                ],
+                [
+                  5399,
+                  181,
+                  109143
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2999.0,
+                "fn": 5380.0,
+                "dice": 0.9001870227643632,
+                "iou": 0.8184909992851418,
+                "precision": 0.9264644582301449,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 109143.0,
+                "fp": 6606.0,
+                "fn": 5580.0,
+                "dice": 0.947125898156826,
+                "iou": 0.8995623470068986,
+                "precision": 0.9429282326413188,
+                "recall": 0.9513611045736252
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3478,
+                "target_boundary": 3530,
+                "matched_predicted": 2505,
+                "matched_target": 2403,
+                "precision": 0.7202415181138585,
+                "recall": 0.6807365439093485,
+                "f_score": 0.6999320476336321
+              },
+              "2": {
+                "predicted_boundary": 7157,
+                "target_boundary": 6331,
+                "matched_predicted": 5530,
+                "matched_target": 5178,
+                "precision": 0.7726701131759117,
+                "recall": 0.8178802716790396,
+                "f_score": 0.7946326606185685
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 116
+              },
+              "fiber": {
+                "removed_correct_pixels": 4655,
+                "recovered_correct_pixels": 552,
+                "removed_fp": 413,
+                "added_fp": 5665
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1299792,
+                  2726,
+                  12619
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  10289,
+                  0,
+                  53641
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 53641.0,
+                "fp": 12619.0,
+                "fn": 10289.0,
+                "dice": 0.8240417850833397,
+                "iou": 0.7007407020339913,
+                "precision": 0.809553274977362,
+                "recall": 0.8390583450649147
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 3819,
+                "target_boundary": 3502,
+                "matched_predicted": 2197,
+                "matched_target": 2090,
+                "precision": 0.5752814873003405,
+                "recall": 0.5968018275271274,
+                "f_score": 0.5858440925147127
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 5228,
+                "recovered_correct_pixels": 3190,
+                "removed_fp": 257,
+                "added_fp": 12357
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4332531,
+              5544,
+              19175
+            ],
+            [
+              25201,
+              66045,
+              50
+            ],
+            [
+              15688,
+              181,
+              162784
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5725.0,
+            "fn": 25251.0,
+            "dice": 0.810040106459961,
+            "iou": 0.680728914358747,
+            "precision": 0.9202312944127072,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 162784.0,
+            "fp": 19225.0,
+            "fn": 15869.0,
+            "dice": 0.9026955986491507,
+            "iou": 0.8226482984465175,
+            "precision": 0.8943733551637556,
+            "recall": 0.9111741756365692
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6583,
+            "target_boundary": 9396,
+            "matched_predicted": 4648,
+            "matched_target": 4450,
+            "precision": 0.7060610663831081,
+            "recall": 0.4736057896977437,
+            "f_score": 0.5669305824699449
+          },
+          "2": {
+            "predicted_boundary": 10976,
+            "target_boundary": 9833,
+            "matched_predicted": 7727,
+            "matched_target": 7268,
+            "precision": 0.703990524781341,
+            "recall": 0.7391436997864335,
+            "f_score": 0.7211389657913776
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 116
+          },
+          "fiber": {
+            "removed_correct_pixels": 9883,
+            "recovered_correct_pixels": 3742,
+            "removed_fp": 670,
+            "added_fp": 18022
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\component_gate_1net_frames.jsonl",
+      "identity_log_sha256": "22f2ccce7769b8fd50aa4139fb4ad473e54df5a93eb27a1d8de5df83f9fbfce5"
+    },
+    "fixed_color": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3038590,
+                  2818,
+                  705
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  114542,
+                  181,
+                  0
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2999.0,
+                "fn": 5380.0,
+                "dice": 0.9001870227643632,
+                "iou": 0.8184909992851418,
+                "precision": 0.9264644582301449,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 0.0,
+                "fp": 705.0,
+                "fn": 114723.0,
+                "dice": 0.0,
+                "iou": 0.0,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3478,
+                "target_boundary": 3530,
+                "matched_predicted": 2505,
+                "matched_target": 2403,
+                "precision": 0.7202415181138585,
+                "recall": 0.6807365439093485,
+                "f_score": 0.6999320476336321
+              },
+              "2": {
+                "predicted_boundary": 112,
+                "target_boundary": 6331,
+                "matched_predicted": 0,
+                "matched_target": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f_score": 0.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 116
+              },
+              "fiber": {
+                "removed_correct_pixels": 113246,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 1354,
+                "added_fp": 705
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1310553,
+                  2726,
+                  1858
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  63930,
+                  0,
+                  0
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 0.0,
+                "fp": 1858.0,
+                "fn": 63930.0,
+                "dice": 0.0,
+                "iou": 0.0,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 336,
+                "target_boundary": 3502,
+                "matched_predicted": 0,
+                "matched_target": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f_score": 0.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 55679,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 519,
+                "added_fp": 1858
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4349143,
+              5544,
+              2563
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              178472,
+              181,
+              0
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5725.0,
+            "fn": 25251.0,
+            "dice": 0.810040106459961,
+            "iou": 0.680728914358747,
+            "precision": 0.9202312944127072,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 0.0,
+            "fp": 2563.0,
+            "fn": 178653.0,
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6583,
+            "target_boundary": 9396,
+            "matched_predicted": 4648,
+            "matched_target": 4450,
+            "precision": 0.7060610663831081,
+            "recall": 0.4736057896977437,
+            "f_score": 0.5669305824699449
+          },
+          "2": {
+            "predicted_boundary": 448,
+            "target_boundary": 9833,
+            "matched_predicted": 0,
+            "matched_target": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f_score": 0.0
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 116
+          },
+          "fiber": {
+            "removed_correct_pixels": 168925,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 1873,
+            "added_fp": 2563
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\fixed_color_frames.jsonl",
+      "identity_log_sha256": "40fe73a79847981748a6b04a141ca932d066836d3488a8a7d6464b8047c0c54b"
+    },
+    "fixed_soft": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3039295,
+                  2818,
+                  0
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  114542,
+                  181,
+                  0
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2999.0,
+                "fn": 5380.0,
+                "dice": 0.9001870227643632,
+                "iou": 0.8184909992851418,
+                "precision": 0.9264644582301449,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 0.0,
+                "fp": 0.0,
+                "fn": 114723.0,
+                "dice": 0.0,
+                "iou": 0.0,
+                "precision": null,
+                "recall": 0.0
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3478,
+                "target_boundary": 3530,
+                "matched_predicted": 2505,
+                "matched_target": 2403,
+                "precision": 0.7202415181138585,
+                "recall": 0.6807365439093485,
+                "f_score": 0.6999320476336321
+              },
+              "2": {
+                "predicted_boundary": 0,
+                "target_boundary": 6331,
+                "matched_predicted": 0,
+                "matched_target": 0,
+                "precision": null,
+                "recall": 0.0,
+                "f_score": 0.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 116
+              },
+              "fiber": {
+                "removed_correct_pixels": 113246,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 1354,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1312411,
+                  2726,
+                  0
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  63930,
+                  0,
+                  0
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 0.0,
+                "fp": 0.0,
+                "fn": 63930.0,
+                "dice": 0.0,
+                "iou": 0.0,
+                "precision": null,
+                "recall": 0.0
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 0,
+                "target_boundary": 3502,
+                "matched_predicted": 0,
+                "matched_target": 0,
+                "precision": null,
+                "recall": 0.0,
+                "f_score": 0.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 55679,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 519,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4351706,
+              5544,
+              0
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              178472,
+              181,
+              0
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5725.0,
+            "fn": 25251.0,
+            "dice": 0.810040106459961,
+            "iou": 0.680728914358747,
+            "precision": 0.9202312944127072,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 0.0,
+            "fp": 0.0,
+            "fn": 178653.0,
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": null,
+            "recall": 0.0
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6583,
+            "target_boundary": 9396,
+            "matched_predicted": 4648,
+            "matched_target": 4450,
+            "precision": 0.7060610663831081,
+            "recall": 0.4736057896977437,
+            "f_score": 0.5669305824699449
+          },
+          "2": {
+            "predicted_boundary": 0,
+            "target_boundary": 9833,
+            "matched_predicted": 0,
+            "matched_target": 0,
+            "precision": null,
+            "recall": 0.0,
+            "f_score": 0.0
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 116
+          },
+          "fiber": {
+            "removed_correct_pixels": 168925,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 1873,
+            "added_fp": 0
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\fixed_soft_frames.jsonl",
+      "identity_log_sha256": "0fe38fdf5709b067793eba21a57d9583827ecf44c08182a4b1c64215f84c1a76"
+    },
+    "fixed_causal": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3039295,
+                  2818,
+                  0
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  114542,
+                  181,
+                  0
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2999.0,
+                "fn": 5380.0,
+                "dice": 0.9001870227643632,
+                "iou": 0.8184909992851418,
+                "precision": 0.9264644582301449,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 0.0,
+                "fp": 0.0,
+                "fn": 114723.0,
+                "dice": 0.0,
+                "iou": 0.0,
+                "precision": null,
+                "recall": 0.0
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3478,
+                "target_boundary": 3530,
+                "matched_predicted": 2505,
+                "matched_target": 2403,
+                "precision": 0.7202415181138585,
+                "recall": 0.6807365439093485,
+                "f_score": 0.6999320476336321
+              },
+              "2": {
+                "predicted_boundary": 0,
+                "target_boundary": 6331,
+                "matched_predicted": 0,
+                "matched_target": 0,
+                "precision": null,
+                "recall": 0.0,
+                "f_score": 0.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 116
+              },
+              "fiber": {
+                "removed_correct_pixels": 113246,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 1354,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1311858,
+                  2726,
+                  553
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  63930,
+                  0,
+                  0
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 0.0,
+                "fp": 553.0,
+                "fn": 63930.0,
+                "dice": 0.0,
+                "iou": 0.0,
+                "precision": 0.0,
+                "recall": 0.0
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 82,
+                "target_boundary": 3502,
+                "matched_predicted": 0,
+                "matched_target": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f_score": 0.0
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 55679,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 519,
+                "added_fp": 553
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4351153,
+              5544,
+              553
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              178472,
+              181,
+              0
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5725.0,
+            "fn": 25251.0,
+            "dice": 0.810040106459961,
+            "iou": 0.680728914358747,
+            "precision": 0.9202312944127072,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 0.0,
+            "fp": 553.0,
+            "fn": 178653.0,
+            "dice": 0.0,
+            "iou": 0.0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6583,
+            "target_boundary": 9396,
+            "matched_predicted": 4648,
+            "matched_target": 4450,
+            "precision": 0.7060610663831081,
+            "recall": 0.4736057896977437,
+            "f_score": 0.5669305824699449
+          },
+          "2": {
+            "predicted_boundary": 82,
+            "target_boundary": 9833,
+            "matched_predicted": 0,
+            "matched_target": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f_score": 0.0
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 116
+          },
+          "fiber": {
+            "removed_correct_pixels": 168925,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 1873,
+            "added_fp": 553
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\fixed_causal_frames.jsonl",
+      "identity_log_sha256": "a2f7aad8ef5d74228da7faf1f679b7f3ca74e15b1301582218f03fcbefd9b19d"
+    },
+    "fixed_neural": {
+      "prediction_complete": true,
+      "prediction_frames": 2694,
+      "failures": [],
+      "cases": {
+        "video_1": {
+          "total_frames": 722,
+          "predicted_frames": 722,
+          "approved_reference_frames": 20,
+          "reference_coverage_fraction": 0.027700831024930747,
+          "sampled_frames": 60,
+          "sampled_approved": 1,
+          "sparse_reviewed_diagnostic": {
+            "frames": 20,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  3038904,
+                  2817,
+                  392
+                ],
+                [
+                  5380,
+                  37784,
+                  0
+                ],
+                [
+                  19578,
+                  172,
+                  94973
+                ]
+              ],
+              "valid_pixels": 3200000.0,
+              "stone": {
+                "tp": 37784.0,
+                "fp": 2989.0,
+                "fn": 5380.0,
+                "dice": 0.9002942683202878,
+                "iou": 0.8186683422529413,
+                "precision": 0.9266916832217399,
+                "recall": 0.8753590955425817
+              },
+              "fiber": {
+                "tp": 94973.0,
+                "fp": 392.0,
+                "fn": 19750.0,
+                "dice": 0.9041258901031949,
+                "iou": 0.8250271467662772,
+                "precision": 0.9958894772715357,
+                "recall": 0.8278462034639958
+              }
+            },
+            "unknown_pixels": 0,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3477,
+                "target_boundary": 3530,
+                "matched_predicted": 2510,
+                "matched_target": 2408,
+                "precision": 0.7218866839229221,
+                "recall": 0.6821529745042493,
+                "f_score": 0.7014576058979223
+              },
+              "2": {
+                "predicted_boundary": 5823,
+                "target_boundary": 6331,
+                "matched_predicted": 4032,
+                "matched_target": 3869,
+                "precision": 0.6924265842349304,
+                "recall": 0.6111198862738904,
+                "f_score": 0.6492375453949045
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 106
+              },
+              "fiber": {
+                "removed_correct_pixels": 18273,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 962,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 1,
+            "missing_ids": [
+              "semantic:video_1:18",
+              "semantic:video_1:20",
+              "semantic:video_1:21",
+              "semantic:video_1:41",
+              "semantic:video_1:47",
+              "semantic:video_1:65",
+              "semantic:video_1:67",
+              "semantic:video_1:75",
+              "semantic:video_1:107",
+              "semantic:video_1:123",
+              "semantic:video_1:144",
+              "semantic:video_1:146",
+              "semantic:video_1:150",
+              "semantic:video_1:152",
+              "semantic:video_1:189",
+              "semantic:video_1:204",
+              "semantic:video_1:206",
+              "semantic:video_1:207",
+              "semantic:video_1:213",
+              "semantic:video_1:246",
+              "semantic:video_1:248",
+              "semantic:video_1:256",
+              "semantic:video_1:277",
+              "semantic:video_1:292",
+              "semantic:video_1:320",
+              "semantic:video_1:322",
+              "semantic:video_1:331",
+              "semantic:video_1:337",
+              "semantic:video_1:352",
+              "semantic:video_1:380",
+              "semantic:video_1:385",
+              "semantic:video_1:398",
+              "semantic:video_1:408",
+              "semantic:video_1:415",
+              "semantic:video_1:428",
+              "semantic:video_1:434",
+              "semantic:video_1:442",
+              "semantic:video_1:444",
+              "semantic:video_1:454",
+              "semantic:video_1:484",
+              "semantic:video_1:499",
+              "semantic:video_1:509",
+              "semantic:video_1:540",
+              "semantic:video_1:541",
+              "semantic:video_1:563",
+              "semantic:video_1:564",
+              "semantic:video_1:567",
+              "semantic:video_1:575",
+              "semantic:video_1:588",
+              "semantic:video_1:607",
+              "semantic:video_1:625",
+              "semantic:video_1:626",
+              "semantic:video_1:657",
+              "semantic:video_1:661",
+              "semantic:video_1:668",
+              "semantic:video_1:687",
+              "semantic:video_1:697",
+              "semantic:video_1:706",
+              "semantic:video_1:719"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        },
+        "video_2": {
+          "total_frames": 1972,
+          "predicted_frames": 1972,
+          "approved_reference_frames": 9,
+          "reference_coverage_fraction": 0.004563894523326572,
+          "sampled_frames": 60,
+          "sampled_approved": 0,
+          "sparse_reviewed_diagnostic": {
+            "frames": 9,
+            "metrics": {
+              "confusion_matrix": [
+                [
+                  1312131,
+                  2726,
+                  280
+                ],
+                [
+                  19871,
+                  28261,
+                  0
+                ],
+                [
+                  17084,
+                  0,
+                  46846
+                ]
+              ],
+              "valid_pixels": 1427199.0,
+              "stone": {
+                "tp": 28261.0,
+                "fp": 2726.0,
+                "fn": 19871.0,
+                "dice": 0.7143922445935869,
+                "iou": 0.5556844547563805,
+                "precision": 0.9120276244876884,
+                "recall": 0.5871561539100806
+              },
+              "fiber": {
+                "tp": 46846.0,
+                "fp": 280.0,
+                "fn": 17084.0,
+                "dice": 0.8436464486385247,
+                "iou": 0.729574832580595,
+                "precision": 0.9940584815176335,
+                "recall": 0.7327702174253089
+              }
+            },
+            "unknown_pixels": 12801,
+            "boundaries": {
+              "1": {
+                "predicted_boundary": 3105,
+                "target_boundary": 5866,
+                "matched_predicted": 2143,
+                "matched_target": 2047,
+                "precision": 0.6901771336553946,
+                "recall": 0.3489601091033072,
+                "f_score": 0.46354663840476135
+              },
+              "2": {
+                "predicted_boundary": 2817,
+                "target_boundary": 3502,
+                "matched_predicted": 1513,
+                "matched_target": 1465,
+                "precision": 0.5370962016329428,
+                "recall": 0.4183323814962878,
+                "f_score": 0.47033286859773304
+              }
+            },
+            "paired_with_classwise": {
+              "stone": {
+                "removed_correct_pixels": 0,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 0,
+                "added_fp": 0
+              },
+              "fiber": {
+                "removed_correct_pixels": 8833,
+                "recovered_correct_pixels": 0,
+                "removed_fp": 239,
+                "added_fp": 0
+              }
+            }
+          },
+          "stratified_whole_video_estimate": {
+            "status": "awaiting_all_planned_sample_references",
+            "planned": 60,
+            "approved_and_predicted": 0,
+            "missing_ids": [
+              "semantic:video_2:2",
+              "semantic:video_2:38",
+              "semantic:video_2:47",
+              "semantic:video_2:154",
+              "semantic:video_2:159",
+              "semantic:video_2:191",
+              "semantic:video_2:206",
+              "semantic:video_2:268",
+              "semantic:video_2:279",
+              "semantic:video_2:282",
+              "semantic:video_2:340",
+              "semantic:video_2:361",
+              "semantic:video_2:474",
+              "semantic:video_2:485",
+              "semantic:video_2:494",
+              "semantic:video_2:520",
+              "semantic:video_2:541",
+              "semantic:video_2:571",
+              "semantic:video_2:649",
+              "semantic:video_2:651",
+              "semantic:video_2:689",
+              "semantic:video_2:690",
+              "semantic:video_2:701",
+              "semantic:video_2:713",
+              "semantic:video_2:772",
+              "semantic:video_2:851",
+              "semantic:video_2:884",
+              "semantic:video_2:898",
+              "semantic:video_2:900",
+              "semantic:video_2:942",
+              "semantic:video_2:1000",
+              "semantic:video_2:1002",
+              "semantic:video_2:1038",
+              "semantic:video_2:1054",
+              "semantic:video_2:1079",
+              "semantic:video_2:1175",
+              "semantic:video_2:1208",
+              "semantic:video_2:1220",
+              "semantic:video_2:1223",
+              "semantic:video_2:1309",
+              "semantic:video_2:1316",
+              "semantic:video_2:1364",
+              "semantic:video_2:1406",
+              "semantic:video_2:1411",
+              "semantic:video_2:1438",
+              "semantic:video_2:1505",
+              "semantic:video_2:1530",
+              "semantic:video_2:1575",
+              "semantic:video_2:1607",
+              "semantic:video_2:1631",
+              "semantic:video_2:1650",
+              "semantic:video_2:1770",
+              "semantic:video_2:1783",
+              "semantic:video_2:1789",
+              "semantic:video_2:1804",
+              "semantic:video_2:1824",
+              "semantic:video_2:1846",
+              "semantic:video_2:1881",
+              "semantic:video_2:1884",
+              "semantic:video_2:1965"
+            ],
+            "metrics": null
+          },
+          "dense_exact_accuracy": null
+        }
+      },
+      "sparse_video29": {
+        "frames": 29,
+        "metrics": {
+          "confusion_matrix": [
+            [
+              4351035,
+              5543,
+              672
+            ],
+            [
+              25251,
+              66045,
+              0
+            ],
+            [
+              36662,
+              172,
+              141819
+            ]
+          ],
+          "valid_pixels": 4627199.0,
+          "stone": {
+            "tp": 66045.0,
+            "fp": 5715.0,
+            "fn": 25251.0,
+            "dice": 0.810089785104504,
+            "iou": 0.6807990846398863,
+            "precision": 0.9203595317725752,
+            "recall": 0.7234161409043113
+          },
+          "fiber": {
+            "tp": 141819.0,
+            "fp": 672.0,
+            "fn": 36834.0,
+            "dice": 0.8832112697107839,
+            "iou": 0.790849017147637,
+            "precision": 0.9952839126681685,
+            "recall": 0.7938237812967036
+          }
+        },
+        "unknown_pixels": 12801,
+        "boundaries": {
+          "1": {
+            "predicted_boundary": 6582,
+            "target_boundary": 9396,
+            "matched_predicted": 4653,
+            "matched_target": 4455,
+            "precision": 0.7069279854147675,
+            "recall": 0.47413793103448276,
+            "f_score": 0.5675913049842641
+          },
+          "2": {
+            "predicted_boundary": 8640,
+            "target_boundary": 9833,
+            "matched_predicted": 5545,
+            "matched_target": 5334,
+            "precision": 0.6417824074074074,
+            "recall": 0.5424590664090309,
+            "f_score": 0.5879555703078266
+          }
+        },
+        "paired_with_classwise": {
+          "stone": {
+            "removed_correct_pixels": 0,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 0,
+            "added_fp": 106
+          },
+          "fiber": {
+            "removed_correct_pixels": 27106,
+            "recovered_correct_pixels": 0,
+            "removed_fp": 1201,
+            "added_fp": 0
+          }
+        }
+      },
+      "stratified_pooled_estimate": {
+        "status": "awaiting_all_planned_sample_references",
+        "planned": 120,
+        "approved_and_predicted": 1,
+        "missing_ids": [
+          "semantic:video_1:18",
+          "semantic:video_1:20",
+          "semantic:video_1:21",
+          "semantic:video_1:41",
+          "semantic:video_1:47",
+          "semantic:video_1:65",
+          "semantic:video_1:67",
+          "semantic:video_1:75",
+          "semantic:video_1:107",
+          "semantic:video_1:123",
+          "semantic:video_1:144",
+          "semantic:video_1:146",
+          "semantic:video_1:150",
+          "semantic:video_1:152",
+          "semantic:video_1:189",
+          "semantic:video_1:204",
+          "semantic:video_1:206",
+          "semantic:video_1:207",
+          "semantic:video_1:213",
+          "semantic:video_1:246",
+          "semantic:video_1:248",
+          "semantic:video_1:256",
+          "semantic:video_1:277",
+          "semantic:video_1:292",
+          "semantic:video_1:320",
+          "semantic:video_1:322",
+          "semantic:video_1:331",
+          "semantic:video_1:337",
+          "semantic:video_1:352",
+          "semantic:video_1:380",
+          "semantic:video_1:385",
+          "semantic:video_1:398",
+          "semantic:video_1:408",
+          "semantic:video_1:415",
+          "semantic:video_1:428",
+          "semantic:video_1:434",
+          "semantic:video_1:442",
+          "semantic:video_1:444",
+          "semantic:video_1:454",
+          "semantic:video_1:484",
+          "semantic:video_1:499",
+          "semantic:video_1:509",
+          "semantic:video_1:540",
+          "semantic:video_1:541",
+          "semantic:video_1:563",
+          "semantic:video_1:564",
+          "semantic:video_1:567",
+          "semantic:video_1:575",
+          "semantic:video_1:588",
+          "semantic:video_1:607",
+          "semantic:video_1:625",
+          "semantic:video_1:626",
+          "semantic:video_1:657",
+          "semantic:video_1:661",
+          "semantic:video_1:668",
+          "semantic:video_1:687",
+          "semantic:video_1:697",
+          "semantic:video_1:706",
+          "semantic:video_1:719",
+          "semantic:video_2:2",
+          "semantic:video_2:38",
+          "semantic:video_2:47",
+          "semantic:video_2:154",
+          "semantic:video_2:159",
+          "semantic:video_2:191",
+          "semantic:video_2:206",
+          "semantic:video_2:268",
+          "semantic:video_2:279",
+          "semantic:video_2:282",
+          "semantic:video_2:340",
+          "semantic:video_2:361",
+          "semantic:video_2:474",
+          "semantic:video_2:485",
+          "semantic:video_2:494",
+          "semantic:video_2:520",
+          "semantic:video_2:541",
+          "semantic:video_2:571",
+          "semantic:video_2:649",
+          "semantic:video_2:651",
+          "semantic:video_2:689",
+          "semantic:video_2:690",
+          "semantic:video_2:701",
+          "semantic:video_2:713",
+          "semantic:video_2:772",
+          "semantic:video_2:851",
+          "semantic:video_2:884",
+          "semantic:video_2:898",
+          "semantic:video_2:900",
+          "semantic:video_2:942",
+          "semantic:video_2:1000",
+          "semantic:video_2:1002",
+          "semantic:video_2:1038",
+          "semantic:video_2:1054",
+          "semantic:video_2:1079",
+          "semantic:video_2:1175",
+          "semantic:video_2:1208",
+          "semantic:video_2:1220",
+          "semantic:video_2:1223",
+          "semantic:video_2:1309",
+          "semantic:video_2:1316",
+          "semantic:video_2:1364",
+          "semantic:video_2:1406",
+          "semantic:video_2:1411",
+          "semantic:video_2:1438",
+          "semantic:video_2:1505",
+          "semantic:video_2:1530",
+          "semantic:video_2:1575",
+          "semantic:video_2:1607",
+          "semantic:video_2:1631",
+          "semantic:video_2:1650",
+          "semantic:video_2:1770",
+          "semantic:video_2:1783",
+          "semantic:video_2:1789",
+          "semantic:video_2:1804",
+          "semantic:video_2:1824",
+          "semantic:video_2:1846",
+          "semantic:video_2:1881",
+          "semantic:video_2:1884",
+          "semantic:video_2:1965"
+        ],
+        "metrics": null
+      },
+      "dense_exact_accuracy": null,
+      "tip_metrics": null,
+      "all_frame_output_identity_log": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\initial_accuracy_audit\\fixed_neural_frames.jsonl",
+      "identity_log_sha256": "23d2d30aa75ff39e98506f492abd0fe6cf685ed0d2278c5d86d4af985b331ef4"
+    }
+  },
+  "config_sha256": "7f16300b0d4449d70d9fffdaea80a91e05d10298d13bdf5c4750297559b15611",
+  "manifest_sha256": "0c8f42940078e5a8f011156ee75be9c6fcdf600cd35b90334f1b59f2a93461be",
+  "reference_export_sha256": "31be866d8077506fd8c4b31a58776ad64de4fda57a357086ddf1efe4993660ff",
+  "source_snapshot_sha256": "b81a0c8c77dcd850bcc5dc65be9c58a76996e47726e6d1b8d663ad342911f2ae",
+  "scope": "Cached native-output accuracy and coverage audit, not inference or a latency measurement. All references are repeated development validation.",
+  "sampling_policy": {
+    "design": "stratified_simple_random_without_replacement",
+    "strata_per_video": 12,
+    "frames_per_stratum": 5,
+    "seed_by_video": {
+      "video_1": 2026102901,
+      "video_2": 2026102902
+    },
+    "stratum_construction": "numpy.array_split of zero-based complete sequential frame indices; sizes differ by at most1",
+    "selection": "numpy.default_rng(seed).choice(stratum,size5,replaceFalse), in temporal order; no image or model features used",
+    "weights": "N_h/n_h fixed before labels. Ratio metrics from Horvitz-Thompson weighted TP/FP/FN. Approximate95% normal intervals by stratified finite-population variance and delta method, conditional on these two development videos; not patient generalization intervals",
+    "known_failure_frames": "Existing29 and12 tip pilot remain diagnostic supplements; do not pool convenience samples into probability-sample estimates unless randomly selected",
+    "partial_review_policy": "No overall estimate until all planned sample references are approved. Dense accuracy remains unavailable; unknown-pixel fractions reported separately"
+  },
+  "networks_loaded": 0,
+  "training_updates": 0,
+  "train_pixels_read": 0,
+  "reserved_test_pixels_read": 0,
+  "default_model_changed": false,
+  "historical_model_config_source_identity_artifacts": {
+    "runs/a1_classwise_experts_20261028/predictor_manifest.json": "cf77c16c9986a5e5534465abc5c9dca5b9a7d0e1611d4b5bda575808518d6130",
+    "runs/a1_fiber_tip_d0_20261029/preflight.json": "0681565e5c962de3913673ddd9a225e0ff5be1f6500082e041495719c8471b8f",
+    "runs/a1_classwise_replay_20261028/preflight.json": "11e3b37d277eec72847c4e6874be10a6f6993591fd0064e2a6d0ca52798aad9b",
+    "runs/a1_fiber_geometry_20261028/preflight.json": "c95c50df8328c9b2119d6d40197e93d77fbc57d16594b0348ddfe375e92b82f1",
+    "runs/a1_fiber_component_gate_20261029/preflight.json": "4ce5c98dfca4ed7c904034c07d43bb3e14b0f3d864241d692f1b71ba9ff3819e",
+    "runs/a1_direct_fiber_template_20261029/preflight.json": "e9095b20a1bde969d1bd1b312687e65b1af100695c8f0a7a3125518d28528e7c",
+    "runs/a1_direct_neural_observation_20261029/preflight.json": "f2cf630f298f942174eb39932d403e2ffa3c7a444a7326e428437a4ca84670fe",
+    "runs/prior_method_comparison_20261029/preflight.json": "d7d45e9543592e2c8ac425fb762c58963c572c8c537b8e02686d0451ccb9347d"
+  }
+}

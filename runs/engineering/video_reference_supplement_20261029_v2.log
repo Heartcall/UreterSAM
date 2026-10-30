@@ -1,0 +1,12 @@
+{"snapshot": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\review_snapshots\\video_development_supplement_20261029_v2\\manifest.json", "counts": {"original": 29, "new": 41, "combined": 70}, "coverage": {"video_1": {"video_frames": 722, "original29": 20, "new_approved": 23, "combined": 43, "planned_random_sample": 60, "approved_random_sample": 24}, "video_2": {"video_frames": 1972, "original29": 9, "new_approved": 18, "combined": 27, "planned_random_sample": 60, "approved_random_sample": 18}}}
+classwise: full output identities 2694, references 70, new 41
+old190: full output identities 2694, references 70, new 41
+A0: full output identities 2694, references 70, new 41
+edge_geometry: full output identities 2694, references 70, new 41
+edge_geometry_causal: full output identities 2694, references 70, new 41
+component_gate_3net: full output identities 2694, references 70, new 41
+component_gate_1net: full output identities 2694, references 70, new 41
+fixed_color: full output identities 2694, references 70, new 41
+fixed_soft: full output identities 2694, references 70, new 41
+fixed_causal: full output identities 2694, references 70, new 41
+fixed_neural: full output identities 2694, references 70, new 41

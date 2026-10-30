@@ -1,0 +1,363 @@
+{
+  "passed": true,
+  "count": 47,
+  "checks": [
+    {
+      "name": "job_completed_no_training_default_or_adoption",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen_configuration_and_sources_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_frozen_inputs_and_caches_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "weights_and_videos_match_frozen_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_archive_unique_and_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "image_native_raw_pixel_metrics_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "image_native_neural_relaxation_control_pixel_metrics_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "image_native_blue_aplus_pixel_metrics_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "image_native_neural_relaxation_control_zero_TP_deletion_and_stone_change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "image_native_blue_aplus_zero_TP_deletion_and_stone_change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_native_raw_pixel_metrics_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_native_neural_relaxation_control_pixel_metrics_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_native_blue_aplus_pixel_metrics_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_native_neural_relaxation_control_zero_TP_deletion_and_stone_change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_native_blue_aplus_zero_TP_deletion_and_stone_change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all202_static_samples_used",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "image_cohorts25_and107_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original29_new41_cases43_and27_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_probability_inferences41_only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all41_new_FP32_member_and_grid_native_caches_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "low_probability_FN_bins_conserve_all_reference_FN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tip_metrics_not_generated_from_axis_proxy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "both_fixed_arms_rejected_without_relaxing_gates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_video_1_complete722_or1972_and_static_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_video_1_full_timing_percentiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_video_1_H264_file_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neural_relaxation_control_video_1_complete722_or1972_and_static_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neural_relaxation_control_video_1_full_timing_percentiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neural_relaxation_control_video_1_H264_file_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue_aplus_video_1_complete722_or1972_and_static_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue_aplus_video_1_full_timing_percentiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue_aplus_video_1_H264_file_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_1_all3_native_outputs_and_protections_verified",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_video_2_complete722_or1972_and_static_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_video_2_full_timing_percentiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_video_2_H264_file_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neural_relaxation_control_video_2_complete722_or1972_and_static_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neural_relaxation_control_video_2_full_timing_percentiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "neural_relaxation_control_video_2_H264_file_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue_aplus_video_2_complete722_or1972_and_static_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue_aplus_video_2_full_timing_percentiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue_aplus_video_2_H264_file_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_2_all3_native_outputs_and_protections_verified",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_independent_fresh_processes_all8082_frames",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_1_complete_four_column_comparison_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "video_2_complete_four_column_comparison_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_full_video_accuracy_tip_or_memory_claim",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "static_changes": {
+    "image_native": {
+      "paired": {
+        "neural_relaxation_control": {
+          "lost_tp": 0,
+          "removed_fp": 0,
+          "gained_tp": 431,
+          "added_fp": 1933
+        },
+        "blue_aplus": {
+          "lost_tp": 0,
+          "removed_fp": 0,
+          "gained_tp": 106,
+          "added_fp": 612
+        }
+      },
+      "fallback_counts": {
+        "neural_relaxation_control": {
+          "insufficient_network_fiber_anchor": 64,
+          "applied": 61,
+          "no_supported_uncertain_background": 2,
+          "addition_budget": 5
+        },
+        "blue_aplus": {
+          "insufficient_network_fiber_anchor": 64,
+          "applied": 45,
+          "no_supported_uncertain_background": 21,
+          "addition_budget": 2
+        }
+      }
+    },
+    "video_native": {
+      "paired": {
+        "neural_relaxation_control": {
+          "lost_tp": 0,
+          "removed_fp": 0,
+          "gained_tp": 2829,
+          "added_fp": 1761
+        },
+        "blue_aplus": {
+          "lost_tp": 0,
+          "removed_fp": 0,
+          "gained_tp": 2551,
+          "added_fp": 1291
+        }
+      },
+      "fallback_counts": {
+        "neural_relaxation_control": {
+          "applied": 68,
+          "addition_budget": 2
+        },
+        "blue_aplus": {
+          "applied": 69,
+          "addition_budget": 1
+        }
+      }
+    }
+  },
+  "full_video_changes": {
+    "video_1": {
+      "added_pixels": {
+        "neural_relaxation_control": 47606,
+        "blue_aplus": 33493
+      },
+      "changed_frames": {
+        "raw": 0,
+        "neural_relaxation_control": 722,
+        "blue_aplus": 722
+      },
+      "fallback_counts": {
+        "raw": {
+          "raw_control": 722
+        },
+        "neural_relaxation_control": {
+          "applied": 722
+        },
+        "blue_aplus": {
+          "applied": 722
+        }
+      }
+    },
+    "video_2": {
+      "added_pixels": {
+        "neural_relaxation_control": 161404,
+        "blue_aplus": 154544
+      },
+      "changed_frames": {
+        "raw": 0,
+        "neural_relaxation_control": 1817,
+        "blue_aplus": 1920
+      },
+      "fallback_counts": {
+        "raw": {
+          "raw_control": 1972
+        },
+        "neural_relaxation_control": {
+          "applied": 1817,
+          "addition_budget": 155
+        },
+        "blue_aplus": {
+          "applied": 1920,
+          "addition_budget": 49,
+          "no_supported_uncertain_background": 3
+        }
+      }
+    }
+  },
+  "workers": [
+    22944,
+    27540,
+    14064,
+    40480,
+    16032,
+    22460
+  ],
+  "full_frames_all_schemes": 8082,
+  "zero_original_fiber_and_stone_deletion": true,
+  "tip_metrics": null,
+  "training_updates": 0,
+  "train_pixels_read": 0,
+  "reserved_test_pixels_read": 0,
+  "source_sha256": "880be983b1e93abb5c2db99dd01346d36253fcedb113e2ddb4aa4e596d855adf"
+}

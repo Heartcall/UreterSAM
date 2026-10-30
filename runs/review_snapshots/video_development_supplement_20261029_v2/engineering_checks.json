@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "count": 40,
+  "checks": [
+    {
+      "name": "70_unique_frames_include_previous65_and_five_new",
+      "passed": true
+    },
+    {
+      "name": "previous65_labels_unchanged",
+      "passed": true
+    },
+    {
+      "name": "five_new_frames_are_video2_and_approved",
+      "passed": true
+    },
+    {
+      "name": "all_snapshot_and_source_hashes_match",
+      "passed": true
+    },
+    {
+      "name": "online_session_unchanged_by_capture",
+      "passed": true
+    },
+    {
+      "name": "training_split_unchanged_no_train_rows",
+      "passed": true
+    },
+    {
+      "name": "42of120_sample_references_incomplete",
+      "passed": true
+    },
+    {
+      "name": "classwise_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "classwise_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "classwise_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "old190_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "old190_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "old190_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "A0_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "A0_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "A0_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_causal_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_causal_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "edge_geometry_causal_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "component_gate_3net_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "component_gate_3net_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "component_gate_3net_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "component_gate_1net_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "component_gate_1net_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "component_gate_1net_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "fixed_color_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "fixed_color_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "fixed_color_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "fixed_soft_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "fixed_soft_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "fixed_soft_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "fixed_causal_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "fixed_causal_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "fixed_causal_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    },
+    {
+      "name": "fixed_neural_previous65_accuracy_exact",
+      "passed": true
+    },
+    {
+      "name": "fixed_neural_full2694_cached_outputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "fixed_neural_no_unlabelled_full_or_tip_accuracy",
+      "passed": true
+    }
+  ],
+  "new_this_turn": 5,
+  "cumulative_additional_frames": 41,
+  "combined_frames": 70,
+  "full_output_identity_records": 29634,
+  "previous65_unchanged": true,
+  "live_session_changed": false,
+  "training_updates": 0,
+  "reserved_test_pixels_read": 0
+}

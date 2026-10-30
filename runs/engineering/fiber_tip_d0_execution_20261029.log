@@ -1,0 +1,115 @@
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/fiber_tip_diagnostics.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/diagnose_fiber_tip.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/classwise_experts.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/run_classwise_expert_control.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/run_fiber_shape_control.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/fiber_shape_prior.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/replay_classwise_experts.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/evaluate_native_checkpoints.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/evaluate_spatial_detail.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/diagnose_joint_failures.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+E:\Apps\Conda\miniconda3\envs\uretersam\Lib\zipfile.py:1606: UserWarning: Duplicate name: 'tools/direct_fiber_template.py'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+{
+  "phase": "completed",
+  "static": {
+    "image": {
+      "stone_dice": 0.9067033574381964,
+      "stone_iou": 0.8293296824854566,
+      "stone_precision": 0.8802287898496653,
+      "stone_recall": 0.9348198559495248,
+      "stone_tp": 6120016,
+      "stone_fp": 832740,
+      "stone_fn": 426717,
+      "fiber_dice": 0.7623340121757562,
+      "fiber_iou": 0.6159448669312648,
+      "fiber_precision": 0.6382318916070574,
+      "fiber_recall": 0.9463483852426626,
+      "fiber_tp": 105374,
+      "fiber_fp": 59729,
+      "fiber_fn": 5974,
+      "mean_dice": 0.8345186848069763,
+      "mean_iou": 0.7226372747083607,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          25646344,
+          832294,
+          40881
+        ],
+        [
+          407869,
+          6120016,
+          18848
+        ],
+        [
+          5528,
+          446,
+          105374
+        ]
+      ],
+      "valid_pixels": 33177600,
+      "stone_negative_images": 0,
+      "stone_negative_images_with_fp": 0,
+      "stone_negative_fp_image_rate": null,
+      "stone_negative_valid_pixels": 0,
+      "stone_negative_fp_pixels": 0,
+      "stone_negative_fp_pixel_fraction": null
+    },
+    "video29": {
+      "stone_dice": 0.8106167536054004,
+      "stone_iou": 0.6815437799907126,
+      "stone_precision": 0.9217210483713401,
+      "stone_recall": 0.7234161409043113,
+      "stone_tp": 66045,
+      "stone_fp": 5609,
+      "stone_fn": 25251,
+      "fiber_dice": 0.9668022126134994,
+      "fiber_iou": 0.9357377884626037,
+      "fiber_precision": 0.9890338294359419,
+      "fiber_recall": 0.9455480736399613,
+      "fiber_tp": 168925,
+      "fiber_fp": 1873,
+      "fiber_fn": 9728,
+      "mean_dice": 0.88870948310945,
+      "mean_iou": 0.8086407842266581,
+      "foreground_classes_with_defined_overlap": 2,
+      "confusion_matrix": [
+        [
+          4349836,
+          5541,
+          1873
+        ],
+        [
+          25251,
+          66045,
+          0
+        ],
+        [
+          9660,
+          68,
+          168925
+        ]
+      ],
+      "valid_pixels": 4627199,
+      "stone_negative_images": 9,
+      "stone_negative_images_with_fp": 1,
+      "stone_negative_fp_image_rate": 0.1111111111111111,
+      "stone_negative_valid_pixels": 1440000,
+      "stone_negative_fp_pixels": 477,
+      "stone_negative_fp_pixel_fraction": 0.00033125
+    }
+  },
+  "tip_metrics": null,
+  "full_video_frames": 2694
+}
