@@ -1,0 +1,33 @@
+{
+  "passed": 24,
+  "checks": {
+    "all_frozen_sources_unchanged": true,
+    "all_reference_bytes_unchanged": true,
+    "all_cached_probabilities_unchanged": true,
+    "diagnostic_outputs_identity": true,
+    "T2P_config_unchanged": true,
+    "video_native_reference_counts": true,
+    "video_nativemember1_2netHSV_V_TPFPFN_exact": true,
+    "video_nativemember1_2netHSV_V_GTdenominator": true,
+    "video_nativemember1_2netLab_Lstar_TPFPFN_exact": true,
+    "video_nativemember1_2netLab_Lstar_GTdenominator": true,
+    "video_nativeclasswise3HSV_V_TPFPFN_exact": true,
+    "video_nativeclasswise3HSV_V_GTdenominator": true,
+    "video_nativeclasswise3Lab_Lstar_TPFPFN_exact": true,
+    "video_nativeclasswise3Lab_Lstar_GTdenominator": true,
+    "image_native_reference_counts": true,
+    "image_nativemember1_2netHSV_V_TPFPFN_exact": true,
+    "image_nativemember1_2netHSV_V_GTdenominator": true,
+    "image_nativemember1_2netLab_Lstar_TPFPFN_exact": true,
+    "image_nativemember1_2netLab_Lstar_GTdenominator": true,
+    "image_nativeclasswise3HSV_V_TPFPFN_exact": true,
+    "image_nativeclasswise3HSV_V_GTdenominator": true,
+    "image_nativeclasswise3Lab_Lstar_TPFPFN_exact": true,
+    "image_nativeclasswise3Lab_Lstar_GTdenominator": true,
+    "no_new_network_pixel_or_training_experiment": true
+  },
+  "role": "read-only identity/strata recount, not new algorithm tests",
+  "auditor_registrar_sha256": "5908e94bca0022e483c6d525bd77622bca7f9e0196a5dc16b3a0723f8a9eeb26",
+  "new_model_forwards": 0,
+  "new_corrected_masks": 0
+}

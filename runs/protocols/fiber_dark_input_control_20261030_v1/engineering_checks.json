@@ -1,0 +1,24 @@
+{
+  "passed": 18,
+  "checks": {
+    "finite_three_arms": true,
+    "single_fixed_gamma": true,
+    "two_network_instances": true,
+    "six_fresh_processes_full_even_failure": true,
+    "actual_distinct_static_inputs": true,
+    "reference_counts_unchanged": true,
+    "same_frozen_source_code": true,
+    "same_weight_files": true,
+    "same_semantic_manifest": true,
+    "original12pending_not_truth": true,
+    "planning_worklist14unique_no_labels": true,
+    "worklist_images_identity": true,
+    "not_implemented_or_executed": true,
+    "existing_T2P_protocol_unchanged": true,
+    "unchanged_quality_gate_reference": true,
+    "archive_roundtrip_exact": true,
+    "fiber_dark_input_control_20261030.md_relative_links": true,
+    "2026-10-30-fiber-dark-input-protocol.md_relative_links": true
+  },
+  "scope": "protocol consistency and existing identities, NOT transform unit tests or experimental results"
+}

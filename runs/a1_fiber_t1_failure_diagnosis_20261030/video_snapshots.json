@@ -1,0 +1,2621 @@
+{
+  "actual_original_model_forward_calls": 5,
+  "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+  "individual_model_sha256": [
+    "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+    "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+  ],
+  "runtime": {
+    "python": "3.11.17",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "smp": "0.4.0",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "cpu_threads": 16,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "snapshots": [
+    {
+      "display_frame": 311,
+      "video_id": "video_2",
+      "frame_index": 310,
+      "raw_rgb_path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\images\\video_2\\000310.png",
+      "mask_raw_sha256": "67928538474556b13ea44fbe9fef3d22bad5f1cb94e18aeb542140b29ea41efa",
+      "probability_file": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_t1_failure_diagnosis_20261030\\probabilities\\video_2_000310.npz",
+      "fiber_probability_raw_sha256": "39e47e19e4eb9ca989e54ca73ccf8e3bc1c8c40d3077fd10f1fa7ef08ebe30be",
+      "current": {
+        "candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.0,
+            "level": "rejected",
+            "reason": "insufficient_edge_pairs",
+            "axis_theta": -0.7818827155137854,
+            "oriented": true,
+            "front_observed": false,
+            "shaft_observed": false,
+            "pose": null,
+            "support_count": 1544,
+            "support_ids_sha256": "882e4258b55ab8ec0f8077ce90552eb801e3addfdf38e1d0029b633b08841a86",
+            "seed_length_px": 155.82530407057538,
+            "seed_mass": 1452.3500803560019,
+            "fov_end_distances": [
+              2.5,
+              105.76888245044697
+            ],
+            "qN": null,
+            "qE": 0.5,
+            "qR": null,
+            "edge_pairs": 4,
+            "station_support_counts": [
+              233,
+              338,
+              429,
+              499,
+              512,
+              477,
+              421,
+              361
+            ],
+            "valid_edge_samples": 213,
+            "selected_edge_contrasts": [
+              [
+                0.006941055959256561,
+                0.14248389578460063
+              ],
+              [
+                0.006165536048148028,
+                0.14130473047534947
+              ],
+              [
+                0.009335200560186734,
+                0.1366262264770518
+              ],
+              [
+                0.01955932412612534,
+                0.17062947592690086
+              ],
+              [
+                0.1020307167453519,
+                0.18477272823967084
+              ],
+              [
+                0.12098853210890671,
+                0.1801999652817746
+              ],
+              [
+                0.11983375711604127,
+                0.16648475928514397
+              ],
+              [
+                0.1074584593134537,
+                0.1372034878884631
+              ]
+            ],
+            "selected_edge_pairs": [
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              true
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "duplicates": [],
+        "ambiguous": false,
+        "winner_label": null,
+        "strong_label": null,
+        "qualified_labels": [],
+        "proposal_info": {
+          "components": 1,
+          "eligible_components": 1,
+          "axes_proposed": 1,
+          "grid_shape": [
+            160,
+            160
+          ]
+        }
+      },
+      "traces": [
+        {
+          "label": 1,
+          "trace": [
+            {
+              "station": 0,
+              "native_center_xy": [
+                4.504264595745703,
+                357.38303840001555
+              ],
+              "support_after_cap": 233,
+              "support_before_cap": 233,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -18.000340515436626,
+                29.806380412804327
+              ],
+              "search_halfwidth_px": 11.951680232060237,
+              "valid_samples_per_side": [
+                0,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                -1.0,
+                0.14248389578460063
+              ]
+            },
+            {
+              "station": 1,
+              "native_center_xy": [
+                14.771645802976785,
+                347.1875934878983
+              ],
+              "support_after_cap": 338,
+              "support_before_cap": 338,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -32.20329065433406,
+                29.742992718911115
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                0,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                -1.0,
+                0.14130473047534947
+              ]
+            },
+            {
+              "station": 2,
+              "native_center_xy": [
+                25.03902701020786,
+                336.992148575781
+              ],
+              "support_after_cap": 429,
+              "support_before_cap": 429,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -44.62332143292027,
+                31.407339804763268
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                1,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.009335200560186734,
+                0.1366262264770518
+              ]
+            },
+            {
+              "station": 3,
+              "native_center_xy": [
+                35.30640821743894,
+                326.7967036636638
+              ],
+              "support_after_cap": 499,
+              "support_before_cap": 499,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -49.92783241772456,
+                31.414797180515407
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                8,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.01955932412612534,
+                0.17062947592690086
+              ]
+            },
+            {
+              "station": 4,
+              "native_center_xy": [
+                45.573789424670025,
+                316.6012587515465
+              ],
+              "support_after_cap": 512,
+              "support_before_cap": 512,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -49.55073360281678,
+                31.34942085308829
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.1020307167453519,
+                0.18477272823967084
+              ]
+            },
+            {
+              "station": 5,
+              "native_center_xy": [
+                55.8411706319011,
+                306.40581383942924
+              ],
+              "support_after_cap": 477,
+              "support_before_cap": 477,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -46.44750493906002,
+                31.258689448103887
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.12098853210890671,
+                0.1801999652817746
+              ]
+            },
+            {
+              "station": 6,
+              "native_center_xy": [
+                66.10855183913219,
+                296.21036892731195
+              ],
+              "support_after_cap": 421,
+              "support_before_cap": 421,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -37.67857554386242,
+                31.198036125319792
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.11983375711604127,
+                0.16648475928514397
+              ]
+            },
+            {
+              "station": 7,
+              "native_center_xy": [
+                76.37593304636327,
+                286.01492401519465
+              ],
+              "support_after_cap": 361,
+              "support_before_cap": 361,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -30.647324096079718,
+                31.16323503847646
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.1074584593134537,
+                0.1372034878884631
+              ]
+            }
+          ]
+        }
+      ],
+      "history": {
+        "label": -1,
+        "provenance": "history_conditioned",
+        "score": 0.826172931341093,
+        "level": "weak",
+        "reason": "qualified_shaft",
+        "axis_theta": -0.5565536121761738,
+        "oriented": true,
+        "front_observed": true,
+        "shaft_observed": true,
+        "pose": [
+          -19.06682598595951,
+          351.72390787378447,
+          -0.5565536121761738,
+          166.77817073704333,
+          106.8751462851647,
+          33.702569738554416
+        ],
+        "support_count": 0,
+        "support_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seed_length_px": 166.68230937343955,
+        "seed_mass": null,
+        "fov_end_distances": null,
+        "qN": 0.9999363353840098,
+        "qE": 0.625,
+        "qR": 0.8809919859374457,
+        "edge_pairs": 5,
+        "station_support_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "valid_edge_samples": 224,
+        "selected_edge_contrasts": [
+          [
+            0.01358471221622649,
+            0.1286525104738201
+          ],
+          [
+            0.12278373908056593,
+            0.13602688008300784
+          ],
+          [
+            0.02829905486428197,
+            0.1544945510428289
+          ],
+          [
+            0.12461843818871478,
+            0.15189739065867225
+          ],
+          [
+            0.11991031043216419,
+            0.18473545999830135
+          ],
+          [
+            0.1269745150246491,
+            0.19556198429323132
+          ],
+          [
+            0.1276071119948682,
+            0.18375693893770148
+          ],
+          [
+            0.12087880000270537,
+            0.14814493612417923
+          ]
+        ],
+        "selected_edge_pairs": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "line_coefficients": [
+          [
+            0.18557723513511618,
+            -44.99718852719772
+          ],
+          [
+            -0.25341702179392883,
+            61.877957757966975
+          ]
+        ],
+        "line_rms_px": 1.152171862180291,
+        "residual_limit_px": 9.093216150342638,
+        "interior_valid_triplets": 6,
+        "interior_probability_samples": [
+          [
+            0.3616863922136986,
+            0.21607102730640185,
+            0.9999236008628241
+          ],
+          [
+            0.37418149630097464,
+            0.9999448257297253,
+            0.9999455687549731
+          ],
+          [
+            0.9999907402807705,
+            0.999978800476229,
+            0.9999438392891188
+          ],
+          [
+            0.9999892984673949,
+            0.9999671678578224,
+            0.9999518960763398
+          ],
+          [
+            0.9999835623601345,
+            0.9999680512152267,
+            0.9999436886970947
+          ],
+          [
+            0.9999722911489801,
+            0.9999558075962419,
+            0.9999189912663031
+          ],
+          [
+            0.9999592031412888,
+            0.9999443203496352,
+            0.9998671882269421
+          ],
+          [
+            0.9998694014622477,
+            0.9999471402625629,
+            0.9997026487378451
+          ]
+        ],
+        "interior_valid_mask": [
+          [
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true
+          ]
+        ],
+        "fiber_argmax_fraction": 1.0,
+        "entry_xy": [
+          -19.06682598595951,
+          351.72390787378447
+        ],
+        "far_seed_xy": [
+          122.54130820118857,
+          263.6211578234652
+        ],
+        "width0_px": 106.8751462851647,
+        "far_seed_width_px": 33.702569738554416,
+        "observed_shaft_length_px": 166.77817073704333,
+        "shaft_lines": [
+          [
+            [
+              -45.74154088960765,
+              305.42019519134476
+            ],
+            [
+              114.12956355760674,
+              249.0195019654228
+            ]
+          ],
+          [
+            [
+              7.607888917688626,
+              398.0276205562242
+            ],
+            [
+              130.95305284477038,
+              278.22281368150755
+            ]
+          ]
+        ],
+        "front_profile_support": [
+          true,
+          true,
+          true
+        ],
+        "front_profile_offsets_px": [
+          -2.0,
+          0.0,
+          -6.0
+        ],
+        "front_profile_scores": [
+          0.15600328363697713,
+          0.15721337208192007,
+          0.12451125358465742
+        ],
+        "front_reason": "current_visible_transition_unverified_tip",
+        "visible_front_candidate": [
+          122.54130820118858,
+          263.6211578234652
+        ]
+      },
+      "tracked": {
+        "groups": {
+          "shaft": {
+            "value": [
+              -20.541456924795874,
+              349.16414715839716,
+              -0.5446861995020851,
+              106.45110782362623
+            ],
+            "status": "weak_updated",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          },
+          "endpoint": {
+            "value": [
+              166.744619259782,
+              33.84391589240057
+            ],
+            "status": "weak_updated",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          }
+        },
+        "visible_front_candidate": [
+          122.0735365647111,
+          262.7654684411995
+        ],
+        "front_is_prediction": false,
+        "selected_label": -1,
+        "used_provenance": "history_conditioned",
+        "orientation_resolved_by_history": false,
+        "independent_strong_used": false,
+        "strong_override_groups": [],
+        "weak_candidate_gates": [
+          {
+            "label": -1,
+            "provenance": "history_conditioned",
+            "passed": true,
+            "checks": {
+              "entry": true,
+              "angle": true,
+              "width0": true,
+              "length": true,
+              "width1": true,
+              "front": true
+            },
+            "skipped": []
+          }
+        ],
+        "selected_gate": {
+          "passed": true,
+          "checks": {
+            "entry": true,
+            "angle": true,
+            "width0": true,
+            "length": true,
+            "width1": true,
+            "front": true
+          },
+          "skipped": []
+        },
+        "invalid_updates": [],
+        "prior": {
+          "shaft": [
+            -23.28005723977769,
+            344.4103058298207,
+            -0.5226467188216342,
+            105.66360782362621
+          ],
+          "endpoint": [
+            166.68230937343955,
+            34.10641589240056
+          ],
+          "shaft_extent": 157.68230937343955
+        },
+        "invalid_predictions": [],
+        "context_reset_reason": null,
+        "dt_seconds": 0.033242393509127055,
+        "apply_to_mask": false,
+        "tip_metrics": null
+      },
+      "pixel_truth_available": false,
+      "tip_metrics": null
+    },
+    {
+      "display_frame": 439,
+      "video_id": "video_2",
+      "frame_index": 438,
+      "raw_rgb_path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\images\\video_2\\000438.png",
+      "mask_raw_sha256": "b5921d526dfb9acf40b4bed8a27116e5f2f59783e061eaf0d9975d1a619ddaf5",
+      "probability_file": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_t1_failure_diagnosis_20261030\\probabilities\\video_2_000438.npz",
+      "fiber_probability_raw_sha256": "955622e61598b8237afca9bf6da3bd918f6c1f0278721705570e15dc064a9f66",
+      "current": {
+        "candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9821453980562559,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.16356306269230672,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.5512310561105763,
+              183.09313436092054,
+              0.16356306269230672,
+              154.31424528186474,
+              80.47884785308284,
+              15.934754929716902
+            ],
+            "support_count": 1226,
+            "support_ids_sha256": "21b0206a69c1f87841b5ba1fd6fee0a27e28d01e227001995c693b39dd8086bc",
+            "seed_length_px": 144.2590575998554,
+            "seed_mass": 1152.2496538162231,
+            "fov_end_distances": [
+              2.5,
+              143.38932073844106
+            ],
+            "qN": 0.9999816237110192,
+            "qE": 1.0,
+            "qR": 0.9107637428592408,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              391,
+              412,
+              375,
+              340,
+              305,
+              277,
+              248,
+              214
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.2155937882532366,
+                0.27587187501558164
+              ],
+              [
+                0.21899133958386333,
+                0.20295364196813553
+              ],
+              [
+                0.18887200750463307,
+                0.2275446824944837
+              ],
+              [
+                0.20087250497032036,
+                0.21237230946987556
+              ],
+              [
+                0.28198007935631575,
+                0.20104637267785178
+              ],
+              [
+                0.22266308503640572,
+                0.22030339478888342
+              ],
+              [
+                0.22325894941653024,
+                0.196319671336992
+              ],
+              [
+                0.1878077005328441,
+                0.1773914850291584
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.18154857147967654,
+                -26.615019036740566
+              ],
+              [
+                -0.23687543574920136,
+                29.264530620615425
+              ]
+            ],
+            "line_rms_px": 0.6149532506299538,
+            "residual_limit_px": 6.5790276414102955,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999980884647622,
+                0.9999983838882005,
+                0.9999960096806378
+              ],
+              [
+                0.9999959146802925,
+                0.9999971836687715,
+                0.9999890783968932
+              ],
+              [
+                0.9999952285336686,
+                0.9999951444443215,
+                0.9999809473788216
+              ],
+              [
+                0.9999926450261396,
+                0.9999900332641998,
+                0.9999626377736694
+              ],
+              [
+                0.9999913514926062,
+                0.9999862245401282,
+                0.999963667929017
+              ],
+              [
+                0.9999814904341576,
+                0.9999729752950576,
+                0.9999658723909981
+              ],
+              [
+                0.9999808821139323,
+                0.9999819799293521,
+                0.9999827171826061
+              ],
+              [
+                0.9999434473265131,
+                0.9999612086045931,
+                0.9999558566251184
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.5512310561105763,
+              183.09313436092054
+            ],
+            "far_seed_xy": [
+              141.83690354227187,
+              206.59250705184874
+            ],
+            "width0_px": 80.47884785308284,
+            "far_seed_width_px": 20.11739489308983,
+            "observed_shaft_length_px": 144.31424528186474,
+            "shaft_lines": [
+              [
+                [
+                  7.096522994562046,
+                  143.58714625885764
+                ],
+                [
+                  143.74862186810418,
+                  196.7171474450392
+                ]
+              ],
+              [
+                [
+                  -8.1989851067832,
+                  222.59912246298342
+                ],
+                [
+                  139.92518521643956,
+                  216.46786665865832
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              9.0,
+              10.0,
+              6.0
+            ],
+            "front_profile_scores": [
+              0.21140941397551583,
+              0.2120065150290132,
+              0.09344306770554069
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              151.70343711421967,
+              208.22085445754186
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "duplicates": [],
+        "ambiguous": false,
+        "winner_label": 1,
+        "strong_label": 1,
+        "qualified_labels": [
+          1
+        ],
+        "proposal_info": {
+          "components": 1,
+          "eligible_components": 1,
+          "axes_proposed": 1,
+          "grid_shape": [
+            160,
+            160
+          ]
+        }
+      },
+      "traces": [
+        {
+          "label": 1,
+          "trace": [
+            {
+              "station": 0,
+              "native_center_xy": [
+                14.172611443528034,
+                182.93755807027446
+              ],
+              "support_after_cap": 391,
+              "support_before_cap": 391,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -34.9882601837374,
+                38.73975814217125
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.2155937882532366,
+                0.27587187501558164
+              ]
+            },
+            {
+              "station": 1,
+              "native_center_xy": [
+                27.32393859300319,
+                185.4834535233708
+              ],
+              "support_after_cap": 412,
+              "support_before_cap": 412,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -31.883353956713837,
+                38.6368018015686
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.21899133958386333,
+                0.20295364196813553
+              ]
+            },
+            {
+              "station": 2,
+              "native_center_xy": [
+                40.47526574247834,
+                188.02934897646713
+              ],
+              "support_after_cap": 375,
+              "support_before_cap": 375,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -29.250991443431325,
+                34.21967902132375
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.18887200750463307,
+                0.2275446824944837
+              ]
+            },
+            {
+              "station": 3,
+              "native_center_xy": [
+                53.62659289195349,
+                190.57524442956344
+              ],
+              "support_after_cap": 340,
+              "support_before_cap": 340,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -27.396699768302863,
+                31.208972497889388
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.20087250497032036,
+                0.21237230946987556
+              ]
+            },
+            {
+              "station": 4,
+              "native_center_xy": [
+                66.77792004142864,
+                193.12113988265978
+              ],
+              "support_after_cap": 305,
+              "support_before_cap": 305,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -25.141024421430284,
+                26.72875536525318
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.28198007935631575,
+                0.20104637267785178
+              ]
+            },
+            {
+              "station": 5,
+              "native_center_xy": [
+                79.9292471909038,
+                195.6670353357561
+              ],
+              "support_after_cap": 277,
+              "support_before_cap": 277,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -22.908581438737805,
+                23.874983319139922
+              ],
+              "search_halfwidth_px": 11.695891189469432,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.22266308503640572,
+                0.22030339478888342
+              ]
+            },
+            {
+              "station": 6,
+              "native_center_xy": [
+                93.08057434037896,
+                198.21293078885242
+              ],
+              "support_after_cap": 248,
+              "support_before_cap": 248,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -21.163931090699283,
+                21.09358752546514
+              ],
+              "search_halfwidth_px": 10.564379654041105,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.22325894941653024,
+                0.196319671336992
+              ]
+            },
+            {
+              "station": 7,
+              "native_center_xy": [
+                106.23190148985411,
+                200.75882624194875
+              ],
+              "support_after_cap": 214,
+              "support_before_cap": 214,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -19.429004467705703,
+                19.040980015525488
+              ],
+              "search_halfwidth_px": 9.617496120807797,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.1878077005328441,
+                0.1773914850291584
+              ]
+            }
+          ]
+        }
+      ],
+      "history": null,
+      "tracked": {
+        "groups": {
+          "shaft": {
+            "value": [
+              -0.5512310561105763,
+              183.09313436092054,
+              0.16356306269230672,
+              80.47884785308284
+            ],
+            "status": "strong_current_override",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          },
+          "endpoint": {
+            "value": [
+              154.31424528186474,
+              15.934754929716902
+            ],
+            "status": "strong_current_override",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          }
+        },
+        "visible_front_candidate": [
+          151.70343711421967,
+          208.22085445754186
+        ],
+        "front_is_prediction": false,
+        "selected_label": 1,
+        "used_provenance": "independent_current",
+        "orientation_resolved_by_history": false,
+        "independent_strong_used": true,
+        "strong_override_groups": [
+          "shaft",
+          "endpoint"
+        ],
+        "weak_candidate_gates": [],
+        "selected_gate": {
+          "passed": false,
+          "checks": {
+            "entry": false,
+            "angle": false,
+            "width0": true,
+            "length": true,
+            "width1": false,
+            "front": false
+          },
+          "skipped": []
+        },
+        "invalid_updates": [],
+        "prior": {
+          "shaft": [
+            -6.836747741624562,
+            286.27657297736727,
+            -0.2692267680181968,
+            80.38079392011589
+          ],
+          "endpoint": [
+            133.67415785505753,
+            34.6437117752317
+          ],
+          "shaft_extent": 130.67415785505753
+        },
+        "invalid_predictions": [],
+        "context_reset_reason": null,
+        "dt_seconds": 0.033242393509127055,
+        "apply_to_mask": false,
+        "tip_metrics": null
+      },
+      "pixel_truth_available": false,
+      "tip_metrics": null
+    },
+    {
+      "display_frame": 622,
+      "video_id": "video_2",
+      "frame_index": 621,
+      "raw_rgb_path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\images\\video_2\\000621.png",
+      "mask_raw_sha256": "1aad32be30609709b18b17af133e2e522b09467990b50a69196bce3d963d0141",
+      "probability_file": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_t1_failure_diagnosis_20261030\\probabilities\\video_2_000621.npz",
+      "fiber_probability_raw_sha256": "1da9cd917359586185deab6902467716697b7b7930f5f8edc0d55a48f84345ec",
+      "current": {
+        "candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9071206229209734,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": -0.3725369869042754,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -3.1609484259016982,
+              304.4499432406595,
+              -0.3725369869042754,
+              151.7422933508519,
+              68.54278188751528,
+              16.83994037993638
+            ],
+            "support_count": 932,
+            "support_ids_sha256": "10f5ea8ba14a5b82ae62087f3f438432fa839c55a7a82288ba3d53dd327ff367",
+            "seed_length_px": 143.50312672468604,
+            "seed_mass": 841.8868532478809,
+            "fov_end_distances": [
+              2.5,
+              130.58967992378896
+            ],
+            "qN": 0.9430555028417561,
+            "qE": 0.875,
+            "qR": 0.8994921089213547,
+            "edge_pairs": 7,
+            "station_support_counts": [
+              282,
+              335,
+              328,
+              294,
+              256,
+              212,
+              164,
+              130
+            ],
+            "valid_edge_samples": 260,
+            "selected_edge_contrasts": [
+              [
+                0.011607044029436187,
+                0.10968702618817278
+              ],
+              [
+                0.10289262810645874,
+                0.09898691702422507
+              ],
+              [
+                0.13434657262804622,
+                0.12234582684541566
+              ],
+              [
+                0.10625681690663108,
+                0.11618069695872159
+              ],
+              [
+                0.09715667409702475,
+                0.10475103094791773
+              ],
+              [
+                0.10625959809105888,
+                0.10332055619442843
+              ],
+              [
+                0.10353880285760286,
+                0.09562614272532743
+              ],
+              [
+                0.09823535198522983,
+                0.0809498501300647
+              ]
+            ],
+            "selected_edge_pairs": [
+              false,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.22840635541689558,
+                -24.98831065655757
+              ],
+              [
+                -0.1128894684059689,
+                24.040441269306974
+              ]
+            ],
+            "line_rms_px": 0.6066648697908049,
+            "residual_limit_px": 5.7273059158122415,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9583389389435885,
+                0.9998736534447478,
+                0.9996723343857113
+              ],
+              [
+                0.9999465129699869,
+                0.9998541192415672,
+                0.9996683532557384
+              ],
+              [
+                0.9998923391779224,
+                0.9997108718373726,
+                0.9995439829346017
+              ],
+              [
+                0.9998751538663566,
+                0.9996862607882118,
+                0.9990786339304294
+              ],
+              [
+                0.9996727149524968,
+                0.9987683438052037,
+                0.9951919023200051
+              ],
+              [
+                0.997658217022688,
+                0.9951381428951978,
+                0.9847577997516431
+              ],
+              [
+                0.9865481712453106,
+                0.9823368438544672,
+                0.6423090394341385
+              ],
+              [
+                0.8998424238323213,
+                0.9243916887589693,
+                0.2715756255534711
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 0.9583333333333334,
+            "entry_xy": [
+              -3.1609484259016982,
+              304.4499432406595
+            ],
+            "far_seed_xy": [
+              130.72162010977465,
+              252.1306854090322
+            ],
+            "width0_px": 68.54278188751528,
+            "far_seed_width_px": 19.565764030856624,
+            "observed_shaft_length_px": 143.7422933508519,
+            "shaft_lines": [
+              [
+                [
+                  -17.454896584973497,
+                  273.3017284724638
+                ],
+                [
+                  126.64136528135722,
+                  243.23932437356822
+                ]
+              ],
+              [
+                [
+                  11.132999733170102,
+                  335.5981580088551
+                ],
+                [
+                  134.80187493819207,
+                  261.0220464444962
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              3.0,
+              8.0,
+              8.0
+            ],
+            "front_profile_scores": [
+              0.11996194030452267,
+              0.17207020578233834,
+              0.16333456193243567
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              138.17287557062306,
+              249.21884886534087
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "duplicates": [],
+        "ambiguous": false,
+        "winner_label": 1,
+        "strong_label": 1,
+        "qualified_labels": [
+          1
+        ],
+        "proposal_info": {
+          "components": 1,
+          "eligible_components": 1,
+          "axes_proposed": 1,
+          "grid_shape": [
+            160,
+            160
+          ]
+        }
+      },
+      "traces": [
+        {
+          "label": 1,
+          "trace": [
+            {
+              "station": 0,
+              "native_center_xy": [
+                11.456653462528514,
+                301.8969066450031
+              ],
+              "support_after_cap": 282,
+              "support_before_cap": 282,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -31.200627147061613,
+                27.04263316988215
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                5,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.011607044029436187,
+                0.10968702618817278
+              ]
+            },
+            {
+              "station": 1,
+              "native_center_xy": [
+                23.56760063710301,
+                296.3391803881717
+              ],
+              "support_after_cap": 335,
+              "support_before_cap": 335,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -31.79107242085369,
+                25.910819623652166
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.10289262810645874,
+                0.09898691702422507
+              ]
+            },
+            {
+              "station": 2,
+              "native_center_xy": [
+                35.67854781167749,
+                290.7814541313403
+              ],
+              "support_after_cap": 328,
+              "support_before_cap": 328,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -31.556724511027145,
+                24.5207286504377
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.13434657262804622,
+                0.12234582684541566
+              ]
+            },
+            {
+              "station": 3,
+              "native_center_xy": [
+                47.78949498625199,
+                285.2237278745089
+              ],
+              "support_after_cap": 294,
+              "support_before_cap": 294,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -28.401251065185573,
+                23.04472443774043
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.10625681690663108,
+                0.11618069695872159
+              ]
+            },
+            {
+              "station": 4,
+              "native_center_xy": [
+                59.900442160826486,
+                279.66600161767747
+              ],
+              "support_after_cap": 256,
+              "support_before_cap": 256,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -24.907098350970337,
+                20.727726912870967
+              ],
+              "search_halfwidth_px": 11.408706315960327,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.09715667409702475,
+                0.10475103094791773
+              ]
+            },
+            {
+              "station": 5,
+              "native_center_xy": [
+                72.01138933540098,
+                274.10827536084605
+              ],
+              "support_after_cap": 212,
+              "support_before_cap": 212,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -20.82034346529492,
+                18.7683237554138
+              ],
+              "search_halfwidth_px": 9.897166805177179,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.10625959809105888,
+                0.10332055619442843
+              ]
+            },
+            {
+              "station": 6,
+              "native_center_xy": [
+                84.12233650997547,
+                268.55054910401464
+              ],
+              "support_after_cap": 164,
+              "support_before_cap": 164,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -15.933344078818402,
+                16.63589651623361
+              ],
+              "search_halfwidth_px": 8.142310148763004,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.10353880285760286,
+                0.09562614272532743
+              ]
+            },
+            {
+              "station": 7,
+              "native_center_xy": [
+                96.23328368454996,
+                262.9928228471832
+              ],
+              "support_after_cap": 130,
+              "support_before_cap": 130,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -12.932238287788815,
+                12.267649609955926
+              ],
+              "search_halfwidth_px": 6.299971974436185,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.09823535198522983,
+                0.0809498501300647
+              ]
+            }
+          ]
+        }
+      ],
+      "history": null,
+      "tracked": {
+        "groups": {
+          "shaft": {
+            "value": [
+              -3.0204772561666013,
+              303.50868714215017,
+              -0.3684650664308018,
+              67.80773632610921
+            ],
+            "status": "strong_updated",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          },
+          "endpoint": {
+            "value": [
+              153.08397870613564,
+              15.947120574143797
+            ],
+            "status": "strong_updated",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          }
+        },
+        "visible_front_candidate": [
+          139.7887042312843,
+          248.37029562240326
+        ],
+        "front_is_prediction": false,
+        "selected_label": 1,
+        "used_provenance": "independent_current",
+        "orientation_resolved_by_history": false,
+        "independent_strong_used": true,
+        "strong_override_groups": [],
+        "weak_candidate_gates": [],
+        "selected_gate": {
+          "passed": true,
+          "checks": {
+            "entry": true,
+            "angle": true,
+            "width0": true,
+            "length": true,
+            "width1": true,
+            "front": true
+          },
+          "skipped": []
+        },
+        "invalid_updates": [],
+        "prior": {
+          "shaft": [
+            -2.7596022266585645,
+            301.7606401020615,
+            -0.36090292840863647,
+            66.44265171206938
+          ],
+          "endpoint": [
+            155.57568008023404,
+            14.289026649100428
+          ],
+          "shaft_extent": 144.33717181737012
+        },
+        "invalid_predictions": [],
+        "context_reset_reason": null,
+        "dt_seconds": 0.03324239350913061,
+        "apply_to_mask": false,
+        "tip_metrics": null
+      },
+      "pixel_truth_available": false,
+      "tip_metrics": null
+    },
+    {
+      "display_frame": 643,
+      "video_id": "video_2",
+      "frame_index": 642,
+      "raw_rgb_path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\images\\video_2\\000642.png",
+      "mask_raw_sha256": "eed8bb23a76566c7bfd5c1d2024a4e1268cea83a697e2cc67efc3475921031b4",
+      "probability_file": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_t1_failure_diagnosis_20261030\\probabilities\\video_2_000642.npz",
+      "fiber_probability_raw_sha256": "220d97392574fbbc297dbd8c6b824b337f06c8d62e68d1269df8ad43a5c23a8b",
+      "current": {
+        "candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.9750944088677856,
+            "level": "strong",
+            "reason": "qualified_shaft",
+            "axis_theta": 0.15583474454998728,
+            "oriented": true,
+            "front_observed": true,
+            "shaft_observed": true,
+            "pose": [
+              -0.6862547859070102,
+              181.13770635925704,
+              0.15583474454998728,
+              144.6887234540311,
+              77.1472511476728,
+              18.608631442801176
+            ],
+            "support_count": 1115,
+            "support_ids_sha256": "204efb8b87320aab519e44f7ba7c0824e2c460fb44572da952ec9c583c77c8b5",
+            "seed_length_px": 133.57355235205577,
+            "seed_mass": 1039.860092267394,
+            "fov_end_distances": [
+              2.5,
+              132.59886552533783
+            ],
+            "qN": 0.9999790507167852,
+            "qE": 1.0,
+            "qR": 0.8755139429053574,
+            "edge_pairs": 8,
+            "station_support_counts": [
+              345,
+              371,
+              338,
+              311,
+              285,
+              264,
+              233,
+              203
+            ],
+            "valid_edge_samples": 272,
+            "selected_edge_contrasts": [
+              [
+                0.2305643601663598,
+                0.1540780927991252
+              ],
+              [
+                0.18420552345701746,
+                0.2539823911259276
+              ],
+              [
+                0.21613287181081553,
+                0.1793685658865965
+              ],
+              [
+                0.26395532371801045,
+                0.20663685040123939
+              ],
+              [
+                0.18780926495020844,
+                0.23378004842487585
+              ],
+              [
+                0.16991694239618377,
+                0.19086121050150312
+              ],
+              [
+                0.20779032313346654,
+                0.15074829177746452
+              ],
+              [
+                0.13866574853107513,
+                0.16848792170308974
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "line_coefficients": [
+              [
+                0.1609304331264491,
+                -26.934028126448883
+              ],
+              [
+                -0.24400156192209546,
+                28.037816732131574
+              ]
+            ],
+            "line_rms_px": 0.8640271910255806,
+            "residual_limit_px": 6.49917168069914,
+            "interior_valid_triplets": 8,
+            "interior_probability_samples": [
+              [
+                0.9999986820781123,
+                0.9999980726110559,
+                0.9999983098473518
+              ],
+              [
+                0.9999967017402186,
+                0.9999938949223728,
+                0.9999961348181354
+              ],
+              [
+                0.9999941489474974,
+                0.9999875633197501,
+                0.9999887732889057
+              ],
+              [
+                0.9999946452255412,
+                0.9999843653668339,
+                0.9999688020360876
+              ],
+              [
+                0.9999905572770657,
+                0.999981436352539,
+                0.9999710670719402
+              ],
+              [
+                0.9999902773582432,
+                0.9999843626151259,
+                0.999980333000644
+              ],
+              [
+                0.9999753158871447,
+                0.9999823640040293,
+                0.9999811695864794
+              ],
+              [
+                0.999874296815753,
+                0.9999480640649163,
+                0.9999378789671037
+              ]
+            ],
+            "interior_valid_mask": [
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ],
+              [
+                true,
+                true,
+                true
+              ]
+            ],
+            "fiber_argmax_fraction": 1.0,
+            "entry_xy": [
+              -0.6862547859070102,
+              181.13770635925704
+            ],
+            "far_seed_xy": [
+              131.38247131324363,
+              201.88683562570893
+            ],
+            "width0_px": 77.1472511476728,
+            "far_seed_width_px": 23.05904610803365,
+            "observed_shaft_length_px": 133.6887234540311,
+            "shaft_lines": [
+              [
+                [
+                  6.876797932544984,
+                  143.3127830481855
+                ],
+                [
+                  133.64304157022465,
+                  190.58109708431508
+                ]
+              ],
+              [
+                [
+                  -8.249307504359004,
+                  218.96262967032857
+                ],
+                [
+                  129.12190105626263,
+                  213.19257416710278
+                ]
+              ]
+            ],
+            "front_profile_support": [
+              true,
+              true,
+              true
+            ],
+            "front_profile_offsets_px": [
+              7.0,
+              11.0,
+              6.0
+            ],
+            "front_profile_scores": [
+              0.0800552021406103,
+              0.17171676453449936,
+              0.11669311431537337
+            ],
+            "front_reason": "current_visible_transition_unverified_tip",
+            "visible_front_candidate": [
+              142.24917681806645,
+              203.59408823486
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "duplicates": [],
+        "ambiguous": false,
+        "winner_label": 1,
+        "strong_label": 1,
+        "qualified_labels": [
+          1
+        ],
+        "proposal_info": {
+          "components": 1,
+          "eligible_components": 1,
+          "axes_proposed": 1,
+          "grid_shape": [
+            160,
+            160
+          ]
+        }
+      },
+      "traces": [
+        {
+          "label": 1,
+          "trace": [
+            {
+              "station": 0,
+              "native_center_xy": [
+                12.96602798937765,
+                180.9849995701263
+              ],
+              "support_after_cap": 345,
+              "support_before_cap": 345,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -33.19501227472301,
+                37.52518063922174
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.2305643601663598,
+                0.1540780927991252
+              ]
+            },
+            {
+              "station": 1,
+              "native_center_xy": [
+                25.128542973246553,
+                183.41688135493453
+              ],
+              "support_after_cap": 371,
+              "support_before_cap": 371,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -30.683914763082555,
+                37.27029226957216
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.18420552345701746,
+                0.2539823911259276
+              ]
+            },
+            {
+              "station": 2,
+              "native_center_xy": [
+                37.291057957115456,
+                185.84876313974274
+              ],
+              "support_after_cap": 338,
+              "support_before_cap": 338,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -28.23160008100458,
+                33.54453743080824
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.21613287181081553,
+                0.1793685658865965
+              ]
+            },
+            {
+              "station": 3,
+              "native_center_xy": [
+                49.453572940984365,
+                188.28064492455096
+              ],
+              "support_after_cap": 311,
+              "support_before_cap": 311,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -26.76017621255313,
+                30.505321017800124
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.26395532371801045,
+                0.20663685040123939
+              ]
+            },
+            {
+              "station": 4,
+              "native_center_xy": [
+                61.61608792485328,
+                190.7125267093592
+              ],
+              "support_after_cap": 285,
+              "support_before_cap": 285,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -25.77890976459092,
+                26.19139981250924
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.18780926495020844,
+                0.23378004842487585
+              ]
+            },
+            {
+              "station": 5,
+              "native_center_xy": [
+                73.77860290872219,
+                193.1444084941674
+              ],
+              "support_after_cap": 264,
+              "support_before_cap": 264,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -23.68995941769259,
+                23.740813048375408
+              ],
+              "search_halfwidth_px": 11.857693116517,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.16991694239618377,
+                0.19086121050150312
+              ]
+            },
+            {
+              "station": 6,
+              "native_center_xy": [
+                85.9411178925911,
+                195.57629027897565
+              ],
+              "support_after_cap": 233,
+              "support_before_cap": 233,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -21.541762958884433,
+                21.46658729407354
+              ],
+              "search_halfwidth_px": 10.752087563239494,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.20779032313346654,
+                0.15074829177746452
+              ]
+            },
+            {
+              "station": 7,
+              "native_center_xy": [
+                98.10363287646,
+                198.00817206378386
+              ],
+              "support_after_cap": 203,
+              "support_before_cap": 203,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -19.403970913846045,
+                19.309839550885
+              ],
+              "search_halfwidth_px": 9.67845261618276,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.13866574853107513,
+                0.16848792170308974
+              ]
+            }
+          ]
+        }
+      ],
+      "history": null,
+      "tracked": {
+        "groups": {
+          "shaft": {
+            "value": [
+              -0.6624493663615327,
+              181.67262930902226,
+              0.1512214526136786,
+              79.45565184119732
+            ],
+            "status": "strong_updated",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          },
+          "endpoint": {
+            "value": [
+              144.30008044391639,
+              18.161486827938205
+            ],
+            "status": "strong_updated",
+            "age": 0,
+            "observed": true,
+            "predicted": false
+          }
+        },
+        "visible_front_candidate": [
+          141.9908509675152,
+          203.41082426567655
+        ],
+        "front_is_prediction": false,
+        "selected_label": 1,
+        "used_provenance": "independent_current",
+        "orientation_resolved_by_history": false,
+        "independent_strong_used": true,
+        "strong_override_groups": [],
+        "weak_candidate_gates": [],
+        "selected_gate": {
+          "passed": true,
+          "checks": {
+            "entry": true,
+            "angle": true,
+            "width0": true,
+            "length": true,
+            "width1": true,
+            "front": true
+          },
+          "skipped": []
+        },
+        "invalid_updates": [],
+        "prior": {
+          "shaft": [
+            -0.6182393014913602,
+            182.6660576443005,
+            0.14265391044624787,
+            83.74268170059999
+          ],
+          "endpoint": [
+            143.57831485370335,
+            17.33107540033555
+          ],
+          "shaft_extent": 131.57831485370335
+        },
+        "invalid_predictions": [],
+        "context_reset_reason": null,
+        "dt_seconds": 0.033242393509127055,
+        "apply_to_mask": false,
+        "tip_metrics": null
+      },
+      "pixel_truth_available": false,
+      "tip_metrics": null
+    },
+    {
+      "display_frame": 1266,
+      "video_id": "video_2",
+      "frame_index": 1265,
+      "raw_rgb_path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\fiber_reference_d1_20261029\\images\\video_2\\001265.png",
+      "mask_raw_sha256": "475369dfda85f2c5240437a719bd41fb206f805db9a766778d0a92297dc56087",
+      "probability_file": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_t1_failure_diagnosis_20261030\\probabilities\\video_2_001265.npz",
+      "fiber_probability_raw_sha256": "2ca525e140481c2890dfca66b3e2063a43f97de8f8b95d55d518c91e90fc855c",
+      "current": {
+        "candidates": [
+          {
+            "label": 1,
+            "provenance": "independent_current",
+            "score": 0.0,
+            "level": "rejected",
+            "reason": "insufficient_edge_pairs",
+            "axis_theta": -0.98074966240584,
+            "oriented": true,
+            "front_observed": false,
+            "shaft_observed": false,
+            "pose": null,
+            "support_count": 1257,
+            "support_ids_sha256": "6fbaba7772739766ecdbf9355955e3defe47d328f9ef8844f86873fec66320b2",
+            "seed_length_px": 125.44381414115348,
+            "seed_mass": 1161.9623060524464,
+            "fov_end_distances": [
+              2.5,
+              70.96534151843929
+            ],
+            "qN": null,
+            "qE": 0.375,
+            "qR": null,
+            "edge_pairs": 3,
+            "station_support_counts": [
+              147,
+              198,
+              254,
+              313,
+              370,
+              405,
+              416,
+              387
+            ],
+            "valid_edge_samples": 194,
+            "selected_edge_contrasts": [
+              [
+                0.06662869269832679,
+                0.26890013981644434
+              ],
+              [
+                0.013551855995088761,
+                0.29857507533104666
+              ],
+              [
+                0.005652255184156305,
+                0.30890204297226354
+              ],
+              [
+                0.014294362546986161,
+                0.2839142591554556
+              ],
+              [
+                0.010074530369150658,
+                0.28032782810152984
+              ],
+              [
+                0.012628962138221213,
+                0.3676153702979678
+              ],
+              [
+                0.2638540595029957,
+                0.404197482388154
+              ],
+              [
+                0.23635104390266576,
+                0.338656801919147
+              ]
+            ],
+            "selected_edge_pairs": [
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true
+            ],
+            "duplicate_of": null
+          }
+        ],
+        "duplicates": [],
+        "ambiguous": false,
+        "winner_label": null,
+        "strong_label": null,
+        "qualified_labels": [],
+        "proposal_info": {
+          "components": 1,
+          "eligible_components": 1,
+          "axes_proposed": 1,
+          "grid_shape": [
+            160,
+            160
+          ]
+        }
+      },
+      "traces": [
+        {
+          "label": 1,
+          "trace": [
+            {
+              "station": 0,
+              "native_center_xy": [
+                6.398119994750608,
+                370.14235337055715
+              ],
+              "support_after_cap": 147,
+              "support_before_cap": 147,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -13.460623706130107,
+                20.645757805294906
+              ],
+              "search_halfwidth_px": 8.526595377856253,
+              "valid_samples_per_side": [
+                2,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.06662869269832679,
+                0.26890013981644434
+              ]
+            },
+            {
+              "station": 1,
+              "native_center_xy": [
+                12.879261897988332,
+                360.4635644739195
+              ],
+              "support_after_cap": 198,
+              "support_before_cap": 198,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -20.40189543079183,
+                24.063468538155867
+              ],
+              "search_halfwidth_px": 11.116340992236925,
+              "valid_samples_per_side": [
+                4,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.013551855995088761,
+                0.29857507533104666
+              ]
+            },
+            {
+              "station": 2,
+              "native_center_xy": [
+                19.36040380122605,
+                350.7847755772819
+              ],
+              "support_after_cap": 254,
+              "support_before_cap": 254,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -27.274538425878028,
+                27.413656035597587
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                5,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.005652255184156305,
+                0.30890204297226354
+              ]
+            },
+            {
+              "station": 3,
+              "native_center_xy": [
+                25.84154570446377,
+                341.10598668064426
+              ],
+              "support_after_cap": 313,
+              "support_before_cap": 313,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -34.79229147897412,
+                30.231304790792144
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                5,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.014294362546986161,
+                0.2839142591554556
+              ]
+            },
+            {
+              "station": 4,
+              "native_center_xy": [
+                32.322687607701496,
+                331.4271977840066
+              ],
+              "support_after_cap": 370,
+              "support_before_cap": 370,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -41.923421340147264,
+                32.022376042680925
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                5,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.010074530369150658,
+                0.28032782810152984
+              ]
+            },
+            {
+              "station": 5,
+              "native_center_xy": [
+                38.80382951093922,
+                321.74840888736895
+              ],
+              "support_after_cap": 405,
+              "support_before_cap": 405,
+              "seed_evidence": true,
+              "edge_pair_passed": false,
+              "seed_boundary_normal_offsets": [
+                -46.73480559757803,
+                33.647264351380045
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                7,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.012628962138221213,
+                0.3676153702979678
+              ]
+            },
+            {
+              "station": 6,
+              "native_center_xy": [
+                45.284971414176944,
+                312.0696199907313
+              ],
+              "support_after_cap": 416,
+              "support_before_cap": 416,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -46.58934986329337,
+                34.34792307116711
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                13,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.2638540595029957,
+                0.404197482388154
+              ]
+            },
+            {
+              "station": 7,
+              "native_center_xy": [
+                51.766113317414664,
+                302.3908310940937
+              ],
+              "support_after_cap": 387,
+              "support_before_cap": 387,
+              "seed_evidence": true,
+              "edge_pair_passed": true,
+              "seed_boundary_normal_offsets": [
+                -44.92300713678428,
+                35.67590939837356
+              ],
+              "search_halfwidth_px": 12.0,
+              "valid_samples_per_side": [
+                17,
+                17
+              ],
+              "maximum_contrast_per_side": [
+                0.23635104390266576,
+                0.338656801919147
+              ]
+            }
+          ]
+        }
+      ],
+      "history": null,
+      "tracked": {
+        "groups": {
+          "shaft": {
+            "value": null,
+            "status": "unavailable",
+            "age": 4,
+            "observed": false,
+            "predicted": false
+          },
+          "endpoint": {
+            "value": null,
+            "status": "unavailable",
+            "age": 4,
+            "observed": false,
+            "predicted": false
+          }
+        },
+        "visible_front_candidate": null,
+        "front_is_prediction": false,
+        "selected_label": null,
+        "used_provenance": null,
+        "orientation_resolved_by_history": false,
+        "independent_strong_used": false,
+        "strong_override_groups": [],
+        "weak_candidate_gates": [],
+        "selected_gate": {
+          "passed": false,
+          "checks": {},
+          "skipped": [
+            "entry",
+            "angle",
+            "width0",
+            "length",
+            "width1",
+            "front"
+          ]
+        },
+        "invalid_updates": [],
+        "prior": {
+          "shaft": null,
+          "endpoint": null,
+          "shaft_extent": null
+        },
+        "invalid_predictions": [],
+        "context_reset_reason": null,
+        "dt_seconds": 0.033242393509127055,
+        "apply_to_mask": false,
+        "tip_metrics": null
+      },
+      "pixel_truth_available": false,
+      "tip_metrics": null
+    }
+  ],
+  "inference_purpose": "five diagnostic original-probability snapshots, no new method or latency benchmark"
+}

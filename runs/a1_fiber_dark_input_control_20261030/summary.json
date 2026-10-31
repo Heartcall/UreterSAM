@@ -1,0 +1,1480 @@
+{
+  "static_quality": {
+    "raw2": {
+      "checks": {
+        "video_native:raw2:stone_dice": true,
+        "video_native:raw2:stone_precision": true,
+        "video_native:raw2:stone_recall": true,
+        "video_native:raw2:fiber_dice": true,
+        "video_native:raw2:fiber_precision": true,
+        "video_native:raw2:fiber_recall": true,
+        "video_native:raw2:stone_boundary_f": true,
+        "video_native:raw2:fiber_boundary_f": true,
+        "video_native:classwise3:stone_dice": false,
+        "video_native:classwise3:stone_precision": false,
+        "video_native:classwise3:stone_recall": true,
+        "video_native:classwise3:fiber_dice": true,
+        "video_native:classwise3:fiber_precision": false,
+        "video_native:classwise3:fiber_recall": true,
+        "video_native:classwise3:stone_boundary_f": false,
+        "video_native:classwise3:fiber_boundary_f": true,
+        "original29_legacy_gates": true,
+        "video_native:all:Lab0_TP_nonregression": true,
+        "video_native:all:Lab1_TP_nonregression": true,
+        "video_native:video_1:Lab0_TP_nonregression": true,
+        "video_native:video_1:Lab1_TP_nonregression": true,
+        "video_native:video_2:Lab0_TP_nonregression": true,
+        "video_native:video_2:Lab1_TP_nonregression": true,
+        "video_native:dark_FN_strict_reduction": false,
+        "video_native:stone:grossTP_limit": true,
+        "video_native:stone:netTP_nondecrease": true,
+        "video_native:stone:perframeTP_limit": true,
+        "video_native:fiber:grossTP_limit": true,
+        "video_native:fiber:netTP_nondecrease": true,
+        "video_native:fiber:perframeTP_limit": true,
+        "fixed_video2_display1209_dark_FN_strict_reduction": false,
+        "image_native:raw2:stone_dice": true,
+        "image_native:raw2:stone_precision": true,
+        "image_native:raw2:stone_recall": true,
+        "image_native:raw2:fiber_dice": true,
+        "image_native:raw2:fiber_precision": true,
+        "image_native:raw2:fiber_recall": true,
+        "image_native:raw2:stone_boundary_f": true,
+        "image_native:raw2:fiber_boundary_f": true,
+        "image_native:classwise3:stone_dice": true,
+        "image_native:classwise3:stone_precision": false,
+        "image_native:classwise3:stone_recall": true,
+        "image_native:classwise3:fiber_dice": true,
+        "image_native:classwise3:fiber_precision": true,
+        "image_native:classwise3:fiber_recall": false,
+        "image_native:classwise3:stone_boundary_f": false,
+        "image_native:classwise3:fiber_boundary_f": true,
+        "image_native:all:Lab0_TP_nonregression": true,
+        "image_native:all:Lab1_TP_nonregression": true,
+        "image_native:dark_FN_strict_reduction": false,
+        "image_native:stone:grossTP_limit": true,
+        "image_native:stone:netTP_nondecrease": true,
+        "image_native:stone:perframeTP_limit": true,
+        "image_native:fiber:grossTP_limit": true,
+        "image_native:fiber:netTP_nondecrease": true,
+        "image_native:fiber:perframeTP_limit": true
+      },
+      "passed": false,
+      "rejected_checks": [
+        "video_native:classwise3:stone_dice",
+        "video_native:classwise3:stone_precision",
+        "video_native:classwise3:fiber_precision",
+        "video_native:classwise3:stone_boundary_f",
+        "video_native:dark_FN_strict_reduction",
+        "fixed_video2_display1209_dark_FN_strict_reduction",
+        "image_native:classwise3:stone_precision",
+        "image_native:classwise3:fiber_recall",
+        "image_native:classwise3:stone_boundary_f",
+        "image_native:dark_FN_strict_reduction"
+      ],
+      "perframeTP_violations": [],
+      "original29": {
+        "passed": true,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": true,
+          "negative_fp_area": true
+        }
+      },
+      "tip_metrics": null
+    },
+    "fiber_vlift": {
+      "checks": {
+        "video_native:raw2:stone_dice": true,
+        "video_native:raw2:stone_precision": true,
+        "video_native:raw2:stone_recall": true,
+        "video_native:raw2:fiber_dice": true,
+        "video_native:raw2:fiber_precision": false,
+        "video_native:raw2:fiber_recall": true,
+        "video_native:raw2:stone_boundary_f": true,
+        "video_native:raw2:fiber_boundary_f": false,
+        "video_native:classwise3:stone_dice": true,
+        "video_native:classwise3:stone_precision": true,
+        "video_native:classwise3:stone_recall": true,
+        "video_native:classwise3:fiber_dice": true,
+        "video_native:classwise3:fiber_precision": false,
+        "video_native:classwise3:fiber_recall": true,
+        "video_native:classwise3:stone_boundary_f": false,
+        "video_native:classwise3:fiber_boundary_f": true,
+        "original29_legacy_gates": true,
+        "video_native:all:Lab0_TP_nonregression": true,
+        "video_native:all:Lab1_TP_nonregression": true,
+        "video_native:video_1:Lab0_TP_nonregression": true,
+        "video_native:video_1:Lab1_TP_nonregression": true,
+        "video_native:video_2:Lab0_TP_nonregression": true,
+        "video_native:video_2:Lab1_TP_nonregression": true,
+        "video_native:dark_FN_strict_reduction": true,
+        "video_native:stone:grossTP_limit": true,
+        "video_native:stone:netTP_nondecrease": true,
+        "video_native:stone:perframeTP_limit": true,
+        "video_native:fiber:grossTP_limit": false,
+        "video_native:fiber:netTP_nondecrease": true,
+        "video_native:fiber:perframeTP_limit": false,
+        "fixed_video2_display1209_dark_FN_strict_reduction": true,
+        "image_native:raw2:stone_dice": true,
+        "image_native:raw2:stone_precision": true,
+        "image_native:raw2:stone_recall": false,
+        "image_native:raw2:fiber_dice": false,
+        "image_native:raw2:fiber_precision": false,
+        "image_native:raw2:fiber_recall": true,
+        "image_native:raw2:stone_boundary_f": true,
+        "image_native:raw2:fiber_boundary_f": false,
+        "image_native:classwise3:stone_dice": true,
+        "image_native:classwise3:stone_precision": true,
+        "image_native:classwise3:stone_recall": true,
+        "image_native:classwise3:fiber_dice": false,
+        "image_native:classwise3:fiber_precision": false,
+        "image_native:classwise3:fiber_recall": true,
+        "image_native:classwise3:stone_boundary_f": true,
+        "image_native:classwise3:fiber_boundary_f": false,
+        "image_native:all:Lab0_TP_nonregression": true,
+        "image_native:all:Lab1_TP_nonregression": true,
+        "image_native:dark_FN_strict_reduction": true,
+        "image_native:stone:grossTP_limit": true,
+        "image_native:stone:netTP_nondecrease": false,
+        "image_native:stone:perframeTP_limit": true,
+        "image_native:fiber:grossTP_limit": true,
+        "image_native:fiber:netTP_nondecrease": true,
+        "image_native:fiber:perframeTP_limit": false
+      },
+      "passed": false,
+      "rejected_checks": [
+        "video_native:raw2:fiber_precision",
+        "video_native:raw2:fiber_boundary_f",
+        "video_native:classwise3:fiber_precision",
+        "video_native:classwise3:stone_boundary_f",
+        "video_native:fiber:grossTP_limit",
+        "video_native:fiber:perframeTP_limit",
+        "image_native:raw2:stone_recall",
+        "image_native:raw2:fiber_dice",
+        "image_native:raw2:fiber_precision",
+        "image_native:raw2:fiber_boundary_f",
+        "image_native:classwise3:fiber_dice",
+        "image_native:classwise3:fiber_precision",
+        "image_native:classwise3:fiber_boundary_f",
+        "image_native:stone:netTP_nondecrease",
+        "image_native:fiber:perframeTP_limit"
+      ],
+      "perframeTP_violations": [
+        {
+          "scope": "video_native",
+          "index": 47,
+          "sample_id": "reviewed_video_2_000149",
+          "class": "fiber",
+          "lost_tp": 119,
+          "limit": 31
+        },
+        {
+          "scope": "video_native",
+          "index": 48,
+          "sample_id": "reviewed_video_2_000154",
+          "class": "fiber",
+          "lost_tp": 51,
+          "limit": 32
+        },
+        {
+          "scope": "video_native",
+          "index": 50,
+          "sample_id": "reviewed_video_2_000268",
+          "class": "fiber",
+          "lost_tp": 45,
+          "limit": 35
+        },
+        {
+          "scope": "video_native",
+          "index": 59,
+          "sample_id": "reviewed_video_2_001000",
+          "class": "fiber",
+          "lost_tp": 67,
+          "limit": 61
+        },
+        {
+          "scope": "video_native",
+          "index": 61,
+          "sample_id": "reviewed_video_2_001135",
+          "class": "fiber",
+          "lost_tp": 79,
+          "limit": 31
+        },
+        {
+          "scope": "video_native",
+          "index": 63,
+          "sample_id": "reviewed_video_2_001223",
+          "class": "fiber",
+          "lost_tp": 361,
+          "limit": 57
+        },
+        {
+          "scope": "video_native",
+          "index": 68,
+          "sample_id": "reviewed_video_2_001965",
+          "class": "fiber",
+          "lost_tp": 120,
+          "limit": 32
+        },
+        {
+          "scope": "video_native",
+          "index": 69,
+          "sample_id": "reviewed_video_2_001971",
+          "class": "fiber",
+          "lost_tp": 93,
+          "limit": 32
+        },
+        {
+          "scope": "image_native",
+          "index": 56,
+          "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+          "class": "fiber",
+          "lost_tp": 7,
+          "limit": 3
+        },
+        {
+          "scope": "image_native",
+          "index": 109,
+          "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+          "class": "fiber",
+          "lost_tp": 17,
+          "limit": 7
+        }
+      ],
+      "original29": {
+        "passed": true,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": true,
+          "negative_fp_area": true
+        }
+      },
+      "tip_metrics": null
+    },
+    "fiber_channel_gamma": {
+      "checks": {
+        "video_native:raw2:stone_dice": false,
+        "video_native:raw2:stone_precision": false,
+        "video_native:raw2:stone_recall": true,
+        "video_native:raw2:fiber_dice": true,
+        "video_native:raw2:fiber_precision": true,
+        "video_native:raw2:fiber_recall": true,
+        "video_native:raw2:stone_boundary_f": true,
+        "video_native:raw2:fiber_boundary_f": true,
+        "video_native:classwise3:stone_dice": false,
+        "video_native:classwise3:stone_precision": false,
+        "video_native:classwise3:stone_recall": true,
+        "video_native:classwise3:fiber_dice": true,
+        "video_native:classwise3:fiber_precision": false,
+        "video_native:classwise3:fiber_recall": true,
+        "video_native:classwise3:stone_boundary_f": false,
+        "video_native:classwise3:fiber_boundary_f": true,
+        "original29_legacy_gates": true,
+        "video_native:all:Lab0_TP_nonregression": true,
+        "video_native:all:Lab1_TP_nonregression": true,
+        "video_native:video_1:Lab0_TP_nonregression": true,
+        "video_native:video_1:Lab1_TP_nonregression": false,
+        "video_native:video_2:Lab0_TP_nonregression": true,
+        "video_native:video_2:Lab1_TP_nonregression": true,
+        "video_native:dark_FN_strict_reduction": true,
+        "video_native:stone:grossTP_limit": true,
+        "video_native:stone:netTP_nondecrease": true,
+        "video_native:stone:perframeTP_limit": true,
+        "video_native:fiber:grossTP_limit": false,
+        "video_native:fiber:netTP_nondecrease": true,
+        "video_native:fiber:perframeTP_limit": false,
+        "fixed_video2_display1209_dark_FN_strict_reduction": true,
+        "image_native:raw2:stone_dice": true,
+        "image_native:raw2:stone_precision": false,
+        "image_native:raw2:stone_recall": true,
+        "image_native:raw2:fiber_dice": true,
+        "image_native:raw2:fiber_precision": true,
+        "image_native:raw2:fiber_recall": false,
+        "image_native:raw2:stone_boundary_f": true,
+        "image_native:raw2:fiber_boundary_f": false,
+        "image_native:classwise3:stone_dice": true,
+        "image_native:classwise3:stone_precision": false,
+        "image_native:classwise3:stone_recall": true,
+        "image_native:classwise3:fiber_dice": true,
+        "image_native:classwise3:fiber_precision": true,
+        "image_native:classwise3:fiber_recall": false,
+        "image_native:classwise3:stone_boundary_f": false,
+        "image_native:classwise3:fiber_boundary_f": false,
+        "image_native:all:Lab0_TP_nonregression": true,
+        "image_native:all:Lab1_TP_nonregression": false,
+        "image_native:dark_FN_strict_reduction": true,
+        "image_native:stone:grossTP_limit": true,
+        "image_native:stone:netTP_nondecrease": true,
+        "image_native:stone:perframeTP_limit": true,
+        "image_native:fiber:grossTP_limit": false,
+        "image_native:fiber:netTP_nondecrease": false,
+        "image_native:fiber:perframeTP_limit": false
+      },
+      "passed": false,
+      "rejected_checks": [
+        "video_native:raw2:stone_dice",
+        "video_native:raw2:stone_precision",
+        "video_native:classwise3:stone_dice",
+        "video_native:classwise3:stone_precision",
+        "video_native:classwise3:fiber_precision",
+        "video_native:classwise3:stone_boundary_f",
+        "video_native:video_1:Lab1_TP_nonregression",
+        "video_native:fiber:grossTP_limit",
+        "video_native:fiber:perframeTP_limit",
+        "image_native:raw2:stone_precision",
+        "image_native:raw2:fiber_recall",
+        "image_native:raw2:fiber_boundary_f",
+        "image_native:classwise3:stone_precision",
+        "image_native:classwise3:fiber_recall",
+        "image_native:classwise3:stone_boundary_f",
+        "image_native:classwise3:fiber_boundary_f",
+        "image_native:all:Lab1_TP_nonregression",
+        "image_native:fiber:grossTP_limit",
+        "image_native:fiber:netTP_nondecrease",
+        "image_native:fiber:perframeTP_limit"
+      ],
+      "perframeTP_violations": [
+        {
+          "scope": "video_native",
+          "index": 4,
+          "sample_id": "reviewed_video_1_000032",
+          "class": "fiber",
+          "lost_tp": 34,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 5,
+          "sample_id": "reviewed_video_1_000034",
+          "class": "fiber",
+          "lost_tp": 31,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 8,
+          "sample_id": "reviewed_video_1_000047",
+          "class": "fiber",
+          "lost_tp": 36,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 10,
+          "sample_id": "reviewed_video_1_000062",
+          "class": "fiber",
+          "lost_tp": 31,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 11,
+          "sample_id": "reviewed_video_1_000065",
+          "class": "fiber",
+          "lost_tp": 45,
+          "limit": 30
+        },
+        {
+          "scope": "video_native",
+          "index": 12,
+          "sample_id": "reviewed_video_1_000067",
+          "class": "fiber",
+          "lost_tp": 32,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 18,
+          "sample_id": "reviewed_video_1_000079",
+          "class": "fiber",
+          "lost_tp": 32,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 19,
+          "sample_id": "reviewed_video_1_000096",
+          "class": "fiber",
+          "lost_tp": 38,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 20,
+          "sample_id": "reviewed_video_1_000107",
+          "class": "fiber",
+          "lost_tp": 57,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 22,
+          "sample_id": "reviewed_video_1_000123",
+          "class": "fiber",
+          "lost_tp": 39,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 24,
+          "sample_id": "reviewed_video_1_000144",
+          "class": "fiber",
+          "lost_tp": 40,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 25,
+          "sample_id": "reviewed_video_1_000146",
+          "class": "fiber",
+          "lost_tp": 34,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 26,
+          "sample_id": "reviewed_video_1_000150",
+          "class": "fiber",
+          "lost_tp": 39,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 27,
+          "sample_id": "reviewed_video_1_000152",
+          "class": "fiber",
+          "lost_tp": 40,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 30,
+          "sample_id": "reviewed_video_1_000246",
+          "class": "fiber",
+          "lost_tp": 41,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 34,
+          "sample_id": "reviewed_video_1_000331",
+          "class": "fiber",
+          "lost_tp": 36,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 35,
+          "sample_id": "reviewed_video_1_000337",
+          "class": "fiber",
+          "lost_tp": 33,
+          "limit": 27
+        },
+        {
+          "scope": "video_native",
+          "index": 36,
+          "sample_id": "reviewed_video_1_000352",
+          "class": "fiber",
+          "lost_tp": 41,
+          "limit": 27
+        },
+        {
+          "scope": "video_native",
+          "index": 38,
+          "sample_id": "reviewed_video_1_000427",
+          "class": "fiber",
+          "lost_tp": 44,
+          "limit": 27
+        },
+        {
+          "scope": "video_native",
+          "index": 39,
+          "sample_id": "reviewed_video_1_000524",
+          "class": "fiber",
+          "lost_tp": 41,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 40,
+          "sample_id": "reviewed_video_1_000525",
+          "class": "fiber",
+          "lost_tp": 39,
+          "limit": 28
+        },
+        {
+          "scope": "video_native",
+          "index": 41,
+          "sample_id": "reviewed_video_1_000623",
+          "class": "fiber",
+          "lost_tp": 65,
+          "limit": 27
+        },
+        {
+          "scope": "video_native",
+          "index": 42,
+          "sample_id": "reviewed_video_1_000721",
+          "class": "fiber",
+          "lost_tp": 70,
+          "limit": 29
+        },
+        {
+          "scope": "video_native",
+          "index": 59,
+          "sample_id": "reviewed_video_2_001000",
+          "class": "fiber",
+          "lost_tp": 88,
+          "limit": 61
+        },
+        {
+          "scope": "image_native",
+          "index": 3,
+          "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+          "class": "fiber",
+          "lost_tp": 296,
+          "limit": 2
+        },
+        {
+          "scope": "image_native",
+          "index": 8,
+          "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+          "class": "fiber",
+          "lost_tp": 6,
+          "limit": 3
+        },
+        {
+          "scope": "image_native",
+          "index": 10,
+          "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+          "class": "fiber",
+          "lost_tp": 6,
+          "limit": 4
+        },
+        {
+          "scope": "image_native",
+          "index": 13,
+          "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+          "class": "fiber",
+          "lost_tp": 44,
+          "limit": 13
+        },
+        {
+          "scope": "image_native",
+          "index": 25,
+          "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+          "class": "fiber",
+          "lost_tp": 15,
+          "limit": 12
+        },
+        {
+          "scope": "image_native",
+          "index": 27,
+          "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+          "class": "fiber",
+          "lost_tp": 107,
+          "limit": 15
+        },
+        {
+          "scope": "image_native",
+          "index": 33,
+          "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+          "class": "fiber",
+          "lost_tp": 8,
+          "limit": 2
+        },
+        {
+          "scope": "image_native",
+          "index": 40,
+          "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+          "class": "fiber",
+          "lost_tp": 33,
+          "limit": 19
+        },
+        {
+          "scope": "image_native",
+          "index": 45,
+          "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+          "class": "fiber",
+          "lost_tp": 5,
+          "limit": 2
+        },
+        {
+          "scope": "image_native",
+          "index": 49,
+          "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+          "class": "fiber",
+          "lost_tp": 8,
+          "limit": 1
+        },
+        {
+          "scope": "image_native",
+          "index": 56,
+          "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+          "class": "fiber",
+          "lost_tp": 97,
+          "limit": 3
+        },
+        {
+          "scope": "image_native",
+          "index": 61,
+          "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+          "class": "fiber",
+          "lost_tp": 15,
+          "limit": 1
+        },
+        {
+          "scope": "image_native",
+          "index": 80,
+          "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+          "class": "fiber",
+          "lost_tp": 38,
+          "limit": 7
+        },
+        {
+          "scope": "image_native",
+          "index": 91,
+          "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+          "class": "fiber",
+          "lost_tp": 44,
+          "limit": 12
+        },
+        {
+          "scope": "image_native",
+          "index": 95,
+          "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+          "class": "fiber",
+          "lost_tp": 91,
+          "limit": 28
+        },
+        {
+          "scope": "image_native",
+          "index": 107,
+          "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+          "class": "fiber",
+          "lost_tp": 162,
+          "limit": 10
+        },
+        {
+          "scope": "image_native",
+          "index": 109,
+          "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+          "class": "fiber",
+          "lost_tp": 632,
+          "limit": 7
+        },
+        {
+          "scope": "image_native",
+          "index": 120,
+          "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+          "class": "fiber",
+          "lost_tp": 9,
+          "limit": 2
+        },
+        {
+          "scope": "image_native",
+          "index": 123,
+          "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+          "class": "fiber",
+          "lost_tp": 40,
+          "limit": 14
+        }
+      ],
+      "original29": {
+        "passed": true,
+        "checks": {
+          "stone_dice": true,
+          "fiber_dice": true,
+          "negative_fp_area": true
+        }
+      },
+      "tip_metrics": null
+    }
+  },
+  "full_video": {
+    "raw2": {
+      "video_1": {
+        "arm": "raw2",
+        "video_id": "video_1",
+        "pid": 29408,
+        "frames": 722,
+        "approved_static_matches": 43,
+        "actual_branch_forwards": [
+          722,
+          722
+        ],
+        "warmup_branch_forwards": [
+          12,
+          12
+        ],
+        "networks": 2,
+        "parameters": 49202790,
+        "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+        "individual_model_sha256": [
+          "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+          "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+        ],
+        "runtime": {
+          "python": "3.11.17",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.4.6",
+          "pillow": "12.3.0",
+          "smp": "0.4.0",
+          "cuda": "12.8",
+          "cudnn": 91900,
+          "device": "cuda:0",
+          "device_name": "NVIDIA GeForce RTX 4070 Ti",
+          "cpu_threads": 16,
+          "cublas_workspace_config": ":4096:8",
+          "opencv": "4.14.0",
+          "opencv_threads": 24
+        },
+        "source_fps": 30.0,
+        "timestamp_mode": "decoded_monotonic_pts",
+        "timings": {
+          "rgb_pil_grid_ms": {
+            "mean": 1.0914696677822693,
+            "p50": 1.0991499875672162,
+            "p95": 1.3714999717194583,
+            "max": 3.1344000017270446
+          },
+          "fixed_transform_ms": {
+            "mean": 0.00564708878154611,
+            "p50": 0.005499925464391708,
+            "p95": 0.007400056347250938,
+            "max": 0.014699995517730713
+          },
+          "normalize_transfer_ms": {
+            "mean": 0.7311908600444279,
+            "p50": 0.7243999862112105,
+            "p95": 0.8755950315389779,
+            "max": 1.3895999873057008
+          },
+          "stone_forward_ms": {
+            "mean": 4.79780914312889,
+            "p50": 4.640900006052107,
+            "p95": 6.118629913544282,
+            "max": 10.196599992923439
+          },
+          "fiber_forward_ms": {
+            "mean": 4.481284763377645,
+            "p50": 4.378699988592416,
+            "p95": 5.4592698987107715,
+            "max": 9.900799952447414
+          },
+          "native_mapping_transfer_ms": {
+            "mean": 3.606606094254351,
+            "p50": 3.4842999884858727,
+            "p95": 4.204575001494959,
+            "max": 49.83639996498823
+          },
+          "pipeline_total_ms": {
+            "mean": 14.717630332386136,
+            "p50": 14.365150011144578,
+            "p95": 17.443995003122836,
+            "max": 63.916999963112175
+          },
+          "decode_ms": {
+            "mean": 0.22051205092375464,
+            "p50": 0.19289995543658733,
+            "p95": 0.2881150925531982,
+            "max": 11.232199962250888
+          },
+          "render_audit_encode_ms": {
+            "mean": 4.923648059844115,
+            "p50": 4.654250049497932,
+            "p95": 5.31617497326806,
+            "max": 174.64539990760386
+          },
+          "export_record_ms": {
+            "mean": 1.195421881607406,
+            "p50": 1.143149973358959,
+            "p95": 1.5529800672084093,
+            "max": 2.4374000495299697
+          },
+          "cycle_ms": {
+            "mean": 21.468983379120417,
+            "p50": 20.83055005641654,
+            "p95": 24.78138500009663,
+            "max": 190.55150006897748
+          }
+        },
+        "pipeline_p95_within_source_interval": true,
+        "transform_p95_within_design_target": true,
+        "changed_frames": 0,
+        "wall_seconds_including_decode_audit_export": 15.537508999928832,
+        "cpu_process_seconds": 245.484375,
+        "offline_fps_including_decode_audit_export": 46.468195127243824,
+        "cpu_sampled_peak_rss_mib": 2062.37890625,
+        "windows_peak_working_set_mib": 2066.04296875,
+        "cuda_peak_allocated_mib": 223.9208984375,
+        "cuda_peak_reserved_mib": 250.0,
+        "replay": {
+          "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\full_video\\raw2\\video_1\\replay.mp4",
+          "frames": 722,
+          "sha256": "be3c5d53735cda191dd22fda41cfaf3cd5f244d8df98d5aa4ba041e1c7837564"
+        },
+        "whole_video_accuracy": null,
+        "tip_metrics": null,
+        "fallback": "none; fixed input diagnostic, original default remains available"
+      },
+      "video_2": {
+        "arm": "raw2",
+        "video_id": "video_2",
+        "pid": 37092,
+        "frames": 1972,
+        "approved_static_matches": 27,
+        "actual_branch_forwards": [
+          1972,
+          1972
+        ],
+        "warmup_branch_forwards": [
+          12,
+          12
+        ],
+        "networks": 2,
+        "parameters": 49202790,
+        "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+        "individual_model_sha256": [
+          "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+          "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+        ],
+        "runtime": {
+          "python": "3.11.17",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.4.6",
+          "pillow": "12.3.0",
+          "smp": "0.4.0",
+          "cuda": "12.8",
+          "cudnn": 91900,
+          "device": "cuda:0",
+          "device_name": "NVIDIA GeForce RTX 4070 Ti",
+          "cpu_threads": 16,
+          "cublas_workspace_config": ":4096:8",
+          "opencv": "4.14.0",
+          "opencv_threads": 24
+        },
+        "source_fps": 30.082069744027823,
+        "timestamp_mode": "frame_index_over_source_fps",
+        "timings": {
+          "rgb_pil_grid_ms": {
+            "mean": 1.1155692201426997,
+            "p50": 1.121999986935407,
+            "p95": 1.4244249556213617,
+            "max": 2.374800038523972
+          },
+          "fixed_transform_ms": {
+            "mean": 0.005893610735682669,
+            "p50": 0.005600042641162872,
+            "p95": 0.008245010394602997,
+            "max": 0.026699970476329327
+          },
+          "normalize_transfer_ms": {
+            "mean": 0.7462053755477721,
+            "p50": 0.7387000368908048,
+            "p95": 0.9122000250499692,
+            "max": 1.3677999377250671
+          },
+          "stone_forward_ms": {
+            "mean": 4.949522159476982,
+            "p50": 4.742400022223592,
+            "p95": 6.667159957578404,
+            "max": 11.587999993935227
+          },
+          "fiber_forward_ms": {
+            "mean": 4.649944675346727,
+            "p50": 4.498600028455257,
+            "p95": 6.006450048880651,
+            "max": 10.570600046776235
+          },
+          "native_mapping_transfer_ms": {
+            "mean": 3.5261073542081585,
+            "p50": 3.4411500091664493,
+            "p95": 4.346245032502338,
+            "max": 7.017900003120303
+          },
+          "pipeline_total_ms": {
+            "mean": 14.997129056814767,
+            "p50": 14.599850052036345,
+            "p95": 18.567184999119487,
+            "max": 29.557499918155372
+          },
+          "decode_ms": {
+            "mean": 0.20652667199673308,
+            "p50": 0.19014999270439148,
+            "p95": 0.2733351022470742,
+            "max": 11.094299959950149
+          },
+          "render_audit_encode_ms": {
+            "mean": 5.1497350926000935,
+            "p50": 4.6375999809242785,
+            "p95": 5.305900005623698,
+            "max": 182.8949999762699
+          },
+          "export_record_ms": {
+            "mean": 1.224601013646376,
+            "p50": 1.1667499784380198,
+            "p95": 1.5512050536926834,
+            "max": 10.311900055967271
+          },
+          "cycle_ms": {
+            "mean": 21.89786916837884,
+            "p50": 20.972900034394115,
+            "p95": 25.75892504537478,
+            "max": 199.67559992801398
+          }
+        },
+        "pipeline_p95_within_source_interval": true,
+        "transform_p95_within_design_target": true,
+        "changed_frames": 0,
+        "wall_seconds_including_decode_audit_export": 43.244893399998546,
+        "cpu_process_seconds": 683.25,
+        "offline_fps_including_decode_audit_export": 45.60075988070458,
+        "cpu_sampled_peak_rss_mib": 2090.33203125,
+        "windows_peak_working_set_mib": 2094.00390625,
+        "cuda_peak_allocated_mib": 223.9208984375,
+        "cuda_peak_reserved_mib": 250.0,
+        "replay": {
+          "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\full_video\\raw2\\video_2\\replay.mp4",
+          "frames": 1972,
+          "sha256": "ef7cd2422574229c90f27e35280bab6f5605beef337b717fa886b3a3088a5762"
+        },
+        "whole_video_accuracy": null,
+        "tip_metrics": null,
+        "fallback": "none; fixed input diagnostic, original default remains available"
+      }
+    },
+    "fiber_vlift": {
+      "video_1": {
+        "arm": "fiber_vlift",
+        "video_id": "video_1",
+        "pid": 11848,
+        "frames": 722,
+        "approved_static_matches": 43,
+        "actual_branch_forwards": [
+          722,
+          722
+        ],
+        "warmup_branch_forwards": [
+          12,
+          12
+        ],
+        "networks": 2,
+        "parameters": 49202790,
+        "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+        "individual_model_sha256": [
+          "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+          "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+        ],
+        "runtime": {
+          "python": "3.11.17",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.4.6",
+          "pillow": "12.3.0",
+          "smp": "0.4.0",
+          "cuda": "12.8",
+          "cudnn": 91900,
+          "device": "cuda:0",
+          "device_name": "NVIDIA GeForce RTX 4070 Ti",
+          "cpu_threads": 16,
+          "cublas_workspace_config": ":4096:8",
+          "opencv": "4.14.0",
+          "opencv_threads": 24
+        },
+        "source_fps": 30.0,
+        "timestamp_mode": "decoded_monotonic_pts",
+        "timings": {
+          "rgb_pil_grid_ms": {
+            "mean": 1.076069115493395,
+            "p50": 1.0984999826177955,
+            "p95": 1.281049981480464,
+            "max": 2.0047000143676996
+          },
+          "fixed_transform_ms": {
+            "mean": 3.1714693896622084,
+            "p50": 3.25145001988858,
+            "p95": 3.668044990627095,
+            "max": 4.919399973005056
+          },
+          "normalize_transfer_ms": {
+            "mean": 1.3332688360903258,
+            "p50": 1.3436999870464206,
+            "p95": 1.5736699919216335,
+            "max": 2.433400019071996
+          },
+          "stone_forward_ms": {
+            "mean": 5.00740082947398,
+            "p50": 4.881500033661723,
+            "p95": 6.696829904103649,
+            "max": 9.416499990038574
+          },
+          "fiber_forward_ms": {
+            "mean": 4.749670915771276,
+            "p50": 4.651250026654452,
+            "p95": 5.931115004932504,
+            "max": 9.14450001437217
+          },
+          "native_mapping_transfer_ms": {
+            "mean": 3.508202769500758,
+            "p50": 3.4486500080674887,
+            "p95": 4.065854992950334,
+            "max": 7.173100020736456
+          },
+          "pipeline_total_ms": {
+            "mean": 18.850391551689697,
+            "p50": 18.738150014542043,
+            "p95": 21.79342007730156,
+            "max": 29.03680002782494
+          },
+          "decode_ms": {
+            "mean": 0.214717728846869,
+            "p50": 0.19215000793337822,
+            "p95": 0.26359002222307026,
+            "max": 11.333400034345686
+          },
+          "render_audit_encode_ms": {
+            "mean": 4.877904571761787,
+            "p50": 4.646449990104884,
+            "p95": 5.09799505234696,
+            "max": 175.85730005521327
+          },
+          "export_record_ms": {
+            "mean": 1.2033894705493262,
+            "p50": 1.153100049123168,
+            "p95": 1.5429799968842415,
+            "max": 1.8761999672278762
+          },
+          "cycle_ms": {
+            "mean": 25.49793130032579,
+            "p50": 25.060350017156452,
+            "p95": 28.653249907074496,
+            "max": 195.0572000350803
+          }
+        },
+        "pipeline_p95_within_source_interval": true,
+        "transform_p95_within_design_target": true,
+        "changed_frames": 722,
+        "wall_seconds_including_decode_audit_export": 18.447585299960338,
+        "cpu_process_seconds": 291.703125,
+        "offline_fps_including_decode_audit_export": 39.13791362176557,
+        "cpu_sampled_peak_rss_mib": 2052.75390625,
+        "windows_peak_working_set_mib": 2056.41796875,
+        "cuda_peak_allocated_mib": 224.6708984375,
+        "cuda_peak_reserved_mib": 252.0,
+        "replay": {
+          "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\full_video\\fiber_vlift\\video_1\\replay.mp4",
+          "frames": 722,
+          "sha256": "521d740033e10a409bcf31a70c5d0ce6039e7ea006c3aff2b956f92c4fec6dd4"
+        },
+        "whole_video_accuracy": null,
+        "tip_metrics": null,
+        "fallback": "none; fixed input diagnostic, original default remains available"
+      },
+      "video_2": {
+        "arm": "fiber_vlift",
+        "video_id": "video_2",
+        "pid": 17596,
+        "frames": 1972,
+        "approved_static_matches": 27,
+        "actual_branch_forwards": [
+          1972,
+          1972
+        ],
+        "warmup_branch_forwards": [
+          12,
+          12
+        ],
+        "networks": 2,
+        "parameters": 49202790,
+        "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+        "individual_model_sha256": [
+          "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+          "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+        ],
+        "runtime": {
+          "python": "3.11.17",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.4.6",
+          "pillow": "12.3.0",
+          "smp": "0.4.0",
+          "cuda": "12.8",
+          "cudnn": 91900,
+          "device": "cuda:0",
+          "device_name": "NVIDIA GeForce RTX 4070 Ti",
+          "cpu_threads": 16,
+          "cublas_workspace_config": ":4096:8",
+          "opencv": "4.14.0",
+          "opencv_threads": 24
+        },
+        "source_fps": 30.082069744027823,
+        "timestamp_mode": "frame_index_over_source_fps",
+        "timings": {
+          "rgb_pil_grid_ms": {
+            "mean": 1.1066595839433804,
+            "p50": 1.1196000268682837,
+            "p95": 1.3663000427186485,
+            "max": 1.9386999774724245
+          },
+          "fixed_transform_ms": {
+            "mean": 3.2589361571605764,
+            "p50": 3.3820000244304538,
+            "p95": 3.7904600554611534,
+            "max": 5.2046999335289
+          },
+          "normalize_transfer_ms": {
+            "mean": 1.3548467021613073,
+            "p50": 1.3591499882750213,
+            "p95": 1.6193899908103049,
+            "max": 2.6646999176591635
+          },
+          "stone_forward_ms": {
+            "mean": 5.2026041580196924,
+            "p50": 5.018350027967244,
+            "p95": 6.632835045456885,
+            "max": 12.220000033266842
+          },
+          "fiber_forward_ms": {
+            "mean": 4.9496534492175375,
+            "p50": 4.7842999920248985,
+            "p95": 6.260290002683173,
+            "max": 11.745499912649393
+          },
+          "native_mapping_transfer_ms": {
+            "mean": 3.5598742378673482,
+            "p50": 3.4968499676324427,
+            "p95": 4.353369970340281,
+            "max": 8.404199965298176
+          },
+          "pipeline_total_ms": {
+            "mean": 19.436839805740266,
+            "p50": 19.23914992948994,
+            "p95": 22.61715997592546,
+            "max": 35.403799964115024
+          },
+          "decode_ms": {
+            "mean": 0.20714969840373004,
+            "p50": 0.19419996533542871,
+            "p95": 0.2697450225241482,
+            "max": 9.379199938848615
+          },
+          "render_audit_encode_ms": {
+            "mean": 5.209884534693374,
+            "p50": 4.677299992181361,
+            "p95": 5.304999998770652,
+            "max": 184.64420002419502
+          },
+          "export_record_ms": {
+            "mean": 1.2328928998509954,
+            "p50": 1.1789000127464533,
+            "p95": 1.5600449522025883,
+            "max": 4.899100051261485
+          },
+          "cycle_ms": {
+            "mean": 26.43235720195581,
+            "p50": 25.673650030512363,
+            "p95": 29.88499496714212,
+            "max": 204.7203000402078
+          }
+        },
+        "pipeline_p95_within_source_interval": true,
+        "transform_p95_within_design_target": true,
+        "changed_frames": 1972,
+        "wall_seconds_including_decode_audit_export": 52.17283540009521,
+        "cpu_process_seconds": 822.15625,
+        "offline_fps_including_decode_audit_export": 37.79744736657347,
+        "cpu_sampled_peak_rss_mib": 2088.30078125,
+        "windows_peak_working_set_mib": 2091.96484375,
+        "cuda_peak_allocated_mib": 224.6708984375,
+        "cuda_peak_reserved_mib": 252.0,
+        "replay": {
+          "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\full_video\\fiber_vlift\\video_2\\replay.mp4",
+          "frames": 1972,
+          "sha256": "7b5cfdc93a6afecc2542ac7eff4d7158367bb45983c8ebed86c6e108405c47cb"
+        },
+        "whole_video_accuracy": null,
+        "tip_metrics": null,
+        "fallback": "none; fixed input diagnostic, original default remains available"
+      }
+    },
+    "fiber_channel_gamma": {
+      "video_1": {
+        "arm": "fiber_channel_gamma",
+        "video_id": "video_1",
+        "pid": 23272,
+        "frames": 722,
+        "approved_static_matches": 43,
+        "actual_branch_forwards": [
+          722,
+          722
+        ],
+        "warmup_branch_forwards": [
+          12,
+          12
+        ],
+        "networks": 2,
+        "parameters": 49202790,
+        "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+        "individual_model_sha256": [
+          "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+          "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+        ],
+        "runtime": {
+          "python": "3.11.17",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.4.6",
+          "pillow": "12.3.0",
+          "smp": "0.4.0",
+          "cuda": "12.8",
+          "cudnn": 91900,
+          "device": "cuda:0",
+          "device_name": "NVIDIA GeForce RTX 4070 Ti",
+          "cpu_threads": 16,
+          "cublas_workspace_config": ":4096:8",
+          "opencv": "4.14.0",
+          "opencv_threads": 24
+        },
+        "source_fps": 30.0,
+        "timestamp_mode": "decoded_monotonic_pts",
+        "timings": {
+          "rgb_pil_grid_ms": {
+            "mean": 1.088206785269226,
+            "p50": 1.1121499701403081,
+            "p95": 1.3243349618278435,
+            "max": 2.0589999621734023
+          },
+          "fixed_transform_ms": {
+            "mean": 1.3457242384297552,
+            "p50": 1.4534500078298151,
+            "p95": 1.6073400154709816,
+            "max": 2.5258000241592526
+          },
+          "normalize_transfer_ms": {
+            "mean": 1.327177839885128,
+            "p50": 1.3275000383146107,
+            "p95": 1.5733999898657203,
+            "max": 2.769299899227917
+          },
+          "stone_forward_ms": {
+            "mean": 4.826714407582961,
+            "p50": 4.683249979279935,
+            "p95": 5.905955034540965,
+            "max": 10.897599975578487
+          },
+          "fiber_forward_ms": {
+            "mean": 4.570440305532356,
+            "p50": 4.476099973544478,
+            "p95": 5.662050045793875,
+            "max": 9.538899990729988
+          },
+          "native_mapping_transfer_ms": {
+            "mean": 3.484902072890076,
+            "p50": 3.4373499802313745,
+            "p95": 4.084114910801872,
+            "max": 7.528000045567751
+          },
+          "pipeline_total_ms": {
+            "mean": 16.647514817014677,
+            "p50": 16.494349983986467,
+            "p95": 19.407959957607066,
+            "max": 30.876300064846873
+          },
+          "decode_ms": {
+            "mean": 0.21089487847771465,
+            "p50": 0.1903000520542264,
+            "p95": 0.26505492278374726,
+            "max": 9.426600066944957
+          },
+          "render_audit_encode_ms": {
+            "mean": 4.858997782983836,
+            "p50": 4.639899940229952,
+            "p95": 5.157300032442436,
+            "max": 173.66010008845478
+          },
+          "export_record_ms": {
+            "mean": 1.1823790848004914,
+            "p50": 1.130749995354563,
+            "p95": 1.5138298913370813,
+            "max": 1.9250999903306365
+          },
+          "cycle_ms": {
+            "mean": 23.249213436394,
+            "p50": 22.897599963471293,
+            "p95": 26.037795015145093,
+            "max": 190.07769995369017
+          }
+        },
+        "pipeline_p95_within_source_interval": true,
+        "transform_p95_within_design_target": true,
+        "changed_frames": 722,
+        "wall_seconds_including_decode_audit_export": 16.820182199939154,
+        "cpu_process_seconds": 265.859375,
+        "offline_fps_including_decode_audit_export": 42.92462420547453,
+        "cpu_sampled_peak_rss_mib": 2078.96875,
+        "windows_peak_working_set_mib": 2082.6328125,
+        "cuda_peak_allocated_mib": 224.6708984375,
+        "cuda_peak_reserved_mib": 252.0,
+        "replay": {
+          "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\full_video\\fiber_channel_gamma\\video_1\\replay.mp4",
+          "frames": 722,
+          "sha256": "91b3976fabc8c0bd5309f8d0a10c7d3eec4f156d63dd02134b4dfffdafa288d7"
+        },
+        "whole_video_accuracy": null,
+        "tip_metrics": null,
+        "fallback": "none; fixed input diagnostic, original default remains available"
+      },
+      "video_2": {
+        "arm": "fiber_channel_gamma",
+        "video_id": "video_2",
+        "pid": 17456,
+        "frames": 1972,
+        "approved_static_matches": 27,
+        "actual_branch_forwards": [
+          1972,
+          1972
+        ],
+        "warmup_branch_forwards": [
+          12,
+          12
+        ],
+        "networks": 2,
+        "parameters": 49202790,
+        "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+        "individual_model_sha256": [
+          "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+          "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+        ],
+        "runtime": {
+          "python": "3.11.17",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.4.6",
+          "pillow": "12.3.0",
+          "smp": "0.4.0",
+          "cuda": "12.8",
+          "cudnn": 91900,
+          "device": "cuda:0",
+          "device_name": "NVIDIA GeForce RTX 4070 Ti",
+          "cpu_threads": 16,
+          "cublas_workspace_config": ":4096:8",
+          "opencv": "4.14.0",
+          "opencv_threads": 24
+        },
+        "source_fps": 30.082069744027823,
+        "timestamp_mode": "frame_index_over_source_fps",
+        "timings": {
+          "rgb_pil_grid_ms": {
+            "mean": 1.1052194707431882,
+            "p50": 1.124850008636713,
+            "p95": 1.3555149605963375,
+            "max": 2.219200017862022
+          },
+          "fixed_transform_ms": {
+            "mean": 1.3841437122739217,
+            "p50": 1.4863999094814062,
+            "p95": 1.6673800069838762,
+            "max": 2.269999939016998
+          },
+          "normalize_transfer_ms": {
+            "mean": 1.3434471103573373,
+            "p50": 1.3467000098899007,
+            "p95": 1.5881799859926105,
+            "max": 2.5106000248342752
+          },
+          "stone_forward_ms": {
+            "mean": 5.026353398809289,
+            "p50": 4.824299947358668,
+            "p95": 6.770184991182756,
+            "max": 11.357900104485452
+          },
+          "fiber_forward_ms": {
+            "mean": 4.752553447690919,
+            "p50": 4.579000000376254,
+            "p95": 6.020409974735229,
+            "max": 11.688200058415532
+          },
+          "native_mapping_transfer_ms": {
+            "mean": 3.4355883381842367,
+            "p50": 3.3647000091150403,
+            "p95": 4.121530015254393,
+            "max": 7.4124999810010195
+          },
+          "pipeline_total_ms": {
+            "mean": 17.05198362038724,
+            "p50": 16.756099998019636,
+            "p95": 20.208769978489727,
+            "max": 33.38689997326583
+          },
+          "decode_ms": {
+            "mean": 0.2033918361372218,
+            "p50": 0.1892000436782837,
+            "p95": 0.26293502305634314,
+            "max": 10.840900009498
+          },
+          "render_audit_encode_ms": {
+            "mean": 5.057642141602174,
+            "p50": 4.565199953503907,
+            "p95": 5.133204971207306,
+            "max": 183.85460006538779
+          },
+          "export_record_ms": {
+            "mean": 1.2170613586806274,
+            "p50": 1.1541999992914498,
+            "p95": 1.5431299922056494,
+            "max": 6.35480007622391
+          },
+          "cycle_ms": {
+            "mean": 23.822505325237177,
+            "p50": 23.06849998421967,
+            "p95": 27.366704947780814,
+            "max": 202.43559998925775
+          }
+        },
+        "pipeline_p95_within_source_interval": true,
+        "transform_p95_within_design_target": true,
+        "changed_frames": 1972,
+        "wall_seconds_including_decode_audit_export": 47.01691269990988,
+        "cpu_process_seconds": 743.546875,
+        "offline_fps_including_decode_audit_export": 41.94235407557459,
+        "cpu_sampled_peak_rss_mib": 2090.09765625,
+        "windows_peak_working_set_mib": 2093.76171875,
+        "cuda_peak_allocated_mib": 224.6708984375,
+        "cuda_peak_reserved_mib": 252.0,
+        "replay": {
+          "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\full_video\\fiber_channel_gamma\\video_2\\replay.mp4",
+          "frames": 1972,
+          "sha256": "8d92a3b9c7503dbb114c6467fca0e055ad6325da91e9f1cfda86bba01ff750a0"
+        },
+        "whole_video_accuracy": null,
+        "tip_metrics": null,
+        "fallback": "none; fixed input diagnostic, original default remains available"
+      }
+    }
+  },
+  "comparison_videos": {
+    "video_1": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\video_1_comparison.mp4",
+      "frames": 722,
+      "sha256": "f0465d35ad972b7d6add49dda6a7a638614ce45da257c7204a265967c796f353"
+    },
+    "video_2": {
+      "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\video_2_comparison.mp4",
+      "frames": 1972,
+      "sha256": "4a5c6ec8b84dee3b65fd25e7098533052b3649af00606a9f189e181b6aed8612"
+    }
+  },
+  "passing_dark_candidate": {
+    "fiber_vlift": false,
+    "fiber_channel_gamma": false
+  },
+  "actual_static_paired_frame_inferences": 606,
+  "actual_full_paired_frame_inferences": 8082,
+  "full_processes": 6,
+  "warmup_paired_frames": 72,
+  "training_updates": 0,
+  "train_pixels_read": 0,
+  "reserved_test_pixels_read": 0,
+  "adopted": false,
+  "default_changed": false,
+  "tip_metrics": null,
+  "whole_video_accuracy": null,
+  "s3_started": false
+}

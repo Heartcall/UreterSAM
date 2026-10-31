@@ -1,0 +1,1101 @@
+{
+  "scope": "darkness of visible semantic fiber pixels, not confirmed tip regions or measured scene illumination",
+  "HSV_V_bins": [
+    0,
+    85,
+    170,
+    256
+  ],
+  "Lab_Lstar_encoded_bins": [
+    0,
+    85,
+    170,
+    256
+  ],
+  "Lab_Lstar_approx_ranges": [
+    "0..33",
+    "33..67",
+    "67..100"
+  ],
+  "pooled_pixels_not_independent_cases": true,
+  "new_model_forwards": 0,
+  "new_corrected_masks": 0,
+  "training_updates": 0,
+  "tip_truth": false,
+  "results": {
+    "video_native": {
+      "frames": 70,
+      "models": {
+        "member1_2net": {
+          "all": {
+            "HSV_V": [
+              {
+                "gt_pixels": 5510,
+                "tp": 916,
+                "fn": 4594,
+                "fp": 362,
+                "fn_Pbelow01": 4210,
+                "gt_probability_sum": 923.2522316170762,
+                "eligible_FN_scope_only_NOT_recovery": 341,
+                "interior": {
+                  "gt_pixels": 2645,
+                  "tp": 527,
+                  "fn": 2118,
+                  "fp": 0,
+                  "fn_Pbelow01": 1962,
+                  "gt_probability_sum": 523.3566918532779,
+                  "recall": 0.19924385633270322,
+                  "mean_probability": 0.19786642414112585
+                },
+                "recall": 0.16624319419237749,
+                "mean_probability": 0.16755938867823525
+              },
+              {
+                "gt_pixels": 98632,
+                "tp": 76563,
+                "fn": 22069,
+                "fp": 4040,
+                "fn_Pbelow01": 15502,
+                "gt_probability_sum": 75043.48737568555,
+                "eligible_FN_scope_only_NOT_recovery": 6316,
+                "interior": {
+                  "gt_pixels": 68451,
+                  "tp": 57889,
+                  "fn": 10562,
+                  "fp": 0,
+                  "fn_Pbelow01": 8465,
+                  "gt_probability_sum": 57661.69614282127,
+                  "recall": 0.845699843683803,
+                  "mean_probability": 0.8423791638226069
+                },
+                "recall": 0.7762490875172358,
+                "mean_probability": 0.7608432088539779
+              },
+              {
+                "gt_pixels": 349278,
+                "tp": 340304,
+                "fn": 8974,
+                "fp": 8090,
+                "fn_Pbelow01": 3862,
+                "gt_probability_sum": 336758.9398248671,
+                "eligible_FN_scope_only_NOT_recovery": 5064,
+                "interior": {
+                  "gt_pixels": 319450,
+                  "tp": 315251,
+                  "fn": 4199,
+                  "fp": 0,
+                  "fn_Pbelow01": 2292,
+                  "gt_probability_sum": 313146.4140468491,
+                  "recall": 0.9868555329472531,
+                  "mean_probability": 0.9802673784531198
+                },
+                "recall": 0.9743069990093851,
+                "mean_probability": 0.9641573183105352
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 46105,
+                "tp": 28640,
+                "fn": 17465,
+                "fp": 1144,
+                "fn_Pbelow01": 14325,
+                "gt_probability_sum": 28290.36870834254,
+                "eligible_FN_scope_only_NOT_recovery": 2984,
+                "interior": {
+                  "gt_pixels": 33895,
+                  "tp": 24218,
+                  "fn": 9677,
+                  "fp": 0,
+                  "fn_Pbelow01": 8240,
+                  "gt_probability_sum": 24086.27334396795,
+                  "recall": 0.7145006638147219,
+                  "mean_probability": 0.7106143485460378
+                },
+                "recall": 0.6211907602212341,
+                "mean_probability": 0.6136073898349971
+              },
+              {
+                "gt_pixels": 346855,
+                "tp": 328761,
+                "fn": 18094,
+                "fp": 5416,
+                "fn_Pbelow01": 9233,
+                "gt_probability_sum": 324529.8511988848,
+                "eligible_FN_scope_only_NOT_recovery": 8675,
+                "interior": {
+                  "gt_pixels": 297879,
+                  "tp": 290707,
+                  "fn": 7172,
+                  "fp": 0,
+                  "fn_Pbelow01": 4479,
+                  "gt_probability_sum": 288897.1708461569,
+                  "recall": 0.9759231097190469,
+                  "mean_probability": 0.9698473905382954
+                },
+                "recall": 0.9478341093540529,
+                "mean_probability": 0.9356354995571198
+              },
+              {
+                "gt_pixels": 60460,
+                "tp": 60382,
+                "fn": 78,
+                "fp": 5932,
+                "fn_Pbelow01": 16,
+                "gt_probability_sum": 59905.45952494256,
+                "eligible_FN_scope_only_NOT_recovery": 62,
+                "interior": {
+                  "gt_pixels": 58772,
+                  "tp": 58742,
+                  "fn": 30,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 58348.02269139886,
+                  "recall": 0.9994895528482951,
+                  "mean_probability": 0.9927860663479013
+                },
+                "recall": 0.998709890836917,
+                "mean_probability": 0.9908279775875383
+              }
+            ]
+          },
+          "video_1": {
+            "HSV_V": [
+              {
+                "gt_pixels": 56,
+                "tp": 1,
+                "fn": 55,
+                "fp": 1,
+                "fn_Pbelow01": 4,
+                "gt_probability_sum": 16.950817512348294,
+                "eligible_FN_scope_only_NOT_recovery": 51,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fn": 0,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                },
+                "recall": 0.017857142857142856,
+                "mean_probability": 0.3026931698633624
+              },
+              {
+                "gt_pixels": 35841,
+                "tp": 32435,
+                "fn": 3406,
+                "fp": 3249,
+                "fn_Pbelow01": 761,
+                "gt_probability_sum": 31217.470218346745,
+                "eligible_FN_scope_only_NOT_recovery": 2580,
+                "interior": {
+                  "gt_pixels": 18703,
+                  "tp": 18599,
+                  "fn": 104,
+                  "fp": 0,
+                  "fn_Pbelow01": 12,
+                  "gt_probability_sum": 18541.81739810109,
+                  "recall": 0.9944393947495054,
+                  "mean_probability": 0.9913819920922361
+                },
+                "recall": 0.9049691693870149,
+                "mean_probability": 0.8709988621507978
+              },
+              {
+                "gt_pixels": 210820,
+                "tp": 208480,
+                "fn": 2340,
+                "fp": 2509,
+                "fn_Pbelow01": 221,
+                "gt_probability_sum": 206377.27159822127,
+                "eligible_FN_scope_only_NOT_recovery": 2119,
+                "interior": {
+                  "gt_pixels": 192994,
+                  "tp": 192546,
+                  "fn": 448,
+                  "fp": 0,
+                  "fn_Pbelow01": 11,
+                  "gt_probability_sum": 191292.32998286933,
+                  "recall": 0.9976786843114294,
+                  "mean_probability": 0.9911827827956793
+                },
+                "recall": 0.988900483825064,
+                "mean_probability": 0.9789264377109442
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 1602,
+                "tp": 1045,
+                "fn": 557,
+                "fp": 315,
+                "fn_Pbelow01": 43,
+                "gt_probability_sum": 962.4227120287251,
+                "eligible_FN_scope_only_NOT_recovery": 514,
+                "interior": {
+                  "gt_pixels": 66,
+                  "tp": 66,
+                  "fn": 0,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 65.11173677444458,
+                  "recall": 1.0,
+                  "mean_probability": 0.9865414662794634
+                },
+                "recall": 0.6523096129837703,
+                "mean_probability": 0.6007632409667447
+              },
+              {
+                "gt_pixels": 217105,
+                "tp": 211861,
+                "fn": 5244,
+                "fp": 4379,
+                "fn_Pbelow01": 943,
+                "gt_probability_sum": 208860.2714550235,
+                "eligible_FN_scope_only_NOT_recovery": 4236,
+                "interior": {
+                  "gt_pixels": 183961,
+                  "tp": 183409,
+                  "fn": 552,
+                  "fp": 0,
+                  "fn_Pbelow01": 23,
+                  "gt_probability_sum": 182295.56645383686,
+                  "recall": 0.9969993639956295,
+                  "mean_probability": 0.9909468118451022
+                },
+                "recall": 0.9758457889039865,
+                "mean_probability": 0.9620242346100896
+              },
+              {
+                "gt_pixels": 28010,
+                "tp": 28010,
+                "fn": 0,
+                "fp": 1065,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 27788.99846702814,
+                "eligible_FN_scope_only_NOT_recovery": 0,
+                "interior": {
+                  "gt_pixels": 27670,
+                  "tp": 27670,
+                  "fn": 0,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27473.469190359116,
+                  "recall": 1.0,
+                  "mean_probability": 0.9928973325030399
+                },
+                "recall": 1.0,
+                "mean_probability": 0.9921099059988626
+              }
+            ]
+          },
+          "video_2": {
+            "HSV_V": [
+              {
+                "gt_pixels": 5454,
+                "tp": 915,
+                "fn": 4539,
+                "fp": 361,
+                "fn_Pbelow01": 4206,
+                "gt_probability_sum": 906.3014141047279,
+                "eligible_FN_scope_only_NOT_recovery": 290,
+                "interior": {
+                  "gt_pixels": 2645,
+                  "tp": 527,
+                  "fn": 2118,
+                  "fp": 0,
+                  "fn_Pbelow01": 1962,
+                  "gt_probability_sum": 523.3566918532779,
+                  "recall": 0.19924385633270322,
+                  "mean_probability": 0.19786642414112585
+                },
+                "recall": 0.16776677667766776,
+                "mean_probability": 0.16617187644017747
+              },
+              {
+                "gt_pixels": 62791,
+                "tp": 44128,
+                "fn": 18663,
+                "fp": 791,
+                "fn_Pbelow01": 14741,
+                "gt_probability_sum": 43826.017157338814,
+                "eligible_FN_scope_only_NOT_recovery": 3736,
+                "interior": {
+                  "gt_pixels": 49748,
+                  "tp": 39290,
+                  "fn": 10458,
+                  "fp": 0,
+                  "fn_Pbelow01": 8453,
+                  "gt_probability_sum": 39119.87874472016,
+                  "recall": 0.7897804936881885,
+                  "mean_probability": 0.7863608334952191
+                },
+                "recall": 0.7027758755235622,
+                "mean_probability": 0.6979665422964886
+              },
+              {
+                "gt_pixels": 138458,
+                "tp": 131824,
+                "fn": 6634,
+                "fp": 5581,
+                "fn_Pbelow01": 3641,
+                "gt_probability_sum": 130381.66822664588,
+                "eligible_FN_scope_only_NOT_recovery": 2945,
+                "interior": {
+                  "gt_pixels": 126456,
+                  "tp": 122705,
+                  "fn": 3751,
+                  "fp": 0,
+                  "fn_Pbelow01": 2281,
+                  "gt_probability_sum": 121854.08406397984,
+                  "recall": 0.9703375086986779,
+                  "mean_probability": 0.9636085600049016
+                },
+                "recall": 0.9520865533230294,
+                "mean_probability": 0.9416694465227425
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 44503,
+                "tp": 27595,
+                "fn": 16908,
+                "fp": 829,
+                "fn_Pbelow01": 14282,
+                "gt_probability_sum": 27327.945996313814,
+                "eligible_FN_scope_only_NOT_recovery": 2470,
+                "interior": {
+                  "gt_pixels": 33829,
+                  "tp": 24152,
+                  "fn": 9677,
+                  "fp": 0,
+                  "fn_Pbelow01": 8240,
+                  "gt_probability_sum": 24021.161607193506,
+                  "recall": 0.7139436578083892,
+                  "mean_probability": 0.7100760178306632
+                },
+                "recall": 0.6200705570410984,
+                "mean_probability": 0.6140697480240391
+              },
+              {
+                "gt_pixels": 129750,
+                "tp": 116900,
+                "fn": 12850,
+                "fp": 1037,
+                "fn_Pbelow01": 8290,
+                "gt_probability_sum": 115669.57974386119,
+                "eligible_FN_scope_only_NOT_recovery": 4439,
+                "interior": {
+                  "gt_pixels": 113918,
+                  "tp": 107298,
+                  "fn": 6620,
+                  "fp": 0,
+                  "fn_Pbelow01": 4456,
+                  "gt_probability_sum": 106601.60439232005,
+                  "recall": 0.9418880247195351,
+                  "mean_probability": 0.9357748941547434
+                },
+                "recall": 0.9009633911368016,
+                "mean_probability": 0.8914803833823599
+              },
+              {
+                "gt_pixels": 32450,
+                "tp": 32372,
+                "fn": 78,
+                "fp": 4867,
+                "fn_Pbelow01": 16,
+                "gt_probability_sum": 32116.46105791442,
+                "eligible_FN_scope_only_NOT_recovery": 62,
+                "interior": {
+                  "gt_pixels": 31102,
+                  "tp": 31072,
+                  "fn": 30,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30874.553501039743,
+                  "recall": 0.9990354318050286,
+                  "mean_probability": 0.9926870780348448
+                },
+                "recall": 0.9975963020030817,
+                "mean_probability": 0.9897214501668543
+              }
+            ]
+          }
+        },
+        "classwise3": {
+          "all": {
+            "HSV_V": [
+              {
+                "gt_pixels": 5510,
+                "tp": 369,
+                "fn": 5141,
+                "fp": 224,
+                "fn_Pbelow01": 4835,
+                "gt_probability_sum": 391.7942832532899,
+                "eligible_FN_scope_only_NOT_recovery": 250,
+                "interior": {
+                  "gt_pixels": 2645,
+                  "tp": 67,
+                  "fn": 2578,
+                  "fp": 0,
+                  "fn_Pbelow01": 2460,
+                  "gt_probability_sum": 99.14703491639011,
+                  "recall": 0.025330812854442344,
+                  "mean_probability": 0.03748470129164087
+                },
+                "recall": 0.06696914700544465,
+                "mean_probability": 0.07110604051783846
+              },
+              {
+                "gt_pixels": 98632,
+                "tp": 73280,
+                "fn": 25352,
+                "fp": 3577,
+                "fn_Pbelow01": 17857,
+                "gt_probability_sum": 71716.75436633296,
+                "eligible_FN_scope_only_NOT_recovery": 6443,
+                "interior": {
+                  "gt_pixels": 68451,
+                  "tp": 55197,
+                  "fn": 13254,
+                  "fp": 0,
+                  "fn_Pbelow01": 10219,
+                  "gt_probability_sum": 54947.56364887499,
+                  "recall": 0.806372441600561,
+                  "mean_probability": 0.8027284283483804
+                },
+                "recall": 0.7429637440181686,
+                "mean_probability": 0.727114469607561
+              },
+              {
+                "gt_pixels": 349278,
+                "tp": 337237,
+                "fn": 12041,
+                "fp": 6281,
+                "fn_Pbelow01": 5647,
+                "gt_probability_sum": 333721.4632806392,
+                "eligible_FN_scope_only_NOT_recovery": 5115,
+                "interior": {
+                  "gt_pixels": 319450,
+                  "tp": 312508,
+                  "fn": 6942,
+                  "fp": 0,
+                  "fn_Pbelow01": 3642,
+                  "gt_probability_sum": 310493.0714902549,
+                  "recall": 0.97826889967131,
+                  "mean_probability": 0.9719614070754575
+                },
+                "recall": 0.965526027977714,
+                "mean_probability": 0.9554608743769697
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 46105,
+                "tp": 25823,
+                "fn": 20282,
+                "fp": 801,
+                "fn_Pbelow01": 16562,
+                "gt_probability_sum": 25539.927143903213,
+                "eligible_FN_scope_only_NOT_recovery": 3016,
+                "interior": {
+                  "gt_pixels": 33895,
+                  "tp": 21882,
+                  "fn": 12013,
+                  "fp": 0,
+                  "fn_Pbelow01": 10001,
+                  "gt_probability_sum": 21794.963720447857,
+                  "recall": 0.6455819442395634,
+                  "mean_probability": 0.6430141236302658
+                },
+                "recall": 0.5600910964103676,
+                "mean_probability": 0.5539513533001456
+              },
+              {
+                "gt_pixels": 346855,
+                "tp": 324641,
+                "fn": 22214,
+                "fp": 5081,
+                "fn_Pbelow01": 11762,
+                "gt_probability_sum": 320298.8680425153,
+                "eligible_FN_scope_only_NOT_recovery": 8769,
+                "interior": {
+                  "gt_pixels": 297879,
+                  "tp": 287122,
+                  "fn": 10757,
+                  "fp": 0,
+                  "fn_Pbelow01": 6320,
+                  "gt_probability_sum": 285328.8645169619,
+                  "recall": 0.9638880216463732,
+                  "mean_probability": 0.9578683442503899
+                },
+                "recall": 0.9359559470095573,
+                "mean_probability": 0.9234373673221239
+              },
+              {
+                "gt_pixels": 60460,
+                "tp": 60422,
+                "fn": 38,
+                "fp": 4200,
+                "fn_Pbelow01": 15,
+                "gt_probability_sum": 59991.21674380684,
+                "eligible_FN_scope_only_NOT_recovery": 23,
+                "interior": {
+                  "gt_pixels": 58772,
+                  "tp": 58768,
+                  "fn": 4,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 58415.95393663645,
+                  "recall": 0.9999319403797727,
+                  "mean_probability": 0.9939419100360112
+                },
+                "recall": 0.9993714852795237,
+                "mean_probability": 0.9922463900728886
+              }
+            ]
+          },
+          "video_1": {
+            "HSV_V": [
+              {
+                "gt_pixels": 56,
+                "tp": 15,
+                "fn": 41,
+                "fp": 0,
+                "fn_Pbelow01": 8,
+                "gt_probability_sum": 19.75181240402162,
+                "eligible_FN_scope_only_NOT_recovery": 33,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fn": 0,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                },
+                "recall": 0.26785714285714285,
+                "mean_probability": 0.35271093578610035
+              },
+              {
+                "gt_pixels": 35841,
+                "tp": 32547,
+                "fn": 3294,
+                "fp": 3131,
+                "fn_Pbelow01": 797,
+                "gt_probability_sum": 31204.005790984724,
+                "eligible_FN_scope_only_NOT_recovery": 2435,
+                "interior": {
+                  "gt_pixels": 18703,
+                  "tp": 18667,
+                  "fn": 36,
+                  "fp": 0,
+                  "fn_Pbelow01": 4,
+                  "gt_probability_sum": 18553.849400147796,
+                  "recall": 0.9980751751055981,
+                  "mean_probability": 0.9920253114552636
+                },
+                "recall": 0.9080940821963673,
+                "mean_probability": 0.8706231910656712
+              },
+              {
+                "gt_pixels": 210820,
+                "tp": 208622,
+                "fn": 2198,
+                "fp": 2041,
+                "fn_Pbelow01": 356,
+                "gt_probability_sum": 206383.77346713672,
+                "eligible_FN_scope_only_NOT_recovery": 1842,
+                "interior": {
+                  "gt_pixels": 192994,
+                  "tp": 192725,
+                  "fn": 269,
+                  "fp": 0,
+                  "fn_Pbelow01": 9,
+                  "gt_probability_sum": 191439.42206078768,
+                  "recall": 0.9986061742852109,
+                  "mean_probability": 0.9919449416084836
+                },
+                "recall": 0.9895740442083294,
+                "mean_probability": 0.9789572785653008
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 1602,
+                "tp": 1155,
+                "fn": 447,
+                "fp": 323,
+                "fn_Pbelow01": 45,
+                "gt_probability_sum": 1022.2433774909005,
+                "eligible_FN_scope_only_NOT_recovery": 402,
+                "interior": {
+                  "gt_pixels": 66,
+                  "tp": 66,
+                  "fn": 0,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 65.69764846563339,
+                  "recall": 1.0,
+                  "mean_probability": 0.9954189161459605
+                },
+                "recall": 0.7209737827715356,
+                "mean_probability": 0.6381044803313985
+              },
+              {
+                "gt_pixels": 217105,
+                "tp": 212019,
+                "fn": 5086,
+                "fp": 4171,
+                "fn_Pbelow01": 1116,
+                "gt_probability_sum": 208766.00395597116,
+                "eligible_FN_scope_only_NOT_recovery": 3908,
+                "interior": {
+                  "gt_pixels": 183961,
+                  "tp": 183656,
+                  "fn": 305,
+                  "fp": 0,
+                  "fn_Pbelow01": 13,
+                  "gt_probability_sum": 182427.2277416438,
+                  "recall": 0.9983420398888895,
+                  "mean_probability": 0.9916625140200575
+                },
+                "recall": 0.9765735473618756,
+                "mean_probability": 0.9615900322699669
+              },
+              {
+                "gt_pixels": 28010,
+                "tp": 28010,
+                "fn": 0,
+                "fp": 678,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 27819.283737063408,
+                "eligible_FN_scope_only_NOT_recovery": 0,
+                "interior": {
+                  "gt_pixels": 27670,
+                  "tp": 27670,
+                  "fn": 0,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27500.346070826054,
+                  "recall": 1.0,
+                  "mean_probability": 0.9938686689854013
+                },
+                "recall": 1.0,
+                "mean_probability": 0.9931911366320388
+              }
+            ]
+          },
+          "video_2": {
+            "HSV_V": [
+              {
+                "gt_pixels": 5454,
+                "tp": 354,
+                "fn": 5100,
+                "fp": 224,
+                "fn_Pbelow01": 4827,
+                "gt_probability_sum": 372.0424708492683,
+                "eligible_FN_scope_only_NOT_recovery": 217,
+                "interior": {
+                  "gt_pixels": 2645,
+                  "tp": 67,
+                  "fn": 2578,
+                  "fp": 0,
+                  "fn_Pbelow01": 2460,
+                  "gt_probability_sum": 99.14703491639011,
+                  "recall": 0.025330812854442344,
+                  "mean_probability": 0.03748470129164087
+                },
+                "recall": 0.06490649064906491,
+                "mean_probability": 0.06821460778314417
+              },
+              {
+                "gt_pixels": 62791,
+                "tp": 40733,
+                "fn": 22058,
+                "fp": 446,
+                "fn_Pbelow01": 17060,
+                "gt_probability_sum": 40512.748575348225,
+                "eligible_FN_scope_only_NOT_recovery": 4008,
+                "interior": {
+                  "gt_pixels": 49748,
+                  "tp": 36530,
+                  "fn": 13218,
+                  "fp": 0,
+                  "fn_Pbelow01": 10215,
+                  "gt_probability_sum": 36393.71424872719,
+                  "recall": 0.7343008764171424,
+                  "mean_probability": 0.7315613541997104
+                },
+                "recall": 0.6487076173336943,
+                "mean_probability": 0.645199926348493
+              },
+              {
+                "gt_pixels": 138458,
+                "tp": 128615,
+                "fn": 9843,
+                "fp": 4240,
+                "fn_Pbelow01": 5291,
+                "gt_probability_sum": 127337.68981350242,
+                "eligible_FN_scope_only_NOT_recovery": 3273,
+                "interior": {
+                  "gt_pixels": 126456,
+                  "tp": 119783,
+                  "fn": 6673,
+                  "fp": 0,
+                  "fn_Pbelow01": 3633,
+                  "gt_probability_sum": 119053.64942946722,
+                  "recall": 0.9472306573037262,
+                  "mean_probability": 0.9414630340155249
+                },
+                "recall": 0.9289098499183868,
+                "mean_probability": 0.919684596148308
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 44503,
+                "tp": 24668,
+                "fn": 19835,
+                "fp": 478,
+                "fn_Pbelow01": 16517,
+                "gt_probability_sum": 24517.683766412312,
+                "eligible_FN_scope_only_NOT_recovery": 2614,
+                "interior": {
+                  "gt_pixels": 33829,
+                  "tp": 21816,
+                  "fn": 12013,
+                  "fp": 0,
+                  "fn_Pbelow01": 10001,
+                  "gt_probability_sum": 21729.266071982223,
+                  "recall": 0.6448904785834639,
+                  "mean_probability": 0.6423265858282013
+                },
+                "recall": 0.5542997101319013,
+                "mean_probability": 0.5509220449500554
+              },
+              {
+                "gt_pixels": 129750,
+                "tp": 112622,
+                "fn": 17128,
+                "fp": 910,
+                "fn_Pbelow01": 10646,
+                "gt_probability_sum": 111532.86408654417,
+                "eligible_FN_scope_only_NOT_recovery": 4861,
+                "interior": {
+                  "gt_pixels": 113918,
+                  "tp": 103466,
+                  "fn": 10452,
+                  "fp": 0,
+                  "fn_Pbelow01": 6307,
+                  "gt_probability_sum": 102901.63677531818,
+                  "recall": 0.908249793711266,
+                  "mean_probability": 0.9032956756203425
+                },
+                "recall": 0.8679922928709056,
+                "mean_probability": 0.8595981817845408
+              },
+              {
+                "gt_pixels": 32450,
+                "tp": 32412,
+                "fn": 38,
+                "fp": 3522,
+                "fn_Pbelow01": 15,
+                "gt_probability_sum": 32171.933006743435,
+                "eligible_FN_scope_only_NOT_recovery": 23,
+                "interior": {
+                  "gt_pixels": 31102,
+                  "tp": 31098,
+                  "fn": 4,
+                  "fp": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30915.607865810394,
+                  "recall": 0.9998713909073371,
+                  "mean_probability": 0.9940070691855956
+                },
+                "recall": 0.9988289676425269,
+                "mean_probability": 0.9914309092987191
+              }
+            ]
+          }
+        }
+      }
+    },
+    "image_native": {
+      "frames": 132,
+      "models": {
+        "member1_2net": {
+          "all": {
+            "HSV_V": [
+              {
+                "gt_pixels": 266,
+                "tp": 46,
+                "fn": 220,
+                "fp": 1551,
+                "fn_Pbelow01": 207,
+                "gt_probability_sum": 42.869189840290346,
+                "eligible_FN_scope_only_NOT_recovery": 13,
+                "interior": {
+                  "gt_pixels": 38,
+                  "tp": 19,
+                  "fn": 19,
+                  "fp": 0,
+                  "fn_Pbelow01": 19,
+                  "gt_probability_sum": 19.45694208983332,
+                  "recall": 0.5,
+                  "mean_probability": 0.5120247918377189
+                },
+                "recall": 0.17293233082706766,
+                "mean_probability": 0.1611623678206404
+              },
+              {
+                "gt_pixels": 19394,
+                "tp": 17837,
+                "fn": 1557,
+                "fp": 12522,
+                "fn_Pbelow01": 953,
+                "gt_probability_sum": 17633.915339523497,
+                "eligible_FN_scope_only_NOT_recovery": 519,
+                "interior": {
+                  "gt_pixels": 13295,
+                  "tp": 13114,
+                  "fn": 181,
+                  "fp": 0,
+                  "fn_Pbelow01": 108,
+                  "gt_probability_sum": 13074.65059522324,
+                  "recall": 0.9863858593456186,
+                  "mean_probability": 0.9834261448080662
+                },
+                "recall": 0.919717438383005,
+                "mean_probability": 0.9092459183006856
+              },
+              {
+                "gt_pixels": 91688,
+                "tp": 87398,
+                "fn": 4290,
+                "fp": 44270,
+                "fn_Pbelow01": 2951,
+                "gt_probability_sum": 86636.06959037752,
+                "eligible_FN_scope_only_NOT_recovery": 1210,
+                "interior": {
+                  "gt_pixels": 69759,
+                  "tp": 68557,
+                  "fn": 1202,
+                  "fp": 0,
+                  "fn_Pbelow01": 812,
+                  "gt_probability_sum": 68350.14876391442,
+                  "recall": 0.9827692484123912,
+                  "mean_probability": 0.9798040219027568
+                },
+                "recall": 0.9532108891021726,
+                "mean_probability": 0.9449008549687802
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 1211,
+                "tp": 704,
+                "fn": 507,
+                "fp": 3496,
+                "fn_Pbelow01": 400,
+                "gt_probability_sum": 668.1836649157267,
+                "eligible_FN_scope_only_NOT_recovery": 106,
+                "interior": {
+                  "gt_pixels": 224,
+                  "tp": 152,
+                  "fn": 72,
+                  "fp": 0,
+                  "fn_Pbelow01": 59,
+                  "gt_probability_sum": 154.76913757446164,
+                  "recall": 0.6785714285714286,
+                  "mean_probability": 0.6909336498859895
+                },
+                "recall": 0.5813377374071016,
+                "mean_probability": 0.5517619033160419
+              },
+              {
+                "gt_pixels": 36310,
+                "tp": 34406,
+                "fn": 1904,
+                "fp": 17084,
+                "fn_Pbelow01": 1208,
+                "gt_probability_sum": 34063.83527083309,
+                "eligible_FN_scope_only_NOT_recovery": 614,
+                "interior": {
+                  "gt_pixels": 25899,
+                  "tp": 25581,
+                  "fn": 318,
+                  "fp": 0,
+                  "fn_Pbelow01": 223,
+                  "gt_probability_sum": 25516.328727925084,
+                  "recall": 0.9877215336499479,
+                  "mean_probability": 0.9852244769267186
+                },
+                "recall": 0.9475626549160011,
+                "mean_probability": 0.9381392253052353
+              },
+              {
+                "gt_pixels": 73827,
+                "tp": 70171,
+                "fn": 3656,
+                "fp": 37763,
+                "fn_Pbelow01": 2503,
+                "gt_probability_sum": 69580.8351839925,
+                "eligible_FN_scope_only_NOT_recovery": 1022,
+                "interior": {
+                  "gt_pixels": 56969,
+                  "tp": 55957,
+                  "fn": 1012,
+                  "fp": 0,
+                  "fn_Pbelow01": 657,
+                  "gt_probability_sum": 55773.15843572795,
+                  "recall": 0.9822359528866577,
+                  "mean_probability": 0.9790089072254726
+                },
+                "recall": 0.9504788221111518,
+                "mean_probability": 0.9424849334795197
+              }
+            ]
+          }
+        },
+        "classwise3": {
+          "all": {
+            "HSV_V": [
+              {
+                "gt_pixels": 266,
+                "tp": 45,
+                "fn": 221,
+                "fp": 1218,
+                "fn_Pbelow01": 199,
+                "gt_probability_sum": 45.298993905036696,
+                "eligible_FN_scope_only_NOT_recovery": 22,
+                "interior": {
+                  "gt_pixels": 38,
+                  "tp": 19,
+                  "fn": 19,
+                  "fp": 0,
+                  "fn_Pbelow01": 16,
+                  "gt_probability_sum": 19.7384460117828,
+                  "recall": 0.5,
+                  "mean_probability": 0.5194327897837578
+                },
+                "recall": 0.16917293233082706,
+                "mean_probability": 0.17029696956780713
+              },
+              {
+                "gt_pixels": 19394,
+                "tp": 17768,
+                "fn": 1626,
+                "fp": 12544,
+                "fn_Pbelow01": 978,
+                "gt_probability_sum": 17604.40930886338,
+                "eligible_FN_scope_only_NOT_recovery": 490,
+                "interior": {
+                  "gt_pixels": 13295,
+                  "tp": 13103,
+                  "fn": 192,
+                  "fp": 0,
+                  "fn_Pbelow01": 111,
+                  "gt_probability_sum": 13073.887599727706,
+                  "recall": 0.9855584806318165,
+                  "mean_probability": 0.983368755150636
+                },
+                "recall": 0.9161596370011343,
+                "mean_probability": 0.9077245183491482
+              },
+              {
+                "gt_pixels": 91688,
+                "tp": 87561,
+                "fn": 4127,
+                "fp": 45967,
+                "fn_Pbelow01": 2586,
+                "gt_probability_sum": 86931.33730130512,
+                "eligible_FN_scope_only_NOT_recovery": 1316,
+                "interior": {
+                  "gt_pixels": 69759,
+                  "tp": 68508,
+                  "fn": 1251,
+                  "fp": 0,
+                  "fn_Pbelow01": 651,
+                  "gt_probability_sum": 68370.87994364998,
+                  "recall": 0.9820668300864405,
+                  "mean_probability": 0.9801012047714271
+                },
+                "recall": 0.9549886571852368,
+                "mean_probability": 0.9481212078058755
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 1211,
+                "tp": 574,
+                "fn": 637,
+                "fp": 3132,
+                "fn_Pbelow01": 478,
+                "gt_probability_sum": 573.468124319892,
+                "eligible_FN_scope_only_NOT_recovery": 86,
+                "interior": {
+                  "gt_pixels": 224,
+                  "tp": 150,
+                  "fn": 74,
+                  "fp": 0,
+                  "fn_Pbelow01": 63,
+                  "gt_probability_sum": 152.73286331917188,
+                  "recall": 0.6696428571428571,
+                  "mean_probability": 0.6818431398177316
+                },
+                "recall": 0.47398843930635837,
+                "mean_probability": 0.47354923560684725
+              },
+              {
+                "gt_pixels": 36310,
+                "tp": 34414,
+                "fn": 1896,
+                "fp": 16968,
+                "fn_Pbelow01": 1114,
+                "gt_probability_sum": 34110.51035280337,
+                "eligible_FN_scope_only_NOT_recovery": 654,
+                "interior": {
+                  "gt_pixels": 25899,
+                  "tp": 25578,
+                  "fn": 321,
+                  "fp": 0,
+                  "fn_Pbelow01": 198,
+                  "gt_probability_sum": 25529.152323951108,
+                  "recall": 0.9876056990617398,
+                  "mean_probability": 0.9857196155817255
+                },
+                "recall": 0.9477829798953457,
+                "mean_probability": 0.939424686114111
+              },
+              {
+                "gt_pixels": 73827,
+                "tp": 70386,
+                "fn": 3441,
+                "fp": 39629,
+                "fn_Pbelow01": 2171,
+                "gt_probability_sum": 69897.06712695028,
+                "eligible_FN_scope_only_NOT_recovery": 1088,
+                "interior": {
+                  "gt_pixels": 56969,
+                  "tp": 55902,
+                  "fn": 1067,
+                  "fp": 0,
+                  "fn_Pbelow01": 517,
+                  "gt_probability_sum": 55782.6208021192,
+                  "recall": 0.9812705155435413,
+                  "mean_probability": 0.9791750039867155
+                },
+                "recall": 0.9533910357999106,
+                "mean_probability": 0.9467683520520985
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

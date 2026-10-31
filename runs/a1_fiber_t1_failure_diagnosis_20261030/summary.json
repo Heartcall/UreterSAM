@@ -1,0 +1,157 @@
+{
+  "static": {
+    "video_native": {
+      "frames": 70,
+      "reference_positive_frames": 70,
+      "positive_stage_counts": {
+        "available": 68,
+        "all_rejected:insufficient_edge_pairs": 2
+      },
+      "neural_counts": {
+        "gt_fiber_pixels": 453420,
+        "tp": 417783,
+        "fp": 12492,
+        "fn": 35637,
+        "fn_below01": 23574,
+        "fn_01_to09": 12063,
+        "fn_ge09": 0,
+        "fp_below09": 7207,
+        "fp_ge09": 5285,
+        "fiber_argmax_but_missing_in_raw_mask": 0
+      }
+    },
+    "image_native": {
+      "frames": 132,
+      "reference_positive_frames": 50,
+      "positive_stage_counts": {
+        "all_rejected:width_profile": 23,
+        "all_rejected:shaft_too_short": 7,
+        "available": 11,
+        "qualified_unoriented": 3,
+        "all_rejected:line_residual": 2,
+        "all_rejected:line_residual,shaft_too_short": 1,
+        "all_rejected:insufficient_edge_pairs,line_residual": 1,
+        "no_proposal": 1,
+        "all_rejected:insufficient_edge_pairs": 1
+      },
+      "neural_counts": {
+        "gt_fiber_pixels": 111348,
+        "tp": 105281,
+        "fp": 58343,
+        "fn": 6067,
+        "fn_below01": 4111,
+        "fn_01_to09": 1956,
+        "fn_ge09": 0,
+        "fp_below09": 17037,
+        "fp_ge09": 41306,
+        "fiber_argmax_but_missing_in_raw_mask": 0
+      }
+    }
+  },
+  "full_video_metadata": {
+    "video_1": {
+      "raw2": {
+        "frames": 722,
+        "candidate_reasons": {},
+        "fronts": 0,
+        "front_profile_exact_range_boundary_hits": 0,
+        "history_used_frames": 0,
+        "no_truth_accuracy": null
+      },
+      "light_current": {
+        "frames": 722,
+        "candidate_reasons": {
+          "qualified_shaft": 722,
+          "insufficient_edge_pairs": 6
+        },
+        "fronts": 722,
+        "front_profile_exact_range_boundary_hits": 0,
+        "history_used_frames": 0,
+        "no_truth_accuracy": null
+      },
+      "evidence_state": {
+        "frames": 722,
+        "candidate_reasons": {
+          "qualified_shaft": 722,
+          "insufficient_edge_pairs": 6
+        },
+        "fronts": 722,
+        "front_profile_exact_range_boundary_hits": 0,
+        "history_used_frames": 0,
+        "no_truth_accuracy": null
+      },
+      "history_search": {
+        "frames": 722,
+        "candidate_reasons": {
+          "qualified_shaft": 722,
+          "insufficient_edge_pairs": 6
+        },
+        "fronts": 722,
+        "front_profile_exact_range_boundary_hits": 0,
+        "history_used_frames": 0,
+        "no_truth_accuracy": null
+      }
+    },
+    "video_2": {
+      "raw2": {
+        "frames": 1972,
+        "candidate_reasons": {},
+        "fronts": 0,
+        "front_profile_exact_range_boundary_hits": 0,
+        "history_used_frames": 0,
+        "no_truth_accuracy": null
+      },
+      "light_current": {
+        "frames": 1972,
+        "candidate_reasons": {
+          "qualified_shaft": 1699,
+          "insufficient_edge_pairs": 704,
+          "width_profile": 2,
+          "shaft_too_short": 10,
+          "line_residual": 1
+        },
+        "fronts": 1644,
+        "front_profile_exact_range_boundary_hits": 165,
+        "history_used_frames": 0,
+        "no_truth_accuracy": null
+      },
+      "evidence_state": {
+        "frames": 1972,
+        "candidate_reasons": {
+          "qualified_shaft": 1699,
+          "insufficient_edge_pairs": 704,
+          "width_profile": 2,
+          "shaft_too_short": 10,
+          "line_residual": 1
+        },
+        "fronts": 1644,
+        "front_profile_exact_range_boundary_hits": 165,
+        "history_used_frames": 0,
+        "no_truth_accuracy": null
+      },
+      "history_search": {
+        "frames": 1972,
+        "candidate_reasons": {
+          "qualified_shaft": 1699,
+          "insufficient_edge_pairs": 704,
+          "width_profile": 2,
+          "shaft_too_short": 10,
+          "line_residual": 1
+        },
+        "fronts": 1644,
+        "front_profile_exact_range_boundary_hits": 165,
+        "history_used_frames": 72,
+        "no_truth_accuracy": null
+      }
+    }
+  },
+  "actual_new_diagnostic_forward_calls": 5,
+  "new_candidate_masks": 0,
+  "training_updates": 0,
+  "train_pixels_read": 0,
+  "reserved_test_pixels_read": 0,
+  "default_changed": false,
+  "threshold_changes": false,
+  "tip_metrics": null,
+  "whole_video_accuracy": null
+}

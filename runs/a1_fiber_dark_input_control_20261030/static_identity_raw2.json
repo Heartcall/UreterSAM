@@ -1,0 +1,26 @@
+{
+  "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+  "individual_model_sha256": [
+    "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+    "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+  ],
+  "networks": 2,
+  "parameters": 49202790,
+  "actual_branch_forwards": [
+    202,
+    202
+  ],
+  "runtime": {
+    "python": "3.11.17",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "smp": "0.4.0",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "cpu_threads": 16,
+    "cublas_workspace_config": ":4096:8"
+  }
+}

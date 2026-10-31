@@ -1,0 +1,19 @@
+{
+  "passed": 13,
+  "checks": {
+    "configuration_and_finite_arms": true,
+    "bounded5point_sampling": true,
+    "neural_primary_fixed": true,
+    "all_processes_full_two_videos": true,
+    "prospective_scope_identity": true,
+    "unchanged_T1_sources": true,
+    "implementation_and_output_absent": true,
+    "frozen_files_match": true,
+    "unmodified_model_identity": true,
+    "fiber_local_evidence_control_20261030.md_links": true,
+    "2026-10-30-fiber-t1-failure-diagnosis.md_links": true,
+    "report.md_links": true,
+    "archive_roundtrip": true
+  },
+  "role": "protocol consistency, not future algorithm tests"
+}

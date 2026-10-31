@@ -1,0 +1,125 @@
+{
+  "arm": "raw2",
+  "video_id": "video_1",
+  "pid": 29408,
+  "frames": 722,
+  "approved_static_matches": 43,
+  "actual_branch_forwards": [
+    722,
+    722
+  ],
+  "warmup_branch_forwards": [
+    12,
+    12
+  ],
+  "networks": 2,
+  "parameters": 49202790,
+  "model_state_sha256": "1293d68d811a565c5ec908ef41b5a5212dc097840616d55d9e58c7705ae83c42",
+  "individual_model_sha256": [
+    "e55dc319bb3e5ad1ed11a5d47305e46f4c5a7727564c476a68446864b5c6b952",
+    "202dcbfca030cef0750485a82db8a42c6cb163134d79ced14e1c8383475c8e03"
+  ],
+  "runtime": {
+    "python": "3.11.17",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0",
+    "smp": "0.4.0",
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "device_name": "NVIDIA GeForce RTX 4070 Ti",
+    "cpu_threads": 16,
+    "cublas_workspace_config": ":4096:8",
+    "opencv": "4.14.0",
+    "opencv_threads": 24
+  },
+  "source_fps": 30.0,
+  "timestamp_mode": "decoded_monotonic_pts",
+  "timings": {
+    "rgb_pil_grid_ms": {
+      "mean": 1.0914696677822693,
+      "p50": 1.0991499875672162,
+      "p95": 1.3714999717194583,
+      "max": 3.1344000017270446
+    },
+    "fixed_transform_ms": {
+      "mean": 0.00564708878154611,
+      "p50": 0.005499925464391708,
+      "p95": 0.007400056347250938,
+      "max": 0.014699995517730713
+    },
+    "normalize_transfer_ms": {
+      "mean": 0.7311908600444279,
+      "p50": 0.7243999862112105,
+      "p95": 0.8755950315389779,
+      "max": 1.3895999873057008
+    },
+    "stone_forward_ms": {
+      "mean": 4.79780914312889,
+      "p50": 4.640900006052107,
+      "p95": 6.118629913544282,
+      "max": 10.196599992923439
+    },
+    "fiber_forward_ms": {
+      "mean": 4.481284763377645,
+      "p50": 4.378699988592416,
+      "p95": 5.4592698987107715,
+      "max": 9.900799952447414
+    },
+    "native_mapping_transfer_ms": {
+      "mean": 3.606606094254351,
+      "p50": 3.4842999884858727,
+      "p95": 4.204575001494959,
+      "max": 49.83639996498823
+    },
+    "pipeline_total_ms": {
+      "mean": 14.717630332386136,
+      "p50": 14.365150011144578,
+      "p95": 17.443995003122836,
+      "max": 63.916999963112175
+    },
+    "decode_ms": {
+      "mean": 0.22051205092375464,
+      "p50": 0.19289995543658733,
+      "p95": 0.2881150925531982,
+      "max": 11.232199962250888
+    },
+    "render_audit_encode_ms": {
+      "mean": 4.923648059844115,
+      "p50": 4.654250049497932,
+      "p95": 5.31617497326806,
+      "max": 174.64539990760386
+    },
+    "export_record_ms": {
+      "mean": 1.195421881607406,
+      "p50": 1.143149973358959,
+      "p95": 1.5529800672084093,
+      "max": 2.4374000495299697
+    },
+    "cycle_ms": {
+      "mean": 21.468983379120417,
+      "p50": 20.83055005641654,
+      "p95": 24.78138500009663,
+      "max": 190.55150006897748
+    }
+  },
+  "pipeline_p95_within_source_interval": true,
+  "transform_p95_within_design_target": true,
+  "changed_frames": 0,
+  "wall_seconds_including_decode_audit_export": 15.537508999928832,
+  "cpu_process_seconds": 245.484375,
+  "offline_fps_including_decode_audit_export": 46.468195127243824,
+  "cpu_sampled_peak_rss_mib": 2062.37890625,
+  "windows_peak_working_set_mib": 2066.04296875,
+  "cuda_peak_allocated_mib": 223.9208984375,
+  "cuda_peak_reserved_mib": 250.0,
+  "replay": {
+    "path": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\a1_fiber_dark_input_control_20261030\\full_video\\raw2\\video_1\\replay.mp4",
+    "frames": 722,
+    "sha256": "be3c5d53735cda191dd22fda41cfaf3cd5f244d8df98d5aa4ba041e1c7837564"
+  },
+  "whole_video_accuracy": null,
+  "tip_metrics": null,
+  "fallback": "none; fixed input diagnostic, original default remains available"
+}

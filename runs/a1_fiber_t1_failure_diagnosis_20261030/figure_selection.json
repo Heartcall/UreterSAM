@@ -1,0 +1,35 @@
+{
+  "rule": "first manifest row in each fixed failure category; all202 rows retain full statistics",
+  "cases": [
+    {
+      "title": "width-direction conflict",
+      "index": 1,
+      "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2"
+    },
+    {
+      "title": "short visible extent",
+      "index": 3,
+      "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352"
+    },
+    {
+      "title": "qualified but unoriented",
+      "index": 43,
+      "sample_id": "kidney_stones_fiber_v1__joint__eb9414350213456173b9216e"
+    },
+    {
+      "title": "line-residual rejection",
+      "index": 54,
+      "sample_id": "kidney_stones_fiber_v1__joint__f62020c170af2da2938be744"
+    },
+    {
+      "title": "provided laser-dot / accepted pose",
+      "index": 16,
+      "sample_id": "kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2"
+    },
+    {
+      "title": "no seed,445 reference pixels",
+      "index": 92,
+      "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9"
+    }
+  ]
+}

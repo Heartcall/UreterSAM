@@ -1,0 +1,1832 @@
+[
+  {
+    "video_id": "video_1",
+    "display_frame": 78,
+    "models": {
+      "raw2": {
+        "sample_id": "reviewed_video_1_000077",
+        "video_id": "video_1",
+        "frame_index": 77,
+        "mask_raw_sha256": "9a0e642de7fe070f818d6188593909d6fc6f566cfc169e0d65c352c8d2ef42d6",
+        "stone_probability_raw_sha256": "21fe45de904d5ce6e51dd53956eb68814b4eac718aecff94dcb13debea6f208c",
+        "fiber_probability_raw_sha256": "91aaf7cc3ca22ce5a67920b68df3d88da9155264a10f31496902fc8510a91510",
+        "image_sha256": "7f61d5518ab52f4b0eb3f374f40839f71cb82008494bc4987037a87aeb5e81ac",
+        "reference_sha256": "5e75b76dccdcd1a55ca9a7ccf41663e1d8461db072b61e6aab5fe0a15a14e503",
+        "paired_stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "paired_fiber": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "brightness": {
+          "HSV_V": [
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            },
+            {
+              "gt_pixels": 857,
+              "tp": 757,
+              "fp": 56,
+              "fn": 100,
+              "fn_Pbelow01": 2,
+              "gt_probability_sum": 699.4310319647193,
+              "recall": 0.8833138856476079,
+              "mean_probability": 0.8161388937744682,
+              "interior": {
+                "gt_pixels": 221,
+                "tp": 221,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 219.91155195236206,
+                "recall": 1.0,
+                "mean_probability": 0.9950748957120455
+              }
+            },
+            {
+              "gt_pixels": 4985,
+              "tp": 4953,
+              "fp": 1,
+              "fn": 32,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 4926.126166507602,
+              "recall": 0.99358074222668,
+              "mean_probability": 0.9881898027096493,
+              "interior": {
+                "gt_pixels": 4793,
+                "tp": 4768,
+                "fp": 0,
+                "fn": 25,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 4745.83246254921,
+                "recall": 0.9947840600876278,
+                "mean_probability": 0.9901590783536844
+              }
+            }
+          ],
+          "Lab_Lstar": [
+            {
+              "gt_pixels": 210,
+              "tp": 134,
+              "fp": 0,
+              "fn": 76,
+              "fn_Pbelow01": 2,
+              "gt_probability_sum": 122.72414442151785,
+              "recall": 0.638095238095238,
+              "mean_probability": 0.5844006877215135,
+              "interior": {
+                "gt_pixels": 9,
+                "tp": 9,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 8.69464498758316,
+                "recall": 1.0,
+                "mean_probability": 0.9660716652870178
+              }
+            },
+            {
+              "gt_pixels": 5632,
+              "tp": 5576,
+              "fp": 57,
+              "fn": 56,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 5502.833054050803,
+              "recall": 0.9900568181818182,
+              "mean_probability": 0.9770655280629977,
+              "interior": {
+                "gt_pixels": 5005,
+                "tp": 4980,
+                "fp": 0,
+                "fn": 25,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 4957.0493695139885,
+                "recall": 0.995004995004995,
+                "mean_probability": 0.9904194544483493
+              }
+            },
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            }
+          ]
+        },
+        "semantic_centerline": {
+          "reference_skeleton_pixels": 206,
+          "reference_skeleton_covered": 190,
+          "predicted_skeleton_pixels": 179,
+          "predicted_skeleton_in_reference": 178
+        },
+        "input_color": {
+          "original": {
+            "V": {
+              "mean": 0.40063202381134033,
+              "p05_p25_p50_p75_p95": [
+                0.20000000298023224,
+                0.29019609093666077,
+                0.3843137323856354,
+                0.501960813999176,
+                0.6039215922355652
+              ]
+            },
+            "saturation": {
+              "mean": 0.31669947504997253,
+              "p05_p25_p50_p75_p95": [
+                0.08196718990802765,
+                0.19548870623111725,
+                0.2959182560443878,
+                0.4249996840953827,
+                0.5223878026008606
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.73231506347656,
+              "p05_p25_p50_p75_p95": [
+                13.897705078125,
+                21.64306640625,
+                34.619140625,
+                45.5078125,
+                53.61328125
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3720797896385193,
+                "p05_p25_p50_p75_p95": [
+                  0.1725490242242813,
+                  0.27450981736183167,
+                  0.3686274588108063,
+                  0.48235294222831726,
+                  0.5843137502670288
+                ]
+              },
+              "1": {
+                "mean": 0.2893516421318054,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.16862745583057404,
+                  0.2980392277240753,
+                  0.40392157435417175,
+                  0.4745098054409027
+                ]
+              },
+              "2": {
+                "mean": 0.32710427045822144,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.1725490242242813,
+                  0.3137255012989044,
+                  0.4627451002597809,
+                  0.5607843399047852
+                ]
+              }
+            }
+          },
+          "transformed": {
+            "V": {
+              "mean": 0.40063202381134033,
+              "p05_p25_p50_p75_p95": [
+                0.20000000298023224,
+                0.29019609093666077,
+                0.3843137323856354,
+                0.501960813999176,
+                0.6039215922355652
+              ]
+            },
+            "saturation": {
+              "mean": 0.31669947504997253,
+              "p05_p25_p50_p75_p95": [
+                0.08196718990802765,
+                0.19548870623111725,
+                0.2959182560443878,
+                0.4249996840953827,
+                0.5223878026008606
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.73231506347656,
+              "p05_p25_p50_p75_p95": [
+                13.897705078125,
+                21.64306640625,
+                34.619140625,
+                45.5078125,
+                53.61328125
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3720797896385193,
+                "p05_p25_p50_p75_p95": [
+                  0.1725490242242813,
+                  0.27450981736183167,
+                  0.3686274588108063,
+                  0.48235294222831726,
+                  0.5843137502670288
+                ]
+              },
+              "1": {
+                "mean": 0.2893516421318054,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.16862745583057404,
+                  0.2980392277240753,
+                  0.40392157435417175,
+                  0.4745098054409027
+                ]
+              },
+              "2": {
+                "mean": 0.32710427045822144,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.1725490242242813,
+                  0.3137255012989044,
+                  0.4627451002597809,
+                  0.5607843399047852
+                ]
+              }
+            }
+          },
+          "max_chromaticity_absolute_change": 0.0,
+          "original_grid_raw_sha256": "51837181cad251111a0140b31d6bea9c65b41b2d08eeb2f867bc7987eddac4bf",
+          "transformed_grid_raw_sha256": "51837181cad251111a0140b31d6bea9c65b41b2d08eeb2f867bc7987eddac4bf"
+        },
+        "input_V_target_max_absolute_error": 0.0,
+        "baseline_FN_Pbelow01_recovered_TP": 0,
+        "baseline_FN_Pbelow01_remaining": 2,
+        "new_FP_baselinePbelow01": 0,
+        "baseline_highconfidence_TP_lost": 0,
+        "changed_pixels": 0,
+        "timings_not_latency_acceptance": {
+          "rgb_pil_grid_ms": 0.8335999445989728,
+          "fixed_transform_ms": 0.012299977242946625,
+          "normalize_transfer_ms": 0.6504000630229712,
+          "stone_forward_ms": 3.9097999688237906,
+          "fiber_forward_ms": 3.580800024792552,
+          "native_mapping_transfer_ms": 3.074399894103408,
+          "pipeline_total_ms": 12.06449989695102
+        },
+        "tip_metrics": null
+      },
+      "fiber_vlift": {
+        "sample_id": "reviewed_video_1_000077",
+        "video_id": "video_1",
+        "frame_index": 77,
+        "mask_raw_sha256": "aac710dd112dc3de880c5b9cd2a38837f76b60d08f269a3554331eb04af3a0d9",
+        "stone_probability_raw_sha256": "21fe45de904d5ce6e51dd53956eb68814b4eac718aecff94dcb13debea6f208c",
+        "fiber_probability_raw_sha256": "cf123803857068f992bc8c8a52670bd5978e152befd4a8c2b939ec23d07583ea",
+        "image_sha256": "7f61d5518ab52f4b0eb3f374f40839f71cb82008494bc4987037a87aeb5e81ac",
+        "reference_sha256": "5e75b76dccdcd1a55ca9a7ccf41663e1d8461db072b61e6aab5fe0a15a14e503",
+        "paired_stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "paired_fiber": {
+          "lost_tp": 13,
+          "gained_tp": 26,
+          "added_fp": 36,
+          "removed_fp": 2
+        },
+        "brightness": {
+          "HSV_V": [
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            },
+            {
+              "gt_pixels": 857,
+              "tp": 779,
+              "fp": 89,
+              "fn": 78,
+              "fn_Pbelow01": 1,
+              "gt_probability_sum": 727.632994145155,
+              "recall": 0.9089848308051341,
+              "mean_probability": 0.8490466676139498,
+              "interior": {
+                "gt_pixels": 221,
+                "tp": 221,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 220.3557124733925,
+                "recall": 1.0,
+                "mean_probability": 0.9970846718253054
+              }
+            },
+            {
+              "gt_pixels": 4985,
+              "tp": 4944,
+              "fp": 2,
+              "fn": 41,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 4926.359402120113,
+              "recall": 0.9917753259779338,
+              "mean_probability": 0.9882365901946065,
+              "interior": {
+                "gt_pixels": 4793,
+                "tp": 4758,
+                "fp": 0,
+                "fn": 35,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 4744.019314020872,
+                "recall": 0.9926976841226789,
+                "mean_probability": 0.9897807874026439
+              }
+            }
+          ],
+          "Lab_Lstar": [
+            {
+              "gt_pixels": 210,
+              "tp": 153,
+              "fp": 2,
+              "fn": 57,
+              "fn_Pbelow01": 1,
+              "gt_probability_sum": 140.08010664582253,
+              "recall": 0.7285714285714285,
+              "mean_probability": 0.6670481268848691,
+              "interior": {
+                "gt_pixels": 9,
+                "tp": 9,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 8.890957951545715,
+                "recall": 1.0,
+                "mean_probability": 0.9878842168384128
+              }
+            },
+            {
+              "gt_pixels": 5632,
+              "tp": 5570,
+              "fp": 89,
+              "fn": 62,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 5513.912289619446,
+              "recall": 0.9889914772727273,
+              "mean_probability": 0.9790327218784527,
+              "interior": {
+                "gt_pixels": 5005,
+                "tp": 4970,
+                "fp": 0,
+                "fn": 35,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 4955.484068542719,
+                "recall": 0.993006993006993,
+                "mean_probability": 0.9901067070015422
+              }
+            },
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            }
+          ]
+        },
+        "semantic_centerline": {
+          "reference_skeleton_pixels": 206,
+          "reference_skeleton_covered": 192,
+          "predicted_skeleton_pixels": 181,
+          "predicted_skeleton_in_reference": 180
+        },
+        "input_color": {
+          "original": {
+            "V": {
+              "mean": 0.40063202381134033,
+              "p05_p25_p50_p75_p95": [
+                0.20000000298023224,
+                0.29019609093666077,
+                0.3843137323856354,
+                0.501960813999176,
+                0.6039215922355652
+              ]
+            },
+            "saturation": {
+              "mean": 0.31669947504997253,
+              "p05_p25_p50_p75_p95": [
+                0.08196718990802765,
+                0.19548870623111725,
+                0.2959182560443878,
+                0.4249996840953827,
+                0.5223878026008606
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.73231506347656,
+              "p05_p25_p50_p75_p95": [
+                13.897705078125,
+                21.64306640625,
+                34.619140625,
+                45.5078125,
+                53.61328125
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3720797896385193,
+                "p05_p25_p50_p75_p95": [
+                  0.1725490242242813,
+                  0.27450981736183167,
+                  0.3686274588108063,
+                  0.48235294222831726,
+                  0.5843137502670288
+                ]
+              },
+              "1": {
+                "mean": 0.2893516421318054,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.16862745583057404,
+                  0.2980392277240753,
+                  0.40392157435417175,
+                  0.4745098054409027
+                ]
+              },
+              "2": {
+                "mean": 0.32710427045822144,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.1725490242242813,
+                  0.3137255012989044,
+                  0.4627451002597809,
+                  0.5607843399047852
+                ]
+              }
+            }
+          },
+          "transformed": {
+            "V": {
+              "mean": 0.5203506946563721,
+              "p05_p25_p50_p75_p95": [
+                0.3241313397884369,
+                0.4206143617630005,
+                0.5120120048522949,
+                0.6172610521316528,
+                0.7025648355484009
+              ]
+            },
+            "saturation": {
+              "mean": 0.3166995048522949,
+              "p05_p25_p50_p75_p95": [
+                0.08196725696325302,
+                0.19548873603343964,
+                0.2959182858467102,
+                0.42499983310699463,
+                0.5223879218101501
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 43.8012809753418,
+              "p05_p25_p50_p75_p95": [
+                24.066162109375,
+                31.92138671875,
+                45.556640625,
+                55.194091796875,
+                62.420654296875
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.48935866355895996,
+                "p05_p25_p50_p75_p95": [
+                  0.29230669140815735,
+                  0.40456706285476685,
+                  0.4972918927669525,
+                  0.5968617796897888,
+                  0.6865185499191284
+                ]
+              },
+              "1": {
+                "mean": 0.37369662523269653,
+                "p05_p25_p50_p75_p95": [
+                  0.18069419264793396,
+                  0.2459511011838913,
+                  0.38893651962280273,
+                  0.48992282152175903,
+                  0.5620783567428589
+                ]
+              },
+              "2": {
+                "mean": 0.4180646538734436,
+                "p05_p25_p50_p75_p95": [
+                  0.18069419264793396,
+                  0.25111791491508484,
+                  0.41727328300476074,
+                  0.5682526230812073,
+                  0.6610000133514404
+                ]
+              }
+            }
+          },
+          "max_chromaticity_absolute_change": 1.1920928955078125e-07,
+          "original_grid_raw_sha256": "51837181cad251111a0140b31d6bea9c65b41b2d08eeb2f867bc7987eddac4bf",
+          "transformed_grid_raw_sha256": "ba149576eee011edf026f4398a32f5c58d40d1ac8ce8a0c12dabf77a91d3e174"
+        },
+        "input_V_target_max_absolute_error": 0.0,
+        "baseline_FN_Pbelow01_recovered_TP": 0,
+        "baseline_FN_Pbelow01_remaining": 2,
+        "new_FP_baselinePbelow01": 0,
+        "baseline_highconfidence_TP_lost": 0,
+        "changed_pixels": 77,
+        "timings_not_latency_acceptance": {
+          "rgb_pil_grid_ms": 0.9200000204145908,
+          "fixed_transform_ms": 2.76159995701164,
+          "normalize_transfer_ms": 2.8096999740228057,
+          "stone_forward_ms": 30.44580004643649,
+          "fiber_forward_ms": 34.145599929615855,
+          "native_mapping_transfer_ms": 6.337700062431395,
+          "pipeline_total_ms": 77.424900024198
+        },
+        "tip_metrics": null
+      },
+      "fiber_channel_gamma": {
+        "sample_id": "reviewed_video_1_000077",
+        "video_id": "video_1",
+        "frame_index": 77,
+        "mask_raw_sha256": "6d98a455aca4b65a41d7cff683ab0e377f026bfdddada1f695dc80782576147b",
+        "stone_probability_raw_sha256": "21fe45de904d5ce6e51dd53956eb68814b4eac718aecff94dcb13debea6f208c",
+        "fiber_probability_raw_sha256": "5d35844a5ae600cd5172389425477dd94e8de498102d3b4eab7b17490b2a8177",
+        "image_sha256": "7f61d5518ab52f4b0eb3f374f40839f71cb82008494bc4987037a87aeb5e81ac",
+        "reference_sha256": "5e75b76dccdcd1a55ca9a7ccf41663e1d8461db072b61e6aab5fe0a15a14e503",
+        "paired_stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "paired_fiber": {
+          "lost_tp": 29,
+          "gained_tp": 22,
+          "added_fp": 4,
+          "removed_fp": 29
+        },
+        "brightness": {
+          "HSV_V": [
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            },
+            {
+              "gt_pixels": 857,
+              "tp": 734,
+              "fp": 29,
+              "fn": 123,
+              "fn_Pbelow01": 4,
+              "gt_probability_sum": 679.2710046619177,
+              "recall": 0.8564760793465578,
+              "mean_probability": 0.7926149412624477,
+              "interior": {
+                "gt_pixels": 221,
+                "tp": 221,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 220.07991445064545,
+                "recall": 1.0,
+                "mean_probability": 0.9958367169712463
+              }
+            },
+            {
+              "gt_pixels": 4985,
+              "tp": 4969,
+              "fp": 3,
+              "fn": 16,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 4926.001372694969,
+              "recall": 0.99679037111334,
+              "mean_probability": 0.9881647688455304,
+              "interior": {
+                "gt_pixels": 4793,
+                "tp": 4782,
+                "fp": 0,
+                "fn": 11,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 4748.962940275669,
+                "recall": 0.9977049864385562,
+                "mean_probability": 0.9908122137024138
+              }
+            }
+          ],
+          "Lab_Lstar": [
+            {
+              "gt_pixels": 210,
+              "tp": 136,
+              "fp": 1,
+              "fn": 74,
+              "fn_Pbelow01": 4,
+              "gt_probability_sum": 125.8630048558116,
+              "recall": 0.6476190476190476,
+              "mean_probability": 0.5993476421705314,
+              "interior": {
+                "gt_pixels": 9,
+                "tp": 9,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 8.8197340965271,
+                "recall": 1.0,
+                "mean_probability": 0.9799704551696777
+              }
+            },
+            {
+              "gt_pixels": 5632,
+              "tp": 5567,
+              "fp": 31,
+              "fn": 65,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 5479.409372501075,
+              "recall": 0.9884588068181818,
+              "mean_probability": 0.9729064936969238,
+              "interior": {
+                "gt_pixels": 5005,
+                "tp": 4994,
+                "fp": 0,
+                "fn": 11,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 4960.223120629787,
+                "recall": 0.9978021978021978,
+                "mean_probability": 0.9910535705554021
+              }
+            },
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            }
+          ]
+        },
+        "semantic_centerline": {
+          "reference_skeleton_pixels": 206,
+          "reference_skeleton_covered": 182,
+          "predicted_skeleton_pixels": 184,
+          "predicted_skeleton_in_reference": 184
+        },
+        "input_color": {
+          "original": {
+            "V": {
+              "mean": 0.40063202381134033,
+              "p05_p25_p50_p75_p95": [
+                0.20000000298023224,
+                0.29019609093666077,
+                0.3843137323856354,
+                0.501960813999176,
+                0.6039215922355652
+              ]
+            },
+            "saturation": {
+              "mean": 0.31669947504997253,
+              "p05_p25_p50_p75_p95": [
+                0.08196718990802765,
+                0.19548870623111725,
+                0.2959182560443878,
+                0.4249996840953827,
+                0.5223878026008606
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.73231506347656,
+              "p05_p25_p50_p75_p95": [
+                13.897705078125,
+                21.64306640625,
+                34.619140625,
+                45.5078125,
+                53.61328125
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3720797896385193,
+                "p05_p25_p50_p75_p95": [
+                  0.1725490242242813,
+                  0.27450981736183167,
+                  0.3686274588108063,
+                  0.48235294222831726,
+                  0.5843137502670288
+                ]
+              },
+              "1": {
+                "mean": 0.2893516421318054,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.16862745583057404,
+                  0.2980392277240753,
+                  0.40392157435417175,
+                  0.4745098054409027
+                ]
+              },
+              "2": {
+                "mean": 0.32710427045822144,
+                "p05_p25_p50_p75_p95": [
+                  0.11372549086809158,
+                  0.1725490242242813,
+                  0.3137255012989044,
+                  0.4627451002597809,
+                  0.5607843399047852
+                ]
+              }
+            }
+          },
+          "transformed": {
+            "V": {
+              "mean": 0.5203506946563721,
+              "p05_p25_p50_p75_p95": [
+                0.3241313397884369,
+                0.4206143617630005,
+                0.5120120048522949,
+                0.6172610521316528,
+                0.7025648355484009
+              ]
+            },
+            "saturation": {
+              "mean": 0.24413630366325378,
+              "p05_p25_p50_p75_p95": [
+                0.05810880288481712,
+                0.14123867452144623,
+                0.21776698529720306,
+                0.3211597800254822,
+                0.4038538932800293
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 46.49723434448242,
+              "p05_p25_p50_p75_p95": [
+                26.678466796875,
+                35.101318359375,
+                48.18115234375,
+                57.476806640625,
+                64.776611328125
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.49050450325012207,
+                "p05_p25_p50_p75_p95": [
+                  0.29230669140815735,
+                  0.40456706285476685,
+                  0.4972918927669525,
+                  0.6002821922302246,
+                  0.6865185499191284
+                ]
+              },
+              "1": {
+                "mean": 0.41119375824928284,
+                "p05_p25_p50_p75_p95": [
+                  0.2183234989643097,
+                  0.28764036297798157,
+                  0.42854005098342896,
+                  0.5301612019538879,
+                  0.5934329032897949
+                ]
+              },
+              "2": {
+                "mean": 0.44440993666648865,
+                "p05_p25_p50_p75_p95": [
+                  0.2183234989643097,
+                  0.29230669140815735,
+                  0.44420647621154785,
+                  0.5830949544906616,
+                  0.6670480370521545
+                ]
+              }
+            }
+          },
+          "max_chromaticity_absolute_change": 0.07107383012771606,
+          "original_grid_raw_sha256": "51837181cad251111a0140b31d6bea9c65b41b2d08eeb2f867bc7987eddac4bf",
+          "transformed_grid_raw_sha256": "eec5167ced1acb5dffc61facbd0afe69a28415014b042c869c2ee36506c3fa70"
+        },
+        "input_V_target_max_absolute_error": 0.0,
+        "baseline_FN_Pbelow01_recovered_TP": 0,
+        "baseline_FN_Pbelow01_remaining": 2,
+        "new_FP_baselinePbelow01": 0,
+        "baseline_highconfidence_TP_lost": 0,
+        "changed_pixels": 84,
+        "timings_not_latency_acceptance": {
+          "rgb_pil_grid_ms": 0.8148000342771411,
+          "fixed_transform_ms": 0.9940000018104911,
+          "normalize_transfer_ms": 3.2739000162109733,
+          "stone_forward_ms": 17.8205999545753,
+          "fiber_forward_ms": 17.55850005429238,
+          "native_mapping_transfer_ms": 4.179999930784106,
+          "pipeline_total_ms": 44.64550002012402
+        },
+        "tip_metrics": null
+      }
+    }
+  },
+  {
+    "video_id": "video_2",
+    "display_frame": 1209,
+    "models": {
+      "raw2": {
+        "sample_id": "reviewed_video_2_001208",
+        "video_id": "video_2",
+        "frame_index": 1208,
+        "mask_raw_sha256": "afc01d44ffaa2082404175b4feeac92a7250673dafe06a635ce77a3e5e8fc30c",
+        "stone_probability_raw_sha256": "3945e82e371661630075bd8cd9d51ada68db854819e304a19d2ae137596ccc53",
+        "fiber_probability_raw_sha256": "a379abc6802c8de764db45b8a9140ff0ab87e811f49be5197e367a278ae5ec6a",
+        "image_sha256": "62c60627b9b20fe58f6f76107dad42e28f1dee2622baf17bbf8c993dfbf1b149",
+        "reference_sha256": "9b0ae95581b3d9767c99ba5c230a152a1fa96170765c5c49372245b79a70acb9",
+        "paired_stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "paired_fiber": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "brightness": {
+          "HSV_V": [
+            {
+              "gt_pixels": 262,
+              "tp": 2,
+              "fp": 0,
+              "fn": 260,
+              "fn_Pbelow01": 246,
+              "gt_probability_sum": 4.650122465161985,
+              "recall": 0.007633587786259542,
+              "mean_probability": 0.01774855902733582,
+              "interior": {
+                "gt_pixels": 48,
+                "tp": 0,
+                "fp": 0,
+                "fn": 48,
+                "fn_Pbelow01": 48,
+                "gt_probability_sum": 0.0019859203093801625,
+                "recall": 0.0,
+                "mean_probability": 4.137333977875338e-05
+              }
+            },
+            {
+              "gt_pixels": 3580,
+              "tp": 388,
+              "fp": 0,
+              "fn": 3192,
+              "fn_Pbelow01": 2982,
+              "gt_probability_sum": 395.67463772789415,
+              "recall": 0.10837988826815642,
+              "mean_probability": 0.11052364182343412,
+              "interior": {
+                "gt_pixels": 2701,
+                "tp": 288,
+                "fp": 0,
+                "fn": 2413,
+                "fn_Pbelow01": 2294,
+                "gt_probability_sum": 290.7931450977667,
+                "recall": 0.10662717512032581,
+                "mean_probability": 0.10766129029906209
+              }
+            },
+            {
+              "gt_pixels": 7580,
+              "tp": 7030,
+              "fp": 117,
+              "fn": 550,
+              "fn_Pbelow01": 273,
+              "gt_probability_sum": 6997.79649506713,
+              "recall": 0.9274406332453826,
+              "mean_probability": 0.923192149745004,
+              "interior": {
+                "gt_pixels": 7546,
+                "tp": 7030,
+                "fp": 0,
+                "fn": 516,
+                "fn_Pbelow01": 252,
+                "gt_probability_sum": 6994.055053210061,
+                "recall": 0.9316194010071561,
+                "mean_probability": 0.9268559572237027
+              }
+            }
+          ],
+          "Lab_Lstar": [
+            {
+              "gt_pixels": 2776,
+              "tp": 150,
+              "fp": 0,
+              "fn": 2626,
+              "fn_Pbelow01": 2521,
+              "gt_probability_sum": 150.96751373233565,
+              "recall": 0.05403458213256484,
+              "mean_probability": 0.05438311013412667,
+              "interior": {
+                "gt_pixels": 1784,
+                "tp": 58,
+                "fp": 0,
+                "fn": 1726,
+                "fn_Pbelow01": 1702,
+                "gt_probability_sum": 56.35600621367121,
+                "recall": 0.032511210762331835,
+                "mean_probability": 0.031589689581654264
+              }
+            },
+            {
+              "gt_pixels": 8646,
+              "tp": 7270,
+              "fp": 0,
+              "fn": 1376,
+              "fn_Pbelow01": 980,
+              "gt_probability_sum": 7247.153741527851,
+              "recall": 0.840851260698589,
+              "mean_probability": 0.8382088528253355,
+              "interior": {
+                "gt_pixels": 8511,
+                "tp": 7260,
+                "fp": 0,
+                "fn": 1251,
+                "fn_Pbelow01": 892,
+                "gt_probability_sum": 7228.494178014465,
+                "recall": 0.853013746915756,
+                "mean_probability": 0.849311970157968
+              }
+            },
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 117,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            }
+          ]
+        },
+        "semantic_centerline": {
+          "reference_skeleton_pixels": 245,
+          "reference_skeleton_covered": 147,
+          "predicted_skeleton_pixels": 197,
+          "predicted_skeleton_in_reference": 144
+        },
+        "input_color": {
+          "original": {
+            "V": {
+              "mean": 0.40104132890701294,
+              "p05_p25_p50_p75_p95": [
+                0.12941177189350128,
+                0.20000000298023224,
+                0.32156863808631897,
+                0.6117647290229797,
+                0.772549033164978
+              ]
+            },
+            "saturation": {
+              "mean": 0.3582703471183777,
+              "p05_p25_p50_p75_p95": [
+                0.08279154449701309,
+                0.15217392146587372,
+                0.3714284300804138,
+                0.47826066613197327,
+                0.9999998211860657
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.27790451049805,
+              "p05_p25_p50_p75_p95": [
+                7.81402587890625,
+                12.554931640625,
+                26.9989013671875,
+                53.924560546875,
+                70.7763671875
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3325933814048767,
+                "p05_p25_p50_p75_p95": [
+                  0.0,
+                  0.16862745583057404,
+                  0.27843138575553894,
+                  0.5176470875740051,
+                  0.6745098233222961
+                ]
+              },
+              "1": {
+                "mean": 0.300048291683197,
+                "p05_p25_p50_p75_p95": [
+                  0.07450980693101883,
+                  0.10196078568696976,
+                  0.23137255012989044,
+                  0.4901960790157318,
+                  0.6784313917160034
+                ]
+              },
+              "2": {
+                "mean": 0.3616175949573517,
+                "p05_p25_p50_p75_p95": [
+                  0.08627451211214066,
+                  0.12156862765550613,
+                  0.2705882489681244,
+                  0.6117647290229797,
+                  0.772549033164978
+                ]
+              }
+            }
+          },
+          "transformed": {
+            "V": {
+              "mean": 0.40104132890701294,
+              "p05_p25_p50_p75_p95": [
+                0.12941177189350128,
+                0.20000000298023224,
+                0.32156863808631897,
+                0.6117647290229797,
+                0.772549033164978
+              ]
+            },
+            "saturation": {
+              "mean": 0.3582703471183777,
+              "p05_p25_p50_p75_p95": [
+                0.08279154449701309,
+                0.15217392146587372,
+                0.3714284300804138,
+                0.47826066613197327,
+                0.9999998211860657
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.27790451049805,
+              "p05_p25_p50_p75_p95": [
+                7.81402587890625,
+                12.554931640625,
+                26.9989013671875,
+                53.924560546875,
+                70.7763671875
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3325933814048767,
+                "p05_p25_p50_p75_p95": [
+                  0.0,
+                  0.16862745583057404,
+                  0.27843138575553894,
+                  0.5176470875740051,
+                  0.6745098233222961
+                ]
+              },
+              "1": {
+                "mean": 0.300048291683197,
+                "p05_p25_p50_p75_p95": [
+                  0.07450980693101883,
+                  0.10196078568696976,
+                  0.23137255012989044,
+                  0.4901960790157318,
+                  0.6784313917160034
+                ]
+              },
+              "2": {
+                "mean": 0.3616175949573517,
+                "p05_p25_p50_p75_p95": [
+                  0.08627451211214066,
+                  0.12156862765550613,
+                  0.2705882489681244,
+                  0.6117647290229797,
+                  0.772549033164978
+                ]
+              }
+            }
+          },
+          "max_chromaticity_absolute_change": 0.0,
+          "original_grid_raw_sha256": "f0f2f6326e815f8c02191e913dd85f3ad3824a94aea4199d9e322ddef6408b37",
+          "transformed_grid_raw_sha256": "f0f2f6326e815f8c02191e913dd85f3ad3824a94aea4199d9e322ddef6408b37"
+        },
+        "input_V_target_max_absolute_error": 0.0,
+        "baseline_FN_Pbelow01_recovered_TP": 0,
+        "baseline_FN_Pbelow01_remaining": 3501,
+        "new_FP_baselinePbelow01": 0,
+        "baseline_highconfidence_TP_lost": 0,
+        "changed_pixels": 0,
+        "timings_not_latency_acceptance": {
+          "rgb_pil_grid_ms": 0.8468999294564128,
+          "fixed_transform_ms": 0.004700035788118839,
+          "normalize_transfer_ms": 1.433999976143241,
+          "stone_forward_ms": 44.44019997026771,
+          "fiber_forward_ms": 45.24840007070452,
+          "native_mapping_transfer_ms": 6.315300008282065,
+          "pipeline_total_ms": 98.29310001805425
+        },
+        "tip_metrics": null
+      },
+      "fiber_vlift": {
+        "sample_id": "reviewed_video_2_001208",
+        "video_id": "video_2",
+        "frame_index": 1208,
+        "mask_raw_sha256": "e0a61e003c204562dccf9489b89675c126a632448093db4a65af2b23716d92ff",
+        "stone_probability_raw_sha256": "3945e82e371661630075bd8cd9d51ada68db854819e304a19d2ae137596ccc53",
+        "fiber_probability_raw_sha256": "c14ececbb1f1730caf618b371d028a7f303ccee119899dba3b8396dd72497dfd",
+        "image_sha256": "62c60627b9b20fe58f6f76107dad42e28f1dee2622baf17bbf8c993dfbf1b149",
+        "reference_sha256": "9b0ae95581b3d9767c99ba5c230a152a1fa96170765c5c49372245b79a70acb9",
+        "paired_stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "paired_fiber": {
+          "lost_tp": 0,
+          "gained_tp": 236,
+          "added_fp": 1170,
+          "removed_fp": 0
+        },
+        "brightness": {
+          "HSV_V": [
+            {
+              "gt_pixels": 262,
+              "tp": 5,
+              "fp": 4,
+              "fn": 257,
+              "fn_Pbelow01": 228,
+              "gt_probability_sum": 11.678686306673626,
+              "recall": 0.019083969465648856,
+              "mean_probability": 0.04457513857509018,
+              "interior": {
+                "gt_pixels": 48,
+                "tp": 0,
+                "fp": 0,
+                "fn": 48,
+                "fn_Pbelow01": 48,
+                "gt_probability_sum": 0.0021303029207047075,
+                "recall": 0.0,
+                "mean_probability": 4.438131084801474e-05
+              }
+            },
+            {
+              "gt_pixels": 3580,
+              "tp": 499,
+              "fp": 31,
+              "fn": 3081,
+              "fn_Pbelow01": 2868,
+              "gt_probability_sum": 495.6464099640725,
+              "recall": 0.1393854748603352,
+              "mean_probability": 0.13844871786705937,
+              "interior": {
+                "gt_pixels": 2701,
+                "tp": 348,
+                "fp": 0,
+                "fn": 2353,
+                "fn_Pbelow01": 2250,
+                "gt_probability_sum": 341.93457218105686,
+                "recall": 0.12884116993706035,
+                "mean_probability": 0.126595546901539
+              }
+            },
+            {
+              "gt_pixels": 7580,
+              "tp": 7152,
+              "fp": 1252,
+              "fn": 428,
+              "fn_Pbelow01": 183,
+              "gt_probability_sum": 7110.911529508012,
+              "recall": 0.9435356200527705,
+              "mean_probability": 0.9381149775076533,
+              "interior": {
+                "gt_pixels": 7546,
+                "tp": 7145,
+                "fp": 0,
+                "fn": 401,
+                "fn_Pbelow01": 171,
+                "gt_probability_sum": 7101.533409222553,
+                "recall": 0.9468592631857938,
+                "mean_probability": 0.9410990470742848
+              }
+            }
+          ],
+          "Lab_Lstar": [
+            {
+              "gt_pixels": 2776,
+              "tp": 202,
+              "fp": 7,
+              "fn": 2574,
+              "fn_Pbelow01": 2433,
+              "gt_probability_sum": 210.50810786568763,
+              "recall": 0.07276657060518732,
+              "mean_probability": 0.07583145096026211,
+              "interior": {
+                "gt_pixels": 1784,
+                "tp": 71,
+                "fp": 0,
+                "fn": 1713,
+                "fn_Pbelow01": 1691,
+                "gt_probability_sum": 70.56415234163069,
+                "recall": 0.0397982062780269,
+                "mean_probability": 0.03955389705248357
+              }
+            },
+            {
+              "gt_pixels": 8646,
+              "tp": 7454,
+              "fp": 126,
+              "fn": 1192,
+              "fn_Pbelow01": 846,
+              "gt_probability_sum": 7407.72851791307,
+              "recall": 0.8621327781633125,
+              "mean_probability": 0.8567809990646623,
+              "interior": {
+                "gt_pixels": 8511,
+                "tp": 7422,
+                "fp": 0,
+                "fn": 1089,
+                "fn_Pbelow01": 778,
+                "gt_probability_sum": 7372.9059593649,
+                "recall": 0.8720479379626366,
+                "mean_probability": 0.8662796333409587
+              }
+            },
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 1154,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            }
+          ]
+        },
+        "semantic_centerline": {
+          "reference_skeleton_pixels": 245,
+          "reference_skeleton_covered": 150,
+          "predicted_skeleton_pixels": 368,
+          "predicted_skeleton_in_reference": 147
+        },
+        "input_color": {
+          "original": {
+            "V": {
+              "mean": 0.40104132890701294,
+              "p05_p25_p50_p75_p95": [
+                0.12941177189350128,
+                0.20000000298023224,
+                0.32156863808631897,
+                0.6117647290229797,
+                0.772549033164978
+              ]
+            },
+            "saturation": {
+              "mean": 0.3582703471183777,
+              "p05_p25_p50_p75_p95": [
+                0.08279154449701309,
+                0.15217392146587372,
+                0.3714284300804138,
+                0.47826066613197327,
+                0.9999998211860657
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.27790451049805,
+              "p05_p25_p50_p75_p95": [
+                7.81402587890625,
+                12.554931640625,
+                26.9989013671875,
+                53.924560546875,
+                70.7763671875
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3325933814048767,
+                "p05_p25_p50_p75_p95": [
+                  0.0,
+                  0.16862745583057404,
+                  0.27843138575553894,
+                  0.5176470875740051,
+                  0.6745098233222961
+                ]
+              },
+              "1": {
+                "mean": 0.300048291683197,
+                "p05_p25_p50_p75_p95": [
+                  0.07450980693101883,
+                  0.10196078568696976,
+                  0.23137255012989044,
+                  0.4901960790157318,
+                  0.6784313917160034
+                ]
+              },
+              "2": {
+                "mean": 0.3616175949573517,
+                "p05_p25_p50_p75_p95": [
+                  0.08627451211214066,
+                  0.12156862765550613,
+                  0.2705882489681244,
+                  0.6117647290229797,
+                  0.772549033164978
+                ]
+              }
+            }
+          },
+          "transformed": {
+            "V": {
+              "mean": 0.5095793604850769,
+              "p05_p25_p50_p75_p95": [
+                0.23899106681346893,
+                0.3241313397884369,
+                0.4519512355327606,
+                0.7089393734931946,
+                0.8347342610359192
+              ]
+            },
+            "saturation": {
+              "mean": 0.35827040672302246,
+              "p05_p25_p50_p75_p95": [
+                0.08279154635965824,
+                0.15217389166355133,
+                0.3714284896850586,
+                0.47826072573661804,
+                0.9999998211860657
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 42.27964782714844,
+              "p05_p25_p50_p75_p95": [
+                17.138671875,
+                22.430419921875,
+                37.39013671875,
+                63.3544921875,
+                76.336669921875
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.4327000379562378,
+                "p05_p25_p50_p75_p95": [
+                  0.0,
+                  0.2829413414001465,
+                  0.40860411524772644,
+                  0.6167294979095459,
+                  0.7350472211837769
+                ]
+              },
+              "1": {
+                "mean": 0.3731193542480469,
+                "p05_p25_p50_p75_p95": [
+                  0.13156774640083313,
+                  0.16608335077762604,
+                  0.31769371032714844,
+                  0.5833632946014404,
+                  0.7371640205383301
+                ]
+              },
+              "2": {
+                "mean": 0.44792068004608154,
+                "p05_p25_p50_p75_p95": [
+                  0.15395155549049377,
+                  0.19650399684906006,
+                  0.38192984461784363,
+                  0.7089393734931946,
+                  0.8347342610359192
+                ]
+              }
+            }
+          },
+          "max_chromaticity_absolute_change": 1.1920928955078125e-07,
+          "original_grid_raw_sha256": "f0f2f6326e815f8c02191e913dd85f3ad3824a94aea4199d9e322ddef6408b37",
+          "transformed_grid_raw_sha256": "0f89546cd1b65fba880577e221bf896f6c16b9bcd5a7237267c98ed890d22d82"
+        },
+        "input_V_target_max_absolute_error": 0.0,
+        "baseline_FN_Pbelow01_recovered_TP": 1,
+        "baseline_FN_Pbelow01_remaining": 3500,
+        "new_FP_baselinePbelow01": 536,
+        "baseline_highconfidence_TP_lost": 0,
+        "changed_pixels": 1406,
+        "timings_not_latency_acceptance": {
+          "rgb_pil_grid_ms": 0.8657999569550157,
+          "fixed_transform_ms": 2.7259000344201922,
+          "normalize_transfer_ms": 2.139999996870756,
+          "stone_forward_ms": 19.46509990375489,
+          "fiber_forward_ms": 14.661000110208988,
+          "native_mapping_transfer_ms": 4.393099923618138,
+          "pipeline_total_ms": 44.25719997379929
+        },
+        "tip_metrics": null
+      },
+      "fiber_channel_gamma": {
+        "sample_id": "reviewed_video_2_001208",
+        "video_id": "video_2",
+        "frame_index": 1208,
+        "mask_raw_sha256": "1ed7d6f53845a0fda3b416a56ccb2aaab7afb70ed4298a473e575667fc864e54",
+        "stone_probability_raw_sha256": "3945e82e371661630075bd8cd9d51ada68db854819e304a19d2ae137596ccc53",
+        "fiber_probability_raw_sha256": "295be289c0e348dd8ff2e806c4c44db8ae7dd3bee9e9905871e8e90f4648c9fc",
+        "image_sha256": "62c60627b9b20fe58f6f76107dad42e28f1dee2622baf17bbf8c993dfbf1b149",
+        "reference_sha256": "9b0ae95581b3d9767c99ba5c230a152a1fa96170765c5c49372245b79a70acb9",
+        "paired_stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "paired_fiber": {
+          "lost_tp": 1,
+          "gained_tp": 477,
+          "added_fp": 109,
+          "removed_fp": 25
+        },
+        "brightness": {
+          "HSV_V": [
+            {
+              "gt_pixels": 262,
+              "tp": 2,
+              "fp": 0,
+              "fn": 260,
+              "fn_Pbelow01": 236,
+              "gt_probability_sum": 8.043408139161329,
+              "recall": 0.007633587786259542,
+              "mean_probability": 0.030700031065501256,
+              "interior": {
+                "gt_pixels": 48,
+                "tp": 0,
+                "fp": 0,
+                "fn": 48,
+                "fn_Pbelow01": 48,
+                "gt_probability_sum": 0.0020192083429719787,
+                "recall": 0.0,
+                "mean_probability": 4.206684047858289e-05
+              }
+            },
+            {
+              "gt_pixels": 3580,
+              "tp": 601,
+              "fp": 1,
+              "fn": 2979,
+              "fn_Pbelow01": 2693,
+              "gt_probability_sum": 604.2390357669938,
+              "recall": 0.16787709497206704,
+              "mean_probability": 0.16878185356619937,
+              "interior": {
+                "gt_pixels": 2701,
+                "tp": 445,
+                "fp": 0,
+                "fn": 2256,
+                "fn_Pbelow01": 2088,
+                "gt_probability_sum": 448.03534563884386,
+                "recall": 0.16475379489078118,
+                "mean_probability": 0.16587758076225245
+              }
+            },
+            {
+              "gt_pixels": 7580,
+              "tp": 7293,
+              "fp": 200,
+              "fn": 287,
+              "fn_Pbelow01": 68,
+              "gt_probability_sum": 7260.3825583521975,
+              "recall": 0.9621372031662269,
+              "mean_probability": 0.9578341106005538,
+              "interior": {
+                "gt_pixels": 7546,
+                "tp": 7275,
+                "fp": 0,
+                "fn": 271,
+                "fn_Pbelow01": 67,
+                "gt_probability_sum": 7242.926373808528,
+                "recall": 0.9640869334746885,
+                "mean_probability": 0.9598365191901045
+              }
+            }
+          ],
+          "Lab_Lstar": [
+            {
+              "gt_pixels": 2776,
+              "tp": 189,
+              "fp": 1,
+              "fn": 2587,
+              "fn_Pbelow01": 2429,
+              "gt_probability_sum": 200.9695539530694,
+              "recall": 0.0680835734870317,
+              "mean_probability": 0.07239537246148034,
+              "interior": {
+                "gt_pixels": 1784,
+                "tp": 67,
+                "fp": 0,
+                "fn": 1717,
+                "fn_Pbelow01": 1681,
+                "gt_probability_sum": 70.36338800484373,
+                "recall": 0.03755605381165919,
+                "mean_probability": 0.03944136098926218
+              }
+            },
+            {
+              "gt_pixels": 8646,
+              "tp": 7707,
+              "fp": 0,
+              "fn": 939,
+              "fn_Pbelow01": 568,
+              "gt_probability_sum": 7671.695448305283,
+              "recall": 0.8913948646773074,
+              "mean_probability": 0.8873115253649414,
+              "interior": {
+                "gt_pixels": 8511,
+                "tp": 7653,
+                "fp": 0,
+                "fn": 858,
+                "fn_Pbelow01": 522,
+                "gt_probability_sum": 7620.600350650871,
+                "recall": 0.8991892844554107,
+                "mean_probability": 0.895382487445761
+              }
+            },
+            {
+              "gt_pixels": 0,
+              "tp": 0,
+              "fp": 200,
+              "fn": 0,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 0.0,
+              "recall": null,
+              "mean_probability": null,
+              "interior": {
+                "gt_pixels": 0,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 0.0,
+                "recall": null,
+                "mean_probability": null
+              }
+            }
+          ]
+        },
+        "semantic_centerline": {
+          "reference_skeleton_pixels": 245,
+          "reference_skeleton_covered": 156,
+          "predicted_skeleton_pixels": 215,
+          "predicted_skeleton_in_reference": 152
+        },
+        "input_color": {
+          "original": {
+            "V": {
+              "mean": 0.40104132890701294,
+              "p05_p25_p50_p75_p95": [
+                0.12941177189350128,
+                0.20000000298023224,
+                0.32156863808631897,
+                0.6117647290229797,
+                0.772549033164978
+              ]
+            },
+            "saturation": {
+              "mean": 0.3582703471183777,
+              "p05_p25_p50_p75_p95": [
+                0.08279154449701309,
+                0.15217392146587372,
+                0.3714284300804138,
+                0.47826066613197327,
+                0.9999998211860657
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 33.27790451049805,
+              "p05_p25_p50_p75_p95": [
+                7.81402587890625,
+                12.554931640625,
+                26.9989013671875,
+                53.924560546875,
+                70.7763671875
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.3325933814048767,
+                "p05_p25_p50_p75_p95": [
+                  0.0,
+                  0.16862745583057404,
+                  0.27843138575553894,
+                  0.5176470875740051,
+                  0.6745098233222961
+                ]
+              },
+              "1": {
+                "mean": 0.300048291683197,
+                "p05_p25_p50_p75_p95": [
+                  0.07450980693101883,
+                  0.10196078568696976,
+                  0.23137255012989044,
+                  0.4901960790157318,
+                  0.6784313917160034
+                ]
+              },
+              "2": {
+                "mean": 0.3616175949573517,
+                "p05_p25_p50_p75_p95": [
+                  0.08627451211214066,
+                  0.12156862765550613,
+                  0.2705882489681244,
+                  0.6117647290229797,
+                  0.772549033164978
+                ]
+              }
+            }
+          },
+          "transformed": {
+            "V": {
+              "mean": 0.5095793604850769,
+              "p05_p25_p50_p75_p95": [
+                0.23899106681346893,
+                0.3241313397884369,
+                0.4519512355327606,
+                0.7089393734931946,
+                0.8347342610359192
+              ]
+            },
+            "saturation": {
+              "mean": 0.28624701499938965,
+              "p05_p25_p50_p75_p95": [
+                0.058700935915112495,
+                0.10912919044494629,
+                0.27748265862464905,
+                0.36581283807754517,
+                0.9999998211860657
+              ]
+            },
+            "Lab_Lstar_0_100": {
+              "mean": 44.843833923339844,
+              "p05_p25_p50_p75_p95": [
+                19.29168701171875,
+                24.981689453125,
+                40.5731201171875,
+                65.10009765625,
+                78.51715087890625
+              ]
+            },
+            "RGB": {
+              "0": {
+                "mean": 0.43991655111312866,
+                "p05_p25_p50_p75_p95": [
+                  0.0,
+                  0.28764036297798157,
+                  0.40860411524772644,
+                  0.6307011842727661,
+                  0.7590874433517456
+                ]
+              },
+              "1": {
+                "mean": 0.4069766104221344,
+                "p05_p25_p50_p75_p95": [
+                  0.16238631308078766,
+                  0.20225684344768524,
+                  0.3589370548725128,
+                  0.6070981025695801,
+                  0.7621740698814392
+                ]
+              },
+              "2": {
+                "mean": 0.46361714601516724,
+                "p05_p25_p50_p75_p95": [
+                  0.17993587255477905,
+                  0.2287573516368866,
+                  0.4005126655101776,
+                  0.7089393734931946,
+                  0.8347342610359192
+                ]
+              }
+            }
+          },
+          "max_chromaticity_absolute_change": 0.08126211166381836,
+          "original_grid_raw_sha256": "f0f2f6326e815f8c02191e913dd85f3ad3824a94aea4199d9e322ddef6408b37",
+          "transformed_grid_raw_sha256": "9dafb51d42deb0e838f2203e8514d65bde64e59e63c6b92031a1e51b08bd5de6"
+        },
+        "input_V_target_max_absolute_error": 0.0,
+        "baseline_FN_Pbelow01_recovered_TP": 191,
+        "baseline_FN_Pbelow01_remaining": 3310,
+        "new_FP_baselinePbelow01": 0,
+        "baseline_highconfidence_TP_lost": 0,
+        "changed_pixels": 612,
+        "timings_not_latency_acceptance": {
+          "rgb_pil_grid_ms": 0.8602999150753021,
+          "fixed_transform_ms": 1.0260000126436353,
+          "normalize_transfer_ms": 2.079099998809397,
+          "stone_forward_ms": 13.283799984492362,
+          "fiber_forward_ms": 14.053900027647614,
+          "native_mapping_transfer_ms": 4.41359996329993,
+          "pipeline_total_ms": 35.72319995146245
+        },
+        "tip_metrics": null
+      }
+    }
+  }
+]

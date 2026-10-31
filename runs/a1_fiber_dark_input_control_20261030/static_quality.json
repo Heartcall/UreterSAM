@@ -1,0 +1,692 @@
+{
+  "raw2": {
+    "checks": {
+      "video_native:raw2:stone_dice": true,
+      "video_native:raw2:stone_precision": true,
+      "video_native:raw2:stone_recall": true,
+      "video_native:raw2:fiber_dice": true,
+      "video_native:raw2:fiber_precision": true,
+      "video_native:raw2:fiber_recall": true,
+      "video_native:raw2:stone_boundary_f": true,
+      "video_native:raw2:fiber_boundary_f": true,
+      "video_native:classwise3:stone_dice": false,
+      "video_native:classwise3:stone_precision": false,
+      "video_native:classwise3:stone_recall": true,
+      "video_native:classwise3:fiber_dice": true,
+      "video_native:classwise3:fiber_precision": false,
+      "video_native:classwise3:fiber_recall": true,
+      "video_native:classwise3:stone_boundary_f": false,
+      "video_native:classwise3:fiber_boundary_f": true,
+      "original29_legacy_gates": true,
+      "video_native:all:Lab0_TP_nonregression": true,
+      "video_native:all:Lab1_TP_nonregression": true,
+      "video_native:video_1:Lab0_TP_nonregression": true,
+      "video_native:video_1:Lab1_TP_nonregression": true,
+      "video_native:video_2:Lab0_TP_nonregression": true,
+      "video_native:video_2:Lab1_TP_nonregression": true,
+      "video_native:dark_FN_strict_reduction": false,
+      "video_native:stone:grossTP_limit": true,
+      "video_native:stone:netTP_nondecrease": true,
+      "video_native:stone:perframeTP_limit": true,
+      "video_native:fiber:grossTP_limit": true,
+      "video_native:fiber:netTP_nondecrease": true,
+      "video_native:fiber:perframeTP_limit": true,
+      "fixed_video2_display1209_dark_FN_strict_reduction": false,
+      "image_native:raw2:stone_dice": true,
+      "image_native:raw2:stone_precision": true,
+      "image_native:raw2:stone_recall": true,
+      "image_native:raw2:fiber_dice": true,
+      "image_native:raw2:fiber_precision": true,
+      "image_native:raw2:fiber_recall": true,
+      "image_native:raw2:stone_boundary_f": true,
+      "image_native:raw2:fiber_boundary_f": true,
+      "image_native:classwise3:stone_dice": true,
+      "image_native:classwise3:stone_precision": false,
+      "image_native:classwise3:stone_recall": true,
+      "image_native:classwise3:fiber_dice": true,
+      "image_native:classwise3:fiber_precision": true,
+      "image_native:classwise3:fiber_recall": false,
+      "image_native:classwise3:stone_boundary_f": false,
+      "image_native:classwise3:fiber_boundary_f": true,
+      "image_native:all:Lab0_TP_nonregression": true,
+      "image_native:all:Lab1_TP_nonregression": true,
+      "image_native:dark_FN_strict_reduction": false,
+      "image_native:stone:grossTP_limit": true,
+      "image_native:stone:netTP_nondecrease": true,
+      "image_native:stone:perframeTP_limit": true,
+      "image_native:fiber:grossTP_limit": true,
+      "image_native:fiber:netTP_nondecrease": true,
+      "image_native:fiber:perframeTP_limit": true
+    },
+    "passed": false,
+    "rejected_checks": [
+      "video_native:classwise3:stone_dice",
+      "video_native:classwise3:stone_precision",
+      "video_native:classwise3:fiber_precision",
+      "video_native:classwise3:stone_boundary_f",
+      "video_native:dark_FN_strict_reduction",
+      "fixed_video2_display1209_dark_FN_strict_reduction",
+      "image_native:classwise3:stone_precision",
+      "image_native:classwise3:fiber_recall",
+      "image_native:classwise3:stone_boundary_f",
+      "image_native:dark_FN_strict_reduction"
+    ],
+    "perframeTP_violations": [],
+    "original29": {
+      "passed": true,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": true,
+        "negative_fp_area": true
+      }
+    },
+    "tip_metrics": null
+  },
+  "fiber_vlift": {
+    "checks": {
+      "video_native:raw2:stone_dice": true,
+      "video_native:raw2:stone_precision": true,
+      "video_native:raw2:stone_recall": true,
+      "video_native:raw2:fiber_dice": true,
+      "video_native:raw2:fiber_precision": false,
+      "video_native:raw2:fiber_recall": true,
+      "video_native:raw2:stone_boundary_f": true,
+      "video_native:raw2:fiber_boundary_f": false,
+      "video_native:classwise3:stone_dice": true,
+      "video_native:classwise3:stone_precision": true,
+      "video_native:classwise3:stone_recall": true,
+      "video_native:classwise3:fiber_dice": true,
+      "video_native:classwise3:fiber_precision": false,
+      "video_native:classwise3:fiber_recall": true,
+      "video_native:classwise3:stone_boundary_f": false,
+      "video_native:classwise3:fiber_boundary_f": true,
+      "original29_legacy_gates": true,
+      "video_native:all:Lab0_TP_nonregression": true,
+      "video_native:all:Lab1_TP_nonregression": true,
+      "video_native:video_1:Lab0_TP_nonregression": true,
+      "video_native:video_1:Lab1_TP_nonregression": true,
+      "video_native:video_2:Lab0_TP_nonregression": true,
+      "video_native:video_2:Lab1_TP_nonregression": true,
+      "video_native:dark_FN_strict_reduction": true,
+      "video_native:stone:grossTP_limit": true,
+      "video_native:stone:netTP_nondecrease": true,
+      "video_native:stone:perframeTP_limit": true,
+      "video_native:fiber:grossTP_limit": false,
+      "video_native:fiber:netTP_nondecrease": true,
+      "video_native:fiber:perframeTP_limit": false,
+      "fixed_video2_display1209_dark_FN_strict_reduction": true,
+      "image_native:raw2:stone_dice": true,
+      "image_native:raw2:stone_precision": true,
+      "image_native:raw2:stone_recall": false,
+      "image_native:raw2:fiber_dice": false,
+      "image_native:raw2:fiber_precision": false,
+      "image_native:raw2:fiber_recall": true,
+      "image_native:raw2:stone_boundary_f": true,
+      "image_native:raw2:fiber_boundary_f": false,
+      "image_native:classwise3:stone_dice": true,
+      "image_native:classwise3:stone_precision": true,
+      "image_native:classwise3:stone_recall": true,
+      "image_native:classwise3:fiber_dice": false,
+      "image_native:classwise3:fiber_precision": false,
+      "image_native:classwise3:fiber_recall": true,
+      "image_native:classwise3:stone_boundary_f": true,
+      "image_native:classwise3:fiber_boundary_f": false,
+      "image_native:all:Lab0_TP_nonregression": true,
+      "image_native:all:Lab1_TP_nonregression": true,
+      "image_native:dark_FN_strict_reduction": true,
+      "image_native:stone:grossTP_limit": true,
+      "image_native:stone:netTP_nondecrease": false,
+      "image_native:stone:perframeTP_limit": true,
+      "image_native:fiber:grossTP_limit": true,
+      "image_native:fiber:netTP_nondecrease": true,
+      "image_native:fiber:perframeTP_limit": false
+    },
+    "passed": false,
+    "rejected_checks": [
+      "video_native:raw2:fiber_precision",
+      "video_native:raw2:fiber_boundary_f",
+      "video_native:classwise3:fiber_precision",
+      "video_native:classwise3:stone_boundary_f",
+      "video_native:fiber:grossTP_limit",
+      "video_native:fiber:perframeTP_limit",
+      "image_native:raw2:stone_recall",
+      "image_native:raw2:fiber_dice",
+      "image_native:raw2:fiber_precision",
+      "image_native:raw2:fiber_boundary_f",
+      "image_native:classwise3:fiber_dice",
+      "image_native:classwise3:fiber_precision",
+      "image_native:classwise3:fiber_boundary_f",
+      "image_native:stone:netTP_nondecrease",
+      "image_native:fiber:perframeTP_limit"
+    ],
+    "perframeTP_violations": [
+      {
+        "scope": "video_native",
+        "index": 47,
+        "sample_id": "reviewed_video_2_000149",
+        "class": "fiber",
+        "lost_tp": 119,
+        "limit": 31
+      },
+      {
+        "scope": "video_native",
+        "index": 48,
+        "sample_id": "reviewed_video_2_000154",
+        "class": "fiber",
+        "lost_tp": 51,
+        "limit": 32
+      },
+      {
+        "scope": "video_native",
+        "index": 50,
+        "sample_id": "reviewed_video_2_000268",
+        "class": "fiber",
+        "lost_tp": 45,
+        "limit": 35
+      },
+      {
+        "scope": "video_native",
+        "index": 59,
+        "sample_id": "reviewed_video_2_001000",
+        "class": "fiber",
+        "lost_tp": 67,
+        "limit": 61
+      },
+      {
+        "scope": "video_native",
+        "index": 61,
+        "sample_id": "reviewed_video_2_001135",
+        "class": "fiber",
+        "lost_tp": 79,
+        "limit": 31
+      },
+      {
+        "scope": "video_native",
+        "index": 63,
+        "sample_id": "reviewed_video_2_001223",
+        "class": "fiber",
+        "lost_tp": 361,
+        "limit": 57
+      },
+      {
+        "scope": "video_native",
+        "index": 68,
+        "sample_id": "reviewed_video_2_001965",
+        "class": "fiber",
+        "lost_tp": 120,
+        "limit": 32
+      },
+      {
+        "scope": "video_native",
+        "index": 69,
+        "sample_id": "reviewed_video_2_001971",
+        "class": "fiber",
+        "lost_tp": 93,
+        "limit": 32
+      },
+      {
+        "scope": "image_native",
+        "index": 56,
+        "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+        "class": "fiber",
+        "lost_tp": 7,
+        "limit": 3
+      },
+      {
+        "scope": "image_native",
+        "index": 109,
+        "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+        "class": "fiber",
+        "lost_tp": 17,
+        "limit": 7
+      }
+    ],
+    "original29": {
+      "passed": true,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": true,
+        "negative_fp_area": true
+      }
+    },
+    "tip_metrics": null
+  },
+  "fiber_channel_gamma": {
+    "checks": {
+      "video_native:raw2:stone_dice": false,
+      "video_native:raw2:stone_precision": false,
+      "video_native:raw2:stone_recall": true,
+      "video_native:raw2:fiber_dice": true,
+      "video_native:raw2:fiber_precision": true,
+      "video_native:raw2:fiber_recall": true,
+      "video_native:raw2:stone_boundary_f": true,
+      "video_native:raw2:fiber_boundary_f": true,
+      "video_native:classwise3:stone_dice": false,
+      "video_native:classwise3:stone_precision": false,
+      "video_native:classwise3:stone_recall": true,
+      "video_native:classwise3:fiber_dice": true,
+      "video_native:classwise3:fiber_precision": false,
+      "video_native:classwise3:fiber_recall": true,
+      "video_native:classwise3:stone_boundary_f": false,
+      "video_native:classwise3:fiber_boundary_f": true,
+      "original29_legacy_gates": true,
+      "video_native:all:Lab0_TP_nonregression": true,
+      "video_native:all:Lab1_TP_nonregression": true,
+      "video_native:video_1:Lab0_TP_nonregression": true,
+      "video_native:video_1:Lab1_TP_nonregression": false,
+      "video_native:video_2:Lab0_TP_nonregression": true,
+      "video_native:video_2:Lab1_TP_nonregression": true,
+      "video_native:dark_FN_strict_reduction": true,
+      "video_native:stone:grossTP_limit": true,
+      "video_native:stone:netTP_nondecrease": true,
+      "video_native:stone:perframeTP_limit": true,
+      "video_native:fiber:grossTP_limit": false,
+      "video_native:fiber:netTP_nondecrease": true,
+      "video_native:fiber:perframeTP_limit": false,
+      "fixed_video2_display1209_dark_FN_strict_reduction": true,
+      "image_native:raw2:stone_dice": true,
+      "image_native:raw2:stone_precision": false,
+      "image_native:raw2:stone_recall": true,
+      "image_native:raw2:fiber_dice": true,
+      "image_native:raw2:fiber_precision": true,
+      "image_native:raw2:fiber_recall": false,
+      "image_native:raw2:stone_boundary_f": true,
+      "image_native:raw2:fiber_boundary_f": false,
+      "image_native:classwise3:stone_dice": true,
+      "image_native:classwise3:stone_precision": false,
+      "image_native:classwise3:stone_recall": true,
+      "image_native:classwise3:fiber_dice": true,
+      "image_native:classwise3:fiber_precision": true,
+      "image_native:classwise3:fiber_recall": false,
+      "image_native:classwise3:stone_boundary_f": false,
+      "image_native:classwise3:fiber_boundary_f": false,
+      "image_native:all:Lab0_TP_nonregression": true,
+      "image_native:all:Lab1_TP_nonregression": false,
+      "image_native:dark_FN_strict_reduction": true,
+      "image_native:stone:grossTP_limit": true,
+      "image_native:stone:netTP_nondecrease": true,
+      "image_native:stone:perframeTP_limit": true,
+      "image_native:fiber:grossTP_limit": false,
+      "image_native:fiber:netTP_nondecrease": false,
+      "image_native:fiber:perframeTP_limit": false
+    },
+    "passed": false,
+    "rejected_checks": [
+      "video_native:raw2:stone_dice",
+      "video_native:raw2:stone_precision",
+      "video_native:classwise3:stone_dice",
+      "video_native:classwise3:stone_precision",
+      "video_native:classwise3:fiber_precision",
+      "video_native:classwise3:stone_boundary_f",
+      "video_native:video_1:Lab1_TP_nonregression",
+      "video_native:fiber:grossTP_limit",
+      "video_native:fiber:perframeTP_limit",
+      "image_native:raw2:stone_precision",
+      "image_native:raw2:fiber_recall",
+      "image_native:raw2:fiber_boundary_f",
+      "image_native:classwise3:stone_precision",
+      "image_native:classwise3:fiber_recall",
+      "image_native:classwise3:stone_boundary_f",
+      "image_native:classwise3:fiber_boundary_f",
+      "image_native:all:Lab1_TP_nonregression",
+      "image_native:fiber:grossTP_limit",
+      "image_native:fiber:netTP_nondecrease",
+      "image_native:fiber:perframeTP_limit"
+    ],
+    "perframeTP_violations": [
+      {
+        "scope": "video_native",
+        "index": 4,
+        "sample_id": "reviewed_video_1_000032",
+        "class": "fiber",
+        "lost_tp": 34,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 5,
+        "sample_id": "reviewed_video_1_000034",
+        "class": "fiber",
+        "lost_tp": 31,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 8,
+        "sample_id": "reviewed_video_1_000047",
+        "class": "fiber",
+        "lost_tp": 36,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 10,
+        "sample_id": "reviewed_video_1_000062",
+        "class": "fiber",
+        "lost_tp": 31,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 11,
+        "sample_id": "reviewed_video_1_000065",
+        "class": "fiber",
+        "lost_tp": 45,
+        "limit": 30
+      },
+      {
+        "scope": "video_native",
+        "index": 12,
+        "sample_id": "reviewed_video_1_000067",
+        "class": "fiber",
+        "lost_tp": 32,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 18,
+        "sample_id": "reviewed_video_1_000079",
+        "class": "fiber",
+        "lost_tp": 32,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 19,
+        "sample_id": "reviewed_video_1_000096",
+        "class": "fiber",
+        "lost_tp": 38,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 20,
+        "sample_id": "reviewed_video_1_000107",
+        "class": "fiber",
+        "lost_tp": 57,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 22,
+        "sample_id": "reviewed_video_1_000123",
+        "class": "fiber",
+        "lost_tp": 39,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 24,
+        "sample_id": "reviewed_video_1_000144",
+        "class": "fiber",
+        "lost_tp": 40,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 25,
+        "sample_id": "reviewed_video_1_000146",
+        "class": "fiber",
+        "lost_tp": 34,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 26,
+        "sample_id": "reviewed_video_1_000150",
+        "class": "fiber",
+        "lost_tp": 39,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 27,
+        "sample_id": "reviewed_video_1_000152",
+        "class": "fiber",
+        "lost_tp": 40,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 30,
+        "sample_id": "reviewed_video_1_000246",
+        "class": "fiber",
+        "lost_tp": 41,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 34,
+        "sample_id": "reviewed_video_1_000331",
+        "class": "fiber",
+        "lost_tp": 36,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 35,
+        "sample_id": "reviewed_video_1_000337",
+        "class": "fiber",
+        "lost_tp": 33,
+        "limit": 27
+      },
+      {
+        "scope": "video_native",
+        "index": 36,
+        "sample_id": "reviewed_video_1_000352",
+        "class": "fiber",
+        "lost_tp": 41,
+        "limit": 27
+      },
+      {
+        "scope": "video_native",
+        "index": 38,
+        "sample_id": "reviewed_video_1_000427",
+        "class": "fiber",
+        "lost_tp": 44,
+        "limit": 27
+      },
+      {
+        "scope": "video_native",
+        "index": 39,
+        "sample_id": "reviewed_video_1_000524",
+        "class": "fiber",
+        "lost_tp": 41,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 40,
+        "sample_id": "reviewed_video_1_000525",
+        "class": "fiber",
+        "lost_tp": 39,
+        "limit": 28
+      },
+      {
+        "scope": "video_native",
+        "index": 41,
+        "sample_id": "reviewed_video_1_000623",
+        "class": "fiber",
+        "lost_tp": 65,
+        "limit": 27
+      },
+      {
+        "scope": "video_native",
+        "index": 42,
+        "sample_id": "reviewed_video_1_000721",
+        "class": "fiber",
+        "lost_tp": 70,
+        "limit": 29
+      },
+      {
+        "scope": "video_native",
+        "index": 59,
+        "sample_id": "reviewed_video_2_001000",
+        "class": "fiber",
+        "lost_tp": 88,
+        "limit": 61
+      },
+      {
+        "scope": "image_native",
+        "index": 3,
+        "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+        "class": "fiber",
+        "lost_tp": 296,
+        "limit": 2
+      },
+      {
+        "scope": "image_native",
+        "index": 8,
+        "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+        "class": "fiber",
+        "lost_tp": 6,
+        "limit": 3
+      },
+      {
+        "scope": "image_native",
+        "index": 10,
+        "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+        "class": "fiber",
+        "lost_tp": 6,
+        "limit": 4
+      },
+      {
+        "scope": "image_native",
+        "index": 13,
+        "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+        "class": "fiber",
+        "lost_tp": 44,
+        "limit": 13
+      },
+      {
+        "scope": "image_native",
+        "index": 25,
+        "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+        "class": "fiber",
+        "lost_tp": 15,
+        "limit": 12
+      },
+      {
+        "scope": "image_native",
+        "index": 27,
+        "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+        "class": "fiber",
+        "lost_tp": 107,
+        "limit": 15
+      },
+      {
+        "scope": "image_native",
+        "index": 33,
+        "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+        "class": "fiber",
+        "lost_tp": 8,
+        "limit": 2
+      },
+      {
+        "scope": "image_native",
+        "index": 40,
+        "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+        "class": "fiber",
+        "lost_tp": 33,
+        "limit": 19
+      },
+      {
+        "scope": "image_native",
+        "index": 45,
+        "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+        "class": "fiber",
+        "lost_tp": 5,
+        "limit": 2
+      },
+      {
+        "scope": "image_native",
+        "index": 49,
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+        "class": "fiber",
+        "lost_tp": 8,
+        "limit": 1
+      },
+      {
+        "scope": "image_native",
+        "index": 56,
+        "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+        "class": "fiber",
+        "lost_tp": 97,
+        "limit": 3
+      },
+      {
+        "scope": "image_native",
+        "index": 61,
+        "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+        "class": "fiber",
+        "lost_tp": 15,
+        "limit": 1
+      },
+      {
+        "scope": "image_native",
+        "index": 80,
+        "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+        "class": "fiber",
+        "lost_tp": 38,
+        "limit": 7
+      },
+      {
+        "scope": "image_native",
+        "index": 91,
+        "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+        "class": "fiber",
+        "lost_tp": 44,
+        "limit": 12
+      },
+      {
+        "scope": "image_native",
+        "index": 95,
+        "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+        "class": "fiber",
+        "lost_tp": 91,
+        "limit": 28
+      },
+      {
+        "scope": "image_native",
+        "index": 107,
+        "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+        "class": "fiber",
+        "lost_tp": 162,
+        "limit": 10
+      },
+      {
+        "scope": "image_native",
+        "index": 109,
+        "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+        "class": "fiber",
+        "lost_tp": 632,
+        "limit": 7
+      },
+      {
+        "scope": "image_native",
+        "index": 120,
+        "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+        "class": "fiber",
+        "lost_tp": 9,
+        "limit": 2
+      },
+      {
+        "scope": "image_native",
+        "index": 123,
+        "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+        "class": "fiber",
+        "lost_tp": 40,
+        "limit": 14
+      }
+    ],
+    "original29": {
+      "passed": true,
+      "checks": {
+        "stone_dice": true,
+        "fiber_dice": true,
+        "negative_fp_area": true
+      }
+    },
+    "tip_metrics": null
+  }
+}

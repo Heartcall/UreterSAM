@@ -1,0 +1,1 @@
+Initial registration failed before status/main-plan updates: NameError for local cfg while constructing protocol identity. Existing documents and archive retained byte-for-byte. Registrar now initializes cfg from frozen preflight and verifies partial outputs before resuming. No inference, thresholds or masks changed.

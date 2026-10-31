@@ -1,0 +1,4602 @@
+{
+  "video_native": {
+    "raw2": {
+      "metrics": {
+        "stone_dice": 0.7402162175279372,
+        "stone_iou": 0.5875740169280615,
+        "stone_precision": 0.8997781763262224,
+        "stone_recall": 0.6287219526673564,
+        "stone_tp": 152516,
+        "stone_fp": 16988,
+        "stone_fn": 90065,
+        "fiber_dice": 0.9455366387724271,
+        "fiber_iou": 0.8966993767063308,
+        "fiber_precision": 0.9709674045668468,
+        "fiber_recall": 0.9214039962948259,
+        "fiber_tp": 417783,
+        "fiber_fp": 12492,
+        "fiber_fn": 35637,
+        "mean_dice": 0.8428764281501822,
+        "mean_iou": 0.7421366968171962,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            10433047,
+            16903,
+            11980
+          ],
+          [
+            89553,
+            152516,
+            512
+          ],
+          [
+            35552,
+            85,
+            417783
+          ]
+        ],
+        "valid_pixels": 11157931,
+        "stone_negative_images": 15,
+        "stone_negative_images_with_fp": 2,
+        "stone_negative_fp_image_rate": 0.13333333333333333,
+        "stone_negative_valid_pixels": 2400000,
+        "stone_negative_fp_pixels": 966,
+        "stone_negative_fp_pixel_fraction": 0.0004025
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 16548,
+          "target_boundary": 26016,
+          "matched_predicted": 10226,
+          "matched_target": 10051,
+          "precision": 0.617959874305052,
+          "recall": 0.3863391758917589,
+          "f_score": 0.47544027553626145
+        },
+        "2": {
+          "predicted_boundary": 23282,
+          "target_boundary": 24009,
+          "matched_predicted": 20520,
+          "matched_target": 20252,
+          "precision": 0.881367580104802,
+          "recall": 0.8435170144529135,
+          "f_score": 0.8620270041848478
+        }
+      },
+      "brightness": {
+        "HSV_V": [
+          {
+            "gt_pixels": 5510,
+            "tp": 916,
+            "fp": 362,
+            "fn": 4594,
+            "fn_Pbelow01": 4210,
+            "gt_probability_sum": 923.2522316170762,
+            "recall": 0.16624319419237749,
+            "mean_probability": 0.16755938867823525,
+            "interior": {
+              "gt_pixels": 2645,
+              "tp": 527,
+              "fp": 0,
+              "fn": 2118,
+              "fn_Pbelow01": 1962,
+              "gt_probability_sum": 523.3566918532779,
+              "recall": 0.19924385633270322,
+              "mean_probability": 0.19786642414112585
+            }
+          },
+          {
+            "gt_pixels": 98632,
+            "tp": 76563,
+            "fp": 4040,
+            "fn": 22069,
+            "fn_Pbelow01": 15502,
+            "gt_probability_sum": 75043.48737568555,
+            "recall": 0.7762490875172358,
+            "mean_probability": 0.7608432088539779,
+            "interior": {
+              "gt_pixels": 68451,
+              "tp": 57889,
+              "fp": 0,
+              "fn": 10562,
+              "fn_Pbelow01": 8465,
+              "gt_probability_sum": 57661.69614282127,
+              "recall": 0.845699843683803,
+              "mean_probability": 0.8423791638226069
+            }
+          },
+          {
+            "gt_pixels": 349278,
+            "tp": 340304,
+            "fp": 8090,
+            "fn": 8974,
+            "fn_Pbelow01": 3862,
+            "gt_probability_sum": 336758.9398248671,
+            "recall": 0.9743069990093851,
+            "mean_probability": 0.9641573183105352,
+            "interior": {
+              "gt_pixels": 319450,
+              "tp": 315251,
+              "fp": 0,
+              "fn": 4199,
+              "fn_Pbelow01": 2292,
+              "gt_probability_sum": 313146.4140468491,
+              "recall": 0.9868555329472531,
+              "mean_probability": 0.9802673784531198
+            }
+          }
+        ],
+        "Lab_Lstar": [
+          {
+            "gt_pixels": 46105,
+            "tp": 28640,
+            "fp": 1144,
+            "fn": 17465,
+            "fn_Pbelow01": 14325,
+            "gt_probability_sum": 28290.36870834254,
+            "recall": 0.6211907602212341,
+            "mean_probability": 0.6136073898349971,
+            "interior": {
+              "gt_pixels": 33895,
+              "tp": 24218,
+              "fp": 0,
+              "fn": 9677,
+              "fn_Pbelow01": 8240,
+              "gt_probability_sum": 24086.27334396795,
+              "recall": 0.7145006638147219,
+              "mean_probability": 0.7106143485460378
+            }
+          },
+          {
+            "gt_pixels": 346855,
+            "tp": 328761,
+            "fp": 5416,
+            "fn": 18094,
+            "fn_Pbelow01": 9233,
+            "gt_probability_sum": 324529.8511988848,
+            "recall": 0.9478341093540529,
+            "mean_probability": 0.9356354995571198,
+            "interior": {
+              "gt_pixels": 297879,
+              "tp": 290707,
+              "fp": 0,
+              "fn": 7172,
+              "fn_Pbelow01": 4479,
+              "gt_probability_sum": 288897.1708461569,
+              "recall": 0.9759231097190469,
+              "mean_probability": 0.9698473905382954
+            }
+          },
+          {
+            "gt_pixels": 60460,
+            "tp": 60382,
+            "fp": 5932,
+            "fn": 78,
+            "fn_Pbelow01": 16,
+            "gt_probability_sum": 59905.45952494256,
+            "recall": 0.998709890836917,
+            "mean_probability": 0.9908279775875383,
+            "interior": {
+              "gt_pixels": 58772,
+              "tp": 58742,
+              "fp": 0,
+              "fn": 30,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 58348.02269139886,
+              "recall": 0.9994895528482951,
+              "mean_probability": 0.9927860663479013
+            }
+          }
+        ]
+      },
+      "paired_changes": {
+        "stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "fiber": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        }
+      },
+      "semantic_centerline": {
+        "reference_skeleton_pixels": 14601,
+        "reference_skeleton_covered": 13073,
+        "predicted_skeleton_pixels": 12913,
+        "predicted_skeleton_in_reference": 12500,
+        "reference_coverage": 0.8953496335867407,
+        "predicted_precision": 0.9680167273290482
+      },
+      "changed_frames": 0,
+      "baselineFN_Pbelow01_recovered_TP": 0,
+      "baseline_highconfidence_TP_lost": 0,
+      "groups": {
+        "video_1": {
+          "frames": 43,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 56,
+                "tp": 1,
+                "fp": 1,
+                "fn": 55,
+                "fn_Pbelow01": 4,
+                "gt_probability_sum": 16.950817512348294,
+                "recall": 0.017857142857142856,
+                "mean_probability": 0.3026931698633624,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                }
+              },
+              {
+                "gt_pixels": 35841,
+                "tp": 32435,
+                "fp": 3249,
+                "fn": 3406,
+                "fn_Pbelow01": 761,
+                "gt_probability_sum": 31217.470218346745,
+                "recall": 0.9049691693870149,
+                "mean_probability": 0.8709988621507978,
+                "interior": {
+                  "gt_pixels": 18703,
+                  "tp": 18599,
+                  "fp": 0,
+                  "fn": 104,
+                  "fn_Pbelow01": 12,
+                  "gt_probability_sum": 18541.81739810109,
+                  "recall": 0.9944393947495054,
+                  "mean_probability": 0.9913819920922361
+                }
+              },
+              {
+                "gt_pixels": 210820,
+                "tp": 208480,
+                "fp": 2509,
+                "fn": 2340,
+                "fn_Pbelow01": 221,
+                "gt_probability_sum": 206377.27159822127,
+                "recall": 0.988900483825064,
+                "mean_probability": 0.9789264377109442,
+                "interior": {
+                  "gt_pixels": 192994,
+                  "tp": 192546,
+                  "fp": 0,
+                  "fn": 448,
+                  "fn_Pbelow01": 11,
+                  "gt_probability_sum": 191292.32998286933,
+                  "recall": 0.9976786843114294,
+                  "mean_probability": 0.9911827827956793
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 1602,
+                "tp": 1045,
+                "fp": 315,
+                "fn": 557,
+                "fn_Pbelow01": 43,
+                "gt_probability_sum": 962.4227120287251,
+                "recall": 0.6523096129837703,
+                "mean_probability": 0.6007632409667447,
+                "interior": {
+                  "gt_pixels": 66,
+                  "tp": 66,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 65.11173677444458,
+                  "recall": 1.0,
+                  "mean_probability": 0.9865414662794634
+                }
+              },
+              {
+                "gt_pixels": 217105,
+                "tp": 211861,
+                "fp": 4379,
+                "fn": 5244,
+                "fn_Pbelow01": 943,
+                "gt_probability_sum": 208860.2714550235,
+                "recall": 0.9758457889039865,
+                "mean_probability": 0.9620242346100896,
+                "interior": {
+                  "gt_pixels": 183961,
+                  "tp": 183409,
+                  "fp": 0,
+                  "fn": 552,
+                  "fn_Pbelow01": 23,
+                  "gt_probability_sum": 182295.56645383686,
+                  "recall": 0.9969993639956295,
+                  "mean_probability": 0.9909468118451022
+                }
+              },
+              {
+                "gt_pixels": 28010,
+                "tp": 28010,
+                "fp": 1065,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 27788.99846702814,
+                "recall": 1.0,
+                "mean_probability": 0.9921099059988626,
+                "interior": {
+                  "gt_pixels": 27670,
+                  "tp": 27670,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27473.469190359116,
+                  "recall": 1.0,
+                  "mean_probability": 0.9928973325030399
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 8203,
+            "reference_skeleton_covered": 7768,
+            "predicted_skeleton_pixels": 7552,
+            "predicted_skeleton_in_reference": 7446,
+            "reference_coverage": 0.9469706205046934,
+            "predicted_precision": 0.9859639830508474
+          }
+        },
+        "video_2": {
+          "frames": 27,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 5454,
+                "tp": 915,
+                "fp": 361,
+                "fn": 4539,
+                "fn_Pbelow01": 4206,
+                "gt_probability_sum": 906.3014141047279,
+                "recall": 0.16776677667766776,
+                "mean_probability": 0.16617187644017747,
+                "interior": {
+                  "gt_pixels": 2645,
+                  "tp": 527,
+                  "fp": 0,
+                  "fn": 2118,
+                  "fn_Pbelow01": 1962,
+                  "gt_probability_sum": 523.3566918532779,
+                  "recall": 0.19924385633270322,
+                  "mean_probability": 0.19786642414112585
+                }
+              },
+              {
+                "gt_pixels": 62791,
+                "tp": 44128,
+                "fp": 791,
+                "fn": 18663,
+                "fn_Pbelow01": 14741,
+                "gt_probability_sum": 43826.017157338814,
+                "recall": 0.7027758755235622,
+                "mean_probability": 0.6979665422964886,
+                "interior": {
+                  "gt_pixels": 49748,
+                  "tp": 39290,
+                  "fp": 0,
+                  "fn": 10458,
+                  "fn_Pbelow01": 8453,
+                  "gt_probability_sum": 39119.87874472016,
+                  "recall": 0.7897804936881885,
+                  "mean_probability": 0.7863608334952191
+                }
+              },
+              {
+                "gt_pixels": 138458,
+                "tp": 131824,
+                "fp": 5581,
+                "fn": 6634,
+                "fn_Pbelow01": 3641,
+                "gt_probability_sum": 130381.66822664588,
+                "recall": 0.9520865533230294,
+                "mean_probability": 0.9416694465227425,
+                "interior": {
+                  "gt_pixels": 126456,
+                  "tp": 122705,
+                  "fp": 0,
+                  "fn": 3751,
+                  "fn_Pbelow01": 2281,
+                  "gt_probability_sum": 121854.08406397984,
+                  "recall": 0.9703375086986779,
+                  "mean_probability": 0.9636085600049016
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 44503,
+                "tp": 27595,
+                "fp": 829,
+                "fn": 16908,
+                "fn_Pbelow01": 14282,
+                "gt_probability_sum": 27327.945996313814,
+                "recall": 0.6200705570410984,
+                "mean_probability": 0.6140697480240391,
+                "interior": {
+                  "gt_pixels": 33829,
+                  "tp": 24152,
+                  "fp": 0,
+                  "fn": 9677,
+                  "fn_Pbelow01": 8240,
+                  "gt_probability_sum": 24021.161607193506,
+                  "recall": 0.7139436578083892,
+                  "mean_probability": 0.7100760178306632
+                }
+              },
+              {
+                "gt_pixels": 129750,
+                "tp": 116900,
+                "fp": 1037,
+                "fn": 12850,
+                "fn_Pbelow01": 8290,
+                "gt_probability_sum": 115669.57974386119,
+                "recall": 0.9009633911368016,
+                "mean_probability": 0.8914803833823599,
+                "interior": {
+                  "gt_pixels": 113918,
+                  "tp": 107298,
+                  "fp": 0,
+                  "fn": 6620,
+                  "fn_Pbelow01": 4456,
+                  "gt_probability_sum": 106601.60439232005,
+                  "recall": 0.9418880247195351,
+                  "mean_probability": 0.9357748941547434
+                }
+              },
+              {
+                "gt_pixels": 32450,
+                "tp": 32372,
+                "fp": 4867,
+                "fn": 78,
+                "fn_Pbelow01": 16,
+                "gt_probability_sum": 32116.46105791442,
+                "recall": 0.9975963020030817,
+                "mean_probability": 0.9897214501668543,
+                "interior": {
+                  "gt_pixels": 31102,
+                  "tp": 31072,
+                  "fp": 0,
+                  "fn": 30,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30874.553501039743,
+                  "recall": 0.9990354318050286,
+                  "mean_probability": 0.9926870780348448
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 6398,
+            "reference_skeleton_covered": 5305,
+            "predicted_skeleton_pixels": 5361,
+            "predicted_skeleton_in_reference": 5054,
+            "reference_coverage": 0.829165364176305,
+            "predicted_precision": 0.9427345644469315
+          }
+        },
+        "original29": {
+          "frames": 29,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 1625,
+                "tp": 368,
+                "fp": 93,
+                "fn": 1257,
+                "fn_Pbelow01": 1109,
+                "gt_probability_sum": 370.22674698017363,
+                "recall": 0.22646153846153846,
+                "mean_probability": 0.22783184429549147,
+                "interior": {
+                  "gt_pixels": 866,
+                  "tp": 145,
+                  "fp": 0,
+                  "fn": 721,
+                  "fn_Pbelow01": 672,
+                  "gt_probability_sum": 146.08327647881015,
+                  "recall": 0.1674364896073903,
+                  "mean_probability": 0.16868738623419186
+                }
+              },
+              {
+                "gt_pixels": 41353,
+                "tp": 36972,
+                "fp": 1489,
+                "fn": 4381,
+                "fn_Pbelow01": 2379,
+                "gt_probability_sum": 36078.25622488883,
+                "recall": 0.8940584721785602,
+                "mean_probability": 0.8724459223004094,
+                "interior": {
+                  "gt_pixels": 28430,
+                  "tp": 27023,
+                  "fp": 0,
+                  "fn": 1407,
+                  "fn_Pbelow01": 1077,
+                  "gt_probability_sum": 26935.957447099205,
+                  "recall": 0.9505100246218783,
+                  "mean_probability": 0.9474483801301162
+                }
+              },
+              {
+                "gt_pixels": 135675,
+                "tp": 133054,
+                "fp": 976,
+                "fn": 2621,
+                "fn_Pbelow01": 1117,
+                "gt_probability_sum": 131583.01002349608,
+                "recall": 0.9806817763036668,
+                "mean_probability": 0.9698397643154308,
+                "interior": {
+                  "gt_pixels": 123146,
+                  "tp": 122047,
+                  "fp": 0,
+                  "fn": 1099,
+                  "fn_Pbelow01": 709,
+                  "gt_probability_sum": 121259.77741980867,
+                  "recall": 0.9910756338005294,
+                  "mean_probability": 0.9846830381807665
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 11838,
+                "tp": 8777,
+                "fp": 513,
+                "fn": 3061,
+                "fn_Pbelow01": 2135,
+                "gt_probability_sum": 8556.839978266118,
+                "recall": 0.741425916539956,
+                "mean_probability": 0.7228281785999424,
+                "interior": {
+                  "gt_pixels": 8002,
+                  "tp": 6535,
+                  "fp": 0,
+                  "fn": 1467,
+                  "fn_Pbelow01": 1197,
+                  "gt_probability_sum": 6483.385703319844,
+                  "recall": 0.816670832291927,
+                  "mean_probability": 0.8102206577505429
+                }
+              },
+              {
+                "gt_pixels": 138303,
+                "tp": 133121,
+                "fp": 2020,
+                "fn": 5182,
+                "fn_Pbelow01": 2470,
+                "gt_probability_sum": 131228.40896914428,
+                "recall": 0.9625315430612496,
+                "mean_probability": 0.9488471614436728,
+                "interior": {
+                  "gt_pixels": 116478,
+                  "tp": 114718,
+                  "fp": 0,
+                  "fn": 1760,
+                  "fn_Pbelow01": 1261,
+                  "gt_probability_sum": 114118.97096105864,
+                  "recall": 0.9848898504438607,
+                  "mean_probability": 0.9797469990990457
+                }
+              },
+              {
+                "gt_pixels": 28512,
+                "tp": 28496,
+                "fp": 25,
+                "fn": 16,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 28246.24404795468,
+                "recall": 0.999438832772166,
+                "mean_probability": 0.9906791543193981,
+                "interior": {
+                  "gt_pixels": 27962,
+                  "tp": 27962,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27739.461479008198,
+                  "recall": 1.0,
+                  "mean_probability": 0.9920413947145482
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 6186,
+            "reference_skeleton_covered": 5508,
+            "predicted_skeleton_pixels": 5172,
+            "predicted_skeleton_in_reference": 5152,
+            "reference_coverage": 0.8903976721629486,
+            "predicted_precision": 0.9961330239752514
+          }
+        },
+        "new_user_approved": {
+          "frames": 41,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 3885,
+                "tp": 548,
+                "fp": 269,
+                "fn": 3337,
+                "fn_Pbelow01": 3101,
+                "gt_probability_sum": 553.0254846369025,
+                "recall": 0.14105534105534107,
+                "mean_probability": 0.14234890209444082,
+                "interior": {
+                  "gt_pixels": 1779,
+                  "tp": 382,
+                  "fp": 0,
+                  "fn": 1397,
+                  "fn_Pbelow01": 1290,
+                  "gt_probability_sum": 377.27341537446773,
+                  "recall": 0.21472737492973581,
+                  "mean_probability": 0.21207049768098243
+                }
+              },
+              {
+                "gt_pixels": 57279,
+                "tp": 39591,
+                "fp": 2551,
+                "fn": 17688,
+                "fn_Pbelow01": 13123,
+                "gt_probability_sum": 38965.23115079672,
+                "recall": 0.6911957261823705,
+                "mean_probability": 0.6802707999580425,
+                "interior": {
+                  "gt_pixels": 40021,
+                  "tp": 30866,
+                  "fp": 0,
+                  "fn": 9155,
+                  "fn_Pbelow01": 7388,
+                  "gt_probability_sum": 30725.738695722055,
+                  "recall": 0.7712450963244297,
+                  "mean_probability": 0.7677404036811188
+                }
+              },
+              {
+                "gt_pixels": 213603,
+                "tp": 207250,
+                "fp": 7114,
+                "fn": 6353,
+                "fn_Pbelow01": 2745,
+                "gt_probability_sum": 205175.92980137106,
+                "recall": 0.9702579083627103,
+                "mean_probability": 0.960547978265151,
+                "interior": {
+                  "gt_pixels": 196304,
+                  "tp": 193204,
+                  "fp": 0,
+                  "fn": 3100,
+                  "fn_Pbelow01": 1583,
+                  "gt_probability_sum": 191886.6366270405,
+                  "recall": 0.9842081669247698,
+                  "mean_probability": 0.9774973338650282
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 34267,
+                "tp": 19863,
+                "fp": 631,
+                "fn": 14404,
+                "fn_Pbelow01": 12190,
+                "gt_probability_sum": 19733.52873007642,
+                "recall": 0.5796538944173695,
+                "mean_probability": 0.5758755867183127,
+                "interior": {
+                  "gt_pixels": 25893,
+                  "tp": 17683,
+                  "fp": 0,
+                  "fn": 8210,
+                  "fn_Pbelow01": 7043,
+                  "gt_probability_sum": 17602.887640648107,
+                  "recall": 0.6829258873054493,
+                  "mean_probability": 0.6798319098075969
+                }
+              },
+              {
+                "gt_pixels": 208552,
+                "tp": 195640,
+                "fp": 3396,
+                "fn": 12912,
+                "fn_Pbelow01": 6763,
+                "gt_probability_sum": 193301.44222974035,
+                "recall": 0.938087383482297,
+                "mean_probability": 0.9268740756729273,
+                "interior": {
+                  "gt_pixels": 181401,
+                  "tp": 175989,
+                  "fp": 0,
+                  "fn": 5412,
+                  "fn_Pbelow01": 3218,
+                  "gt_probability_sum": 174778.1998850982,
+                  "recall": 0.9701655448426414,
+                  "mean_probability": 0.9634908290753535
+                }
+              },
+              {
+                "gt_pixels": 31948,
+                "tp": 31886,
+                "fp": 5907,
+                "fn": 62,
+                "fn_Pbelow01": 16,
+                "gt_probability_sum": 31659.215476987883,
+                "recall": 0.9980593464379617,
+                "mean_probability": 0.9909607949476613,
+                "interior": {
+                  "gt_pixels": 30810,
+                  "tp": 30780,
+                  "fp": 0,
+                  "fn": 30,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30608.56121239066,
+                  "recall": 0.9990262901655307,
+                  "mean_probability": 0.9934619023820402
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 8415,
+            "reference_skeleton_covered": 7565,
+            "predicted_skeleton_pixels": 7741,
+            "predicted_skeleton_in_reference": 7348,
+            "reference_coverage": 0.898989898989899,
+            "predicted_precision": 0.9492313654566593
+          }
+        }
+      }
+    },
+    "fiber_vlift": {
+      "metrics": {
+        "stone_dice": 0.7402413661723344,
+        "stone_iou": 0.5876057097724953,
+        "stone_precision": 0.8998524986724881,
+        "stone_recall": 0.6287219526673564,
+        "stone_tp": 152516,
+        "stone_fp": 16974,
+        "stone_fn": 90065,
+        "fiber_dice": 0.9462775341499068,
+        "fiber_iou": 0.8980329876392025,
+        "fiber_precision": 0.9614462767591929,
+        "fiber_recall": 0.9315799920603414,
+        "fiber_tp": 422397,
+        "fiber_fp": 16938,
+        "fiber_fn": 31023,
+        "mean_dice": 0.8432594501611206,
+        "mean_iou": 0.7428193487058489,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            10428594,
+            16904,
+            16432
+          ],
+          [
+            89559,
+            152516,
+            506
+          ],
+          [
+            30953,
+            70,
+            422397
+          ]
+        ],
+        "valid_pixels": 11157931,
+        "stone_negative_images": 15,
+        "stone_negative_images_with_fp": 2,
+        "stone_negative_fp_image_rate": 0.13333333333333333,
+        "stone_negative_valid_pixels": 2400000,
+        "stone_negative_fp_pixels": 966,
+        "stone_negative_fp_pixel_fraction": 0.0004025
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 16548,
+          "target_boundary": 26016,
+          "matched_predicted": 10226,
+          "matched_target": 10051,
+          "precision": 0.617959874305052,
+          "recall": 0.3863391758917589,
+          "f_score": 0.47544027553626145
+        },
+        "2": {
+          "predicted_boundary": 23965,
+          "target_boundary": 24009,
+          "matched_predicted": 20787,
+          "matched_target": 20473,
+          "precision": 0.8673899436678489,
+          "recall": 0.8527218959556833,
+          "f_score": 0.8599933798016546
+        }
+      },
+      "brightness": {
+        "HSV_V": [
+          {
+            "gt_pixels": 5510,
+            "tp": 1884,
+            "fp": 534,
+            "fn": 3626,
+            "fn_Pbelow01": 3231,
+            "gt_probability_sum": 1844.9138027436056,
+            "recall": 0.34192377495462795,
+            "mean_probability": 0.33483009124203367,
+            "interior": {
+              "gt_pixels": 2645,
+              "tp": 1286,
+              "fp": 0,
+              "fn": 1359,
+              "fn_Pbelow01": 1209,
+              "gt_probability_sum": 1256.6555289392018,
+              "recall": 0.48620037807183364,
+              "mean_probability": 0.47510606009043543
+            }
+          },
+          {
+            "gt_pixels": 98632,
+            "tp": 79648,
+            "fp": 6253,
+            "fn": 18984,
+            "fn_Pbelow01": 13363,
+            "gt_probability_sum": 77973.05013580825,
+            "recall": 0.8075269689350312,
+            "mean_probability": 0.7905451591350501,
+            "interior": {
+              "gt_pixels": 68451,
+              "tp": 59377,
+              "fp": 0,
+              "fn": 9074,
+              "fn_Pbelow01": 7158,
+              "gt_probability_sum": 59073.91874345518,
+              "recall": 0.8674380213583439,
+              "mean_probability": 0.8630103101993423
+            }
+          },
+          {
+            "gt_pixels": 349278,
+            "tp": 340865,
+            "fp": 10151,
+            "fn": 8413,
+            "fn_Pbelow01": 3971,
+            "gt_probability_sum": 337370.41800689726,
+            "recall": 0.9759131694524132,
+            "mean_probability": 0.9659080102580101,
+            "interior": {
+              "gt_pixels": 319450,
+              "tp": 314823,
+              "fp": 0,
+              "fn": 4627,
+              "fn_Pbelow01": 2648,
+              "gt_probability_sum": 312714.5707124321,
+              "recall": 0.9855157301612146,
+              "mean_probability": 0.9789155445685775
+            }
+          }
+        ],
+        "Lab_Lstar": [
+          {
+            "gt_pixels": 46105,
+            "tp": 31609,
+            "fp": 2034,
+            "fn": 14496,
+            "fn_Pbelow01": 11698,
+            "gt_probability_sum": 31109.376980845456,
+            "recall": 0.6855872465025485,
+            "mean_probability": 0.674750612316353,
+            "interior": {
+              "gt_pixels": 33895,
+              "tp": 26284,
+              "fp": 0,
+              "fn": 7611,
+              "fn_Pbelow01": 6318,
+              "gt_probability_sum": 26085.8527600756,
+              "recall": 0.7754536067266559,
+              "mean_probability": 0.7696076931723145
+            }
+          },
+          {
+            "gt_pixels": 346855,
+            "tp": 330399,
+            "fp": 7913,
+            "fn": 16456,
+            "fn_Pbelow01": 8852,
+            "gt_probability_sum": 326170.96858533524,
+            "recall": 0.9525565438007236,
+            "mean_probability": 0.9403669215820306,
+            "interior": {
+              "gt_pixels": 297879,
+              "tp": 290461,
+              "fp": 0,
+              "fn": 7418,
+              "fn_Pbelow01": 4697,
+              "gt_probability_sum": 288623.9091623584,
+              "recall": 0.9750972710395832,
+              "mean_probability": 0.9689300325379042
+            }
+          },
+          {
+            "gt_pixels": 60460,
+            "tp": 60389,
+            "fp": 6991,
+            "fn": 71,
+            "fn_Pbelow01": 15,
+            "gt_probability_sum": 59908.03637926839,
+            "recall": 0.9988256698643732,
+            "mean_probability": 0.9908705984000726,
+            "interior": {
+              "gt_pixels": 58772,
+              "tp": 58741,
+              "fp": 0,
+              "fn": 31,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 58335.38306239247,
+              "recall": 0.9994725379432383,
+              "mean_probability": 0.9925710042604041
+            }
+          }
+        ]
+      },
+      "paired_changes": {
+        "stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 1,
+          "removed_fp": 15
+        },
+        "fiber": {
+          "lost_tp": 1126,
+          "gained_tp": 5740,
+          "added_fp": 4990,
+          "removed_fp": 544
+        }
+      },
+      "semantic_centerline": {
+        "reference_skeleton_pixels": 14601,
+        "reference_skeleton_covered": 13355,
+        "predicted_skeleton_pixels": 13395,
+        "predicted_skeleton_in_reference": 12716,
+        "reference_coverage": 0.9146633792206014,
+        "predicted_precision": 0.9493094438223217
+      },
+      "changed_frames": 70,
+      "baselineFN_Pbelow01_recovered_TP": 1134,
+      "baseline_highconfidence_TP_lost": 161,
+      "groups": {
+        "video_1": {
+          "frames": 43,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 56,
+                "tp": 21,
+                "fp": 19,
+                "fn": 35,
+                "fn_Pbelow01": 1,
+                "gt_probability_sum": 22.675376646220684,
+                "recall": 0.375,
+                "mean_probability": 0.40491744011108366,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                }
+              },
+              {
+                "gt_pixels": 35841,
+                "tp": 33243,
+                "fp": 4676,
+                "fn": 2598,
+                "fn_Pbelow01": 502,
+                "gt_probability_sum": 32029.488609098727,
+                "recall": 0.9275131832259145,
+                "mean_probability": 0.8936549931391068,
+                "interior": {
+                  "gt_pixels": 18703,
+                  "tp": 18629,
+                  "fp": 0,
+                  "fn": 74,
+                  "fn_Pbelow01": 4,
+                  "gt_probability_sum": 18563.761635039,
+                  "recall": 0.9960434154948404,
+                  "mean_probability": 0.9925552924685346
+                }
+              },
+              {
+                "gt_pixels": 210820,
+                "tp": 208926,
+                "fp": 2893,
+                "fn": 1894,
+                "fn_Pbelow01": 120,
+                "gt_probability_sum": 206866.67960751662,
+                "recall": 0.9910160326344749,
+                "mean_probability": 0.9812478873328746,
+                "interior": {
+                  "gt_pixels": 192994,
+                  "tp": 192570,
+                  "fp": 0,
+                  "fn": 424,
+                  "fn_Pbelow01": 1,
+                  "gt_probability_sum": 191326.51222819835,
+                  "recall": 0.9978030405090313,
+                  "mean_probability": 0.9913598983812882
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 1602,
+                "tp": 1250,
+                "fp": 666,
+                "fn": 352,
+                "fn_Pbelow01": 19,
+                "gt_probability_sum": 1103.2617942327634,
+                "recall": 0.7802746566791511,
+                "mean_probability": 0.6886777741777549,
+                "interior": {
+                  "gt_pixels": 66,
+                  "tp": 66,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 65.64618146419525,
+                  "recall": 1.0,
+                  "mean_probability": 0.9946391130938674
+                }
+              },
+              {
+                "gt_pixels": 217105,
+                "tp": 212930,
+                "fp": 5832,
+                "fn": 4175,
+                "fn_Pbelow01": 604,
+                "gt_probability_sum": 210036.5752930626,
+                "recall": 0.9807696736602105,
+                "mean_probability": 0.9674423679466737,
+                "interior": {
+                  "gt_pixels": 183961,
+                  "tp": 183463,
+                  "fp": 0,
+                  "fn": 498,
+                  "fn_Pbelow01": 5,
+                  "gt_probability_sum": 182360.95829473063,
+                  "recall": 0.997292904474318,
+                  "mean_probability": 0.9913022776280332
+                }
+              },
+              {
+                "gt_pixels": 28010,
+                "tp": 28010,
+                "fp": 1090,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 27779.006505966187,
+                "recall": 1.0,
+                "mean_probability": 0.9917531776496318,
+                "interior": {
+                  "gt_pixels": 27670,
+                  "tp": 27670,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27463.669387042522,
+                  "recall": 1.0,
+                  "mean_probability": 0.9925431654153424
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 8203,
+            "reference_skeleton_covered": 7873,
+            "predicted_skeleton_pixels": 7622,
+            "predicted_skeleton_in_reference": 7484,
+            "reference_coverage": 0.9597708155552847,
+            "predicted_precision": 0.9818945158750984
+          }
+        },
+        "video_2": {
+          "frames": 27,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 5454,
+                "tp": 1863,
+                "fp": 515,
+                "fn": 3591,
+                "fn_Pbelow01": 3230,
+                "gt_probability_sum": 1822.238426097385,
+                "recall": 0.3415841584158416,
+                "mean_probability": 0.33411045583010357,
+                "interior": {
+                  "gt_pixels": 2645,
+                  "tp": 1286,
+                  "fp": 0,
+                  "fn": 1359,
+                  "fn_Pbelow01": 1209,
+                  "gt_probability_sum": 1256.6555289392018,
+                  "recall": 0.48620037807183364,
+                  "mean_probability": 0.47510606009043543
+                }
+              },
+              {
+                "gt_pixels": 62791,
+                "tp": 46405,
+                "fp": 1577,
+                "fn": 16386,
+                "fn_Pbelow01": 12861,
+                "gt_probability_sum": 45943.561526709535,
+                "recall": 0.7390390342565017,
+                "mean_probability": 0.7316902346946145,
+                "interior": {
+                  "gt_pixels": 49748,
+                  "tp": 40748,
+                  "fp": 0,
+                  "fn": 9000,
+                  "fn_Pbelow01": 7154,
+                  "gt_probability_sum": 40510.15710841617,
+                  "recall": 0.8190882045509367,
+                  "mean_probability": 0.8143072507119115
+                }
+              },
+              {
+                "gt_pixels": 138458,
+                "tp": 131939,
+                "fp": 7258,
+                "fn": 6519,
+                "fn_Pbelow01": 3851,
+                "gt_probability_sum": 130503.73839938066,
+                "recall": 0.952917130104436,
+                "mean_probability": 0.9425510869677495,
+                "interior": {
+                  "gt_pixels": 126456,
+                  "tp": 122253,
+                  "fp": 0,
+                  "fn": 4203,
+                  "fn_Pbelow01": 2647,
+                  "gt_probability_sum": 121388.05848423377,
+                  "recall": 0.9667631429113683,
+                  "mean_probability": 0.9599232814910623
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 44503,
+                "tp": 30359,
+                "fp": 1368,
+                "fn": 14144,
+                "fn_Pbelow01": 11679,
+                "gt_probability_sum": 30006.115186612693,
+                "recall": 0.6821787295238523,
+                "mean_probability": 0.6742492682878164,
+                "interior": {
+                  "gt_pixels": 33829,
+                  "tp": 26218,
+                  "fp": 0,
+                  "fn": 7611,
+                  "fn_Pbelow01": 6318,
+                  "gt_probability_sum": 26020.206578611404,
+                  "recall": 0.7750155192290639,
+                  "mean_probability": 0.7691686593931657
+                }
+              },
+              {
+                "gt_pixels": 129750,
+                "tp": 117469,
+                "fp": 2081,
+                "fn": 12281,
+                "fn_Pbelow01": 8248,
+                "gt_probability_sum": 116134.39329227268,
+                "recall": 0.9053487475915222,
+                "mean_probability": 0.8950627614047991,
+                "interior": {
+                  "gt_pixels": 113918,
+                  "tp": 106998,
+                  "fp": 0,
+                  "fn": 6920,
+                  "fn_Pbelow01": 4692,
+                  "gt_probability_sum": 106262.95086762779,
+                  "recall": 0.9392545515195141,
+                  "mean_probability": 0.9328021108835108
+                }
+              },
+              {
+                "gt_pixels": 32450,
+                "tp": 32379,
+                "fp": 5901,
+                "fn": 71,
+                "fn_Pbelow01": 15,
+                "gt_probability_sum": 32129.029873302206,
+                "recall": 0.9978120184899846,
+                "mean_probability": 0.9901087788382806,
+                "interior": {
+                  "gt_pixels": 31102,
+                  "tp": 31071,
+                  "fp": 0,
+                  "fn": 31,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30871.71367534995,
+                  "recall": 0.9990032795318629,
+                  "mean_probability": 0.9925957711835236
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 6398,
+            "reference_skeleton_covered": 5482,
+            "predicted_skeleton_pixels": 5773,
+            "predicted_skeleton_in_reference": 5232,
+            "reference_coverage": 0.85683025945608,
+            "predicted_precision": 0.9062878919106184
+          }
+        },
+        "original29": {
+          "frames": 29,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 1625,
+                "tp": 824,
+                "fp": 161,
+                "fn": 801,
+                "fn_Pbelow01": 670,
+                "gt_probability_sum": 790.0032854871642,
+                "recall": 0.5070769230769231,
+                "mean_probability": 0.4861558679921011,
+                "interior": {
+                  "gt_pixels": 866,
+                  "tp": 506,
+                  "fp": 0,
+                  "fn": 360,
+                  "fn_Pbelow01": 312,
+                  "gt_probability_sum": 490.6610608491137,
+                  "recall": 0.5842956120092379,
+                  "mean_probability": 0.5665832111421636
+                }
+              },
+              {
+                "gt_pixels": 41353,
+                "tp": 37710,
+                "fp": 2374,
+                "fn": 3643,
+                "fn_Pbelow01": 2103,
+                "gt_probability_sum": 36799.75770154587,
+                "recall": 0.9119048194810534,
+                "mean_probability": 0.8898933016116332,
+                "interior": {
+                  "gt_pixels": 28430,
+                  "tp": 27200,
+                  "fp": 0,
+                  "fn": 1230,
+                  "fn_Pbelow01": 931,
+                  "gt_probability_sum": 27104.42158969953,
+                  "recall": 0.9567358424199789,
+                  "mean_probability": 0.9533739567252737
+                }
+              },
+              {
+                "gt_pixels": 135675,
+                "tp": 133197,
+                "fp": 1449,
+                "fn": 2478,
+                "fn_Pbelow01": 1236,
+                "gt_probability_sum": 131806.61646679454,
+                "recall": 0.9817357656163627,
+                "mean_probability": 0.9714878678223294,
+                "interior": {
+                  "gt_pixels": 123146,
+                  "tp": 121849,
+                  "fp": 0,
+                  "fn": 1297,
+                  "fn_Pbelow01": 859,
+                  "gt_probability_sum": 121081.74421095876,
+                  "recall": 0.9894677862049924,
+                  "mean_probability": 0.9832373297627106
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 11838,
+                "tp": 9628,
+                "fp": 908,
+                "fn": 2210,
+                "fn_Pbelow01": 1483,
+                "gt_probability_sum": 9351.306716753228,
+                "recall": 0.8133130596384525,
+                "mean_probability": 0.7899397463045471,
+                "interior": {
+                  "gt_pixels": 8002,
+                  "tp": 7051,
+                  "fp": 0,
+                  "fn": 951,
+                  "fn_Pbelow01": 700,
+                  "gt_probability_sum": 6992.164876732928,
+                  "recall": 0.8811547113221695,
+                  "mean_probability": 0.873802159051853
+                }
+              },
+              {
+                "gt_pixels": 138303,
+                "tp": 133600,
+                "fp": 2993,
+                "fn": 4703,
+                "fn_Pbelow01": 2526,
+                "gt_probability_sum": 131794.96160642357,
+                "recall": 0.9659949531102001,
+                "mean_probability": 0.9529436209368096,
+                "interior": {
+                  "gt_pixels": 116478,
+                  "tp": 114542,
+                  "fp": 0,
+                  "fn": 1936,
+                  "fn_Pbelow01": 1402,
+                  "gt_probability_sum": 113952.0638284415,
+                  "recall": 0.9833788354882467,
+                  "mean_probability": 0.9783140492491414
+                }
+              },
+              {
+                "gt_pixels": 28512,
+                "tp": 28503,
+                "fp": 83,
+                "fn": 9,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 28250.10913065076,
+                "recall": 0.9996843434343434,
+                "mean_probability": 0.9908147141782674,
+                "interior": {
+                  "gt_pixels": 27962,
+                  "tp": 27962,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27732.59815633297,
+                  "recall": 1.0,
+                  "mean_probability": 0.9917959429344456
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 6186,
+            "reference_skeleton_covered": 5692,
+            "predicted_skeleton_pixels": 5269,
+            "predicted_skeleton_in_reference": 5215,
+            "reference_coverage": 0.9201422567086971,
+            "predicted_precision": 0.9897513759726704
+          }
+        },
+        "new_user_approved": {
+          "frames": 41,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 3885,
+                "tp": 1060,
+                "fp": 373,
+                "fn": 2825,
+                "fn_Pbelow01": 2561,
+                "gt_probability_sum": 1054.9105172564414,
+                "recall": 0.2728442728442728,
+                "mean_probability": 0.2715342386760467,
+                "interior": {
+                  "gt_pixels": 1779,
+                  "tp": 780,
+                  "fp": 0,
+                  "fn": 999,
+                  "fn_Pbelow01": 897,
+                  "gt_probability_sum": 765.994468090088,
+                  "recall": 0.43844856661045534,
+                  "mean_probability": 0.4305758673918426
+                }
+              },
+              {
+                "gt_pixels": 57279,
+                "tp": 41938,
+                "fp": 3879,
+                "fn": 15341,
+                "fn_Pbelow01": 11260,
+                "gt_probability_sum": 41173.29243426239,
+                "recall": 0.732170603537073,
+                "mean_probability": 0.7188200288807833,
+                "interior": {
+                  "gt_pixels": 40021,
+                  "tp": 32177,
+                  "fp": 0,
+                  "fn": 7844,
+                  "fn_Pbelow01": 6227,
+                  "gt_probability_sum": 31969.49715375564,
+                  "recall": 0.8040028984782989,
+                  "mean_probability": 0.7988180493679728
+                }
+              },
+              {
+                "gt_pixels": 213603,
+                "tp": 207668,
+                "fp": 8702,
+                "fn": 5935,
+                "fn_Pbelow01": 2735,
+                "gt_probability_sum": 205563.80154010275,
+                "recall": 0.972214809717092,
+                "mean_probability": 0.9623638316882382,
+                "interior": {
+                  "gt_pixels": 196304,
+                  "tp": 192974,
+                  "fp": 0,
+                  "fn": 3330,
+                  "fn_Pbelow01": 1789,
+                  "gt_probability_sum": 191632.82650147338,
+                  "recall": 0.9830365147933817,
+                  "mean_probability": 0.9762043896276865
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 34267,
+                "tp": 21981,
+                "fp": 1126,
+                "fn": 12286,
+                "fn_Pbelow01": 10215,
+                "gt_probability_sum": 21758.070264092228,
+                "recall": 0.6414626316864622,
+                "mean_probability": 0.6349569633785341,
+                "interior": {
+                  "gt_pixels": 25893,
+                  "tp": 19233,
+                  "fp": 0,
+                  "fn": 6660,
+                  "fn_Pbelow01": 5618,
+                  "gt_probability_sum": 19093.68788334267,
+                  "recall": 0.7427876259993048,
+                  "mean_probability": 0.7374073256610926
+                }
+              },
+              {
+                "gt_pixels": 208552,
+                "tp": 196799,
+                "fp": 4920,
+                "fn": 11753,
+                "fn_Pbelow01": 6326,
+                "gt_probability_sum": 194376.0069789117,
+                "recall": 0.9436447504699068,
+                "mean_probability": 0.9320265784020854,
+                "interior": {
+                  "gt_pixels": 181401,
+                  "tp": 175919,
+                  "fp": 0,
+                  "fn": 5482,
+                  "fn_Pbelow01": 3295,
+                  "gt_probability_sum": 174671.84533391692,
+                  "recall": 0.9697796594285588,
+                  "mean_probability": 0.9629045337893226
+                }
+              },
+              {
+                "gt_pixels": 31948,
+                "tp": 31886,
+                "fp": 6908,
+                "fn": 62,
+                "fn_Pbelow01": 15,
+                "gt_probability_sum": 31657.927248617634,
+                "recall": 0.9980593464379617,
+                "mean_probability": 0.990920472286767,
+                "interior": {
+                  "gt_pixels": 30810,
+                  "tp": 30779,
+                  "fp": 0,
+                  "fn": 31,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30602.784906059504,
+                  "recall": 0.9989938331710484,
+                  "mean_probability": 0.9932744208393217
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 8415,
+            "reference_skeleton_covered": 7663,
+            "predicted_skeleton_pixels": 8126,
+            "predicted_skeleton_in_reference": 7501,
+            "reference_coverage": 0.9106357694592989,
+            "predicted_precision": 0.9230863893674625
+          }
+        }
+      }
+    },
+    "fiber_channel_gamma": {
+      "metrics": {
+        "stone_dice": 0.7402108287550232,
+        "stone_iou": 0.5875672260490346,
+        "stone_precision": 0.8997622517064192,
+        "stone_recall": 0.6287219526673564,
+        "stone_tp": 152516,
+        "stone_fp": 16991,
+        "stone_fn": 90065,
+        "fiber_dice": 0.9519188006113433,
+        "fiber_iou": 0.9082490947901701,
+        "fiber_precision": 0.9749432367317306,
+        "fiber_recall": 0.9299567729698734,
+        "fiber_tp": 421661,
+        "fiber_fp": 10837,
+        "fiber_fn": 31759,
+        "mean_dice": 0.8460648146831833,
+        "mean_iou": 0.7479081604196023,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            10434643,
+            16905,
+            10382
+          ],
+          [
+            89610,
+            152516,
+            455
+          ],
+          [
+            31673,
+            86,
+            421661
+          ]
+        ],
+        "valid_pixels": 11157931,
+        "stone_negative_images": 15,
+        "stone_negative_images_with_fp": 2,
+        "stone_negative_fp_image_rate": 0.13333333333333333,
+        "stone_negative_valid_pixels": 2400000,
+        "stone_negative_fp_pixels": 966,
+        "stone_negative_fp_pixel_fraction": 0.0004025
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 16548,
+          "target_boundary": 26016,
+          "matched_predicted": 10226,
+          "matched_target": 10051,
+          "precision": 0.617959874305052,
+          "recall": 0.3863391758917589,
+          "f_score": 0.47544027553626145
+        },
+        "2": {
+          "predicted_boundary": 23354,
+          "target_boundary": 24009,
+          "matched_predicted": 20978,
+          "matched_target": 20744,
+          "precision": 0.8982615397790529,
+          "recall": 0.8640093298346453,
+          "f_score": 0.8808025648983959
+        }
+      },
+      "brightness": {
+        "HSV_V": [
+          {
+            "gt_pixels": 5510,
+            "tp": 1543,
+            "fp": 345,
+            "fn": 3967,
+            "fn_Pbelow01": 3530,
+            "gt_probability_sum": 1536.6364784574398,
+            "recall": 0.28003629764065335,
+            "mean_probability": 0.27888139354944463,
+            "interior": {
+              "gt_pixels": 2645,
+              "tp": 1060,
+              "fp": 0,
+              "fn": 1585,
+              "fn_Pbelow01": 1422,
+              "gt_probability_sum": 1041.0846514162658,
+              "recall": 0.4007561436672968,
+              "mean_probability": 0.3936047831441459
+            }
+          },
+          {
+            "gt_pixels": 98632,
+            "tp": 78414,
+            "fp": 3734,
+            "fn": 20218,
+            "fn_Pbelow01": 13439,
+            "gt_probability_sum": 76781.10611547902,
+            "recall": 0.7950158163679131,
+            "mean_probability": 0.7784603994188399,
+            "interior": {
+              "gt_pixels": 68451,
+              "tp": 59858,
+              "fp": 0,
+              "fn": 8593,
+              "fn_Pbelow01": 6825,
+              "gt_probability_sum": 59517.115568652305,
+              "recall": 0.8744649457276008,
+              "mean_probability": 0.8694849683518474
+            }
+          },
+          {
+            "gt_pixels": 349278,
+            "tp": 341704,
+            "fp": 6758,
+            "fn": 7574,
+            "fn_Pbelow01": 2609,
+            "gt_probability_sum": 337996.3595715951,
+            "recall": 0.9783152674946605,
+            "mean_probability": 0.9677001115775832,
+            "interior": {
+              "gt_pixels": 319450,
+              "tp": 316597,
+              "fp": 0,
+              "fn": 2853,
+              "fn_Pbelow01": 1299,
+              "gt_probability_sum": 314408.0739161568,
+              "recall": 0.9910690248865237,
+              "mean_probability": 0.9842168537052959
+            }
+          }
+        ],
+        "Lab_Lstar": [
+          {
+            "gt_pixels": 46105,
+            "tp": 31147,
+            "fp": 1322,
+            "fn": 14958,
+            "fn_Pbelow01": 11937,
+            "gt_probability_sum": 30725.03649648205,
+            "recall": 0.6755666413621082,
+            "mean_probability": 0.6664144126771945,
+            "interior": {
+              "gt_pixels": 33895,
+              "tp": 26296,
+              "fp": 0,
+              "fn": 7599,
+              "fn_Pbelow01": 6437,
+              "gt_probability_sum": 26094.940966573326,
+              "recall": 0.7758076412450214,
+              "mean_probability": 0.7698758214065002
+            }
+          },
+          {
+            "gt_pixels": 346855,
+            "tp": 330127,
+            "fp": 4791,
+            "fn": 16728,
+            "fn_Pbelow01": 7626,
+            "gt_probability_sum": 325692.5119452765,
+            "recall": 0.9517723544420579,
+            "mean_probability": 0.938987507590424,
+            "interior": {
+              "gt_pixels": 297879,
+              "tp": 292478,
+              "fp": 0,
+              "fn": 5401,
+              "fn_Pbelow01": 3109,
+              "gt_probability_sum": 290540.3528376351,
+              "recall": 0.9818684767976259,
+              "mean_probability": 0.9753636638958607
+            }
+          },
+          {
+            "gt_pixels": 60460,
+            "tp": 60387,
+            "fp": 4724,
+            "fn": 73,
+            "fn_Pbelow01": 15,
+            "gt_probability_sum": 59896.55372377299,
+            "recall": 0.9987925901422428,
+            "mean_probability": 0.9906806768735195,
+            "interior": {
+              "gt_pixels": 58772,
+              "tp": 58741,
+              "fp": 0,
+              "fn": 31,
+              "fn_Pbelow01": 0,
+              "gt_probability_sum": 58330.980332016945,
+              "recall": 0.9994725379432383,
+              "mean_probability": 0.9924960922210737
+            }
+          }
+        ]
+      },
+      "paired_changes": {
+        "stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 8,
+          "removed_fp": 5
+        },
+        "fiber": {
+          "lost_tp": 1610,
+          "gained_tp": 5488,
+          "added_fp": 879,
+          "removed_fp": 2534
+        }
+      },
+      "semantic_centerline": {
+        "reference_skeleton_pixels": 14601,
+        "reference_skeleton_covered": 13271,
+        "predicted_skeleton_pixels": 13029,
+        "predicted_skeleton_in_reference": 12737,
+        "reference_coverage": 0.9089103486062599,
+        "predicted_precision": 0.9775884565200706
+      },
+      "changed_frames": 70,
+      "baselineFN_Pbelow01_recovered_TP": 1684,
+      "baseline_highconfidence_TP_lost": 2,
+      "groups": {
+        "video_1": {
+          "frames": 43,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 56,
+                "tp": 1,
+                "fp": 1,
+                "fn": 55,
+                "fn_Pbelow01": 4,
+                "gt_probability_sum": 15.070544941350818,
+                "recall": 0.017857142857142856,
+                "mean_probability": 0.2691168739526932,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                }
+              },
+              {
+                "gt_pixels": 35841,
+                "tp": 31922,
+                "fp": 2726,
+                "fn": 3919,
+                "fn_Pbelow01": 935,
+                "gt_probability_sum": 30670.66437648797,
+                "recall": 0.8906559526798917,
+                "mean_probability": 0.8557424284056798,
+                "interior": {
+                  "gt_pixels": 18703,
+                  "tp": 18619,
+                  "fp": 0,
+                  "fn": 84,
+                  "fn_Pbelow01": 6,
+                  "gt_probability_sum": 18545.66589834541,
+                  "recall": 0.995508741913062,
+                  "mean_probability": 0.9915877612332465
+                }
+              },
+              {
+                "gt_pixels": 210820,
+                "tp": 208125,
+                "fp": 2039,
+                "fn": 2695,
+                "fn_Pbelow01": 328,
+                "gt_probability_sum": 205912.4354453832,
+                "recall": 0.9872165828669007,
+                "mean_probability": 0.9767215418147386,
+                "interior": {
+                  "gt_pixels": 192994,
+                  "tp": 192661,
+                  "fp": 0,
+                  "fn": 333,
+                  "fn_Pbelow01": 5,
+                  "gt_probability_sum": 191324.1565202102,
+                  "recall": 0.9982745577582722,
+                  "mean_probability": 0.9913476922609522
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 1602,
+                "tp": 1056,
+                "fp": 342,
+                "fn": 546,
+                "fn_Pbelow01": 43,
+                "gt_probability_sum": 961.9567059434485,
+                "recall": 0.6591760299625468,
+                "mean_probability": 0.6004723507761851,
+                "interior": {
+                  "gt_pixels": 66,
+                  "tp": 66,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 65.39213162660599,
+                  "recall": 1.0,
+                  "mean_probability": 0.9907898731303938
+                }
+              },
+              {
+                "gt_pixels": 217105,
+                "tp": 210982,
+                "fp": 3642,
+                "fn": 6123,
+                "fn_Pbelow01": 1224,
+                "gt_probability_sum": 207858.49609113042,
+                "recall": 0.9717970567237051,
+                "mean_probability": 0.957409990977317,
+                "interior": {
+                  "gt_pixels": 183961,
+                  "tp": 183544,
+                  "fp": 0,
+                  "fn": 417,
+                  "fn_Pbelow01": 11,
+                  "gt_probability_sum": 182340.78839595616,
+                  "recall": 0.9977332151923506,
+                  "mean_probability": 0.9911926353735637
+                }
+              },
+              {
+                "gt_pixels": 28010,
+                "tp": 28010,
+                "fp": 782,
+                "fn": 0,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 27777.717569738626,
+                "recall": 1.0,
+                "mean_probability": 0.9917071606475768,
+                "interior": {
+                  "gt_pixels": 27670,
+                  "tp": 27670,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27463.641890972853,
+                  "recall": 1.0,
+                  "mean_probability": 0.9925421717012235
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 8203,
+            "reference_skeleton_covered": 7724,
+            "predicted_skeleton_pixels": 7580,
+            "predicted_skeleton_in_reference": 7491,
+            "reference_coverage": 0.941606729245398,
+            "predicted_precision": 0.9882585751978892
+          }
+        },
+        "video_2": {
+          "frames": 27,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 5454,
+                "tp": 1542,
+                "fp": 344,
+                "fn": 3912,
+                "fn_Pbelow01": 3526,
+                "gt_probability_sum": 1521.565933516089,
+                "recall": 0.28272827282728275,
+                "mean_probability": 0.27898165264321395,
+                "interior": {
+                  "gt_pixels": 2645,
+                  "tp": 1060,
+                  "fp": 0,
+                  "fn": 1585,
+                  "fn_Pbelow01": 1422,
+                  "gt_probability_sum": 1041.0846514162658,
+                  "recall": 0.4007561436672968,
+                  "mean_probability": 0.3936047831441459
+                }
+              },
+              {
+                "gt_pixels": 62791,
+                "tp": 46492,
+                "fp": 1008,
+                "fn": 16299,
+                "fn_Pbelow01": 12504,
+                "gt_probability_sum": 46110.44173899107,
+                "recall": 0.740424583140896,
+                "mean_probability": 0.7343479437975358,
+                "interior": {
+                  "gt_pixels": 49748,
+                  "tp": 41239,
+                  "fp": 0,
+                  "fn": 8509,
+                  "fn_Pbelow01": 6819,
+                  "gt_probability_sum": 40971.449670306894,
+                  "recall": 0.8289579480582134,
+                  "mean_probability": 0.8235798357784613
+                }
+              },
+              {
+                "gt_pixels": 138458,
+                "tp": 133579,
+                "fp": 4719,
+                "fn": 4879,
+                "fn_Pbelow01": 2281,
+                "gt_probability_sum": 132083.9241262119,
+                "recall": 0.9647618772479741,
+                "mean_probability": 0.9539638310983252,
+                "interior": {
+                  "gt_pixels": 126456,
+                  "tp": 123936,
+                  "fp": 0,
+                  "fn": 2520,
+                  "fn_Pbelow01": 1294,
+                  "gt_probability_sum": 123083.91739594658,
+                  "recall": 0.9800721199468589,
+                  "mean_probability": 0.973333945371881
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 44503,
+                "tp": 30091,
+                "fp": 980,
+                "fn": 14412,
+                "fn_Pbelow01": 11894,
+                "gt_probability_sum": 29763.079790538603,
+                "recall": 0.6761566635957127,
+                "mean_probability": 0.6687881668772577,
+                "interior": {
+                  "gt_pixels": 33829,
+                  "tp": 26230,
+                  "fp": 0,
+                  "fn": 7599,
+                  "fn_Pbelow01": 6437,
+                  "gt_probability_sum": 26029.54883494672,
+                  "recall": 0.7753702444648083,
+                  "mean_probability": 0.7694448205665766
+                }
+              },
+              {
+                "gt_pixels": 129750,
+                "tp": 119145,
+                "fp": 1149,
+                "fn": 10605,
+                "fn_Pbelow01": 6402,
+                "gt_probability_sum": 117834.01585414613,
+                "recall": 0.9182658959537572,
+                "mean_probability": 0.9081619719009335,
+                "interior": {
+                  "gt_pixels": 113918,
+                  "tp": 108934,
+                  "fp": 0,
+                  "fn": 4984,
+                  "fn_Pbelow01": 3098,
+                  "gt_probability_sum": 108199.56444167893,
+                  "recall": 0.95624923190365,
+                  "mean_probability": 0.9498021773703799
+                }
+              },
+              {
+                "gt_pixels": 32450,
+                "tp": 32377,
+                "fp": 3942,
+                "fn": 73,
+                "fn_Pbelow01": 15,
+                "gt_probability_sum": 32118.83615403436,
+                "recall": 0.9977503852080123,
+                "mean_probability": 0.98979464265129,
+                "interior": {
+                  "gt_pixels": 31102,
+                  "tp": 31071,
+                  "fp": 0,
+                  "fn": 31,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30867.338441044092,
+                  "recall": 0.9990032795318629,
+                  "mean_probability": 0.9924550974549576
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 6398,
+            "reference_skeleton_covered": 5547,
+            "predicted_skeleton_pixels": 5449,
+            "predicted_skeleton_in_reference": 5246,
+            "reference_coverage": 0.8669896842763364,
+            "predicted_precision": 0.9627454578821802
+          }
+        },
+        "original29": {
+          "frames": 29,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 1625,
+                "tp": 574,
+                "fp": 82,
+                "fn": 1051,
+                "fn_Pbelow01": 871,
+                "gt_probability_sum": 569.4270334986904,
+                "recall": 0.35323076923076924,
+                "mean_probability": 0.3504166359991941,
+                "interior": {
+                  "gt_pixels": 866,
+                  "tp": 335,
+                  "fp": 0,
+                  "fn": 531,
+                  "fn_Pbelow01": 478,
+                  "gt_probability_sum": 328.1672783275244,
+                  "recall": 0.38683602771362585,
+                  "mean_probability": 0.37894604887704897
+                }
+              },
+              {
+                "gt_pixels": 41353,
+                "tp": 37252,
+                "fp": 1306,
+                "fn": 4101,
+                "fn_Pbelow01": 1966,
+                "gt_probability_sum": 36291.684131057526,
+                "recall": 0.9008294440548449,
+                "mean_probability": 0.87760704497999,
+                "interior": {
+                  "gt_pixels": 28430,
+                  "tp": 27401,
+                  "fp": 0,
+                  "fn": 1029,
+                  "fn_Pbelow01": 803,
+                  "gt_probability_sum": 27306.551769838195,
+                  "recall": 0.9638058389025677,
+                  "mean_probability": 0.9604837062904746
+                }
+              },
+              {
+                "gt_pixels": 135675,
+                "tp": 133595,
+                "fp": 982,
+                "fn": 2080,
+                "fn_Pbelow01": 716,
+                "gt_probability_sum": 132029.34195713184,
+                "recall": 0.9846692463607887,
+                "mean_probability": 0.9731294782172975,
+                "interior": {
+                  "gt_pixels": 123146,
+                  "tp": 122486,
+                  "fp": 0,
+                  "fn": 660,
+                  "fn_Pbelow01": 394,
+                  "gt_probability_sum": 121678.23668244814,
+                  "recall": 0.9946405080148767,
+                  "mean_probability": 0.988081112520489
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 11838,
+                "tp": 9468,
+                "fp": 597,
+                "fn": 2370,
+                "fn_Pbelow01": 1517,
+                "gt_probability_sum": 9225.916407705598,
+                "recall": 0.799797263051191,
+                "mean_probability": 0.779347559360162,
+                "interior": {
+                  "gt_pixels": 8002,
+                  "tp": 7064,
+                  "fp": 0,
+                  "fn": 938,
+                  "fn_Pbelow01": 765,
+                  "gt_probability_sum": 7010.199143836104,
+                  "recall": 0.8827793051737066,
+                  "mean_probability": 0.8760558790097606
+                }
+              },
+              {
+                "gt_pixels": 138303,
+                "tp": 133452,
+                "fp": 1744,
+                "fn": 4851,
+                "fn_Pbelow01": 2036,
+                "gt_probability_sum": 131422.80004353312,
+                "recall": 0.964924838940587,
+                "mean_probability": 0.9502527063298202,
+                "interior": {
+                  "gt_pixels": 116478,
+                  "tp": 115196,
+                  "fp": 0,
+                  "fn": 1282,
+                  "fn_Pbelow01": 910,
+                  "gt_probability_sum": 114573.63422657807,
+                  "recall": 0.9889936296983122,
+                  "mean_probability": 0.9836504252011373
+                }
+              },
+              {
+                "gt_pixels": 28512,
+                "tp": 28501,
+                "fp": 29,
+                "fn": 11,
+                "fn_Pbelow01": 0,
+                "gt_probability_sum": 28241.736670449376,
+                "recall": 0.9996141975308642,
+                "mean_probability": 0.9905210672856823,
+                "interior": {
+                  "gt_pixels": 27962,
+                  "tp": 27962,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 27729.12236019969,
+                  "recall": 1.0,
+                  "mean_probability": 0.9916716386595984
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 6186,
+            "reference_skeleton_covered": 5556,
+            "predicted_skeleton_pixels": 5234,
+            "predicted_skeleton_in_reference": 5217,
+            "reference_coverage": 0.8981571290009699,
+            "predicted_precision": 0.9967520061138708
+          }
+        },
+        "new_user_approved": {
+          "frames": 41,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 3885,
+                "tp": 969,
+                "fp": 263,
+                "fn": 2916,
+                "fn_Pbelow01": 2659,
+                "gt_probability_sum": 967.2094449587494,
+                "recall": 0.2494208494208494,
+                "mean_probability": 0.24895996009234217,
+                "interior": {
+                  "gt_pixels": 1779,
+                  "tp": 725,
+                  "fp": 0,
+                  "fn": 1054,
+                  "fn_Pbelow01": 944,
+                  "gt_probability_sum": 712.9173730887414,
+                  "recall": 0.40753232152894886,
+                  "mean_probability": 0.4007405132595511
+                }
+              },
+              {
+                "gt_pixels": 57279,
+                "tp": 41162,
+                "fp": 2428,
+                "fn": 16117,
+                "fn_Pbelow01": 11473,
+                "gt_probability_sum": 40489.42198442151,
+                "recall": 0.7186228809860508,
+                "mean_probability": 0.7068807413610837,
+                "interior": {
+                  "gt_pixels": 40021,
+                  "tp": 32457,
+                  "fp": 0,
+                  "fn": 7564,
+                  "fn_Pbelow01": 6022,
+                  "gt_probability_sum": 32210.563798814106,
+                  "recall": 0.8109992254066615,
+                  "mean_probability": 0.8048415531549463
+                }
+              },
+              {
+                "gt_pixels": 213603,
+                "tp": 208109,
+                "fp": 5776,
+                "fn": 5494,
+                "fn_Pbelow01": 1893,
+                "gt_probability_sum": 205967.01761446326,
+                "recall": 0.9742793874617866,
+                "mean_probability": 0.9642515208796846,
+                "interior": {
+                  "gt_pixels": 196304,
+                  "tp": 194111,
+                  "fp": 0,
+                  "fn": 2193,
+                  "fn_Pbelow01": 905,
+                  "gt_probability_sum": 192729.83723370865,
+                  "recall": 0.9888285516342,
+                  "mean_probability": 0.9817927155519431
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 34267,
+                "tp": 21679,
+                "fp": 725,
+                "fn": 12588,
+                "fn_Pbelow01": 10420,
+                "gt_probability_sum": 21499.120088776453,
+                "recall": 0.6326494878454489,
+                "mean_probability": 0.6274001251576284,
+                "interior": {
+                  "gt_pixels": 25893,
+                  "tp": 19232,
+                  "fp": 0,
+                  "fn": 6661,
+                  "fn_Pbelow01": 5672,
+                  "gt_probability_sum": 19084.74182273722,
+                  "recall": 0.7427490055227282,
+                  "mean_probability": 0.7370618245370263
+                }
+              },
+              {
+                "gt_pixels": 208552,
+                "tp": 196675,
+                "fp": 3047,
+                "fn": 11877,
+                "fn_Pbelow01": 5590,
+                "gt_probability_sum": 194269.71190174346,
+                "recall": 0.9430501745368062,
+                "mean_probability": 0.9315168969932844,
+                "interior": {
+                  "gt_pixels": 181401,
+                  "tp": 177282,
+                  "fp": 0,
+                  "fn": 4119,
+                  "fn_Pbelow01": 2199,
+                  "gt_probability_sum": 175966.71861105703,
+                  "recall": 0.9772933997056246,
+                  "mean_probability": 0.970042715371233
+                }
+              },
+              {
+                "gt_pixels": 31948,
+                "tp": 31886,
+                "fp": 4695,
+                "fn": 62,
+                "fn_Pbelow01": 15,
+                "gt_probability_sum": 31654.81705332361,
+                "recall": 0.9980593464379617,
+                "mean_probability": 0.9908231204871545,
+                "interior": {
+                  "gt_pixels": 30810,
+                  "tp": 30779,
+                  "fp": 0,
+                  "fn": 31,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 30601.857971817255,
+                  "recall": 0.9989938331710484,
+                  "mean_probability": 0.9932443353397357
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 8415,
+            "reference_skeleton_covered": 7715,
+            "predicted_skeleton_pixels": 7795,
+            "predicted_skeleton_in_reference": 7520,
+            "reference_coverage": 0.916815210932858,
+            "predicted_precision": 0.964720974983964
+          }
+        }
+      }
+    }
+  },
+  "image_native": {
+    "raw2": {
+      "metrics": {
+        "stone_dice": 0.9067512678774649,
+        "stone_iou": 0.829409850873564,
+        "stone_precision": 0.8802122528126057,
+        "stone_recall": 0.9349403740766578,
+        "stone_tp": 6120805,
+        "stone_fp": 832978,
+        "stone_fn": 425928,
+        "fiber_dice": 0.7657579680840231,
+        "fiber_iou": 0.6204277186179585,
+        "fiber_precision": 0.6434325037891752,
+        "fiber_recall": 0.9455131659302367,
+        "fiber_tp": 105281,
+        "fiber_fp": 58343,
+        "fiber_fn": 6067,
+        "mean_dice": 0.836254617980744,
+        "mean_iou": 0.7249187847457612,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            25646850,
+            832455,
+            40214
+          ],
+          [
+            407799,
+            6120805,
+            18129
+          ],
+          [
+            5544,
+            523,
+            105281
+          ]
+        ],
+        "valid_pixels": 33177600,
+        "stone_negative_images": 0,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": null,
+        "stone_negative_valid_pixels": 0,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": null
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 167149,
+          "target_boundary": 173359,
+          "matched_predicted": 67142,
+          "matched_target": 66971,
+          "precision": 0.40168951055644964,
+          "recall": 0.38631394966514576,
+          "f_score": 0.39385172577410626
+        },
+        "2": {
+          "predicted_boundary": 15360,
+          "target_boundary": 10984,
+          "matched_predicted": 6904,
+          "matched_target": 6927,
+          "precision": 0.44947916666666665,
+          "recall": 0.6306445739257102,
+          "f_score": 0.5248687477150039
+        }
+      },
+      "brightness": {
+        "HSV_V": [
+          {
+            "gt_pixels": 266,
+            "tp": 46,
+            "fp": 1551,
+            "fn": 220,
+            "fn_Pbelow01": 207,
+            "gt_probability_sum": 42.869189840290346,
+            "recall": 0.17293233082706766,
+            "mean_probability": 0.1611623678206404,
+            "interior": {
+              "gt_pixels": 38,
+              "tp": 19,
+              "fp": 0,
+              "fn": 19,
+              "fn_Pbelow01": 19,
+              "gt_probability_sum": 19.45694208983332,
+              "recall": 0.5,
+              "mean_probability": 0.5120247918377189
+            }
+          },
+          {
+            "gt_pixels": 19394,
+            "tp": 17837,
+            "fp": 12522,
+            "fn": 1557,
+            "fn_Pbelow01": 953,
+            "gt_probability_sum": 17633.915339523497,
+            "recall": 0.919717438383005,
+            "mean_probability": 0.9092459183006856,
+            "interior": {
+              "gt_pixels": 13295,
+              "tp": 13114,
+              "fp": 0,
+              "fn": 181,
+              "fn_Pbelow01": 108,
+              "gt_probability_sum": 13074.65059522324,
+              "recall": 0.9863858593456186,
+              "mean_probability": 0.9834261448080662
+            }
+          },
+          {
+            "gt_pixels": 91688,
+            "tp": 87398,
+            "fp": 44270,
+            "fn": 4290,
+            "fn_Pbelow01": 2951,
+            "gt_probability_sum": 86636.06959037752,
+            "recall": 0.9532108891021726,
+            "mean_probability": 0.9449008549687802,
+            "interior": {
+              "gt_pixels": 69759,
+              "tp": 68557,
+              "fp": 0,
+              "fn": 1202,
+              "fn_Pbelow01": 812,
+              "gt_probability_sum": 68350.14876391442,
+              "recall": 0.9827692484123912,
+              "mean_probability": 0.9798040219027568
+            }
+          }
+        ],
+        "Lab_Lstar": [
+          {
+            "gt_pixels": 1211,
+            "tp": 704,
+            "fp": 3496,
+            "fn": 507,
+            "fn_Pbelow01": 400,
+            "gt_probability_sum": 668.1836649157267,
+            "recall": 0.5813377374071016,
+            "mean_probability": 0.5517619033160419,
+            "interior": {
+              "gt_pixels": 224,
+              "tp": 152,
+              "fp": 0,
+              "fn": 72,
+              "fn_Pbelow01": 59,
+              "gt_probability_sum": 154.76913757446164,
+              "recall": 0.6785714285714286,
+              "mean_probability": 0.6909336498859895
+            }
+          },
+          {
+            "gt_pixels": 36310,
+            "tp": 34406,
+            "fp": 17084,
+            "fn": 1904,
+            "fn_Pbelow01": 1208,
+            "gt_probability_sum": 34063.83527083309,
+            "recall": 0.9475626549160011,
+            "mean_probability": 0.9381392253052353,
+            "interior": {
+              "gt_pixels": 25899,
+              "tp": 25581,
+              "fp": 0,
+              "fn": 318,
+              "fn_Pbelow01": 223,
+              "gt_probability_sum": 25516.328727925084,
+              "recall": 0.9877215336499479,
+              "mean_probability": 0.9852244769267186
+            }
+          },
+          {
+            "gt_pixels": 73827,
+            "tp": 70171,
+            "fp": 37763,
+            "fn": 3656,
+            "fn_Pbelow01": 2503,
+            "gt_probability_sum": 69580.8351839925,
+            "recall": 0.9504788221111518,
+            "mean_probability": 0.9424849334795197,
+            "interior": {
+              "gt_pixels": 56969,
+              "tp": 55957,
+              "fp": 0,
+              "fn": 1012,
+              "fn_Pbelow01": 657,
+              "gt_probability_sum": 55773.15843572795,
+              "recall": 0.9822359528866577,
+              "mean_probability": 0.9790089072254726
+            }
+          }
+        ]
+      },
+      "paired_changes": {
+        "stone": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        },
+        "fiber": {
+          "lost_tp": 0,
+          "gained_tp": 0,
+          "added_fp": 0,
+          "removed_fp": 0
+        }
+      },
+      "semantic_centerline": {
+        "reference_skeleton_pixels": 4269,
+        "reference_skeleton_covered": 3798,
+        "predicted_skeleton_pixels": 5149,
+        "predicted_skeleton_in_reference": 3526,
+        "reference_coverage": 0.8896697118763176,
+        "predicted_precision": 0.6847931637211109
+      },
+      "changed_frames": 0,
+      "baselineFN_Pbelow01_recovered_TP": 0,
+      "baseline_highconfidence_TP_lost": 0,
+      "groups": {
+        "kidney_stones_fiber_v1": {
+          "frames": 68,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 255,
+                "tp": 38,
+                "fp": 336,
+                "fn": 217,
+                "fn_Pbelow01": 204,
+                "gt_probability_sum": 37.35936842906813,
+                "recall": 0.14901960784313725,
+                "mean_probability": 0.14650732717281617,
+                "interior": {
+                  "gt_pixels": 38,
+                  "tp": 19,
+                  "fp": 0,
+                  "fn": 19,
+                  "fn_Pbelow01": 19,
+                  "gt_probability_sum": 19.45694208983332,
+                  "recall": 0.5,
+                  "mean_probability": 0.5120247918377189
+                }
+              },
+              {
+                "gt_pixels": 5983,
+                "tp": 4982,
+                "fp": 3304,
+                "fn": 1001,
+                "fn_Pbelow01": 649,
+                "gt_probability_sum": 4915.091058196296,
+                "recall": 0.8326926291158282,
+                "mean_probability": 0.8215094531499743,
+                "interior": {
+                  "gt_pixels": 3885,
+                  "tp": 3705,
+                  "fp": 0,
+                  "fn": 180,
+                  "fn_Pbelow01": 108,
+                  "gt_probability_sum": 3681.9243577175657,
+                  "recall": 0.9536679536679536,
+                  "mean_probability": 0.9477282774047788
+                }
+              },
+              {
+                "gt_pixels": 33787,
+                "tp": 32292,
+                "fp": 12446,
+                "fn": 1495,
+                "fn_Pbelow01": 840,
+                "gt_probability_sum": 31920.792770680426,
+                "recall": 0.9557522123893806,
+                "mean_probability": 0.944765524334224,
+                "interior": {
+                  "gt_pixels": 27805,
+                  "tp": 27338,
+                  "fp": 0,
+                  "fn": 467,
+                  "fn_Pbelow01": 287,
+                  "gt_probability_sum": 27223.867706276927,
+                  "recall": 0.983204459629563,
+                  "mean_probability": 0.9790997197006628
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 561,
+                "tp": 207,
+                "fp": 810,
+                "fn": 354,
+                "fn_Pbelow01": 287,
+                "gt_probability_sum": 207.030109758467,
+                "recall": 0.3689839572192513,
+                "mean_probability": 0.3690376288029715,
+                "interior": {
+                  "gt_pixels": 143,
+                  "tp": 71,
+                  "fp": 0,
+                  "fn": 72,
+                  "fn_Pbelow01": 59,
+                  "gt_probability_sum": 74.20911879661435,
+                  "recall": 0.4965034965034965,
+                  "mean_probability": 0.5189448866896108
+                }
+              },
+              {
+                "gt_pixels": 12818,
+                "tp": 11633,
+                "fp": 4057,
+                "fn": 1185,
+                "fn_Pbelow01": 769,
+                "gt_probability_sum": 11494.311862917799,
+                "recall": 0.9075518801685131,
+                "mean_probability": 0.8967320847962084,
+                "interior": {
+                  "gt_pixels": 9564,
+                  "tp": 9305,
+                  "fp": 0,
+                  "fn": 259,
+                  "fn_Pbelow01": 165,
+                  "gt_probability_sum": 9260.137325752177,
+                  "recall": 0.9729192806357173,
+                  "mean_probability": 0.9682284949552674
+                }
+              },
+              {
+                "gt_pixels": 26646,
+                "tp": 25472,
+                "fp": 11219,
+                "fn": 1174,
+                "fn_Pbelow01": 637,
+                "gt_probability_sum": 25171.901224629524,
+                "recall": 0.9559408541619755,
+                "mean_probability": 0.944678421700425,
+                "interior": {
+                  "gt_pixels": 22021,
+                  "tp": 21686,
+                  "fp": 0,
+                  "fn": 335,
+                  "fn_Pbelow01": 190,
+                  "gt_probability_sum": 21590.902561535535,
+                  "recall": 0.9847872485354888,
+                  "mean_probability": 0.9804687598899021
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 1895,
+            "reference_skeleton_covered": 1702,
+            "predicted_skeleton_pixels": 2441,
+            "predicted_skeleton_in_reference": 1590,
+            "reference_coverage": 0.8981530343007915,
+            "predicted_precision": 0.651372388365424
+          }
+        },
+        "kidney_stones_fiber_v2": {
+          "frames": 64,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 11,
+                "tp": 8,
+                "fp": 1215,
+                "fn": 3,
+                "fn_Pbelow01": 3,
+                "gt_probability_sum": 5.5098214112222195,
+                "recall": 0.7272727272727273,
+                "mean_probability": 0.5008928555656563,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                }
+              },
+              {
+                "gt_pixels": 13411,
+                "tp": 12855,
+                "fp": 9218,
+                "fn": 556,
+                "fn_Pbelow01": 304,
+                "gt_probability_sum": 12718.8242813272,
+                "recall": 0.9585414957870405,
+                "mean_probability": 0.948387464121035,
+                "interior": {
+                  "gt_pixels": 9410,
+                  "tp": 9409,
+                  "fp": 0,
+                  "fn": 1,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 9392.726237505674,
+                  "recall": 0.999893730074389,
+                  "mean_probability": 0.998164318544705
+                }
+              },
+              {
+                "gt_pixels": 57901,
+                "tp": 55106,
+                "fp": 31824,
+                "fn": 2795,
+                "fn_Pbelow01": 2111,
+                "gt_probability_sum": 54715.27681969711,
+                "recall": 0.9517279494309252,
+                "mean_probability": 0.9449798245228426,
+                "interior": {
+                  "gt_pixels": 41954,
+                  "tp": 41219,
+                  "fp": 0,
+                  "fn": 735,
+                  "fn_Pbelow01": 525,
+                  "gt_probability_sum": 41126.2810576375,
+                  "recall": 0.9824808123182533,
+                  "mean_probability": 0.9802707979605639
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 650,
+                "tp": 497,
+                "fp": 2686,
+                "fn": 153,
+                "fn_Pbelow01": 113,
+                "gt_probability_sum": 461.1535551572597,
+                "recall": 0.7646153846153846,
+                "mean_probability": 0.7094670079342457,
+                "interior": {
+                  "gt_pixels": 81,
+                  "tp": 81,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 80.56001877784729,
+                  "recall": 1.0,
+                  "mean_probability": 0.994568133059843
+                }
+              },
+              {
+                "gt_pixels": 23492,
+                "tp": 22773,
+                "fp": 13027,
+                "fn": 719,
+                "fn_Pbelow01": 439,
+                "gt_probability_sum": 22569.523407915298,
+                "recall": 0.9693938361995573,
+                "mean_probability": 0.960732309208041,
+                "interior": {
+                  "gt_pixels": 16335,
+                  "tp": 16276,
+                  "fp": 0,
+                  "fn": 59,
+                  "fn_Pbelow01": 58,
+                  "gt_probability_sum": 16256.191402172906,
+                  "recall": 0.9963881236608509,
+                  "mean_probability": 0.9951754761048611
+                }
+              },
+              {
+                "gt_pixels": 47181,
+                "tp": 44699,
+                "fp": 26544,
+                "fn": 2482,
+                "fn_Pbelow01": 1866,
+                "gt_probability_sum": 44408.93395936297,
+                "recall": 0.9473940781246688,
+                "mean_probability": 0.9412461363549516,
+                "interior": {
+                  "gt_pixels": 34948,
+                  "tp": 34271,
+                  "fp": 0,
+                  "fn": 677,
+                  "fn_Pbelow01": 467,
+                  "gt_probability_sum": 34182.255874192415,
+                  "recall": 0.9806283621380336,
+                  "mean_probability": 0.9780890429836447
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 2374,
+            "reference_skeleton_covered": 2096,
+            "predicted_skeleton_pixels": 2708,
+            "predicted_skeleton_in_reference": 1936,
+            "reference_coverage": 0.8828980623420387,
+            "predicted_precision": 0.7149187592319055
+          }
+        },
+        "old190_exposed25": {
+          "frames": 25,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 87,
+                "tp": 2,
+                "fp": 16,
+                "fn": 85,
+                "fn_Pbelow01": 85,
+                "gt_probability_sum": 2.071010698487953,
+                "recall": 0.022988505747126436,
+                "mean_probability": 0.023804720672275324,
+                "interior": {
+                  "gt_pixels": 11,
+                  "tp": 2,
+                  "fp": 0,
+                  "fn": 9,
+                  "fn_Pbelow01": 9,
+                  "gt_probability_sum": 2.0051220497116446,
+                  "recall": 0.18181818181818182,
+                  "mean_probability": 0.1822838227010586
+                }
+              },
+              {
+                "gt_pixels": 9329,
+                "tp": 9027,
+                "fp": 2540,
+                "fn": 302,
+                "fn_Pbelow01": 145,
+                "gt_probability_sum": 8979.0199542333,
+                "recall": 0.9676278272054882,
+                "mean_probability": 0.9624847201450637,
+                "interior": {
+                  "gt_pixels": 7635,
+                  "tp": 7571,
+                  "fp": 0,
+                  "fn": 64,
+                  "fn_Pbelow01": 43,
+                  "gt_probability_sum": 7567.129547214121,
+                  "recall": 0.9916175507531106,
+                  "mean_probability": 0.9911106152212339
+                }
+              },
+              {
+                "gt_pixels": 10640,
+                "tp": 9336,
+                "fp": 16087,
+                "fn": 1304,
+                "fn_Pbelow01": 1091,
+                "gt_probability_sum": 9214.981560846689,
+                "recall": 0.8774436090225564,
+                "mean_probability": 0.8660696955682978,
+                "interior": {
+                  "gt_pixels": 7686,
+                  "tp": 7276,
+                  "fp": 0,
+                  "fn": 410,
+                  "fn_Pbelow01": 341,
+                  "gt_probability_sum": 7246.500972248759,
+                  "recall": 0.946656258131668,
+                  "mean_probability": 0.9428182373469632
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 282,
+                "tp": 88,
+                "fp": 140,
+                "fn": 194,
+                "fn_Pbelow01": 146,
+                "gt_probability_sum": 90.56250632137744,
+                "recall": 0.3120567375886525,
+                "mean_probability": 0.3211436394375087,
+                "interior": {
+                  "gt_pixels": 92,
+                  "tp": 35,
+                  "fp": 0,
+                  "fn": 57,
+                  "fn_Pbelow01": 46,
+                  "gt_probability_sum": 37.35229851816257,
+                  "recall": 0.3804347826086957,
+                  "mean_probability": 0.4060032447626366
+                }
+              },
+              {
+                "gt_pixels": 12413,
+                "tp": 12132,
+                "fp": 3059,
+                "fn": 281,
+                "fn_Pbelow01": 107,
+                "gt_probability_sum": 12037.634508422576,
+                "recall": 0.9773624426004994,
+                "mean_probability": 0.9697602923082717,
+                "interior": {
+                  "gt_pixels": 10180,
+                  "tp": 10155,
+                  "fp": 0,
+                  "fn": 25,
+                  "fn_Pbelow01": 6,
+                  "gt_probability_sum": 10134.979947894346,
+                  "recall": 0.9975442043222004,
+                  "mean_probability": 0.9955775980249849
+                }
+              },
+              {
+                "gt_pixels": 7361,
+                "tp": 6145,
+                "fp": 15444,
+                "fn": 1216,
+                "fn_Pbelow01": 1068,
+                "gt_probability_sum": 6067.875511034523,
+                "recall": 0.8348050536611873,
+                "mean_probability": 0.8243276064440325,
+                "interior": {
+                  "gt_pixels": 5060,
+                  "tp": 4659,
+                  "fp": 0,
+                  "fn": 401,
+                  "fn_Pbelow01": 341,
+                  "gt_probability_sum": 4643.303395100083,
+                  "recall": 0.9207509881422925,
+                  "mean_probability": 0.9176488923122694
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 740,
+            "reference_skeleton_covered": 606,
+            "predicted_skeleton_pixels": 1041,
+            "predicted_skeleton_in_reference": 552,
+            "reference_coverage": 0.8189189189189189,
+            "predicted_precision": 0.5302593659942363
+          }
+        },
+        "not_matched107": {
+          "frames": 107,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 179,
+                "tp": 44,
+                "fp": 1535,
+                "fn": 135,
+                "fn_Pbelow01": 122,
+                "gt_probability_sum": 40.79817914180239,
+                "recall": 0.24581005586592178,
+                "mean_probability": 0.22792278850168934,
+                "interior": {
+                  "gt_pixels": 27,
+                  "tp": 17,
+                  "fp": 0,
+                  "fn": 10,
+                  "fn_Pbelow01": 10,
+                  "gt_probability_sum": 17.451820040121675,
+                  "recall": 0.6296296296296297,
+                  "mean_probability": 0.6463637051896917
+                }
+              },
+              {
+                "gt_pixels": 10065,
+                "tp": 8810,
+                "fp": 9982,
+                "fn": 1255,
+                "fn_Pbelow01": 808,
+                "gt_probability_sum": 8654.895385290198,
+                "recall": 0.8753104818678589,
+                "mean_probability": 0.8599001873114951,
+                "interior": {
+                  "gt_pixels": 5660,
+                  "tp": 5543,
+                  "fp": 0,
+                  "fn": 117,
+                  "fn_Pbelow01": 65,
+                  "gt_probability_sum": 5507.521048009119,
+                  "recall": 0.9793286219081272,
+                  "mean_probability": 0.9730602558319998
+                }
+              },
+              {
+                "gt_pixels": 81048,
+                "tp": 78062,
+                "fp": 28183,
+                "fn": 2986,
+                "fn_Pbelow01": 1860,
+                "gt_probability_sum": 77421.08802953085,
+                "recall": 0.9631576349817392,
+                "mean_probability": 0.955249827627219,
+                "interior": {
+                  "gt_pixels": 62073,
+                  "tp": 61281,
+                  "fp": 0,
+                  "fn": 792,
+                  "fn_Pbelow01": 471,
+                  "gt_probability_sum": 61103.647791665666,
+                  "recall": 0.9872408293460925,
+                  "mean_probability": 0.9843836739269194
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 929,
+                "tp": 616,
+                "fp": 3356,
+                "fn": 313,
+                "fn_Pbelow01": 254,
+                "gt_probability_sum": 577.6211585943493,
+                "recall": 0.6630785791173305,
+                "mean_probability": 0.6217665862156612,
+                "interior": {
+                  "gt_pixels": 132,
+                  "tp": 117,
+                  "fp": 0,
+                  "fn": 15,
+                  "fn_Pbelow01": 13,
+                  "gt_probability_sum": 117.41683905629907,
+                  "recall": 0.8863636363636364,
+                  "mean_probability": 0.8895215080022657
+                }
+              },
+              {
+                "gt_pixels": 23897,
+                "tp": 22274,
+                "fp": 14025,
+                "fn": 1623,
+                "fn_Pbelow01": 1101,
+                "gt_probability_sum": 22026.20076241052,
+                "recall": 0.9320835251286772,
+                "mean_probability": 0.9217140545846977,
+                "interior": {
+                  "gt_pixels": 15719,
+                  "tp": 15426,
+                  "fp": 0,
+                  "fn": 293,
+                  "fn_Pbelow01": 217,
+                  "gt_probability_sum": 15381.348780030738,
+                  "recall": 0.9813601374133215,
+                  "mean_probability": 0.9785195483192785
+                }
+              },
+              {
+                "gt_pixels": 66466,
+                "tp": 64026,
+                "fp": 22319,
+                "fn": 2440,
+                "fn_Pbelow01": 1435,
+                "gt_probability_sum": 63512.95967295798,
+                "recall": 0.9632895013992117,
+                "mean_probability": 0.9555706627893656,
+                "interior": {
+                  "gt_pixels": 51909,
+                  "tp": 51298,
+                  "fp": 0,
+                  "fn": 611,
+                  "fn_Pbelow01": 316,
+                  "gt_probability_sum": 51129.85504062787,
+                  "recall": 0.9882294014525419,
+                  "mean_probability": 0.9849901758968168
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 3529,
+            "reference_skeleton_covered": 3192,
+            "predicted_skeleton_pixels": 4108,
+            "predicted_skeleton_in_reference": 2974,
+            "reference_coverage": 0.9045055256446586,
+            "predicted_precision": 0.7239532619279455
+          }
+        }
+      }
+    },
+    "fiber_vlift": {
+      "metrics": {
+        "stone_dice": 0.9067926150444546,
+        "stone_iou": 0.8294790426075733,
+        "stone_precision": 0.8803148272212814,
+        "stone_recall": 0.9349125739510074,
+        "stone_tp": 6120623,
+        "stone_fp": 832143,
+        "stone_fn": 426110,
+        "fiber_dice": 0.7562894030078442,
+        "fiber_iou": 0.6080911466356302,
+        "fiber_precision": 0.6250769727003489,
+        "fiber_recall": 0.957224198009843,
+        "fiber_tp": 106585,
+        "fiber_fp": 63930,
+        "fiber_fn": 4763,
+        "mean_dice": 0.8315410090261495,
+        "mean_iou": 0.7187850946216018,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            25642382,
+            831754,
+            45383
+          ],
+          [
+            407563,
+            6120623,
+            18547
+          ],
+          [
+            4374,
+            389,
+            106585
+          ]
+        ],
+        "valid_pixels": 33177600,
+        "stone_negative_images": 0,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": null,
+        "stone_negative_valid_pixels": 0,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": null
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 167024,
+          "target_boundary": 173359,
+          "matched_predicted": 67226,
+          "matched_target": 67056,
+          "precision": 0.40249305489031517,
+          "recall": 0.38680426167663634,
+          "f_score": 0.3944927359033186
+        },
+        "2": {
+          "predicted_boundary": 15713,
+          "target_boundary": 10984,
+          "matched_predicted": 6528,
+          "matched_target": 6479,
+          "precision": 0.4154521733596385,
+          "recall": 0.5898579752367079,
+          "f_score": 0.487526716263166
+        }
+      },
+      "brightness": {
+        "HSV_V": [
+          {
+            "gt_pixels": 266,
+            "tp": 51,
+            "fp": 2323,
+            "fn": 215,
+            "fn_Pbelow01": 191,
+            "gt_probability_sum": 53.36107592247572,
+            "recall": 0.19172932330827067,
+            "mean_probability": 0.2006055485807358,
+            "interior": {
+              "gt_pixels": 38,
+              "tp": 19,
+              "fp": 0,
+              "fn": 19,
+              "fn_Pbelow01": 11,
+              "gt_probability_sum": 21.082132188239484,
+              "recall": 0.5,
+              "mean_probability": 0.5547929523220917
+            }
+          },
+          {
+            "gt_pixels": 19394,
+            "tp": 18194,
+            "fp": 15021,
+            "fn": 1200,
+            "fn_Pbelow01": 721,
+            "gt_probability_sum": 18016.562940036194,
+            "recall": 0.9381251933587708,
+            "mean_probability": 0.9289761235452302,
+            "interior": {
+              "gt_pixels": 13295,
+              "tp": 13162,
+              "fp": 0,
+              "fn": 133,
+              "fn_Pbelow01": 89,
+              "gt_probability_sum": 13127.854033684445,
+              "recall": 0.9899962391876646,
+              "mean_probability": 0.9874279077611468
+            }
+          },
+          {
+            "gt_pixels": 91688,
+            "tp": 88340,
+            "fp": 46586,
+            "fn": 3348,
+            "fn_Pbelow01": 2281,
+            "gt_probability_sum": 87717.8540501126,
+            "recall": 0.9634848617049123,
+            "mean_probability": 0.9566993941422279,
+            "interior": {
+              "gt_pixels": 69759,
+              "tp": 68790,
+              "fp": 0,
+              "fn": 969,
+              "fn_Pbelow01": 646,
+              "gt_probability_sum": 68654.48579967766,
+              "recall": 0.9861093192276266,
+              "mean_probability": 0.9841667139677698
+            }
+          }
+        ],
+        "Lab_Lstar": [
+          {
+            "gt_pixels": 1211,
+            "tp": 765,
+            "fp": 4713,
+            "fn": 446,
+            "fn_Pbelow01": 347,
+            "gt_probability_sum": 755.102063729486,
+            "recall": 0.6317093311312965,
+            "mean_probability": 0.6235359733521767,
+            "interior": {
+              "gt_pixels": 224,
+              "tp": 156,
+              "fp": 0,
+              "fn": 68,
+              "fn_Pbelow01": 45,
+              "gt_probability_sum": 159.71419581967348,
+              "recall": 0.6964285714285714,
+              "mean_probability": 0.7130098027663995
+            }
+          },
+          {
+            "gt_pixels": 36310,
+            "tp": 34835,
+            "fp": 19715,
+            "fn": 1475,
+            "fn_Pbelow01": 939,
+            "gt_probability_sum": 34548.70112244318,
+            "recall": 0.9593775819333517,
+            "mean_probability": 0.951492732647843,
+            "interior": {
+              "gt_pixels": 25899,
+              "tp": 25647,
+              "fp": 0,
+              "fn": 252,
+              "fn_Pbelow01": 189,
+              "gt_probability_sum": 25595.222698572794,
+              "recall": 0.9902698945905247,
+              "mean_probability": 0.9882706937940767
+            }
+          },
+          {
+            "gt_pixels": 73827,
+            "tp": 70985,
+            "fp": 39502,
+            "fn": 2842,
+            "fn_Pbelow01": 1907,
+            "gt_probability_sum": 70483.97487989861,
+            "recall": 0.9615045985885923,
+            "mean_probability": 0.9547181231784931,
+            "interior": {
+              "gt_pixels": 56969,
+              "tp": 56168,
+              "fp": 0,
+              "fn": 801,
+              "fn_Pbelow01": 512,
+              "gt_probability_sum": 56048.48507115787,
+              "recall": 0.985939721602977,
+              "mean_probability": 0.983841827505448
+            }
+          }
+        ]
+      },
+      "paired_changes": {
+        "stone": {
+          "lost_tp": 581,
+          "gained_tp": 399,
+          "added_fp": 156,
+          "removed_fp": 991
+        },
+        "fiber": {
+          "lost_tp": 50,
+          "gained_tp": 1354,
+          "added_fp": 6309,
+          "removed_fp": 722
+        }
+      },
+      "semantic_centerline": {
+        "reference_skeleton_pixels": 4269,
+        "reference_skeleton_covered": 3863,
+        "predicted_skeleton_pixels": 5257,
+        "predicted_skeleton_in_reference": 3555,
+        "reference_coverage": 0.9048957601311782,
+        "predicted_precision": 0.6762412022065817
+      },
+      "changed_frames": 69,
+      "baselineFN_Pbelow01_recovered_TP": 344,
+      "baseline_highconfidence_TP_lost": 0,
+      "groups": {
+        "kidney_stones_fiber_v1": {
+          "frames": 68,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 255,
+                "tp": 43,
+                "fp": 642,
+                "fn": 212,
+                "fn_Pbelow01": 188,
+                "gt_probability_sum": 45.90641799718287,
+                "recall": 0.16862745098039217,
+                "mean_probability": 0.1800251686164034,
+                "interior": {
+                  "gt_pixels": 38,
+                  "tp": 19,
+                  "fp": 0,
+                  "fn": 19,
+                  "fn_Pbelow01": 11,
+                  "gt_probability_sum": 21.082132188239484,
+                  "recall": 0.5,
+                  "mean_probability": 0.5547929523220917
+                }
+              },
+              {
+                "gt_pixels": 5983,
+                "tp": 5162,
+                "fp": 4066,
+                "fn": 821,
+                "fn_Pbelow01": 497,
+                "gt_probability_sum": 5090.462360952741,
+                "recall": 0.8627778706334615,
+                "mean_probability": 0.8508210531426944,
+                "interior": {
+                  "gt_pixels": 3885,
+                  "tp": 3752,
+                  "fp": 0,
+                  "fn": 133,
+                  "fn_Pbelow01": 89,
+                  "gt_probability_sum": 3726.344688570214,
+                  "recall": 0.9657657657657658,
+                  "mean_probability": 0.9591620820000551
+                }
+              },
+              {
+                "gt_pixels": 33787,
+                "tp": 32602,
+                "fp": 12886,
+                "fn": 1185,
+                "fn_Pbelow01": 664,
+                "gt_probability_sum": 32280.470243307856,
+                "recall": 0.9649273389173351,
+                "mean_probability": 0.9554109640781323,
+                "interior": {
+                  "gt_pixels": 27805,
+                  "tp": 27418,
+                  "fp": 0,
+                  "fn": 387,
+                  "fn_Pbelow01": 224,
+                  "gt_probability_sum": 27319.420963478537,
+                  "recall": 0.9860816399928071,
+                  "mean_probability": 0.9825362691414686
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 561,
+                "tp": 223,
+                "fp": 1252,
+                "fn": 338,
+                "fn_Pbelow01": 264,
+                "gt_probability_sum": 230.43443638850295,
+                "recall": 0.39750445632798576,
+                "mean_probability": 0.4107565711025008,
+                "interior": {
+                  "gt_pixels": 143,
+                  "tp": 75,
+                  "fp": 0,
+                  "fn": 68,
+                  "fn_Pbelow01": 45,
+                  "gt_probability_sum": 78.79424795704836,
+                  "recall": 0.5244755244755245,
+                  "mean_probability": 0.5510087269723661
+                }
+              },
+              {
+                "gt_pixels": 12818,
+                "tp": 11874,
+                "fp": 4828,
+                "fn": 944,
+                "fn_Pbelow01": 581,
+                "gt_probability_sum": 11740.41212890869,
+                "recall": 0.9263535652987985,
+                "mean_probability": 0.9159316686619356,
+                "interior": {
+                  "gt_pixels": 9564,
+                  "tp": 9370,
+                  "fp": 0,
+                  "fn": 194,
+                  "fn_Pbelow01": 131,
+                  "gt_probability_sum": 9328.859502849402,
+                  "recall": 0.979715600167294,
+                  "mean_probability": 0.975414000716165
+                }
+              },
+              {
+                "gt_pixels": 26646,
+                "tp": 25710,
+                "fp": 11514,
+                "fn": 936,
+                "fn_Pbelow01": 504,
+                "gt_probability_sum": 25445.992456960586,
+                "recall": 0.9648727764017113,
+                "mean_probability": 0.9549648148675444,
+                "interior": {
+                  "gt_pixels": 22021,
+                  "tp": 21744,
+                  "fp": 0,
+                  "fn": 277,
+                  "fn_Pbelow01": 148,
+                  "gt_probability_sum": 21659.19403343054,
+                  "recall": 0.9874210980427773,
+                  "mean_probability": 0.9835699574692585
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 1895,
+            "reference_skeleton_covered": 1727,
+            "predicted_skeleton_pixels": 2483,
+            "predicted_skeleton_in_reference": 1623,
+            "reference_coverage": 0.9113456464379948,
+            "predicted_precision": 0.6536447845348369
+          }
+        },
+        "kidney_stones_fiber_v2": {
+          "frames": 64,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 11,
+                "tp": 8,
+                "fp": 1681,
+                "fn": 3,
+                "fn_Pbelow01": 3,
+                "gt_probability_sum": 7.4546579252928495,
+                "recall": 0.7272727272727273,
+                "mean_probability": 0.6776961750266227,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                }
+              },
+              {
+                "gt_pixels": 13411,
+                "tp": 13032,
+                "fp": 10955,
+                "fn": 379,
+                "fn_Pbelow01": 224,
+                "gt_probability_sum": 12926.100579083453,
+                "recall": 0.971739616732533,
+                "mean_probability": 0.9638431570414923,
+                "interior": {
+                  "gt_pixels": 9410,
+                  "tp": 9410,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 9401.509345114231,
+                  "recall": 1.0,
+                  "mean_probability": 0.9990976987369002
+                }
+              },
+              {
+                "gt_pixels": 57901,
+                "tp": 55738,
+                "fp": 33700,
+                "fn": 2163,
+                "fn_Pbelow01": 1617,
+                "gt_probability_sum": 55437.38380680475,
+                "recall": 0.9626431322429665,
+                "mean_probability": 0.9574512323933049,
+                "interior": {
+                  "gt_pixels": 41954,
+                  "tp": 41372,
+                  "fp": 0,
+                  "fn": 582,
+                  "fn_Pbelow01": 422,
+                  "gt_probability_sum": 41335.06483619912,
+                  "recall": 0.9861276636315965,
+                  "mean_probability": 0.9852472907517548
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 650,
+                "tp": 542,
+                "fp": 3461,
+                "fn": 108,
+                "fn_Pbelow01": 83,
+                "gt_probability_sum": 524.667627340983,
+                "recall": 0.8338461538461538,
+                "mean_probability": 0.8071809651399738,
+                "interior": {
+                  "gt_pixels": 81,
+                  "tp": 81,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 80.91994786262512,
+                  "recall": 1.0,
+                  "mean_probability": 0.9990117020077176
+                }
+              },
+              {
+                "gt_pixels": 23492,
+                "tp": 22961,
+                "fp": 14887,
+                "fn": 531,
+                "fn_Pbelow01": 358,
+                "gt_probability_sum": 22808.288993534487,
+                "recall": 0.9773965605312447,
+                "mean_probability": 0.9708960068761487,
+                "interior": {
+                  "gt_pixels": 16335,
+                  "tp": 16277,
+                  "fp": 0,
+                  "fn": 58,
+                  "fn_Pbelow01": 58,
+                  "gt_probability_sum": 16266.363195723392,
+                  "recall": 0.9964493419038873,
+                  "mean_probability": 0.9957981754345511
+                }
+              },
+              {
+                "gt_pixels": 47181,
+                "tp": 45275,
+                "fp": 27988,
+                "fn": 1906,
+                "fn_Pbelow01": 1403,
+                "gt_probability_sum": 45037.982422938025,
+                "recall": 0.9596023823149149,
+                "mean_probability": 0.9545788012746238,
+                "interior": {
+                  "gt_pixels": 34948,
+                  "tp": 34424,
+                  "fp": 0,
+                  "fn": 524,
+                  "fn_Pbelow01": 364,
+                  "gt_probability_sum": 34389.29103772733,
+                  "recall": 0.9850062950669566,
+                  "mean_probability": 0.9840131348783143
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 2374,
+            "reference_skeleton_covered": 2136,
+            "predicted_skeleton_pixels": 2774,
+            "predicted_skeleton_in_reference": 1932,
+            "reference_coverage": 0.8997472620050547,
+            "predicted_precision": 0.6964671953857245
+          }
+        },
+        "old190_exposed25": {
+          "frames": 25,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 87,
+                "tp": 2,
+                "fp": 26,
+                "fn": 85,
+                "fn_Pbelow01": 85,
+                "gt_probability_sum": 2.111816323307721,
+                "recall": 0.022988505747126436,
+                "mean_probability": 0.024273750842617486,
+                "interior": {
+                  "gt_pixels": 11,
+                  "tp": 2,
+                  "fp": 0,
+                  "fn": 9,
+                  "fn_Pbelow01": 9,
+                  "gt_probability_sum": 2.009057750561624,
+                  "recall": 0.18181818181818182,
+                  "mean_probability": 0.18264161368742035
+                }
+              },
+              {
+                "gt_pixels": 9329,
+                "tp": 9088,
+                "fp": 2883,
+                "fn": 241,
+                "fn_Pbelow01": 109,
+                "gt_probability_sum": 9054.658755327655,
+                "recall": 0.9741665773394791,
+                "mean_probability": 0.9705926417973689,
+                "interior": {
+                  "gt_pixels": 7635,
+                  "tp": 7576,
+                  "fp": 0,
+                  "fn": 59,
+                  "fn_Pbelow01": 37,
+                  "gt_probability_sum": 7574.232620527502,
+                  "recall": 0.9922724296005239,
+                  "mean_probability": 0.9920409457141457
+                }
+              },
+              {
+                "gt_pixels": 10640,
+                "tp": 9434,
+                "fp": 16374,
+                "fn": 1206,
+                "fn_Pbelow01": 974,
+                "gt_probability_sum": 9361.251921678602,
+                "recall": 0.8866541353383459,
+                "mean_probability": 0.8798169099321994,
+                "interior": {
+                  "gt_pixels": 7686,
+                  "tp": 7285,
+                  "fp": 0,
+                  "fn": 401,
+                  "fn_Pbelow01": 283,
+                  "gt_probability_sum": 7284.296722434767,
+                  "recall": 0.9478272183190216,
+                  "mean_probability": 0.9477357172046275
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 282,
+                "tp": 97,
+                "fp": 176,
+                "fn": 185,
+                "fn_Pbelow01": 141,
+                "gt_probability_sum": 101.94140090551446,
+                "recall": 0.34397163120567376,
+                "mean_probability": 0.3614943294521789,
+                "interior": {
+                  "gt_pixels": 92,
+                  "tp": 38,
+                  "fp": 0,
+                  "fn": 54,
+                  "fn_Pbelow01": 41,
+                  "gt_probability_sum": 39.51053389823937,
+                  "recall": 0.41304347826086957,
+                  "mean_probability": 0.42946232498086273
+                }
+              },
+              {
+                "gt_pixels": 12413,
+                "tp": 12205,
+                "fp": 3441,
+                "fn": 208,
+                "fn_Pbelow01": 68,
+                "gt_probability_sum": 12131.720484663383,
+                "recall": 0.9832433738822203,
+                "mean_probability": 0.9773399246486251,
+                "interior": {
+                  "gt_pixels": 10180,
+                  "tp": 10160,
+                  "fp": 0,
+                  "fn": 20,
+                  "fn_Pbelow01": 5,
+                  "gt_probability_sum": 10145.224433746189,
+                  "recall": 0.9980353634577603,
+                  "mean_probability": 0.9965839325880342
+                }
+              },
+              {
+                "gt_pixels": 7361,
+                "tp": 6222,
+                "fp": 15666,
+                "fn": 1139,
+                "fn_Pbelow01": 959,
+                "gt_probability_sum": 6184.360607760667,
+                "recall": 0.8452655889145496,
+                "mean_probability": 0.8401522358050084,
+                "interior": {
+                  "gt_pixels": 5060,
+                  "tp": 4665,
+                  "fp": 0,
+                  "fn": 395,
+                  "fn_Pbelow01": 283,
+                  "gt_probability_sum": 4675.803433068402,
+                  "recall": 0.9219367588932806,
+                  "mean_probability": 0.9240718247170755
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 740,
+            "reference_skeleton_covered": 610,
+            "predicted_skeleton_pixels": 1073,
+            "predicted_skeleton_in_reference": 556,
+            "reference_coverage": 0.8243243243243243,
+            "predicted_precision": 0.5181733457595527
+          }
+        },
+        "not_matched107": {
+          "frames": 107,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 179,
+                "tp": 49,
+                "fp": 2297,
+                "fn": 130,
+                "fn_Pbelow01": 106,
+                "gt_probability_sum": 51.249259599168,
+                "recall": 0.2737430167597765,
+                "mean_probability": 0.286308712844514,
+                "interior": {
+                  "gt_pixels": 27,
+                  "tp": 17,
+                  "fp": 0,
+                  "fn": 10,
+                  "fn_Pbelow01": 2,
+                  "gt_probability_sum": 19.07307443767786,
+                  "recall": 0.6296296296296297,
+                  "mean_probability": 0.7064101643584393
+                }
+              },
+              {
+                "gt_pixels": 10065,
+                "tp": 9106,
+                "fp": 12138,
+                "fn": 959,
+                "fn_Pbelow01": 612,
+                "gt_probability_sum": 8961.90418470854,
+                "recall": 0.9047193243914555,
+                "mean_probability": 0.8904028002691047,
+                "interior": {
+                  "gt_pixels": 5660,
+                  "tp": 5586,
+                  "fp": 0,
+                  "fn": 74,
+                  "fn_Pbelow01": 52,
+                  "gt_probability_sum": 5553.621413156943,
+                  "recall": 0.9869257950530035,
+                  "mean_probability": 0.981205196670838
+                }
+              },
+              {
+                "gt_pixels": 81048,
+                "tp": 78906,
+                "fp": 30212,
+                "fn": 2142,
+                "fn_Pbelow01": 1307,
+                "gt_probability_sum": 78356.602128434,
+                "recall": 0.973571217056559,
+                "mean_probability": 0.9667925442754169,
+                "interior": {
+                  "gt_pixels": 62073,
+                  "tp": 61505,
+                  "fp": 0,
+                  "fn": 568,
+                  "fn_Pbelow01": 363,
+                  "gt_probability_sum": 61370.18907724289,
+                  "recall": 0.9908494836724502,
+                  "mean_probability": 0.9886776710847371
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 929,
+                "tp": 668,
+                "fp": 4537,
+                "fn": 261,
+                "fn_Pbelow01": 206,
+                "gt_probability_sum": 653.1606628239715,
+                "recall": 0.7190527448869752,
+                "mean_probability": 0.7030792925984624,
+                "interior": {
+                  "gt_pixels": 132,
+                  "tp": 118,
+                  "fp": 0,
+                  "fn": 14,
+                  "fn_Pbelow01": 4,
+                  "gt_probability_sum": 120.2036619214341,
+                  "recall": 0.8939393939393939,
+                  "mean_probability": 0.9106338024351068
+                }
+              },
+              {
+                "gt_pixels": 23897,
+                "tp": 22630,
+                "fp": 16274,
+                "fn": 1267,
+                "fn_Pbelow01": 871,
+                "gt_probability_sum": 22416.980637779794,
+                "recall": 0.9469807925681047,
+                "mean_probability": 0.9380667296221197,
+                "interior": {
+                  "gt_pixels": 15719,
+                  "tp": 15487,
+                  "fp": 0,
+                  "fn": 232,
+                  "fn_Pbelow01": 184,
+                  "gt_probability_sum": 15449.998264826605,
+                  "recall": 0.9852407913989439,
+                  "mean_probability": 0.9828868417091803
+                }
+              },
+              {
+                "gt_pixels": 66466,
+                "tp": 64763,
+                "fp": 23836,
+                "fn": 1703,
+                "fn_Pbelow01": 948,
+                "gt_probability_sum": 64299.614272137944,
+                "recall": 0.9743778774110071,
+                "mean_probability": 0.9674061064625213,
+                "interior": {
+                  "gt_pixels": 51909,
+                  "tp": 51503,
+                  "fp": 0,
+                  "fn": 406,
+                  "fn_Pbelow01": 229,
+                  "gt_probability_sum": 51372.68163808947,
+                  "recall": 0.9921786202777938,
+                  "mean_probability": 0.9896681045308032
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 3529,
+            "reference_skeleton_covered": 3253,
+            "predicted_skeleton_pixels": 4184,
+            "predicted_skeleton_in_reference": 2999,
+            "reference_coverage": 0.9217908756021536,
+            "predicted_precision": 0.7167782026768642
+          }
+        }
+      }
+    },
+    "fiber_channel_gamma": {
+      "metrics": {
+        "stone_dice": 0.9069609553907497,
+        "stone_iou": 0.8297608030232612,
+        "stone_precision": 0.8802120652806203,
+        "stone_recall": 0.9353865508185533,
+        "stone_tp": 6123726,
+        "stone_fp": 833377,
+        "stone_fn": 423007,
+        "fiber_dice": 0.7700197267913558,
+        "fiber_iou": 0.6260423386975213,
+        "fiber_precision": 0.6557636924009701,
+        "fiber_recall": 0.93249092933865,
+        "fiber_tp": 103831,
+        "fiber_fp": 54505,
+        "fiber_fn": 7517,
+        "mean_dice": 0.8384903410910527,
+        "mean_iou": 0.7279015708603913,
+        "foreground_classes_with_defined_overlap": 2,
+        "confusion_matrix": [
+          [
+            25647531,
+            832822,
+            39166
+          ],
+          [
+            407668,
+            6123726,
+            15339
+          ],
+          [
+            6962,
+            555,
+            103831
+          ]
+        ],
+        "valid_pixels": 33177600,
+        "stone_negative_images": 0,
+        "stone_negative_images_with_fp": 0,
+        "stone_negative_fp_image_rate": null,
+        "stone_negative_valid_pixels": 0,
+        "stone_negative_fp_pixels": 0,
+        "stone_negative_fp_pixel_fraction": null
+      },
+      "boundaries": {
+        "1": {
+          "predicted_boundary": 166988,
+          "target_boundary": 173359,
+          "matched_predicted": 67104,
+          "matched_target": 66949,
+          "precision": 0.40184923467554556,
+          "recall": 0.38618704537981874,
+          "f_score": 0.3938624973372733
+        },
+        "2": {
+          "predicted_boundary": 14910,
+          "target_boundary": 10984,
+          "matched_predicted": 6535,
+          "matched_target": 6499,
+          "precision": 0.4382964453386989,
+          "recall": 0.5916788055353241,
+          "f_score": 0.503566890618615
+        }
+      },
+      "brightness": {
+        "HSV_V": [
+          {
+            "gt_pixels": 266,
+            "tp": 49,
+            "fp": 1550,
+            "fn": 217,
+            "fn_Pbelow01": 195,
+            "gt_probability_sum": 49.18588724641813,
+            "recall": 0.18421052631578946,
+            "mean_probability": 0.1849093505504441,
+            "interior": {
+              "gt_pixels": 38,
+              "tp": 19,
+              "fp": 0,
+              "fn": 19,
+              "fn_Pbelow01": 12,
+              "gt_probability_sum": 20.272603659614106,
+              "recall": 0.5,
+              "mean_probability": 0.5334895699898449
+            }
+          },
+          {
+            "gt_pixels": 19394,
+            "tp": 17873,
+            "fp": 12770,
+            "fn": 1521,
+            "fn_Pbelow01": 942,
+            "gt_probability_sum": 17642.872064820047,
+            "recall": 0.9215736825822419,
+            "mean_probability": 0.9097077480055712,
+            "interior": {
+              "gt_pixels": 13295,
+              "tp": 13129,
+              "fp": 0,
+              "fn": 166,
+              "fn_Pbelow01": 99,
+              "gt_probability_sum": 13080.932392561925,
+              "recall": 0.987514103046258,
+              "mean_probability": 0.9838986380264705
+            }
+          },
+          {
+            "gt_pixels": 91688,
+            "tp": 85909,
+            "fp": 40185,
+            "fn": 5779,
+            "fn_Pbelow01": 4338,
+            "gt_probability_sum": 85182.85415008533,
+            "recall": 0.9369710321961434,
+            "mean_probability": 0.929051284247506,
+            "interior": {
+              "gt_pixels": 69759,
+              "tp": 67648,
+              "fp": 0,
+              "fn": 2111,
+              "fn_Pbelow01": 1502,
+              "gt_probability_sum": 67398.91452167582,
+              "recall": 0.9697386717126105,
+              "mean_probability": 0.9661680144737714
+            }
+          }
+        ],
+        "Lab_Lstar": [
+          {
+            "gt_pixels": 1211,
+            "tp": 722,
+            "fp": 3585,
+            "fn": 489,
+            "fn_Pbelow01": 374,
+            "gt_probability_sum": 690.3826206787016,
+            "recall": 0.5962014863748968,
+            "mean_probability": 0.5700929980831557,
+            "interior": {
+              "gt_pixels": 224,
+              "tp": 153,
+              "fp": 0,
+              "fn": 71,
+              "fn_Pbelow01": 45,
+              "gt_probability_sum": 158.24029568383412,
+              "recall": 0.6830357142857143,
+              "mean_probability": 0.706429891445688
+            }
+          },
+          {
+            "gt_pixels": 36310,
+            "tp": 34383,
+            "fp": 16970,
+            "fn": 1927,
+            "fn_Pbelow01": 1276,
+            "gt_probability_sum": 34020.768323426906,
+            "recall": 0.9469292206003855,
+            "mean_probability": 0.9369531347680228,
+            "interior": {
+              "gt_pixels": 25899,
+              "tp": 25585,
+              "fp": 0,
+              "fn": 314,
+              "fn_Pbelow01": 235,
+              "gt_probability_sum": 25506.62536548994,
+              "recall": 0.9878759797675586,
+              "mean_probability": 0.9848498152627492
+            }
+          },
+          {
+            "gt_pixels": 73827,
+            "tp": 68726,
+            "fp": 33950,
+            "fn": 5101,
+            "fn_Pbelow01": 3825,
+            "gt_probability_sum": 68163.76115804617,
+            "recall": 0.9309060370867027,
+            "mean_probability": 0.9232904107988428,
+            "interior": {
+              "gt_pixels": 56969,
+              "tp": 55058,
+              "fp": 0,
+              "fn": 1911,
+              "fn_Pbelow01": 1333,
+              "gt_probability_sum": 54835.25385672358,
+              "recall": 0.9664554406782636,
+              "mean_probability": 0.9625454871372778
+            }
+          }
+        ]
+      },
+      "paired_changes": {
+        "stone": {
+          "lost_tp": 253,
+          "gained_tp": 3174,
+          "added_fp": 709,
+          "removed_fp": 310
+        },
+        "fiber": {
+          "lost_tp": 1709,
+          "gained_tp": 259,
+          "added_fp": 2215,
+          "removed_fp": 6053
+        }
+      },
+      "semantic_centerline": {
+        "reference_skeleton_pixels": 4269,
+        "reference_skeleton_covered": 3725,
+        "predicted_skeleton_pixels": 5029,
+        "predicted_skeleton_in_reference": 3485,
+        "reference_coverage": 0.872569688451628,
+        "predicted_precision": 0.6929807118711473
+      },
+      "changed_frames": 69,
+      "baselineFN_Pbelow01_recovered_TP": 2,
+      "baseline_highconfidence_TP_lost": 548,
+      "groups": {
+        "kidney_stones_fiber_v1": {
+          "frames": 68,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 255,
+                "tp": 41,
+                "fp": 505,
+                "fn": 214,
+                "fn_Pbelow01": 192,
+                "gt_probability_sum": 43.02456308740875,
+                "recall": 0.1607843137254902,
+                "mean_probability": 0.16872377681336764,
+                "interior": {
+                  "gt_pixels": 38,
+                  "tp": 19,
+                  "fp": 0,
+                  "fn": 19,
+                  "fn_Pbelow01": 12,
+                  "gt_probability_sum": 20.272603659614106,
+                  "recall": 0.5,
+                  "mean_probability": 0.5334895699898449
+                }
+              },
+              {
+                "gt_pixels": 5983,
+                "tp": 5075,
+                "fp": 3457,
+                "fn": 908,
+                "fn_Pbelow01": 592,
+                "gt_probability_sum": 4991.334381790017,
+                "recall": 0.8482366705666053,
+                "mean_probability": 0.8342527798412196,
+                "interior": {
+                  "gt_pixels": 3885,
+                  "tp": 3727,
+                  "fp": 0,
+                  "fn": 158,
+                  "fn_Pbelow01": 99,
+                  "gt_probability_sum": 3699.4417324011447,
+                  "recall": 0.9593307593307593,
+                  "mean_probability": 0.9522372541573088
+                }
+              },
+              {
+                "gt_pixels": 33787,
+                "tp": 31724,
+                "fp": 11744,
+                "fn": 2063,
+                "fn_Pbelow01": 1427,
+                "gt_probability_sum": 31330.644671281716,
+                "recall": 0.93894101281558,
+                "mean_probability": 0.9272988034238528,
+                "interior": {
+                  "gt_pixels": 27805,
+                  "tp": 26954,
+                  "fp": 0,
+                  "fn": 851,
+                  "fn_Pbelow01": 632,
+                  "gt_probability_sum": 26810.006802142103,
+                  "recall": 0.9693939938859917,
+                  "mean_probability": 0.9642153138695235
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 561,
+                "tp": 223,
+                "fp": 1051,
+                "fn": 338,
+                "fn_Pbelow01": 259,
+                "gt_probability_sum": 225.60567749618713,
+                "recall": 0.39750445632798576,
+                "mean_probability": 0.4021491577472141,
+                "interior": {
+                  "gt_pixels": 143,
+                  "tp": 72,
+                  "fp": 0,
+                  "fn": 71,
+                  "fn_Pbelow01": 45,
+                  "gt_probability_sum": 77.54787645289616,
+                  "recall": 0.5034965034965035,
+                  "mean_probability": 0.5422928423279452
+                }
+              },
+              {
+                "gt_pixels": 12818,
+                "tp": 11684,
+                "fp": 4110,
+                "fn": 1134,
+                "fn_Pbelow01": 783,
+                "gt_probability_sum": 11527.095154408991,
+                "recall": 0.9115306600093618,
+                "mean_probability": 0.8992896828217344,
+                "interior": {
+                  "gt_pixels": 9564,
+                  "tp": 9317,
+                  "fp": 0,
+                  "fn": 247,
+                  "fn_Pbelow01": 177,
+                  "gt_probability_sum": 9264.479827525807,
+                  "recall": 0.9741739857800084,
+                  "mean_probability": 0.9686825415648063
+                }
+              },
+              {
+                "gt_pixels": 26646,
+                "tp": 24933,
+                "fp": 10545,
+                "fn": 1713,
+                "fn_Pbelow01": 1169,
+                "gt_probability_sum": 24612.302784253963,
+                "recall": 0.9357126773249268,
+                "mean_probability": 0.9236772042428117,
+                "interior": {
+                  "gt_pixels": 22021,
+                  "tp": 21311,
+                  "fp": 0,
+                  "fn": 710,
+                  "fn_Pbelow01": 521,
+                  "gt_probability_sum": 21187.69343422416,
+                  "recall": 0.9677580491349167,
+                  "mean_probability": 0.9621585502122592
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 1895,
+            "reference_skeleton_covered": 1668,
+            "predicted_skeleton_pixels": 2377,
+            "predicted_skeleton_in_reference": 1565,
+            "reference_coverage": 0.8802110817941953,
+            "predicted_precision": 0.6583929322675641
+          }
+        },
+        "kidney_stones_fiber_v2": {
+          "frames": 64,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 11,
+                "tp": 8,
+                "fp": 1045,
+                "fn": 3,
+                "fn_Pbelow01": 3,
+                "gt_probability_sum": 6.161324159009382,
+                "recall": 0.7272727272727273,
+                "mean_probability": 0.560120378091762,
+                "interior": {
+                  "gt_pixels": 0,
+                  "tp": 0,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 0.0,
+                  "recall": null,
+                  "mean_probability": null
+                }
+              },
+              {
+                "gt_pixels": 13411,
+                "tp": 12798,
+                "fp": 9313,
+                "fn": 613,
+                "fn_Pbelow01": 350,
+                "gt_probability_sum": 12651.53768303003,
+                "recall": 0.9542912534486615,
+                "mean_probability": 0.9433701948422959,
+                "interior": {
+                  "gt_pixels": 9410,
+                  "tp": 9402,
+                  "fp": 0,
+                  "fn": 8,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 9381.49066016078,
+                  "recall": 0.9991498405951116,
+                  "mean_probability": 0.9969703145760659
+                }
+              },
+              {
+                "gt_pixels": 57901,
+                "tp": 54185,
+                "fp": 28441,
+                "fn": 3716,
+                "fn_Pbelow01": 2911,
+                "gt_probability_sum": 53852.2094788036,
+                "recall": 0.9358214884026183,
+                "mean_probability": 0.930073910274496,
+                "interior": {
+                  "gt_pixels": 41954,
+                  "tp": 40694,
+                  "fp": 0,
+                  "fn": 1260,
+                  "fn_Pbelow01": 870,
+                  "gt_probability_sum": 40588.907719533716,
+                  "recall": 0.9699671068312914,
+                  "mean_probability": 0.9674621661708946
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 650,
+                "tp": 499,
+                "fp": 2534,
+                "fn": 151,
+                "fn_Pbelow01": 115,
+                "gt_probability_sum": 464.7769431825145,
+                "recall": 0.7676923076923077,
+                "mean_probability": 0.7150414510500224,
+                "interior": {
+                  "gt_pixels": 81,
+                  "tp": 81,
+                  "fp": 0,
+                  "fn": 0,
+                  "fn_Pbelow01": 0,
+                  "gt_probability_sum": 80.69241923093796,
+                  "recall": 1.0,
+                  "mean_probability": 0.9962027065547896
+                }
+              },
+              {
+                "gt_pixels": 23492,
+                "tp": 22699,
+                "fp": 12860,
+                "fn": 793,
+                "fn_Pbelow01": 493,
+                "gt_probability_sum": 22493.67316901791,
+                "recall": 0.9662438276860208,
+                "mean_probability": 0.9575035403123578,
+                "interior": {
+                  "gt_pixels": 16335,
+                  "tp": 16268,
+                  "fp": 0,
+                  "fn": 67,
+                  "fn_Pbelow01": 58,
+                  "gt_probability_sum": 16242.145537964134,
+                  "recall": 0.9958983777165595,
+                  "mean_probability": 0.9943156129760718
+                }
+              },
+              {
+                "gt_pixels": 47181,
+                "tp": 43793,
+                "fp": 23405,
+                "fn": 3388,
+                "fn_Pbelow01": 2656,
+                "gt_probability_sum": 43551.458373792215,
+                "recall": 0.9281914329920943,
+                "mean_probability": 0.9230719648543315,
+                "interior": {
+                  "gt_pixels": 34948,
+                  "tp": 33747,
+                  "fp": 0,
+                  "fn": 1201,
+                  "fn_Pbelow01": 812,
+                  "gt_probability_sum": 33647.560422499424,
+                  "recall": 0.9656346572049903,
+                  "mean_probability": 0.9627892990299709
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 2374,
+            "reference_skeleton_covered": 2057,
+            "predicted_skeleton_pixels": 2652,
+            "predicted_skeleton_in_reference": 1920,
+            "reference_coverage": 0.8664700926705982,
+            "predicted_precision": 0.7239819004524887
+          }
+        },
+        "old190_exposed25": {
+          "frames": 25,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 87,
+                "tp": 2,
+                "fp": 25,
+                "fn": 85,
+                "fn_Pbelow01": 85,
+                "gt_probability_sum": 2.1176801662440994,
+                "recall": 0.022988505747126436,
+                "mean_probability": 0.024341151336139073,
+                "interior": {
+                  "gt_pixels": 11,
+                  "tp": 2,
+                  "fp": 0,
+                  "fn": 9,
+                  "fn_Pbelow01": 9,
+                  "gt_probability_sum": 2.008898035346647,
+                  "recall": 0.18181818181818182,
+                  "mean_probability": 0.18262709412242242
+                }
+              },
+              {
+                "gt_pixels": 9329,
+                "tp": 9041,
+                "fp": 2590,
+                "fn": 288,
+                "fn_Pbelow01": 127,
+                "gt_probability_sum": 8982.09301180311,
+                "recall": 0.9691285239575517,
+                "mean_probability": 0.9628141292532008,
+                "interior": {
+                  "gt_pixels": 7635,
+                  "tp": 7574,
+                  "fp": 0,
+                  "fn": 61,
+                  "fn_Pbelow01": 36,
+                  "gt_probability_sum": 7571.532888184447,
+                  "recall": 0.9920104780615586,
+                  "mean_probability": 0.9916873461931168
+                }
+              },
+              {
+                "gt_pixels": 10640,
+                "tp": 9110,
+                "fp": 12913,
+                "fn": 1530,
+                "fn_Pbelow01": 1317,
+                "gt_probability_sum": 8968.280382947025,
+                "recall": 0.856203007518797,
+                "mean_probability": 0.8428834946378783,
+                "interior": {
+                  "gt_pixels": 7686,
+                  "tp": 7151,
+                  "fp": 0,
+                  "fn": 535,
+                  "fn_Pbelow01": 470,
+                  "gt_probability_sum": 7093.012805918173,
+                  "recall": 0.9303929221962008,
+                  "mean_probability": 0.9228484004577379
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 282,
+                "tp": 100,
+                "fp": 176,
+                "fn": 182,
+                "fn_Pbelow01": 132,
+                "gt_probability_sum": 100.64622722139029,
+                "recall": 0.3546099290780142,
+                "mean_probability": 0.3569015149694691,
+                "interior": {
+                  "gt_pixels": 92,
+                  "tp": 36,
+                  "fp": 0,
+                  "fn": 56,
+                  "fn_Pbelow01": 40,
+                  "gt_probability_sum": 39.387508684638306,
+                  "recall": 0.391304347826087,
+                  "mean_probability": 0.4281250943982425
+                }
+              },
+              {
+                "gt_pixels": 12413,
+                "tp": 12117,
+                "fp": 3044,
+                "fn": 296,
+                "fn_Pbelow01": 115,
+                "gt_probability_sum": 12014.539401815215,
+                "recall": 0.9761540320631595,
+                "mean_probability": 0.9678997342959168,
+                "interior": {
+                  "gt_pixels": 10180,
+                  "tp": 10152,
+                  "fp": 0,
+                  "fn": 28,
+                  "fn_Pbelow01": 6,
+                  "gt_probability_sum": 10133.148411320522,
+                  "recall": 0.9972495088408644,
+                  "mean_probability": 0.9953976828409158
+                }
+              },
+              {
+                "gt_pixels": 7361,
+                "tp": 5936,
+                "fp": 12308,
+                "fn": 1425,
+                "fn_Pbelow01": 1282,
+                "gt_probability_sum": 5837.305445879774,
+                "recall": 0.8064121722592039,
+                "mean_probability": 0.793004407808691,
+                "interior": {
+                  "gt_pixels": 5060,
+                  "tp": 4539,
+                  "fp": 0,
+                  "fn": 521,
+                  "fn_Pbelow01": 469,
+                  "gt_probability_sum": 4494.018672132806,
+                  "recall": 0.8970355731225297,
+                  "mean_probability": 0.8881459826349419
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 740,
+            "reference_skeleton_covered": 598,
+            "predicted_skeleton_pixels": 1011,
+            "predicted_skeleton_in_reference": 561,
+            "reference_coverage": 0.8081081081081081,
+            "predicted_precision": 0.5548961424332344
+          }
+        },
+        "not_matched107": {
+          "frames": 107,
+          "brightness": {
+            "HSV_V": [
+              {
+                "gt_pixels": 179,
+                "tp": 47,
+                "fp": 1525,
+                "fn": 132,
+                "fn_Pbelow01": 110,
+                "gt_probability_sum": 47.068207080174034,
+                "recall": 0.26256983240223464,
+                "mean_probability": 0.2629508775428717,
+                "interior": {
+                  "gt_pixels": 27,
+                  "tp": 17,
+                  "fp": 0,
+                  "fn": 10,
+                  "fn_Pbelow01": 3,
+                  "gt_probability_sum": 18.26370562426746,
+                  "recall": 0.6296296296296297,
+                  "mean_probability": 0.6764335416395355
+                }
+              },
+              {
+                "gt_pixels": 10065,
+                "tp": 8832,
+                "fp": 10180,
+                "fn": 1233,
+                "fn_Pbelow01": 815,
+                "gt_probability_sum": 8660.779053016937,
+                "recall": 0.8774962742175857,
+                "mean_probability": 0.860484754398106,
+                "interior": {
+                  "gt_pixels": 5660,
+                  "tp": 5555,
+                  "fp": 0,
+                  "fn": 105,
+                  "fn_Pbelow01": 63,
+                  "gt_probability_sum": 5509.399504377478,
+                  "recall": 0.9814487632508834,
+                  "mean_probability": 0.9733921385825932
+                }
+              },
+              {
+                "gt_pixels": 81048,
+                "tp": 76799,
+                "fp": 27272,
+                "fn": 4249,
+                "fn_Pbelow01": 3021,
+                "gt_probability_sum": 76214.5737671383,
+                "recall": 0.9475742769716711,
+                "mean_probability": 0.9403634113998901,
+                "interior": {
+                  "gt_pixels": 62073,
+                  "tp": 60497,
+                  "fp": 0,
+                  "fn": 1576,
+                  "fn_Pbelow01": 1032,
+                  "gt_probability_sum": 60305.901715757645,
+                  "recall": 0.9746105392038407,
+                  "mean_probability": 0.9715319336226321
+                }
+              }
+            ],
+            "Lab_Lstar": [
+              {
+                "gt_pixels": 929,
+                "tp": 622,
+                "fp": 3409,
+                "fn": 307,
+                "fn_Pbelow01": 242,
+                "gt_probability_sum": 589.7363934573114,
+                "recall": 0.6695371367061357,
+                "mean_probability": 0.6348077432263847,
+                "interior": {
+                  "gt_pixels": 132,
+                  "tp": 117,
+                  "fp": 0,
+                  "fn": 15,
+                  "fn_Pbelow01": 5,
+                  "gt_probability_sum": 118.85278699919581,
+                  "recall": 0.8863636363636364,
+                  "mean_probability": 0.9003999015090592
+                }
+              },
+              {
+                "gt_pixels": 23897,
+                "tp": 22266,
+                "fp": 13926,
+                "fn": 1631,
+                "fn_Pbelow01": 1161,
+                "gt_probability_sum": 22006.228921611688,
+                "recall": 0.9317487550738587,
+                "mean_probability": 0.9208783078048159,
+                "interior": {
+                  "gt_pixels": 15719,
+                  "tp": 15433,
+                  "fp": 0,
+                  "fn": 286,
+                  "fn_Pbelow01": 229,
+                  "gt_probability_sum": 15373.476954169419,
+                  "recall": 0.9818054583624912,
+                  "mean_probability": 0.9780187641815268
+                }
+              },
+              {
+                "gt_pixels": 66466,
+                "tp": 62790,
+                "fp": 21642,
+                "fn": 3676,
+                "fn_Pbelow01": 2543,
+                "gt_probability_sum": 62326.455712166404,
+                "recall": 0.9446935275178286,
+                "mean_probability": 0.9377193709891735,
+                "interior": {
+                  "gt_pixels": 51909,
+                  "tp": 50519,
+                  "fp": 0,
+                  "fn": 1390,
+                  "fn_Pbelow01": 864,
+                  "gt_probability_sum": 50341.235184590776,
+                  "recall": 0.9732223699165848,
+                  "mean_probability": 0.9697978228166749
+                }
+              }
+            ]
+          },
+          "semantic_centerline": {
+            "reference_skeleton_pixels": 3529,
+            "reference_skeleton_covered": 3127,
+            "predicted_skeleton_pixels": 4018,
+            "predicted_skeleton_in_reference": 2924,
+            "reference_coverage": 0.8860867101161802,
+            "predicted_precision": 0.7277252364360378
+          }
+        }
+      }
+    }
+  }
+}

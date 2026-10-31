@@ -1,0 +1,2652 @@
+{
+  "video_native": {
+    "eligible_scope_plan_sha256_before_calculation": "a31e14209fbef828b0dd75a33fa98e94641ca4de8405e4ff5a948223705f60d3",
+    "scope_only_not_filter_execution": true,
+    "eligible_uncapped_totals": {
+      "eligible_pixels": 60397,
+      "eligible_reference_tp_at_risk": 27254,
+      "eligible_reference_fp": 7053,
+      "eligible_reference_fn": 11721,
+      "raw_stone_protected_gt_fiber": 85
+    },
+    "after_presampling_budget_totals": {
+      "eligible_pixels": 60397,
+      "eligible_reference_tp_at_risk": 27254,
+      "eligible_reference_fp": 7053,
+      "eligible_reference_fn": 11721
+    },
+    "budget_rejected_frames": 0,
+    "records": [
+      {
+        "sample_id": "reviewed_video_1_000002",
+        "eligible_pixels": 761,
+        "eligible_fraction": 0.00475625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 392,
+        "eligible_reference_fp": 53,
+        "eligible_reference_fn": 111,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000018",
+        "eligible_pixels": 754,
+        "eligible_fraction": 0.0047125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 355,
+        "eligible_reference_fp": 98,
+        "eligible_reference_fn": 135,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000020",
+        "eligible_pixels": 759,
+        "eligible_fraction": 0.00474375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 333,
+        "eligible_reference_fp": 96,
+        "eligible_reference_fn": 191,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000021",
+        "eligible_pixels": 771,
+        "eligible_fraction": 0.00481875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 357,
+        "eligible_reference_fp": 78,
+        "eligible_reference_fn": 182,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000032",
+        "eligible_pixels": 738,
+        "eligible_fraction": 0.0046125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 351,
+        "eligible_reference_fp": 86,
+        "eligible_reference_fn": 90,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000034",
+        "eligible_pixels": 737,
+        "eligible_fraction": 0.00460625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 365,
+        "eligible_reference_fp": 77,
+        "eligible_reference_fn": 98,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000036",
+        "eligible_pixels": 741,
+        "eligible_fraction": 0.00463125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 343,
+        "eligible_reference_fp": 92,
+        "eligible_reference_fn": 90,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000041",
+        "eligible_pixels": 743,
+        "eligible_fraction": 0.00464375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 370,
+        "eligible_reference_fp": 67,
+        "eligible_reference_fn": 152,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000047",
+        "eligible_pixels": 737,
+        "eligible_fraction": 0.00460625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 380,
+        "eligible_reference_fp": 49,
+        "eligible_reference_fn": 140,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000053",
+        "eligible_pixels": 754,
+        "eligible_fraction": 0.0047125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 397,
+        "eligible_reference_fp": 53,
+        "eligible_reference_fn": 111,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000062",
+        "eligible_pixels": 760,
+        "eligible_fraction": 0.00475,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 375,
+        "eligible_reference_fp": 79,
+        "eligible_reference_fn": 83,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000065",
+        "eligible_pixels": 776,
+        "eligible_fraction": 0.00485,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 433,
+        "eligible_reference_fp": 29,
+        "eligible_reference_fn": 202,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000067",
+        "eligible_pixels": 762,
+        "eligible_fraction": 0.0047625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 395,
+        "eligible_reference_fp": 64,
+        "eligible_reference_fn": 164,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000071",
+        "eligible_pixels": 756,
+        "eligible_fraction": 0.004725,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 396,
+        "eligible_reference_fp": 56,
+        "eligible_reference_fn": 92,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000072",
+        "eligible_pixels": 769,
+        "eligible_fraction": 0.00480625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 410,
+        "eligible_reference_fp": 51,
+        "eligible_reference_fn": 92,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000075",
+        "eligible_pixels": 756,
+        "eligible_fraction": 0.004725,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 345,
+        "eligible_reference_fp": 104,
+        "eligible_reference_fn": 125,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000076",
+        "eligible_pixels": 770,
+        "eligible_fraction": 0.0048125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 386,
+        "eligible_reference_fp": 53,
+        "eligible_reference_fn": 96,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000077",
+        "eligible_pixels": 777,
+        "eligible_fraction": 0.00485625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 374,
+        "eligible_reference_fp": 56,
+        "eligible_reference_fn": 130,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000079",
+        "eligible_pixels": 777,
+        "eligible_fraction": 0.00485625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 376,
+        "eligible_reference_fp": 63,
+        "eligible_reference_fn": 115,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000096",
+        "eligible_pixels": 792,
+        "eligible_fraction": 0.00495,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 352,
+        "eligible_reference_fp": 108,
+        "eligible_reference_fn": 101,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000107",
+        "eligible_pixels": 783,
+        "eligible_fraction": 0.00489375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 373,
+        "eligible_reference_fp": 82,
+        "eligible_reference_fn": 123,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000112",
+        "eligible_pixels": 769,
+        "eligible_fraction": 0.00480625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 383,
+        "eligible_reference_fp": 83,
+        "eligible_reference_fn": 62,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000123",
+        "eligible_pixels": 767,
+        "eligible_fraction": 0.00479375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 372,
+        "eligible_reference_fp": 107,
+        "eligible_reference_fn": 81,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000142",
+        "eligible_pixels": 773,
+        "eligible_fraction": 0.00483125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 365,
+        "eligible_reference_fp": 107,
+        "eligible_reference_fn": 67,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000144",
+        "eligible_pixels": 779,
+        "eligible_fraction": 0.00486875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 375,
+        "eligible_reference_fp": 115,
+        "eligible_reference_fn": 151,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000146",
+        "eligible_pixels": 785,
+        "eligible_fraction": 0.00490625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 341,
+        "eligible_reference_fp": 124,
+        "eligible_reference_fn": 122,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000150",
+        "eligible_pixels": 774,
+        "eligible_fraction": 0.0048375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 338,
+        "eligible_reference_fp": 124,
+        "eligible_reference_fn": 180,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000152",
+        "eligible_pixels": 777,
+        "eligible_fraction": 0.00485625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 310,
+        "eligible_reference_fp": 158,
+        "eligible_reference_fn": 114,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000189",
+        "eligible_pixels": 1314,
+        "eligible_fraction": 0.0082125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 372,
+        "eligible_reference_fp": 332,
+        "eligible_reference_fn": 85,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000204",
+        "eligible_pixels": 775,
+        "eligible_fraction": 0.00484375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 310,
+        "eligible_reference_fp": 134,
+        "eligible_reference_fn": 98,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000246",
+        "eligible_pixels": 779,
+        "eligible_fraction": 0.00486875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 315,
+        "eligible_reference_fp": 120,
+        "eligible_reference_fn": 120,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000292",
+        "eligible_pixels": 778,
+        "eligible_fraction": 0.0048625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 276,
+        "eligible_reference_fp": 151,
+        "eligible_reference_fn": 106,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000320",
+        "eligible_pixels": 727,
+        "eligible_fraction": 0.00454375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 364,
+        "eligible_reference_fp": 45,
+        "eligible_reference_fn": 122,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000329",
+        "eligible_pixels": 745,
+        "eligible_fraction": 0.00465625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 303,
+        "eligible_reference_fp": 101,
+        "eligible_reference_fn": 76,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000331",
+        "eligible_pixels": 758,
+        "eligible_fraction": 0.0047375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 370,
+        "eligible_reference_fp": 72,
+        "eligible_reference_fn": 96,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000337",
+        "eligible_pixels": 747,
+        "eligible_fraction": 0.00466875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 256,
+        "eligible_reference_fp": 178,
+        "eligible_reference_fn": 49,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000352",
+        "eligible_pixels": 754,
+        "eligible_fraction": 0.0047125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 269,
+        "eligible_reference_fp": 152,
+        "eligible_reference_fn": 76,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000380",
+        "eligible_pixels": 793,
+        "eligible_fraction": 0.00495625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 154,
+        "eligible_reference_fp": 288,
+        "eligible_reference_fn": 57,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000427",
+        "eligible_pixels": 763,
+        "eligible_fraction": 0.00476875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 347,
+        "eligible_reference_fp": 79,
+        "eligible_reference_fn": 119,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000524",
+        "eligible_pixels": 720,
+        "eligible_fraction": 0.0045,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 294,
+        "eligible_reference_fp": 110,
+        "eligible_reference_fn": 78,
+        "raw_stone_protected_gt_fiber": 34,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000525",
+        "eligible_pixels": 740,
+        "eligible_fraction": 0.004625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 305,
+        "eligible_reference_fp": 100,
+        "eligible_reference_fn": 93,
+        "raw_stone_protected_gt_fiber": 34,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000623",
+        "eligible_pixels": 745,
+        "eligible_fraction": 0.00465625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 266,
+        "eligible_reference_fp": 114,
+        "eligible_reference_fn": 88,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_1_000721",
+        "eligible_pixels": 753,
+        "eligible_fraction": 0.00470625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 328,
+        "eligible_reference_fp": 88,
+        "eligible_reference_fn": 87,
+        "raw_stone_protected_gt_fiber": 10,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000000",
+        "eligible_pixels": 823,
+        "eligible_fraction": 0.00514375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 424,
+        "eligible_reference_fp": 65,
+        "eligible_reference_fn": 137,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000002",
+        "eligible_pixels": 828,
+        "eligible_fraction": 0.005175,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 431,
+        "eligible_reference_fp": 42,
+        "eligible_reference_fn": 233,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000047",
+        "eligible_pixels": 872,
+        "eligible_fraction": 0.00545,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 266,
+        "eligible_reference_fp": 243,
+        "eligible_reference_fn": 134,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000075",
+        "eligible_pixels": 873,
+        "eligible_fraction": 0.00545625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 494,
+        "eligible_reference_fp": 17,
+        "eligible_reference_fn": 264,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000149",
+        "eligible_pixels": 890,
+        "eligible_fraction": 0.0055625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 483,
+        "eligible_reference_fp": 29,
+        "eligible_reference_fn": 220,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000154",
+        "eligible_pixels": 883,
+        "eligible_fraction": 0.00551875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 485,
+        "eligible_reference_fp": 18,
+        "eligible_reference_fn": 297,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000191",
+        "eligible_pixels": 897,
+        "eligible_fraction": 0.00560625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 464,
+        "eligible_reference_fp": 64,
+        "eligible_reference_fn": 134,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000268",
+        "eligible_pixels": 870,
+        "eligible_fraction": 0.0054375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 410,
+        "eligible_reference_fp": 112,
+        "eligible_reference_fn": 147,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000340",
+        "eligible_pixels": 1111,
+        "eligible_fraction": 0.00694375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 578,
+        "eligible_reference_fp": 45,
+        "eligible_reference_fn": 323,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000571",
+        "eligible_pixels": 1363,
+        "eligible_fraction": 0.00851875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 637,
+        "eligible_reference_fp": 57,
+        "eligible_reference_fn": 562,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000649",
+        "eligible_pixels": 789,
+        "eligible_fraction": 0.00493125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 435,
+        "eligible_reference_fp": 25,
+        "eligible_reference_fn": 204,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000772",
+        "eligible_pixels": 1966,
+        "eligible_fraction": 0.0122875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 434,
+        "eligible_reference_fp": 593,
+        "eligible_reference_fn": 258,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000884",
+        "eligible_pixels": 844,
+        "eligible_fraction": 0.005275,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 439,
+        "eligible_reference_fp": 59,
+        "eligible_reference_fn": 285,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000900",
+        "eligible_pixels": 1190,
+        "eligible_fraction": 0.0074375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 390,
+        "eligible_reference_fp": 235,
+        "eligible_reference_fn": 196,
+        "raw_stone_protected_gt_fiber": 7,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000942",
+        "eligible_pixels": 969,
+        "eligible_fraction": 0.00605625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 543,
+        "eligible_reference_fp": 27,
+        "eligible_reference_fn": 350,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_000986",
+        "eligible_pixels": 1279,
+        "eligible_fraction": 0.00799375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 523,
+        "eligible_reference_fp": 177,
+        "eligible_reference_fn": 259,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001000",
+        "eligible_pixels": 1318,
+        "eligible_fraction": 0.0082375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 713,
+        "eligible_reference_fp": 4,
+        "eligible_reference_fn": 565,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001061",
+        "eligible_pixels": 917,
+        "eligible_fraction": 0.00573125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 395,
+        "eligible_reference_fp": 161,
+        "eligible_reference_fn": 104,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001135",
+        "eligible_pixels": 807,
+        "eligible_fraction": 0.00504375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 430,
+        "eligible_reference_fp": 59,
+        "eligible_reference_fn": 159,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001208",
+        "eligible_pixels": 1387,
+        "eligible_fraction": 0.00866875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 531,
+        "eligible_reference_fp": 116,
+        "eligible_reference_fn": 496,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001223",
+        "eligible_pixels": 1181,
+        "eligible_fraction": 0.00738125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 628,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 525,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001822",
+        "eligible_pixels": 757,
+        "eligible_fraction": 0.00473125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 253,
+        "eligible_reference_fp": 135,
+        "eligible_reference_fn": 123,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001846",
+        "eligible_pixels": 716,
+        "eligible_fraction": 0.004475,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 369,
+        "eligible_reference_fp": 11,
+        "eligible_reference_fn": 274,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001881",
+        "eligible_pixels": 794,
+        "eligible_fraction": 0.0049625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 269,
+        "eligible_reference_fp": 137,
+        "eligible_reference_fn": 181,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001897",
+        "eligible_pixels": 1229,
+        "eligible_fraction": 0.00768125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 530,
+        "eligible_reference_fp": 178,
+        "eligible_reference_fn": 208,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001965",
+        "eligible_pixels": 772,
+        "eligible_fraction": 0.004825,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 411,
+        "eligible_reference_fp": 33,
+        "eligible_reference_fn": 156,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      },
+      {
+        "sample_id": "reviewed_video_2_001971",
+        "eligible_pixels": 784,
+        "eligible_fraction": 0.0049,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 418,
+        "eligible_reference_fp": 35,
+        "eligible_reference_fn": 177,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1600
+      }
+    ],
+    "unoriented_reference_PCA_quartiles_NOT_tip_segments": [
+      {
+        "pixels": 138667,
+        "tp": 134696,
+        "probability_sum": 132224.50980944774,
+        "S_sum": 34735171.0,
+        "V_sum": 30292329.0,
+        "recall": 0.9713630496080539,
+        "mean_probability": 0.953539845885811,
+        "mean_S": 250.49341948697239,
+        "mean_V": 218.4537705438208
+      },
+      {
+        "pixels": 146006,
+        "tp": 142610,
+        "probability_sum": 141643.75033003453,
+        "S_sum": 36473339.0,
+        "V_sum": 31840116.0,
+        "recall": 0.9767406818897854,
+        "mean_probability": 0.97012280543289,
+        "mean_S": 249.80712436475213,
+        "mean_V": 218.0740243551635
+      },
+      {
+        "pixels": 106089,
+        "tp": 96666,
+        "probability_sum": 95689.47841727562,
+        "S_sum": 25896246.0,
+        "V_sum": 21757885.0,
+        "recall": 0.9111783502530894,
+        "mean_probability": 0.9019736109990255,
+        "mean_S": 244.09925628481747,
+        "mean_V": 205.09086710215007
+      },
+      {
+        "pixels": 62658,
+        "tp": 43811,
+        "probability_sum": 43167.94087541187,
+        "S_sum": 12829437.0,
+        "V_sum": 10543569.0,
+        "recall": 0.6992084011618628,
+        "mean_probability": 0.6889454000353007,
+        "mean_S": 204.75337546681988,
+        "mean_V": 168.2717131092598
+      }
+    ],
+    "reference_SV_bins_S_thenV_0to84_85to169_170to255_NOT_tip_metrics": [
+      {
+        "pixels": 408,
+        "tp": 3,
+        "probability_sum": 20.53911700696335,
+        "recall": 0.007352941176470588,
+        "mean_probability": 0.050340973056282726
+      },
+      {
+        "pixels": 3137,
+        "tp": 673,
+        "probability_sum": 800.4596402362149,
+        "recall": 0.2145361810647115,
+        "mean_probability": 0.25516724266375995
+      },
+      {
+        "pixels": 207,
+        "tp": 43,
+        "probability_sum": 68.4043484639842,
+        "recall": 0.20772946859903382,
+        "mean_probability": 0.33045578968108313
+      },
+      {
+        "pixels": 2455,
+        "tp": 97,
+        "probability_sum": 100.7250565514405,
+        "recall": 0.039511201629327905,
+        "mean_probability": 0.041028536273499186
+      },
+      {
+        "pixels": 14505,
+        "tp": 7186,
+        "probability_sum": 6552.2630525403765,
+        "recall": 0.4954153740089624,
+        "mean_probability": 0.45172444347055335
+      },
+      {
+        "pixels": 4599,
+        "tp": 2936,
+        "probability_sum": 2702.5223514764875,
+        "recall": 0.6383996520982822,
+        "mean_probability": 0.5876326052351571
+      },
+      {
+        "pixels": 2647,
+        "tp": 816,
+        "probability_sum": 801.9880580586723,
+        "recall": 0.3082735171892709,
+        "mean_probability": 0.30297999926659325
+      },
+      {
+        "pixels": 80990,
+        "tp": 68704,
+        "probability_sum": 67690.76468290896,
+        "recall": 0.8483022595382146,
+        "mean_probability": 0.8357916370281389
+      },
+      {
+        "pixels": 344472,
+        "tp": 337325,
+        "probability_sum": 333988.01312492666,
+        "recall": 0.9792523049768922,
+        "mean_probability": 0.9695650535455034
+      }
+    ],
+    "failed_candidate_station_reasons": {
+      "contrast_or_crossed_edge_selection": 48,
+      "no_seed_support": 28,
+      "no_inbounds_samples_on_one_side": 10
+    },
+    "reference_single_intervals": 563,
+    "reference_bilateral_contrast_intervals": 559,
+    "reference_contrast_intervals_outside_seed_strips": 23,
+    "width_rejection_arithmetic": [],
+    "point_contact_labels_NOT_tip_accuracy": {
+      "2": 62,
+      "0": 3,
+      "1": 3
+    }
+  },
+  "image_native": {
+    "eligible_scope_plan_sha256_before_calculation": "a31e14209fbef828b0dd75a33fa98e94641ca4de8405e4ff5a948223705f60d3",
+    "scope_only_not_filter_execution": true,
+    "eligible_uncapped_totals": {
+      "eligible_pixels": 34467,
+      "eligible_reference_tp_at_risk": 4398,
+      "eligible_reference_fp": 16996,
+      "eligible_reference_fn": 1742,
+      "raw_stone_protected_gt_fiber": 523
+    },
+    "after_presampling_budget_totals": {
+      "eligible_pixels": 34467,
+      "eligible_reference_tp_at_risk": 4398,
+      "eligible_reference_fp": 16996,
+      "eligible_reference_fn": 1742
+    },
+    "budget_rejected_frames": 0,
+    "records": [
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cccd1a7775145966c8bb5501",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2",
+        "eligible_pixels": 353,
+        "eligible_fraction": 0.003447265625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 42,
+        "eligible_reference_fp": 144,
+        "eligible_reference_fn": 10,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e",
+        "eligible_pixels": 182,
+        "eligible_fraction": 0.00177734375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 57,
+        "eligible_reference_fp": 43,
+        "eligible_reference_fn": 32,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cd9e308c7dc437ad4c480352",
+        "eligible_pixels": 139,
+        "eligible_fraction": 0.001357421875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 80,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 42,
+        "raw_stone_protected_gt_fiber": 71,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cebd05046dd66dfc157c7c22",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cf2bc6993fd5bc9051797231",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cf397a212754fa856044a105",
+        "eligible_pixels": 443,
+        "eligible_fraction": 0.004326171875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 125,
+        "eligible_reference_fp": 128,
+        "eligible_reference_fn": 40,
+        "raw_stone_protected_gt_fiber": 7,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d19ac9340b5b3d0663145fd8",
+        "eligible_pixels": 400,
+        "eligible_fraction": 0.00390625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 77,
+        "eligible_reference_fp": 191,
+        "eligible_reference_fn": 34,
+        "raw_stone_protected_gt_fiber": 24,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+        "eligible_pixels": 218,
+        "eligible_fraction": 0.00212890625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 44,
+        "eligible_reference_fp": 81,
+        "eligible_reference_fn": 6,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d380e64796be3f2bc0ea8b8d",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+        "eligible_pixels": 214,
+        "eligible_fraction": 0.00208984375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 34,
+        "eligible_reference_fp": 130,
+        "eligible_reference_fn": 2,
+        "raw_stone_protected_gt_fiber": 35,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d45fd2935206b59823e3aa75",
+        "eligible_pixels": 138,
+        "eligible_fraction": 0.00134765625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 74,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d476007d707213fa27659221",
+        "eligible_pixels": 170,
+        "eligible_fraction": 0.00166015625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 82,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d487c20dcb14f1ed5ed68040",
+        "eligible_pixels": 437,
+        "eligible_fraction": 0.004267578125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 98,
+        "eligible_reference_fp": 197,
+        "eligible_reference_fn": 60,
+        "raw_stone_protected_gt_fiber": 13,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d504f85f2fb66ec103d21dc4",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d5763e0bb069246f33640071",
+        "eligible_pixels": 408,
+        "eligible_fraction": 0.003984375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 91,
+        "eligible_reference_fp": 148,
+        "eligible_reference_fn": 70,
+        "raw_stone_protected_gt_fiber": 2,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d63c2244ceeb58c5590f17f2",
+        "eligible_pixels": 178,
+        "eligible_fraction": 0.00173828125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 178,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d79781cd1c7cd071fc44de0c",
+        "eligible_pixels": 159,
+        "eligible_fraction": 0.001552734375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 98,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9",
+        "eligible_pixels": 285,
+        "eligible_fraction": 0.002783203125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 79,
+        "eligible_reference_fp": 113,
+        "eligible_reference_fn": 22,
+        "raw_stone_protected_gt_fiber": 5,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d8b6c834f397c1414e65a28a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__db41ac8a866e0a43cc6b4d14",
+        "eligible_pixels": 23,
+        "eligible_fraction": 0.000224609375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 22,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__db950909f5180cfe568caeeb",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__df847941994bf694ac228c8c",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e0267bedab5c1d75d479a19a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e128d928f63c992a140d652d",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+        "eligible_pixels": 394,
+        "eligible_fraction": 0.00384765625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 102,
+        "eligible_reference_fp": 117,
+        "eligible_reference_fn": 74,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556",
+        "eligible_pixels": 193,
+        "eligible_fraction": 0.001884765625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 56,
+        "eligible_reference_fp": 46,
+        "eligible_reference_fn": 46,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e23f276f3b1c7f1509166d91",
+        "eligible_pixels": 528,
+        "eligible_fraction": 0.00515625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 241,
+        "eligible_reference_fp": 133,
+        "eligible_reference_fn": 53,
+        "raw_stone_protected_gt_fiber": 25,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e24d1cc256dfa5780aeb1769",
+        "eligible_pixels": 95,
+        "eligible_fraction": 0.000927734375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 47,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e2a826c4b9eb6402a96cd36c",
+        "eligible_pixels": 151,
+        "eligible_fraction": 0.001474609375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 140,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e3053295fb4f899238f8966a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e355e8693d335cbf9d8cf855",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e3d9211a5dbed854971a5440",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e474381424cc75fa6554a1cd",
+        "eligible_pixels": 187,
+        "eligible_fraction": 0.001826171875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 45,
+        "eligible_reference_fp": 62,
+        "eligible_reference_fn": 21,
+        "raw_stone_protected_gt_fiber": 2,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e5f4938cea8a6f11f27fb86f",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e655d4ca3bce9c5dbf8a7031",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e6cbc0b8877053482b4cbaf9",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e7a5ff6c13b19390cae69340",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e81644f0445056839c381270",
+        "eligible_pixels": 192,
+        "eligible_fraction": 0.001875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 132,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2",
+        "eligible_pixels": 266,
+        "eligible_fraction": 0.00259765625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 45,
+        "eligible_reference_fp": 89,
+        "eligible_reference_fn": 16,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e8e3851dd0ea5f46567bfcc0",
+        "eligible_pixels": 499,
+        "eligible_fraction": 0.004873046875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 219,
+        "eligible_reference_fp": 122,
+        "eligible_reference_fn": 86,
+        "raw_stone_protected_gt_fiber": 96,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd",
+        "eligible_pixels": 194,
+        "eligible_fraction": 0.00189453125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 14,
+        "eligible_reference_fp": 77,
+        "eligible_reference_fn": 6,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb8e9610be90a060660bef16",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb9414350213456173b9216e",
+        "eligible_pixels": 286,
+        "eligible_fraction": 0.00279296875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 109,
+        "eligible_reference_fp": 34,
+        "eligible_reference_fn": 89,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__eb9c5b0d82fbd7802848f976",
+        "eligible_pixels": 124,
+        "eligible_fraction": 0.0012109375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 59,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+        "eligible_pixels": 137,
+        "eligible_fraction": 0.001337890625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 38,
+        "eligible_reference_fp": 55,
+        "eligible_reference_fn": 3,
+        "raw_stone_protected_gt_fiber": 25,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ee46a5d978b3090ef07b252e",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__efa54a36a80d5c48f25f4c5b",
+        "eligible_pixels": 418,
+        "eligible_fraction": 0.00408203125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 126,
+        "eligible_reference_fp": 210,
+        "eligible_reference_fn": 37,
+        "raw_stone_protected_gt_fiber": 27,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f30c29162d090fea5d6def64",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+        "eligible_pixels": 172,
+        "eligible_fraction": 0.0016796875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 21,
+        "eligible_reference_fp": 73,
+        "eligible_reference_fn": 9,
+        "raw_stone_protected_gt_fiber": 1,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b76748433d12f4d9d7a362",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3e2e469a2139285aca27f9c",
+        "eligible_pixels": 147,
+        "eligible_fraction": 0.001435546875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 80,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f527f236680465cfac1ee1e1",
+        "eligible_pixels": 570,
+        "eligible_fraction": 0.00556640625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 162,
+        "eligible_reference_fp": 160,
+        "eligible_reference_fn": 69,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f55bfa67b4643136910eed51",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f62020c170af2da2938be744",
+        "eligible_pixels": 455,
+        "eligible_fraction": 0.004443359375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 81,
+        "eligible_reference_fp": 231,
+        "eligible_reference_fn": 4,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f6d6396b0ba9dc078f202f5d",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f737bd97951f70eb76e8294e",
+        "eligible_pixels": 184,
+        "eligible_fraction": 0.001796875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 86,
+        "eligible_reference_fp": 25,
+        "eligible_reference_fn": 35,
+        "raw_stone_protected_gt_fiber": 19,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f7a0ce0bac6c7a0bb0a5f9ec",
+        "eligible_pixels": 461,
+        "eligible_fraction": 0.004501953125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 20,
+        "eligible_reference_fp": 236,
+        "eligible_reference_fn": 6,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f88483917dce2d5dc69e03cc",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f95ce3dc9c950992589ef81a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fa8c7845974d43d219704de3",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fb381aee1f641ca07f49ea75",
+        "eligible_pixels": 258,
+        "eligible_fraction": 0.00251953125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 15,
+        "eligible_reference_fp": 213,
+        "eligible_reference_fn": 24,
+        "raw_stone_protected_gt_fiber": 25,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fb75f7e4d2f47745183dddf4",
+        "eligible_pixels": 120,
+        "eligible_fraction": 0.001171875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 114,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fc77bf8ca279f9875f5807c2",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fccb14b3644a4b7c55ac628a",
+        "eligible_pixels": 359,
+        "eligible_fraction": 0.003505859375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 240,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e",
+        "eligible_pixels": 168,
+        "eligible_fraction": 0.001640625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 36,
+        "eligible_reference_fp": 46,
+        "eligible_reference_fn": 5,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fe36ceb2449249673181a5a6",
+        "eligible_pixels": 301,
+        "eligible_fraction": 0.002939453125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 142,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ff39699780e8e83e6f08541a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 1024
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cd97db274666dd9a90154901",
+        "eligible_pixels": 1424,
+        "eligible_fraction": 0.0034765625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 79,
+        "eligible_reference_fp": 688,
+        "eligible_reference_fn": 12,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cec1352c534df462a5d62b9c",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cf404f4f3a6de1d92bab3c86",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b",
+        "eligible_pixels": 1059,
+        "eligible_fraction": 0.00258544921875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 139,
+        "eligible_reference_fp": 447,
+        "eligible_reference_fn": 42,
+        "raw_stone_protected_gt_fiber": 10,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d027b44c9ee6ce7c1bea8c8b",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d04ebe39fe149deead19c16b",
+        "eligible_pixels": 1257,
+        "eligible_fraction": 0.00306884765625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 196,
+        "eligible_reference_fp": 765,
+        "eligible_reference_fn": 18,
+        "raw_stone_protected_gt_fiber": 31,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d083dcdc2394bcb46eb2e2aa",
+        "eligible_pixels": 564,
+        "eligible_fraction": 0.001376953125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 309,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d36281673ef735de816fede2",
+        "eligible_pixels": 852,
+        "eligible_fraction": 0.002080078125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 128,
+        "eligible_reference_fp": 322,
+        "eligible_reference_fn": 36,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d3d9c90afe5e6b2c0ded7174",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3",
+        "eligible_pixels": 595,
+        "eligible_fraction": 0.00145263671875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 40,
+        "eligible_reference_fp": 294,
+        "eligible_reference_fn": 7,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374",
+        "eligible_pixels": 1321,
+        "eligible_fraction": 0.00322509765625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 75,
+        "eligible_reference_fp": 752,
+        "eligible_reference_fn": 14,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d5368f406eb516fa7f27dc73",
+        "eligible_pixels": 519,
+        "eligible_fraction": 0.00126708984375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 462,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d54250a9e2c8fe32e2cf4057",
+        "eligible_pixels": 677,
+        "eligible_fraction": 0.00165283203125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 120,
+        "eligible_reference_fp": 236,
+        "eligible_reference_fn": 30,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d5d611a128f6941532e16819",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d8d2493949c61074984753a0",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044",
+        "eligible_pixels": 799,
+        "eligible_fraction": 0.00195068359375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 47,
+        "eligible_reference_fp": 403,
+        "eligible_reference_fn": 16,
+        "raw_stone_protected_gt_fiber": 1,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9627d33174b903c775d1044",
+        "eligible_pixels": 985,
+        "eligible_fraction": 0.00240478515625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 787,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9968ea323db4c528440cbb1",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a",
+        "eligible_pixels": 735,
+        "eligible_fraction": 0.00179443359375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 9,
+        "eligible_reference_fp": 380,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__da2dd2f086729d73aea03aed",
+        "eligible_pixels": 394,
+        "eligible_fraction": 0.0009619140625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 228,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__da7e64c5e291613c411370df",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+        "eligible_pixels": 1455,
+        "eligible_fraction": 0.00355224609375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 75,
+        "eligible_reference_fp": 720,
+        "eligible_reference_fn": 15,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__def3fefc93f0d3f79b4e49a4",
+        "eligible_pixels": 556,
+        "eligible_fraction": 0.001357421875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 11,
+        "eligible_reference_fp": 285,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df3e84400e746629e75a1acc",
+        "eligible_pixels": 908,
+        "eligible_fraction": 0.002216796875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 137,
+        "eligible_reference_fp": 336,
+        "eligible_reference_fn": 78,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df80c83cf85358cd54605ee9",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__df9503c4c2237624a40883ea",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e05ea5d59365643133440230",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e11896f1aba74a8a435aec9a",
+        "eligible_pixels": 1131,
+        "eligible_fraction": 0.00276123046875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 211,
+        "eligible_reference_fp": 553,
+        "eligible_reference_fn": 82,
+        "raw_stone_protected_gt_fiber": 1,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e152ad6f28bd0d5796d4b863",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e2149dfdbb9fe2ad8b09442b",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+        "eligible_pixels": 711,
+        "eligible_fraction": 0.00173583984375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 711,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 14,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4fd74319c0ff1d67d66350a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e755cb48d88eff1a918421dc",
+        "eligible_pixels": 307,
+        "eligible_fraction": 0.00074951171875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 149,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e7c03ad5034214e51303f46c",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e80c71f5def8631f698af5e4",
+        "eligible_pixels": 674,
+        "eligible_fraction": 0.0016455078125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 110,
+        "eligible_reference_fp": 290,
+        "eligible_reference_fn": 19,
+        "raw_stone_protected_gt_fiber": 9,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e850aabd9169d00e5abf281c",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e90fee97feeedc692c93a341",
+        "eligible_pixels": 853,
+        "eligible_fraction": 0.00208251953125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 647,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e938455a11a8eb9671165411",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ea7e31de924cc3072975fcc1",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__eb89d1a8b0313341aafdde04",
+        "eligible_pixels": 674,
+        "eligible_fraction": 0.0016455078125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 312,
+        "eligible_reference_fp": 54,
+        "eligible_reference_fn": 215,
+        "raw_stone_protected_gt_fiber": 50,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ebca1ec5de792875bb4fb300",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ecc82ffbc242f725fc3090ae",
+        "eligible_pixels": 1324,
+        "eligible_fraction": 0.003232421875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 368,
+        "eligible_reference_fp": 676,
+        "eligible_reference_fn": 201,
+        "raw_stone_protected_gt_fiber": 30,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ed6451a4c509c7f494d27ffa",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ee9acf48105f94ed3bd8a6cd",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__efa5ed3a9775ddd7d978bf7f",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__efe332ad3a90e57696efbc31",
+        "eligible_pixels": 649,
+        "eligible_fraction": 0.00158447265625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 10,
+        "eligible_reference_fp": 333,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f0307b8a71d07dafb6ee2e3a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f0e67fadb14e6737cc037929",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f10ac95c407097f80554fecf",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded",
+        "eligible_pixels": 665,
+        "eligible_fraction": 0.00162353515625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 5,
+        "eligible_reference_fp": 356,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f18ef18f30ef93b3d7d55118",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f1c1d0100a3e53b144a2fd1a",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f339716ee9fe96e2f2166e62",
+        "eligible_pixels": 389,
+        "eligible_fraction": 0.00094970703125,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 67,
+        "eligible_reference_fp": 122,
+        "eligible_reference_fn": 40,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f405adc45e2f9ce5a820d803",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f680d909de418e7337206b7e",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+        "eligible_pixels": 849,
+        "eligible_fraction": 0.00207275390625,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 97,
+        "eligible_reference_fp": 367,
+        "eligible_reference_fn": 14,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2",
+        "eligible_pixels": 944,
+        "eligible_fraction": 0.0023046875,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 19,
+        "eligible_reference_fp": 454,
+        "eligible_reference_fn": 2,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f7e916870021680f21ba0418",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f810c0920b76afb8b8ca487e",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f84199195ae1f243a42f87a0",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f9088581b6cb409c0975ef84",
+        "eligible_pixels": 591,
+        "eligible_fraction": 0.00144287109375,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 358,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__fbca32110bf977c60cfbe65c",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__fcf80e46c1f36f89029968ba",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__ff13d61c042e3d942d15b551",
+        "eligible_pixels": 0,
+        "eligible_fraction": 0.0,
+        "within_pre_sampling_budget": true,
+        "eligible_reference_tp_at_risk": 0,
+        "eligible_reference_fp": 0,
+        "eligible_reference_fn": 0,
+        "raw_stone_protected_gt_fiber": 0,
+        "changed_area_budget_pixels": 4096
+      }
+    ],
+    "unoriented_reference_PCA_quartiles_NOT_tip_segments": [
+      {
+        "pixels": 23349,
+        "tp": 21259,
+        "probability_sum": 20987.971631684013,
+        "S_sum": 2337619.0,
+        "V_sum": 4773995.0,
+        "recall": 0.9104886718917299,
+        "mean_probability": 0.8988809641391071,
+        "mean_S": 100.11645038331406,
+        "mean_V": 204.46250374748382
+      },
+      {
+        "pixels": 36309,
+        "tp": 35021,
+        "probability_sum": 34766.850666264145,
+        "S_sum": 3889402.0,
+        "V_sum": 7635202.0,
+        "recall": 0.9645267013688066,
+        "mean_probability": 0.9575270777565933,
+        "mean_S": 107.11950205183288,
+        "mean_V": 210.28400672009695
+      },
+      {
+        "pixels": 33021,
+        "tp": 31874,
+        "probability_sum": 31659.76606295468,
+        "S_sum": 3577706.0,
+        "V_sum": 6905280.0,
+        "recall": 0.9652645286332939,
+        "mean_probability": 0.9587767197527235,
+        "mean_S": 108.34638563338481,
+        "mean_V": 209.1178341055692
+      },
+      {
+        "pixels": 18669,
+        "tp": 17127,
+        "probability_sum": 16898.26575883848,
+        "S_sum": 1945081.0,
+        "V_sum": 3717746.0,
+        "recall": 0.917403181745139,
+        "mean_probability": 0.9051510931939836,
+        "mean_S": 104.18774438909422,
+        "mean_V": 199.1400717767422
+      }
+    ],
+    "reference_SV_bins_S_thenV_0to84_85to169_170to255_NOT_tip_metrics": [
+      {
+        "pixels": 76,
+        "tp": 9,
+        "probability_sum": 7.522449627118476,
+        "recall": 0.11842105263157894,
+        "mean_probability": 0.09897960035682206
+      },
+      {
+        "pixels": 3287,
+        "tp": 2350,
+        "probability_sum": 2285.0947143808517,
+        "recall": 0.7149376331000913,
+        "mean_probability": 0.6951915772378617
+      },
+      {
+        "pixels": 43717,
+        "tp": 40483,
+        "probability_sum": 39986.3212841763,
+        "recall": 0.9260242011116957,
+        "mean_probability": 0.9146629751395636
+      },
+      {
+        "pixels": 31,
+        "tp": 10,
+        "probability_sum": 8.499834375539649,
+        "recall": 0.3225806451612903,
+        "mean_probability": 0.27418820566256935
+      },
+      {
+        "pixels": 13923,
+        "tp": 13615,
+        "probability_sum": 13487.438397277394,
+        "recall": 0.9778783308195073,
+        "mean_probability": 0.9687163971326147
+      },
+      {
+        "pixels": 25929,
+        "tp": 25077,
+        "probability_sum": 24889.161643121904,
+        "recall": 0.967141038991091,
+        "mean_probability": 0.9598967041969186
+      },
+      {
+        "pixels": 159,
+        "tp": 27,
+        "probability_sum": 26.84690583763222,
+        "recall": 0.16981132075471697,
+        "mean_probability": 0.16884846438762402
+      },
+      {
+        "pixels": 2184,
+        "tp": 1872,
+        "probability_sum": 1861.3822278652515,
+        "recall": 0.8571428571428571,
+        "mean_probability": 0.8522812398650419
+      },
+      {
+        "pixels": 22042,
+        "tp": 21838,
+        "probability_sum": 21760.58666307933,
+        "recall": 0.9907449414753652,
+        "mean_probability": 0.9872328583195414
+      }
+    ],
+    "failed_candidate_station_reasons": {
+      "contrast_or_crossed_edge_selection": 24,
+      "no_seed_support": 8
+    },
+    "reference_single_intervals": 378,
+    "reference_bilateral_contrast_intervals": 191,
+    "reference_contrast_intervals_outside_seed_strips": 44,
+    "width_rejection_arithmetic": [
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ccf70a4f0d4a21acf087bfb2",
+        "ratio": 2.4345140867232344,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__cd77a601db83805fcdf7a66e",
+        "ratio": 2.359608052889434,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d267502aad51bb65decaf84d",
+        "ratio": 1.3996830019219024,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d3edddcb69f204b4be3a3290",
+        "ratio": 2.7033738610777363,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__d820b67b3a3e3cc372d2dee9",
+        "ratio": 2.779710814947043,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e18f7a59b3efd252da514e4f",
+        "ratio": 3.1451582489308523,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e225608a28de61b8c46c2556",
+        "ratio": 1.62977889080397,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e84f756128a3251ea11a23a2",
+        "ratio": 2.8377855758103188,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__e9b5f66d0c0189bd0af327dd",
+        "ratio": 1.6220031377178952,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__ebceb60e04542e9820e24482",
+        "ratio": 2.630389420357742,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__f3b45e6a59ec4ff47893fde4",
+        "ratio": 2.30103645315539,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v1__joint__fe1b28309c234ca5923b7e7e",
+        "ratio": 3.1644370368790287,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__cf5b18fcaf8acd89f5889a3b",
+        "ratio": 2.3324721278320784,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d36281673ef735de816fede2",
+        "ratio": 3.759275875117706,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d3e0dbc61b13dd308d2428c3",
+        "ratio": 1.930813060263937,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d52dc609bdba7b83d18ff374",
+        "ratio": 3.270157413518336,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d92855cd12f66977499cd044",
+        "ratio": 3.897359748321775,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__d9ea9f45b7630015dfcb773a",
+        "ratio": 1.981191926620908,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__dddd83d2fd7d22d5cfdf9b95",
+        "ratio": 3.47945175464999,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__e4a3e164d6d744a489817e05",
+        "ratio": 1.425811390425127,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": true
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f1199c33b091368f88449ded",
+        "ratio": 1.445373277277461,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f711b94ce3fb5654b6bc4aa7",
+        "ratio": 1.5147491135531017,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      },
+      {
+        "sample_id": "kidney_stones_fiber_v2__joint__f79732ec2fbb21acb93198c2",
+        "ratio": 2.6728128619459133,
+        "reverse_ratio_in_range": true,
+        "oriented_by_fov": false
+      }
+    ],
+    "point_contact_labels_NOT_tip_accuracy": {
+      "0": 6,
+      "2": 3,
+      "1": 3
+    }
+  }
+}
