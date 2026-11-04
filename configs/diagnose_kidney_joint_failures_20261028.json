@@ -1,0 +1,17 @@
+{
+  "schema_version":1,
+  "experiment":"S2_JOINT_FAILURE_LABEL_EXPOSURE_DIAGNOSIS_20261028",
+  "output":"runs/a1_sup_kidney_joint_diagnosis_20261028",
+  "manifest":"datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+  "joint_checkpoint":"runs/a1_sup_kidney_joint_20261028/training/last.pt",
+  "joint_run":"runs/a1_sup_kidney_joint_20261028",
+  "old_video_predictions":"runs/a1_sup_kidney_resolution_20261028/native_comparison/unet256",
+  "new_video_predictions":"runs/a1_sup_kidney_joint_20261028/video_native/joint_final",
+  "scope":"Read-only diagnosis; no parameter/label/split updates, no budget extension, no automatic source ban or relabeling",
+  "video_errors":{"grid":"unchanged native400 GT and frozen saved predictions","near_radius_native_pixels":3,"ranking":"Largest positive change in stone FN or fiber FP; report positive-change share separately from signed net change"},
+  "train_agreement":"Frozen final joint model only; predict521training canonical images in eval/inference_mode with batch2 PIL256 -> softmax FP32 bilinear native probabilities before argmax. Unreviewed source agreement, not accuracy. Reuse132saved image-val masks; do not evaluate old model on newly regrouped image validation",
+  "conflicts":{"inventory":"All11 presence-conflicting groups from frozen annotation metadata","pixel_scope":"Only non-reserved-test groups; never read reserved-test images/labels/masks","alignment":"D4 flip/90degree only, choose opposite-fiber-presence member with minimum verified RGB32 MAE; same frozen pHash<=4 plus MAE/correlation duplicate criterion","comparison_grid":256,"interpretation":"Aligned source-label disagreements and laser/fiber overlaps are diagnostic, neither source is assumed correct; no inferred physical fiber truth"},
+  "exposure":{"buckets":[0,1,4,7],"old_group_mapping":"Exact historical image SHA to conservative joint component, count15old exposures per original image including augmentation duplicates","comparison":"Same1425updates2850exposures; compare grouping/reassignment and repeat density, not proof of insufficient optimization"},
+  "descriptors":{"grid":256,"region":"central80% RGB at common256 image size","features":["luminance_mean","saturation_mean","laplacian_variance","annotated_stone_fraction","annotated_fiber_fraction"],"interpretation":"Distribution descriptions only, no domain-classifier claim or causal attribution; masks resized nearest only for this descriptor/alignment grid, video error metrics remain native"},
+  "constraints":"stone_new remains banned; video1/2 validation only; original144test-associated groups metadata only; training and source annotations remain pending; no repeated manual-review prerequisite"
+}

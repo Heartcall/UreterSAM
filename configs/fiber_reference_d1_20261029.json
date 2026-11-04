@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "stage": "D1_HUMAN_TIP_REFERENCE_AND_COMPLETE_VIDEO_ACCURACY_COVERAGE",
+  "output": "runs/fiber_reference_d1_20261029",
+  "video_reference_manifest": "datasets/ureter_semis_kidney_joint_20261028/video_validation_manifest.json",
+  "pilot_template": "runs/a1_fiber_tip_d0_20261029/tip_reference_pilot.template.json",
+  "default_baseline": "classwise",
+  "boundary_tolerance_native_pixels": 3,
+  "accuracy_policy": "Each scheme requires every frame in both complete videos. User chose full-video stratified sampling references, not dense annotation. All120 sampled frames must have approved human references before reporting design-weighted whole-video accuracy estimates. Sparse29 diagnostics remain separate. Dense exact metrics must be null unless all2694 frames have references. No silent missing outputs, invalid labels, changed identity or pseudo GT. Unknown255 excluded and counted. No video threshold selection. This is development validation, not independent testing.",
+  "sampling": {"design": "stratified_simple_random_without_replacement", "strata_per_video": 12, "frames_per_stratum": 5, "seed_by_video": {"video_1": 2026102901, "video_2": 2026102902}, "stratum_construction": "numpy.array_split of zero-based complete sequential frame indices; sizes differ by at most1", "selection": "numpy.default_rng(seed).choice(stratum,size5,replaceFalse), in temporal order; no image or model features used", "weights": "N_h/n_h fixed before labels. Ratio metrics from Horvitz-Thompson weighted TP/FP/FN. Approximate95% normal intervals by stratified finite-population variance and delta method, conditional on these two development videos; not patient generalization intervals", "known_failure_frames": "Existing29 and12 tip pilot remain diagnostic supplements; do not pool convenience samples into probability-sample estimates unless randomly selected", "partial_review_policy": "No overall estimate until all planned sample references are approved. Dense accuracy remains unavailable; unknown-pixel fractions reported separately"},
+  "tip_policy": "12 manual sidecars initially all unknown255; original29 semantic references read-only context. Labels0 confirmed non-fiber negatives,1 visible tip,2 confirmed visible shaft ignored in tip Precision,255 unknown. Manual ROI and distal visible point required for visible tip; unknown/hidden area is not filled. Reviewer and explicit independent review required. No model or axial proxy prefill. All tip metrics null until approved.",
+  "schemes": {
+    "classwise": "runs/a1_fiber_tip_d0_20261029/full_video/{video}/raw_classwise/{frame:06d}.png",
+    "old190": "runs/a1_classwise_replay_20261028/{video}/old190/{frame:06d}.png",
+    "A0": "runs/a1_classwise_replay_20261028/{video}/A0/{frame:06d}.png",
+    "edge_geometry": "runs/a1_fiber_geometry_20261028/{video}/geometry/{frame:06d}.png",
+    "edge_geometry_causal": "runs/a1_fiber_geometry_20261028/{video}/geometry_causal/{frame:06d}.png",
+    "component_gate_3net": "runs/a1_fiber_component_gate_20261029/full_replay/classwise_component_gate_3net/{video}/gated/{frame:06d}.png",
+    "component_gate_1net": "runs/prior_method_comparison_20261029/{video}/component_gate_1net/{frame:06d}.png",
+    "fixed_color": "runs/a1_direct_fiber_template_20261029/{video}/image_template/{frame:06d}.png",
+    "fixed_soft": "runs/a1_direct_fiber_template_20261029/{video}/soft_template/{frame:06d}.png",
+    "fixed_causal": "runs/a1_direct_fiber_template_20261029/{video}/causal_template/{frame:06d}.png",
+    "fixed_neural": "runs/prior_method_comparison_20261029/{video}/fixed_neural/{frame:06d}.png"
+  },
+  "constraints": "No inference changes, training, parameter fitting, default replacement, old output overwrite, TRAIN or reserved-test pixels; stone_new excluded; video1/2 validation only. D1 approval does not alter original521/132/144/29 split. New full-video references are validation sidecars only. No physical tip or laser impact claims. Every new actual scheme also needs separately timed fresh-process complete-video replay. Cached-output accuracy audit is not a latency benchmark."
+}

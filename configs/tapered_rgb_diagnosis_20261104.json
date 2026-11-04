@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_READ_ONLY_DIAGNOSIS_BEFORE_CORRECTED_SEGMENTATION",
+  "baseline_config": "configs/tapered_tangent_cap_control_20261104.json",
+  "baseline": "runs/a1_tapered_tangent_cap_20261104",
+  "output": "runs/a1_tapered_rgb_diagnosis_20261104_v3",
+  "raw_masks": "runs/a1_weak_blue_evidence_20261103/full_video/raw2",
+  "edge": {
+    "window_inward_at400": 12,
+    "window_outward_at400": 16,
+    "sample_step_at400": 0.5,
+    "support_offsets_at400": [1.0, 2.0, 4.0],
+    "minimum_frame_margin_at400": 3.0
+  },
+  "independent_side_margin_at400": 4.0,
+  "minimum_subject_blue_pixels_for_ranking": 100,
+  "top_per_video": 10,
+  "focus_video2": [317, 770, 1204, 1209, 1250, 1291],
+  "pixel_updates": 0,
+  "RGB_edges_are_reference_truth": false,
+  "no_training": true,
+  "no_default_change": true
+}

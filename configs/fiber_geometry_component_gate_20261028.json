@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "experiment": "S2_FIBER_GEOMETRY_CANDIDATE_GATE_20261028",
+  "status": "PREPARED_NOT_EXECUTED_IMPLEMENTATION_PENDING",
+  "reason": "Whole-tube rasterization reduced false fiber pixels but removed more correct fiber pixels on video29 and added substantial cost. Test geometric candidate validation while preserving every pixel in an accepted raw shaft component",
+  "predecessor": "configs/fiber_geometry_prior_20261028.json",
+  "arms": ["classwise_raw_3net", "classwise_component_gate_3net", "old190_raw_1net", "old190_component_gate_1net"],
+  "checkpoints": "Same unchanged old190 and A0 experts in runs/a1_classwise_experts_20261028/predictor_manifest.json; inference only",
+  "rule": "Using each fiber expert's own raw mask and probability, nominate the largest entry-near connected component under the preceding frozen FOV/size/geometry acceptance checks. If accepted, preserve its entire original mask and remove only other disconnected fiber components. Never intersect the retained component with the fitted tube or cap; never add fiber pixels. If no supported candidate, return the full raw mask. No temporal smoothing or parameter sweep",
+  "important_limits": "Detached true distal pieces may be removed, so paired TP loss and occlusion failures must be reported. Geometry acceptance is not proof of true fiber. The1network arm reuses old190 for both classes and cannot recover stones missing from old190",
+  "scope": "Frozen29 reviewed video frames and unchanged132 image-dev,25 historical old190-exposed and107 unmatched groups; compare all images including fallbacks and accepted subset separately. Full causal replay only after a candidate retains the original class gates",
+  "gates": {"stone_dice_min":0.47401543332152984,"fiber_dice_min":0.9568022126134994,"negative_fp_fraction_max":0.07782222222222222},
+  "cost": "Same-run isolated1network and3network full required inference, geometric fitting and selection cost; do not report a shared3network forward as1network runtime. Model probability transfer, preprocessing and output included consistently",
+  "decision": "Finite candidate-gate comparison only. Preserve preceding failed raster prototype. Do not loosen fit thresholds or auto adopt/train; if raw-boundary preservation still loses quality, keep geometry as a separate diagnostic/pose hypothesis pending dedicated tip/angle references",
+  "training_updates": 0,
+  "constraints": "No stone_new or video-derived training; A0 never initializes training.521/132/144/29 splits, pending source-label status, checkpoints and reserved-test pixels unchanged; no physical-tip/laser or stone-memory acceptance"
+}

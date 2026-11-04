@@ -1,0 +1,12 @@
+{
+  "schema_version":1,
+  "status":"FROZEN_BEFORE_VALIDATION",
+  "protocol":"configs/direct_template_neural_observation_20261029.json",
+  "base_config":"configs/direct_fiber_template_20261029.json",
+  "template":"runs/a1_direct_fiber_template_20261029/template.json",
+  "output":"runs/a1_direct_neural_observation_20261029",
+  "arms":["raw_classwise","fixed_image_observation_template","fixed_neural_observation_template"],
+  "benchmark":{"warmup_frames":12,"repeats":3,"cached_frames":29,"required_models":[3,1,3],"scope":"Fresh process per arm; same first29 sequential cached video_1 frames, no GT. Includes preprocessing, required networks, native transfer, foreground observation, global/fine search, visible rasterization and fusion; excludes decoding/display/exports. Local timing only"},
+  "conditional_replay":"Only if fixed_neural_observation_template passes all original video29 gates, execute sequential2694-frame replay with static arms and causal_template (neural foreground, base score, original DirectTracker). Reset per video, predictions alone never visible. Otherwise do not execute causal replay",
+  "stop":"No threshold/search/template adjustment after validation; no training, default adoption or automatic S3. Image and video29 global scores include all rejections. Conditional accepted-frame scores are diagnostic only"
+}

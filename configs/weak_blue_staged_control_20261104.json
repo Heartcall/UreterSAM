@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-04",
+  "output": "runs/a1_weak_blue_staged_20261104",
+  "baseline": "runs/a1_weak_blue_evidence_20261103",
+  "baseline_config": "configs/weak_blue_evidence_control_20261103.json",
+  "stages": [
+    "s1_seed_qualified",
+    "s2_native_gradient",
+    "s3_coherent_tip",
+    "s4_contour_pixels"
+  ],
+  "video_frames": {
+    "video_1": 722,
+    "video_2": 1972
+  },
+  "references": {
+    "video": "runs/review_snapshots/video_development_supplement_20261029_v2/manifest.json",
+    "image": "datasets/ureter_semis_kidney_joint_20261028/manifest.json"
+  },
+  "focus_video2": [
+    317,
+    770,
+    1204,
+    1716,
+    1209,
+    1250,
+    1291
+  ],
+  "full_focus_interval": [
+    1233,
+    1291
+  ],
+  "seed": {
+    "max_evaluations": 32,
+    "threshold_changes": 0,
+    "policy": "All area-qualified components individually validated with frozen rules, preserve original labels/core; unique qualified only; budget overflow remains unknown, not largest-component selection"
+  },
+  "s3": {
+    "prune_iterations": 2,
+    "maximum_neighbor_count": 2,
+    "maximum_prune_gradient": 0.012,
+    "maximum_prune_score": 0.7,
+    "tip_bin_at400": 1.0,
+    "minimum_supported_band_pixels": 3,
+    "front_band_at400": 2.0,
+    "maximum_ignored_weak_spur_at400": 2.0,
+    "inside_halfwidth_fraction": 0.25,
+    "inside_offset_min_at400": 0.5,
+    "inside_offset_max_at400": 1.0,
+    "policy": "Prune only newly-grown weak unsupported terminal graph leaves. Keep union and strong. Tip from coherent supported axial band; unresolved farther visible blue implies weak/unknown, not a shorter confirmed tip. Width-aware inside sampling; unchanged external and color thresholds."
+  },
+  "s4": {
+    "maximum_boundary_displacement_at400": 1.5,
+    "maximum_fit_displacement_at400": 2.5,
+    "maximum_remove_score": 0.7,
+    "maximum_remove_gradient": 0.012,
+    "maximum_seed_background_separation_for_remove": 0.0,
+    "maximum_removed_new_weak_fraction": 0.05,
+    "maximum_removed_pixels_frame_fraction": 0.001,
+    "minimum_evidence_retention": 0.995,
+    "maximum_endpoint_retreat_at400": 0.0,
+    "policy": "Modify only additions beyond corrected union. Never alter original union/raw stone or strong current blue. Remove only weak shallow geometric protrusions with background-compatible low edge evidence, preserve confirmed distal frontier. Add current-evidence concavities only; no opening/closing/Gaussian imposed mask. Roll back frame edits on budget/connectivity/visible-front failure."
+  },
+  "progression": {
+    "stone_overwrites": 0,
+    "union_removed": 0,
+    "max_reference_TP_loss_fraction": 0.001,
+    "max_dark_recall_drop": 0.001,
+    "max_boundary_F_drop": 0.005,
+    "max_RGB_support_drop": 0.02,
+    "max_side_HF_increase_fraction": 0.15,
+    "max_p95_runtime_factor": 1.5,
+    "manual_obvious_expansion_allowed": false,
+    "reference_FP_precision_Dice_are_gates": false,
+    "rule": "Evaluate 70 causal/132 static, each full video and focus boards. Failing stage still complete all2694 and export; do not implement/run next stage. Engineering-only repairs get new version and full rerun, no threshold tuning."
+  },
+  "execution": {
+    "warmup": 12,
+    "batch_size": 1,
+    "FP32": true,
+    "fresh_process_per_video_stage": true,
+    "full_all_even_failure": true,
+    "no_training": true,
+    "no_default_change": true,
+    "no_reserved_test_pixels": true,
+    "no_stone_new": true
+  },
+  "adoption": "Retain prior frozen geometry objectives; progression is nondegradation, not proof of improvement or adoption. No independent tip truth; no accuracy claim from smoothness or confirmation alone."
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_BEFORE_IMPLEMENTATION_RESULTS",
+  "experiment": "BISECTOR_GUIDED_CONNECTED_VISIBLE_BLUE_TIP",
+  "output": "runs/a1_bisector_blue_tip_20261103",
+  "execution_document": "docs/plans/bisector_blue_tip_execution_20261103.md",
+  "arms": [
+    "connected_blue_union",
+    "contour_sides_cap",
+    "bisector_guided_blue_tip"
+  ],
+  "legacy_config": "configs/fiber_connected_blue_growth_20261101.json",
+  "base": {
+    "networks": 2,
+    "parameters": 49202790,
+    "fiber_member": "model1",
+    "reference_run": "runs/a1_fiber_dark_input_control_20261030",
+    "historical_reference": "runs/a1_two_network_experts_20261029",
+    "preflight": "runs/a1_blue_outline_20261102_v2/preflight.json"
+  },
+  "data": {
+    "video_manifest": "runs/review_snapshots/video_development_supplement_20261029_v2/manifest.json",
+    "image_manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+    "video_frames": 70,
+    "image_frames": 132
+  },
+  "extent": {
+    "seed": {
+      "P_min": 0.9,
+      "min_pixels_at400": 16,
+      "max_components": 2,
+      "max_points": 1024,
+      "min_length_at400": 20,
+      "min_aspect": 1.0,
+      "fractions": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "normal_min_sections": 3,
+      "weak_min_sections": 3,
+      "weak_min_paired": 1,
+      "background_MAD_multiplier": 2.0,
+      "background_MAD_floor": 0.01,
+      "min_color_vector_norm": 0.03,
+      "fit_rms_at400": 2.0,
+      "fit_rms_width_fraction": 0.12
+    },
+    "color": {
+      "max_noise": 0.15,
+      "noise_DN": 3.0,
+      "angle_normal_degrees": 35,
+      "angle_weak_degrees": 25,
+      "blue_gap_normal_fraction": 0.5,
+      "blue_gap_weak_fraction": 0.7,
+      "background_distance_margin_normal": 0.02,
+      "background_distance_margin_weak": 0.04
+    },
+    "section": {
+      "samples": 65,
+      "halfwidth_scale": 0.75,
+      "halfwidth_add_at400": 4.0,
+      "edge_delta_at400": 2.0,
+      "strong_RGB_contrast": 0.04,
+      "center_band_width_fraction": 0.25,
+      "interior_fractions": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "normal_min_interior": 4,
+      "weak_min_interior": 5
+    },
+    "geometry": {
+      "normal_width_ratio": [
+        0.5,
+        1.25
+      ],
+      "weak_width_ratio": [
+        0.8,
+        1.1
+      ],
+      "max_seed_width_ratio": 1.5,
+      "normal_turn_degrees": 10,
+      "weak_turn_degrees": 5,
+      "normal_total_turn_degrees": 20,
+      "weak_total_turn_degrees": 10,
+      "normal_curvature_width": 0.35,
+      "weak_curvature_width": 0.15,
+      "heading_blend": 0.5,
+      "step_at400": 2.0,
+      "step_width_fraction": 0.125,
+      "max_sections_per_end": 32,
+      "max_extension_diagonal_fraction": 0.2,
+      "max_extension_seed_widths": 4,
+      "max_consecutive_weak_sections": 2,
+      "max_weak_run_seed_widths": 1.0,
+      "max_evaluated_fraction": 0.15,
+      "max_new_fraction": 0.05
+    },
+    "history": {
+      "max_age": 3,
+      "max_axis_difference_degrees": 15,
+      "max_normal_distance_diagonal_fraction": 0.04,
+      "width_ratio": [
+        0.5,
+        2.0
+      ],
+      "orientation_border_distance_difference_diagonal_fraction": 0.02,
+      "prior_policy": "Only previous-frame frozen T1 state prepared before current update; no grown pixel feedback. Strong current never vetoed. Weak requires valid shaft, age<=3, angle/normaldistance/width compatible. No history in static."
+    },
+    "tip": {
+      "profile_offsets_width": [
+        -0.25,
+        0,
+        0.25
+      ],
+      "profile_samples": 33,
+      "axial_range_widths": [
+        -0.5,
+        1.0
+      ],
+      "contrast": 0.04,
+      "minimum_profiles": 2,
+      "max_profile_spread_widths": 0.5,
+      "closure_width_fraction": 0.65,
+      "max_center_advance_widths": 0.25,
+      "background_check_at400": [
+        2,
+        4
+      ],
+      "policy": "Always attempt for unique qualified seed, even no new pixels. Require center plus flank coherent terminal RGB boundary, current outer-width closure, nonblue background beyond, no original fiber continuation. Search/area/weak-history stop is unknown; stone contact occlusion, border out_of_view, internal transition never tip. Only reliably oriented distal branch may export tip xy. No hidden cap filling."
+    }
+  },
+  "t1": {
+    "config": "configs/fiber_temporal_observation_search_20261030.json",
+    "role": "Previous valid raw-probability T1 state compatibility veto for weak-side only; run/update frozen T1 on original probability every video frame even no seed; reset per video and after warmup"
+  },
+  "execution": {
+    "videos": [
+      "video_1",
+      "video_2"
+    ],
+    "frames": [
+      722,
+      1972
+    ],
+    "fresh_processes": 6,
+    "full_paired_frame_inferences": 8082,
+    "static_shared_paired_frame_inferences": 202,
+    "warmup_frames_per_process": 12,
+    "complete_all_even_failure": true,
+    "additional_stage_p95_ms": 5,
+    "additional_outline_p95_ms": 5
+  },
+  "mask_policy": "All actual raw outputs immutable. Baseline union exact. Extra blue_body_only control removes ONLY original root-connected semanticfiber and replaces it by current RGB body; other original disconnected fiber retained, stone immutable. Sides/cap same replacement, evidence-supported tiny boundary fringe allowed, no hidden gap or extrapolation. Pixel TP loss/FP remain diagnostic, not new acceptance gates.",
+  "stop": "Four fixed arms; all10776frames even failed. No validation sweeps, FP/Precision or historical Dice gates this round. Final contour_sides_cap prespecified; geometry, visibility and runtime separate. Research only, no model/default/training changes.",
+  "reference_extent_config": "configs/fiber_blue_extent_control_20261101.json",
+  "direction_control": {
+    "factor": "search_only_existing_oriented_distal_sign_before_walk",
+    "unknown_orientation": "no_walk_no_new_pixels_no_tip",
+    "unsearched_end": "metadata_only_no_abnormal_no_tip",
+    "searched_end_abnormal": "reject_all_new_as_before",
+    "numeric_threshold_changes": 0
+  },
+  "reference_distal_config": "configs/fiber_distal_only_control_20261102.json",
+  "aggressive_parameters": {
+    "background": {
+      "stations": 11,
+      "axial_fractions": [
+        0.1,
+        0.9
+      ],
+      "min_points": 6,
+      "min_axial_coverage": 0.4
+    },
+    "fixed_direction": {
+      "nearest_seed_fraction": 0.1,
+      "minimum_anchor_points": 3,
+      "target": "image_center",
+      "anchor": "nearest_frame_border_projection",
+      "sign": "entry_to_center_only"
+    },
+    "edge_policy": {
+      "color_boundary_qualification": true,
+      "minimum_paired_sections": 2,
+      "minimum_fit_points": 2,
+      "original_strong_RGB_reference": 0.04
+    },
+    "broad_color": {
+      "angle_normal_degrees": 55,
+      "angle_weak_degrees": 45,
+      "blue_gap_normal_fraction": 0.2,
+      "blue_gap_weak_fraction": 0.4,
+      "background_distance_margin_normal": 0.0,
+      "background_distance_margin_weak": 0.01,
+      "max_noise": 0.3
+    },
+    "geometry": {
+      "normal_width_ratio": [
+        0.25,
+        1.35
+      ],
+      "normal_turn_degrees": 15,
+      "normal_total_turn_degrees": 30,
+      "normal_curvature_width": 1.0
+    },
+    "tip_visibility_tolerance_at400": 2.0
+  },
+  "reference_aggressive_config": "configs/fiber_aggressive_blue_control_20261102.json",
+  "reference_aggressive_run": "runs/a1_fiber_aggressive_blue_control_20261102",
+  "connected_blue": {
+    "seed_policy": "Exact frozen aggressive seed qualification, local same-frame color/background and fixed oriented axis; unique qualified instance required. No GT or history pixel filling.",
+    "forward_cone_half_angle_degrees": 45,
+    "cone_margin_at400": 8.0,
+    "proximal_margin_at400": 1.0,
+    "connectivity": 4,
+    "component_area_fraction_limit": 0.25,
+    "new_area_fraction_limit": 0.1,
+    "color_policy": "Exact aggressive broad color score, no brightness or network P gate outside seed. Full visible RGB component inside forward cone; original stone barrier before connectivity. No dilation, closing, hole filling, width ratio, curvature, section stepping or seed-width extension limit.",
+    "regularization": {
+      "gaussian_sigma_at400": 1.0,
+      "threshold": 0.5,
+      "policy": "Gaussian binary occupancy smoothing then intersect original reachable blue body; protect colored highP core, retain its4CC. New output subset union; original semantic fiber and stone immutable. No new cap pixel, extrapolation, bridging or enforced taper."
+    },
+    "tip": {
+      "frontier_band_at400": 1.0,
+      "local_profile_step_at400": 2.0,
+      "profile_offsets_at400": [
+        -2.0,
+        0.0,
+        2.0
+      ],
+      "profile_samples": 17,
+      "axial_range_at400": [
+        -4.0,
+        4.0
+      ],
+      "edge_delta_at400": 1.0,
+      "minimum_RGB_contrast": 0.04,
+      "minimum_profiles": 2,
+      "max_profile_spread_at400": 4.0,
+      "future_offsets_at400": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "tip_near_component_at400": 2.0,
+      "local_taper_tail_at400": 3.0,
+      "local_taper_body_range_at400": [
+        3.0,
+        9.0
+      ],
+      "maximum_tail_body_width_ratio": 0.85,
+      "policy": "Distal frontier of actual RGB component; require current terminal gradient+local contour closure+known nonblue background. RGB continuation/internal transition, original stone contact, unknown noise, spatial scope/safety rejection => no xy. Coordinate on current visible cap only. No independent tip GT => accuracy null."
+    },
+    "focus": {
+      "video_id": "video_2",
+      "display_frame": 1209,
+      "display_interval": [
+        1233,
+        1291
+      ],
+      "interval_policy": "All59frames, no selection. Reference frames only quantitative accuracy; unlabelled frames mechanism/visualization only."
+    }
+  },
+  "reference_union_config": "configs/connected_blue_union_control_20261102.json",
+  "reference_union_run": "runs/a1_connected_blue_union_20261102",
+  "historical_reference_quality": {
+    "frozen_gates": "configs/compare_two_network_experts_20261029_v2.json",
+    "minimum_new_candidate_precision": 0.98,
+    "minimum_lowLab_FN_reduction_fraction": 0.1,
+    "primary_scopes": [
+      "video_causal",
+      "image_native"
+    ],
+    "video_static_role": "diagnostic only, no choosing between modes after results",
+    "fixed1209_scope": "video_causal",
+    "actual_protected_pixel_changes": 0,
+    "virtual_protected_TP_loss": 0
+  },
+  "outline": {
+    "axis": "PCA of full current RGB4CC body, sign fixed by trusted entry-to-center; initial mask used only identity/root association and frozen broad extraction.",
+    "profile_step_at400": 2.0,
+    "minimum_side_points": 8,
+    "minimum_side_span_fraction": 0.35,
+    "side_frame_margin_at400": 1.5,
+    "IRLS_iterations": 12,
+    "Huber_delta_at400": 1.5,
+    "ridge": 1e-06,
+    "spline_knots": 7,
+    "spline_D2_penalty": 10.0,
+    "spline_required_residual_improvement": 0.3,
+    "spline_required_deviation_at400": 2.0,
+    "minimum_edge_weight": 0.1,
+    "edge_weight_scale": 0.08,
+    "maximum_local_fit_displacement_at400": 4.0,
+    "cap_length_width_fraction": 0.5,
+    "cap_length_min_at400": 4.0,
+    "cap_length_max_length_fraction": 0.15,
+    "side_pixel_mode": "fit shaft only; retain original blue distal part; fit each side separately only within its observed uncensored range; unsafe local interval retains blue, never clears growth",
+    "evidence": {
+      "band_distance_at400": 1.5,
+      "minimum_RGB_gradient": 0.02,
+      "relaxed_background_distance_margin": -0.03,
+      "other_color_parameters": "exact frozen aggressive broad color; only boundary distance margin relaxed inside currentRGB gradient band. No black/neutral/stone fill, root4CC required."
+    },
+    "retention": {
+      "minimum_blue_fraction": 0.97,
+      "maximum_length_loss_at400": 2.0,
+      "failure": "Fallback postprocessing phase to full previous visible body; never zero union or force hidden connection"
+    },
+    "cap": {
+      "shape": "tilted half-ellipse segment tangent-compatible with current side joins; actual endpoint no farther than observed blue distal frontier",
+      "r_candidates": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "front_retreat_at400": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "curve_samples": 65,
+      "minimum_tail_points": 8,
+      "maximum_fit_RMS_at400": 1.5,
+      "maximum_tangent_jump_degrees": 15.0,
+      "maximum_boundary_distance_at400": 1.5,
+      "minimum_RGB_supported_fraction": 0.8,
+      "maximum_unknown_fraction": 0.1,
+      "minimum_cap_blue_retention": 0.95,
+      "edge_sample_offset_at400": 1.5,
+      "minimum_RGB_contrast": 0.02,
+      "future_offsets_at400": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "minimum_frame_margin_at400": 2.0,
+      "policy": "No current blue continuation, stone occlusion, clipped scope, or unknown background. Positive current color transition OR weak RGB contrast on current visible arc; fit failure keeps observed blue cap. No Gaussian cap or unobserved extension."
+    },
+    "evaluation": {
+      "profile_step_at400": 1.0,
+      "HF_sigma_at400": 3.0,
+      "turning_stride_at400": 3.0,
+      "boundary_tolerance_at400": 2.0,
+      "cap_arc_step_at400": 2.0,
+      "cap_HF_turn_stride_at400": 2.0,
+      "mode": "independent metrics on actual raster bodies, fixed full-blue axis/common shaft-cap interval, fallback frames included; fitted-model metrics separate"
+    }
+  },
+  "geometry_quality": {
+    "reference_metrics_are_gates": false,
+    "minimum_side_HF_reduction_vs_union": 0.15,
+    "maximum_RGB_support_drop": 0.02,
+    "minimum_cap_application_of_observable": 0.25,
+    "minimum_focus_cap_application": 0.5,
+    "minimum_actual_cap_turn_reduction_vs_union": 0.1,
+    "maximum_actual_join_p95_degrees": 15.0,
+    "minimum_actual_arc_match": 0.8,
+    "minimum_union_fiber_retention": 1.0,
+    "minimum_blue_retention": 1.0,
+    "maximum_visible_blue_front_loss_at400": 0.0,
+    "extra_p95_target_ms": 5.0,
+    "full_pipeline_budget": "source frame interval",
+    "scope": [
+      "video_causal",
+      "image_native",
+      "full_video_1",
+      "full_video_2",
+      "focus60"
+    ],
+    "tip_accuracy": null
+  },
+  "repair": {
+    "type": "engineering_root_anchor_fix_only",
+    "failed_run": "runs/a1_blue_outline_20261102",
+    "anchor": "current qualified blue body intersect highP core, instead of every pixel in neural core",
+    "numeric_parameter_changes": 0
+  },
+  "reference_outline_run": "runs/a1_blue_outline_20261102_v2",
+  "bisector_tip": {
+    "direction": {
+      "parallel_degrees": 2.0,
+      "maximum_axis_deviation_degrees": 30.0,
+      "local_centerline_axial_fraction": [
+        0.6,
+        0.85
+      ],
+      "minimum_centerline_points": 8,
+      "side_direction": "Unit tangent sum, oriented proximal-to-center; parallel/curved uses robust local centerline, never theoretical intersection"
+    },
+    "cluster": {
+      "depth_at400": 6.0,
+      "minimum_area_at400": 12,
+      "minimum_axial_span_at400": 3.0,
+      "distal_band_at400": 2.0,
+      "minimum_distal_pixels_at400": 4,
+      "maximum_spike_beyond_q90_at400": 2.0,
+      "frontier_band_at400": 1.5
+    },
+    "visibility": {
+      "normal_offsets_at400": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "inside_offsets_at400": [
+        -4.0,
+        -2.0
+      ],
+      "outside_offsets_at400": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "minimum_inside_blue_fraction": 0.67,
+      "maximum_outside_blue_fraction": 0.1,
+      "maximum_unknown_fraction": 0.1,
+      "minimum_RGB_contrast": 0.02,
+      "minimum_frame_margin_at400": 2.0
+    },
+    "cap": {
+      "join_retreat_at400": [
+        0.0,
+        2.0,
+        4.0,
+        6.0
+      ],
+      "r_candidates": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "curve_samples": 65,
+      "maximum_RMS_at400": 1.5,
+      "maximum_model_join_angle_degrees": 15.0,
+      "minimum_current_RGB_support": 0.8,
+      "maximum_boundary_distance_at400": 1.5,
+      "minimum_actual_arc_match": 0.8,
+      "minimum_side_span_fraction": 0.35,
+      "tip_retreat_at400": 0.0,
+      "selection": "Enumerate16 fixed per-frame joint/ellipse solves, rank feasible current-RGB fits by median residual,RMS,join retreat,r. Tip length fixed to supported cluster extent, no theoretical intersection/no tip retreat."
+    },
+    "mask": "Protect ALL union fiber and ALL blue B, stone immutable; currentRGB evidence-band additions inside fitted sides/cap only; root4CC; no delete/fill gap/extrapolate; unknown returns exact union",
+    "temporal": "Raw T1 prior unchanged. Diagnostics tip displacement between consecutive RGB-confirmed frames only, no historical filling."
+  }
+}

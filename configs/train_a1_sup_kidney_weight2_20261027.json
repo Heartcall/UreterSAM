@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_SUP_KIDNEY_fiber_weight2_seed42_screen15_20261027",
+  "stage": "S2_kidney_only_single_factor",
+  "replication_seeds": [42, 123, 2026],
+  "training": {
+    "manifest_path": "../datasets/ureter_semis_a1_sup_kidney_only_20261027/manifest.json",
+    "epochs": 15,
+    "size": 256,
+    "batch_size": 2,
+    "learning_rate": 0.0001,
+    "device_name": "cuda:0",
+    "workers": 0,
+    "pretrained": true,
+    "class_weights": [1.0, 2.0, 2.0],
+    "dice_weight": 1.0,
+    "seed": 42,
+    "allow_unreviewed_experiment": true,
+    "gates": {
+      "stone_dice_min": 0.476834438897627,
+      "fiber_dice_min": 0.9599309650208784,
+      "negative_fp_fraction_max": 0.07786051432291667
+    },
+    "sampling_strategy": "uniform",
+    "fiber_background_policy": "strict_source"
+  },
+  "baseline_checkpoint": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\runs\\endosemis\\best.pt",
+  "baseline_checkpoint_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+  "baseline_reference": "runs/a1_dev_videos_val_20261027/first_epoch_comparison.json",
+  "initialization": "Clean cached ImageNet encoder and random decoder; no mixed-source checkpoint; no warmstart from kidney baseline",
+  "validation_policy": "video_1 and video_2 only validation; no derivatives/pseudo-labels used in training",
+  "short_screen_policy": "15 epochs frozen before running; fixed split, seed, steps and scheduler; stop sustained foreground collapse; no automatic extension",
+  "scope": "kidney_stones_fiber_v1 only; video_1/video_2 validation only; source labels remain provisional",
+  "ablation_factor": "Only fiber class weight 4 to 2, applied by existing shared class_weights to both CE and foreground Dice",
+  "control_config": "train_a1_sup_kidney_only_20261027.json",
+  "control_run": "runs/a1_sup_kidney_only_20261027",
+  "diagnostic_basis": "runs/a1_sup_kidney_diagnosis_20261027/diagnosis.json",
+  "primary_comparison": "Same final epoch15 versus kidney-only weight4 control; frozen selected checkpoints reported separately; no threshold tuning",
+  "status": "ready_fixed_config"
+}

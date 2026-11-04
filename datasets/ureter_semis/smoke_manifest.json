@@ -1,0 +1,274 @@
+{
+  "root": "E:\\Study\\Wang Shuangyi\\Wu Yuanzhao\\UreterSAM\\datasets\\ureter_semis",
+  "classes": {
+    "0": "background",
+    "1": "stone",
+    "2": "fiber"
+  },
+  "train": {
+    "labeled": [
+      {
+        "image": "train/images/525_jpg.rf.32668c72dd8db87481d30bf9dbed1727.jpg",
+        "mask": "train/masks/525_jpg.rf.32668c72dd8db87481d30bf9dbed1727.png"
+      },
+      {
+        "image": "train/images/387_jpg.rf.5aaf04389ed86f1340986fcfeedd1f7f.jpg",
+        "mask": "train/masks/387_jpg.rf.5aaf04389ed86f1340986fcfeedd1f7f.png"
+      }
+    ],
+    "unlabeled": [
+      {
+        "image": "train/images/531_jpg.rf.1e4f9547f7fbab81b935beffc8b2b8b4.jpg",
+        "mask": "train/masks/531_jpg.rf.1e4f9547f7fbab81b935beffc8b2b8b4.png"
+      },
+      {
+        "image": "train/images/547_jpg.rf.0c12d0208fa6f17e5bf8f9c0a9d5f062.jpg",
+        "mask": "train/masks/547_jpg.rf.0c12d0208fa6f17e5bf8f9c0a9d5f062.png"
+      }
+    ]
+  },
+  "val": [
+    {
+      "image": "val/images/100_jpg.rf.662a2e5277f6e1ab7b4d0263adb7bd5c.jpg",
+      "mask": "val/masks/100_jpg.rf.662a2e5277f6e1ab7b4d0263adb7bd5c.png"
+    },
+    {
+      "image": "val/images/101_jpg.rf.ea2ff59b6ffed157cbe6b81c4411e918.jpg",
+      "mask": "val/masks/101_jpg.rf.ea2ff59b6ffed157cbe6b81c4411e918.png"
+    }
+  ],
+  "test": [
+    {
+      "image": "test/images/104_jpg.rf.8cbfa3e4c350ee4d5c98b13bbfe2e866.jpg",
+      "mask": "test/masks/104_jpg.rf.8cbfa3e4c350ee4d5c98b13bbfe2e866.png"
+    },
+    {
+      "image": "test/images/106_jpg.rf.a09950278a14fec3837d763adc8668de.jpg",
+      "mask": "test/masks/106_jpg.rf.a09950278a14fec3837d763adc8668de.png"
+    },
+    {
+      "image": "test/images/115_jpg.rf.385a523feb711d2aba75382f5a40095d.jpg",
+      "mask": "test/masks/115_jpg.rf.385a523feb711d2aba75382f5a40095d.png"
+    },
+    {
+      "image": "test/images/126_jpg.rf.805c2c29d6c679c664571a7a642d54e2.jpg",
+      "mask": "test/masks/126_jpg.rf.805c2c29d6c679c664571a7a642d54e2.png"
+    },
+    {
+      "image": "test/images/133_jpg.rf.ebe0869b3b50040ac11a0b3ea8887e50.jpg",
+      "mask": "test/masks/133_jpg.rf.ebe0869b3b50040ac11a0b3ea8887e50.png"
+    },
+    {
+      "image": "test/images/140_jpg.rf.4c8790c53529d0f0eebf667f94e0a0b5.jpg",
+      "mask": "test/masks/140_jpg.rf.4c8790c53529d0f0eebf667f94e0a0b5.png"
+    },
+    {
+      "image": "test/images/156_jpg.rf.48e284698e5f26d8e3618e630b0f9e94.jpg",
+      "mask": "test/masks/156_jpg.rf.48e284698e5f26d8e3618e630b0f9e94.png"
+    },
+    {
+      "image": "test/images/183_jpg.rf.3cf473632e4f2fd0a1e3e33d69e434b4.jpg",
+      "mask": "test/masks/183_jpg.rf.3cf473632e4f2fd0a1e3e33d69e434b4.png"
+    },
+    {
+      "image": "test/images/190_jpg.rf.ff092d8ad12eb2ed1c81847bfb760d4a.jpg",
+      "mask": "test/masks/190_jpg.rf.ff092d8ad12eb2ed1c81847bfb760d4a.png"
+    },
+    {
+      "image": "test/images/194_jpg.rf.b5d95a094a0b234d327dcf16097f0b67.jpg",
+      "mask": "test/masks/194_jpg.rf.b5d95a094a0b234d327dcf16097f0b67.png"
+    },
+    {
+      "image": "test/images/196_jpg.rf.db12ea57f9a362468ef12320b16722b3.jpg",
+      "mask": "test/masks/196_jpg.rf.db12ea57f9a362468ef12320b16722b3.png"
+    },
+    {
+      "image": "test/images/1_jpg.rf.d17e5f47328522313904dfcb0ea92153.jpg",
+      "mask": "test/masks/1_jpg.rf.d17e5f47328522313904dfcb0ea92153.png"
+    },
+    {
+      "image": "test/images/216_jpg.rf.e0a9466d36ac9fc7d6a1f70612e8467c.jpg",
+      "mask": "test/masks/216_jpg.rf.e0a9466d36ac9fc7d6a1f70612e8467c.png"
+    },
+    {
+      "image": "test/images/222_jpg.rf.87d250217272f5d9f5020dcd36a1f88d.jpg",
+      "mask": "test/masks/222_jpg.rf.87d250217272f5d9f5020dcd36a1f88d.png"
+    },
+    {
+      "image": "test/images/223_jpg.rf.82ddd6ded9e8c25cbf6c7fa0a6b45530.jpg",
+      "mask": "test/masks/223_jpg.rf.82ddd6ded9e8c25cbf6c7fa0a6b45530.png"
+    },
+    {
+      "image": "test/images/228_jpg.rf.995aa84232e5e5f044e387f6883bc693.jpg",
+      "mask": "test/masks/228_jpg.rf.995aa84232e5e5f044e387f6883bc693.png"
+    },
+    {
+      "image": "test/images/232_jpg.rf.62b45e6c21f87a0a7093443ce04337fa.jpg",
+      "mask": "test/masks/232_jpg.rf.62b45e6c21f87a0a7093443ce04337fa.png"
+    },
+    {
+      "image": "test/images/241_jpg.rf.3679ad2abfcf9c1c268e5d062f40a286.jpg",
+      "mask": "test/masks/241_jpg.rf.3679ad2abfcf9c1c268e5d062f40a286.png"
+    },
+    {
+      "image": "test/images/258_jpg.rf.496babf5cd6a94eba795c797d6d8041f.jpg",
+      "mask": "test/masks/258_jpg.rf.496babf5cd6a94eba795c797d6d8041f.png"
+    },
+    {
+      "image": "test/images/262_jpg.rf.bb4ec4f4b5d034e0acec8b4164dd5571.jpg",
+      "mask": "test/masks/262_jpg.rf.bb4ec4f4b5d034e0acec8b4164dd5571.png"
+    },
+    {
+      "image": "test/images/269_jpg.rf.98276c5a8596d3e96054c817d6f788bb.jpg",
+      "mask": "test/masks/269_jpg.rf.98276c5a8596d3e96054c817d6f788bb.png"
+    },
+    {
+      "image": "test/images/272_jpg.rf.f188d1150095369a96cf58c00350776f.jpg",
+      "mask": "test/masks/272_jpg.rf.f188d1150095369a96cf58c00350776f.png"
+    },
+    {
+      "image": "test/images/299_jpg.rf.191fc70d65b9d9cfa326811e7b05d021.jpg",
+      "mask": "test/masks/299_jpg.rf.191fc70d65b9d9cfa326811e7b05d021.png"
+    },
+    {
+      "image": "test/images/301_jpg.rf.9814ce7cdc3192630897d0ae81988e0f.jpg",
+      "mask": "test/masks/301_jpg.rf.9814ce7cdc3192630897d0ae81988e0f.png"
+    },
+    {
+      "image": "test/images/312_jpg.rf.07195155100ee8f1d0f1f0ea3e3fed87.jpg",
+      "mask": "test/masks/312_jpg.rf.07195155100ee8f1d0f1f0ea3e3fed87.png"
+    },
+    {
+      "image": "test/images/325_jpg.rf.210ba2131a1cd955c29313496eb9a12d.jpg",
+      "mask": "test/masks/325_jpg.rf.210ba2131a1cd955c29313496eb9a12d.png"
+    },
+    {
+      "image": "test/images/327_jpg.rf.c0304f76c9390c049bf7be30e6ff57c8.jpg",
+      "mask": "test/masks/327_jpg.rf.c0304f76c9390c049bf7be30e6ff57c8.png"
+    },
+    {
+      "image": "test/images/341_jpg.rf.7e76f0b73f8a2c7792259b65640e8074.jpg",
+      "mask": "test/masks/341_jpg.rf.7e76f0b73f8a2c7792259b65640e8074.png"
+    },
+    {
+      "image": "test/images/350_jpg.rf.47ccee367461962c3dab97e4ca5dcdef.jpg",
+      "mask": "test/masks/350_jpg.rf.47ccee367461962c3dab97e4ca5dcdef.png"
+    },
+    {
+      "image": "test/images/356_jpg.rf.fe9a60fd68840dcb490eb02d467f21c7.jpg",
+      "mask": "test/masks/356_jpg.rf.fe9a60fd68840dcb490eb02d467f21c7.png"
+    },
+    {
+      "image": "test/images/361_jpg.rf.c5a5c8d8452100a332c0166588c15bbc.jpg",
+      "mask": "test/masks/361_jpg.rf.c5a5c8d8452100a332c0166588c15bbc.png"
+    },
+    {
+      "image": "test/images/363_jpg.rf.57c5e061bb57788f9e2ba28a03593d92.jpg",
+      "mask": "test/masks/363_jpg.rf.57c5e061bb57788f9e2ba28a03593d92.png"
+    },
+    {
+      "image": "test/images/377_jpg.rf.74246688b8459382e77244ff17e7e6a0.jpg",
+      "mask": "test/masks/377_jpg.rf.74246688b8459382e77244ff17e7e6a0.png"
+    },
+    {
+      "image": "test/images/379_jpg.rf.6b7adba61fc2bfc8f0b966f00ec3b2c4.jpg",
+      "mask": "test/masks/379_jpg.rf.6b7adba61fc2bfc8f0b966f00ec3b2c4.png"
+    },
+    {
+      "image": "test/images/380_jpg.rf.4ebf725a4728dce5150aec3d11ce4ccc.jpg",
+      "mask": "test/masks/380_jpg.rf.4ebf725a4728dce5150aec3d11ce4ccc.png"
+    },
+    {
+      "image": "test/images/394_jpg.rf.45ed60d933267bebcecf62587cba35f4.jpg",
+      "mask": "test/masks/394_jpg.rf.45ed60d933267bebcecf62587cba35f4.png"
+    },
+    {
+      "image": "test/images/399_jpg.rf.90959cff1e8050eb0bc4474a26828bf0.jpg",
+      "mask": "test/masks/399_jpg.rf.90959cff1e8050eb0bc4474a26828bf0.png"
+    },
+    {
+      "image": "test/images/39_jpg.rf.ac4e1c65d6e6aff3eaf5330042874a47.jpg",
+      "mask": "test/masks/39_jpg.rf.ac4e1c65d6e6aff3eaf5330042874a47.png"
+    },
+    {
+      "image": "test/images/419_jpg.rf.db0fb88905c6c4dc86b2dd62988bbda0.jpg",
+      "mask": "test/masks/419_jpg.rf.db0fb88905c6c4dc86b2dd62988bbda0.png"
+    },
+    {
+      "image": "test/images/435_jpg.rf.3286e1b50a34d8f0ccdf6057c402533b.jpg",
+      "mask": "test/masks/435_jpg.rf.3286e1b50a34d8f0ccdf6057c402533b.png"
+    },
+    {
+      "image": "test/images/44_jpg.rf.ee3d11ba3bd672d3c71ba999cece307b.jpg",
+      "mask": "test/masks/44_jpg.rf.ee3d11ba3bd672d3c71ba999cece307b.png"
+    },
+    {
+      "image": "test/images/452_jpg.rf.09ef07101bf8f362bbe3b8cb2941a299.jpg",
+      "mask": "test/masks/452_jpg.rf.09ef07101bf8f362bbe3b8cb2941a299.png"
+    },
+    {
+      "image": "test/images/466_jpg.rf.a14bced6b115b0ee2b6635929aa61ec4.jpg",
+      "mask": "test/masks/466_jpg.rf.a14bced6b115b0ee2b6635929aa61ec4.png"
+    },
+    {
+      "image": "test/images/467_jpg.rf.4a0106969e824db34b43eef80b8975ea.jpg",
+      "mask": "test/masks/467_jpg.rf.4a0106969e824db34b43eef80b8975ea.png"
+    },
+    {
+      "image": "test/images/472_jpg.rf.69718da6feeaff97ddd9feffcd656e93.jpg",
+      "mask": "test/masks/472_jpg.rf.69718da6feeaff97ddd9feffcd656e93.png"
+    },
+    {
+      "image": "test/images/488_jpg.rf.c04f919b0b03f833545c12b12276eb19.jpg",
+      "mask": "test/masks/488_jpg.rf.c04f919b0b03f833545c12b12276eb19.png"
+    },
+    {
+      "image": "test/images/4_jpg.rf.c130550d1134161818bfe883e4d4c628.jpg",
+      "mask": "test/masks/4_jpg.rf.c130550d1134161818bfe883e4d4c628.png"
+    },
+    {
+      "image": "test/images/503_jpg.rf.26daabc7e396ee2ce2b565ccd95a6111.jpg",
+      "mask": "test/masks/503_jpg.rf.26daabc7e396ee2ce2b565ccd95a6111.png"
+    },
+    {
+      "image": "test/images/513_jpg.rf.52d56905fd297b9ebf58512cb78009d2.jpg",
+      "mask": "test/masks/513_jpg.rf.52d56905fd297b9ebf58512cb78009d2.png"
+    },
+    {
+      "image": "test/images/520_jpg.rf.2fef25a9e8b8e9b3ea4eb326e7f3f44b.jpg",
+      "mask": "test/masks/520_jpg.rf.2fef25a9e8b8e9b3ea4eb326e7f3f44b.png"
+    },
+    {
+      "image": "test/images/535_jpg.rf.81bfdfbee78bb54a0d9e02bd3ff89c64.jpg",
+      "mask": "test/masks/535_jpg.rf.81bfdfbee78bb54a0d9e02bd3ff89c64.png"
+    },
+    {
+      "image": "test/images/543_jpg.rf.ac734e9d9a9158a007cecfe3b856e680.jpg",
+      "mask": "test/masks/543_jpg.rf.ac734e9d9a9158a007cecfe3b856e680.png"
+    },
+    {
+      "image": "test/images/550_jpg.rf.bef0d93cf44000c5984e498ae73e698d.jpg",
+      "mask": "test/masks/550_jpg.rf.bef0d93cf44000c5984e498ae73e698d.png"
+    },
+    {
+      "image": "test/images/551_jpg.rf.b76a5c870fbbd0ff66516eaaa8bc51f7.jpg",
+      "mask": "test/masks/551_jpg.rf.b76a5c870fbbd0ff66516eaaa8bc51f7.png"
+    },
+    {
+      "image": "test/images/559_jpg.rf.236caf8be9d83d47086c98bf064341f9.jpg",
+      "mask": "test/masks/559_jpg.rf.236caf8be9d83d47086c98bf064341f9.png"
+    },
+    {
+      "image": "test/images/571_jpg.rf.354292fcf3dc2b523f5539316c29263b.jpg",
+      "mask": "test/masks/571_jpg.rf.354292fcf3dc2b523f5539316c29263b.png"
+    },
+    {
+      "image": "test/images/67_jpg.rf.7101b5ac05d37674383fedb4a2508316.jpg",
+      "mask": "test/masks/67_jpg.rf.7101b5ac05d37674383fedb4a2508316.png"
+    },
+    {
+      "image": "test/images/78_jpg.rf.ba5fc05f186ed177e16407274e95b305.jpg",
+      "mask": "test/masks/78_jpg.rf.ba5fc05f186ed177e16407274e95b305.png"
+    }
+  ]
+}

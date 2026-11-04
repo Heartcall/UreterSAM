@@ -1,0 +1,59 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Python generated files
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local experiment artifacts and re-downloadable source archives.
+# Durable conclusions belong in docs/progress and docs/results; runs/ is a
+# reproducible local workspace, not source control.
+/runs/
+/downloads/
+
+# Training checkpoints
+*.pt
+*.pth
+*.part
+
+# IDE
+/.idea/
+
+# Versioned local review data and experiment binary exports
+/datasets/ureter_semis_v2_review_*/
+/runs/baselines/**/*.npz
+/runs/baselines/**/*.png
+/runs/baselines/**/*.mp4
+/runs/baselines/**/*.zip
+/runs/baselines/**/*.jsonl
+/runs/review_sets/
+/runs/test_tmp/
+/runs/engineering/**/synthetic_data/
+/runs/annotation_sessions/
+/runs/review_snapshots/**/*.png
+/datasets/ureter_semis_a1_dev_*/masks/
+/runs/runtime_temp/
+/runs/a1_dev_*.log
+/runs/a1_dev_*/**/*.png
+/runs/a1_dev_*/**/*.mp4
+/runs/a1_dev_*/**/*.zip
+/datasets/ureter_semis_a1_sup_*/masks/
+/runs/a1_sup_*.log
+/runs/a1_sup_*/**/*.png
+/runs/a1_sup_*/**/*.mp4
+/runs/a1_sup_*/**/*.zip
+/runs/**/*.mp4
+
+# NumPy archive files
+*.npz
+# Large generated per-frame evidence
+/runs/a1_fiber_local_dark_evidence_20261031/full_video/local_current_evidence/video_*/frames.jsonl

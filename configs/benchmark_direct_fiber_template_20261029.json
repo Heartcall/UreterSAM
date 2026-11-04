@@ -1,0 +1,11 @@
+{
+  "schema_version":1,
+  "status":"FROZEN_BEFORE_VALIDATION",
+  "arms":["raw_classwise","image_template","soft_template","causal_template"],
+  "warmup_frames":12,
+  "repeats":3,
+  "cached_frames":29,
+  "input":"Sequential first29frames of video_1, cached before timing; no GT read. Each measured29frame pass resets causal state",
+  "required_networks":{"raw_classwise":3,"image_template":1,"soft_template":3,"causal_template":3},
+  "scope":"Fresh process per arm; full PIL preprocessing, exactly required old190/A0 models, native outputs and needed probability transfer, direct image observation/global search/fine localization and visible raster/fusion. No unrelated branch computed. Excludes video decoding/display/exports. Same device source as full replay; these are local timing samples, no live-stream claim"
+}

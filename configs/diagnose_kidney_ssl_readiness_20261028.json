@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_SSL_KIDNEY_readiness_only_20261028",
+  "manifest": "../datasets/ureter_semis_a1_sup_kidney_only_20261027/manifest.json",
+  "teachers": [
+    {"name": "anchor30", "checkpoint": "../runs/a1_sup_kidney_dual_20261028/single30_seed42/last.pt"},
+    {"name": "peer15_seed42", "checkpoint": "../runs/a1_sup_kidney_dual_20261028/single15_seed42/last.pt"},
+    {"name": "peer15_seed123", "checkpoint": "../runs/a1_sup_kidney_dual_20261028/single15_seed123/last.pt"}
+  ],
+  "size": 256,
+  "batch_size": 2,
+  "seed": 42,
+  "confidence_min": 0.95,
+  "normalized_entropy_max": 0.2,
+  "policies": ["anchor", "peers", "consensus", "consensus_strong"],
+  "primary_policy": "consensus_strong",
+  "strong_transform": "Per-image local seed42+index; brightness/contrast/color uniform0.7-1.3, color0.75-1.25; blur probability0.3 radius0.1-1.5; no geometric change",
+  "readiness_gates": {
+    "each_foreground_provisional_train_precision_min": 0.95,
+    "each_foreground_provisional_train_recall_min": 0.3,
+    "each_foreground_reserved_accepted_pixels_min": 2560,
+    "each_foreground_reserved_images_with16pixels_min": 20,
+    "each_foreground_retention_after_strong_min": 0.8,
+    "accepted_background_fraction_max": 0.98
+  },
+  "gate_interpretation": "Conservative development feasibility screen, frozen before reading reserve images; not calibrated correctness, clinical tolerance or independent evaluation; train-label agreement is biased resubstitution against provisional annotations",
+  "constraints": "Read-only on kidney190 source labels and800 reserved images. Never use reserve masks or video predictions as pseudo labels. No parameter updates, no active unlabeled pool promotion, no relabeling. All teachers pure kidney checkpoints; stone_new prohibited. Original source/case provenance remains pending"
+}

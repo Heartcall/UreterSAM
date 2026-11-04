@@ -1,0 +1,9 @@
+# 原生媒体时间基准与字幕修复
+
+2026-11-03，仅导出工程修复，不改任何分割/拟合参数、掩膜或计时。原运行器与第一次复核导出保留。新版本清理确认点与同坐标提案的重复文字；最初字幕修复异常的局部文件和源码保留在render_failures。
+
+独立FFmpeg容器检查确认：video_1为722帧/30fps；video_2为1972帧、平均30.082069744fps，可变sample时长且最前两帧PTS同为0，源stts第一样本时长0。此前OpenCV对video_2采用冻结的frame_index/source_fps算法时间，不改它，保证实验可复现。导出另用源容器真实PTS，坐标区分source timestamp与inference timestamp。
+
+六宫格各面板仍同一解码源帧/原生400×400、同一源PTS。最终source_timed视频不强行CFR、不丢重复PTS帧，直接给非重排序H264导出样本复制源stts时间（末尾moov布局断言、样本数核验、原始mdat字节不变，修改mdhd/movie/track duration，删除无用edit/composition offset）；完整保留源重复时间。单帧1209和59帧片段以区间首PTS为0，逐帧间隔不变。平均帧率因源VFR而在不同区间可能不同，不能以整数30覆盖原生时序。
+
+以FFmpeg独立packet framehash逐个核验最终PTS与源一致，编码样本payload哈希逐个不变，解码总帧数/尺寸核验，PNG原图区域逐字节一致。原型推理时序与媒体时序差异明确报告，不称算法已使用真实源时钟。固定依赖只下载解压到runs/dependencies，不修改Python环境、模型或训练数据。

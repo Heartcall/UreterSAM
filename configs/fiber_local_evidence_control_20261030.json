@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "experiment": "T2P_LOCAL_CURRENT_EVIDENCE_PIXEL_CONTROL",
+  "status": "READY_FOR_IMPLEMENTATION_NOT_EXECUTED",
+  "planned_output": "runs/a1_fiber_local_evidence_control_20261030",
+  "design_document": "docs/plans/fiber_local_evidence_control_20261030.md",
+  "diagnostic_reference": "runs/a1_fiber_t1_failure_diagnosis_20261030",
+  "base": {
+    "scheme": "member1_2net",
+    "fiber_member": "model1",
+    "networks": 2,
+    "parameters": 49202790,
+    "reference_run": "runs/a1_two_network_experts_20261029",
+    "frozen_protocol": "configs/compare_two_network_experts_20261029_v2.json",
+    "policy": "Unadopted research base. Exact existing PIL256/ImageNet/FP32/native bilinear softmax transfer/fiber-priority inference, no new weights or member search. Keep frozen classwise3 quality reference."
+  },
+  "arms": ["raw2", "spatial5", "rgb_edge5"],
+  "eligible_pixels": {
+    "boundary_radius_at400": 2,
+    "radius_native": "R=max(1,floor(2*min(H,W)/400+0.5))",
+    "boundary_band": "cv2.dilate(raw_fiber,uint8 ones square(2R+1),BORDER_CONSTANT0) XOR cv2.erode(raw_fiber,same kernel,BORDER_CONSTANT0); current raw fiber=raw_mask==2",
+    "fiber_probability_min_inclusive": 0.1,
+    "fiber_probability_max_exclusive": 0.9,
+    "protection": "Only raw mask0 or2 in band AND0.1<=P2<0.9. Raw stone class1, high-P2 fiber and strong low-P2 background unchanged. No seeds or no eligible pixels => raw output. No temporal/GT/template/FOV requirements.",
+    "maximum_eligible_image_fraction": 0.05,
+    "over_budget": "Entire-frame raw fallback before sampling for BOTH nonraw arms. Never select top-k pixels or tune budget from GT."
+  },
+  "filter": {
+    "neighbor_offsets": [[0,0],[-1,0],[1,0],[0,-1],[0,1]],
+    "neighbor_step_native": "d=max(1,floor(min(H,W)/400+0.5)); native integer neighbor coordinates, no extra resampling or resized RGB for weights",
+    "spatial5_weight": "1 for each in-bounds neighbor,0 outside; normalize including center",
+    "rgb_edge5_weight": "exp(-mean_channels((I_neighbor/255-I_center/255)^2)/(2*sigma^2)) for each in-bounds neighbor,0 outside; center weight1; normalize",
+    "rgb_sigma": 0.1,
+    "blend_alpha": 0.25,
+    "vector_update": "M=normalized weighted mean of ALL3 native fiber-expert probabilities; Fnew=(1-alpha)*Fcenter+alpha*M only at eligible pixels. Freeze outside E. No positive-only score bias, no class-wise hue/blue identity veto, no learned color histogram or local prototype fitting.",
+    "class_mapping": "Keep raw stone pixels1. At eligible raw0/2 pixels: if argmax(Fnew)==2 =>2; otherwise restore1 if unchanged stone-expert argmax==1 else0. Class ties use numpy argmax first index, identical order0/1/2. Raw fiber protection atP2>=0.9 applies even if class competition differs elsewhere.",
+    "maximum_changed_image_fraction": 0.01,
+    "changed_area_fallback": "If total changed class pixels>floor(0.01*H*W), return entire raw mask and record rejected proposal counts, without reporting rejected mask as adopted. Independent frame, no temporal persistence.",
+    "policy": "Exactly5 current-image samples per eligible pixel, no full-native 5xRGB/3class shifted tensor stack when E sparse. Neural output remains75percent of mixed vector. Appearance only controls neighbor influence. White/low-saturation allowed, no inferred hidden pixels."
+  },
+  "geometry_and_history": "Not used for pixel selection, identity or filling in this finite experiment. T1 pose can be missing/wrong even with high qN; its frozen results remain independent diagnostics. Width-ratio reversal analysis is NOT an approved observer fix. No optical flow/new state or T1 threshold changes.",
+  "data": {
+    "video_manifest": "runs/review_snapshots/video_development_supplement_20261029_v2/manifest.json",
+    "image_manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+    "static_video_frames": 70,
+    "static_image_frames": 132,
+    "original29_preserved": true,
+    "whole_video_sample_completed": 42,
+    "whole_video_sample_planned": 120,
+    "dedicated_tip_truth": false
+  },
+  "execution": {
+    "videos": ["video_1","video_2"],
+    "frames": [722,1972],
+    "expected_processes": 6,
+    "expected_full_forward_frames": 8082,
+    "all_arms_complete_even_static_or_latency_failure": true,
+    "fresh_process_per_arm_per_video": true,
+    "static": "202fresh native original network calls shared by3postprocessors, each actually applied to all202 images; preserve mask/probability identity and report only202static forwards. Static labels never supply E/weights/parameters.",
+    "warmup_frames": 12,
+    "batch_size": 1,
+    "precision": "float32",
+    "source_time": "Validate monotonic decodedPTS else one declared frame_index/FPS basis for whole video. No temporal algorithm in T2P.",
+    "timings": "Actual2net+both native3class maps/mask CPU transfer, band/eligibility,5point sampling+mixing, mapping/fallback and direct full pipeline p50/p95/max. Full decode/render/audit/export throughput, CPU/GPU overhead and model/source identities. Same-run raw2; no percentile subtraction."
+  },
+  "evaluation": {
+    "unchanged_frozen_gates_from": "configs/compare_two_network_experts_20261029_v2.json",
+    "quality": "Compare same-run raw2 AND separately frozen classwise3 on stone/fiber Dice,Precision,Recall,boundaryF across70and132 at epsilon1e-12; original29 gates unchanged. Report all29/new41,43/27 cases,68/64 sources,25/107 exposure, per-frame70and132, visible semantic centerline metrics and TP/FP/FN changes.",
+    "no_recall_tradeoff": "Any aggregate fiber/stone Recall or boundaryF regression versus raw2 fails; better Precision alone never passes. Existing classwise nonregression needed before recommendation, member1 base not auto-adopted.",
+    "lost_tp": "For EACH class and EACH70/132 scope require gross deleted baseline TP<=floor(0.001*baseline_TP), netTP>=baseline, and each frame deletedTP<=max(1,floor(0.005*frame_GT_class_pixels)). These are additional prospective safety limits, not replacements of frozen gates. Save all offending frames; no threshold adjustment.",
+    "positive_effect": "A nonraw arm must reduce totalFP or totalFN for at least one class in70and132 and pass every unchanged nonregression/TP gate. RGB-specific value assessed directly against spatial5 at fixed E/alpha/budgets; if RGB is no better or worse report it, no preference assumed.",
+    "runtime": "Additional postprocess p95<=5ms design target AND measured total pipeline p95<=1000/sourceFPS for EACH full video; still finish all6processes if a target fails. No adoption from speed alone.",
+    "fallbacks": "Report eligible area, actual changed frames/pixels, pre/post budget rejection, no-seed/no-eligible counts and all proposed/committed TP/FP/FN on labelled frames. Source/labels remain unchanged; no successful-frame subset selection.",
+    "tip": "No independent tip GT: no tipRecall/physical endpoint error or restored occlusion claim. Semantic masks and current predicted front are not tip truth.70development refs/42of120 incomplete random sample do not yield whole-video accuracy.",
+    "visualizations": "Both complete videos with input/raw2/spatial5/rgb_edge5, plus uncertainty/color-edge/change maps and fixed T1 failure frames; retain rejected frames and off-target/bright-spot cases. Preserve all previous videos/results."
+  },
+  "limitations": "Cannot edit P2<0.1 FN or P2>=0.9 FP, raw stone protection conflicts, entirely no-seed images, wrong high-confidence identity or learned missing tip appearance. Even perfect edits inside E are oracle bounds, not achieved accuracy. Current RGB difference can preserve a wrong high-contrast spot. Not expected to solve all fiber errors or prove unique-instance geometry.",
+  "planned_files": ["tools/fiber_local_evidence.py","tools/run_fiber_local_evidence_control.py","tests/test_fiber_local_evidence.py"],
+  "stop": "Finite3arms only. This file is protocol, not executed pixel correction. No sigma/alpha/radius/budget/threshold sweep, blue hard gate, template clipping, geometric fill, strong-probability override, extra neural model, training/default replacement or stoneS3. If no meaningful protected opportunity or quality fails, retain negative result and stop; diagnosis can motivate separately approved observation/identity or training plan.",
+  "constraints": "Original weights/default/labels/521-132-144-29 split/active70 immutable. No521train or144reserved-test pixels; all video derivatives validation only; stone_new fully excluded. All source/config/model/input/output identities archived. Unknown255 ignored in metrics. Training requires independent approved data/initialization/augmentation/budget/validation/rollback plan."
+}

@@ -1,0 +1,50 @@
+{
+    "root":  "D:\\ProjectProgram\\UreterSAM\\data\\kidney_stone_fiber",
+    "classes":  {
+                    "0":  "background",
+                    "1":  "stone",
+                    "2":  "fiber"
+                },
+    "train":  {
+                  "labeled":  [
+                                  {
+                                      "image":  "train/images/32_jpg.rf.6478e53ac36e1c7be8bdd22513e82f9a.jpg",
+                                      "mask":  "train/masks/32_jpg.rf.6478e53ac36e1c7be8bdd22513e82f9a.png"
+                                  },
+                                  {
+                                      "image":  "train/images/116_jpg.rf.56aaf88c955a4da9eb3b6a27145d736c.jpg",
+                                      "mask":  "train/masks/116_jpg.rf.56aaf88c955a4da9eb3b6a27145d736c.png"
+                                  }
+                              ],
+                  "unlabeled":  [
+                                    {
+                                        "image":  "train/images/135_jpg.rf.73e8274b5b43341c90a0ae23121eaf14.jpg",
+                                        "mask":  "train/masks/135_jpg.rf.73e8274b5b43341c90a0ae23121eaf14.png"
+                                    },
+                                    {
+                                        "image":  "train/images/27_jpg.rf.d1d704fe1280393af6dd3715932cfcd1.jpg",
+                                        "mask":  "train/masks/27_jpg.rf.d1d704fe1280393af6dd3715932cfcd1.png"
+                                    }
+                                ]
+              },
+    "val":  [
+                {
+                    "image":  "val/images/112_jpg.rf.b2bee3d0c83112cc9088b388f2df35c9.jpg",
+                    "mask":  "val/masks/112_jpg.rf.b2bee3d0c83112cc9088b388f2df35c9.png"
+                },
+                {
+                    "image":  "val/images/149_jpg.rf.a75ed7261866e80805be2f08f9015f5a.jpg",
+                    "mask":  "val/masks/149_jpg.rf.a75ed7261866e80805be2f08f9015f5a.png"
+                }
+            ],
+    "test":  [
+                 {
+                     "image":  "test/images/103_jpg.rf.5f7ca94120d2196e7526bca4f7c1f596.jpg",
+                     "mask":  "test/masks/103_jpg.rf.5f7ca94120d2196e7526bca4f7c1f596.png"
+                 },
+                 {
+                     "image":  "test/images/157_jpg.rf.5d76bc8b81e0b566c2dfd2854320dc93.jpg",
+                     "mask":  "test/masks/157_jpg.rf.5d76bc8b81e0b566c2dfd2854320dc93.png"
+                 }
+             ]
+}

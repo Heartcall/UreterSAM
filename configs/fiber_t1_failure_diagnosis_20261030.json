@@ -1,0 +1,18 @@
+{
+  "experiment": "READ_ONLY_T1_FAILURE_ATTRIBUTION_AND_PIXEL_PROTOCOL_PREPARATION",
+  "output": "runs/a1_fiber_t1_failure_diagnosis_20261030",
+  "reference_run": "runs/a1_fiber_temporal_observation_search_20261030",
+  "static_scopes": {"video_native": 70, "image_native": 132},
+  "extra_original_model_snapshot_display_frames": {"video_2": [311, 439, 622, 643, 1266]},
+  "full_video_metadata_frames_per_arm": 2694,
+  "diagnostics": [
+    "Exclusive first-failure stages among reference-positive frames, plus all candidates without success-only selection",
+    "Reference-positive native neural TP/FP/FN and probability ranges; semantic GT is not independent anatomical-tip truth",
+    "Original proposal replay, seed-support and bilateral edge sampling trace; compare immutable projected reference cross-sections only for forensic attribution",
+    "Width-ratio reversal arithmetic, axial alignment and FOV heuristic diagnostics; do not flip production observations or call either endpoint the true anatomical tip",
+    "Visible-front candidate contact with semantic reference, not tip localization error",
+    "Provided auxiliary laser-dot masks of image-dev rows only, annotation quality unreviewed; no auto-truth promotion",
+    "Full video cached state/event summaries; snapshot-only fresh original inference on exactly5 predefined frames, no latency or candidate experiment"
+  ],
+  "constraints": "Frozen T1 sources/config/output/model/default/labels/splits. No training, threshold/gain/TTL tuning, pixel correction, new state control or full replay. No521train/144reserved-test pixels. A physical source/train folder name does not change a row's frozen image-dev role; allowlist actual132val and70reviewed rows only. Videos/derivatives validation only, stone_new excluded. Five original-model snapshots are diagnostic forward calls only, no new model or accuracy claim. All current and reference-conditioned measurements are kept distinct."
+}

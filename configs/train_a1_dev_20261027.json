@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_DEV_seed42_20261027",
+  "status": "user_authorized_development_training_with_review_deferred",
+  "replication_seeds": [42, 123, 2026],
+  "training": {
+    "manifest_path": "../datasets/ureter_semis_a1_dev_20261027/manifest.json",
+    "epochs": 60,
+    "size": 256,
+    "batch_size": 2,
+    "learning_rate": 0.0001,
+    "device_name": "cuda:0",
+    "workers": 0,
+    "pretrained": true,
+    "class_weights": [1.0, 2.0, 4.0],
+    "confidence_threshold": 0.85,
+    "uncertainty_quantile": 0.8,
+    "dice_weight": 1.0,
+    "seed": 42,
+    "allow_unreviewed_experiment": true
+  }
+}

@@ -1,0 +1,11 @@
+albumentations>=2.0,<3
+opencv-python>=4.10,<5
+Pillow>=10,<13
+PyYAML>=6,<7
+segmentation-models-pytorch==0.4.0
+tqdm>=4.66,<5
+simsimd==6.2.1
+torchmetrics>=1.9,<2
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+transformers>=4.45,<5

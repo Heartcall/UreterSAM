@@ -1,0 +1,19 @@
+{
+  "schema_version":1,
+  "experiment":"S2_CLASSWISE_EXISTING_EXPERT_CONTROL_20261028",
+  "status":"PREPARED_NOT_EXECUTED",
+  "stone_expert":"runs/a1_sup_kidney_resolution_20261028/unet256/last.pt",
+  "fiber_expert":"runs/endosemis/best.pt",
+  "rule":"Map each expert softmax probabilities back to native grid before argmax. Output fiber wherever A0 predicts fiber; elsewhere output stone wherever old190 predicts stone; remaining pixels background. No threshold search, GT prompts, morphology or temporal smoothing",
+  "conflict":"Visible fiber wins over stone, consistent with existing semantic-mask policy; do not infer amodal hidden stone",
+  "model_count_total":3,
+  "parameter_count_total":73804185,
+  "training_updates":0,
+  "initialization_policy":"Inference-only frozen historical experts; A0 and old mixed-source checkpoints never initialize new training",
+  "video_validation":"Frozen29 native400 frames, same original GT/probability-first protocol and fresh A0 gates; compare A0,old190,joint521 and fixed fusion without selecting best video threshold",
+  "image_development":"Keep132 unchanged; separately report25 groups with historical old190 exposure and107 without matched old190 exposure. A0 training provenance unknown, so neither subset establishes independent-case generalization",
+  "cost":"Fresh process12warmup87timings, batch1; include all3models, preprocessing, native output transfer and fusion; compare constituent references in same run. No speed inference from parameter count or prior timings",
+  "secondary_diagnostics":"Paired class transitions, native boundaries,3-frame small-area group, original negative9frames, predicted class conflicts and video failure examples; no tracking/occlusion/geometry acceptance",
+  "stop_and_decision":"No auto adoption or S3. Assess all class gates and total latency, then decide whether a lightweight fiber-specific refiner is needed. Failed result does not trigger threshold search or new training automatically",
+  "constraints":"stone_new banned from training; video1/2 and derivatives validation only;144reserved-test groups metadata only; no original label/split edits; source labels pending"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "experiment": "DARK_DISTAL_FIBER_FIXED_INPUT_RESPONSE_CONTROL",
+  "status": "READY_FOR_IMPLEMENTATION_NOT_EXECUTED",
+  "planned_output": "runs/a1_fiber_dark_input_control_20261030",
+  "design_document": "docs/plans/fiber_dark_input_control_20261030.md",
+  "reference_diagnosis": "runs/a1_fiber_dark_appearance_diagnosis_20261030",
+  "base": {
+    "scheme": "member1_2net",
+    "fiber_member": "model1",
+    "networks": 2,
+    "parameters": 49202790,
+    "reference_run": "runs/a1_two_network_experts_20261029",
+    "inference_policy": "Frozen old190 stone + A0model1 fiber, FP32/batch1/native softmax bilinear align_cornersFalse; unchanged fiber-priority mapping. Unadopted research base; retain frozen classwise3 quality reference. No new training initialization from mixed A0."
+  },
+  "arms": ["raw2","fiber_vlift","fiber_channel_gamma"],
+  "input": {
+    "common": "NativeBGR->RGB->PIL.Image bilinear resize256x256 exactly once; uint8 grid->float32 RGB in[0,1]. Stone always receives original grid after original ImageNet normalization.",
+    "raw2": "Exact original preprocessing via existing pil_input/_tensor; both networks consume same original tensor, no duplicated transfer to inflate baseline.",
+    "transform_order": "Fiber transform AFTER shared PIL resize, BEFORE ImageNet normalization, no return to uint8 or second resize. Transform encoded display RGB, NOT radiometrically calibrated exposure.",
+    "gamma": 0.7,
+    "fiber_vlift": "v=max(R,G,B). Forv>0, Cnew=(C/v)*v^gamma for ALL channels using same scalar; v=0=>RGB0. float32, clip only roundoff to[0,1]. No hue/saturation veto. Preserves normalized RGB chromaticity before float error.",
+    "fiber_channel_gamma": "Cnew=C^gamma independently for ALL channels, float32, clip only roundoff. Same max-channel value v^gamma as fiber_vlift, different channel ratios.",
+    "interpretation": "Two transformed arms match HSV V mathematically, not Lab lightness/luminance/local contrast. Cannot interpret arm differences as pure hue or pure illumination causality. Gamma0.7 is one engineering hypothesis, not fitted on validation frames; no sweep/adaptation/CLAHE/Retinex or per-video normalization.",
+    "deployment_graph": "Exactly1original stone forward +1selected transformed fiber forward perframe. Two weight instances. No original-fiber extra pass, TTA ensemble, maxprob fusion, historical probability lookup, cache-based pixel protection or GT-driven ROI.",
+    "mapping": "Each branch softmax on its own256grid; both3class maps FP32 bilinear to native; stone argmax1 then fiber argmax2 priority exactly as base. No changed segmentation threshold, morphology/template/geometry/temporal correction."
+  },
+  "output_role": "Diagnostic input-response masks, not adopted corrected masks. Stone PROBABILITIES unchanged, but new fiber can cover formerly stone pixels; no claim that raw stone masks or high-confidence original fiber pixels are protected. Audit both classes, gross lostTP and all failures. Original RGB/GT coordinates unchanged in evaluation and displays.",
+  "evidence": {
+    "probability": "On reference GT fiber/FN/FP compare nativeP2 distributions, baselineP2<0.1 pixels recovered/missed and introducedFP. No requirementP2>=0.1 for new inference, so dark low-P regions are actually tested.",
+    "brightness": "Bin ORIGINAL native RGB by encoded LabL and HSVV using[0,85,170,256]. Never re-bin from transformed input or model output. Save GT/TP/FP/FN/Recall/meanP2 for all pixels and reference interior beyond3*min(H,W)/400px, per-frame/case/source/exposure.",
+    "color": "At256input record original/transformed max-channel, LabL, RGB ratios and saturation distributions; common-scale arm chroma preservation and V matching to channel-gamma verified numerically. No fitted color identity model or using model-predicted shaft as true tip.",
+    "fixed_regressions": "Report video1 display78, video2 display1209 and existing T1 fixed311/439/622/643/1266 plus all70/132. No anatomical tip coordinate or true missing length inferred from PCA reference extent.",
+    "geometry": "Keep prior T1 observations/logs separate. This round does not run/refit T1 on transformed probabilities, extend its front search or claim same current geometry across arms. Parameter/shaft-front appearance fusion needs a later independent protocol."
+  },
+  "data": {
+    "video_manifest": "runs/review_snapshots/video_development_supplement_20261029_v2/manifest.json",
+    "image_manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+    "static_video_frames": 70,
+    "static_image_frames": 132,
+    "original29_preserved": true,
+    "tip_reference_policy": "12existing tip pilot decisions currently pending. Prepare14-row planning worklist: keep12, addvideo1display78 complete-end comparator andvideo2display1209 dark failure. Worklist is NOT annotations or truth; do not edit original D1 session/manifest or active70.",
+    "tip_reference_schema": "Existing D1 visible tip/shaft/confirmed nonfiber/unknown inside independently reviewed evaluation ROI plus visible distal point when confirmed; entry optional, occluded/unresolvable unknown. No fixed last15percent/PCA end/prediction-filled tip labels.",
+    "annotation_dependency": "Existing70/132 whole-frame and brightness evaluation can proceed while tip refs pending; tip-specific Recall/Precision/boundary/error staynull. No repeated full training-data audit prerequisite.",
+    "random_sample": "42of120 incomplete, no whole-video accuracy estimates or independent final generalization claims"
+  },
+  "execution": {
+    "videos": ["video_1","video_2"],
+    "frames": [722,1972],
+    "expected_processes": 6,
+    "expected_full_forward_frames": 8082,
+    "expected_static_paired_frame_inferences": 606,
+    "static": "Each of3arms actually runs both2branches on all202native inputs. Inputs differ, do not share original fiber probabilities or pretend one202-forward reproduction covers transformed arms. Raw2 must reproduce frozen native masks/maps; transformed stone maps must match original byte-for-byte.",
+    "all_arms_full_even_static_or_runtime_failure": true,
+    "fresh_process_per_arm_per_video": true,
+    "warmup_frames_per_process": 12,
+    "batch_size": 1,
+    "precision": "float32",
+    "time": "Audit decoded sourcePTS else one declared frame_index/FPS basis. No temporal model, per-video state or adaptive brightness statistics.",
+    "timings": "PIL grid/RGB decode, fixed transform, normalization and required tensor transfer, stone/fiber GPU forwards, native both3class maps+mask CPU transfer, total pipeline p50/p95/max. Full decode/render/audit/export fps, CPU/GPU peaks and instances/forward counts. Direct same-run comparisons, no percentile subtraction.",
+    "runtime_gate": "Transform alone p95<=5ms design target AND measured total pipeline p95<=1000/sourceFPS for EACH full video. All6processes complete even failure. Raw2 original shared tensor; nonraw needed second tensor transfer measured honestly."
+  },
+  "quality": {
+    "unchanged_gate_reference": "configs/compare_two_network_experts_20261029_v2.json",
+    "overall": "Stone/fiber Dice,Precision,Recall,boundaryF nonregression vs SAME-RUN raw2 and separately frozen classwise3 on70and132, epsilon1e-12; original29 gates unchanged. Better dark Recall alone cannot compensate wall/brightspotFP or stone loss.",
+    "dark_protection": "For ORIGINAL LabL low[0,85) and mid[85,170) reference groups withGTpixels>0, fiberTP must not decrease versus raw2 on70,132 and EACH video case. Empty groups unavailable, not passed. Report HSVV bins separately without treating V as perceived lightness.",
+    "TP_loss_limits": "Each class per70/132: gross removed baselineTP<=floor(0.001*baselineTP), netTP>=baseline. Each frame removedTP<=max(1,floor(0.005*frameGTclassPixels)). Additional prospective limits, do not replace frozen gates. Save every violating frame, no hidden high-confidence protection requiring extra pass.",
+    "dark_target_evidence": "To call a method a passing dark-fiber development candidate: strict reduction of ORIGINAL lowLabL fiberFN on70and132 AND on fixedvideo2display1209, plus all overall/dark/TP/runtime gates. Improvement is low-light semantic fiber evidence, NOT anatomical-tip accuracy or proof of lighting causality.",
+    "metrics": "Per-frame70/132, original29/new41,43/27 cases,68/64 sources,25/107 exposure, TP/FP/FN deltas/grossTPdeleted/highconfidence-baseline changes,3px boundaryF, visible semantic centerline coverage and changed frames. Recovered baselinePbelow0.1 and createdFP reported jointly. All outcomes retained.",
+    "tip": "Only independently confirmed D1 tip reference can enable tipROI metrics. Otherwise no tipRecall, physical tip/angle/length/laser-point accuracy, hidden-occlusion recovery or predicted-tip consistency as accuracy.",
+    "artifacts": "Complete source/input/raw2/vlift/channel-gamma comparison videos, originalRGB+GT+all probability/difference/FP/FN/brightness maps, fixed regression board and all failure frames. Transformed256previews explicitly labeled fiber-model input, not altered surgical source. Preserve previous runs/default."
+  },
+  "planned_files": ["tools/fiber_photometric_input.py","tools/run_fiber_dark_input_control.py","tests/test_fiber_photometric_input.py"],
+  "stop": "Finite3arms onegamma only. No thresholds/gamma search, frame-wise best-arm selection, extra network/TTA/ROI/history/fusion/geometry, global or local learned color model, training/default adoption or stoneS3. If transforms lift low-P evidence but failFP/stone/TP gates, reject global transform; it can only motivate a separately frozen local shaft/front evidence study. If no gain, reject these fixed transforms, not all brightness hypotheses. Any training needs separate approved plan.",
+  "constraints": "Original weights/labels/default/521-132-144-29 and active70 unchanged; oldmixedA0 inference only, never new training init. No521train/144test pixels; source train folder may contain frozen132val rows, allowlist manifest role. All video derivatives validation only; stone_new excluded. No validation data used to estimate shared gamma/template/appearance. Unknown255 ignored, source/config/model/input/output hashes and source archive required. Godot not real calibration."
+}

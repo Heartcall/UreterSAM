@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "experiment": "LOCAL_DARK_FRONT_CURRENT_IMAGE_EVIDENCE_FEASIBILITY",
+  "status": "PROTOCOL_ONLY_NOT_IMPLEMENTED_NOT_EXECUTED",
+  "design_document": "docs/plans/fiber_local_dark_evidence_20261031.md",
+  "planned_output": "runs/a1_fiber_local_dark_evidence_20261031",
+  "base": {
+    "scheme": "member1_2net",
+    "reference_run": "runs/a1_fiber_dark_input_control_20261030",
+    "historical_reference": "runs/a1_two_network_experts_20261029",
+    "networks": 2,
+    "parameters": 49202790,
+    "fiber_member": "model1",
+    "input": "Original PIL RGB256/ImageNet, FP32, one stone and one fiber forward; both native three-class maps and mask to CPU. No photometric transforms, extra forward/crop, thresholds or mapping changes. Unadopted research base, default A0 unchanged."
+  },
+  "arms": ["raw2", "geometry_window", "local_current_evidence"],
+  "arm_definition": {
+    "raw2": "Only frozen raw2 semantic inference; no local observer.",
+    "geometry_window": "Same bounded seed axes, anchors and two-end search sampling as local_current_evidence; exports current unfiltered in-bounds interior probes and search corridors as GEOMETRIC OPPORTUNITY ONLY, never visible fiber. No RGB evidence classification.",
+    "local_current_evidence": "Same axes/anchors/windows and interior probe coordinates, plus current RGB bilateral edges, local shaft/background chromaticity contrast, original neural support and internal-transition diagnostics. Exports supported/unknown/conflict candidates; no changes to any visible semantic pixel."
+  },
+  "proposal": {
+    "frozen_seed_config": "configs/fiber_temporal_observation_search_20261030.json",
+    "reuse": "Reuse FastFiberObserver.proposals ONLY: 160 grid, P2>=0.2, component>=4, maximum2 axes, mass ranking and native-coordinate PCA. Do NOT call T1.measure/current/state or inherit its5pair/width-ratio/directed-front acceptance. Return all original proposal rejection/ambiguity metadata separately.",
+    "maximum_axes": 2,
+    "ends_per_axis": 2,
+    "orientation": "Search BOTH seed ends independently. FOV distance/orientation is logged as a hint, never decides which end is a true distal tip. No reciprocal width fix, automatic entry flip, or forced winner because at most one physical fiber is present.",
+    "scale": "s=min(H,W)/400; all grid-to-native transforms exactly as frozen proposal code. W=proposal.width,L=ends[1]-ends[0]. No GT axis/length/ROI.",
+    "anchor_axial_fractions": [0.2,0.3,0.4,0.5,0.6,0.7,0.8],
+    "anchor_interior_normal_width_fractions": [-0.25,0,0.25],
+    "anchor_background_normal_width_fractions": [-0.75,0.75],
+    "anchor_min_highconfidence_points": 12,
+    "anchor_neural_min": 0.9,
+    "anchor_policy": "21 interior probes per axis. Need>=12 in-bounds points with original native fiberP2>=0.9 AND fiber argmax2 AND raw mask2. Other points are not promoted by geometry. Shaft median current-frame chromaticity uses qualified points only; outside median uses valid side probes, min6. These are ephemeral same-frame contrasts, not trained/shared histogram/template calibration. Missing/ambiguous anchor => original output, explicit reason. Strong neural seed can still be a bright-spot identity error; negative controls are mandatory."
+  },
+  "search": {
+    "extension": "E=min(0.20*hypot(H,W),max(2*W,0.5*L)) beyond EACH neural seed end, measured on original image. Engineering bound, not fitted to frame1209; failure to reach reference remains failure.",
+    "nominal_axial_step_at400": 2,
+    "maximum_stations_per_end": 48,
+    "stations": "N=min(48,ceil(E/(2*s))+1); linspace(0,E,N), including seed-end station. At most4 end profiles. Log actual step, search-limit censoring, in-bounds/FOV validity and overlapping axes/ends.",
+    "transverse_samples": 17,
+    "transverse_halfwidth": "0.75*W+4*s; linspace over symmetric normal range. Geometry only bounds where RGB is inspected, not a taper template to fill/intersect.",
+    "edge_difference_offset_at400": 2,
+    "rgb_edge_contrast_min": 0.04,
+    "side_edges": "At each normal sample compare original RGB at +/-2*s along normal: norm(deltaRGB)/(255*sqrt(3)). Max eligible negative-normal sample and positive-normal sample independently, deterministic tie nearest expected +/-W/2 then smaller coordinate. Both samples and both +/- probes must be in bounds and original estimated FOV; invalid is unavailable, never a zero-valued edge. Require left<right and BOTH contrasts>=0.04. Width/residual/taper recorded as soft diagnostics, no whole-template acceptance or mask cropping.",
+    "interior_normal_fractions_between_edges": [0.25,0.5,0.75],
+    "interior_coordinates": "PRIMARY paired population in BOTH nonraw arms is fixed[-0.25,0,0.25]*W relative to the seed axis at each station. geometry_window needs no RGB edge selection. local_current_evidence checks which SAME fixed probes lie inside the independently witnessed side pair, with all out-of-envelope probes unknown. Additional3 between-edge fractions[0.25,0.5,0.75] are SECONDARY diagnostic profiles only, not mixed into primary precision/recall/gates or compared against a different geometric population.",
+    "no_gap_fill": "Scan the bounded window even after unsupported stations so currently visible disconnected pieces may be inspected. Unsupported intervals/occluded/ambiguous pixels remain unknown; no interpolation/fill/reconnection. A later supported section is only a same-axis instance hypothesis, not proof of identity or hidden continuity.",
+    "stone": "Raw stone pixels stay class1 exactly. Candidate evidence that overlaps raw stone is exported as protected_conflict, separately audited; cannot silently suppress conflict opportunity statistics or overwrite stone."
+  },
+  "appearance": {
+    "features": "Original RGB/255, normalized RGB chromaticity c=RGB/(R+G+B+1e-6), blue-excess b=cB-0.5*(cR+cG), HSV H/S/V, Lab L/a/b and local inside/outside contrast. Encoded-image features, not physical illumination or a calibrated fiber probability.",
+    "local_comparison": "muF=component-wise median chromaticity of qualified current shaft probes; muB=median of valid current anchor side probes. dF=norm(c-muF),dB=norm(c-muB); qC=(dB-dF)/(dB+dF+1e-6). Positive means nearer observed shaft than sampled local background; not necessarily blue or true fiber. No shared fit across images/video, online prototype update, hue threshold or gamma.",
+    "color_reliability": "rhoC=clip(norm(muF-muB)/0.10,0,1)*valid_side_fraction. A sampled color with maxRGB<0.03 OR (maxRGB>=0.98 AND saturation<0.10) has unavailable color evidence (rho_pixel=0); it is UNKNOWN, not background. Otherwise rho_pixel=rhoC. Low-saturation/white tip may retain neural/edge evidence; no blue-only veto.",
+    "supported_candidate": "Only CURRENT bilateral-supported station AND >=2of3 PRIMARY fixed probes valid and inside witnessed edges, each satisfying either (rho_pixel>=0.5 AND qC>0) OR original fiberP2>=0.1. P2<0.1 is deliberately accessible through reliable local RGB evidence, unlike unchanged T2-P. A supported station flags only its individually supported probes, never the entire interval. Export separate evidence vectors/reasons, no weighted-sum scalar called probability. No anchor or color separation means uncertainty, not auto extension.",
+    "instance_hypothesis": "At least2 supported stations strictly beyond a seed end (t>0) needed for a supported axis-group hypothesis. Deduplicate the at-most2 axes using frozen T1 support-ID IoU>=0.8 AND axis difference modulo pi<=5deg; retain original candidates/logs. Multiple distinct qualifying axis groups => ambiguous; two ends of one axis are NOT two instances or a known entry/tip orientation. One group => unambiguous HYPOTHESIS, not confirmed true identity. Count all supported probes, including ambiguous candidates, in quality statistics so ambiguity cannot hide FP.",
+    "internal_transition": "Record axial RGB,Lab and original P2 changes at the3 interior profiles. A neural/color drop is NOT a terminal boundary. If bilateral current support exists at>=2 further sampled stations, flag internal_transition_candidate; do not nominate the strongest axial gradient as tip.",
+    "end_status": "No asserted anatomical endpoint in this feasibility round. Export side-evidence continuation, axial transitions and search/FOV/occlusion/contrast-limit reasons. Even apparent lateral closure and cross-axis transition are unverified boundary candidates, never geometry-filled cap or fixed expected length. Round/low-contrast caps may remain unknown."
+  },
+  "mask_policy": "EXACT raw2 masks in all3arms, all classes unchanged. Search corridors, sampled evidence and any rasterized GT-opportunity maps are DIAGNOSTICS, never segmentation or pseudo-labels. No deleted/added TP/FP/FN can be claimed; all semantic deltas must be0.",
+  "evaluation": {
+    "data": {"video_manifest":"runs/review_snapshots/video_development_supplement_20261029_v2/manifest.json","image_manifest":"datasets/ureter_semis_kidney_joint_20261028/manifest.json","video_frames":70,"image_frames":132},
+    "scope": "Original29/new41,43/27 cases,68/64 sources,25/107 exposure, per-frame70/132 and originalRGB Lab/HSV bins[0,85,170,256]. Original weights/labels/splits stay frozen.",
+    "semantic": "Same frozen stone/fiber Dice,Precision,Recall,3px boundaryF,semantic skeleton coverage and absolute TP/FP/FN: exact raw2 invariance required. Raw2 still not adopted vs frozen classwise3. No sample evidence score may be substituted for dense semantic accuracy.",
+    "opportunity": "GT use offline only: whole bounded search-corridor coverage of raw FN (including originalP2<0.1, lowLab,insideGT-distance>3*s), negative/nonfiber/stone/unknown area and no-seed/anchor-failed opportunity losses. Geometry-only coverage is an oracle upper scope, never recovered pixels. Output all misses including off-window, seed/direction/color/edge failures.",
+    "paired_sampling": "On EXACT SAME current interior probe coordinates compare all-valid geometric probes against supported RGB/neural subset. GT nearest pixel floor(x+0.5), never bilinear labels; unknown255 excluded, invalid never clamped. Report per-axis/per-end and globally deduplicated native coordinate counts, sampling resolution and denominators. Probe support precision/recall and raw-FN evidence hits are NOT pixel segmentation/tip accuracy; keep fixed-probe and edge-adapted populations separate.",
+    "negative_controls": "All image-dev frames with no GT fiber (reference-defined, including potentially incomplete source labels), original FP/bright spots, raw stone/unknown regions, fixed imageindex16 display17 associated with unreviewed laser_dot, video1display78, video2display1209 and311/439/622/643/1266. No new 144test or TRAIN pixels. T1 false accepted/width-rejected and no-seed examples remain reported. User failure33-113/330-722 kept as qualitative video intervals, not dense event truth.",
+    "feasibility_go_no_go": "Mechanisms/identity/complete replay/invariant semantic masks and runtime required. On globally deduplicated PRIMARY fixed-probe coordinates, with ambiguous-candidate support INCLUDED: supported original-P2<0.1 reference-FN probes>0 on BOTH70and132 AND fixedvideo2display1209; support precision>=0.95 separately on70and132 (engineering evidence target, not validated clinical criterion); no reference-fiber-absent image may produce an unambiguous supported instance HYPOTHESIS. Empty denominators unavailable, not pass. Secondary edge-adapted profiles never enter these gates. Even passing does not authorize pixel edits/adoption; failure retains negative evidence and stops this finite configuration.",
+    "tip": "12pending D1 tip tasks plus2planned extensions remain no independent confirmed tip truth; tipRecall/Precision/physical endpoint/length/laser metrics null. Current semantic mask supports visible omission only. No renewed whole training-data audit requirement.42of120 random sample incomplete, no whole-video accuracy estimate."
+  },
+  "execution": {
+    "static": "202fresh actual original2net paired-frame inferences shared by3actually run stateless observers. No transformed inputs, no threefold static forward claim. Original native masks/maps exact vs frozen dark-input raw2. Caches may verify only, never replace current observer inputs in cost tests.",
+    "videos": ["video_1","video_2"],
+    "frames": [722,1972],
+    "expected_processes": 6,
+    "expected_full_paired_frame_inferences": 8082,
+    "fresh_process_per_arm_per_video": true,
+    "all_arms_full_even_failure": true,
+    "warmup_frames_per_process": 12,
+    "batch_size": 1,
+    "precision": "float32",
+    "state": "No temporal/history/shared appearance state. Both videos independent, static image fresh. Validate original RGB and decoded monotonicPTS else declared frame_index/FPS.",
+    "timings": "Synchronized original2net pipeline+both native3class maps/mask transfer; seed proposal, anchor, bounded geometry/probes, RGB evidence/metadata and direct total p50/p95/max. Full decode/render/audit/export throughput, actual branch/model counts, CPU/GPU peaks. No p95 subtraction.",
+    "budget": "Extra observer p95<=5ms design target AND direct total p95<=1000/sourceFPS separately for BOTH videos; report max spikes. At most2axes*2ends*48stations*17normal samples, bounded point probes; no full-image gradients, crop neural inference, optical flow or heavy old fitter.",
+    "artifacts": "Both complete input/raw2/geometry-window/local-evidence diagnostic videos. Distinct legends for search windows, current observed side edges, supported probes,unknown/protected/conflict; no filled ideal fiber silhouette or displayed terminal point. All202 static boards and all rejection logs, paired probes, originalRGB/GT/P2/localcontrast profiles, window opportunity maps NOT predicted masks, source/config/model/input/output hashes and archive."
+  },
+  "planned_files": ["tools/fiber_local_dark_evidence.py","tools/run_fiber_local_dark_evidence_control.py","tests/test_fiber_local_dark_evidence.py"],
+  "stop": "Finite geometry/current-evidence feasibility only. No parameter sweep, threshold relaxation, gamma/Retinex, new pixel fusion, model training/default adoption, fixed template, forced cap, history propagation or stoneS3. Actual pixel repair would need a NEW frozen plan preserving raw fiber/stone, its uncertainty fallback and all unchanged segmentation/nonregression/TP-loss gates; this protocol does not approve such repair. Training requires separately approved compliant initialization/data/augmentation/supervision/cost/rollback plan.",
+  "constraints": "No521TRAIN/144reserved-test pixels, frozen521/132/144/29 andactive70. video_1/video_2 and ALL derivatives validation only, never shared template/color calibration/training/pseudo labels; same-frame local contrasts ephemeral. stone_new excluded. OldmixedA0 inference only, not train init. No real-device calibration from Godot. No annotation changes or prediction-as-GT. Two global gamma arms stopped, old T2-P protocol unmodified and unimplemented."
+}

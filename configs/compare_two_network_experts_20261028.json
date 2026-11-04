@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "experiment": "S2_EXISTING_FIBER_MEMBER_COST_ABLATION_20261028",
+  "status": "PREPARED_NOT_EXECUTED_IMPLEMENTATION_PENDING",
+  "reason": "Full2694-frame three-network replay retained small-stone dropouts and core p95 around33.20/34.55ms. Before training a lightweight refiner, test whether either already-existing A0 member can preserve fiber quality at two-network cost",
+  "stone_expert": "runs/a1_sup_kidney_resolution_20261028/unet256/last.pt",
+  "stone_sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3",
+  "fiber_checkpoint": "runs/endosemis/best.pt",
+  "fiber_sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+  "arms": [
+    {"name": "stone_old190_fiber_a0_model1", "fiber_member": "model1", "total_networks": 2, "total_parameters": 49202790},
+    {"name": "stone_old190_fiber_a0_model2", "fiber_member": "model2", "total_networks": 2, "total_parameters": 49202790}
+  ],
+  "reference": "Original frozen3network classwise control; A0/old190 metrics retained separately",
+  "training_updates": 0,
+  "temporal": false,
+  "policy": "PIL RGB256 normalization, independent expert softmax FP32 native bilinear align_corners=False before argmax, fiber priority unchanged. No confidence/area thresholds, morphology, GT prompts, checkpoint epoch choice or extra member/threshold search",
+  "accuracy": "Both predefined arms on frozen29 video frames and unchanged132 image development frames; single out25 historical old190-exposed and107 unmatched groups. Reproduce3network reference same batch/preprocessing. A0 provenance unknown, no independent-case claim",
+  "gates_from": "runs/a1_classwise_experts_20261028/preflight.json",
+  "gates": {"stone_dice_min": 0.47401543332152984, "fiber_dice_min": 0.9568022126134994, "negative_fp_fraction_max": 0.07782222222222222},
+  "secondary": "Report per-video/source/cohort errors,3small-stone frames, paired stone/fiber changes and priority conflicts. A0 member removal cannot add stones missing from old190; do not claim it solves temporal dropouts",
+  "cost": "Same-run fresh process for3network reference and each2network arm, batch1,12warmup87timings, same PIL preprocessed cached native inputs, synchronized all required networks plus native outputs/fusion/CPU transfer. Include actual model count and peak allocation; exclude decode/display/exports consistently",
+  "decision": "Finite two-arm inference ablation only. Report all arms and joint quality/cost tradeoffs; a faster arm must retain frozen gates before a full-replay candidate. No default adoption or S3 automatically. If neither retains fiber quality, stop member search and return to the planned lightweight fiber-specific feasibility design; no training or threshold sweep is triggered",
+  "constraints": "No training/fine-tuning/distillation from A0 or mixed sources. stone_new prohibited from all training; video1/2 and derivatives validation only; active521/132/144/29 splits and source labels unchanged; reserved-test pixels never read"
+}

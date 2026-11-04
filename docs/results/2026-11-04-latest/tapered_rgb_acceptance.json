@@ -1,0 +1,29 @@
+{
+  "RGB_sides": {
+    "subject_coverage_nonworse_both_videos": false,
+    "focus_no_new_loss_above_0_5_percentage_point": true,
+    "temporal_jump_rate_nonworse_same_pairs": false,
+    "heldout_RGB_abs_error_P50_and_P95_nonworse": false,
+    "all_main_numeric_gates": false,
+    "adopted": false,
+    "reason": "coverage and/or temporal gate failed; no deployment"
+  },
+  "independent_search": {
+    "subject_coverage_nonworse_both_videos": true,
+    "focus_no_new_loss_above_0_5_percentage_point": true,
+    "temporal_jump_rate_nonworse_same_pairs": false,
+    "heldout_RGB_abs_error_P50_and_P95_nonworse": true,
+    "all_main_numeric_gates": false,
+    "adopted": false,
+    "reason": "coverage and/or temporal gate failed; no deployment"
+  },
+  "RGB_sides_independent_search": {
+    "subject_coverage_nonworse_both_videos": false,
+    "focus_no_new_loss_above_0_5_percentage_point": true,
+    "temporal_jump_rate_nonworse_same_pairs": false,
+    "heldout_RGB_abs_error_P50_and_P95_nonworse": false,
+    "all_main_numeric_gates": false,
+    "adopted": false,
+    "reason": "coverage and/or temporal gate failed; no deployment"
+  }
+}

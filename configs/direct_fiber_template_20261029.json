@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "experiment": "S2_S5_DIRECT_FIXED_FIBER_TEMPLATE_20261029",
+  "status": "FROZEN_BEFORE_VALIDATION",
+  "authorization": "User approved unique-fiber fixed-shape-family direct localization, image-only versus neural-soft evidence versus causal parameter tracking",
+  "manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+  "experts": "runs/a1_classwise_experts_20261028/predictor_manifest.json",
+  "arms": ["raw_classwise", "image_template", "soft_template", "causal_template"],
+  "image_arms": ["raw_classwise", "image_template", "soft_template"],
+  "shared_template": "One fixed two-straight-sided taper ending in a circular half-cap. Learn pooled median halfwidth slope and cap radius/min(image size) from eligible521TRAIN-only source masks, freeze before validation. Pose alone varies: entry xy on estimated view boundary, angle, tip distance. No per-validation width, cone-angle or cap-shape fitting. Shared prior is a provisional data-derived2D appearance family, not physical camera/channel calibration",
+  "calibration": {"minimum_fiber_pixels":64,"entry_fraction":0.06,"minimum_length_fraction":0.12,"minimum_aspect_ratio":1.5,"shaft_bins":16,"body_range":[0.15,0.65],"slope_range":[0.01,0.50],"radius_fraction_range":[0.003,0.10],"minimum_eligible_images":6,"histogram_bins":16,"histogram_smoothing":0.005},
+  "search": {"size":128,"boundary_samples":64,"angles_degrees":[-65,-52,-39,-26,-13,0,13,26,39,52,65],"length_fractions":[0.10,0.18,0.26,0.34,0.42,0.50,0.58,0.66,0.74,0.82],"body_samples":9,"cap_samples":11,"topk":6,"refine_entry_fraction":[-0.02,0,0.02],"refine_angles_degrees":[-6,0,6],"refine_length_fraction":[-0.04,0,0.04]},
+  "score": {"inside":0.45,"region_contrast":0.20,"boundary_contrast":0.25,"rgb_edge":0.10,"network_soft":0.25},
+  "acceptance": {"inside_appearance_min":0.55,"region_contrast_min":0.10,"boundary_contrast_min":0.015,"rgb_edge_min":0.04,"fov_support_min":0.85,"visible_appearance_min":0.50},
+  "tracking": {"temporal_weight":0.05,"entry_scale_fraction":0.08,"length_scale_fraction":0.12,"angle_scale_degrees":20,"penalty_cap":4,"prediction_only_frames":3,"velocity_beta":0.20},
+  "visible_vs_hypothesis": "Output zero or one complete geometric hypothesis. Current visible fiber is accepted template intersected with CURRENT image appearance support>=0.5, identical visibility rule for all geometric arms; network is only a soft pose score. Rejected fits produce no visible fiber, not a network fallback. Causal history-only hypothesis at most3frames is exported but never filled as visible. A single entity may have disconnected visible pieces",
+  "evaluation": "All29 frozen reviewed video frames,132 unchanged image-dev with25 old190-exposed/107 unmatched groups. Causal arm uses full sequential2694frame validation replay, resets per case and cannot see future or GT. Pure image and soft arms are recomputed stateless each frame. Old190 stone and fiber priority same for all arms; report every reject, all-frame scores, boundaries,3small-stone frames and added/removed TP/FP. No dedicated tip/angle truth",
+  "gates": {"stone_dice_min":0.47401543332152984,"fiber_dice_min":0.9568022126134994,"negative_fp_fraction_max":0.07782222222222222},
+  "timing": "Paired full sequential replay: shared3expert forward, explicitly stage shared image observation/coarse search and per-arm fine scoring/visibility; geometry-only fiber cost and combined system cost distinguished. Model-count savings not claimed from shared3net timings. Full export wall time separate from per-stage latency; no live-display acceptance",
+  "stop": "No changes to shared template or score/search/acceptance after reading validation. Preserve rejection and losses; no automatic adoption/training/S3 or threshold scans. Calibration failure below6eligible images stops execution and is reported",
+  "constraints": "Template/color statistical calibration uses active TRAIN521 only; zero gradient/NN training updates. stone_new and video-derived training banned. Validation may estimate frame pose/causal state only; no shared-template learning from video1/2 or132dev.144reserved-test pixels never read; source labels/case provenance pending; weights/defaults and521/132/144/29 unchanged"
+}

@@ -1,0 +1,12 @@
+{
+  "raw_train_pool": 2019,
+  "provisional_labeled": 350,
+  "unlabeled": 1669,
+  "reviewed_train": 0,
+  "reviewed_train_positive": 0,
+  "reviewed_train_negative": 0,
+  "reviewed_validation": 29,
+  "excluded": {
+    "raw_validation_or_test_groups": 828
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "checks": {
+    "video_1_source_sync": true,
+    "video_1_stone_preserved": true,
+    "video_2_source_sync": true,
+    "video_2_stone_preserved": true,
+    "frozen_sources": true,
+    "old_seal_unchanged": true,
+    "fresh_processes": true
+  },
+  "counts": {
+    "video_1": {
+      "frames": 722,
+      "applied": 654,
+      "fallback": 68,
+      "proposal_available": 722,
+      "changed_frames": 654,
+      "added_pixels": 29791,
+      "removed_old_fiber_pixels": 156145,
+      "reasons": {
+        "converging_geometry_reconstruction": 654,
+        "geometric_stone_conflict": 68
+      },
+      "all_rejections": {
+        "geometric_stone_conflict": 68
+      },
+      "example_applied_frames": [
+        1,
+        2,
+        3
+      ],
+      "offline_media_export_fps": 51.376067405374776
+    },
+    "video_2": {
+      "frames": 1972,
+      "applied": 1895,
+      "fallback": 77,
+      "proposal_available": 1932,
+      "changed_frames": 1895,
+      "added_pixels": 193357,
+      "removed_old_fiber_pixels": 645905,
+      "reasons": {
+        "converging_geometry_reconstruction": 1895,
+        "tip_at_or_beyond_side_intersection": 35,
+        "subject_not_slender": 10,
+        "width_out_of_range": 1,
+        "no_trusted_subject": 2,
+        "ambiguous_trusted_subjects": 3,
+        "geometric_stone_conflict": 25,
+        "insufficient_fitted_span": 1
+      },
+      "all_rejections": {
+        "tip_at_or_beyond_side_intersection": 35,
+        "subject_not_slender": 11,
+        "width_out_of_range": 2,
+        "geometric_stone_conflict": 25,
+        "insufficient_fitted_span": 1
+      },
+      "example_applied_frames": [
+        1,
+        2,
+        3
+      ],
+      "offline_media_export_fps": 48.06888284563098
+    }
+  },
+  "geometry": {
+    "video_1": {
+      "side_angle": {
+        "mean": 24.027946555467008,
+        "p50": 24.02567499808229,
+        "p95": 25.13927124896264,
+        "max": 27.2824964054749
+      },
+      "width_robust_CV": {
+        "mean": 0.26901263070460035,
+        "p50": 0.27677679822540663,
+        "p95": 0.2837211239143904,
+        "max": 0.29647520949971623
+      },
+      "width_drift": {
+        "mean": 0.5578164099085494,
+        "p50": 0.5601953342939086,
+        "p95": 0.6059012079140509,
+        "max": 0.7015795881887371
+      },
+      "proposal_pixels_without_blue": 9540,
+      "physical_tip_accuracy": null
+    },
+    "video_2": {
+      "side_angle": {
+        "mean": 24.995580847260296,
+        "p50": 24.083924290414863,
+        "p95": 30.198738735088842,
+        "max": 50.50942333594676
+      },
+      "width_robust_CV": {
+        "mean": 0.3075765017969594,
+        "p50": 0.3030099987950025,
+        "p95": 0.362986854986555,
+        "max": 0.41072269462534644
+      },
+      "width_drift": {
+        "mean": 0.6607967669218218,
+        "p50": 0.6648456464124993,
+        "p95": 0.7505242760313429,
+        "max": 0.8227080565070244
+      },
+      "proposal_pixels_without_blue": 20455,
+      "physical_tip_accuracy": null
+    }
+  },
+  "all_engineering_checks_passed": true,
+  "adopted": false,
+  "thresholds_changed": false,
+  "tip_accuracy": null,
+  "whole_video_accuracy": null
+}

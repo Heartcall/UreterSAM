@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "experiment": "A1_RESOLUTION_KIDNEY_UNET256_512_NATIVE_20261028",
+  "base_config": "train_a1_sup_kidney_only_20261027.json",
+  "arms": [
+    {"name": "unet256", "size": 256, "seed": 42, "epochs": 15},
+    {"name": "unet512", "size": 512, "seed": 42, "epochs": 15}
+  ],
+  "native_protocol": {
+    "input": "PIL RGB bilinear resize to checkpoint input size, original ImageNet normalization",
+    "prediction": "mean logits then softmax on model grid; FP32 bilinear probabilities to untouched native mask shape, align_corners=false; argmax after resize",
+    "ground_truth": "Unchanged original pixel indices including255; no GT resizing or morphology",
+    "reference": "Re-evaluate original A0 with this exact native protocol before training and freeze gates: stone Dice>=A0, fiber Dice>=A0-0.01, negative FP area<=A0",
+    "primary_selection": "Fixed final epoch15 on native grid; per-epoch native gates used for diagnostic selection and existing collapse stop; do not compare old model-grid numbers",
+    "boundary_tolerance_native_pixels": 3,
+    "small_visible_stone_area_bins_native_pixels": [0, 1024, 4096],
+    "small_target_scope": "Whole-frame visible stone area, not annotated instances; new native-grid bins, distinct from old<=128 model-grid group"
+  },
+  "training": "Original U-Net, ImageNet encoder+random decoder; no surgical checkpoint warmstart; same190 labels, class_weights1/2/4, loss, batch2, lr1e-4, cosine15, uniform sampling and1425 updates per arm",
+  "budget_scope": "Equal optimizer updates2850image exposures per arm;512 has4x input pixels and different hardware cost, not compute-matched",
+  "performance": {"warmup_frames": 12, "repeats": 3, "batch_size": 1, "input": "cached native BGR via OpenCV model-grid preprocessing, plus same native probability output resize; excludes decoding, display, geometry and memory"},
+  "source_resolution_note": "Both videos native400x400;512 input upsamples the original and does not create optical detail;256 discards some original sampling detail",
+  "constraints": "Kidney190 supervised only, stone_new banned, reserve800 not read, both videos and derivatives validation-only, source labels and case provenance provisional",
+  "stop_policy": "Frozen existing foreground-collapse checks on native GT; no automatic extension; aborted or AMP-skipped-update arm cannot be called equal-budget"
+}

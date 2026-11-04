@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_BEFORE_IMPLEMENTATION_RESULTS",
+  "experiment": "DISTAL_ONLY_DIRECTION_SINGLE_FACTOR_SHADOW_CONTROL",
+  "output": "runs/a1_fiber_distal_only_control_20261102",
+  "execution_document": "docs/plans/fiber_distal_only_execution_20261102.md",
+  "arms": [
+    "raw2",
+    "blue_extent",
+    "distal_only"
+  ],
+  "legacy_config": "configs/fiber_connected_blue_growth_20261101.json",
+  "base": {
+    "networks": 2,
+    "parameters": 49202790,
+    "fiber_member": "model1",
+    "reference_run": "runs/a1_fiber_dark_input_control_20261030",
+    "historical_reference": "runs/a1_two_network_experts_20261029",
+    "preflight": "runs/a1_fiber_blue_extent_control_20261101/preflight.json"
+  },
+  "data": {
+    "video_manifest": "runs/review_snapshots/video_development_supplement_20261029_v2/manifest.json",
+    "image_manifest": "datasets/ureter_semis_kidney_joint_20261028/manifest.json",
+    "video_frames": 70,
+    "image_frames": 132
+  },
+  "extent": {
+    "seed": {
+      "P_min": 0.9,
+      "min_pixels_at400": 16,
+      "max_components": 2,
+      "max_points": 1024,
+      "min_length_at400": 20,
+      "min_aspect": 1.0,
+      "fractions": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "normal_min_sections": 3,
+      "weak_min_sections": 3,
+      "weak_min_paired": 1,
+      "background_MAD_multiplier": 2.0,
+      "background_MAD_floor": 0.01,
+      "min_color_vector_norm": 0.03,
+      "fit_rms_at400": 2.0,
+      "fit_rms_width_fraction": 0.12
+    },
+    "color": {
+      "max_noise": 0.15,
+      "noise_DN": 3.0,
+      "angle_normal_degrees": 35,
+      "angle_weak_degrees": 25,
+      "blue_gap_normal_fraction": 0.5,
+      "blue_gap_weak_fraction": 0.7,
+      "background_distance_margin_normal": 0.02,
+      "background_distance_margin_weak": 0.04
+    },
+    "section": {
+      "samples": 65,
+      "halfwidth_scale": 0.75,
+      "halfwidth_add_at400": 4.0,
+      "edge_delta_at400": 2.0,
+      "strong_RGB_contrast": 0.04,
+      "center_band_width_fraction": 0.25,
+      "interior_fractions": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "normal_min_interior": 4,
+      "weak_min_interior": 5
+    },
+    "geometry": {
+      "normal_width_ratio": [
+        0.5,
+        1.25
+      ],
+      "weak_width_ratio": [
+        0.8,
+        1.1
+      ],
+      "max_seed_width_ratio": 1.5,
+      "normal_turn_degrees": 10,
+      "weak_turn_degrees": 5,
+      "normal_total_turn_degrees": 20,
+      "weak_total_turn_degrees": 10,
+      "normal_curvature_width": 0.35,
+      "weak_curvature_width": 0.15,
+      "heading_blend": 0.5,
+      "step_at400": 2.0,
+      "step_width_fraction": 0.125,
+      "max_sections_per_end": 32,
+      "max_extension_diagonal_fraction": 0.2,
+      "max_extension_seed_widths": 4,
+      "max_consecutive_weak_sections": 2,
+      "max_weak_run_seed_widths": 1.0,
+      "max_evaluated_fraction": 0.15,
+      "max_new_fraction": 0.05
+    },
+    "history": {
+      "max_age": 3,
+      "max_axis_difference_degrees": 15,
+      "max_normal_distance_diagonal_fraction": 0.04,
+      "width_ratio": [
+        0.5,
+        2.0
+      ],
+      "orientation_border_distance_difference_diagonal_fraction": 0.02,
+      "prior_policy": "Only previous-frame frozen T1 state prepared before current update; no grown pixel feedback. Strong current never vetoed. Weak requires valid shaft, age<=3, angle/normaldistance/width compatible. No history in static."
+    },
+    "tip": {
+      "profile_offsets_width": [
+        -0.25,
+        0,
+        0.25
+      ],
+      "profile_samples": 33,
+      "axial_range_widths": [
+        -0.5,
+        1.0
+      ],
+      "contrast": 0.04,
+      "minimum_profiles": 2,
+      "max_profile_spread_widths": 0.5,
+      "closure_width_fraction": 0.65,
+      "max_center_advance_widths": 0.25,
+      "background_check_at400": [
+        2,
+        4
+      ],
+      "policy": "Always attempt for unique qualified seed, even no new pixels. Require center plus flank coherent terminal RGB boundary, current outer-width closure, nonblue background beyond, no original fiber continuation. Search/area/weak-history stop is unknown; stone contact occlusion, border out_of_view, internal transition never tip. Only reliably oriented distal branch may export tip xy. No hidden cap filling."
+    }
+  },
+  "t1": {
+    "config": "configs/fiber_temporal_observation_search_20261030.json",
+    "role": "Previous valid raw-probability T1 state compatibility veto for weak-side only; run/update frozen T1 on original probability every video frame even no seed; reset per video and after warmup"
+  },
+  "execution": {
+    "videos": [
+      "video_1",
+      "video_2"
+    ],
+    "frames": [
+      722,
+      1972
+    ],
+    "fresh_processes": 6,
+    "full_paired_frame_inferences": 8082,
+    "static_shared_paired_frame_inferences": 202,
+    "warmup_frames_per_process": 12,
+    "complete_all_even_failure": true,
+    "additional_stage_p95_ms": 5
+  },
+  "quality": {
+    "frozen_gates": "configs/compare_two_network_experts_20261029_v2.json",
+    "minimum_new_candidate_precision": 0.98,
+    "minimum_lowLab_FN_reduction_fraction": 0.1,
+    "primary_scopes": [
+      "video_causal",
+      "image_native"
+    ],
+    "video_static_role": "diagnostic only, no choosing between modes after results",
+    "fixed1209_scope": "video_causal",
+    "actual_protected_pixel_changes": 0,
+    "virtual_protected_TP_loss": 0
+  },
+  "mask_policy": "All actual original probabilities/masks immutable. Candidate additions only rawbackground, originalstone barrier before connectivity, no closing/dilation/gap bridge. Proposed weak-history-rejected current-RGB pixels are separate diagnostic, never accepted. Ideal polygons bound computation only. Native4connectivity and immutable same-frame seed color anchor. No additional network, training, shared video template,144test pixels,default adoption orS3.",
+  "stop": "One fixed configuration, no parameter sweep. Finish all6video workers even quality/runtime failure; preserve rejected cases. No tip or dense accuracy without independent GT. Passing only permits proposing a pixel modification protocol.",
+  "reference_extent_config": "configs/fiber_blue_extent_control_20261101.json",
+  "direction_control": {
+    "factor": "search_only_existing_oriented_distal_sign_before_walk",
+    "unknown_orientation": "no_walk_no_new_pixels_no_tip",
+    "unsearched_end": "metadata_only_no_abnormal_no_tip",
+    "searched_end_abnormal": "reject_all_new_as_before",
+    "numeric_threshold_changes": 0
+  }
+}

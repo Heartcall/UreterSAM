@@ -1,0 +1,130 @@
+{
+  "checks": {
+    "review_passed": true,
+    "frozen_candidate_sources": true,
+    "baseline_seal_unchanged": true,
+    "diagnosis_precedes_pixel_experiment": true,
+    "weight_identity": true,
+    "video_identity": true,
+    "no_new_neural_forwards_training_or_default_change": true,
+    "source_snapshot": true,
+    "original_circle_and_Huber_sources_unchanged": true,
+    "all_baseline_sealed_outputs_unchanged": true,
+    "baseline_external_reports_sources_unchanged": true,
+    "frozen_cache_all_files": true,
+    "RGB_sides_video_native_count": true,
+    "RGB_sides_video_native_same_sample_mapping": true,
+    "RGB_sides_video_native_source_groups": true,
+    "RGB_sides_video_native_manual_GT_unchanged": true,
+    "RGB_sides_image_native_count": true,
+    "RGB_sides_image_native_same_sample_mapping": true,
+    "RGB_sides_image_native_source_groups": true,
+    "RGB_sides_image_native_manual_GT_unchanged": true,
+    "RGB_sides_video_causal_count": true,
+    "RGB_sides_video_causal_same_sample_mapping": true,
+    "RGB_sides_video_causal_source_groups": true,
+    "RGB_sides_video_causal_manual_GT_unchanged": true,
+    "RGB_sides_video_1_complete": true,
+    "RGB_sides_video_1_counts": true,
+    "RGB_sides_video_1_original_circle_and_registered_factor_invariants": true,
+    "RGB_sides_video_2_complete": true,
+    "RGB_sides_video_2_counts": true,
+    "RGB_sides_video_2_original_circle_and_registered_factor_invariants": true,
+    "independent_search_video_native_count": true,
+    "independent_search_video_native_same_sample_mapping": true,
+    "independent_search_video_native_source_groups": true,
+    "independent_search_video_native_manual_GT_unchanged": true,
+    "independent_search_image_native_count": true,
+    "independent_search_image_native_same_sample_mapping": true,
+    "independent_search_image_native_source_groups": true,
+    "independent_search_image_native_manual_GT_unchanged": true,
+    "independent_search_video_causal_count": true,
+    "independent_search_video_causal_same_sample_mapping": true,
+    "independent_search_video_causal_source_groups": true,
+    "independent_search_video_causal_manual_GT_unchanged": true,
+    "independent_search_video_1_complete": true,
+    "independent_search_video_1_counts": true,
+    "independent_search_video_1_original_circle_and_registered_factor_invariants": true,
+    "independent_search_video_2_complete": true,
+    "independent_search_video_2_counts": true,
+    "independent_search_video_2_original_circle_and_registered_factor_invariants": true,
+    "RGB_sides_independent_search_video_native_count": true,
+    "RGB_sides_independent_search_video_native_same_sample_mapping": true,
+    "RGB_sides_independent_search_video_native_source_groups": true,
+    "RGB_sides_independent_search_video_native_manual_GT_unchanged": true,
+    "RGB_sides_independent_search_image_native_count": true,
+    "RGB_sides_independent_search_image_native_same_sample_mapping": true,
+    "RGB_sides_independent_search_image_native_source_groups": true,
+    "RGB_sides_independent_search_image_native_manual_GT_unchanged": true,
+    "RGB_sides_independent_search_video_causal_count": true,
+    "RGB_sides_independent_search_video_causal_same_sample_mapping": true,
+    "RGB_sides_independent_search_video_causal_source_groups": true,
+    "RGB_sides_independent_search_video_causal_manual_GT_unchanged": true,
+    "RGB_sides_independent_search_video_1_complete": true,
+    "RGB_sides_independent_search_video_1_counts": true,
+    "RGB_sides_independent_search_video_1_original_circle_and_registered_factor_invariants": true,
+    "RGB_sides_independent_search_video_2_complete": true,
+    "RGB_sides_independent_search_video_2_counts": true,
+    "RGB_sides_independent_search_video_2_original_circle_and_registered_factor_invariants": true,
+    "six_fresh_processes": true,
+    "tests_241": true,
+    "video_1_comparison_media": true,
+    "video_2_comparison_media": true,
+    "focus59_comparison_media": true,
+    "frame1209_comparison_media": true,
+    "diagnostic_sources_unchanged": true,
+    "full_diagnostic_frames": true,
+    "frozen_data_default_reports": true
+  },
+  "check_count": 75,
+  "all_passed": true,
+  "totals": {
+    "RGB_sides": {
+      "video_1": {
+        "frames": 722,
+        "tangent_proposals": 722,
+        "applied": 654,
+        "pid": 23224
+      },
+      "video_2": {
+        "frames": 1972,
+        "tangent_proposals": 1928,
+        "applied": 1900,
+        "pid": 32956
+      }
+    },
+    "independent_search": {
+      "video_1": {
+        "frames": 722,
+        "tangent_proposals": 722,
+        "applied": 654,
+        "pid": 32932
+      },
+      "video_2": {
+        "frames": 1972,
+        "tangent_proposals": 1854,
+        "applied": 1818,
+        "pid": 21836
+      }
+    },
+    "RGB_sides_independent_search": {
+      "video_1": {
+        "frames": 722,
+        "tangent_proposals": 722,
+        "applied": 654,
+        "pid": 19876
+      },
+      "video_2": {
+        "frames": 1972,
+        "tangent_proposals": 1841,
+        "applied": 1814,
+        "pid": 26296
+      }
+    }
+  },
+  "network_forwards": 0,
+  "training_updates": 0,
+  "adopted": false,
+  "tip_accuracy": null,
+  "default_changed": false
+}
