@@ -1,0 +1,143 @@
+{
+  "weak_blue": {
+    "evidence": {
+      "cosine_floor": 0.25,
+      "blue_seed_gap_fraction": 0.08,
+      "minimum_blue_excess": 0.008,
+      "distance_margin": 0.045,
+      "max_chroma_noise": 0.3,
+      "minimum_chroma_norm": 0.025,
+      "minimum_gradient": 0.012,
+      "weak_score": 0.4,
+      "strong_score": 0.7
+    },
+    "search": {
+      "maximum_forward_at400": 80,
+      "maximum_forward_diagonal_fraction": 0.2,
+      "lateral_width_multiplier": 1.75,
+      "lateral_margin_at400": 8,
+      "maximum_component_fraction": 0.25,
+      "maximum_new_fraction": 0.1,
+      "connectivity": 8,
+      "minimum_root_pixels": 1,
+      "policy": "Only actual evidence pixels enter 8-neighbor graph. No dilation, closing, interpolation, gap filling or local-width whole-branch veto. Original union always retained."
+    },
+    "tip": {
+      "depth_at400": 8,
+      "minimum_area_at400": 6,
+      "minimum_span_at400": 2,
+      "frontier_band_at400": 1.5,
+      "minimum_front_pixels": 3,
+      "inside_offsets_at400": [
+        -4,
+        -2
+      ],
+      "outside_offsets_at400": [
+        2,
+        4,
+        6
+      ],
+      "normal_offsets_at400": [
+        -1,
+        0,
+        1
+      ],
+      "minimum_inside_fraction": 0.67,
+      "maximum_continuation_fraction": 0.33,
+      "minimum_RGB_contrast": 0.015,
+      "minimum_chroma_contrast": 0.025,
+      "maximum_unknown_fraction": 0.2,
+      "minimum_frame_margin_at400": 2,
+      "minimum_terminal_score_drop": 0.15,
+      "maximum_spike_at400": 2
+    },
+    "cap": {
+      "retreat_at400": [
+        4,
+        6,
+        8,
+        10
+      ],
+      "r_candidates": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "samples": 65,
+      "maximum_RMS_at400": 1.5,
+      "maximum_model_join_degrees": 15,
+      "minimum_RGB_support": 0.8,
+      "maximum_boundary_distance_at400": 1.5,
+      "minimum_actual_arc_match": 0.8
+    },
+    "temporal": "Frozen T1 continues to update raw observations; prior can only diagnose axis inconsistency/truncation, never add pixels. Current RGB centerline/bisector decides search; no video state in static."
+  },
+  "bisector_tip": {
+    "direction": {
+      "parallel_degrees": 2.0,
+      "maximum_axis_deviation_degrees": 30.0,
+      "local_centerline_axial_fraction": [
+        0.6,
+        0.85
+      ],
+      "minimum_centerline_points": 8,
+      "side_direction": "Unit tangent sum, oriented proximal-to-center; parallel/curved uses robust local centerline, never theoretical intersection"
+    },
+    "cluster": {
+      "depth_at400": 6.0,
+      "minimum_area_at400": 12,
+      "minimum_axial_span_at400": 3.0,
+      "distal_band_at400": 2.0,
+      "minimum_distal_pixels_at400": 4,
+      "maximum_spike_beyond_q90_at400": 2.0,
+      "frontier_band_at400": 1.5
+    },
+    "visibility": {
+      "normal_offsets_at400": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "inside_offsets_at400": [
+        -4.0,
+        -2.0
+      ],
+      "outside_offsets_at400": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "minimum_inside_blue_fraction": 0.67,
+      "maximum_outside_blue_fraction": 0.1,
+      "maximum_unknown_fraction": 0.1,
+      "minimum_RGB_contrast": 0.02,
+      "minimum_frame_margin_at400": 2.0
+    },
+    "cap": {
+      "join_retreat_at400": [
+        0.0,
+        2.0,
+        4.0,
+        6.0
+      ],
+      "r_candidates": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "curve_samples": 65,
+      "maximum_RMS_at400": 1.5,
+      "maximum_model_join_angle_degrees": 15.0,
+      "minimum_current_RGB_support": 0.8,
+      "maximum_boundary_distance_at400": 1.5,
+      "minimum_actual_arc_match": 0.8,
+      "minimum_side_span_fraction": 0.35,
+      "tip_retreat_at400": 0.0,
+      "selection": "Enumerate16 fixed per-frame joint/ellipse solves, rank feasible current-RGB fits by median residual,RMS,join retreat,r. Tip length fixed to supported cluster extent, no theoretical intersection/no tip retreat."
+    },
+    "mask": "Protect ALL union fiber and ALL blue B, stone immutable; currentRGB evidence-band additions inside fitted sides/cap only; root4CC; no delete/fill gap/extrapolate; unknown returns exact union",
+    "temporal": "Raw T1 prior unchanged. Diagnostics tip displacement between consecutive RGB-confirmed frames only, no historical filling."
+  }
+}

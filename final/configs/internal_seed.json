@@ -1,0 +1,157 @@
+{
+  "extent": {
+    "seed": {
+      "P_min": 0.9,
+      "min_pixels_at400": 16,
+      "max_components": 2,
+      "max_points": 1024,
+      "min_length_at400": 20,
+      "min_aspect": 1.0,
+      "fractions": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "normal_min_sections": 3,
+      "weak_min_sections": 3,
+      "weak_min_paired": 1,
+      "background_MAD_multiplier": 2.0,
+      "background_MAD_floor": 0.01,
+      "min_color_vector_norm": 0.03,
+      "fit_rms_at400": 2.0,
+      "fit_rms_width_fraction": 0.12
+    },
+    "color": {
+      "max_noise": 0.15,
+      "noise_DN": 3.0,
+      "angle_normal_degrees": 35,
+      "angle_weak_degrees": 25,
+      "blue_gap_normal_fraction": 0.5,
+      "blue_gap_weak_fraction": 0.7,
+      "background_distance_margin_normal": 0.02,
+      "background_distance_margin_weak": 0.04
+    },
+    "section": {
+      "samples": 65,
+      "halfwidth_scale": 0.75,
+      "halfwidth_add_at400": 4.0,
+      "edge_delta_at400": 2.0,
+      "strong_RGB_contrast": 0.04,
+      "center_band_width_fraction": 0.25,
+      "interior_fractions": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "normal_min_interior": 4,
+      "weak_min_interior": 5
+    },
+    "geometry": {
+      "normal_width_ratio": [
+        0.5,
+        1.25
+      ],
+      "weak_width_ratio": [
+        0.8,
+        1.1
+      ],
+      "max_seed_width_ratio": 1.5,
+      "normal_turn_degrees": 10,
+      "weak_turn_degrees": 5,
+      "normal_total_turn_degrees": 20,
+      "weak_total_turn_degrees": 10,
+      "normal_curvature_width": 0.35,
+      "weak_curvature_width": 0.15,
+      "heading_blend": 0.5,
+      "step_at400": 2.0,
+      "step_width_fraction": 0.125,
+      "max_sections_per_end": 32,
+      "max_extension_diagonal_fraction": 0.2,
+      "max_extension_seed_widths": 4,
+      "max_consecutive_weak_sections": 2,
+      "max_weak_run_seed_widths": 1.0,
+      "max_evaluated_fraction": 0.15,
+      "max_new_fraction": 0.05
+    },
+    "history": {
+      "max_age": 3,
+      "max_axis_difference_degrees": 15,
+      "max_normal_distance_diagonal_fraction": 0.04,
+      "width_ratio": [
+        0.5,
+        2.0
+      ],
+      "orientation_border_distance_difference_diagonal_fraction": 0.02,
+      "prior_policy": "Only previous-frame frozen T1 state prepared before current update; no grown pixel feedback. Strong current never vetoed. Weak requires valid shaft, age<=3, angle/normaldistance/width compatible. No history in static."
+    },
+    "tip": {
+      "profile_offsets_width": [
+        -0.25,
+        0,
+        0.25
+      ],
+      "profile_samples": 33,
+      "axial_range_widths": [
+        -0.5,
+        1.0
+      ],
+      "contrast": 0.04,
+      "minimum_profiles": 2,
+      "max_profile_spread_widths": 0.5,
+      "closure_width_fraction": 0.65,
+      "max_center_advance_widths": 0.25,
+      "background_check_at400": [
+        2,
+        4
+      ],
+      "policy": "Always attempt for unique qualified seed, even no new pixels. Require center plus flank coherent terminal RGB boundary, current outer-width closure, nonblue background beyond, no original fiber continuation. Search/area/weak-history stop is unknown; stone contact occlusion, border out_of_view, internal transition never tip. Only reliably oriented distal branch may export tip xy. No hidden cap filling."
+    }
+  },
+  "aggressive_parameters": {
+    "background": {
+      "stations": 11,
+      "axial_fractions": [
+        0.1,
+        0.9
+      ],
+      "min_points": 6,
+      "min_axial_coverage": 0.4
+    },
+    "fixed_direction": {
+      "nearest_seed_fraction": 0.1,
+      "minimum_anchor_points": 3,
+      "target": "image_center",
+      "anchor": "nearest_frame_border_projection",
+      "sign": "entry_to_center_only"
+    },
+    "edge_policy": {
+      "color_boundary_qualification": true,
+      "minimum_paired_sections": 2,
+      "minimum_fit_points": 2,
+      "original_strong_RGB_reference": 0.04
+    },
+    "broad_color": {
+      "angle_normal_degrees": 55,
+      "angle_weak_degrees": 45,
+      "blue_gap_normal_fraction": 0.2,
+      "blue_gap_weak_fraction": 0.4,
+      "background_distance_margin_normal": 0.0,
+      "background_distance_margin_weak": 0.01,
+      "max_noise": 0.3
+    },
+    "geometry": {
+      "normal_width_ratio": [
+        0.25,
+        1.35
+      ],
+      "normal_turn_degrees": 15,
+      "normal_total_turn_degrees": 30,
+      "normal_curvature_width": 1.0
+    },
+    "tip_visibility_tolerance_at400": 2.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "stone_checkpoint": {
+    "file": "stone_old190.pt",
+    "sha256": "cb62fa8dc128fae2ea7be4b438f9a943daa6c99fd0ede3a4edbc57c1234978a3",
+    "role": "single-network stone expert"
+  },
+  "fiber_checkpoint": {
+    "file": "fiber_a0_model1.pt",
+    "sha256": "e4df36dde654ed5f5aa4e93125b256f22312c66bc8945a7fdcfa9bf2b8bf27f7",
+    "role": "A0 checkpoint; only frozen model1 is constructed as the fiber expert"
+  },
+  "runtime_network_count": 2,
+  "runtime_parameter_count": 49202790,
+  "class_order": ["background", "stone", "fiber"]
+}

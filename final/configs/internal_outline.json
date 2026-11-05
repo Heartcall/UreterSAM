@@ -1,0 +1,77 @@
+{
+  "reference_aggressive_config": "configs/internal_seed.json",
+  "reference_union_config": "configs/internal_union.json",
+  "outline": {
+    "axis": "PCA of full current RGB4CC body, sign fixed by trusted entry-to-center; initial mask used only identity/root association and frozen broad extraction.",
+    "profile_step_at400": 2.0,
+    "minimum_side_points": 8,
+    "minimum_side_span_fraction": 0.35,
+    "side_frame_margin_at400": 1.5,
+    "IRLS_iterations": 12,
+    "Huber_delta_at400": 1.5,
+    "ridge": 1E-06,
+    "spline_knots": 7,
+    "spline_D2_penalty": 10.0,
+    "spline_required_residual_improvement": 0.3,
+    "spline_required_deviation_at400": 2.0,
+    "minimum_edge_weight": 0.1,
+    "edge_weight_scale": 0.08,
+    "maximum_local_fit_displacement_at400": 4.0,
+    "cap_length_width_fraction": 0.5,
+    "cap_length_min_at400": 4.0,
+    "cap_length_max_length_fraction": 0.15,
+    "side_pixel_mode": "fit shaft only; retain original blue distal part; fit each side separately only within its observed uncensored range; unsafe local interval retains blue, never clears growth",
+    "evidence": {
+      "band_distance_at400": 1.5,
+      "minimum_RGB_gradient": 0.02,
+      "relaxed_background_distance_margin": -0.03,
+      "other_color_parameters": "exact frozen aggressive broad color; only boundary distance margin relaxed inside currentRGB gradient band. No black/neutral/stone fill, root4CC required."
+    },
+    "retention": {
+      "minimum_blue_fraction": 0.97,
+      "maximum_length_loss_at400": 2.0,
+      "failure": "Fallback postprocessing phase to full previous visible body; never zero union or force hidden connection"
+    },
+    "cap": {
+      "shape": "tilted half-ellipse segment tangent-compatible with current side joins; actual endpoint no farther than observed blue distal frontier",
+      "r_candidates": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "front_retreat_at400": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "curve_samples": 65,
+      "minimum_tail_points": 8,
+      "maximum_fit_RMS_at400": 1.5,
+      "maximum_tangent_jump_degrees": 15.0,
+      "maximum_boundary_distance_at400": 1.5,
+      "minimum_RGB_supported_fraction": 0.8,
+      "maximum_unknown_fraction": 0.1,
+      "minimum_cap_blue_retention": 0.95,
+      "edge_sample_offset_at400": 1.5,
+      "minimum_RGB_contrast": 0.02,
+      "future_offsets_at400": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "minimum_frame_margin_at400": 2.0,
+      "policy": "No current blue continuation, stone occlusion, clipped scope, or unknown background. Positive current color transition OR weak RGB contrast on current visible arc; fit failure keeps observed blue cap. No Gaussian cap or unobserved extension."
+    },
+    "evaluation": {
+      "profile_step_at400": 1.0,
+      "HF_sigma_at400": 3.0,
+      "turning_stride_at400": 3.0,
+      "boundary_tolerance_at400": 2.0,
+      "cap_arc_step_at400": 2.0,
+      "cap_HF_turn_stride_at400": 2.0,
+      "mode": "independent metrics on actual raster bodies, fixed full-blue axis/common shaft-cap interval, fallback frames included; fitted-model metrics separate"
+    }
+  }
+}

@@ -70,12 +70,19 @@ def locate_tip(frame,raw,g,seed,cfg,scale):
     med=np.median(bg,axis=1);contrast=np.linalg.norm(frame[y,x].astype(float)-med,axis=1)/(255*math.sqrt(3));chromatic=np.linalg.norm(color[y,x]-np.median(bc,axis=1),axis=1)
     margin=np.minimum.reduce([points[:,0],points[:,1],raw.shape[1]-1-points[:,0],raw.shape[0]-1-points[:,1]])
     photometric=(contrast>=cfg['minimum_RGB_contrast'])|(chromatic>=cfg['minimum_chroma_contrast'])
-    good=valid.all(1)&lv.all(1)&~np.any(labels==1,axis=1)&(bnoise<cfg['maximum_chroma_noise']).all(1)&(forward_blue.mean(1)<=cfg['maximum_forward_blue_fraction'])&photometric&(margin>=cfg['minimum_frame_margin_at400']*scale)
+    forward_stone=np.any(labels==1,axis=1)
+    reject_forward_stone=cfg.get('reject_forward_stone',True)
+    stone_ok=~forward_stone if reject_forward_stone else np.ones(len(points),bool)
+    good=valid.all(1)&lv.all(1)&stone_ok&(bnoise<cfg['maximum_chroma_noise']).all(1)&(forward_blue.mean(1)<=cfg['maximum_forward_blue_fraction'])&photometric&(margin>=cfg['minimum_frame_margin_at400']*scale)
     eligible[y[good],x[good]]=1;ids=np.flatnonzero(good)
-    meta.update(qualified_pixels=len(ids),rejected_no_contrast=int((~photometric).sum()),rejected_forward_blue=int((forward_blue.mean(1)>cfg['maximum_forward_blue_fraction']).sum()),rejected_forward_stone=int(np.any(labels==1,axis=1).sum()),rejected_unknown_or_outside=int((~valid.all(1)|(bnoise>=cfg['maximum_chroma_noise']).any(1)).sum()))
+    meta.update(qualified_pixels=len(ids),rejected_no_contrast=int((~photometric).sum()),rejected_forward_blue=int((forward_blue.mean(1)>cfg['maximum_forward_blue_fraction']).sum()))
+    if reject_forward_stone:meta['rejected_forward_stone']=int(forward_stone.sum())
+    else:meta.update(forward_stone_candidates=int(forward_stone.sum()),forward_stone_rejection_enabled=False)
+    meta['rejected_unknown_or_outside']=int((~valid.all(1)|(bnoise>=cfg['maximum_chroma_noise']).any(1)).sum())
     if not len(ids):return blue,domain,eligible,meta
     axial=(points-o)@u;order=np.lexsort((abs((points[ids]-o)@n),-axial[ids]));chosen=int(ids[order[0]]);end=float(axial[chosen]);T=o+end*u
     meta.update(source_pixel=points[chosen],vertex=T,tip_t=end,source_normal_distance=float((points[chosen]-o)@n),RGB_contrast=float(contrast[chosen]),chroma_contrast=float(chromatic[chosen]),forward_blue_fraction=float(forward_blue[chosen].mean()),reason='farthest_current_blue_external_contrast')
+    if not reject_forward_stone:meta['selected_forward_stone']=bool(forward_stone[chosen])
     if end>=limit-cfg['search_limit_margin_at400']*scale:meta['reason']='tip_reaches_search_limit'
     return blue,domain,eligible,meta
 
@@ -118,8 +125,12 @@ class TaperedTangentCap:
     def reset(self):self.layers={};self.info={};self.final_mask=None
     def run(self,frame,raw,probability,old):
         start=time.perf_counter();self.final_mask=old.copy();z=np.zeros_like(raw,np.uint8)
-        self.layers={k:z.copy() for k in ['subject','blue_identity','search_domain','tip_eligible','rod','cap','geometric_proposal','final_fiber','edit_add','edit_remove']}
-        self.info=dict(applied=False,status='fallback',reason='no_trusted_subject',rejections=[],geometry=None,tip=None,cap=None,physical_tip_accuracy=None,old_fiber_retention_required=False,method='converging_straight_sides_tangent_round_cap_no_weak_growth')
+        no_fallback=self.cfg['geometry'].get('proposal_fallback_policy')=='disabled_apply_constructible_geometry'
+        names=['subject','blue_identity','search_domain','tip_eligible','rod','cap','geometric_proposal','final_fiber','edit_add','edit_remove']
+        if no_fallback:names.insert(7,'stone_clipped')
+        self.layers={k:z.copy() for k in names}
+        self.info=dict(applied=False,status='unavailable' if no_fallback else 'fallback',reason='no_trusted_subject',rejections=[],geometry=None,tip=None,cap=None,physical_tip_accuracy=None,old_fiber_retention_required=False,method='converging_straight_sides_tangent_round_cap_no_weak_growth_no_proposal_fallback' if no_fallback else 'converging_straight_sides_tangent_round_cap_no_weak_growth')
+        if no_fallback:self.info['nonblocking_diagnostics']=[]
         def done(reason=None):
             if reason:self.info['reason']=reason
             self.layers['final_fiber']=(self.final_mask==2).astype(np.uint8);self.layers['edit_add']=((self.final_mask==2)&(old!=2)).astype(np.uint8);self.layers['edit_remove']=((old==2)&(self.final_mask!=2)).astype(np.uint8)
@@ -133,20 +144,33 @@ class TaperedTangentCap:
         seed=seeds[0];_,labels=cv2.connectedComponents((old==2).astype(np.uint8),connectivity=8);ids=np.unique(labels[seed['core']]);ids=ids[ids>0]
         if len(ids)!=1:return done('old_subject_not_unique')
         body=(labels==ids[0]).astype(np.uint8);self.layers['subject']=body;scale=min(raw.shape)/400
-        g,errors=fit_geometry(body,seed['u'],self.cfg['fit'],scale);self.info['geometry']=g;self.info['rejections']=errors
+        g,errors=fit_geometry(body,seed['u'],self.cfg['fit'],scale);self.info['geometry']=g
+        if no_fallback:self.info['nonblocking_diagnostics']=errors.copy()
+        else:self.info['rejections']=errors
         if g is None:return done(errors[0])
         blue,domain,eligible,tip=locate_tip(frame,raw,g,seed,self.cfg['tip'],scale);self.layers.update(blue_identity=blue.astype(np.uint8),search_domain=domain.astype(np.uint8),tip_eligible=eligible);self.info['tip']=tip
         if tip['vertex'] is None:
-            errors.append(tip['reason']);return done(errors[0])
+            errors.append(tip['reason']);return done(tip['reason'] if no_fallback else errors[0])
         G,rod,cap,cp,fail=raster_geometry(raw.shape,g,tip['vertex'],self.cfg['geometry']['arc_samples'])
-        if fail:errors.append(fail);return done(errors[0])
+        if fail:
+            errors.append(fail);return done(fail if no_fallback else errors[0])
         self.layers.update(geometric_proposal=G,rod=rod,cap=cap);self.info['cap']=cp
-        if tip['reason']=='tip_reaches_search_limit':errors.append(tip['reason'])
-        if G.sum()>self.cfg['geometry']['maximum_frame_area_fraction']*G.size:errors.append('geometric_area_budget')
         conflict=int(((G>0)&(raw==1)).sum())
-        if conflict:errors.append('geometric_stone_conflict')
-        self.info.update(rejections=errors,proposal_stone_conflict_pixels=conflict,geometry_without_blue_pixels=int(((G>0)&~blue).sum()),proposal_old_fiber_removed=int(((old==2)&(G==0)).sum()),proposal_pixels=int(G.sum()))
-        if errors:return done(errors[0])
-        self.final_mask[old==2]=0;self.final_mask[G>0]=2
-        self.info.update(applied=True,status='applied',reason='converging_geometry_reconstruction')
+        if no_fallback:
+            diagnostics=errors.copy()
+            if tip['reason']=='tip_reaches_search_limit':diagnostics.append(tip['reason'])
+            if G.sum()>self.cfg['geometry']['maximum_frame_area_fraction']*G.size:diagnostics.append('geometric_area_budget')
+            if conflict:diagnostics.append('geometric_stone_overlap_clipped')
+            applied_geometry=(G>0)&(raw!=1);self.layers['stone_clipped']=((G>0)&(raw==1)).astype(np.uint8)
+            self.info.update(rejections=[],nonblocking_diagnostics=diagnostics,proposal_stone_conflict_pixels=conflict,stone_clipped_pixels=conflict,geometry_without_blue_pixels=int(((G>0)&~blue).sum()),proposal_old_fiber_removed=int(((old==2)&~applied_geometry).sum()),proposal_pixels=int(G.sum()),applied_geometry_pixels=int(applied_geometry.sum()))
+            self.final_mask[old==2]=0;self.final_mask[applied_geometry]=2
+            self.info.update(applied=True,status='applied',reason='converging_geometry_reconstruction_no_fallback')
+        else:
+            if tip['reason']=='tip_reaches_search_limit':errors.append(tip['reason'])
+            if G.sum()>self.cfg['geometry']['maximum_frame_area_fraction']*G.size:errors.append('geometric_area_budget')
+            if conflict:errors.append('geometric_stone_conflict')
+            self.info.update(rejections=errors,proposal_stone_conflict_pixels=conflict,geometry_without_blue_pixels=int(((G>0)&~blue).sum()),proposal_old_fiber_removed=int(((old==2)&(G==0)).sum()),proposal_pixels=int(G.sum()))
+            if errors:return done(errors[0])
+            self.final_mask[old==2]=0;self.final_mask[G>0]=2
+            self.info.update(applied=True,status='applied',reason='converging_geometry_reconstruction')
         return done()

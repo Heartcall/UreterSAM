@@ -17,7 +17,7 @@ def scene():
     return frame,raw,p,np.where(body>0,2,0).astype(np.uint8)
 
 class TaperedTangentTests(unittest.TestCase):
-    def setUp(self):self.cfg=read(ROOT/'configs/tapered_tangent_cap_control_20261104.json')
+    def setUp(self):self.cfg=read(ROOT/'configs/tapered_tangent_cap_no_fallback_20261104.json')
     def test_exact_original_line_tangencies_nonsemicircle(self):
         g=analytic_geometry(.2);T=np.array([270.,200.]);mask,rod,cap,c,fail=raster_geometry((400,400),g,T)
         self.assertIsNone(fail);self.assertAlmostEqual(c['radius'],30*math.sin(.2)/(1-math.sin(.2)))
@@ -59,10 +59,19 @@ class TaperedTangentTests(unittest.TestCase):
     def test_impossible_tip_not_moved_to_satisfy_geometry(self):
         g=analytic_geometry();T=g['intersection']+3*g['axis'];*_,reason=raster_geometry((400,400),g,T)
         self.assertEqual(reason,'tip_at_or_beyond_side_intersection')
-    def test_no_trusted_identity_fallback(self):
-        im,raw,p,old=scene();raw[:]=0;g=TaperedTangentCap(self.cfg);g.run(im,raw,p,old);self.assertFalse(g.info['applied']);np.testing.assert_array_equal(g.final_mask,old)
-    def test_stone_conflict_whole_frame_fallback(self):
-        im,raw,p,old=scene();raw[198:202,220:224]=1;old[198:202,220:224]=1;g=TaperedTangentCap(self.cfg);g.run(im,raw,p,old);self.assertFalse(g.info['applied']);self.assertIn('geometric_stone_conflict',g.info['rejections']);np.testing.assert_array_equal(g.final_mask,old)
+    def test_no_trusted_identity_is_unavailable_not_fallback(self):
+        im,raw,p,old=scene();raw[:]=0;g=TaperedTangentCap(self.cfg);g.run(im,raw,p,old);self.assertFalse(g.info['applied']);self.assertEqual(g.info['status'],'unavailable');np.testing.assert_array_equal(g.final_mask,old)
+    def test_stone_overlap_is_clipped_without_fallback(self):
+        im,raw,p,old=scene();raw[198:202,220:224]=1;old[198:202,220:224]=1;g=TaperedTangentCap(self.cfg);g.run(im,raw,p,old);self.assertTrue(g.info['applied']);self.assertGreater(g.info['stone_clipped_pixels'],0);self.assertIn('geometric_stone_overlap_clipped',g.info['nonblocking_diagnostics']);self.assertTrue(np.all(g.final_mask[raw==1]==1))
+    def test_frozen_legacy_config_keeps_historical_fallback(self):
+        cfg=read(ROOT/'configs/tapered_tangent_cap_control_20261104.json');im,raw,p,old=scene();raw[198:202,220:224]=1;old[198:202,220:224]=1
+        g=TaperedTangentCap(cfg);g.run(im,raw,p,old);self.assertFalse(g.info['applied']);self.assertEqual(g.info['status'],'fallback');self.assertIn('geometric_stone_conflict',g.info['rejections']);np.testing.assert_array_equal(g.final_mask,old)
+    def test_forward_stone_does_not_reject_tip_candidate(self):
+        im,raw,p,old=scene();im[194:207,272:279]=(80,80,80);raw[194:207,272:279]=1;old[194:207,272:279]=1
+        g=TaperedTangentCap(self.cfg);g.run(im,raw,p,old);self.assertTrue(g.info['applied'],g.info);self.assertFalse(g.info['tip']['forward_stone_rejection_enabled']);self.assertGreater(g.info['tip']['forward_stone_candidates'],0);self.assertTrue(g.info['tip']['selected_forward_stone'])
+    def test_quality_and_area_checks_are_nonblocking(self):
+        cfg=copy.deepcopy(self.cfg);cfg['fit']['minimum_observed_aspect']=999.;cfg['geometry']['maximum_frame_area_fraction']=0.
+        im,raw,p,old=scene();g=TaperedTangentCap(cfg);g.run(im,raw,p,old);self.assertTrue(g.info['applied'],g.info);self.assertIn('subject_not_slender',g.info['nonblocking_diagnostics']);self.assertIn('geometric_area_budget',g.info['nonblocking_diagnostics'])
     def test_inputs_unchanged_and_reset(self):
         im,raw,p,old=scene();inputs=[z.copy() for z in [im,raw,p,old]];g=TaperedTangentCap(self.cfg);g.run(im,raw,p,old)
         for a,b in zip(inputs,[im,raw,p,old]):np.testing.assert_array_equal(a,b)

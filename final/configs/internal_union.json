@@ -1,0 +1,102 @@
+{
+  "reference_aggressive_config": "configs/internal_seed.json",
+  "reference_extent_config": "configs/internal_extent.json",
+  "aggressive_parameters": {
+    "background": {
+      "stations": 11,
+      "axial_fractions": [
+        0.1,
+        0.9
+      ],
+      "min_points": 6,
+      "min_axial_coverage": 0.4
+    },
+    "fixed_direction": {
+      "nearest_seed_fraction": 0.1,
+      "minimum_anchor_points": 3,
+      "target": "image_center",
+      "anchor": "nearest_frame_border_projection",
+      "sign": "entry_to_center_only"
+    },
+    "edge_policy": {
+      "color_boundary_qualification": true,
+      "minimum_paired_sections": 2,
+      "minimum_fit_points": 2,
+      "original_strong_RGB_reference": 0.04
+    },
+    "broad_color": {
+      "angle_normal_degrees": 55,
+      "angle_weak_degrees": 45,
+      "blue_gap_normal_fraction": 0.2,
+      "blue_gap_weak_fraction": 0.4,
+      "background_distance_margin_normal": 0.0,
+      "background_distance_margin_weak": 0.01,
+      "max_noise": 0.3
+    },
+    "geometry": {
+      "normal_width_ratio": [
+        0.25,
+        1.35
+      ],
+      "normal_turn_degrees": 15,
+      "normal_total_turn_degrees": 30,
+      "normal_curvature_width": 1.0
+    },
+    "tip_visibility_tolerance_at400": 2.0
+  },
+  "connected_blue": {
+    "seed_policy": "Exact frozen aggressive seed qualification, local same-frame color/background and fixed oriented axis; unique qualified instance required. No GT or history pixel filling.",
+    "forward_cone_half_angle_degrees": 45,
+    "cone_margin_at400": 8.0,
+    "proximal_margin_at400": 1.0,
+    "connectivity": 4,
+    "component_area_fraction_limit": 0.25,
+    "new_area_fraction_limit": 0.1,
+    "color_policy": "Exact aggressive broad color score, no brightness or network P gate outside seed. Full visible RGB component inside forward cone; original stone barrier before connectivity. No dilation, closing, hole filling, width ratio, curvature, section stepping or seed-width extension limit.",
+    "regularization": {
+      "gaussian_sigma_at400": 1.0,
+      "threshold": 0.5,
+      "policy": "Gaussian binary occupancy smoothing then intersect original reachable blue body; protect colored highP core, retain its4CC. New output subset union; original semantic fiber and stone immutable. No new cap pixel, extrapolation, bridging or enforced taper."
+    },
+    "tip": {
+      "frontier_band_at400": 1.0,
+      "local_profile_step_at400": 2.0,
+      "profile_offsets_at400": [
+        -2.0,
+        0.0,
+        2.0
+      ],
+      "profile_samples": 17,
+      "axial_range_at400": [
+        -4.0,
+        4.0
+      ],
+      "edge_delta_at400": 1.0,
+      "minimum_RGB_contrast": 0.04,
+      "minimum_profiles": 2,
+      "max_profile_spread_at400": 4.0,
+      "future_offsets_at400": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "tip_near_component_at400": 2.0,
+      "local_taper_tail_at400": 3.0,
+      "local_taper_body_range_at400": [
+        3.0,
+        9.0
+      ],
+      "maximum_tail_body_width_ratio": 0.85,
+      "policy": "Distal frontier of actual RGB component; require current terminal gradient+local contour closure+known nonblue background. RGB continuation/internal transition, original stone contact, unknown noise, spatial scope/safety rejection => no xy. Coordinate on current visible cap only. No independent tip GT => accuracy null."
+    },
+    "focus": {
+      "video_id": "video_2",
+      "display_frame": 1209,
+      "display_interval": [
+        1233,
+        1291
+      ],
+      "interval_policy": "All59frames, no selection. Reference frames only quantitative accuracy; unlabelled frames mechanism/visualization only."
+    }
+  }
+}

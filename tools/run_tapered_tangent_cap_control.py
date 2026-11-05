@@ -14,7 +14,7 @@ from .run_classwise_expert_control import summarize
 from .diagnose_joint_failures import paired_changes
 from ureter_semis.experiment import atomic_json,seed_training
 
-CONFIG=ROOT/'configs/tapered_tangent_cap_control_20261104.json'
+CONFIG=ROOT/'configs/tapered_tangent_cap_no_fallback_20261104.json'
 def logs(path):return [json.loads(s) for s in Path(path).read_text(encoding='utf-8').splitlines()]
 def folder(path):
     path.mkdir(parents=True)
@@ -79,7 +79,7 @@ def main():
     if args.worker:return worker(cfg,out,args.worker)
     if out.exists():raise FileExistsError(out)
     out.mkdir(parents=True);network=read(ROOT/cfg['network_preflight']);sources=dict(network['sources'])
-    for p in [Path(__file__),CONFIG,ROOT/'tools/fiber_tapered_tangent_cap.py',ROOT/'tools/fiber_straight_semicircle.py',ROOT/'tools/fiber_weak_stage1.py',ROOT/'tests/test_tapered_tangent_cap.py',ROOT/'docs/plans/tapered_tangent_cap_execution_20261104.md']:sources[p.relative_to(ROOT).as_posix()]=sha256(p)
+    for p in [Path(__file__),CONFIG,ROOT/'tools/fiber_tapered_tangent_cap.py',ROOT/'tools/fiber_straight_semicircle.py',ROOT/'tools/fiber_weak_stage1.py',ROOT/'tests/test_tapered_tangent_cap.py',ROOT/'docs/plans/tapered_tangent_cap_execution_20261104.md',ROOT/'docs/progress/2026-11-04-g0-no-fallback-update.md']:sources[p.relative_to(ROOT).as_posix()]=sha256(p)
     atomic_json(out/'preflight.json',dict(config=cfg,sources=sources,old_seal_sha256=sha256(ROOT/cfg['old_seal']),old_result_preflight_sha256=sha256(ROOT/cfg['old_result']/'preflight.json'),static_cache_identity_sha256=sha256(ROOT/cfg['static_cache']/'identity.json'),checkpoints=network['checkpoints'],videos=network['videos'],training_updates=0,train_pixels_read=0,reserved_test_pixels_read=0,default_changed=False,weak_growth_calls=0))
     with zipfile.ZipFile(out/'source_snapshot.zip','w',zipfile.ZIP_DEFLATED) as z:
         for p in sources:z.write(ROOT/p,p)
