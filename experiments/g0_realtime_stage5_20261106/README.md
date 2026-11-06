@@ -1,5 +1,14 @@
 # Fifth G0 experiment: S2 ROI and native arithmetic (2026-11-06)
 
+**WITHDRAWN by user request on 2026-11-06.** `runtime.Runtime` is now an exact
+alias of the v4 NumPy Runtime. The compatibility benchmark redirects the former
+v5 arm to v4 and records the real v4 identity. Native loading, compilation,
+microbenchmarks and the old full-run entry are disabled. No custom DLL is used.
+The text below and the existing run artifacts describe the historical experiment.
+Original sources were preserved before withdrawal in
+`runs/g0_realtime_stage6_20261106/withdrawn_v5_sources.zip`.
+Continue optimization in `experiments/g0_realtime_stage6_20261106/` from v4.
+
 `final/` is excluded from reading, execution and changes. Existing production
 and four previous experiments remain frozen. No package or SDK is installed.
 
